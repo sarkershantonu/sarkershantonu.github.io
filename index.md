@@ -17,9 +17,9 @@ Shantonu Sarker is a Full Stack Software Engineer , currently working as Lead Pe
 - 6 Years+ Performance Engineering including Testing, Monitoring, Debugging, Profiling, Code & Memory leak analysis. 
 - 5 Years+ In leading team (technically) for Automation & Performance Testing
 - 2 Years+ as Backend Java Developer
-- 1years+ in DevOps role building CI/CD pipeline including AWS.
+- 1 year+ in DevOps role building CI/CD pipeline with AWS.
 - 10 Years+ experience in designing black box, white box, gray box testing in agile & waterfall methodologies. 
-- 8Years+ as Trainer for Performance Engineering, Test Automation, Java, C#, Software Testing with Tools
+- 8 Years+ as Trainer for Performance Engineering, Test Automation, Java, C#, Software Testing with Tools
 - Technical Reviewer for 3 Paper Books [Jmeter CookBook](https://www.packtpub.com/application-development/jmeter-cookbook), [Performance Testing with Jmeter 2.9](https://www.packtpub.com/application-development/performance-testing-jmeter-29),  [Java Thread Programming](https://www.rokomari.com/book/159071/java-thread-programming)
 
 # [job summary](jobs.html)
