@@ -12,8 +12,7 @@ Shantonu Sarker is a Full Stack Software Engineer , currently working as Lead Pe
 - [Xing](https://www.xing.com/profile/Shantonu_Sarker)
 - [Linkedin](https://www.linkedin.com/in/shantonusarker/)
 
-# Link: [Career Summary](Resume_short.md): 14 Years+ Experiences
-
+# [Career Summary](Resume_short.md): 14 Years+ Experiences
 - [job summary in pdf](jobs.pdf)
 - [job summary page](jobs.html)
 
