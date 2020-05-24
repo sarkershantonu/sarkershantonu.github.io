@@ -9,20 +9,18 @@ He has attended in three professions training from BASIS(Bangladesh Association 
 Shantonu has completed BSc(4 year) in Computer Science from ISTT (under National University of Bangladesh). His thesis subject was “Object Oriented Unit Testing”.
 
 If you want to contact shantonu , please get his updated contact from blog
-
-# [Blog](https://shantonusarker.blogspot.com/)
-
-# [Linkedin](https://www.linkedin.com/in/shantonusarker/)
-
-# [Twitter](https://twitter.com/sarkershantonu)
-
-# [Github](https://github.com/sarkershantonu)
-
 # Contact 
 - Gmail/Gtalk: sarker.shantonu
 - outlook : sarker.shantonu@live.com
 - Skype : shantonu.sarker
 - WhatApp : +8801778072324
+# [job summary](jobs.html)
+# [Blog](https://shantonusarker.blogspot.com/)
+# [Linkedin](https://www.linkedin.com/in/shantonusarker/)
+# [Twitter](https://twitter.com/sarkershantonu)
+# [Github](https://github.com/sarkershantonu)
 
-[job summary](jobs.html)
+
+
+
 
