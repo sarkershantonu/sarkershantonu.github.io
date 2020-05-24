@@ -1,18 +1,42 @@
-# Full Stack Software Engineer in Test(Performance & Automation)
+# Full Stack Java Developer & SDET
 
-Shantonu Sarker is a Software Developer (in Test, SDET) , currently working as Lead Performance Engineer in Ensured.io
+Shantonu Sarker is a Full Stack Software Engineer , currently working as Lead Performance Engineer in Ensured.io
 
-He had a start-up company(QualitySofts) in Bangladesh. He is also involved as Automation consultant (contract) in several reputed companies as well as Govt projects (hi-tech park, Bangladesh, LICT, BITM, BASIS etc). He started his career as an Asst. Software Engineer and Trainer Assistant in 2008 in software industry. Before that, he was Computer Teacher in a Popular English Medium School in Dhaka from 2005.
-
-He has attended in three professions training from BASIS(Bangladesh Association for software and Information Services) on "OOP, Industry Ready", OOAD and Software Design and Architecture. He got his job as internship (trainer assistant) of the OOP program after achieving 2nd position. Shantonu has also completed ISTQB and JLPT-L3, JLPT-L4 (Certification from Japan foundation) courses while working at BJIT Ltd. He participated trainings on Agile (KANBAN, SCRUM) development by Naresh Jain and Security Testing by Nahidul Kibria while working at KAZ Software Ltd.
-
-Shantonu has completed BSc(4 year) in Computer Science from ISTT (under National University of Bangladesh). His thesis subject was “Object Oriented Unit Testing”.
-
-If you want to contact shantonu , please get his updated contact from blog
 # Contact 
 - [Gmail/Gtalk](mailto:sarker.shantonu@gmail.com): sarker.shantonu, [outlook](mailto:sarker.shantonu@live.com)
 - Skype : shantonu.sarker
 - WhatApp : +8801778072324
+
+# Summary: (14 Years+ Experiences)
+- 12 Years+ Automation testing & building framework & tools using Java, C#, python.
+- 6 Years+ Performance Engineering including Testing, Monitoring, Debugging, Profiling, Code & Memory leak analysis. 
+- 5 Years+ In leading team (technically) for Automation & Performance Testing
+- 2 Years+ as Backend Java Developer
+- 1years+ in DevOps role building CI/CD pipeline including AWS.
+- 10 Years+ experience in designing black box, white box, gray box testing in agile & waterfall methodologies. 
+- 8Years+ as Trainer for Performance Engineering, Test Automation, Java, C#, Software Testing with Tools
+- Technical Reviewer for 3 Paper Books [Jmeter CookBook](https://www.packtpub.com/application-development/jmeter-cookbook), [Performance Testing with Jmeter 2.9](https://www.packtpub.com/application-development/performance-testing-jmeter-29),  [Java Thread Programming](https://www.rokomari.com/book/159071/java-thread-programming)
+
+He had a start-up company(QualitySofts) in Bangladesh. He is also involved as Automation consultant (contract) in several reputed companies as well as Govt projects (hi-tech park, Bangladesh, LICT, BITM, BASIS etc).He started his career as an Asst. Software Engineer and Trainer Assistant in 2008 in software industry. Before that, he was Computer Teacher in a Popular English Medium School in Dhaka from 2005.
+
+# [job summary](jobs.html)
+
+# Professional Courses/Trainings: 
+- OOP on Java Ready to Industry at BASIS
+- OOAD with OOP fundamentals at BASIS
+- Software Design & Architecture at BITM 
+- Software Architectural Patterns at Luxoft 
+- Python Basic at Luxoft 
+- Agile Testing by [Naresh Jain](https://www.linkedin.com/in/nareshjain/) at KAZ software 
+- Web Security (and ethical Hacking) by [Nahidul Kibria](https://www.linkedin.com/in/nahidupa/) at KAZ Software
+- ISTQB Course Complete at BJIT
+- JLPT-L3, JLPT-L4 at BJIT
+
+
+Academic : Shantonu has completed BSc(4 year) in Computer Science from [National University of Bangladesh](http://www.nu.ac.bd/). His thesis subject was “Object Oriented Unit Testing”.
+
+If you want to contact shantonu , please get his updated contact from blog
+
 
 # [job summary](jobs.html)
 # [Blog](https://shantonusarker.blogspot.com/)
