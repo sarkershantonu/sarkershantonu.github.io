@@ -1,4 +1,4 @@
-# Full Stack Software Engineer in Test (SDET, specialist in Performance & Automation for backend ,web ,mobile Apps)
+# Full Stack Software Engineer in Test(Performance & Automation)
 
 Shantonu Sarker is a Software Developer (in Test, SDET) , currently working as Lead Performance Engineer in Ensured.io
 
