@@ -24,3 +24,5 @@ If you want to contact shantonu , please get his updated contact from blog
 - Skype : shantonu.sarker
 - WhatApp : +8801778072324
 
+[job summary](jobs.html)
+
