@@ -7,6 +7,11 @@ Shantonu Sarker is a Full Stack Software Engineer , currently working as Lead Pe
 - Skype : shantonu.sarker
 - WhatApp : +8801778072324
 
+# [Blog](https://shantonusarker.blogspot.com/)
+# [Linkedin](https://www.linkedin.com/in/shantonusarker/)
+# [Twitter](https://twitter.com/sarkershantonu)
+# [Github](https://github.com/sarkershantonu)
+
 # Summary: (14 Years+ Experiences)
 - 12 Years+ Automation testing & building framework & tools using Java, C#, python.
 - 6 Years+ Performance Engineering including Testing, Monitoring, Debugging, Profiling, Code & Memory leak analysis. 
@@ -32,19 +37,4 @@ He had a start-up company(QualitySofts) in Bangladesh. He is also involved as Au
 - ISTQB Course Complete at BJIT
 - JLPT-L3, JLPT-L4 at BJIT
 
-
 Academic : Shantonu has completed BSc(4 year) in Computer Science from [National University of Bangladesh](http://www.nu.ac.bd/). His thesis subject was “Object Oriented Unit Testing”.
-
-If you want to contact shantonu , please get his updated contact from blog
-
-
-# [job summary](jobs.html)
-# [Blog](https://shantonusarker.blogspot.com/)
-# [Linkedin](https://www.linkedin.com/in/shantonusarker/)
-# [Twitter](https://twitter.com/sarkershantonu)
-# [Github](https://github.com/sarkershantonu)
-
-
-
-
-
