@@ -10,10 +10,10 @@ Shantonu has completed BSc(4 year) in Computer Science from ISTT (under National
 
 If you want to contact shantonu , please get his updated contact from blog
 # Contact 
-- Gmail/Gtalk: sarker.shantonu
-- outlook : sarker.shantonu@live.com
+- [Gmail/Gtalk](mailto:sarker.shantonu@gmail.com): sarker.shantonu, [outlook](mailto:sarker.shantonu@live.com)
 - Skype : shantonu.sarker
 - WhatApp : +8801778072324
+
 # [job summary](jobs.html)
 # [Blog](https://shantonusarker.blogspot.com/)
 # [Linkedin](https://www.linkedin.com/in/shantonusarker/)
