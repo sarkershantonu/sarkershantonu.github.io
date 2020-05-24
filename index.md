@@ -40,6 +40,6 @@ Academic : Shantonu has completed BSc(4 year) in Computer Science from [National
 He had a start-up company(QualitySofts) in Bangladesh. He is also involved as Automation consultant (contract) in several reputed companies as well as Govt projects (hi-tech park, Bangladesh, LICT, BITM, BASIS etc).He started his career as an Asst. Software Engineer and Trainer Assistant in 2008 in software industry. Before that, he was Computer Teacher in a Popular English Medium School in Dhaka from 2005.
 
 # Resume/CV : 
-- [Summary Version](https://www.dropbox.com/s/nqwhic4wt2z3ss3/Resume_Shantanu%20Sarker_SDET_14Y.doc?dl=0)
-- [Detailed Version](https://www.dropbox.com/s/3372fobq4hyviyt/Resume_Shantanu%20Sarker_SDET_14Y_details.doc?dl=0)
-- [Test](resume.md)
+- [Summary from dropbox](https://www.dropbox.com/s/nqwhic4wt2z3ss3/Resume_Shantanu%20Sarker_SDET_14Y.doc?dl=0)
+- [Detailed from dropbox](https://www.dropbox.com/s/3372fobq4hyviyt/Resume_Shantanu%20Sarker_SDET_14Y_details.doc?dl=0)
+- [Summary](Resume_short.md)
