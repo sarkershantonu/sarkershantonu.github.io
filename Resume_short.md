@@ -1,6 +1,4 @@
-# Shantonu Sarker
-
-# Career Summary: 14 Years+ Experiences
+# Career Summary: Total 14+ Years of Experiences
 - 12 Years+ Automation testing & building framework & tools using Java, C#, python.
 - 6 Years+ Performance Engineering including Testing, Monitoring, Debugging, Profiling, Code & Memory leak analysis. 
 - 5 Years+ In leading team (technically) for Automation & Performance Testing
