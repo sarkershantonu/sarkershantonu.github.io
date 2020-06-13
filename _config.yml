@@ -95,8 +95,8 @@ footer-links-active:
   twitter: true
   github: true
   linkedin: true
-  xing: false
-  stackoverflow: false
+  xing: true
+  stackoverflow: true
 
 
 # Select which share links to show in posts
@@ -112,7 +112,7 @@ url-pretty: "shantonusarker.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "shantonublog"
+disqus: "shantonusarker"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-37840179-1"
