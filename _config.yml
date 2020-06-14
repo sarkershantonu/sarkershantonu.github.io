@@ -46,10 +46,10 @@ navbar-links:
   About : 
     - About Me: "aboutme"
     - Courses: "courses"
-    - Online Meetups : "meetups"
+    - Talks : "talks"
     - Experience: "experience"
     - Resume : "resume"
-nav-search: "find" 
+nav-search: "search" 
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
