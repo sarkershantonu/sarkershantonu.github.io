@@ -4,8 +4,19 @@ title: A Test Developer's Blog
 description: Learn Testing by coding
 avatar: "/img/picture.jpg"
 navbar-links:  
-  performance: "perf"
-  Jmeter : "jmeter"
+  performance: 
+    - Performance Requirement : "perf-req"
+    - Performance testing : "perf-test"
+    - Performance analysis : "perf-analysis"
+    - Java Performance : "java-perf"
+    - DotNet Performance: "dotnet-perf"
+  Jmeter : 
+    - Gui Scripting: "jmeter-script"
+    - Running Test: "jmeter-run"
+    - Plugins : "jmeter-plugins"
+    - Configuration: "jmeter-config"
+    - Cloud : "jmeter-cloud"
+    - CI/CD : "jmeter-ci-cd"
   DevOps : 
     - Dev setup : "dev-env"
     - Proxmox : "proxmox"
