@@ -4,7 +4,7 @@ title: A Test Developer's Blog
 description: Learn Testing by coding
 # avatar: "/img/picture.jpg"
 navbar-links:  
-  Dev :
+  Development :
     - DesignPatterns : "design-pattern"
     - OOP/OOAD : "oop-ooad"
     - SOLID : "solid"
@@ -12,7 +12,7 @@ navbar-links:
     - DotNet : "c-sharp"
   Java : 
     - Java Lang: "java"
-    - Java Reflection : "reflection"
+    - Reflection : "reflection"
     - Spring: "spring"
     - JVM : "jvm"
     - JVM-Tools: "jvm-tools"
@@ -30,7 +30,7 @@ navbar-links:
     - Configuration: "jmeter-config"
     - Cloud : "jmeter-cloud"
     - CI/CD : "jmeter-ci-cd"
-  Test : 
+  Testing : 
     - Software Testing:"testing"
     - Selenium-java : "selenium-java"
     - Selenium-dotnet : "selenium-dotnet"
