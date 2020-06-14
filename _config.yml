@@ -6,6 +6,12 @@ avatar: "/img/picture.jpg"
 navbar-links:  
   performance: "perf"
   Jmeter : "jmeter"
+  DevOps : 
+    - Dev setup : "dev-env"
+    - Proxmox : "proxmox"
+    - Tools : "tools"
+    - Docker : "docker"
+    - LinuxAdmin : "admin"
   About : 
     - About Me: "aboutme"
     - Courses: "courses"
