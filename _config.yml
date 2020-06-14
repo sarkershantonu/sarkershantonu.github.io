@@ -10,6 +10,7 @@ navbar-links:
     - SOLID : "solid"
     - Regular Expression : "regix"
     - DotNet : "c-sharp"
+  Java : 
     - Java Lang: "java"
     - Java Reflection : "reflection"
     - Spring: "spring"
@@ -22,12 +23,13 @@ navbar-links:
     - Analysis : "perf-analysis"
     - Java Performance : "java-perf"
     - DotNet Performance: "dotnet-perf"
-    - Jmeter Scripting: "jmeter-script"
-    - Jmeter Running Test: "jmeter-run"
-    - Jmeter Plugins : "jmeter-plugins"
-    - Jmeter Configuration: "jmeter-config"
-    - Jmeter Cloud : "jmeter-cloud"
-    - Jmeter CI/CD : "jmeter-ci-cd"
+  Jmeter : 
+    - Scripting: "jmeter-script"
+    - Running Test: "jmeter-run"
+    - Plugins : "jmeter-plugins"
+    - Configuration: "jmeter-config"
+    - Cloud : "jmeter-cloud"
+    - CI/CD : "jmeter-ci-cd"
   Test : 
     - Software Testing:"testing"
     - Selenium-java : "selenium-java"
@@ -125,7 +127,7 @@ title-separator: "-"
 timezone: "Asia/Dhaka"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year/:month/:day/:title/.html
+#permalink: /:year/:month/:day/:title/.html
 paginate: 10
 paginate_path: "/page:num/"
 
@@ -142,7 +144,7 @@ defaults:
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts     
       show-share: true # add sharing buttons to all blog posts		
-      show-subscribe: true # add subscribe email to all blog posts
+      show-subscribe: false # add subscribe email to all blog posts
       addthis-plugin: true
       carbonads: true
       datacampcourse: true
