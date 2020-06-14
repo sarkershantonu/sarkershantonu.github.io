@@ -2,7 +2,7 @@ url: "https://sarkershantonu.github.io"
 baseurl: ""
 title: A Test Developer's Blog
 description: Learn Testing by coding
-avatar: "/img/picture.jpg"
+# avatar: "/img/picture.jpg"
 navbar-links:  
   Dev :
     - DesignPatterns : "design-pattern"
