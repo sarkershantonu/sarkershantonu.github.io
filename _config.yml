@@ -4,47 +4,8 @@ title: A Test Developer's Blog
 description: Learn Testing by coding
 avatar: "/img/picture.jpg"
 navbar-links:  
-  performance: 
-    - Performance Requirement : "perf-req"
-    - Performance testing : "perf-test"
-    - Performance analysis : "perf-analysis"
-    - Java Performance : "java-perf"
-    - DotNet Performance: "dotnet-perf"
+  performance: "perf"
   Jmeter : "jmeter"
-    - Gui Scripting: "jmeter-script"
-    - Running Test: "jmeter-run"
-    - Plugins : "jmeter-plugins"
-    - Configuration: "jmeter-config"
-    - Cloud : "jmeter-cloud"
-    - CI/CD : "jmeter-ci-cd"
-  Testing : 
-    - Software Testing:"testing"
-    - Selenium-java : "selenium-java"
-    - Selenium-dotnet : "selenium-dotnet"
-    - Codeception: "codeception"
-    - NUnit : "nunit"
-    - Junit : "junit"
-    - TestNG : "testng"
-    - Robotium: "robotium"
-  Development :
-    - DesignPatterns : "design-pattern"
-    - OOP/OOAD : "oop-ooad"
-    - SOLID : "solid"
-    - Regular Expression : "regix"
-    - DotNet : "c-sharp"
-   Java : 
-    - Java Lang: "java"
-    - Java Reflection : "reflection"
-    - Spring: "spring"
-    - JVM : "jvm"
-    - JVM-Tools: "jvm-tools"
-    - JDK-Tools: "jdk-tools"
-  DevOps : 
-    - Dev setup : "dev-env"
-    - Proxmox : "proxmox"
-    - Tools : "tools"
-    - Docker : "docker"
-    - LinuxAdmin : "admin"
   About : 
     - About Me: "aboutme"
     - Courses: "courses"
