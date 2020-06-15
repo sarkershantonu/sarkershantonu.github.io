@@ -1,19 +1,13 @@
 ---
-layout: page
+layout: "page"
 title: "codeception"
 subtitle: I build systems for testing
 css: "/css/index.css"
 meta-title: "Shantonu -SDET Java Developer"
 meta-description: "Test developer with a Bsc in Computer Science"
 datacampcourse: true
+excerpt: "An overview of Codeception"
 ---
-
-<div class="list-filters">
-  <a href="/" class="list-filter">All posts</a>
-  <a href="/popular" class="list-filter">Most Popular</a>
-  <span class="list-filter filter-selected">Tutorials</span>
-  <a href="/tags" class="list-filter">Index</a>
-</div>
 
 Codeception is a PHP based Acceptance / Functional/Unit Test framework powered by PHPUnit. We write test code in BDD style(with Guy Classes) . It runs in server where Application hosted. It has selenium webdriver integrated(PHP). We can also run tests written in PHP Unit and selenium php. I will be listing all of my codeception related posts here.
 
