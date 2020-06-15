@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle:
+subtitle: About Shantonu Sarker
 ---
 
 Full Stack Java Developer & SDET
