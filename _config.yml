@@ -34,7 +34,7 @@ navbar-links:
     - Software Testing:"testing"
     - Selenium-java: "selenium-java"
     - Selenium-dotnet: "selenium-dotnet"
-    - Codeception: "codeception"
+    - Codeception: "codeception.md"
     - NUnit: "nunit"
     - Junit: "junit"
     - TestNG: "testng"
