@@ -51,6 +51,7 @@ navbar-links:
     - Talks: "talks"
     - Experience: "experience"
     - Resume: "resume"
+    - Contact: "contact"
 nav-search: "search" 
 
 # If you want to have an image logo in the top-left corner instead of the title text,
