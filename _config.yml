@@ -31,10 +31,10 @@ navbar-links:
     - Cloud: "jmeter-cloud"
     - CI/CD: "jmeter-ci-cd"
   Testing: 
-    - Software Testing:"testing"
+    - Software Testing: "testing"
     - Selenium-java: "selenium-java"
     - Selenium-dotnet: "selenium-dotnet"
-    - Codeception: "codeception.md"
+    - Codeception: "codeception"
     - NUnit: "nunit"
     - Junit: "junit"
     - TestNG: "testng"
