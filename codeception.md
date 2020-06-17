@@ -3,7 +3,7 @@ layout: "page"
 title: "codeception"
 subtitle: I build systems for testing
 css: "/css/index.css"
-meta-title: "Shantonu -SDET Java Developer"
+meta-title: "SDET/Java Backend Engineer"
 meta-description: "Test developer with a Bsc in Computer Science"
 datacampcourse: true
 excerpt: "An overview of Codeception"
@@ -28,8 +28,4 @@ Codeception is a PHP based Acceptance / Functional/Unit Test framework powered b
  -> Enabling Webdriver/Selenium/Selenium2/ PhpBrowser for acceptance testing
 -> Enabling Phalcon1 for functional testing
 
-Related Topic to Codeception: 
-1. How to install PHP in windows? 
-2. How to install PHP Extensions in windows?
-3. What is composer? How to install composer in windows?
   
