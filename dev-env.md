@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "Software Dev/Test Environment Setups"
+title: "Dev/Test Environment Setups"
 subtitle: I build systems for testing
 css: "/css/index.css"
 meta-title: "SDET/Java Backend Engineer"
@@ -14,3 +14,9 @@ This page contains all post related to development environment setups. This incl
 1. [How to install PHP in windows?](http://shantonusarker.blogspot.com/2014/03/install-php-apache-windows.html)
 2. [How to install PHP Extensions in windows?](http://shantonusarker.blogspot.com/2014/03/php-extensions.html)
 3. [What is composer? How to install composer in windows?](http://shantonusarker.blogspot.com/2014/03/composer-dependency-manager-php.html)
+
+# Calabash
+ 1.[How to install calabash in windows or Linux?](http://shantonusarker.blogspot.com/2013/11/install-calabash-windows-Linux.html)
+
+# Git
+- [How to install GIT in Windows](http://shantonusarker.blogspot.com/2014/04/how-to-install-git-in-windows.html)
