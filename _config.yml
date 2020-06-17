@@ -39,6 +39,8 @@ navbar-links:
     - SOLID: "solid"
     - Regular Expression: "regix"
     - DotNet: "dotnet"
+    - Concepts: "concepts"
+    - Agile: "agile"
   DevOps: 
     - Dev setup: "dev-env"
     - Proxmox: "proxmox"
