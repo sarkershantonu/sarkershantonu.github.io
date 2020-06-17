@@ -5,7 +5,7 @@ description: Learn Testing by coding
 # avatar: "/img/picture.jpg"
 navbar-links:   
   performance: 
-    - Requirement: "perf-req"
+    - Requirement: "perf-requirements"
     - Testing: "perf-test"
     - Analysis: "perf-analysis"
     - Java Performance: "java-perf"
