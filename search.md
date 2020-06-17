@@ -6,7 +6,7 @@ css: "/css/search.css"
 
 # Search sarkershantonu.github.io
 
-### Using the Amazing Google
+### Using Google
 
 <div id="google-custom-search">
 <script>
