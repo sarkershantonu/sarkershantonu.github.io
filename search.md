@@ -11,7 +11,7 @@ css: "/css/search.css"
 <div id="google-custom-search">
 <script>
   (function() {
-    var cx = '008668879081464374344:7obftvjulha';
+    var cx = '017548367237790310714:0xjuds7va8u';
     var gcse = document.createElement('script');
     gcse.type = 'text/javascript';
     gcse.async = true;
