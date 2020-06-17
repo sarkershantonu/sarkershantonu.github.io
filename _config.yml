@@ -44,7 +44,7 @@ navbar-links:
     - Proxmox: "proxmox"
     - Tools: "tools"
     - Docker: "docker"
-    - LinuxAdmin: "admin"
+    - LinuxAdmin: "linux-admin"
   About: 
     - About Me: "aboutme"
     - Courses: "courses"
