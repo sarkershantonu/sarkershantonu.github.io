@@ -9,6 +9,10 @@ datacampcourse: true
 ---
 
 This page contains all post related to Jmeter Plugins.
+
+# Installation 
+- [How to install plugins in JMeter](http://shantonusarker.blogspot.com/2013/01/how-to-install-plugins-in-jmeter.html)
+
 # Plug Ins / 3rd Party Ad-dons. 
 - [Introduction to JMeter PlugIn-Threads](http://shantonusarker.blogspot.com/2013/05/introdution-to-jmeter-google-plugin.html)
 - [Introduction to JMeter PlugIn-Logic Controlr](http://shantonusarker.blogspot.com/2013/05/introduction-to-jmeter-google-plugin.html)
