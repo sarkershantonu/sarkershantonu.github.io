@@ -38,6 +38,7 @@ navbar-links:
     - OOP/OOAD: "oop-ooad"
     - SOLID: "solid"
     - Regular Expression: "regix"
+    - Protocol: "protocol"
     - DotNet: "dotnet"
     - Concepts: "concepts"
     - Agile: "agile"
