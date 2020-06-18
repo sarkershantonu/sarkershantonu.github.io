@@ -47,10 +47,12 @@ navbar-links:
     - Tools: "tools"
     - Docker: "docker"
     - LinuxAdmin: "linux-admin"
-  About: 
-    - About Me: "aboutme"
+  Learn : 
     - Courses: "courses"
     - Talks: "talks"
+    - Interview: "interview-questions"
+  About: 
+    - About Me: "aboutme"  
     - Experience: "experience"
     - Resume: "resume"
     - Contact: "contact"
