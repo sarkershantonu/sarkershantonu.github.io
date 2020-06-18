@@ -17,7 +17,6 @@ navbar-links:
     - Configuration: "jmeter-config"
     - WebDriver: "jmeter-webdriver"
     - Cloud: "jmeter-cloud"
-    - CI/CD: "jmeter-ci-cd"
   Java: 
     - Java Lang: "java"
     - Reflection: "reflection"
