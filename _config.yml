@@ -15,6 +15,7 @@ navbar-links:
     - Running Test: "jmeter-run"
     - Plugins: "jmeter-plugins"
     - Configuration: "jmeter-config"
+    - WebDriver: "jmeter-webdriver"
     - Cloud: "jmeter-cloud"
     - CI/CD: "jmeter-ci-cd"
   Java: 
@@ -22,7 +23,6 @@ navbar-links:
     - Reflection: "reflection"
     - Spring: "spring"
     - JVM: "jvm"
-    - JVM-Tools: "jvm-tools"
     - JDK-Tools: "jdk-tools"
   Testing: 
     - Software Testing: "testing"
