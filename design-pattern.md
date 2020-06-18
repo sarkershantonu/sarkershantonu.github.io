@@ -7,6 +7,9 @@ meta-title: "SDET/Java Backend Engineer"
 meta-description: "Test developer with a Bsc in Computer Science"
 datacampcourse: true
 ---
+
+In object oriented world, we cannot avoid patterns to solve problem for different scenarios. I had to learn pattern , that helped me designing framework for testing. All of the design patterns are from well known references and codes are written by me. I will be very grateful if you have a comment on those posts. I have categorize those pattern by its type.
+
 This page contains all post related to Design Pattern.
 
 # Book [Gang Of Four] (https//www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
