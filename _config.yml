@@ -131,7 +131,7 @@ title-separator: "-"
 timezone: "Asia/Dhaka"
 markdown: kramdown
 highlighter: rouge
-#permalink: /:year/:month/:day/:title/.html
+permalink: /:year/:month/:day/:title/.html
 paginate: 10
 paginate_path: "/page:num/"
 
