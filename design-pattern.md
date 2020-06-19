@@ -7,6 +7,13 @@ meta-title: "SDET/Java Backend Engineer"
 meta-description: "Test developer with a Bsc in Computer Science"
 datacampcourse: true
 ---
+<div class="list-filters">
+    <a href="/" class="list-filter filter-selected">All posts</a>
+    <a href="/popular" class="list-filter">Most Popular</a>
+    <a href="/courses" class="list-filter">courses</a>
+	<a href="/talks" class="list-filter">talks</a>
+    <a href="/tags" class="list-filter">Index</a>
+</div>
 
 In object oriented world, we cannot avoid patterns to solve problem for different scenarios. I had to learn pattern , that helped me designing framework for testing. All of the design patterns are from well known references and codes are written by me. I will be very grateful if you have a comment on those posts. I have categorize those pattern by its type.
 
