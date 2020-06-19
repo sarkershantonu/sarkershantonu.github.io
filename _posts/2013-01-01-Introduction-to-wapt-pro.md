@@ -1,11 +1,10 @@
 ---
 layout: "post"
-title: "Understanding the backward pass through Batch Normalization Layer"
+title: "Introduction to WAPT/WAPTPro"
 date: "2013-01-08 17:54"
-excerpt: "An explanation of gradient flow through BatchNorm-Layer following the circuit representation learned in Standfords class CS231n."
+excerpt: "Blog on WAPT/WAPTPro Basic"
 comments: true
 ---
-
 
 In this article, We are going to see how to use WAPTPro. This is an introductory learning for invoice testers like me. I hope it will help others also. I haven’t tried anything complex, just small concept of testing with an example. 
 
