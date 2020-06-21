@@ -24,9 +24,15 @@ What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) o
 # Screenshots :  
 - Load Agent installation
 ![LoadAgentinstallation](../images/wapt/Load_Agent_installation.png)
+
 - LoadAgent
+![LoadAgent](../images/wapt/LoadAgent.jpg)
+
 - LoadAgentManager
+![LoadAgentManager](../images/wapt/LoadAgentManager.jpg)
+
 - LoadAgentManagerAccounts
+![LoadAgentManagerAccounts](../images/wapt/LoadAgentManagerAccounts.jpg)
 
 -A scenario consist of Settings and Configurations (Test Volume, Log/report settings/Performance counters)
 
@@ -59,45 +65,98 @@ WAPTPro performs 5 types of tests. These are categorizing by their functionality
 
 5. Background Load Generation: We can create a typical background load and perform manual testing at the same time. This way you can check what real users will experience when working with your web site under load.
 
-WAPTPro UI :These are some screenshots. 
-Menu 1
-Menu 2
-Menu 3
-Menu 4
-Menu 5
-Menu 6
-Menu 7
-Settings 1
-Settings 2
-Settings 3
-Settings 4
-Settings 5
-Settings 6
-Settings 7
-Settings-AddCertificate
+# WAPTPro UI :These are some screenshots. 
 
-An Example of performance test: (I am adding Screenshots of a sample Performance Test example)
-1.Create Test Scenario: This Contains VUsers, Test Duration, settings.
-I use performance test on google. Some screenshots : 
-AddTest
-AddTestWithRempUp
-AddTestWithPeridodic
-AddTestSetLimit
-AddTestWithConstantUsers
-AddTestReportSettings
-AddTestWithRecording Confirmation
+- Menu-1
+![Menu-1](../images/wapt/Menu-1.jpg)
 
-2.Create Virtual User Profile: We can record scenarios for VUsers.
+- Menu 2
+![Menu-2]](../images/wapt/Menu-2.jpg)
+
+- Menu 3
+![Menu-3](../images/wapt/Menu-3.jpg)
+
+- Menu 4
+![Menu-4](../images/wapt/Menu-4.jpg)
+
+- Menu 5
+![Menu-5](../images/wapt/Menu-5.jpg)
+
+- Menu 6
+![Menu-6](../images/wapt/Menu-6.jpg)
+
+- Menu 7
+![Menu-7](../images/wapt/Menu-7.jpg)
+
+- Settings 1
+![Settings-1](../images/wapt/Settings-1.jpg)
+
+- Settings 2
+![Settings 2](../images/wapt/Settings-2.jpg)
+
+- Settings 3
+![](../images/wapt/Settings-3.jpg)
+
+- Settings 4
+![Settings4](../images/wapt/Settings-4.jpg)
+
+- Settings 5
+![Settings5](../images/wapt/Settings-5.jpg)
+
+- Settings 6
+![Settings6](../images/wapt/Settings-6.jpg)
+
+- Settings 7
+![Settings7](../images/wapt/Settings-7.jpg)
+
+- Settings-AddCertificate
+![AddCertificate](../images/wapt/Settings-AddCertificate.jpg)
+
+# An Example of performance test: (I am adding Screenshots of a sample Performance Test example)
+
+1. Create Test Scenario: This Contains VUsers, Test Duration, settings.
+I use performance test on google. 
+
+- AddTest
+![AddTest](../images/wapt/AddTest.jpg)
+
+- AddTestWithRempUp
+![AddTestWithRempUp](../images/wapt/AddTestWithRempUp.jpg)
+
+- AddTestWithPeridodic
+![AddTestWithPeridodic](../images/wapt/AddTestWithPeridodic.jpg)
+
+- AddTestSetLimit
+![AddTestSetLimit](../images/wapt/AddTestSetLimit.jpg)
+
+- AddTestWithConstantUsers
+![AddTestWithConstantUsers](../images/wapt/AddTestWithConstantUsers.jpg)
+
+- AddTestReportSettings
+![AddTestReportSettings](../images/wapt/AddTestReportSettings.jpg)
+
+- AddTestWithRecording Confirmation
+![AddTestWithRecording](../images/wapt/AddTestWithRecording_Confirmation.jpg)
+
+2. Create Virtual User Profile: We can record scenarios for VUsers.
+
 RecordingBrowserOption
+![RecordingBrowserOption](../images/wapt/RecordingBrowserOption.jpg)
+
 RecordingBrowserOptionParameterization
+![RecordingBrowserOptionParameterization](../images/wapt/RecordingBrowserOptionParameterization.jpg)
+
 Recording-BrowserOptionSelection
+![BrowserOptionSelection](../images/wapt/Recording-BrowserOptionSelection.jpg)
+
 Recording Message
+![Recording Message](../images/wapt/Recording_Message.jpg)
 
 3. Verify Test : Verify a test for a profile by running all tests with settings and parameters for one time only. Problems are shown in result Log. 
-Select Profile
+![Select Profile](../images/wapt/Select_Profile.jpg)
 
 4. Run test / schedule test. 
-Select Log level
+![Select Log level](../images/wapt/Log_Level_of_a_Run.jpg)
 
 5. See Results/Logs/Reports(after stopping )
  A Result contains: 
@@ -108,26 +167,60 @@ Select Log level
 We can save the report as HTML and open to see in details (Unzip this file and open Untitled.html and you can find my performed tests report). Some screenshots 
 HTML Report in Browser
 HTML Report in Browser1
+
 Report
+![Report](../images/wapt/Report.jpg)
+
 SummaryReportOptions
+![SummaryReportOptions](../images/wapt/SummaryReportOptions.jpg)
+
 SummaryReport1
+![SummaryReport1](../images/wapt/SummaryReport1.jpg)
+
 SummaryReport2
+![SummaryReport2](../images/wapt/SummaryReport2.jpg)
+
 SummaryReport3
+![SummaryReport3](../images/wapt/SummaryReport3.jpg)
+
 SummaryReport4
+![SummaryReport4](../images/wapt/SummaryReport4.jpg)
+
 SummaryReport5
+![SummaryReport5](../images/wapt/SummaryReport5.jpg)
+
 SummaryReport6
+![SummaryReport6](../images/wapt/SummaryReport6.jpg)
 
 Log: To view log ,select the item from left. Some screenshots. 
 LogTotal
-Log1Log2
-Log3
+![LogTotal](../images/wapt/LogTotal.jpg)
 
-Now see profile. Some screenshots: 
+Log1
+![Log1](../images/wapt/Log1)
+
+Log2
+![Log2](../images/wapt/Log2.jpg)
+
+Log3
+![Log3](../images/wapt/Log3.jpg)
+
+- Now see profile.
+
 Profile Properties
+![Profile Properties](Profile_Properties.jpg)
+
 New ProfileScenario
+![New ProfileScenario](New_ProfileScenario.jpg)
+
 Profile Options
+![Profile Options](Profile_Options.jpg)
+
 AddOptionsAfterStop
+![AddOptionsAfterStop](AddOptionsAfterStop.jpg)
+
 Open Options
+![Open Options](Open_Options.jpg)
 
 We can add following items(options) under a user profile: 
 -JavaScript
@@ -141,20 +234,22 @@ Condition box 2
 -Task(to join series of successive page requests)
 -Delay(Inserts delay between pages)
 -New Page .Screenshot1 and 2
--Stop Agent(End the test)
--Stop User(Stops current VUser)
--Stop session(stop current session and start the next one)
+-Stop Agent(StopAgent.jpg)(End the test)
+-Stop User(StopUsgerAgent.jpg)(Stops current VUser)
+-Stop session(StopSession.jpg)(stop current session and start the next one)
 
 Note : 
 -We may need to Install WPST certificate if required.
-Certificate
-SecurityCk
+
+![Certificate](../images/wapt/certificate.jpg)
+
+![SecurityCk](../images/wapt/SecurityCk.jpg)
 
 - We can apply proxy or change other settings from here. 
-LoadAgentSettings
+![LoadAgentSettings](../images/wapt/LoadAgentSettings.jpg)
 
 -We can change Browser’s User Agent from profile’s properties 
-UserAgent
+![UserAgent]](../images/wapt/UserAgent.jpg)
 
 -The Rendevous Point instructs VUsers To wait till all VUsers come to a certain point and proceed together. When we are performing load testing we will make the scenario in such a way that all the processes hit the application at a single point of time so using rendezvous point it collects all process and throws on the application at a time. 
 
