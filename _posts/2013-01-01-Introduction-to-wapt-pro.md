@@ -20,8 +20,7 @@ What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) o
 -Load agents run Virtual Users. (A Load Agent is installed as a Windows service on your system during installation, we can configure that).
 
 -We can run load agent manager(from start menu) to manage multiple agents.
-
-# Screenshots :  
+ 
 - Load Agent installation
 ![LoadAgentinstallation](../images/wapt/Load_Agent_installation.png)
 
@@ -34,18 +33,20 @@ What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) o
 - LoadAgentManagerAccounts
 ![LoadAgentManagerAccounts](../images/wapt/LoadAgentManagerAccounts.jpg)
 
--A scenario consist of Settings and Configurations (Test Volume, Log/report settings/Performance counters)
+- A scenario consist of Settings and Configurations (Test Volume, Log/report settings/Performance counters)
 
--A Test Volume may have multiple User Profiles.
+- A Test Volume may have multiple User Profiles.
 
 There are three type of VUser generation can be done by WAPT
 
- A. Constant type loads Fixed Number of users at same time. This is used in Background Load Generation.
+# Concept 
+A. Constant type loads Fixed Number of users at same time. This is used in Background Load Generation.
 
 B. Ramp-UP type increases Number of Users in defined time. This is used in Benchmarking, Stress testing, Performance testing . Ex- Increasing from 0 user to 30 user, with 3 user increment in every 5 seconds means , it will need 50 second to get total users.
 
 C. Periodic type generates Constant load for a defined period of time. It has Two mode, Low phage and High Phage. This is used in Endurance Test. Ex- 50 User load(all at a time) for 1 min , then 100 user for 3 min.
 
+# Type of tests
 WAPTPro performs 5 types of tests. These are categorizing by their functionality and need. It may not meet standard definition. I am assuming we all know about those following type of test(you may google it). I am just defining by how they are functioning under WAPT.
 
 1. Performance Test : WAPT defines the Performance Test by answering following questions. 
@@ -95,7 +96,7 @@ WAPTPro performs 5 types of tests. These are categorizing by their functionality
 ![Settings 2](../images/wapt/Settings-2.jpg)
 
 - Settings 3
-![](../images/wapt/Settings-3.jpg)
+![Settings3](../images/wapt/Settings-3.jpg)
 
 - Settings 4
 ![Settings4](../images/wapt/Settings-4.jpg)
@@ -112,7 +113,9 @@ WAPTPro performs 5 types of tests. These are categorizing by their functionality
 - Settings-AddCertificate
 ![AddCertificate](../images/wapt/Settings-AddCertificate.jpg)
 
-# An Example of performance test: (I am adding Screenshots of a sample Performance Test example)
+# An Example of performance test: 
+
+(I am adding Screenshots of a sample Performance Test example)
 
 1. Create Test Scenario: This Contains VUsers, Test Duration, settings.
 I use performance test on google. 
@@ -159,14 +162,19 @@ Recording Message
 ![Select Log level](../images/wapt/Log_Level_of_a_Run.jpg)
 
 5. See Results/Logs/Reports(after stopping )
- A Result contains: 
--Error Rate: Percentage( %) of Error Requests/Completed Sessions .
--Response Time:  Correct reply time to single page request. For Total time, we need to include all. 
--Page/Sec : Number of pages requests successfully saved by site in one second.
+ 
+A Result contains: 
+- Error Rate: Percentage( %) of Error Requests/Completed Sessions .
+- Response Time:  Correct reply time to single page request. For Total time, we need to include all. 
+- Page/Sec : Number of pages requests successfully saved by site in one second.
 
-We can save the report as HTML and open to see in details (Unzip this file and open Untitled.html and you can find my performed tests report). Some screenshots 
+We can save the report as HTML and open to see in details (Unzip [this](../images/wapt/HTMLReports.rar) file and open Untitled.html and you can find my performed tests report). Some screenshots 
+
 HTML Report in Browser
+![Browser](../images/wapt/HTML_Report_in_Browser.jpg)
+
 HTML Report in Browser1
+![Browser1](../images/wapt/HTML_Report_in_Browser1.jpg)
 
 Report
 ![Report](../images/wapt/Report.jpg)
@@ -208,37 +216,66 @@ Log3
 - Now see profile.
 
 Profile Properties
-![Profile Properties](Profile_Properties.jpg)
+![Profile Properties](../images/wapt/Profile_Properties.jpg)
 
 New ProfileScenario
-![New ProfileScenario](New_ProfileScenario.jpg)
+![New ProfileScenario](../images/wapt/New_ProfileScenario.jpg)
 
 Profile Options
-![Profile Options](Profile_Options.jpg)
+![Profile Options](../images/wapt/Profile_Options.jpg)
 
 AddOptionsAfterStop
-![AddOptionsAfterStop](AddOptionsAfterStop.jpg)
+![AddOptionsAfterStop](../images/wapt/AddOptionsAfterStop.jpg)
 
 Open Options
-![Open Options](Open_Options.jpg)
+![Open Options](../images/wapt/Open_Options.jpg)
 
 We can add following items(options) under a user profile: 
--JavaScript
--Loop Control (To execute its content repetitively)
--While Loop control(To execute its content repetitively with conditions)
--If then Else condition
-Condition box 1
-Condition box 2
-- Rendezvous Point(either Active% users or number of users)
--Random Properties (To choose random requests from included properties and send request randomly) 
--Task(to join series of successive page requests)
--Delay(Inserts delay between pages)
--New Page .Screenshot1 and 2
--Stop Agent(StopAgent.jpg)(End the test)
--Stop User(StopUsgerAgent.jpg)(Stops current VUser)
--Stop session(StopSession.jpg)(stop current session and start the next one)
+- JavaScript
+![JavaScript](../images/wapt/JavaScript.jpg)
 
-Note : 
+- Loop Control (To execute its content repetitively)
+![Loop Control](../images/wapt/Loop.jpg)
+
+- While Loop control(To execute its content repetitively with conditions)
+![ While Loop](../images/wapt/WhileLoop.jpg)
+
+- If then Else condition
+![If then Else ](../images/wapt/If-Else.jpg)
+
+- Condition box 1
+![box 1](../images/wapt/)
+
+- Condition box 2
+![box 2](../images/wapt/)
+
+- Rendezvous Point(either Active% users or number of users)
+![Rendezvous Point](../images/wapt/Rendezvous_PointSetting.jpg)
+
+- Random Properties (To choose random requests from included properties and send request randomly) 
+![Random Properties](../images/wapt/RandomProperty.jpg)
+
+- Task(to join series of successive page requests)
+![Task](../images/wapt/Task.jpg)
+
+- Delay(Inserts delay between pages)
+![Delay](../images/wapt/Delay.jpg)
+
+- New Page 
+![Screenshot1](../images/wapt/NewPage0.jpg)
+ and 
+ ![Screenshot2](../images/wapt/NewPage1.jpg)
+
+- Stop Agent(End the test)
+![Stop Agent](../images/wapt/StopAgent.jpg)
+
+- Stop User(Stops current VUser)
+![StopUsgerAgent](../images/wapt/StopUsgerAgent.jpg)
+
+- Stop session(stop current session and start the next one)
+![StopSession.jpg](../images/wapt/StopSession.jpg)
+
+# Note : 
 -We may need to Install WPST certificate if required.
 
 ![Certificate](../images/wapt/certificate.jpg)
