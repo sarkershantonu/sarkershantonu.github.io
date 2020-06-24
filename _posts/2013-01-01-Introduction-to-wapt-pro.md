@@ -25,22 +25,26 @@ What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) o
 
 -We can run load agent manager(from start menu) to manage multiple agents.
  
-- Load Agent installation
 <div class="fig figcenter fighighlight">
   <img src="/images/wapt/Load_Agent_installation.png">
   <div class="figcaption"><br>LoadAgentinstallation <br>
   </div>
 </div>
-![LoadAgentinstallation](images/wapt/Load_Agent_installation.png)
 
-- LoadAgent
-![LoadAgent](images/wapt/LoadAgent.jpg)
+<div class="fig figcenter fighighlight">
+  <img src="/images/wapt/LoadAgent.jpg">
+  <div class="figcaption"><br>LoadAgent<br>
+  </div>
+</div>
 
-- LoadAgentManager
-![LoadAgentManager](images/wapt/LoadAgentManager.jpg)
+<div class="fig figcenter fighighlight">
+  <img src="/images/wapt/LoadAgentManager.jpg">
+  <div class="figcaption"><br>LoadAgentManager<br>
+  </div>
+</div>
 
 - LoadAgentManagerAccounts
-![LoadAgentManagerAccounts](images/wapt/LoadAgentManagerAccounts.jpg)
+![LoadAgentManagerAccounts](/images/wapt/LoadAgentManagerAccounts.jpg)
 
 - A scenario consist of Settings and Configurations (Test Volume, Log/report settings/Performance counters)
 
@@ -78,49 +82,49 @@ WAPTPro performs 5 types of tests. These are categorizing by their functionality
 # WAPTPro UI :These are some screenshots. 
 
 - Menu-1
-![Menu-1](images/wapt/Menu-1.jpg)
+![Menu-1](/images/wapt/Menu-1.jpg)
 
 - Menu 2
-![Menu-2](images/wapt/Menu-2.jpg)
+![Menu-2](/images/wapt/Menu-2.jpg)
 
 - Menu 3
-![Menu-3](images/wapt/Menu-3.jpg)
+![Menu-3](/images/wapt/Menu-3.jpg)
 
 - Menu 4
-![Menu-4](images/wapt/Menu-4.jpg)
+![Menu-4](/images/wapt/Menu-4.jpg)
 
 - Menu 5
-![Menu-5](images/wapt/Menu-5.jpg)
+![Menu-5](/images/wapt/Menu-5.jpg)
 
 - Menu 6
-![Menu-6](images/wapt/Menu-6.jpg)
+![Menu-6](/images/wapt/Menu-6.jpg)
 
 - Menu 7
-![Menu-7](images/wapt/Menu-7.jpg)
+![Menu-7](/images/wapt/Menu-7.jpg)
 
 - Settings 1
-![Settings-1](images/wapt/Settings-1.jpg)
+![Settings-1](/images/wapt/Settings-1.jpg)
 
 - Settings 2
-![Settings 2](images/wapt/Settings-2.jpg)
+![Settings 2](/images/wapt/Settings-2.jpg)
 
 - Settings 3
-![Settings3](images/wapt/Settings-3.jpg)
+![Settings3](/images/wapt/Settings-3.jpg)
 
 - Settings 4
-![Settings4](images/wapt/Settings-4.jpg)
+![Settings4](/images/wapt/Settings-4.jpg)
 
 - Settings 5
-![Settings5](images/wapt/Settings-5.jpg)
+![Settings5](/images/wapt/Settings-5.jpg)
 
 - Settings 6
-![Settings6](images/wapt/Settings-6.jpg)
+![Settings6](/images/wapt/Settings-6.jpg)
 
 - Settings 7
-![Settings7](images/wapt/Settings-7.jpg)
+![Settings7](/images/wapt/Settings-7.jpg)
 
 - Settings-AddCertificate
-![AddCertificate](images/wapt/Settings-AddCertificate.jpg)
+![AddCertificate](/images/wapt/Settings-AddCertificate.jpg)
 
 # An Example of performance test: 
 
@@ -130,45 +134,45 @@ WAPTPro performs 5 types of tests. These are categorizing by their functionality
 I use performance test on google. 
 
 - AddTest
-![AddTest](images/wapt/AddTest.jpg)
+![AddTest](/images/wapt/AddTest.jpg)
 
 - AddTestWithRempUp
-![AddTestWithRempUp](images/wapt/AddTestWithRempUp.jpg)
+![AddTestWithRempUp](/images/wapt/AddTestWithRempUp.jpg)
 
 - AddTestWithPeridodic
-![AddTestWithPeridodic](images/wapt/AddTestWithPeridodic.jpg)
+![AddTestWithPeridodic](/images/wapt/AddTestWithPeridodic.jpg)
 
 - AddTestSetLimit
-![AddTestSetLimit](images/wapt/AddTestSetLimit.jpg)
+![AddTestSetLimit](/images/wapt/AddTestSetLimit.jpg)
 
 - AddTestWithConstantUsers
-![AddTestWithConstantUsers](images/wapt/AddTestWithConstantUsers.jpg)
+![AddTestWithConstantUsers](/images/wapt/AddTestWithConstantUsers.jpg)
 
 - AddTestReportSettings
-![AddTestReportSettings](images/wapt/AddTestReportSettings.jpg)
+![AddTestReportSettings](/images/wapt/AddTestReportSettings.jpg)
 
 - AddTestWithRecording Confirmation
-![AddTestWithRecording](images/wapt/AddTestWithRecording_Confirmation.jpg)
+![AddTestWithRecording](/images/wapt/AddTestWithRecording_Confirmation.jpg)
 
 2. Create Virtual User Profile: We can record scenarios for VUsers.
 
 RecordingBrowserOption
-![RecordingBrowserOption](images/wapt/RecordingBrowserOption.jpg)
+![RecordingBrowserOption](/images/wapt/RecordingBrowserOption.jpg)
 
 RecordingBrowserOptionParameterization
-![RecordingBrowserOptionParameterization](images/wapt/RecordingBrowserOptionParameterization.jpg)
+![RecordingBrowserOptionParameterization](/images/wapt/RecordingBrowserOptionParameterization.jpg)
 
 Recording-BrowserOptionSelection
-![BrowserOptionSelection](images/wapt/Recording-BrowserOptionSelection.jpg)
+![BrowserOptionSelection](/images/wapt/Recording-BrowserOptionSelection.jpg)
 
 Recording Message
-![Recording Message](images/wapt/Recording_Message.jpg)
+![Recording Message](/images/wapt/Recording_Message.jpg)
 
 3. Verify Test : Verify a test for a profile by running all tests with settings and parameters for one time only. Problems are shown in result Log. 
-![Select Profile](images/wapt/Select_Profile.jpg)
+![Select Profile](/images/wapt/Select_Profile.jpg)
 
 4. Run test / schedule test. 
-![Select Log level](images/wapt/Log_Level_of_a_Run.jpg)
+![Select Log level](/images/wapt/Log_Level_of_a_Run.jpg)
 
 5. See Results/Logs/Reports(after stopping )
  
@@ -177,125 +181,125 @@ A Result contains:
 - Response Time:  Correct reply time to single page request. For Total time, we need to include all. 
 - Page/Sec : Number of pages requests successfully saved by site in one second.
 
-We can save the report as HTML and open to see in details (Unzip [this](images/wapt/HTMLReports.rar) file and open Untitled.html and you can find my performed tests report). Some screenshots 
+We can save the report as HTML and open to see in details (Unzip [this](/images/wapt/HTMLReports.rar) file and open Untitled.html and you can find my performed tests report). Some screenshots 
 
 HTML Report in Browser
-![Browser](images/wapt/HTML_Report_in_Browser.jpg)
+![Browser](/images/wapt/HTML_Report_in_Browser.jpg)
 
 HTML Report in Browser1
-![Browser1](images/wapt/HTML_Report_in_Browser1.jpg)
+![Browser1](/images/wapt/HTML_Report_in_Browser1.jpg)
 
 Report
-![Report](images/wapt/Report.jpg)
+![Report](/images/wapt/Report.jpg)
 
 SummaryReportOptions
-![SummaryReportOptions](images/wapt/SummaryReportOptions.jpg)
+![SummaryReportOptions](/images/wapt/SummaryReportOptions.jpg)
 
 SummaryReport1
-![SummaryReport1](images/wapt/SummaryReport1.jpg)
+![SummaryReport1](/images/wapt/SummaryReport1.jpg)
 
 SummaryReport2
-![SummaryReport2](images/wapt/SummaryReport2.jpg)
+![SummaryReport2](/images/wapt/SummaryReport2.jpg)
 
 SummaryReport3
-![SummaryReport3](images/wapt/SummaryReport3.jpg)
+![SummaryReport3](/images/wapt/SummaryReport3.jpg)
 
 SummaryReport4
-![SummaryReport4](images/wapt/SummaryReport4.jpg)
+![SummaryReport4](/images/wapt/SummaryReport4.jpg)
 
 SummaryReport5
-![SummaryReport5](images/wapt/SummaryReport5.jpg)
+![SummaryReport5](/images/wapt/SummaryReport5.jpg)
 
 SummaryReport6
-![SummaryReport6](images/wapt/SummaryReport6.jpg)
+![SummaryReport6](/images/wapt/SummaryReport6.jpg)
 
 Log: To view log ,select the item from left. Some screenshots. 
 LogTotal
-![LogTotal](images/wapt/LogTotal.jpg)
+![LogTotal](/images/wapt/LogTotal.jpg)
 
 Log1
-![Log1](images/wapt/Log1)
+![Log1](/images/wapt/Log1)
 
 Log2
-![Log2](images/wapt/Log2.jpg)
+![Log2](/images/wapt/Log2.jpg)
 
 Log3
-![Log3](images/wapt/Log3.jpg)
+![Log3](/images/wapt/Log3.jpg)
 
 - Now see profile.
 
 Profile Properties
-![Profile Properties](images/wapt/Profile_Properties.jpg)
+![Profile Properties](/images/wapt/Profile_Properties.jpg)
 
 New ProfileScenario
-![New ProfileScenario](images/wapt/New_ProfileScenario.jpg)
+![New ProfileScenario](/images/wapt/New_ProfileScenario.jpg)
 
 Profile Options
-![Profile Options](images/wapt/Profile_Options.jpg)
+![Profile Options](/images/wapt/Profile_Options.jpg)
 
 AddOptionsAfterStop
-![AddOptionsAfterStop](images/wapt/AddOptionsAfterStop.jpg)
+![AddOptionsAfterStop](/images/wapt/AddOptionsAfterStop.jpg)
 
 Open Options
-![Open Options](images/wapt/Open_Options.jpg)
+![Open Options](/images/wapt/Open_Options.jpg)
 
 We can add following items(options) under a user profile: 
 - JavaScript
-![JavaScript](images/wapt/JavaScript.jpg)
+![JavaScript](/images/wapt/JavaScript.jpg)
 
 - Loop Control (To execute its content repetitively)
-![Loop Control](images/wapt/Loop.jpg)
+![Loop Control](/images/wapt/Loop.jpg)
 
 - While Loop control(To execute its content repetitively with conditions)
-![ While Loop](images/wapt/WhileLoop.jpg)
+![ While Loop](/images/wapt/WhileLoop.jpg)
 
 - If then Else condition
-![If then Else ](images/wapt/If-Else.jpg)
+![If then Else ](/images/wapt/If-Else.jpg)
 
 - Condition box 1
-![box 1](images/wapt/)
+![box 1](/images/wapt/)
 
 - Condition box 2
-![box 2](images/wapt/)
+![box 2](/images/wapt/)
 
 - Rendezvous Point(either Active% users or number of users)
-![Rendezvous Point](images/wapt/Rendezvous_PointSetting.jpg)
+![Rendezvous Point](/images/wapt/Rendezvous_PointSetting.jpg)
 
 - Random Properties (To choose random requests from included properties and send request randomly) 
-![Random Properties](images/wapt/RandomProperty.jpg)
+![Random Properties](/images/wapt/RandomProperty.jpg)
 
 - Task(to join series of successive page requests)
-![Task](images/wapt/Task.jpg)
+![Task](/images/wapt/Task.jpg)
 
 - Delay(Inserts delay between pages)
-![Delay](images/wapt/Delay.jpg)
+![Delay](/images/wapt/Delay.jpg)
 
 - New Page 
-![Screenshot1](images/wapt/NewPage0.jpg)
+![Screenshot1](/images/wapt/NewPage0.jpg)
  and 
- ![Screenshot2](images/wapt/NewPage1.jpg)
+ ![Screenshot2](/images/wapt/NewPage1.jpg)
 
 - Stop Agent(End the test)
-![Stop Agent](images/wapt/StopAgent.jpg)
+![Stop Agent](/images/wapt/StopAgent.jpg)
 
 - Stop User(Stops current VUser)
-![StopUsgerAgent](images/wapt/StopUsgerAgent.jpg)
+![StopUsgerAgent](/images/wapt/StopUsgerAgent.jpg)
 
 - Stop session(stop current session and start the next one)
-![StopSession.jpg](images/wapt/StopSession.jpg)
+![StopSession.jpg](/images/wapt/StopSession.jpg)
 
 # Note : 
 -We may need to Install WPST certificate if required.
 
-![Certificate](images/wapt/certificate.jpg)
+![Certificate](/images/wapt/certificate.jpg)
 
-![SecurityCk](images/wapt/SecurityCk.jpg)
+![SecurityCk](/images/wapt/SecurityCk.jpg)
 
 - We can apply proxy or change other settings from here. 
-![LoadAgentSettings](images/wapt/LoadAgentSettings.jpg)
+![LoadAgentSettings](/images/wapt/LoadAgentSettings.jpg)
 
 -We can change Browser’s User Agent from profile’s properties 
-![UserAgent]](images/wapt/UserAgent.jpg)
+![UserAgent]](/images/wapt/UserAgent.jpg)
 
 -The Rendevous Point instructs VUsers To wait till all VUsers come to a certain point and proceed together. When we are performing load testing we will make the scenario in such a way that all the processes hit the application at a single point of time so using rendezvous point it collects all process and throws on the application at a time. 
 
