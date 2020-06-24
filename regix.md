@@ -5,7 +5,6 @@ subtitle: I build systems for testing
 css: "/css/index.css"
 meta-title: "SDET/Java Backend Engineer"
 meta-description: "Test developer with a Bsc in Computer Science"
-datacampcourse: true
 ---
 Regular Expression is a topic that every developer & tester need to know. This page contains all post related to Regular Expression.
 

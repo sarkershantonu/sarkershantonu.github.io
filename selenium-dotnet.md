@@ -5,7 +5,6 @@ subtitle: I build systems for testing
 css: "/css/index.css"
 meta-title: "SDET/Java Backend Engineer"
 meta-description: "Test developer with a Bsc in Computer Science"
-datacampcourse: true
 ---
 I have been working on selenium since 2010. I have worked on selenium with c#, Java and Ruby(including watir framework). I am also familiar with selenium python. Topics listed here will be linked to my post. Some, topic you may find with no post as I am working on posting on those topics. My initial examples and work with selenium c#. We can work in selenium in
 1. Browser : Firefox driver, Chrome driver, IE, PhantomJS, Opera driver, Safari driver, Html Driver

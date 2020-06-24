@@ -5,7 +5,6 @@ subtitle: I build systems for testing
 css: "/css/index.css"
 meta-title: "Shantonu -SDET Java Developer"
 meta-description: "Test developer with a Bsc in Computer Science"
-datacampcourse: true
 ---
 <div class="list-filters">
   <a href="/" class="list-filter">All posts</a>
