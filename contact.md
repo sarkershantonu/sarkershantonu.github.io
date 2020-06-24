@@ -36,7 +36,7 @@ meta-description: "Test developer with a Bsc in Computer Science"
    <button type="submit" class="btn btn-lg btn-primary">Submit</button>
 </form>
 
- <p>If you like to setup a quick call/meeting with me, please schecule <a href="https://calendly.com/shantonu"><strong>here</strong></a> . </p>
+<p>If you like to setup a quick call/meeting with me, please schecule <a href="https://calendly.com/shantonu"><strong>here</strong></a> . </p>
 <div class="calendly-inline-widget" data-url="https://calendly.com/shantonu/15min" style="min-width:320px;height:630px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
    
