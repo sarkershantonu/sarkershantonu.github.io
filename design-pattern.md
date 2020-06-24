@@ -18,7 +18,7 @@ In object oriented world, we cannot avoid patterns to solve problem for differen
 
 This page contains all post related to Design Pattern.
 
-# Book [Gang Of Four] (https//www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
+# Book [Gang Of Four](https//www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
 # Source [Java](https://github.com/sarkershantonu/blog-projects/tree/master/DesignPatternsJava) and [DotNet](https://github.com/sarkershantonu/blog-projects/tree/master/DesignPatternsDotNet)
 
 # A. Behavioral Patterns 
