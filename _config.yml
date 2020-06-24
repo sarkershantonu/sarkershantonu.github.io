@@ -3,6 +3,7 @@ baseurl: ""
 title: A Test Developer's Blog
 description: Learn Testing by coding
 # avatar: "/img/picture.jpg"
+
 navbar-links:   
   performance: 
     - Testing: "perf-test"
