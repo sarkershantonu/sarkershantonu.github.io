@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Introduction to WAPT/WAPTPro"
+title: "Introduction to WAPTPro"
 date: "2013-01-08 17:54"
 tags: [blog, wapt, wapt-pro, Performance, Performance-testing]
 permalink: /2013/01/08/Introduction-to-wapt-pro/
