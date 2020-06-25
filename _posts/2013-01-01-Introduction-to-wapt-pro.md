@@ -18,7 +18,7 @@ What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) o
 
 # Basic : WAPT follows
 - One execution runs under one user session.
-
+</br>
 - A virtual user (VUser) may consist of several user sessions.
 
 - A virtual user operates under several user profiles. Different profile simulates different type of user. 
