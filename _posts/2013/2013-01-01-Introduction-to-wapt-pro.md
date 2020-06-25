@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to WAPTPro
 date: "2013-01-08 17:54"
-tags: [blog, wapt, wapt-pro, Performance, Performance-testing]
+tags: [blog, wapt, wapt-pro, Performance-testing]
 permalink: /2013/01/08/Introduction-to-wapt-pro/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on WAPT/WAPTPro Basic"
