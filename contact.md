@@ -6,7 +6,7 @@ css: "/css/index.css"
 meta-title: "Contact Shantonu"
 meta-description: "Test developer with a Bsc in Computer Science"
 ---
-![QR Code](./images/QR.PNG)
+![QR Code](./img/QR.PNG)
 # Contact 
 - [Gmail/Gtalk](mailto:sarker.shantonu@gmail.com): sarker.shantonu, [outlook](mailto:sarker.shantonu@live.com)
 - Skype : shantonu.sarker
