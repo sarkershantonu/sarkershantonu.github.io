@@ -16,7 +16,7 @@ First see the requirement of PC and install from [here](http://www.loadtestingto
 
 What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) on a website (with load balancers, web servers, application servers, database storages, etc) in an easy manner. For more, see their [link](http://www.loadtestingtool.com/).
 
-# Basic : WAPT follows
+## Basic : WAPT follows
 - One execution runs under one user session.
 
 - A virtual user (VUser) may consist of several user sessions.
@@ -64,14 +64,14 @@ What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) o
 
 There are three type of VUser generation can be done by WAPT
 
-# Concept 
+## Concept 
 A. Constant type loads Fixed Number of users at same time. This is used in Background Load Generation.
 
 B. Ramp-UP type increases Number of Users in defined time. This is used in Benchmarking, Stress testing, Performance testing . Ex- Increasing from 0 user to 30 user, with 3 user increment in every 5 seconds means , it will need 50 second to get total users.
 
 C. Periodic type generates Constant load for a defined period of time. It has Two mode, Low phage and High Phage. This is used in Endurance Test. Ex- 50 User load(all at a time) for 1 min , then 100 user for 3 min.
 
-# Type of tests
+## Type of tests
 WAPTPro performs 5 types of tests. These are categorizing by their functionality and need. It may not meet standard definition. I am assuming we all know about those following type of test(you may google it). I am just defining by how they are functioning under WAPT.
 
 1. Performance Test : WAPT defines the Performance Test by answering following questions. 
@@ -91,7 +91,7 @@ WAPTPro performs 5 types of tests. These are categorizing by their functionality
 
 5. Background Load Generation: We can create a typical background load and perform manual testing at the same time. This way you can check what real users will experience when working with your web site under load.
 
-# WAPTPro UI :
+## WAPTPro UI :
 
 <div class="fig figcenter fighighlight">
   <img src="/images/wapt/Menu-1.jpg">
@@ -145,7 +145,7 @@ WAPTPro performs 5 types of tests. These are categorizing by their functionality
 - Settings-AddCertificate
 ![AddCertificate](/images/wapt/Settings-AddCertificate.jpg)
 
-# An Example of performance test: 
+## An Example of performance test: 
 
 (I am adding Screenshots of a sample Performance Test example)
 
@@ -307,7 +307,7 @@ We can add following items(options) under a user profile:
 - Stop session(stop current session and start the next one)
 ![StopSession.jpg](/images/wapt/StopSession.jpg)
 
-# Note : 
+## Note : 
 -We may need to Install WPST certificate if required.
 
 ![Certificate](/images/wapt/certificate.jpg)
