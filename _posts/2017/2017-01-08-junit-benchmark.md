@@ -175,15 +175,15 @@ We can actually use this annotation in both method level as well as class level.
 public class TestCalculator extends AbstractBenchmark {
     private Calculator aCalculator = null;
     @Before     
-public void init() {
+    public void init() {
         aCalculator = new Calculator();
     }
- @Test     
-public void testAddition() {
+    @Test     
+    public void testAddition() {
         Assert.assertEquals(25.0, aCalculator.add(10.0, 15.0), 0.01);
     }
     @Test     
-public void testSub() {
+    public void testSub() {
         Assert.assertEquals(-5.0, aCalculator.sub(10.0, 15.0), 0.01);
     }
 }
@@ -194,18 +194,18 @@ public void testSub() {
 ```java
 public class TestCalculator_MethodLevelExample extends AbstractBenchmark{
     protected Calculator aCalculator = null;     
-@Before     
-public void init(){
+    @Before     
+    public void init(){
         aCalculator = new Calculator();
     }
     @Test 
-@BenchmarkOptions(concurrency = 6, warmupRounds = 1, benchmarkRounds = 50)
+@   BenchmarkOptions(concurrency = 6, warmupRounds = 1, benchmarkRounds = 50)
     public void testAddition(){
         Assert.assertEquals(25.0, aCalculator.add(10.0,15.0), 0.01);
     }
     
     @Test 
-@BenchmarkOptions(concurrency = 8, warmupRounds = 0, benchmarkRounds = 100)
+    @BenchmarkOptions(concurrency = 8, warmupRounds = 0, benchmarkRounds = 100)
     public void testSub(){
         Assert.assertEquals(-5.0, aCalculator.sub(10.0,15.0), 0.01);
     }
@@ -265,8 +265,8 @@ So, we can see, the chart will be created in a chart folder under working direct
 
 - @BenchmarkHistoryChart : It is used for telling how many history results will be included in DB and results. maxRun will be how many times and label with provide options to include different type of label in each entry. I have added Run ID as label. We can add TIMESTAMP and our own CUSTOM_KEY. This CUSTOM_KEY should be included in the jub.properties. 
 Here is the example, as you saw from my property, the custom key was 
-
-    jub.customkey=AddBenchMark
+    
+        jub.customkey=AddBenchMark
 - So, in the report , i can see also this
 ![report-perf-test](/images/junit-benchmark/junit-perf-report-default.jpg)
 
