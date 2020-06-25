@@ -27,19 +27,21 @@ What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) o
 
 - We can run load agent manager(from start menu) to manage multiple agents.
  
+ - 
 <div class="fig figcenter fighighlight">
   <img src="/images/wapt/Load_Agent_installation.png">
   <div class="figcaption"><br>LoadAgentinstallation <br>
   </div>
 </div>
 
-
+- 
 <div class="fig figcenter fighighlight">
   <img src="/images/wapt/LoadAgent.jpg">
   <div class="figcaption"><br>LoadAgent<br>
   </div>
 </div>
 
+- 
 <div class="fig figcenter fighighlight">
   <img src="/images/wapt/LoadAgentManager.jpg">
   <div class="figcaption"><br>LoadAgentManager<br>
@@ -47,7 +49,12 @@ What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) o
 </div>
 
 - LoadAgentManagerAccounts
-![LoadAgentManagerAccounts](/images/wapt/LoadAgentManagerAccounts.jpg)
+- 
+<div class="fig figcenter fighighlight">
+  <img src="/images/wapt/LoadAgentManagerAccounts.jpg">
+  <div class="figcaption"><br>LoadAgentManagerAccounts<br>
+  </div>
+</div>
 
 - A scenario consist of Settings and Configurations (Test Volume, Log/report settings/Performance counters)
 
