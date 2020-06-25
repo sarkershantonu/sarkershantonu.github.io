@@ -18,7 +18,7 @@ What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) o
 
 # Basic : WAPT follows
 - One execution runs under one user session.
-</br>
+
 - A virtual user (VUser) may consist of several user sessions.
 
 - A virtual user operates under several user profiles. Different profile simulates different type of user. 
@@ -34,22 +34,24 @@ What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) o
   </div>
 </div>
 
-- 
+
+
 <div class="fig figcenter fighighlight">
   <img src="/images/wapt/LoadAgent.jpg">
   <div class="figcaption"><br>LoadAgent<br>
   </div>
 </div>
 
-- 
+
+
 <div class="fig figcenter fighighlight">
   <img src="/images/wapt/LoadAgentManager.jpg">
   <div class="figcaption"><br>LoadAgentManager<br>
   </div>
 </div>
 
-- LoadAgentManagerAccounts
-- 
+
+
 <div class="fig figcenter fighighlight">
   <img src="/images/wapt/LoadAgentManagerAccounts.jpg">
   <div class="figcaption"><br>LoadAgentManagerAccounts<br>
@@ -89,13 +91,20 @@ WAPTPro performs 5 types of tests. These are categorizing by their functionality
 
 5. Background Load Generation: We can create a typical background load and perform manual testing at the same time. This way you can check what real users will experience when working with your web site under load.
 
-# WAPTPro UI :These are some screenshots. 
+# WAPTPro UI :
 
-- Menu-1
-![Menu-1](/images/wapt/Menu-1.jpg)
+<div class="fig figcenter fighighlight">
+  <img src="/images/wapt/Menu-1.jpg">
+  <div class="figcaption"><br>Menu-1<br>
+  </div>
+</div>
 
-- Menu 2
-![Menu-2](/images/wapt/Menu-2.jpg)
+
+<div class="fig figcenter fighighlight">
+  <img src="/images/wapt/Menu-2.jpg">
+  <div class="figcaption"><br>Menu-2<br>
+  </div>
+</div>
 
 - Menu 3
 ![Menu-3](/images/wapt/Menu-3.jpg)
