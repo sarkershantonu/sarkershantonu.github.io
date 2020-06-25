@@ -318,7 +318,7 @@ We can add following items(options) under a user profile:
 ![LoadAgentSettings](/images/wapt/LoadAgentSettings.jpg)
 
 -We can change Browser’s User Agent from profile’s properties 
-![UserAgent]](/images/wapt/UserAgent.jpg)
+![UserAgent](/images/wapt/UserAgent.jpg)
 
 -The Rendevous Point instructs VUsers To wait till all VUsers come to a certain point and proceed together. When we are performing load testing we will make the scenario in such a way that all the processes hit the application at a single point of time so using rendezvous point it collects all process and throws on the application at a time. 
 
