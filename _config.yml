@@ -53,7 +53,7 @@ navbar-links:
     - Interview: "interview-questions"
   About: 
     - About Me: "aboutme"  
-    - Experience: "experience"
+    - Experience: "jobs.html"
     - Resume: "resume"
     - Contact: "contact"
     - hireme : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
