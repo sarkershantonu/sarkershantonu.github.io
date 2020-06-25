@@ -12,7 +12,7 @@ comments: true
 In this article we are going to see how to run JavaScript in Jmeter. 
 In Jmeter , we can execute JavaScript in 3 ways.
 
-#1. Using Run time Function: 
+# 1. Using Run time Function: 
 This is one of the most easy way of using java Script. Syntax :
         
         ${__javaScript(<Your desire script>),<JmeterVariableName>}
