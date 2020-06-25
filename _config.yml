@@ -40,7 +40,7 @@ navbar-links:
     - Protocol: "protocol"
     - DotNet: "dotnet"
     - Concepts: "concepts"
-    - Agile: "/pages/agile"
+    - Agile: "pages/agile"
   DevOps: 
     - Dev setup: "dev-env"
     - Proxmox: "proxmox"
