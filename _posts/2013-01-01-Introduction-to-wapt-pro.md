@@ -17,19 +17,22 @@ First see the requirement of PC and install from [here](http://www.loadtestingto
 What is WAPT? WAPT is a tool for Performance Testing (load and stress testing) on a website (with load balancers, web servers, application servers, database storages, etc) in an easy manner. For more, see their [link](http://www.loadtestingtool.com/).
 
 # Basic : WAPT follows
--One execution runs under one user session.
--A virtual user (VUser) may consist of several user sessions.
--A virtual user operates under several user profiles. Different profile simulates different type of user. 
+- One execution runs under one user session.
 
--Load agents run Virtual Users. (A Load Agent is installed as a Windows service on your system during installation, we can configure that).
+- A virtual user (VUser) may consist of several user sessions.
 
--We can run load agent manager(from start menu) to manage multiple agents.
+- A virtual user operates under several user profiles. Different profile simulates different type of user. 
+
+- Load agents run Virtual Users. (A Load Agent is installed as a Windows service on your system during installation, we can configure that).
+
+- We can run load agent manager(from start menu) to manage multiple agents.
  
 <div class="fig figcenter fighighlight">
   <img src="/images/wapt/Load_Agent_installation.png">
   <div class="figcaption"><br>LoadAgentinstallation <br>
   </div>
 </div>
+
 
 <div class="fig figcenter fighighlight">
   <img src="/images/wapt/LoadAgent.jpg">
