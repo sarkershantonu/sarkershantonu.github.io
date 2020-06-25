@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "Selenium DotNet C#"
+title: "Selenium DotNet"
 subtitle: I build systems for testing
 css: "/css/index.css"
 meta-title: "SDET/Java Backend Engineer"
