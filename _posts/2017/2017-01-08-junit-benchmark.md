@@ -218,6 +218,7 @@ Now, this class in my repository has some extra item with it for reporting and t
 This is common practices to show results of performance testing as report. Beside showing results in command line, junit benchmark has inbuilt capabilities to store your test results in H2 or mysql database. I will show examples with H2 Database. For this
 
 - Step 1 : I am adding H2 database in my project POM.XML
+
 ```xml
 <dependency>
     <groupId>com.h2database</groupId>
@@ -225,6 +226,7 @@ This is common practices to show results of performance testing as report. Besid
     <version>1.4.192</version>
 </dependency>
 ```
+
 - Step 2 : Put all Property information in jub.properties and load them before test. I am using my own base test case to load before class. 
 
 ```java
@@ -238,7 +240,7 @@ public static void loadProperties() throws IOException {
 }
 ```
 
-- Defined properties are :
+Defined properties are :
 
         jub.ignore.annotations=false 
         jub.ignore.callgc=true 
