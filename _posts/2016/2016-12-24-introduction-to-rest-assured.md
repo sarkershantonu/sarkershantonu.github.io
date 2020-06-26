@@ -37,14 +37,15 @@ Now, Let's start the main project. I will do step by step project creation.In th
 
 ### Step 1 : Create A maven project
 1. Open your favorite IDE
-
 2. Create a maven project with group & artifact id. I have used these
-```xml
-<groupId>org.automation</groupId>
-<artifactId>webservice-test</artifactId>
-<version>1.0-SNAPSHOT</version>
-```
+
+        
+        <groupId>org.automation</groupId>
+        <artifactId>webservice-test</artifactId>
+        <version>1.0-SNAPSHOT</version>
+
 3. Add following dependencies for rest assure and Junit
+
 ```xml
 <dependencies>
     <dependency>
@@ -93,9 +94,9 @@ Optional : if you cant access latest versions of rest assure , you can add the r
     </repository>
 </repositories>
 ```
-Now, finally my pom.xml look like this.
+Now, finally my pom.xml look like [**this**](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/RestAssured/pom.xml).
 
-### Step 2 : Run WebService : 
+### Step 2 : Run WebService 
 - Download & Run The web service release jar from command line. You will see something like this.
 ![app_launch](/images/restassured/app-launch.jpg)
 
@@ -103,14 +104,12 @@ As you can see, this is spring boot web service.When this webservice is started 
 ![app_running](/images/restassured/app-running.jpg)
 
 So, now we have a webservice running with following methods.
-
 #### Enable methods
 1. To see all bugs : GET : /table/bugs
 2. To save a bug: POST : /table/bugs
 3. To see a bug : GET : /table/bugs/{id}
 4. To Update a Bug: PUT : /table/bugs/{id}
 5. To Delete a Bug : DELETE : /table/bugs/{id}
-
 
 ### Step 3 : Write your first test :
 Now, lets get back to our IDE (I am using intellij IDEA). We will start with creating a new bug entry in the web service. To do that, first I need a model class (or entity class) that represents a bug.
@@ -303,7 +302,7 @@ Now, lets write our first test case. In test folder ,
 2. Create a test class which extends test base (**BasicTests** extends **BugTestBase**) . 
 Like this  ![test-case](/images/restassured/test-case.jpg)
 
-####Why test base ? 
+#### Why test base ? 
 Following test organization best practices, i am using BugTestBase as test class common method and initialization items which i need for each test class before running. 
 
 Now, define **BugTestBase** class like following
@@ -320,7 +319,7 @@ public static void initClass(){
 }}
 ```
 You can see, I am assigning base URL, primary path for BUG web service.
-Now, lets open** BasicTests** class and add following test method
+Now, lets open **BasicTests** class and add following test method
 ```java 
 @Test 
 public void testAddOne_validateResponse(){
@@ -337,7 +336,6 @@ public void testAddOne_validateResponse(){
 }
 ```
 Now, we see what we are doing here. (important part to understand rest assured)
-
 1. Creating a Bug instance
 2. Initiating a HTTP POST request with this bug instance.
 3. When we are putting this request , we are converting in JSON with Rest Assure built in object mapper which usages JackSon_2 type mapper.
@@ -367,7 +365,8 @@ Now, as we know, for testing if we add any new data we should cleanup. So, this 
             contentType(ContentType.JSON).
             body(request,ObjectMapperType.JACKSON_2).
             post().as(Bug.class);
-    Assert.assertTrue(request.equals(responsedBug));// validating responseded item is equal to what i put in    System.out.println(responsedBug.toString());// optional, to view purpose
+    Assert.assertTrue(request.equals(responsedBug));// validating responseded item is equal to what i put in    
+    System.out.println(responsedBug.toString());// optional, to view purpose
     //cleanup my data    
 given().auth().basic(user,pass).
             delete(responsedBug.getId().
@@ -411,7 +410,6 @@ public void testViewABug(){
             contentType(ContentType.JSON).
             header("Content-Type", "application/json;charset=UTF-8").
             body("id", equalTo(1));
-
 }
 ```
 - Destination URL(GET ) = localhost:9100/table/bugs/1
@@ -441,7 +439,8 @@ public void testUpdateeABug(){
             contentType(ContentType.JSON).
             header("Content-Type", "application/json;charset=UTF-8").
             body("id",equalTo(createdbug.getId().intValue()));
-    //cleanup    given().
+    //cleanup    
+     given().
             auth().basic(user,pass).
             delete(createdbug.getId().toString()).
             then().assertThat().
@@ -449,7 +448,7 @@ public void testUpdateeABug(){
 }
 ```
  
-- Destination URL(PUT) = localhost:9100/table/bugs/1
+- Destination URL(PUT) = **localhost:9100/table/bugs/1**
 - We are Creating a bug
 - From response, we get a bug and change its title & description.
 - We send update request for this the bug with same ID.
@@ -473,7 +472,7 @@ public void testDeleteABug(){
             statusCode(HttpStatus.SC_NO_CONTENT);
 }
 ```
-- Destination URL(DELETE ) = localhost:9100/table/bugs/1
+- Destination URL(DELETE ) = **localhost:9100/table/bugs/1**
 - We are creating a bug and deleting that bug.  
 - We are checking Http status only.
 
