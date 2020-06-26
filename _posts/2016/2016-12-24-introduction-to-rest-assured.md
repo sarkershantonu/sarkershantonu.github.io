@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Introduction to Rest Assured
-date: "2017-01-08 02:54"
-tags: [blog, junit, unit-testing, Rest-Assured]
+date: "2016-12-24 02:54"
+tags: [junit, unit-testing, Rest-Assured]
 permalink: /2016/12/24/rest-assured/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Rest Assured"
@@ -368,7 +368,7 @@ Now, as we know, for testing if we add any new data we should cleanup. So, this 
     Assert.assertTrue(request.equals(responsedBug));// validating responseded item is equal to what i put in    
     System.out.println(responsedBug.toString());// optional, to view purpose
     //cleanup my data    
-given().auth().basic(user,pass).
+    given().auth().basic(user,pass).
             delete(responsedBug.getId().
                     toString()).then().
             assertThat().statusCode(HttpStatus.SC_NO_CONTENT);
