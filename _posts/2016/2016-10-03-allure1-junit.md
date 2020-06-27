@@ -63,8 +63,9 @@ Craate maven project in your favorite IDE (i use intellij) with proper package n
 Use maven 3.3.9 (I am using). Allure requirement is 3.1.1+.
 
 ### Step 3
+Let's setup the project
 
- #### Pom setup 
+###### Pom setup 
  This is the most important part. Open your project's pom.xml
 
 - Add all version in properties to manage
@@ -77,6 +78,7 @@ Use maven 3.3.9 (I am using). Allure requirement is 3.1.1+.
     <aspectj.version>1.8.9</aspectj.version>
 </properties>
 ```
+
 - Add dependencies 
 
 ```xml
@@ -107,6 +109,7 @@ Use maven 3.3.9 (I am using). Allure requirement is 3.1.1+.
     </dependency>   
 </dependencies>
 ```
+
 
 - Create build section 
 
