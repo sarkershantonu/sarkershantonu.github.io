@@ -227,6 +227,7 @@ I am keeping this simple as the intention of this post is to learn allure framew
 
 ### Step 5
 In **src/test/java**, create the same package (in my case, org.automation) add an abstract class as test template and a test class as test like this.
+
 ```java
 public abstract class TestingCalculator {
     protected Calculator aCalculator = null;
@@ -640,7 +641,6 @@ So, [**my test rule link**](https://github.com/sarkershantonu/Automation-Getting
 
 ## Configuration/Properties :  
 The default allure property configuration should be present in **allure.properties** file which i have kept in resources. In their you will see other properties which i use but this is default use by allure. It will be loaded by default so, beside properties inside pom.xml, we can use this to send properties. 
-
 
 ## Maven Run Commands :  
 - To clean project : mvn clean
