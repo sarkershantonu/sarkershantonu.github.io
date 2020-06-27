@@ -234,11 +234,12 @@ public class TestCalculatorFullExample extends TestingCalculator {
 ```
 So, we are done with project & its tests. Let's use allure. I am adding allure different annotations and it's effects.
 
-@Step : This is used for defining a method as a step. It can be private or public method but this represents a step for the test. It takes string parameter which will be used to tell details about the step.
-If you use {method} will actually get the method name.
-if you use {0} or up to .. {n} which will get the parameter of the method.
+**@Step** : This is used for defining a method as a step. It can be private or public method but this represents a step for the test. It takes string parameter which will be used to tell details about the step.
+- If you use **{method}** will actually get the method name.
+- if you use {0} or up to .. {n} which will get the parameter of the method.
 
-Example : I am defining all method in calculator class as step which will show during the test on which method was called.
+####Example:
+I am defining all method in calculator class as step which will show during the test on which method was called.
 ```java
 public class Calculator {
     @Step("Adding two numbers")
@@ -263,26 +264,25 @@ public class Calculator {
     }
 }
 ```
-Note : As you can see, in steps we will be able to know about the steps performing calculator functions.
+**Note** : As you can see, in steps we will be able to know about the steps performing calculator functions.
+- From allure reports. When we only text
 
-From allure reports. When we only text
-
- 
+![steps](/images/allure/app-steps.jpg)
 
 And for the subtraction (intentionally failed scenario)
 
+![steps2](/images/allure/app-steps1.jpg)
 
-
-**@Title** : Add Custom Title for class & methods. It takes string as title.
-
-If we don't use, it will be using class/method name with rule. 
+**@Title** : Add Custom Title for class & methods. It takes string as title. If we don't use, it will be using class/method name with rule. 
 1. If the name is camel case, it will separate each words with space
-2. If the name is under score(_) separated, it will replace underscore with space.
-like, 
+2. If the name is under score(_) separated, it will replace underscore with space.like, 
+
 TestForAddition => Test With Description
+
 Test_For_Multiplication =>Test For Multiplication 
 
-Example : In our project , this test class
+####Example:
+ In the project , this test class
 ```java
 @Title("Class Title : Testing Calculator")
 public class TestWithTitle extends TestingCalculator{
@@ -292,16 +292,16 @@ public class TestWithTitle extends TestingCalculator{
     }
 }
 ```
-
-And in allure report : 
-
+- And in allure report
+ 
+![title](/images/allure/title.jpg)
 
  
   Note : {method} won't work like step. 
 
-@Description : Like as Title, description also does the similar thing with classes/methods but in allure report, it is shown in description section.
+**@Description** : Like as Title, description also does the similar thing with classes/methods but in allure report, it is shown in description section.
 
-Example : 
+####Example :
 ```java
 @Description("Class Description : This will test calculator")
 public class TestWithDescription extends TestingCalculator {
@@ -317,16 +317,15 @@ public class TestWithDescription extends TestingCalculator {
     }
 }
 ```
-In Allure report : 
+- In Allure report : 
+![Description](/images/allure/description.jpg)
 
-
-
-@Features and @Stories : Like as title display, allure support showing BDD wise test display in Behaviors tab by the help of @Features and @Stories.
+**@Features** and **@Stories** : Like as title display, allure support showing BDD wise test display in Behaviors tab by the help of @Features and @Stories.
 Usually relation is , A feature might have multiple stories. So, in behavior, we can see stories are staying under a feature.
 Both of them can be applied in class and method level.
 All items under same features will be grouped together (may be stayed under separated tests)
-
-Example : 2 classes for seperate examples
+#####Example : 
+Two classes for separate examples
 ```java
 @Features(value = {"Class Feature : Add","Class Feature : divide"})
 public class TestWithFeatures extends TestingCalculator{
@@ -356,15 +355,13 @@ public class TestWithStories extends TestingCalculator {
     }
 }
  ```
-In Allure reports : 
+- In Allure reports : 
+![behaviors](/images/allure/allure-behaves2.jpg)
 
-
-
-
-@Severity : We can specify a test (method) severity level with predefined levels from allure.   BLOCKER, CRITICAL,     NORMAL,     MINOR,     TRIVIAL
+**@Severity** : We can specify a test (method) severity level with predefined levels from allure.   BLOCKER, CRITICAL,     NORMAL,     MINOR,     TRIVIAL
 This will categorize tests in graph and a symbol is put before test title with tool tip support of level description.
 
-Example : 
+###Example : 
 ```java
 public class TestWithSeverity extends TestingCalculator {
     @Test    
@@ -395,27 +392,27 @@ public class TestWithSeverity extends TestingCalculator {
     }
 }
 ```
-In Allure report : 
-
+- In Allure report : 
 1. In Graph:
- 
+
+![Severity](/images/allure/allure-severity.jpg)
+
 2. In individual test from both xUnit & Behaviors view : 
 
+![Severity2](/images/allure/allure-severity-critical.jpg)
 
-
-
-@Issue & @Issues : Both are used for attach single or multiple issues links respectively at the class or method level. There will be an external link tie with this.
-
+**@Issue** & **@Issues** : Both are used for attach single or multiple issues links respectively at the class or method level. There will be an external link tie with this.
 There is similar one @TestCaseId which applies to test method only.
 
-Configuration : In allure.properties there are two entries which can be used for defining the issue tracker as well as test management tracker urls
+- Configuration : In **allure.properties** there are two entries which can be used for defining the issue tracker as well as test management tracker urls
 
         allure.issues.tracker.pattern=http://localhost:9000/issues/%s
         allure.tests.management.pattern=http://localhost:9000/tests/%s
 
-The %s actually replace by the ID that we use with those annotations. Issues replaces tracker pattern and test case replaces management pattern entry. 
+The **%s** actually replace by the ID that we use with those annotations. Issues replaces tracker pattern and test case replaces management pattern entry. 
 
-Example : This class represents these three annotations
+###Example: 
+This class represents these three annotations
 ```java
 @Issues(value = {@Issue(value = "001"), @Issue(value = "002")})// multiple issues
 @Issue(value = "ISSUE/CLASS-1")//single issue
@@ -436,10 +433,11 @@ public class TestWithIssue extends TestingCalculator {
     }
 }
 ```
-# Allure view : 
+- Allure view : 
 
+![issue](/images/allure/allure-issue.jpg)
 
-
+![issues](/images/allure/allure-tracker.jpg)
 
 
 you can see , in both issue and test cases, those tracker configured URL %s part replaced by our annotated values. 
