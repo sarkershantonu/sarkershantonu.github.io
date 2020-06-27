@@ -156,9 +156,12 @@ Let's setup the project
 </build>
 ```
 
+
 - Create reporting section 
 
+
 ```xml
+
 <reporting>
     <excludeDefaults>true</excludeDefaults>
     <plugins>
@@ -170,6 +173,7 @@ Let's setup the project
     </plugins>
 </reporting>
 ```
+
 
 So, finally this will look like [**this**](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/AllureJunit/pom.xml)
 
