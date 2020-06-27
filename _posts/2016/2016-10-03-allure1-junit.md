@@ -19,43 +19,46 @@ Allure test report framework. After unit tests, we used see reports either from 
 
 ##### Details : 
 The collapsible left bar has different sections  :
-1. Overview is the home page, as we can see : Contains summary of the test execution.
-2. Defects section has all tests which are failed or having errors. (junit event listener based)
+- Overview is the home page, as we can see : Contains summary of the test execution.
+- Defects section has all tests which are failed or having errors. (junit event listener based)
 
 ![Defects](/images/allure/allure-defect.jpg)
-3. xUnit section represents all tests considering test class/method names as the title if that are not specified. So, its all about test implementation prospective view. You can see all of your implemented test info in this view.This view is useful for developers or QAs who knows about test details.
+
+- xUnit section represents all tests considering test class/method names as the title if that are not specified. So, its all about test implementation prospective view. You can see all of your implemented test info in this view.This view is useful for developers or QAs who knows about test details.
 
 ![xunit](/images/allure/allure-xunit.jpg)
-4. Behaviors section, which represents same test cases but in BDD view. In Allure, we can represent a test in BDD prospective by adding @Feature & @Stories. If any test does not have those, it will be showing without feature/stories. 
+
+- Behaviors section, which represents same test cases but in BDD view. In Allure, we can represent a test in BDD prospective by adding @Feature & @Stories. If any test does not have those, it will be showing without feature/stories. 
 
 ![Behaviors](/images/allure/allure-behaves.jpg)
 
 This view is very useful for stakeholders, business analyst, QA managers or manual QA who actually sees the application from requirement prospective. This is a very useful way to get traceability view as well as coverage measurements. 
 
-5. Graph section shows the summary with % graph, priority & duration based test execution view.
+- Graph section shows the summary with % graph, priority & duration based test execution view.
 
 ![Graph](/images/allure/allure-graph.jpg)
 
 This donuts chart may vary from version to version. Initially it was pie chart.
-6. Timeline section represents what test performs when.
+
+- Timeline section represents what test performs when.
 
 ![Timeline](/images/allure/allure-time.jpg)
+
 This is very important view if your test runs in multiple hosts. You can see my PC name is mentioned(shantonu-brix), in case your test runs in multiple hosts, they will be mentioned in separate block. Very useful when your selenium test runs in multiple hosts and you can see them separately. 
 
-7. And, Multi Language Support : 
+- And, Multi Language Support : 
 
 ![Language](/images/allure/allure-language.jpg)
 
 #### Allure in CI/CD : 
 
-1. Allure Command line options 
-2. Allure Maven Plugin (that exactly what I have used) 
-3. Allure Jenkins Plugin (I will provide separate blog post for this) 
-4. Allure TeamCity Plugin
-5. Allure Bamboo Plugin
+- Allure Command line options 
+- Allure Maven Plugin (that exactly what I have used) 
+- Allure Jenkins Plugin (I will provide separate blog post for this) 
+- Allure TeamCity Plugin
+- Allure Bamboo Plugin
 
 Lets start with initial project setup. The example project that i am going to use is also available in [**github**](https://github.com/sarkershantonu/Automation-Getting-Started/tree/master/AllureJunit).  
-
 ### Step 1
 Craate maven project in your favorite IDE (i use intellij) with proper package name & group id. 
 
@@ -65,8 +68,7 @@ Use maven 3.3.9 (I am using). Allure requirement is 3.1.1+.
 ### Step 3
 Let's setup the project
 
-###### Pom setup 
- This is the most important part. Open your project's pom.xml
+**Pom setup**:  This is the most important part. Open your project's pom.xml
 
 - Add all version in properties to manage
 
@@ -156,9 +158,7 @@ Let's setup the project
 </build>
 ```
 
-
 - Create reporting section 
-
 
 ```xml
 
@@ -318,7 +318,7 @@ public class TestWithTitle extends TestingCalculator{
 ![title](/images/allure/title.jpg)
 
  
-  Note : {method} won't work like step. 
+**Note** : {method} won't work like step. 
 
 **@Description** : Like as Title, description also does the similar thing with classes/methods but in allure report, it is shown in description section.
 
@@ -341,6 +341,7 @@ public class TestWithDescription extends TestingCalculator {
 ```
 
 - In Allure report : 
+
 ![Description](/images/allure/description.jpg)
 
 **@Features** and **@Stories** : Like as title display, allure support showing BDD wise test display in Behaviors tab by the help of @Features and @Stories.
@@ -381,6 +382,7 @@ public class TestWithStories extends TestingCalculator {
  ```
  
 - In Allure reports : 
+
 ![behaviors](/images/allure/allure-behaves2.jpg)
 
 **@Severity** : We can specify a test (method) severity level with predefined levels from allure.   BLOCKER, CRITICAL,     NORMAL,     MINOR,     TRIVIAL
@@ -652,14 +654,15 @@ if you goto your browser **http://localhost:9000** , you can see the report. You
 
 ![idea-maven](/images/allure/maven-steps.jpg)
 
-####What happens with allure when we run : mvn test
+#### What happens with allure when we run : mvn test
  
- ![maven-test](/images/allure/results.jpg)
+![maven-test](/images/allure/results.jpg)
+
 This folder contains all test results by Junit Listener (by default). We can change this directory configuration in **allure.properties**
 
         allure.results.directory=<your desired location>
 
-####What happens with allure when we run : mvn site
+#### What happens with allure when we run : mvn site
 
  ![maven-site](/images/allure/allure-html-report.jpg)
 
