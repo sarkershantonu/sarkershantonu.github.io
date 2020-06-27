@@ -200,6 +200,7 @@ This is important configuration that points allure report root directory. Please
 
 ### Step 4
 For this example , I am using simple Calculator class and test it.
+
 ```java
 public class Calculator {
     public double add(double a, double b){
@@ -219,6 +220,7 @@ public class Calculator {
     }
 }
 ```
+
 I am keeping this simple as the intention of this post is to learn allure framework integration not testing. 
 
 ![calculator](/images/allure/app-test.jpg)
@@ -245,6 +247,7 @@ public class TestCalculatorFullExample extends TestingCalculator {
     }
 }
 ```
+
 So, we are done with project & its tests. Let's use allure. I am adding allure different annotations and it's effects.
 
 **@Step** : This is used for defining a method as a step. It can be private or public method but this represents a step for the test. It takes string parameter which will be used to tell details about the step.
@@ -253,6 +256,7 @@ So, we are done with project & its tests. Let's use allure. I am adding allure d
 
 #### Example:
 I am defining all method in calculator class as step which will show during the test on which method was called.
+
 ```java
 public class Calculator {
     @Step("Adding two numbers")
@@ -277,6 +281,7 @@ public class Calculator {
     }
 }
 ```
+
 **Note** : As you can see, in steps we will be able to know about the steps performing calculator functions.
 - From allure reports. When we only text
 
@@ -296,6 +301,7 @@ Test_For_Multiplication =>Test For Multiplication
 
 #### Example:
  In the project , this test class
+
 ```java
 @Title("Class Title : Testing Calculator")
 public class TestWithTitle extends TestingCalculator{
@@ -305,6 +311,7 @@ public class TestWithTitle extends TestingCalculator{
     }
 }
 ```
+
 - And in allure report
  
 ![title](/images/allure/title.jpg)
@@ -315,6 +322,7 @@ public class TestWithTitle extends TestingCalculator{
 **@Description** : Like as Title, description also does the similar thing with classes/methods but in allure report, it is shown in description section.
 
 #### Example :
+
 ```java
 @Description("Class Description : This will test calculator")
 public class TestWithDescription extends TestingCalculator {
@@ -330,6 +338,7 @@ public class TestWithDescription extends TestingCalculator {
     }
 }
 ```
+
 - In Allure report : 
 ![Description](/images/allure/description.jpg)
 
@@ -339,6 +348,7 @@ Both of them can be applied in class and method level.
 All items under same features will be grouped together (may be stayed under separated tests)
 ##### Example : 
 Two classes for separate examples
+
 ```java
 @Features(value = {"Class Feature : Add","Class Feature : divide"})
 public class TestWithFeatures extends TestingCalculator{
@@ -368,6 +378,7 @@ public class TestWithStories extends TestingCalculator {
     }
 }
  ```
+ 
 - In Allure reports : 
 ![behaviors](/images/allure/allure-behaves2.jpg)
 
@@ -375,6 +386,7 @@ public class TestWithStories extends TestingCalculator {
 This will categorize tests in graph and a symbol is put before test title with tool tip support of level description.
 
 #### Example : 
+
 ```java
 public class TestWithSeverity extends TestingCalculator {
     @Test    
@@ -405,6 +417,7 @@ public class TestWithSeverity extends TestingCalculator {
     }
 }
 ```
+
 - In Allure report : 
 1. In Graph:
 
@@ -426,6 +439,7 @@ The **%s** actually replace by the ID that we use with those annotations. Issues
 
 #### Example: 
 This class represents these three annotations
+
 ```java
 @Issues(value = {@Issue(value = "001"), @Issue(value = "002")})// multiple issues
 @Issue(value = "ISSUE/CLASS-1")//single issue
@@ -446,6 +460,7 @@ public class TestWithIssue extends TestingCalculator {
     }
 }
 ```
+
 - Allure view : 
 
 ![issue](/images/allure/allure-issue.jpg)
@@ -458,7 +473,8 @@ you can see , in both issue and test cases, those tracker configured URL %s part
 Like , if you are testing in selenium, your browser/os parameters before starting the test can be used with this. And, of course with some trick, you can use this parameters in your tests.
 These parameters are shown in each test cases.
 
-#### Example 
+#### Example:
+
 ```java
 public class TestWithParameterDefaultExample extends TestingCalculator {
     @Parameter("PC OS Name")
@@ -503,6 +519,7 @@ public class TestWithParameterDefaultExample extends TestingCalculator {
     }
 }
 ```
+
 #### Allure reports : under each of test
 
 ![env1](/images/allure/allure-env.jpg)
@@ -552,7 +569,9 @@ public static byte[] capture() {
     return out;
 }
 ```
+
 And , i am using this in our TestingCalculator abstract class to let all sub test classes use this. So, after adding those attachments, my **TestingCalculator** becomes
+
 ```java
 public abstract class TestingCalculator {
     protected Calculator aCalculator = null;
@@ -579,7 +598,9 @@ public abstract class TestingCalculator {
     }
 }
 ```
+
 - And form the test method :
+
 ```java
 public class TestWithAttachment extends TestingCalculator {
     @Test    
@@ -597,6 +618,7 @@ public class TestWithAttachment extends TestingCalculator {
         attachThisMessage("This is for attaching a text response from test");//the text attachment    }
 }
 ```
+
 And, from allure we can see attachments links .
 
 ![attachment](/images/allure/test-addition.jpg)
