@@ -439,15 +439,13 @@ public class TestWithIssue extends TestingCalculator {
 
 ![issues](/images/allure/allure-tracker.jpg)
 
-
 you can see , in both issue and test cases, those tracker configured URL %s part replaced by our annotated values. 
 
-
-@Parameter : In allure we can set parameters which are not exactly test data as parameter rather test configuration/environment as parameter.
+**@Parameter** : In allure we can set parameters which are not exactly test data as parameter rather test configuration/environment as parameter.
 Like , if you are testing in selenium, your browser/os parameters before starting the test can be used with this. And, of course with some trick, you can use this parameters in your tests.
 These parameters are shown in each test cases.
 
-Example : 
+###Example 
 ```java
 public class TestWithParameterDefaultExample extends TestingCalculator {
     @Parameter("PC OS Name")
@@ -492,30 +490,35 @@ public class TestWithParameterDefaultExample extends TestingCalculator {
     }
 }
 ```
-Allure reports : under each of test
+####Allure reports : under each of test
+
+![env1](/images/allure/allure-env.jpg)
+
+![env2](/images/allure/allure-env2.jpg)
+
+![env3](/images/allure/allure-env3.jpg)
+
+![env4](/images/allure/allure-env4.jpg)
+
+![env5](/images/allure/allure-env-exe.jpg)
+
+**Note** :  In github project , you will see other 3 classes where I tried to use this as regular junit parameter and zohhak parameters. But it does not works with them. So, those examples are for showing where it does not work. So, please done get confused by allure parameter and test parameter. 
+
+#### @Attachment
+ With this , we can attach any screenshot/image or text in a test method level.
  
-
-
-
- 
-
-
-
-Note : In github project , you will see other 3 classes where I tried to use this as regular junit parameter and zohhak parameters. But it does not works with them. So, those examples are for showing where it does not work. So, please done get confused by allure parameter and test parameter. 
-
-@Attachment : With this , we can attach any screenshot/image or text in a test method level.
-
-How it works? you method where you are using @Attachment, that should provide output either
+#####How it works?:  
+you method where you are using @Attachment, that should provide output either
 1. String => will direct attach the string , it has different variants (mine type ) like text/plain, text/html, application/json
 2. byte[] => can be stored as image. So, here we use this for keeping as screenshot.
 And, if we look at target folder, we can actually see this.
 
+![attachment](/images/allure/allure-report-image.jpg)
 
-
-And @Attachment takes another input which is name of this attachment. Default value is {method}, so if you don't give any value, it will take method names.
+And **@Attachment** takes another input which is name of this attachment. Default value is {method}, so if you don't give any value, it will take method names.
 This is useful when we want to take screenshot for each step or just on failure.
 
-# Example 1 (Default) :  
+### Example 1 (Default) :  
 - Screenshot taking with method. I have made a helper class which actually takes screenshot and returns byte array . This the method :
 
 ```java
@@ -536,7 +539,7 @@ public static byte[] capture() {
     return out;
 }
 ```
-And , i am using this in our TestingCalculator abstract class to let all sub test classes use this. So, after adding those attachments, my TestingCalculator becomes
+And , i am using this in our TestingCalculator abstract class to let all sub test classes use this. So, after adding those attachments, my **TestingCalculator** becomes
 ```java
 public abstract class TestingCalculator {
     protected Calculator aCalculator = null;
@@ -563,7 +566,7 @@ public abstract class TestingCalculator {
     }
 }
 ```
-And form the test method :
+- And form the test method :
 ```java
 public class TestWithAttachment extends TestingCalculator {
     @Test    
@@ -581,55 +584,51 @@ public class TestWithAttachment extends TestingCalculator {
         attachThisMessage("This is for attaching a text response from test");//the text attachment    }
 }
 ```
+And, from allure we can see attachments links .
 
-And, from allure we can see attachments links . This for image
+![attachment](/images/allure/test-addition.jpg)
 
+![attachment2](/images/allure/attachedText.jpg)
 
-
-This for text
-
-
-
-
-Note : As you can see, there are two capture implementation which are done by awt. So, if you are using selenium, use selenium web driver screenshot taking way. 
+**Note** : As you can see, there are two capture implementation which are done by awt. So, if you are using selenium, use selenium web driver screenshot taking way. 
 
 To make post smaller, I am keeping following examples link only
 
-Example 2 : Direct screenshot from test method. This should not be default behavior because junit validated  each test cases with void output, so if you are returning byte[] or string, this will show error. So, what i did, i made custom runner which does not checks this and run test with this runner.
-So, my runner link. 
-Test class link. 
+###Example 2: 
+Direct screenshot from test method. This should not be default behavior because junit validated  each test cases with void output, so if you are returning byte[] or string, this will show error. So, what i did, i made custom runner which does not checks this and run test with this runner.
+So, [**my runner link**](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/AllureJunit/src/test/java/org/automation/core/MyRunner.java). [**Test class link**](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/AllureJunit/src/test/java/org/automation/unitTests/attachment/TestWithAttachment_directFromTestMethod_customRunner.java). 
 
-Example 3 :In example , i make my own test rule to listen junit event for each step and i can take screenshot. It may not look useful in this example but it is widely used for selenium based tests where each step screenshot might be useful.
+###Example 3 :
+In example , i make my own test rule to listen junit event for each step and i can take screenshot. It may not look useful in this example but it is widely used for selenium based tests where each step screenshot might be useful.
 This can modified for screenshot on test fail only rules. 
-So, my test rule link.
-And test class link.
+So, [**my test rule link**](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/AllureJunit/src/test/java/org/automation/core/TestRule_ScreenShotOnEachStep.java). And [**test class link**](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/AllureJunit/src/test/java/org/automation/unitTests/attachment/TestWithAttachment_withEachStepSnapRule.java).
 
-Configuration/Properties :  The default allure property configuration should be present in allure.properties file which i have kept in resources. In their you will see other properties which i use but this is default use by allure. It will be loaded by default so, beside properties inside pom.xml, we can use this to send properties. 
-
-
-Maven Run Commands :  
-A: To clean project : mvn clean
-B: To run tests : mvn test
-C: To build site : mvn site
-D: To show results in browser with jetty server : mvn jetty:run
-
-if you goto your browser **http://localhost:9000** , you can see the report
-
-You can also use Intellij IDEA maven tool UI
+## Configuration/Properties :  
+The default allure property configuration should be present in **allure.properties** file which i have kept in resources. In their you will see other properties which i use but this is default use by allure. It will be loaded by default so, beside properties inside pom.xml, we can use this to send properties. 
 
 
+## Maven Run Commands :  
+- To clean project : mvn clean
+- To run tests : mvn test
+- To build site : mvn site
+- To show results in browser with jetty server : mvn jetty:run
 
-What happens with allure when we run : mvn test
+if you goto your browser **http://localhost:9000** , you can see the report. You can also use Intellij IDEA maven tool UI
+
+![idea-maven](/images/allure/maven-steps.jpg)
+
+####What happens with allure when we run : mvn test
  
-This folder contains all test results by Junit Listener (by default). We can change this directory configuration in allure.properties
-allure.results.directory=<your desired location>
+ ![maven-test](/images/allure/results.jpg)
+This folder contains all test results by Junit Listener (by default). We can change this directory configuration in **allure.properties**
 
-What happens with allure when we run : mvn site
+        allure.results.directory=<your desired location>
 
+####What happens with allure when we run : mvn site
 
+ ![maven-site](/images/allure/allure-html-report.jpg)
 
 So, when we go **http://localhost:9000**, it points to index.html. 
-
 
 ----- 
 Thanks :)
