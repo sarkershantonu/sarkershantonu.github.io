@@ -78,6 +78,7 @@ Use maven 3.3.9 (I am using). Allure requirement is 3.1.1+.
 </properties>
 ```
 - Add dependencies 
+
 ```xml
 <dependencies>
  <!-- allure -->    
@@ -106,7 +107,9 @@ Use maven 3.3.9 (I am using). Allure requirement is 3.1.1+.
     </dependency>   
 </dependencies>
 ```
+
 - Create build section 
+
 ```xml
 <build>
     <plugins>
