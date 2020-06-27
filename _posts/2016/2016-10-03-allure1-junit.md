@@ -17,7 +17,7 @@ Allure test report framework. After unit tests, we used see reports either from 
 
 ![demo-report](/images/allure/allure-overview.jpg)
 
-#####Details : 
+##### Details : 
 The collapsible left bar has different sections  :
 1. Overview is the home page, as we can see : Contains summary of the test execution.
 2. Defects section has all tests which are failed or having errors. (junit event listener based)
@@ -56,14 +56,14 @@ This is very important view if your test runs in multiple hosts. You can see my 
 
 Lets start with initial project setup. The example project that i am going to use is also available in [**github**](https://github.com/sarkershantonu/Automation-Getting-Started/tree/master/AllureJunit).  
 
-###Step 1
-Create maven project in your favorite IDE (i use intellij) with proper package name & group id. 
+### Step 1
+Craate maven project in your favorite IDE (i use intellij) with proper package name & group id. 
 
-###Step 2 
+### Step 2 
 Use maven 3.3.9 (I am using). Allure requirement is 3.1.1+.
 
-###Step 3
- ####Pom setup 
+### Step 3
+ #### Pom setup 
  This is the most important part. Open your project's pom.xml
 
 - Add all version in properties to manage
@@ -185,7 +185,7 @@ if you want to change this, just change the port number in this property
         <webAppSourceDirectory>${project.build.directory}/site/allure-maven-plugin</webAppSourceDirectory>
 This is important configuration that points allure report root directory. Please see details of this directory where i explain what happens on mvn site command. 
 
-###Step 4
+### Step 4
 For this example , I am using simple Calculator class and test it.
 ```java
 public class Calculator {
@@ -210,7 +210,7 @@ I am keeping this simple as the intention of this post is to learn allure framew
 
 ![calculator](/images/allure/app-test.jpg)
 
-###Step 5
+### Step 5
 In **src/test/java**, create the same package (in my case, org.automation) add an abstract class as test template and a test class as test like this.
 ```java
 public abstract class TestingCalculator {
@@ -301,7 +301,7 @@ public class TestWithTitle extends TestingCalculator{
 
 **@Description** : Like as Title, description also does the similar thing with classes/methods but in allure report, it is shown in description section.
 
-####Example :
+#### Example :
 ```java
 @Description("Class Description : This will test calculator")
 public class TestWithDescription extends TestingCalculator {
