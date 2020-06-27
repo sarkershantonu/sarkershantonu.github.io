@@ -63,6 +63,7 @@ Craate maven project in your favorite IDE (i use intellij) with proper package n
 Use maven 3.3.9 (I am using). Allure requirement is 3.1.1+.
 
 ### Step 3
+
  #### Pom setup 
  This is the most important part. Open your project's pom.xml
 
