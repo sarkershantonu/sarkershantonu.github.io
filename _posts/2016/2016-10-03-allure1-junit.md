@@ -238,7 +238,7 @@ So, we are done with project & its tests. Let's use allure. I am adding allure d
 - If you use **{method}** will actually get the method name.
 - if you use {0} or up to .. {n} which will get the parameter of the method.
 
-####Example:
+#### Example:
 I am defining all method in calculator class as step which will show during the test on which method was called.
 ```java
 public class Calculator {
@@ -281,7 +281,7 @@ TestForAddition => Test With Description
 
 Test_For_Multiplication =>Test For Multiplication 
 
-####Example:
+#### Example:
  In the project , this test class
 ```java
 @Title("Class Title : Testing Calculator")
@@ -324,7 +324,7 @@ public class TestWithDescription extends TestingCalculator {
 Usually relation is , A feature might have multiple stories. So, in behavior, we can see stories are staying under a feature.
 Both of them can be applied in class and method level.
 All items under same features will be grouped together (may be stayed under separated tests)
-#####Example : 
+##### Example : 
 Two classes for separate examples
 ```java
 @Features(value = {"Class Feature : Add","Class Feature : divide"})
@@ -361,7 +361,7 @@ public class TestWithStories extends TestingCalculator {
 **@Severity** : We can specify a test (method) severity level with predefined levels from allure.   BLOCKER, CRITICAL,     NORMAL,     MINOR,     TRIVIAL
 This will categorize tests in graph and a symbol is put before test title with tool tip support of level description.
 
-###Example : 
+#### Example : 
 ```java
 public class TestWithSeverity extends TestingCalculator {
     @Test    
@@ -411,7 +411,7 @@ There is similar one @TestCaseId which applies to test method only.
 
 The **%s** actually replace by the ID that we use with those annotations. Issues replaces tracker pattern and test case replaces management pattern entry. 
 
-###Example: 
+#### Example: 
 This class represents these three annotations
 ```java
 @Issues(value = {@Issue(value = "001"), @Issue(value = "002")})// multiple issues
@@ -445,7 +445,7 @@ you can see , in both issue and test cases, those tracker configured URL %s part
 Like , if you are testing in selenium, your browser/os parameters before starting the test can be used with this. And, of course with some trick, you can use this parameters in your tests.
 These parameters are shown in each test cases.
 
-###Example 
+#### Example 
 ```java
 public class TestWithParameterDefaultExample extends TestingCalculator {
     @Parameter("PC OS Name")
@@ -490,7 +490,7 @@ public class TestWithParameterDefaultExample extends TestingCalculator {
     }
 }
 ```
-####Allure reports : under each of test
+#### Allure reports : under each of test
 
 ![env1](/images/allure/allure-env.jpg)
 
@@ -507,7 +507,7 @@ public class TestWithParameterDefaultExample extends TestingCalculator {
 #### @Attachment
  With this , we can attach any screenshot/image or text in a test method level.
  
-#####How it works?:  
+##### How it works?:  
 you method where you are using @Attachment, that should provide output either
 1. String => will direct attach the string , it has different variants (mine type ) like text/plain, text/html, application/json
 2. byte[] => can be stored as image. So, here we use this for keeping as screenshot.
@@ -594,11 +594,11 @@ And, from allure we can see attachments links .
 
 To make post smaller, I am keeping following examples link only
 
-###Example 2: 
+#### Example 2: 
 Direct screenshot from test method. This should not be default behavior because junit validated  each test cases with void output, so if you are returning byte[] or string, this will show error. So, what i did, i made custom runner which does not checks this and run test with this runner.
 So, [**my runner link**](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/AllureJunit/src/test/java/org/automation/core/MyRunner.java). [**Test class link**](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/AllureJunit/src/test/java/org/automation/unitTests/attachment/TestWithAttachment_directFromTestMethod_customRunner.java). 
 
-###Example 3 :
+#### Example 3 :
 In example , i make my own test rule to listen junit event for each step and i can take screenshot. It may not look useful in this example but it is widely used for selenium based tests where each step screenshot might be useful.
 This can modified for screenshot on test fail only rules. 
 So, [**my test rule link**](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/AllureJunit/src/test/java/org/automation/core/TestRule_ScreenShotOnEachStep.java). And [**test class link**](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/AllureJunit/src/test/java/org/automation/unitTests/attachment/TestWithAttachment_withEachStepSnapRule.java).
