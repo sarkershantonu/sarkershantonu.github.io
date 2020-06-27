@@ -155,7 +155,9 @@ Let's setup the project
     </plugins>
 </build>
 ```
+
 - Create reporting section 
+
 ```xml
 <reporting>
     <excludeDefaults>true</excludeDefaults>
