@@ -3,7 +3,7 @@ layout: post
 title: What is annotation in Java?
 date: "2016-01-28 07:46"
 tags: [java]
-permalink: /2016/05/16/java-annotation/
+permalink: /2016/01/28/java-annotation/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on java annotation"
 gh-badge: [star,follow]
