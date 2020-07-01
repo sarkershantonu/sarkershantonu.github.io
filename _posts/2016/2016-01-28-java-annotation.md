@@ -161,9 +161,10 @@ Used for jcabi logging(Method level logging using AspectJ) :
     public static void show(){...}
 ```
 
+
 #### Example(Create & Use Custom Annotation) : 
 
-**Problem** : Let assume we need to get information from different part of source (test/code). Developers should be able to keep information from anywhere using annotation . So, we have to apply annotation @Info in every where (Class, method, constructor, field) in source code.
+**Problem** : Let's assume we need to get information from different part of source (test/code). Developers should be able to keep information from anywhere using annotation . So, we have to apply annotation @Info in every where (Class, method, constructor, field) in source code.
 Typically we need to either print in string or store it some where for each usages. We will try to implement that via an annotation that can be used in our desired places and will show in command line about what info was inputted.
 
 *I like this because , in Automation testing using selenium java , we can actually maintain logging of each tests/class/data for tests with our vastly writing lots of codes that makes test class more neat & clean.* 
@@ -187,6 +188,7 @@ Now we need a **Processor** where Main duties are :
 3. Find constrictors of the class
 4. Find fields of the class
 5. Find Methods of the class
+
 
 ```java
 public class InfoProcessor {
@@ -230,7 +232,6 @@ public void processAnnotation() throws ClassNotFoundException, IOException {
             }
         }
     }
-
     private void printAllInfo(Info info) {
         for (Info.Importancy property : info.priority()) {
             System.out.println("Importancy:" + property.toString());
