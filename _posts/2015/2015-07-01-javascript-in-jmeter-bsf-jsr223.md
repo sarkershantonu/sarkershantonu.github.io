@@ -2,7 +2,7 @@
 layout: post
 title: How to run JavaScript in Jmeter?
 date: "2015-07-01 08:05"
-tags: [blog, Jmeter, Performance-testing]
+tags: [blog, Jmeter, Performance-Testing]
 permalink: /2015/07/01/javascript-in-jmeter-bsf-jsr223/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter Advance"
