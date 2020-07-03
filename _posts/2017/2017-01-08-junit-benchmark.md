@@ -3,7 +3,7 @@ layout: post
 title: Introduction to Junit Benchmark
 date: "2017-01-08 02:54"
 tags: [ junit, unit-testing, Performance-testing]
-permalink: /2013/01/08/junit-benchmark/
+permalink: /2017/01/08/junit-benchmark/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Junit Benchmark"
 gh-badge: [star, follow]
