@@ -5,7 +5,7 @@ date: "2016-05-16 07:57"
 tags: [Performance-Testing,Grafana,InfluxDB]
 permalink: /2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Live Performance Result Monitoring"
+excerpt: "Blog on Live Jmeter Test Result Monitoring"
 gh-badge: [star,follow]
 comments: true
 ---
