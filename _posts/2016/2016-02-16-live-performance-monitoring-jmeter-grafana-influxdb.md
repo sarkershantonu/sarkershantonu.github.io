@@ -35,6 +35,7 @@ In this whole example, I am using ubuntu 14 VM, you can use real PC or even dock
 
         IP (host name) : 172.16.244.137
         username : shantonu
+
 So, when you try this instruction, you should use your **VM's IP**.I will use same VM to host influxdb & grafana. You can use different host.  
 
 ### Installing InfluxDB : 
