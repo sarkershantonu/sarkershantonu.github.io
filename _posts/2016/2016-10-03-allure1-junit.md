@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to Allure1
 date: "2016-12-16 01:54"
-tags: [junit, unit-testing, allure]
+tags: [junit, allure]
 permalink: /2016/10/03/allure1/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Allure"

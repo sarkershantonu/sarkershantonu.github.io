@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to Rest Assured
 date: "2016-12-24 02:54"
-tags: [junit, unit-testing, Rest-Assured]
+tags: [junit, Rest-Assured]
 permalink: /2016/12/24/rest-assured/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Rest Assured"
