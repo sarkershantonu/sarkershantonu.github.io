@@ -206,17 +206,17 @@ As we have configured graph,
 
 ![live-dashboard](/images/jmeter-grafana-influxdb/live-results.jpg)
 
-Test is running, so end 0. 
+As test is running, so END is 0. 
 
 So, we have successfully setup grafana-influxdb jmeter graph to see live results. 
 
 # Useful Links :  
-- InfluxDB Basic  : https://www.youtube.com/watch?v=sRi64imN7xg
-- Auto Grafana Graph generator for JMeter Test Case (i will blog separately) : https://github.com/bhattchaitanya/Grafana-Dashboard-Generator
-- Integrating JMX monitoring with Grafana : https://github.com/jmxtrans/jmxtrans/wiki
-- Docker-grafana-influxdb : https://github.com/kamon-io/docker-grafana-influxdb
-- http://davidanguita.name/articles/simple-data-visualization-stack-with-docker-influxdb-and-grafana/
-- learning source : http://docs.grafana.org/datasources/influxdb/
+- [InfluxDB Basic](https://www.youtube.com/watch?v=sRi64imN7xg)
+- [Auto Grafana Graph generator for JMeter Test Case](https://github.com/bhattchaitanya/Grafana-Dashboard-Generator)
+- [Integrating JMX monitoring with Grafana](https://github.com/jmxtrans/jmxtrans/wiki)
+- [Docker-grafana-influxdb](https://github.com/kamon-io/docker-grafana-influxdb)
+- [nice blog](http://davidanguita.name/articles/simple-data-visualization-stack-with-docker-influxdb-and-grafana/)
+- [learning influxdb](http://docs.grafana.org/datasources/influxdb/)
 
 Initially I read this in here with may many people's confusion. This post was intended to clear some of confusion. I hope this will help. 
 
