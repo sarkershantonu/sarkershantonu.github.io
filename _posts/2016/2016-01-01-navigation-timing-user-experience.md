@@ -198,8 +198,8 @@ please see the command line information regarding performance test exertion
 
 From here, we can see, like as regular performance test, we can include thread number, iteration inside tests and measure timing. Very useful when you are testing API level test. you may see this blog for more [**details**](https://sarkershantonu.github.io/2017/01/08/junit-benchmark/)
 
-
-2. Get Time by running JavaScript in Selenium : As we know, we can run JavaScript in selenium, so if we run navigation timing scripts in web driver, we can easily get the all type of timing. Here is one single helper class "NevigationTimeHelper" which takes a driver and get all timing.
+#### By running JavaScript in Selenium : 
+As we know, we can run JavaScript in selenium, so if we run navigation timing scripts in web driver, we can easily get the all type of timing. Here is one single helper class **NevigationTimeHelper** which takes a driver and get all timing.
 
 ```java
 public class NevigationTimeHelper {
@@ -281,17 +281,16 @@ public class NevigationTimeHelper {
     }
 }
 ```
+
 Here we see, as window.performance gives a MAP type collection, so we have collect all measurement and parse/select as we need. So, I put each type in separate function name to keep things simple.  
 
 I avoid other unit test platforms like Nunit , MS Unit, Xunit for dotnet to make things simple. Each unit test runner has its own implementation to measure time
 
-3. Browser MOB proxy with selenium :
-If we have existing selenium script, we can use BrowserMOB proxy to measure time. This is very simply done by keeping webdriver running under proxy and we can get every performance measurement including in page JS execution time(if that is called by you selenium tests). Even you can store navigation timing detail as HAR(http archived file) to analysis further detail after tests. I will add separate posts on how to use browserMOB. 
+#### Browser MOB proxy with selenium :
+If we have existing selenium script, we can use [**BrowserMOB proxy**](https://github.com/lightbody/browsermob-proxy) to measure time. This is very simply done by keeping webdriver running under proxy and we can get every performance measurement including in page JS execution time(if that is called by you selenium tests). Even you can store navigation timing detail as HAR(http archived file) to analysis further detail after tests. I will add separate posts on how to use browserMOB. 
 
-There are also APM tool vendors who provide these monitoring , to make things simple , I am avoiding those. 
+There are also APM tool vendors who provide these monitoring ,i will provide separate blog on APMs for this topic. 
 
-Please comment if you have any question
-
-Thanks.. :)
+Thanks :)
 
 
