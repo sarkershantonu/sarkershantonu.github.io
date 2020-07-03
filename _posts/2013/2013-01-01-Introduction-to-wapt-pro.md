@@ -323,4 +323,5 @@ We can add following items(options) under a user profile:
 
 I tried WAPTPro for sometime Experimentally. I hope this will help others to use or even buy WAPT pro. Happy blogging.
 
-….Thanks …:)
+
+Thanks …:)
