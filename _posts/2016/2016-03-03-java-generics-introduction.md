@@ -51,10 +51,11 @@ You might be confused, why only T. Well, that is just a meaningful name. You can
 - V - Value
 - S,U,V etc based on you problem domain. 
 
-#### How compiler handles ?
-Very important note here. Java compiler manage this generic notifier T as object. That means, in compiler, it assumes this ```<T extends Object>```.Unless we tell compiler specifically.
 
-**Note** : For all preemptive data types , java compiler automatically **boxing  & un-boxing** when we use them. (using int when declared as Integer) 
+#### How compiler handles ?
+Java compiler manage this generic notifier T as object. That means, in compiler, it assumes this ```<T extends Object>```.Unless we tell compiler specifically.
+
+For all preemptive data types , java compiler automatically **boxing  & un-boxing** when we use them. (using int when declared as Integer) 
 
 Now, lets define this following two terms that we will use next
 
@@ -75,16 +76,20 @@ class House<T extends AnyOtherDeclearedClass>
 
 BTW, This time, there is an interesting thing happens. Compiler treat this differently than previously T . This time compiler handle this T object as **AnyOtherDeclearedClass** instance. So, we are bounding compiler for treating generic T. And This **AnyOtherDeclearedClass** can't be another generic type, should be declared explicitly.
 
-#### Intersection types. 
+#### Intersection types :  
 By the name you can understand it is like Set theory of math. When we want to define our generic class T is a subtype of multiple types, then we use intersection. To define intersection , we simply use "&" operator or comma "," . 
 - Example - Let assume we have InterfaceA, superClass, InterfaceB. So, we can use
+
 ```
 <T extends superClass & InterfaceA & InterfaceB>
 ```
-or 
+
+or
+
 ```
 <T extends superClass,  InterfaceA,  InterfaceB>
 ```
+
 **Note** : Among sub classes, the expandable class should be at the beginning.  If we put super class after interface, compiler will throw error as class get more priority than interface. (tightly coupled)
 
 #### How compiler will treat this T?
