@@ -80,15 +80,7 @@ BTW, This time, there is an interesting thing happens. Compiler treat this diffe
 By the name you can understand it is like Set theory of math. When we want to define our generic class T is a subtype of multiple types, then we use intersection. To define intersection , we simply use "&" operator or comma "," . 
 - Example - Let assume we have InterfaceA, superClass, InterfaceB. So, we can use
 
-```
-<T extends superClass & InterfaceA & InterfaceB>
-```
-
-or
-
-```
-<T extends superClass,  InterfaceA,  InterfaceB>
-```
+```<T extends superClass & InterfaceA & InterfaceB>``` **or** ```<T extends superClass,  InterfaceA,  InterfaceB>```
 
 **Note** : Among sub classes, the expandable class should be at the beginning.  If we put super class after interface, compiler will throw error as class get more priority than interface. (tightly coupled)
 
