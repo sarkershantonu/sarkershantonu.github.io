@@ -3,7 +3,7 @@ layout: post
 title: Jmeter Live Test Monitoring
 date: "2016-03-08 01:19"
 tags: [docker,DevOps]
-permalink: /2016/02/22/install-docker/
+permalink: /2016/03/08/install-docker/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on installing docker"
 gh-badge: [star,follow]
