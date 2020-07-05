@@ -69,6 +69,7 @@ Note : If you go that [**repository**](https://apt.dockerproject.org/repo/dists/
 If you Ubuntu version is not 14 (trusty), then you may use other destination. On this part is different then other Ubuntu versions.Now, Update APT 
 
         sudo apt-get update
+        
 - verify APT is pulling from right repository
 
         sudo apt-cache policy docker-engine 
@@ -111,6 +112,7 @@ If you Ubuntu version is not 14 (trusty), then you may use other destination. On
 Let's test installation. 
 
         sudo docker run hello-world
+        
 ![docker-hello-world](/images/docker/install/hello-world.jpg)
 
 ##### Optional Steps :
@@ -133,7 +135,6 @@ Finally Installation is complete.
 
 ## Alternative Installation :
 - tested in Ubuntu Mate 14, based on LTS
-
 - Step 1 : Install CURL (skip if you already have)
 
         sudo apt-get install -y curl
@@ -143,7 +144,6 @@ Step 2 : Download & install docker
         curl -fsSL https://get.docker.com/ | sh
 
 It will prompt for root credential , you need to provide that. 
-
 - Optional step : Adding an user (i am adding my username, so that I do not need root rights each time I use docker) :
 
         sudo usermod -aG docker shantonu
@@ -158,7 +158,6 @@ And, installation is complete.
 
 ## Configure Docker for development
 - it will allow to use docker complete for development. These are mainly permission or admin related things. 
-
 - Using swap memory if you have less Ram : Edit grub as root etc/default/grub
 
         sudo gedit /etc/default/grub
