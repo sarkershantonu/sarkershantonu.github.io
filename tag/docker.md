@@ -15,3 +15,6 @@ excerpt: "An overview of Docker"
     <a href="/tags" class="list-filter">Index</a>
 </div>
 This page contains all post related to Docker.
+
+# Installation 
+- [How to install Docker](https://sarkershantonu.github.io/2016/03/08/install-docker/)
