@@ -9,7 +9,7 @@ excerpt: "Blog on Performance testing"
 gh-badge: [star,follow]
 comments: true
 ---
-**What is Performance? And What the types?** 
+**How many types of Performance tests we can do? why we test them?** 
 
 In this article we are going discuses about performance test types from a technical prospective. In previous two articles i have explained about Load Testing and Stress Testing. And, there is another type, called capacity testing. I will not talk about those generic criteria of performance testing. These are based on my own activity on performance testing over web application.
 
