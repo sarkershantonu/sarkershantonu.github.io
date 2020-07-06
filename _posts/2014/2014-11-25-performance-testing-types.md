@@ -2,7 +2,7 @@
 layout: post
 title: Performance Testing types
 date: "2014-11-25 02:43"
-tags: [Performance-Testing,]
+tags: [Performance-Testing]
 permalink: /2014/11/25/performance-test-types/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance testing"
