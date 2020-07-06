@@ -87,7 +87,7 @@ author:
   linkedin: "/in/shantonusarker/"
   xing: Shantonu_Sarker
   stackoverflow: "users/1564801/shantonu"
-
+  skype: "https://join.skype.com/invite/DZPDtwFMtUMJ"
 
 # Select which links to show in the footer
 footer-links-active:
@@ -99,6 +99,7 @@ footer-links-active:
   linkedin: true
   xing: true
   stackoverflow: true
+  skype : true
 
 
 # Select which share links to show in posts
