@@ -39,7 +39,8 @@ let say  what should be the test cases for this "-Valid results for all possible
 
 Now, what will be the definition of being proper. In this small domain, let decide, the result will be proper when it is exactly matched to known valid results. In here, we can impose correctness conditions by overriding comparing Method. Usually we will use default comparing Method to validate the result(Assert). Lets implement those.
 
-To start a NUnit Test Cases, we should know the basic of how NUnit works. For the example, lets assume our function implemented like as follows
+To start a NUnit Test Cases, we should know the basic of how NUnit works. Lets assume **Calculator** has following methods for addition. 
+
 ```
 public double Add(int a, int b)
 {
@@ -58,6 +59,7 @@ public double Add(double a, int b)
   return a + b;
 }
 ```
+
 - in dotnet every float number by default initiate as double
 
 ### Basic NUnit Attributes 
@@ -118,9 +120,10 @@ public void GlobalCleanUp()
 }
 ```
 
--When we need to insert parameter to our test methods, we will use **[TestCase]** attribute. It is actually implemented with a set of test data with expected results.
+- When we need to insert parameter to our test methods, we will use **[TestCase]** attribute. It is actually implemented with a set of test data with expected results.
 
 Either we can provide Assert(talk in later on) or use return to compare values withe expected values. I am attaching both example in current context. 
+
 - With Assert
 
 ```
@@ -135,6 +138,7 @@ public void TestAdd(int a, int b, int c)
 ```
 
 - With return
+
 ```
 [TestCase(2,3, Result=5)]
 [TestCase(3.5,4.2, Result=7.7)]
@@ -155,9 +159,10 @@ public void TestAdd([Values(1,2,3)] int a,[Values(4,5)]int b)
 }
 ```
 
-In here TestAdd(1,4),TestAdd(1,5),TestAdd(2,4),TestAdd(2,5),TestAdd(3,4),TestAdd(3,5). This 6 test method will run.
+In here **TestAdd(1,4),TestAdd(1,5),TestAdd(2,4),TestAdd(2,5),TestAdd(3,4),TestAdd(3,5)**. This 6 test method will run.
 
 - When we need to specify a timeout (ms) for a test case, we will use **[Timeout(500)]** attribute.
+
 ```
 [Test, Timeout(500)]
 public void TestAdd()
@@ -165,7 +170,7 @@ public void TestAdd()
 }
 ```
 
-### Finally, the NUnit Test: 
+### Finally, the NUnit Test Case: 
 Now lets write the a simple test case to verify the three test cases. 
 
 ```
@@ -178,6 +183,7 @@ Assert.AreEqual(5.1,myCal.Add(1,4.1));
 Assert.AreEqual(5.4,myCal.Add(1.4,4));
 }
 ```
+
 #### Best Practices
 Typically I use following Conventions to write Unit test cases
 1. One Scenario need to cover similar functions under a method(from example, only one  scenario for testing Add function's valid results)
