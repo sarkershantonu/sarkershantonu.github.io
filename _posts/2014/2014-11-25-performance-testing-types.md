@@ -17,10 +17,10 @@ Now a days, web applications are more scalable and robust. Not like as old time,
 - Application Performance
 - Infrastructure Performance
 
-# A. Application Performance :
+# A : Application Performance :
 By the name Application Performance, it is easily understandable what I am referring. Its the core performance of the application. Mainly measuring
 - How the functionality works, what are timings
-- How much resource(CPU/RAM/Disk Space) they consume
+- How much resource(CPU/RAM/DiskSpace/NetSpeed) they consume
 - What are the bottlenecks & Complexity?
 - Is there any Resource/Process Dependency delays?(like, 3rd party service, component, critical resources)
 
@@ -38,10 +38,12 @@ Now, question is How to test that? Primarily, its very resource hungry and has d
 - Its all about client side function execution ,rendering, calls. So, usually, load and stress conditions are not applied like server side performance.
 - Single user based test scripts are usually made to determine time of every transaction.
 - That single user activity is monitored on different situation of load.
-##### Example : 
-Let say, your bank is transferring money , your server is idle, so how much time it takes for a transaction requested from client. In this condition, server response time will be deducted from full transaction(as it is server issue). We will do the same thing when there are average load, let’s say 1000 transactions, Or high load (say 10000 transaction) or even Over loaded condition(25000 transaction). We need to measure this incrementally because, client side code often based on server side response resource(like next javaScript /Ajax loading). For different condition, we might have different server response time but , the particular functionality/process involving local javaScript/ajax/Application should take the same time(because we are overlooking server response time).
 
-- because of different type of timings to measure and keeping math simple, most of the time we need to measure user experience time manually in reports.(jMeter has selenium/browser integration, so it will easy to get this values with built-in functions)
+
+##### Example : 
+Let's say, your bank is transferring money , your server is idle, so how much time it takes for a transaction requested from client. In this condition, server response time will be deducted from full transaction(as it is server issue). We will do the same thing when there are average load, let’s say 1000 transactions, Or high load (say 10000 transaction) or even Over loaded condition(25000 transaction). We need to measure this incrementally because, client side code often based on server side response resource(like next javaScript /Ajax loading). For different condition, we might have different server response time but , the particular functionality/process involving local javaScript/ajax/Application should take the same time(because we are overlooking server response time).
+
+Because of different type of timings to measure and keeping math simple, most of the time we need to measure user experience time manually in reports.(jMeter has selenium/browser integration, so it will easy to get this values with built-in functions)
 
 ### Server Side Application Performance : 
 It’s the most common in the performance world. Usually , all performance test tools refers to server side performance testing. Basically we need to test application performance in server. That means
@@ -56,7 +58,7 @@ So, we need to test server for
 
 And, we perform Load Testing, Stress Testing and Capacity testing(I hope I do not need to explain those).
 
-# Infrastructure Performance :
+# B : Infrastructure Performance :
 By the name we can guess that it says. Infrastructure Performance refers to physical and logical Infrastructure consumption and performances caused by our application. That means, the affect because of the application on the physical or logical resource. Like, if we need to deploy our application in IIS, what resource are needed. What will happen in different load conditions and complex scenarios or even high volume of data transfer. How much bandwidth application takes for sending /receiving requests. Or, what should be minimum condition of client resource.
 It is more related to monitoring and monitoring based stress and load. It’s the load & stress condition performance of the infrastructure.
 In my opinion, there are three types.
@@ -103,7 +105,7 @@ So, In summary Types
 
 Link to [Drive](https://drive.google.com/file/d/0Bzvlm2T8LMb1MGlLUnR3Vl9vUVU/view) (Use Mind Mup) or [download](/files/performance-testing/Performance-Testing-type.mup)
 
-##### Notes: 
+### Notes: 
 Modern applications (web or Hybrid) are smarter now a days. They behave depend on load to server. Like, if the server is in extreme condition, it wont show all pages or don't do regular functionality . Some are showing server busy message to users(like twitter). So, it totally depend on application smartness how its handles extreme conditions. In those extreme conditions most of the time time caused by DBs. And people says, its data base issues, but in my opinion, your application should be smart enough to handle all kind of issues. There may be an issue in any sector, why it will be expose. That is why, I some time do security testing like injection/XSS/CSRF in load condition to see data or application integrity in extreme condition. If you application can not handle extreme cases , how it can be scalable. And, that is why Smart applications these days have
 - Risk Planning
 - Application Behavior handing in all possible scenarios.
