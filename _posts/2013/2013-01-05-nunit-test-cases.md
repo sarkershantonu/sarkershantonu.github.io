@@ -124,7 +124,7 @@ public void GlobalCleanUp()
 
 Either we can provide Assert(talk in later on) or use return to compare values withe expected values. I am attaching both example in current context. 
 
-- With Assert
+With Assert
 
 ```
 [TestCase(2,3,5)]
@@ -137,7 +137,7 @@ public void TestAdd(int a, int b, int c)
 }
 ```
 
-- With return
+With return
 
 ```
 [TestCase(2,3, Result=5)]
@@ -160,6 +160,7 @@ public void TestAdd([Values(1,2,3)] int a,[Values(4,5)]int b)
 ```
 
 In here **TestAdd(1,4),TestAdd(1,5),TestAdd(2,4),TestAdd(2,5),TestAdd(3,4),TestAdd(3,5)**. This 6 test method will run.
+
 
 - When we need to specify a timeout (ms) for a test case, we will use **[Timeout(500)]** attribute.
 
