@@ -1,4 +1,4 @@
-- - - 
+---
 layout: post
 title: What is Deployment Testing?
 date: "2012- 12- 17 05:02"
@@ -8,7 +8,7 @@ gh- repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Deployment testing"
 gh- badge: [star,follow]
 comments: true
-- - - 
+---
 In this article we are going to learn how to perform deployment testing (for web, desktop, mobile application). Since there are many type of application in the world, I will try to update Info incrementally. 
 
 ### What is deployment testing? 
