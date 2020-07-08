@@ -41,6 +41,4 @@ An important advantage of Adhoc testing is that it helps to save a lot of precio
 - If a bug found, try to generate multiple time in the same way. (Hence, sometimes, it is very difficult to reproduce the defects as there are no test-steps or requirements mapped to it.) After doing that, try to generate in different ways.
 - After getting a bug, try other tasks that relate to the bug more frequently. 
 
-
-
-... Thanks....:)....
+Thanks :)
