@@ -110,5 +110,5 @@ Read the report and see if you think it's clear. Try to reproduce the bug by fol
 ##### Use multimedia :  
 In modern world , every one like multimedia in case of communication. Try to use at least screenshots to describe the error. 
 
-Thanks for your time that you pass reading the article….:) 
+Thanks.:) 
 
