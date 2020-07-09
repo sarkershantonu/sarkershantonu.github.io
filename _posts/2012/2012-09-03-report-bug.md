@@ -89,7 +89,10 @@ Step 0 , please check that bug is not listed before. So,
 Be very much specific for the steps and all the sections.
 
 ##### Be descriptive:  
-Provide more detail information rather than less. But be careful as If you say too much, the developer can skip some and if you say too short they have to come back and ask more questions. Ex- At the starting of my career, I wrote some bugs with one line steps where I had to explain several time to the developer. Later on I had to provide more detail on the comment section. So, bottom line is , you have to be descriptive enough to make all understand about the problem and you have to avoid over description. 
+Provide more detail information rather than less. But be careful as If you say too much, the developer can skip some and if you say too short they have to come back and ask more questions. 
+
+###### Example 
+At the starting of my career, I wrote some bugs with one line steps where I had to explain several time to the developer. Later on I had to provide more detail on the comment section. So, bottom line is , you have to be descriptive enough to make all understand about the problem and you have to avoid over description. 
 
 ##### Be careful of pronouns & language: 
 Be specific on component like don’t use words like "it", or references like "the window", when it's unclear what they mean. 
