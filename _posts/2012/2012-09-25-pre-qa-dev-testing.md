@@ -51,7 +51,7 @@ The main goal is for pre-QA to get issue(ticket) ready for full QA .
     - Best practice 5 min
     - Maximum 15 min  on EPIC ticket
 
-### Merits: 
+### Benefits: 
 - Faster delivery tickets(quick builds & Rapid development)
 - Stop wasting time on reporting/reading/communicating with bugs(less posted bugs)
 - Discuses more on issues for better understanding among the team(developers or QA members)
@@ -59,7 +59,7 @@ The main goal is for pre-QA to get issue(ticket) ready for full QA .
 - Team became more careful on product ( I have seen many developers showing bugs while doing pre QA)
 - Product become more stable before release and the risk factors become less. 
 
-### Demerits: 
+### Problems: 
 - Developer/QA members may react on the Pre-QA. A negotiation and professional attitude may resolve the issue( a senior may involve initially to clarify the necessity among the team)
 - It does not follow the traditional testing process.
 - Some issue may be easily miss-judge or overlooked or forgotten if notes are not carefully taken care of. 
