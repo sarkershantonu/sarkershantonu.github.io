@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Introduction to software testing
-date: "2009-05-25 14:46"
+date: "2009-05-26 14:46"
 tags: [testing]
-permalink: /2009/05/25/introduction-software-testing/
+permalink: /2009/05/26/introduction-software-testing/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Introduction to software testing"
 gh-badge: [star,follow]
