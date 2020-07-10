@@ -13,7 +13,7 @@ In this article we are going to simply file read and write in C#.
 
 Let's break down the topic into small problems:  
 
-#### Problem 1 : 
+### Problem 1 : 
 Write a program that will generate 4 types of “printable" random objects and store them in a single file, each object will be separated by a ",". 
 
 These are the 4 objects: 
@@ -31,7 +31,7 @@ youruasdifafasd, 127371237, asdfka12348fas,13123.123,
 asjdfklasdjfklaasf, 123192u3kjwekhf , 89181811238,122, 
 jslfhasjdfa900jkifh , 3.781, 2.11, ....
 ```
-#### Problem 2 : 
+### Problem 2 : 
 Write a program that will read the generated file above and print to the console the object and its type .Spaces before and after the alphanumeric object must be stripped.
 
 Sample output :
@@ -171,7 +171,6 @@ public class OutPutManager{
 ```
 
 #### Step 6: 
-
 In the main program copy the following code under main :
 
 ```
@@ -179,6 +178,7 @@ RandomStringGenerator rd = new RandomStringGenerator();
 OutPutManager output = new OutPutManager();
 output.WriteToFile(rd.StringOutPut()); 
 ```
+
 #### Step 7: 
 Compile the code and run , you will find a file in C:\output.txt who’s size is 20Mb
 
@@ -192,6 +192,7 @@ Make a class named Reader : The main respectability is to read string from a tex
 
 #### Step 3 : 
 Copy the following code there
+
 ```
 using System.IO;
 public class Reader{ 
