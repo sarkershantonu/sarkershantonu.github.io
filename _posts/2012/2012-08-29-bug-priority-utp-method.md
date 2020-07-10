@@ -34,6 +34,7 @@ First, let’s define the value . Like as tradition, I am suggesting 4,3,2,1 val
 
 #### Step 2 :
 Now , it the time to think about which role’s feedback we need to care about. 
+
 ###### Feedback from Project manager?
 But sometimes he may not know actual priorities about product features (because of development management tasks, parallel projects etc. BTW ,he never interact with end users like marketing people)
 
