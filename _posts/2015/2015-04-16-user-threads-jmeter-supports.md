@@ -9,7 +9,7 @@ excerpt: "Blog on Jmeter Advance"
 gh-badge: [star, follow]
 comments: true
 ---
-In this article we are going to learn how to calculate **number of users a single jmeter** instance can support?
+In this article we are going to learn how to calculate **number of users in a single jmeter** instance can support?
 
 This is very important as, after creating scenario and test cases, we need to run using Jmeter. Before going deeper into the conversation, we need to consider following facts , assumptions and steps to know the number.
 
@@ -51,7 +51,7 @@ Consider the Network speed. Measure how much bandwidth you need to run 1 user wi
 #### Example : 
 Let's assume we have Amazon C4.xLarge instance (Ubuntu server+Java8x64+4vCpu+7.5Gb+750MBps), and our test case has 5 http request total consumes 4.5MB data for a single user/thread.
 
-So, if we set Jmeter up to 6GB(Xmx6144m). Then we should be able to run scenario where the concurrent user count = (6144-1024)/4.5 = 1137.7 , consider as 1100 concurrent user.
+So, if we set Jmeter up to 6GB(Xmx6144m). Then we should be able to run scenario where the concurrent user count = (6144-1024)/4.5 = 1137.7 , consider as **1100 concurrent users**.
 
 Note : This is very typical calculation assuming best possible scenarios like
 - No Listeners are included in Jmeter script
