@@ -94,3 +94,5 @@ Here I have tried to solve the problem as conceptual point of view, where follow
 4. The PC suite of I-Phone provides a suitable environment to access cell phone. 
 5. We may have GUI for development( Interface builder) 
 6. We may have application optimizer(Instruments)
+
+Thanks :) 
