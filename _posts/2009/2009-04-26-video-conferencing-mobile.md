@@ -39,6 +39,7 @@ From the problem we get
 **Note**: In case of browser, the plug in will request for camera device to capture image, after capturing it will send to internet. And receiver will take and play, block wise. That means each block will come and will be played received part.
 
 #### Programming Camera Controller: Steps : 
+
 1. Start a project in IDE
 2. Import the camera accessing class library
 3. Wait for the request of capturing.
@@ -48,6 +49,7 @@ From the problem we get
 7. If no, ask: back to recording or close (User will select).
 
 #### Programming Sender: Steps: 
+
 1. Start a project in IDE  
 2. Import the camera accessing class library & GPRS protocol class library 
 3. Request for camera to capture/stored place (if we want to send video file) 
@@ -62,6 +64,7 @@ From the problem we get
 12. If no, then it will stop using camera and back to main menu. (if requires , it may close the connection)
 
 #### Programming Receiver: Steps: 
+
 1: Start a project in IDE 
 2. Import the GPRS protocol class library and system library (for calling media player).
 3. Check the network connection status
@@ -81,6 +84,7 @@ A mobile application used to be kept under MENU (organized like as tree).
 My application can be run under video transmitter in cell phone’s applications menu from Main menu. It will work both for sending and receiving video.
 
 ### The development flow 
+
 1. Code 
 2. compilation and error correction 
 3. Build making from code 
