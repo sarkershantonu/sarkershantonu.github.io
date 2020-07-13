@@ -52,13 +52,13 @@ Run ADB. From PC, run command prompt(better run as admin) and go to SDK director
         adb devices
 - to direct communicate with specific device, this is the syntax
 
-        adb -s _serialNumber_ command
-- Forwarding Ports
+        adb -s _serialNumber _command
+- Forwarding Ports tcp-6100 to tcp-7100
 
         adb forward tcp:6100 tcp:7100
 - Enabling logcat Logging        
         
-        adb logcat [<option>] ... [<filter-spec>] ()
+        adb logcat [<option>] ... [<filter-spec>]
 
 ## ADB Shell Commands (inherit from linux cli)
 - changes directories
@@ -81,7 +81,7 @@ Run ADB. From PC, run command prompt(better run as admin) and go to SDK director
         exit
 - UI/Application Exerciser Monkey
         
-        adb shell monkey -v -p <your.package.name> 500()
+        adb shell monkey -v -p <your.package.name> 500
 - Dumps system data to the screen
         
         dumpsys
