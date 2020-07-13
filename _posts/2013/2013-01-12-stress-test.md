@@ -9,9 +9,9 @@ excerpt: "Blog on Performance testing"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to have some basic idea on What is stress testing?And some basic steps on how to do it. In my other stress tool specific post, I will explain how to implement.
+In this article we are going to have some basic idea on What is stress testing?And some basic steps on how to do it. 
 
-In here, I am just describing my understanding. It may varies from others. If you have any comments, it will be very nice for me.
+In here, I am just describing my understanding. It may varies from others. It will be very nice if you comment on this. 
 
 In the software world, stress testing refers to the process to determine the ability of doing the functionality by the software under unfavorable conditions. 
 
@@ -30,7 +30,7 @@ The main idea is to provide stress to a system up to the breaking point in order
 - To find the recover-ability of the system on failure conditions  
 - To find vulnerabilities on stressful conditions. (Ex-Stress testing on Authentication)
 
-### Why Applications need Stress testing?
+## Why Applications need Stress testing?
 All application project don't need stress testing. When ever we need following, we have to perform stress testing. 
 - To get the breaking point of the system
 - To get the maximum capability for specification.
