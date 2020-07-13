@@ -10,49 +10,32 @@ gh-badge: [star,follow]
 comments: true
 ---
 In this article, we will try to understand  Interface
-Definition : We can define interface in different perspectives. They are as follows
+### Definition : 
+We can define interface in different perspectives. They are as follows
 
-Syntactically: Interface is a pure abstract class. Interface is a class which has to be defined (with functionality) to its implemented classes. That means if any class implements any interface that particular class has to implement the methods declared in Interface.
-In c#
+### Syntactically: 
+Interface is a pure abstract class. Interface is a class which has to be defined (with functionality) to its implemented classes. That means if any class implements any interface that particular class has to implement the methods declared in Interface. In c#
+
+```
 Interface {
-
 return-type method-name1(parameter-list);
-
 return-type method-name2(parameter-list);
-
 type final-varname1 = value;
-
 type final-varname2 = value;
-
-// ..
-
-….
-
-….
-
 return-type method-nameN(parameter-list);
-
 type final-varnameN = value;
-
 }
+```
 
-Methods won’t be implemented
+- Methods won’t be implemented
 
-Attributes will be fixed valued. (Like #define in c) 
-Declaration for a class
-
+Attributes will be fixed valued. (Like #define in c) . Declaration for a class
+```
 public Class :
-
 {
-
 // implementation
-
-………..
-
-…………
-
 }
-
+```
 
 #### Symmetrically: 
 Interface if the certain restricted set of rules that must be followed by the implemented classes. It means if in a problem domain a interface is declared as standard following. Then the classes have to follow through the interface, which addresses the problem domain.
