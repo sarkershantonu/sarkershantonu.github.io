@@ -10,7 +10,7 @@ gh-badge: [star,follow]
 comments: true
 ---
 
-#### How to make a crystal report in dotnet ? 
+### How to make a crystal report in dotnet ? 
 ##### Language: C# (dot net 2.0) 
 ##### Database: SQL 2005 Express 
  
@@ -42,6 +42,7 @@ Go to your development code
 ### Step 6. 
 
 Take a form ( blank) 
+
 ### Step 7. 
 Take component from form tool box ( choose Crystal reports -> CrystalReportViewer) & drop to your form 
 
