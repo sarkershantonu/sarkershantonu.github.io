@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Read Write Text File in c#
-date: "2009-05-25 19:02"
+title: Interface in OOP
+date: "2009-05-17 09:01"
 tags: [dotnet]
-permalink: /2009/05/25/read-write-text-dotnet/
+permalink: /2009/05/17/interface-oop/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Read Write Text File in c#"
+excerpt: "Blog on Interface in OOP"
 gh-badge: [star,follow]
 comments: true
 ---
