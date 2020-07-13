@@ -10,7 +10,7 @@ gh-badge: [star,follow]
 comments: true
 ---
 
-### How to make a crystal report ? . 
+#### How to make a crystal report in dotnet ? 
 ##### Language: C# (dot net 2.0) 
 ##### Database: SQL 2005 Express 
  
@@ -20,12 +20,12 @@ Make a new file with extension (any name) *..udl In you solution Folder.( Creati
 ### Step 2:  
 Double Click to configure. Choose SQL Native Client 
 
-![]()
+![data-link-properties](/images/dotnet/crystal-report/data-link-properties.JPG)
 
 ### Step 3:  
 Then next tab connection 
 
-![]()
+![data-link-properties-connection](/images/dotnet/crystal-report/data-link-properties-connection.JPG)
  
 **Here Pc Name: BJIT-0667A6AC89**
 
@@ -45,21 +45,21 @@ Take a form ( blank)
 ### Step 7. 
 Take component from form tool box ( choose Crystal reports -> CrystalReportViewer) & drop to your form 
 
-![]()
+![crystal-reports](/images/dotnet/crystal-report/crystal-reports.JPG)
 
 ### Step 8. 
 Right click on report sowing form choose create report ( new) 
 
-![]()
+![crystal-reports-properties](/images/dotnet/crystal-report/crystal-reports-properties.JPG)
 
 ### Step 9. 
 
-![]()
+![crystal-reports-gallery](/images/dotnet/crystal-report/crystal-reports-gallery.JPG)
 
 ### Step 10. 
 Create new connection Select OLE DB (ADO) 
 
-![]()
+![crystal-reports-ado](/images/dotnet/crystal-report/crystal-reports-ado.JPG)
 
 ### Step 11. 
 Select SQL Native Client ( Higilight) 
@@ -73,7 +73,7 @@ From (…) Show the path of created link file.
 ### Step 14. 
 Click NEXT 
 
-![]()
+![crystal-reports-ado-wizard](/images/dotnet/crystal-report/crystal-reports-ado-wizard.JPG)
 
 ### Step 15. 
 Serve : pc name\sql client name (Example: BJIT-0667A6AC89\SQLEXPRESS) 
@@ -84,12 +84,12 @@ It will automatically get the database.
 ### Step 17. 
 Choose Next & Finish 
 
-![]()
+![crystal-reports-oledb](/images/dotnet/crystal-report/crystal-reports-oledb.JPG)
 
 ### Step 18. 
 Next steps are configuring the report (May 7) . These depend on Requirements 
 
-![]()
+![field-explorer](/images/dotnet/crystal-report/crystal-reports-field-explorer.JPG)
 
 ### Step 19. 
 Editing from there you can easily find the components to show. 
