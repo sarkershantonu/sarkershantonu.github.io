@@ -54,25 +54,23 @@ public Class :
 }
 
 
-Symmetrically: Interface if the certain restricted set of rules that must be followed by the implemented classes. It means if in a problem domain a interface is declared as standard following. Then the classes have to follow through the interface, which addresses the problem domain.
+#### Symmetrically: 
+Interface if the certain restricted set of rules that must be followed by the implemented classes. It means if in a problem domain a interface is declared as standard following. Then the classes have to follow through the interface, which addresses the problem domain.
 
-For example: If our problem domain in making a bank account management software then the interface Account (let) must be implemented among various types of accounts. More likely
+##### example: 
+
+If our problem domain in making a bank account management software then the interface Account (let) must be implemented among various types of accounts. More likely
 
 Account interface defined as…..( Only functions)
 
-<!--[if !supportLists]-->a. <!--[endif]-->Order Cheque Book
-
-<!--[if !supportLists]-->b. <!--[endif]-->Deposit amount
-
-<!--[if !supportLists]-->c. <!--[endif]-->Withdraw amount
-
-<!--[if !supportLists]-->d. <!--[endif]--> See current balance
+- Order Cheque Book  ```<!--[if !supportLists]-->a. <!--[endif]``` 
+- Deposit amount ```<!--[if !supportLists]-->b. <!--[endif]```
+- Withdraw amount ```<!--[if !supportLists]-->c. <!--[endif]```
+- See current balance ```<!--[if !supportLists]-->d. <!--[endif]``` 
 
 In that problem domain Let us consider in bank there are 2 type of accounts
-
-i. Savings Account
-
-ii. Current Account
+- Savings Account
+- Current Account
 
 So, Those two types of account must follow ( let them implement) along the structure of the interface account . They may have additional functionalities but they must follow the interface.
 
