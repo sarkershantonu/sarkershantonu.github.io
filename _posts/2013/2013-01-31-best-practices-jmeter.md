@@ -74,8 +74,13 @@ Then perform like normal SOAP request.
 
         https.use.cached.ssl.context=false
 
-### Use Delay : (for stress only)
-While testing for Stressing server, try to use delay to create real life user scenario. This will help keep test case like as real life. For example, you have weak log in database, and you want to avoid DB testing, add delay like 3/4 second after log in request(use constant timer, as a child of the next request of the log in request)
+### Use Delay :
+While testing for Stressing server, try to use delay to create real life user scenario. This will help keep test case like as real life. 
+
+For example, you have weak log in database, and you want to avoid DB testing, add delay like 3/4 second after log in request(use constant timer, as a child of the next request of the log in request)
+- Delay at each step
+- Delay after end of single user execution (iteration pacing) 
+- Little extra for any post processing or Assertions
 
 ### Recording & Parametrization : 
 If you use HTTP proxy server for recording and want to parametrize the URL in the script, add the URL variable in the root test plan and then record under of that. After recording you will get every request using the URL will be parametrized. 
