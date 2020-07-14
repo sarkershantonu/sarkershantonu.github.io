@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jmeter Best Practices?
+title: Jmeter Best Practices
 date: "2013-01-31 20:52"
 tags: [Jmeter]
 permalink: /2013/01/31/best-practices-jmeter/
@@ -35,11 +35,12 @@ In this part I will share some finding of mine using Jmeter. I have not done all
 This is commandline user and loop count parameter jmeter test plan run command  
 
         jmeter -t TestPlan.jmx -Jusers=10 -Jcount=50
-        
+
+
 ### Test Debugging 
 - Debug you test case using View Results Tree listener.
 - Disable view result size limit by enabling this line from jmeter.properties(you can see any of my configuring jmeter for basic idea)
- 
+
         view.results.tree.max_size=0  
   
 ### Test Execution
