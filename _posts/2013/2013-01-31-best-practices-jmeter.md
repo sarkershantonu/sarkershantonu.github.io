@@ -52,13 +52,13 @@ This is commandline user and loop count parameter jmeter test plan run command
 - Use .CSV format to save results. either you can edit jmeter.properties or user.properties for enabling CSV file result saving options(For help,you can see this post)
 - Best to use Aggregate Graph, Response Time Graph, and  plugin graphs(see this post for plugin installation)
 
-##### How to get Session id/ JSON id / Cookie id / token/ view state? 
+### How to get Session id/ JSON id / Cookie id / token/ view state? 
 When these are generated dynamically, we have to parametrize those and use it with next requests. Without that , we will get session time out. To solve that, we need to extract those values from response data. So we will 
 - Add a Regular Expression Extractor as a child of the request(of which response data will contain those information)
 - Use the variable mentioned in Regular Expression Extractor, in the requests send after getting.
 **Note** : I will provide separate regular expression related post
 
-##### How to test Web Service (SOAP) with HTTPS(with credential)? 
+### How to test Web Service (SOAP) with HTTPS(with credential)? 
 - Add a HTTP Authorization Manager
 - Add a SOAP/XML-RPC Request Sampler
 - In Authorization Manager 
@@ -74,13 +74,13 @@ Then perform like normal SOAP request.
 
         https.use.cached.ssl.context=false
 
-#### Use Delay : (for stress only)
+### Use Delay : (for stress only)
 While testing for Stressing server, try to use delay to create real life user scenario. This will help keep test case like as real life. For example, you have weak log in database, and you want to avoid DB testing, add delay like 3/4 second after log in request(use constant timer, as a child of the next request of the log in request)
 
-#### Recording & Parametrization : 
+### Recording & Parametrization : 
 If you use HTTP proxy server for recording and want to parametrize the URL in the script, add the URL variable in the root test plan and then record under of that. After recording you will get every request using the URL will be parametrized. 
 
-#### Test Execution : 
+### Test Execution : 
 - Before running **give more RAM to Jmeter** . How to do that? Open jmeter.bat(for windows) or jmeter.sh(for linux) with text editor , you will get a line for HEAP memory. default 512m. Make it 1024m or 2048
         
         set HEAP=-Xms2048m -Xmx2048m
