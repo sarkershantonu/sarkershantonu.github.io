@@ -21,10 +21,9 @@ SLA can be also be described as
 ### Baseline : 
 For comparing , when we select a value as Ideal/standard or basis of all comparison, it is called based line. You can google for more detail info, but this is just simple to understand. All baseline values has preconditions details as standard.
 
-Form [**previous post**](https://sarkershantonu.github.io/2014/12/16/performance-requirements/) , we know , performance is all about how fast and how many users. (in summary). 
+Form [**previous post**](https://sarkershantonu.github.io/2014/12/16/performance-requirements/) , we know , performance is all about how fast and how many users.
 
 So, Let's assume we have an web application like below architecture(2 tire architecture) .
-
 - User interact with browser with web server.
 - Web server has app server that talks to Database
 - Database is shared with multiple downstream systems & publishers.(full back end) 
@@ -56,7 +55,9 @@ It is the user time for each interaction which involves
 - Complete Rendering all responses in the Browser to see full results of that action. 
 
 **Example**: Lets consider LinkedIn a page. When an user go to www.linkedin.com , browser send GET URl requests. And, the requests goes to webserver and responded with page & resources which are rendered and showed to user. And, now user put user name & password & press sign in, he get logged in and see his home page. In here, we can see an user have different actions and responses from web server.
+
 So, Application SLA will have this response time specified. What should for click log in, what should URL enter & get all item loaded(page load) , what should be typing to text box(user name & password) . 
+
 These are mainly full page allowed events that an user can do. If page is divided into multiple small page items, it also applies for individual small item.
 
 ### How to measure ? 
