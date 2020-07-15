@@ -3,7 +3,7 @@ layout: post
 title: Java Thread & Synchronization
 date: "2015-10-07 12:45"
 tags: [java]
-permalink: /2015/10/07/java-thread-synchronization/
+permalink: /2015/10/07/java-thread-sync/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on java Thread"
 gh-badge: [star,follow]
