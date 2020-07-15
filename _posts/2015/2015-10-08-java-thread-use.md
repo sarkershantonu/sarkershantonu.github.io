@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to use a Thread?
+title: How to apply Java Thread?
 date: "2015-10-08 22:30"
 tags: [java]
 permalink: /2015/10/08/java-thread-use/
@@ -9,7 +9,7 @@ excerpt: "Blog on java Thread"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how can we apply Java Threading. This is very basic without Executor service. We can apply threading in two ways.
+In this article we are going to see how can we apply [**Java Threading**](https://sarkershantonu.github.io/2015/10/08/java-thread-use/). This is very basic without Executor service. We can apply threading in two ways.
 - **Extending Thread class** : Which is self executable (can run directly)
 - **Implement runnable interface** : Which is not self executable , need to include a thread to execute this.
 
