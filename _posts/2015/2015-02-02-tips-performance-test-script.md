@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tips on Scripting Performance tests
+title:  Performance Tests Script best practices
 date: "2015-02-02 08:07"
 tags: [Performance-Testing]
 permalink: /2015/02/02/tips-performance-test-script/
