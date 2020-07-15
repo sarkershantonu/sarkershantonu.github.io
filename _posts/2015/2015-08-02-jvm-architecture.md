@@ -9,9 +9,9 @@ excerpt: "Blog on JVM Architecture"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see a quick overview on **JVM Architecture**. This is very useful if you are a developer or a **performance engineer* who needs to monitor JVM and investigate issues . 
+In this article we are going to see a quick overview on **JVM Architecture**. This is very useful if you are a developer or a **performance engineer** who needs to monitor JVM and investigate issues . 
 
-Our main goal is to know inner components, workflow and key monitoring items. We will discuses only about JVM comes with JDK8. 
+Our main goal is to know inner components, workflow and key monitoring items. We will discuses only about JVM comes with **JDK8**. 
 
 ## What is JVM?
 JVM refers to java virtual machine. It comes with JDK/JRE. JVM is the runnable instance where JRE is the main packages of JVM , Java Package Classes and necessary run time items containing with this. So, JVM is a part of JRE. 
@@ -30,7 +30,7 @@ There is another component stays beside these component which is very necessary,
 
 Now, lets see details. 
 
-## i. Class Loader(CL) :  
+## 1. Class Loader(CL) :  
 By the name class loader , we can easily understand what it actually do. It loaded the class(byte code) to execution engine. 
 
 To load a class, it must need some checking before initiation and then it will load into memory of execution engine.
@@ -72,7 +72,7 @@ In this phase, classes are actually initialized. It means,
 
 **Note** : Each steps has separate runtime exceptions.
 
-## ii.Runtime Data area: JVM Memory 
+## 2.Runtime Data area: JVM Memory 
 
 In JVM there are **6 types of memory(basic 5)** defined by their functions:
 
@@ -81,7 +81,7 @@ This is JVM’s method spaces that stores Class data/metadata/Class level consta
 
 This is actually JVM’s internal memory used to execution. It is created once per JVM.
 
-- Default size : 64MB at MAX. 
+- Default size : **64MB** at MAX. 
 - tuning JVM parameters are **XX:PermSize, -XX:MaxPermSize**
 
 Before java 1.8 it was called **perm-gen** space. Method area is eliminated and **replaced with Meta Space in JVM 1.8**. 
@@ -94,7 +94,11 @@ A high watermark is used for inducing a GC,
 - when committed memory of all metaspace reaches this level, a GC is triggered. 
 - We can use the following flag: **-XX:MetaspaceSize=_size_** ,to specify the initial high water level.
 
-Metaspace expand the native memory usages until it gets to some level (starts at MetaspaceSize). When it reaches the level, it performs a GC (to see if classes can be unloaded). After that if there is free spaces, it is used , if not it uses more native memory.
+Metaspace expand the native memory usages until it gets to some level (starts at MetaspaceSize). 
+
+When it reaches the level, it performs a GC (to see if classes can be unloaded). 
+
+After that if there is free spaces, it is used , if not it uses more native memory.
 
 After that GC it decides to do on the next level for doing a GC .
 
@@ -110,13 +114,13 @@ By default **1/4 th of PC's physical memory** is allocated for JVM.
 **Example** : if I have 8GB ram, Max Heap will be 2GB. Heap is created once per JVM.
 
 We can tune the heap by following JVM parameters 
-- Xms_Size_, Minimum size of heap
-- Xmx_Size_, Maximum size of heap
-- XX:MinHeapFreeRatio=_Percentage Minimum _, JVM shrink parameter set to minimum to keep low memory usages when it is not needed. 
-- XX:MaxHeapFreeRatio=_Percentage maximum_, JVM shrink parameter set to Maximum to keep highest memory usages in full execution. 
-- XX:NewRatio=_Number_ , The ration of old:young generation objects.ex- 2, means, old:young = 1:2
-- XX:NewSize=_Size_, Young generation minimum size. 
-- XX:MaxNewSize=_Size_, Young generation Maximum size.
+- **Xms_Size_**, Minimum size of heap
+- **8Xmx_Size_**, Maximum size of heap
+- **XX:MinHeapFreeRatio=_Percentage Minimum _**, JVM shrink parameter set to minimum to keep low memory usages when it is not needed. 
+- **XX:MaxHeapFreeRatio=_Percentage maximum_**, JVM shrink parameter set to Maximum to keep highest memory usages in full execution. 
+- **XX:NewRatio=_Number_**, The ration of old:young generation objects.ex- 2, means, old:young = 1:2
+- **XX:NewSize=_Size_**, Young generation minimum size. 
+- **XX:MaxNewSize=_Size_**, Young generation Maximum size.
 
 Heap is divided in several area based on what GC you select. Typically, a heap is divided into two area based on what type of memory they create. 
 1. **Young Generation space** : For newly created objects. 
@@ -150,7 +154,7 @@ Java memory to execute native method. It is governed by Java Native Interface. T
 
 ![jvm-memory-distribution](/images/java/jvm/jvm-memory-distribution.jpg)
 
-## iii. Execution Engine : 
+## 3. Execution Engine : 
 This part of JVM, performs actual task. Java Execution engine has following parts inside. 
 
 ### A. Interpreter : 
@@ -174,7 +178,7 @@ we get the following picture
 
 ![jvm-overall](/images/java/jvm/jvm-overall.jpg)
 
-And From Internet, 
+And From [**wikimedia**](https://commons.wikimedia.org/wiki/File:Bdb.gif), 
 
 ![jvm-web](/images/java/jvm/jvm-web.jpg)
 
