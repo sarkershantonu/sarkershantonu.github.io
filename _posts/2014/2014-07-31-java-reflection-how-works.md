@@ -2,7 +2,7 @@
 layout: post
 title: What is Java Reflection?
 date: "2014-07-31 01:07"
-tags: [java]
+tags: [java,reflection]
 permalink: /2014/07/31/java-reflection-how-works/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on java Reflection"
@@ -23,9 +23,7 @@ It’s actually a very easy way to access class items instead of calling them. I
 ## How it works?
 We can use reflection to access classes when they are loaded to JVM. 
 
-Unlikely using in compile time, reflection access all items in a class during runtime in JVM. 
-
-That means, we can apply dynamic logics, make dynamic and flexible application with reflection. And we should care about the complexity that it might cause.
+Unlikely using in compile time, reflection access all items in a class during runtime in JVM. That means, we can apply dynamic logics, make dynamic and flexible application with reflection. And we should care about the complexity that it might cause.
 
 ## Why we use it?
 - I should say, it is mostly used when we need to take decision dynamically or runtime. That is is why it is mostly used with different patterns(like factory).
