@@ -18,16 +18,11 @@ But, as junit grows from old generation to newer generations, many of its mechan
 
 All of them are commonly use different ways of testing. I wont be talking about in detail differences but, we will talk about more or less overall functionality with comparison. 
 
-## Test Declaration
-- Junit3: 
-- Junit4:
-- Junit5 
-
 # Compare 
 
 | NO | Topic |Junit3|Junit4|Junit5|TestNG|
 |-------|-------|-------|-------|-------|-------|
-| 1 | Test Declaration |testXXX pattern |@Test|@Test|@Test|
+|1|Test Declaration|testXXX pattern |@Test|@Test|@Test|
 |2|Run a method Before each Test|setUp()|@Before|-|@BeforeMethod|
 |3|Run a method after a each Test Method|tearDown()|@After|-|@AfterMethod|
 |4|Ignoring a test|Remove/Comment|@ignore|-|@Test(enabled=false)|
