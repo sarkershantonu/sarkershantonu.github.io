@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Compare study : Junit & TestNG
+title: Compare study Junit vs TestNG
 date: "2015-08-19 13:28"
 tags: [java,junit,testng]
 permalink: /2015/08/19/junit-testng/
