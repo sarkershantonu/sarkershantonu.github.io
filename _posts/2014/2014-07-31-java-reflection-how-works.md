@@ -9,12 +9,16 @@ excerpt: "Blog on java Reflection"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to know about Reflection. Reflection basic, How it works? how we can use it? I will use Java example with eclipse. But you can use C# also. I will provide separate post for Reflection with C#.
+In this article we are going to know about **Java Reflection**, basic, how it works? how we can use it? 
 
-What is Reflection?
-By name Reflection we know it reflect some thing. Actually, it reflects existing class, methods, fields, interfaces. We can get all information as well as we can access those, invoke those or some time manipulate those.  
+I will use Java example with eclipse. But you can use C# also.
 
-In short we can call Reflection as a class manipulator. I have seen people get very afraid by the mane. It’s actually a very easy way to access class items instead of calling them. It is more over an API rather than technique to change existing class/packages. It will mainly work for meta data rather then main information.
+## What is Reflection?
+By name Reflection we know it reflect some thing. Actually, it reflects existing **class, methods, fields, interfaces**. We can get all information as well as we can access those, invoke those or some time manipulate those.  
+
+In short we can call Reflection as a **class manipulator**. I have seen people get very afraid by the mane. 
+
+It’s actually a very easy way to access class items instead of calling them. It is more over an API rather than technique to change existing class/packages. It will mainly work for meta data rather then main information.
 
 How it works?
 Actually, it works on JVM. That means, we can use reflection to access classes when they are loaded to JVM. Unlikely using in compile time, reflection access all items in a class during runtime in JVM. That means, we can apply dynamic logics, make dynamic and flexible application with reflection. And we should care about the complexity that it might cause.
