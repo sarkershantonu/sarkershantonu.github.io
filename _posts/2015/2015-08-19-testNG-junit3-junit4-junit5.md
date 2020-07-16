@@ -9,16 +9,16 @@ excerpt: "Blog on java Unit Testing"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see learn about TestNG, JUnit3,JUnit4 & JUnit5 by Comparison. Initially this was posted only Junit3,4 & test NG. But I have updated with Junit5(2020)
+In this article we are going to see learn about TestNG, JUnit3,JUnit4 & JUnit5 by Comparison. Initially this was posted only Junit3,Junit4 & testNG. But I have updated with Junit5(2020)
 
-# Basics 
+### Basics 
 All of them are Java  unit testing frameworks. And all of them has builtin test runners , assertion utilities, test organization technique as well as extensibility. Some also have reporting capability. 
 
 But, as junit grows from old generation to newer generations, many of its mechanism has evolved. And TestNG was introduced in between parallel to Junit to overcome some of testing needs. 
 
-All of them are commonly use different ways of testing. I wont be talking about in detail differences but, we will talk about more or less overall functionality with comparison. 
+All of them are commonly used different ways of testing. I wont be talking about in detail differences but, we will talk about more or less overall functionality with comparison. 
 
-# Compare 
+### Compare based on topics
 
 | NO | Topic |Junit3|Junit4|Junit5|TestNG|
 |-------|-------|-------|-------|-------|-------|
