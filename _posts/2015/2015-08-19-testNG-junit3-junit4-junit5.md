@@ -9,7 +9,7 @@ excerpt: "Blog on java Unit Testing"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see learn about TestNG, JUnit3,JUnit4 & JUnit5 by Comparison. Initially this was posted only Junit3,Junit4 & testNG. But I have updated with Junit5(2020)
+In this article we are going to see learn about TestNG, JUnit3,JUnit4 & JUnit5 by Comparison. Initially this was posted only Junit3,Junit4 & testNG. But I have updated with Junit5.
 
 ### Basics 
 All of them are Java  unit testing frameworks. And all of them has builtin test runners , assertion utilities, test organization technique as well as extensibility. Some also have reporting capability. 
@@ -76,6 +76,5 @@ All of them are commonly used different ways of testing. I wont be talking about
 |51|Custom test name|-|-|@DisplayName|-|
 |52|Locking resource declaration|-|-|@ResourceLock,@ResourceLocks|-|
 |53|Using a temporary directory for data or field|-|-|@TempDir|-|
-
 
 I hope, this will give basic idea to start testing with these unit test framework. I will provide separate post on how to organize & plan your tests with these test frameworks.
