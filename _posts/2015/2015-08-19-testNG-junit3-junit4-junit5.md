@@ -36,7 +36,7 @@ All of them are commonly used different ways of testing. I wont be talking about
 |12|Runs a method after a group (XML)|-|-|-|@AfterGroups|
 |13|Exception Checking|explicitly call fail & then assert in catch block|@Test(expected = <Name of the Exception>.class) or using @Rule ExpectedException |Using Exception in an Executable functional interface |@Test(expectedExceptions = ExceptionClassName.class)|
 |14|Timeout for test execution|-|@Test(timeout = 1000)|@Timeout (value=long type)|@Test(timeout = timeoutinmilisecond)|
-|15|invoke threads to run test in parallel|-|-|-|@Test(threadPoolSize = threadNumber)|
+|15|invoke threads to run test in parallel|-|-|@Execution|@Test(threadPoolSize = threadNumber)|
 |16|always runs a test method(ignores dependent tests)|-|-|-|@Test(alwaysRun=true)|
 |17|specify test groups |-|-|-|@Test(groups = Name of the group specified in XML)|
 |18|Description|-|-|-|@Test(description=The description for the tests)|
@@ -74,4 +74,8 @@ All of them are commonly used different ways of testing. I wont be talking about
 |49|Nested Test Class |-|-|@Nested|-|
 |50|Custom display name generator|-|-|@DisplayNameGeneration|-|
 |51|Custom test name|-|-|@DisplayName|-|
+|52|Locking resource declaration|-|-|@ResourceLock,@ResourceLocks|-|
+|53|Using a temporary directory for data or field|-|-|@TempDir|-|
+
+
 I hope, this will give basic idea to start testing with these unit test framework. I will provide separate post on how to organize & plan your tests with these test frameworks.
