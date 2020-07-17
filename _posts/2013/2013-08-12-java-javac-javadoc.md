@@ -45,10 +45,10 @@ The user class contains fully qualified names(with package name) and stored in t
 (A dot will create a child folder. i.e. If a qualified class name = com.package.MyClass , then the my class will be com/package/MyClass.java file. and byte code will be com/package/MyClass.class). 
 
 Java command puts the user class path string in the **java.class.path** system property. where
-- The default  **.**, means that user class files are all the class files in the current directory (or under it, if in a package).
+- The default DOT(**.**) means that user class files are all the class files in the current directory (or under it, if in a package).
 - The value of the **CLASSPATH** environment variable, which overrides the default value.
 - The value of the **-cp** or **-classpath** option overrides both the default value and the CLASSPATH value.
-- The JAR is specified by **-jar** option, which overrides all other values. If this option is used, all user classes must come from the **specified archive**. 
+- The JAR is specified by **-jar** option, which overrides all other values. If this option is used, all user classes must come from the specified **archive**. 
 
 If , classes are in a JAR file, java command gets class list from manifest (I will provide a separate post for JAR file specification)In general, classes referenced by a
 - The JAR files in the JAR-class-path are searched after any earlier class path entries, and before any entries that appear later in the class path.
@@ -60,9 +60,9 @@ If , classes are in a JAR file, java command gets class list from manifest (I wi
 - For source code processing both need object type used in source code.
 - The class files are used to resolve source code references but,
 - Both resolve references to classes and interfaces that may be present in class files, source files, or both (though have nothing to do with implementation of javac or javadoc)
-- The tools classes in tools.jar are only used to run javac and javadoc.
-- Both javac and javadoc supports bootstrap and extension class path changing with -bootclasspath and -extdirs options. (not modify to the classes that runs the javac or javadoc themselves).
+- The tools classes in **tools.jar** are only used to run javac and javadoc.
+- Both javac and javadoc supports bootstrap and extension class path changing with **-bootclasspath** and **-extdirs** options. (not modify to the classes that runs the javac or javadoc themselves).
 - If a referenced class is found in both a class file and source file, javadoc always uses the source file but javac uses class files(automatically recompiles any out of date class files , these rules have specifications)
-- By default, **javac/javadoc** search the user class path for both class and source unless -sourcepath is specified (for source files only)
+- By default, **javac/javadoc** search the user class path for both class and source unless **-sourcepath** is specified (for source files only)
 
 Thanks...:)
