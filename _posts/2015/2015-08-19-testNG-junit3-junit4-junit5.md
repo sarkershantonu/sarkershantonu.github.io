@@ -23,9 +23,9 @@ All of them are commonly used different ways of testing. I wont be talking about
 | NO | Topic |Junit3|Junit4|Junit5|TestNG|
 |-------|-------|-------|-------|-------|-------|
 |1|Test Declaration|testXXX pattern |@Test|@Test|@Test|
-|2|Run a method Before each Test|setUp()|@Before|-|@BeforeMethod|
+|2|Run a method Before each Test|setUp()|@Before|@BeforeEach|@BeforeMethod|
 |3|Run a method after a each Test Method|tearDown()|@After|-|@AfterMethod|
-|4|Ignoring a test|Remove/Comment|@ignore|-|@Test(enabled=false)|
+|4|Ignoring a test|Remove/Comment|@ignore|@Disabled|@Test(enabled=false)|
 |5|Run a method before a Test Class|-|@BeforeClass|-|@BeforeClass|
 |6|Run a method after a Test Class|-|@AfterClass|-|@AfterClass|
 |7|Run a method before a declared in ```<test>``` tag in xml |-|-|-|@BeforeTest|
@@ -35,12 +35,12 @@ All of them are commonly used different ways of testing. I wont be talking about
 |11|Runs a method before a group (XML)|-|-|-|@BeforeGroups|
 |12|Runs a method after a group (XML)|-|-|-|@AfterGroups|
 |13|Exception Checking|explicitly call fail & then assert in catch block|@Test(expected = <Name of the Exception>.class) or using @Rule ExpectedException |Using Exception in an Executable functional interface |@Test(expectedExceptions = ExceptionClassName.class)|
-|14|Timeout for test execution|-|@Test(timeout = 1000)|-|@Test(timeout = timeoutinmilisecond)|
+|14|Timeout for test execution|-|@Test(timeout = 1000)|@Timeout (value=long type)|@Test(timeout = timeoutinmilisecond)|
 |15|invoke threads to run test in parallel|-|-|-|@Test(threadPoolSize = threadNumber)|
 |16|always runs a test method(ignores dependent tests)|-|-|-|@Test(alwaysRun=true)|
 |17|specify test groups |-|-|-|@Test(groups = Name of the group specified in XML)|
 |18|Description|-|-|-|@Test(description=The description for the tests)|
-|19|Repeat Same test|-|-|-|@Test(invocationCount=integer)|
+|19|Repeat Same test|-|-|@RepeatedTest|@Test(invocationCount=integer)|
 |20|Repeat Test Timeout|-|-|-|@Test(invocationTimeOut=)|
 |21|Prioritizing tests|-|-|-|@Test(priority=integer)|
 |22|Defining Expected success percentage|-|-|-|@Test(successPercentage=integer)|
@@ -54,7 +54,7 @@ All of them are commonly used different ways of testing. I wont be talking about
 |30|Data Provider with Object[][]|-|@DataProvider from [TNG](https://github.com/TNG/junit-dataprovider)|-|@DataProvider|
 |31|Add test parameter|-|@TestWith by [zohhak](https://github.com/piotrturski/zohhak)|-|-|
 |32|Define Rules for test |-|@Rules|-|-|
-|33|Fixing ordering of test execution at class level|-|@FixMethodOrder|-|-|
+|33|Fixing ordering of test execution at class level|-|@FixMethodOrder|@Order,@TestMethodOrder|-|
 |34|Define Rules for test classes|-|@ClassRule|-|-|
 |35|Alternative @test method run as theories by assumptions|-|@Theory|-|-|
 |36|Multiple Data Input for theories|-|@TestedOn|-|-|
@@ -69,7 +69,9 @@ All of them are commonly used different ways of testing. I wont be talking about
 |45|Runs only Categorized classes and methods|-|@IncludeCategory|-|-|
 |46|Exclude classes and methods that are not annotated with either the category or given with this|-|-|-|-|
 |47|Defines a listener in a test class|-|-|-|@Listeners|
-|48|factory that returns Test classes objects|-|-|-|@Factory|
-
-
+|48|factory that returns Test classes objects|-|-|@TestFactory|@Factory|
+|49|Tagging tests|-|-|@Tag,@Tags|-|
+|49|Nested Test Class |-|-|@Nested|-|
+|50|Custom display name generator|-|-|@DisplayNameGeneration|-|
+|51|Custom test name|-|-|@DisplayName|-|
 I hope, this will give basic idea to start testing with these unit test framework. I will provide separate post on how to organize & plan your tests with these test frameworks.
