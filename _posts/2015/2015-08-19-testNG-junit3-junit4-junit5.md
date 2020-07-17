@@ -24,10 +24,10 @@ All of them are commonly used different ways of testing. I wont be talking about
 |-------|-------|-------|-------|-------|-------|
 |1|Test Declaration|testXXX pattern |@Test|@Test|@Test|
 |2|Run a method Before each Test|setUp()|@Before|@BeforeEach|@BeforeMethod|
-|3|Run a method after a each Test Method|tearDown()|@After|-|@AfterMethod|
+|3|Run a method after a each Test Method|tearDown()|@After|@AfterEach|@AfterMethod|
 |4|Ignoring a test|Remove/Comment|@ignore|@Disabled|@Test(enabled=false)|
-|5|Run a method before a Test Class|-|@BeforeClass|-|@BeforeClass|
-|6|Run a method after a Test Class|-|@AfterClass|-|@AfterClass|
+|5|Run a method before a Test Class|-|@BeforeClass|@BeforeAll|@BeforeClass|
+|6|Run a method after a Test Class|-|@AfterClass|@AfterAll|@AfterClass|
 |7|Run a method before a declared in ```<test>``` tag in xml |-|-|-|@BeforeTest|
 |8|Run a method after a declared in ```<test>``` tag in xml |-|-|-|@AfterTest|
 |9|Runs a method before a suite|-|-|-|@BeforeSuite|
