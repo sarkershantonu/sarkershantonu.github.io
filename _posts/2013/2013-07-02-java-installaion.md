@@ -14,11 +14,25 @@ In this article we are going to see installation process of Java. By mean of Jav
 ## What is Java? 
 Java introduced as programming language, which has its own runtime environment(named JRE) that runs java applications on top of JVM(java virtual machine)
 
-# Java Installation 
-- For Open JDK : 
-- For Graal VM : 
-- For Oracle JDK : 
+## Java Installation , windows
+- For Open JDK : [Download from here](https://openjdk.java.net/) and follow Gui Instructions
+- For Graal VM : [Download from here](https://github.com/graalvm/graalvm-ce-builds/releases/) and follow Gui Instructions
+- For Oracle JDK : [Download from here](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) and follow Gui Instructions
 
+
+Make sure you choose windows 64bit
+
+## Java Installation , Ubuntu
+- For Open JDK8 : 
+        
+        sudo apt-get update && sudo apt-get install openjdk-8-jdk
+- For Open JDK8 : 
+      
+        sudo apt-get update && sudo apt-get install openjdk-13-jdk
+- For Graal VM : [Download from here](https://github.com/graalvm/graalvm-ce-builds/releases/) and follow Gui Instructions
+- For Oracle JDK : [Download from here](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) and follow Gui Instructions
+
+Installation does not mean you can use in command line. You need to add certain environment variable then you can 
 # Configure Environment
 Java to OS's PATH. Keep the java's bin directory path in the operation system's path .It will help a OS to find the commands.
 
