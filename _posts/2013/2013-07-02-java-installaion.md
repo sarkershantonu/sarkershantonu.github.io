@@ -11,20 +11,16 @@ comments: true
 ---
 In this article we are going to see installation process of Java. By mean of Java, I am referring JDK which comes with JRE. 
 
-What is Java? 
+## What is Java? 
+Java introduced as programming language, which has its own runtime environment(named JRE) that runs java applications on top of JVM(java virtual machine)
 
-As we k
-the commands and tools which are available after installing Java SDK. Mainly we will focus on the basic of the command and we will see commands related to administrating java project. I found this is helpful when you are using java for automation and managing java codes. 
+# Java Installation 
+- For Open JDK : 
+- For Graal VM : 
+- For Oracle JDK : 
 
-Why we are learning this : We have to learning this for some specific focus. We need some administration task doing for test automation. Like as
-- Running Selenium grid/ Stanalone servers
-- Running JMeter remotely
-- Running JUnit packages
-- Running Android unit tests
-- Appending command in the build system for build or continuous integration in JAVA projects.
-
-After installing java we need to add Java to system variable:
-Add Java to OS's PATH. Keep the java's bin directory path in the operation system's path .It will help a OS to find the commands.
+# Configure Environment
+Java to OS's PATH. Keep the java's bin directory path in the operation system's path .It will help a OS to find the commands.
 
 ### For win 7:  
 Start -> Control Panel-> System -> Advanced system settings -> Advanced ->Environment Variables -> System variables -> PATH.
