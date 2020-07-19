@@ -63,6 +63,7 @@ Note : My java installation path is "C:\Program Files\Java\jdk1.8.0_231", if it 
 now choose your GraalVM java , like me if you had 3 java, and graal is no3, so you can install like this.        
 
         alternatives --install /usr/bin/java java /usr/lib/jvm/graalvm/bin/java 3
+        
 ###  For Oracle JDK13 : 
 
         sudo apt-get update && sudo apt-get install -y software-properties-common
