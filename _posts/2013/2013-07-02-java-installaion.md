@@ -9,7 +9,12 @@ excerpt: "Blog on Java"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see the commands and tools which are available after installing Java SDK. Mainly we will focus on the basic of the command and we will see commands related to administrating java project. I found this is helpful when you are using java for automation and managing java codes. 
+In this article we are going to see installation process of Java. By mean of Java, I am referring JDK which comes with JRE. 
+
+What is Java? 
+
+As we k
+the commands and tools which are available after installing Java SDK. Mainly we will focus on the basic of the command and we will see commands related to administrating java project. I found this is helpful when you are using java for automation and managing java codes. 
 
 Why we are learning this : We have to learning this for some specific focus. We need some administration task doing for test automation. Like as
 - Running Selenium grid/ Stanalone servers
