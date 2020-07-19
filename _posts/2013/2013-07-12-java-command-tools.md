@@ -9,46 +9,50 @@ excerpt: "Blog on Java Command Tools"
 gh-badge: (star,follow)
 comments: true
 ---
-In this article we are going to see the commands and tools which are available after installing Java SDK. Mainly we will focus on the basic of the command and we will see commands related to administrating java project. I found this is helpful when you are using java for automation and managing java codes. 
+In this article we are going to see the commands and tools which are available after installing Java SDK. 
 
-Why we are learning this : We have to learning this for some specific focus. We need some administration task doing for test automation. Like as
-- Running Selenium grid/ Stanalone servers
+Mainly we will focus on the basic of the command and we will see commands related to administrating java project. 
+
+I found this is helpful when you are using java for automation and managing java codes. 
+
+### Goals 
+We have to learning this for some specific focus. We need some administration task doing for test automation. Like as
+- Running Selenium grid/ Standalone servers
 - Running JMeter remotely
 - Running JUnit packages
 - Running Android unit tests
 - Appending command in the build system for build or continuous integration in JAVA projects.
 
-After installing java we need to add Java to system variable:
-Add Java to OS's PATH. Keep the java's bin directory path in the operation system's path .It will help a OS to find the commands.
-
-For win 7:  Start -> Control Panel-> System -> Advanced system settings -> Advanced ->Environment Variables -> System variables -> PATH.
-Now add the located path with this ; separator. 
-(Note : To check path variable you can try echo %PATH% in command prompt)
-
-For CentOS :  In CentOS the folder /etc/profile.d/ is the recommended place to add customizations to the system profile(adding path). While installing the Sun JDK, you might set the JAVA_HOME and JRE_HOME environment variables. For that
-- Create a new file called java.sh(its a shell script that sets the environment variable)
-vim /etc/profile.d/java.sh
-
-In the file, we need to add environment variable initialization commands.  
-export JRE_HOME=/usr/java/jdk1.5.0_12/jre
-export PATH=$PATH:$JRE_HOME/bin
-export JAVA_HOME=/usr/java/jdk1.5.0_12
-export JAVA_PATH=$JAVA_HOME
-export PATH=$PATH:$JAVA_HOME/bin
-
-Now when you restart(to load profile.d file ) . 
-Note : If you do not want rebooting, you have run source command
-$> source java.sh
-
-For Ubuntu, you need to just write the command in command line which I have added in the file.
-
+To install & configure java, please see [**this post**](https://sarkershantonu.github.io/2013/07/02/java-installation/)
 Available Commands after installing JAVA :
 When we install JAVA, we can see the command in the bin directory. (for windows 7, it is in C:\Program Files\Java\jdk1.6.0_25\bin or C:\Program Files(x86)\Java\jdk1.6.0_06\bin) Or, if you are using only JRE then you get them in the jre's bin folder. And, in case of jre, you will get less facility then jdk(as development command are missing)
 
-For Java commands, there is common way to write , That is
-(commandName) (CommandOption) (Class/JAR/ByteCodeName) (Parameters(Multiple are given in space))
+Before you read forward, you may need to have clear idea on followings : 
 
-And, available Commands are ( described with category) 
+### What is JRE
+- it is Java Run time Environment. JRE creates environment (JVM) to run ByteCode. 
+
+### What is JVM
+- Java Virtual Machine , which runs java code 
+
+### What is JDK
+Java development Kit, contains set of tools for java development. Here are basic components
+- JRE
+- Java Development Libraries
+- Development Tools 
+- Runtime tools
+- Management Tools   
+
+### Bytecode 
+Bytecode is compiled java code ready to run. So, when you see bytecode, you may see 
+- Class file (single compiled java class)
+- JAR (java archive) 
+- WAT (java web archive)
+- JWS (java web start) , not exactly a bytecode but can be used to run java app. 
+- JNLP(Java Network Launch Protocol), a xml configured file to run java app remotely. 
+
+# JDK tools 
+Let's see JDK tools in category 
 
 ## Java Launching Tools :  
 1. java (Java application launcher)
@@ -118,24 +122,31 @@ jrunscript (Command line script shell)
 ## Tools with a GUI  :
 1. jvisualvm (Manual page Java Visual VM )
 2. jconsole (Monitoring tool that provides information about the performance and resource consumption of applications running on the Java platform)
+3. Java Mission Control (oracle JDK only)
 
-Command options are depends on the command that we are using. This is actually a vast list of options available. We just need to know which one to use when. I will provide separate post for each commands with their options. So for a JAVA Command, the syntax will be 
+
+### Java commands Syntax
+
+    commandName CommandOption ByteCodeName Parameters(Multiple are given in space)
+
+like, for JAVA command, the syntax will be 
 
         java ( options ) class ( argument ... )
         java ( options ) -jar file.jar ( argument ... )
 
-And for JAVAW Command , the syntax will be 
+And for javaw Command , the syntax will be 
 
         javaw ( options ) class ( argument ... )
         javaw ( options ) -jar file.jar ( argument ... )
 
-#### Note : 
+**Note** : 
+
 - Option : Command line options
 - Class : Invoking class name
 - file.jar : Invoking JAR file name
 - argument : the arguments to pass while invoking.  
 
-Examples : 
+### Examples : 
 - To know running java version : 
     
         java -version
