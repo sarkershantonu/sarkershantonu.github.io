@@ -16,8 +16,7 @@ Mainly we will focus on the basic of the command and we will see commands relate
 I found this is helpful when you are using java for automation and managing java codes. 
 
 ### Goals 
-
-We have to learning this for some specific focus. We need some administration task doing for test automation. Like as
+We need to learn these when we are doing management or maintenance java application or source. Like 
 - Running Selenium grid/ Standalone servers
 - Running JMeter remotely
 - Running JUnit packages
@@ -25,8 +24,6 @@ We have to learning this for some specific focus. We need some administration ta
 - Appending command in the build system for build or continuous integration in JAVA projects.
 
 To install & configure java, please see [**this post**](https://sarkershantonu.github.io/2013/07/02/java-installation/)
-Available Commands after installing JAVA :
-When we install JAVA, we can see the command in the bin directory. (for windows 7, it is in C:\Program Files\Java\jdk1.6.0_25\bin or C:\Program Files(x86)\Java\jdk1.6.0_06\bin) Or, if you are using only JRE then you get them in the jre's bin folder. And, in case of jre, you will get less facility then jdk(as development command are missing)
 
 Before you read forward, you may need to have clear idea on followings : 
 
@@ -45,7 +42,7 @@ Java development Kit, contains set of tools for java development. Here are basic
 - Management Tools   
 
 ### Bytecode 
-Bytecode is compiled java code ready to run. So, when you see bytecode, you may see 
+Bytecode is compiled java code ready to run. So, when I refer bytecode, i may mean following
 - Class file (single compiled java class)
 - JAR (java archive) 
 - WAT (java web archive)
