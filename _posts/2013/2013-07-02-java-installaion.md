@@ -14,7 +14,7 @@ In this article we are going to see installation process of Java. By mean of Jav
 ## What is Java? 
 Java introduced as programming language, which has its own runtime environment(named JRE) that runs java applications on top of JVM(java virtual machine)
 
-# Java Installation , windows
+# Java Installation in windows
 
 ### Download & install 
 - For Open JDK : [Download from here](https://openjdk.java.net/) and follow Gui Instructions
@@ -36,7 +36,7 @@ Make sure you choose windows 64bit
 - type **%JAVA_HOME%\bin** and press ok  , this will add java in path variable. 
 Note : My java installation path is "C:\Program Files\Java\jdk1.8.0_231", if it is different than your's , please use that. 
 
-# Java Installation & configure, Ubuntu
+# Java Installation in Ubuntu
 
 ### For Open JDK8 : 
         
