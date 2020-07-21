@@ -97,63 +97,65 @@ gc : Reports on each garbage collection event.
 jni: Reports information about use of native methods and other Java Native Interface activity.
 
 There are some nonstandard options present. They are  : 
--X : Shows help for all non standard options
- -Xint : Runs the interpreted-only mode. 
-Note: 
--Compilation to native code is disabled
--All bytecodes are executed by the interpreter. 
--The performance benefits of Java HotSpot Client VM's adaptive compiler will not work.
+- X : Shows help for all non standard options
+- Xint : Runs the interpreted-only mode. 
 
--Xbatch : Disable background compilation.(helpful for making resource free, compilation done in foreground)
--Xbootclasspath: Specifics list of boot class files
-Syntax : -Xbootclasspath:[bootclasspath ]. It has two other variations.
--Xbootclasspath/a:path 
-Appends a path to the default bootstrap classpath.
--Xbootclasspath/p:path 
-Pretends a path in font of the default bootstrap classpath.
+Note: 
+- Compilation to native code is disabled
+- All bytecodes are executed by the interpreter. 
+- The performance benefits of Java HotSpot Client VM's adaptive compiler will not work.
+
+- Xbatch : Disable background compilation.(helpful for making resource free, compilation done in foreground)
+- Xbootclasspath: Specifics list of boot class files
+
+        Syntax : -Xbootclasspath:[bootclasspath ]. It has two other variations.
+
+- Xbootclasspath/a:path  : Appends a path to the default bootstrap classpath.
+- Xbootclasspath/p:path  : Pretends a path in font of the default bootstrap classpath.
+
 Note : For all of these cases, The list of directories, JARs, ZIPs will be written with semicolon(;) separator.
 
--Xcheck:jni : Validates the parameters passed to the JNI function , runtime environment data before processing the JNI request by JVM. 
--Xfuture : Perform strict class-file format checks(Used in backwards compatibility, and code structure reviews)
--Xnoclassgc : Disable class garbage collection
--Xincgc: Enable the incremental garbage collector
--Xloggc:file : Logs the reported every garbage collection events(with -verbose:gc) into file.
--Xmn[size] : Sets the size of the heap Nursery*.
--Xms[size] : Sets the initial Java heap size(any format Xms256m, Xms256000k, Xms256000000)
--Xmx[size] : Sets the maximum of Java heap size
--Xss[size] : Set the thread size
--Xprof : Profiles the running program, and sends profiling data to standard output. 
+- Xcheck:jni : Validates the parameters passed to the JNI function , runtime environment data before processing the JNI request by JVM. 
+- Xfuture : Perform strict class-file format checks(Used in backwards compatibility, and code structure reviews)
+- Xnoclassgc : Disable class garbage collection
+- Xincgc: Enable the incremental garbage collector
+- Xloggc:file : Logs the reported every garbage collection events(with -verbose:gc) into file.
+- Xmn(size) : Sets the size of the heap Nursery*.
+- Xms(size) : Sets the initial Java heap size(any format Xms256m, Xms256000k, Xms256000000)
+- Xmx(size) : Sets the maximum of Java heap size
+- Xss(size) : Set the thread size
+- Xprof : Profiles the running program, and sends profiling data to standard output. 
 
--Xrs : Reduces usage of OS signals by JVM.
+- Xrs : Reduces usage of OS signals by JVM.
+
 Note :
--Ctrl-Break thread dumps are not available.
--User code is responsible for causing shutdown hooks to run.(implicitly have to use exit or start commands)
--XX:+|-DisableAttachMechanism : Specifies whether tools(Ex- jmap/jconsole)are allowed to attach to the JVM. (Default disabled)
+- **Ctrl-Break** thread dumps are not available.
+- User code is responsible for causing shutdown hooks to run.(implicitly have to use exit or start commands)
+- XX:+|-DisableAttachMechanism : Specifies whether tools(Ex- jmap/jconsole)are allowed to attach to the JVM. (Default disabled)
 
--XX:AllocationPrefetchStyle=n : Selects prefetch style used during allocation(default=2)
--XX:+AggressiveOpts : Enables aggressive optimization.
--XX:SoftRefLRUPolicyMSPerMB=0 : Enables aggressive processing of software references.
--XXLargePageSizeInBytes=n :Specifies the maximum size for large pages.
+- XX:AllocationPrefetchStyle=n : Selects prefetch style used during allocation(default=2)
+- XX:+AggressiveOpts : Enables aggressive optimization.
+- XX:SoftRefLRUPolicyMSPerMB=0 : Enables aggressive processing of software references.
+- XXLargePageSizeInBytes=n :Specifies the maximum size for large pages.
 
--XX:ParallelGCThreads=n : Sets the number of GC threads in the parallel collectors.
--XX:MaxGCPauseMillis=n : Sets a target for the maximum GC pause time..
--XX:[size] : Sets the size of the heap Nursery*. Sames as -Xmn[size].
--XX:+|-UseCompressedOops : Enables compressed references in 64-bit JVMs.(True by default)
+- XX:ParallelGCThreads=n : Sets the number of GC threads in the parallel collectors.
+- XX:MaxGCPauseMillis=n : Sets a target for the maximum GC pause time..
+- XX:(size) : Sets the size of the heap Nursery*. Sames as -Xmn(size).
+- XX:+|-UseCompressedOops : Enables compressed references in 64-bit JVMs.(True by default)
 
--XX:PredictedClassLoadCount=n : Specify this number shown in the output from -verbose:class. in case our application loads a lot of classes, and especially if class.forName() is used heavily.
-Note : This option requires that the UnlockExperimentalVMOptions(-XX:+UnlockExperimentalVMOptions)  flag be set first
+- XX:PredictedClassLoadCount=n : Specify this number shown in the output from -verbose:class. in case our application loads a lot of classes, and especially if class.forName() is used heavily.
 
--XX:+PrintCompilation :Prints verbose output from the HotSpot dynamic runtime compiler.
--XX:+PrintGCDetails : Prints garbage collection output
--XX:+PrintGCTimeStamps : Prints garbage collection output along with time stamps.
--XX:TLABSize=n : Set the size TLABs(Thread local allocation buffers)
--XX:+UnlockCommercialFeatures : Unlocks the use of commercial features. See Commercial features are at the Oracle Java SE Products web page. 
--XX:+UseConcMarkSweepGC : 
-or 
--XX:+UseG1GC : Enable either the Concurrent Mark Sweep (CMS) or the G1 garbage collectors.
+Note : This option requires that the UnlockExperimentalVMOptions **-XX:+UnlockExperimentalVMOptions** flag be set first
 
--XX:+UseLargePages : Enable large page support.
--XX:+UseParallelOldGC :Enables the parallel garbage collectors, which are optimized for throughput and average response time.
+- XX:+PrintCompilation :Prints verbose output from the HotSpot dynamic runtime compiler.
+- XX:+PrintGCDetails : Prints garbage collection output
+- XX:+PrintGCTimeStamps : Prints garbage collection output along with time stamps.
+- XX:TLABSize=n : Set the size TLABs(Thread local allocation buffers)
+- XX:+UnlockCommercialFeatures : Unlocks the use of commercial features. See Commercial features are at the Oracle Java SE Products web page. 
+- XX:+UseConcMarkSweepGC : or - XX:+UseG1GC : Enable either the Concurrent Mark Sweep (CMS) or the G1 garbage collectors.
+- XX:+UseLargePages : Enable large page support.
+- XX:+UseParallelOldGC :Enables the parallel garbage collectors, which are optimized for throughput and average response time.
+
 * Nursery is a part of the java heap reserved for allocation of new objects. (similar work like as buffer or temp storage)
 
 Note : Most of the commands options are tested by me. But, I could not make all working as I do not have enough resources and scenarios.
