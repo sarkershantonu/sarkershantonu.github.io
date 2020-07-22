@@ -34,7 +34,8 @@ As we know the standard format of commands in java, the java/javaw command also 
 
         Syntax : -jar Main-Class:[class name]
 
-Note : When we use this option, the JAR file is the source of all user classes, and other user class path settings are ignored. I will provide a separate post for detail jar commands.
+**Note** : When we use this option, the JAR file is the source of all user classes, and other user class path settings are ignored. I will provide a separate post for detail jar commands.
+
 - jre-restrict-search : Includes user-private JREs in the version search.
 - no-jre-restrict-search :Excludes user-private JREs in the version search.
 - splash:imagepath Show splash screen with image specified by imagepath.
@@ -130,7 +131,7 @@ Notes :
 - Xint : Runs the interpreted-only mode. 
 - Xbatch : Disable background compilation.(helpful for making resource free, compilation done in foreground)
 
-Note: 
+**Notes**: 
 - Compilation to native code is disabled
 - All bytecodes are executed by the interpreter. 
 - The performance benefits of Java HotSpot Client VM's adaptive compiler will not work.
@@ -146,7 +147,7 @@ With one argument not ending in "...", the switch disables assertions in the spe
 
         Syntax : -disableassertions[:<package name> [arguments...] | :<className>]
 
-Note : It switches apply to all class loaders and system classes . 
+**Note** : It switches apply to all class loaders and system classes . 
 
 Exception : in the no-argument , it does not apply to system. This makes it easy to turn on asserts in all classes except for system classes. 
 
