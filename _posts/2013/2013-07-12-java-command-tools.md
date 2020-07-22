@@ -2,11 +2,11 @@
 layout: post
 title: Java Command Tools
 date: "2013-07-12 00:41"
-tags: (java,reflection)
+tags: [java,jdk-tools]
 permalink: /2013/07/12/java-command-tool/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Java Command Tools"
-gh-badge: (star,follow)
+gh-badge: [star,follow]
 comments: true
 ---
 In this article we are going to see the commands and tools which are available after installing Java SDK. 
