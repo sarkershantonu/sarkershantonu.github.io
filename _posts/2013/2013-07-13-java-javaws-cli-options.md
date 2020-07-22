@@ -16,13 +16,13 @@ In this article we are going to elaborate the Java Application Launcher(java/jav
 - javas is **non-console version** of java .So, it just works without console window.
 
 
-## Syntax
+### Syntax
 As we know the standard format of commands in java, the java/javaw command also have the format(in command prompt)
 
         java [option] [jar/class name] [parameters..]
         javaw [option] [jar/class name] [parameters..]
 
-## CLI Options 
+# CLI Options 
 
 ### Property Options
 - D : Set a system property value
