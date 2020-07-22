@@ -89,10 +89,10 @@ Notes :
         
 ### JVM behavior Optimization
 - XX:+AggressiveOpts : Enables aggressive optimization.
-- XX:+|-UseCompressedOops : Enables compressed references in 64-bit JVMs.(True by default)
+- XX:+UseCompressedOops : Enables compressed references in 64-bit JVMs.(True by default)
 - XX:SoftRefLRUPolicyMSPerMB=0 : Enables aggressive processing of software references.
 - XXLargePageSizeInBytes=n :Specifies the maximum size for large pages.
-- XX:+|-DisableAttachMechanism : Specifies whether tools(like- jmap/jconsole)are allowed to attach to the JVM. (Default disabled)
+- XX:+DisableAttachMechanism : Specifies whether tools(like- jmap/jconsole)are allowed to attach to the JVM. (Default disabled)
 - Xrs : Reduces usage of OS signals by JVM. **Ctrl-Break** thread dumps are not available. User code is responsible for causing shutdown hooks to run.(implicitly have to use exit or start commands)
 
 ### Heap Options
