@@ -57,6 +57,7 @@ navbar-links:
     - Resume: "tag/resume"
     - Contact: "contact"
     - hireme : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
+    - Reviews : "tag/reviews"
 nav-search: "search" 
 
 # If you want to have an image logo in the top-left corner instead of the title text,
