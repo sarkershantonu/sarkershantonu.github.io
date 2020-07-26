@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Book Review : Performance Testing With JMeter2.9
+title: Book Review on Performance Testing With JMeter2.9
 date: "2013-09-28 00:17"
 tags: [reviews]
 permalink: /2013/09/28/Performance-Testing-With-JMeter-2.9-Review/
