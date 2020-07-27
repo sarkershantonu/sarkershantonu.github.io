@@ -9,6 +9,7 @@ excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
+[DRAFT]
 In this article we are going to see how can we perform Jmeter testing using maven, so that we can use this in CI/CD. 
 
 ## What is Jmeter? 
