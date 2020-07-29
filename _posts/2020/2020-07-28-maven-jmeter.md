@@ -48,7 +48,9 @@ This will allow us to "Shift Left" performance testing. And this will allow any 
 # How the Script runs
 
 # How to's? 
+### JMX Configuration
 
+### JVM Configuration
 - to run jmeter JVM with **3gb*** memory, and **768mb** of metaSpace
 
 ```
@@ -72,7 +74,9 @@ This will allow us to "Shift Left" performance testing. And this will allow any 
     </arguments>
 </jMeterProcessJVMSettings>		         
 ```
+
 - to run jmeter JVM with **3gb*** memory, and **768mb** of metaSpace and enable profiling (for initial diagnosis) 
+
 ```
 <jMeterProcessJVMSettings>
 	<xms>3072</xms>
