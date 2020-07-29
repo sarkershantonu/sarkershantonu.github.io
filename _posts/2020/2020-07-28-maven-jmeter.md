@@ -23,5 +23,41 @@ Usually we test with any Java code. Ideally an acceptance test should have some 
 
 This will allow us to "Shift Left" performance testing. And this will allow any CI/CD system (like jenkins) , execute the test and show reports.
 
- 
+# Goals
+- We will run test 
+- we will generate reports 
+
+# Steps 
+
+### Create a Blank Project 
+### Specify test script(JMX)
+
+# Final POM.XML
+- As this is performance testing , we will run test in maven verify phase(as integration test)
+- There is no Java coding involve, so, no source/test code. those will be empty folders. 
+- JMX Script folder : /src/test/jmeter
+- Properties folder : /src/test/jmeter
+- jmeter config folder (like log4j2.xml) : /src/test/conf
+- Test Data(CSV) folder : 
+
+# Customize Property 
+### Jmeter Properties
+### User Properties
+# The Test Case(jmx file) 
+
+# How the Script runs
+
+# How to's? 
+- to run jmeter JVM with **3gb*** memory, and **768mb** of metaSpace + enable profiling (for initial diagonysis) 
+```
+<jMeterProcessJVMSettings>
+	<xms>3072</xms>
+	<xmx>3072</xmx>
+	<arguments>
+		<argument>-Xprof</argument>
+		<argument>-Xfuture</argument>
+		<argument>-XX:MaxMetaspaceSize=768m</argument>
+	</arguments>
+</jMeterProcessJVMSettings>
+```
 
