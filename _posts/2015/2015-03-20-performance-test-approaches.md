@@ -58,34 +58,71 @@ Which leads to testing the prototype application to meet up the requirements. Pr
 
 May be you should involve them. Have some profiling results to know Memory & CPU foot prints. Analyze them with the context and justify the architecture.
 
-**Example** : For a small internal banking domain, data driven dynamic architecture might fit but for large scale financial transaction involved application , it will not suit or even micro kernel architecture might feel irrelevant.
+**Example** : For a small internal banking application, data driven dynamic architecture might fit but for large scale financial transaction involved application , it will not suit or even micro kernel architecture might feel irrelevant.
 
-Step 3: From , step 1 activities, list all possible timing and sizing based on step 2 activities. Construct  clear performance requirements. Construct you load/stress//spike scenarios. Even, plan for including in regressions.
+##### Step 3: 
+From , step 1 activities, list all possible timing and sizing based on step 2 activities. Construct  clear performance requirements. 
 
-Step 4. Define best practices for coding that match with requirements that you have done. You might need to have research over technologies that you use, but it worth knowing this. You can do that with help of developers. This is necessary because , programming is really a problem solving. A problem can be solve in thousand ways, but on particular need and context a few are applicable. To define the best fit for you project, set some best practices.
+Construct your **load/stress/spike** scenarios. 
+
+Even, plan for including some of these in application's test regressions suite/pack.
+
+##### Step 4. 
+Define best practices for coding that match with requirements that you have done. 
+
+You might need to have research over technologies that you use, but it worth knowing this. You can do that with help of developers. This is necessary because , programming is really a problem solving. 
+
+**A problem can be solve in thousand ways, but on particular need and context a few are applicable**. To define the best fit for you project, set some best practices.
+
 You might add some code review/Matrix values, like Unit testis coverage delta, or code complexity, or code execution time.
 
-Step 5: Choose your tool that suits your development culture. Now a days, there are lots of tools for different performance aspects. Example, for browser based application , you can choose Jmeter/Load runner for testing, and fiddler/selenium for client behavior observation , profilers for memory and cpu consumptions in server and finally tools to monitor the entire system. These days, all application comes with debug tools(like Glimps for ASP.Net). You can use that from beginning to have quick feedback.
-I will provide a full separate post for choosing performance tools based on your need.
+##### Step 5: 
+Choose your tool that suits your development culture. 
 
-Step 6. Prepare test case which is adoptable to change behavior of application. I saw lots of performance test scripts written in such poor way that, changing test code need more time implementing functionality. This is not right. Organize you test script in such way , so that it can be parameterize and adoptable based on functionality changes. I know this is challenging , but if you are choosing application architecture wisely and have good separation of concern , it is very easy to adopt. Some time you see, performance requirements also changes, so if you don’t make it adoptable, it will not be a good maintainable state.
+Now a days, there are lots of tools for different performance aspects. 
+
+**Example**,  for a browser based application , you can choose Jmeter/Load runner for testing, and fiddler/selenium for client behavior observation , profiler for memory and cpu consumptions in server and finally tools to monitor the entire system. These days, all application comes with debug tools(like Glimps for ASP.Net). You can use that from beginning to have quick feedback.
+
+##### Step 6. 
+Prepare test case which is adoptable to change behavior of application. 
+
+I saw lots of performance test scripts written in such poor way that, changing test code need more time implementing functionality. 
+
+This is not right. Organize you test script in such way , so that it can be parameterize and adoptable based on functionality changes. I know this is challenging , but if you are choosing application architecture wisely and have good separation of concern , it is very easy to adopt. Some time you see, performance requirements also changes, so **if you don’t make it adoptable, it will not be a good maintainable state**.
+
 And, necessarily, based on requirements, add some result analysis scripts to get quick feedback after each execution.
-You can see my old posts to get some helpful tips on how to create performance test scripts in general
 
-Step 7. Run the test after each dev release. Now a days , development has adopted agile principle and versioning. Don't wait for QA release and then perform test, it will take long time to have impact. Start doing test in each dev release. Usually, in Kanban, each ticket will lead to a release. Do a test after each ticket is done before going to QA/release cycle.
+##### Step 7. 
+Run the test after each dev release. 
 
-Step 8. As, testing in dev build is very short time, you need quick analysis as feedback to developer. Integrate debugging tool feedback , profiler results with test results, so that problems are quick to find. (Easy root cause analysis).
+Now a days , development has adopted agile principle and versioning. Don't wait for QA release and then perform test, it will take long time to have impact. Start doing test in each dev release. 
+
+Usually, in Kanban, each ticket will lead to a release. Do a test after each ticket is done before going to QA/release cycle.
+
+##### Step 8. 
+As, testing in dev build is very short time, you need quick analysis as feedback to developer. 
+
+Integrate debugging tool feedback , profiler results with test results, so that problems are quick to find. (Easy root-cause analysis).
 
 Your team, may or may not add this activity inside regression or CI server but it is nice to have those.
 BTW, this approach may not work for op shore team as it is very close to development activities.
 
- So, now, Reactive approach. This works for both onshore and opshore teams. This just like as Black Box way of performance testing. That means, after any public release version of application, you need to test. You do not need to care about what process dev team use or how they implement. And, as this is external activities, most tests are very related to UI model of application. So, things are very straight foreword.
+## Proactive approach Steps
+This works for both onshore and offshore teams. This just like as **black-box** way of performance testing. 
 
-Step 1 : Gather requirement from Business team. Usually this is very hard in this way because product is in production and they might not planned initially. So, get this very specific based on UI references.
+That means, after any public release version of application, you need to test. You do not need to care about what process dev team use or how they implement. 
 
-Step 2 : Choose tools that fit with the application. Follow ideas for previous step 6. I know this is very difficult to make adoptive test case, but you need to follow as much as you can. Some time you may face, code is not working for different releases.
+And, as this is external activities, most tests are very related to UI model of application. So, things are very straight foreword.
 
-Step 3. Run test & Analysis them for a particular release version of application.
-Note ; you might follow some steps from proactive approach if necessary but usually this external testing does not need to do those.
+##### Step 1 : 
+Gather requirement from Business team. Usually this is very hard in this way because product is in production and they might not planned initially. So, get this very specific based on UI references.
+
+##### Step 2 : 
+Choose tools that fit with the application. Follow ideas for proactive step 6. I know this is very difficult to make adoptive test case, but you need to follow as much as you can. Some time you may face, code is not working for different releases.
+
+##### Step 3. 
+Run test & Analysis them for a particular release version of application.
+
+**Note** : you might follow some steps from proactive approach if necessary but usually this external testing does not need to do those.
 
 Thank..:)
