@@ -48,7 +48,9 @@ This will allow us to "Shift Left" performance testing. And this will allow any 
 # How the Script runs
 
 # How to's? 
+
 - to run jmeter JVM with **3gb*** memory, and **768mb** of metaSpace
+
 ```
 <jMeterProcessJVMSettings>
     <xms>3072</xms>
@@ -58,7 +60,18 @@ This will allow us to "Shift Left" performance testing. And this will allow any 
     </arguments>
 </jMeterProcessJVMSettings>
 ```
-         
+
+- Applying same thing in Another way 
+
+```
+<jMeterProcessJVMSettings>
+    <arguments>
+        <argument>-XX:MaxMetaspaceSize=768m</argument>
+        <argument>-Xmx3072m</argument>
+        <argument>-Xms3072m</argument>
+    </arguments>
+</jMeterProcessJVMSettings>		         
+```
 - to run jmeter JVM with **3gb*** memory, and **768mb** of metaSpace and enable profiling (for initial diagnosis) 
 ```
 <jMeterProcessJVMSettings>
