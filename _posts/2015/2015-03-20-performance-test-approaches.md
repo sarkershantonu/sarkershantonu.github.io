@@ -9,11 +9,11 @@ excerpt: "Blog on Performance testing"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see some true facts regarding Performance testing approaches, spatially what to do, When to do. 
+In this article we are going to see some true facts regarding Performance testing approaches, spatially **what to do, When to do, what to start with** 
 
 This post is fully based on my personal experiences, other people may find different opinion. I would request my blog readers to have comment and write you opinion as well as what you find about same topic from your experiences. 
 
-Performance test, is a kind of test which measures **how well** application is performing rather than **what it is performing**.
+Performance test, is a kind of test which measures **how well** application is performing rather than **what is** performing.
 
 ### Performance Testing In Agile
 Usually people from non agile environment think. Performance testing all about timing , so it should be done at the end. Some says, some says not. But the fact is, performance testing is usually based on 3 key aspects
@@ -23,7 +23,7 @@ Usually people from non agile environment think. Performance testing all about t
 
 And, sometimes  **can it scale?**
 
-# Performance Test approaches
+# Test approaches
 
 ### Proactive approach
 In Proactive approach, it is more about basic engineering things. Like, Prevention is Better then cure. That means, having pre planned for performance , set best practices to achieve that, getting measurement to ensure that. 
