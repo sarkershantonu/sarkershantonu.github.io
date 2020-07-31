@@ -46,13 +46,29 @@ Next is, we do, matching requirement with grouped data.
 - What are the evidence of those causes? What are those related values? How much the project can tolerate and how much they cant. We might need to use profilers along with performance test tools. Like Ants memory profiler, Yourkit profiler, or even framework build in profiler(on the language platform that you are using).
 - What are things can be done to resolve those?
 
-(this part is tricky, a new performance tester may not come up with this, but he can talk to his system architect or lead to come up with solution. In my current project , I am trying to do. I am proposing possible solution and discuses with dev lead about those and we sit together and do some experiment to suggest the best solution that match with existing architecture. BTW, there can be issues with architecture, I have seen this in 2009, where I was involve with a product that could support some amount of users, (avoiding to be specific). To scale up the software, our team have to change the full architecture of the application to support almost 4oo% more)
+This part is tricky, a new performance tester may not come up with this, but he can talk to his system architect or lead to come up with solution. 
 
-So, we have done some analysis. We can do a lot more in analysis. Usually, if you are doing analysis with performance results for a product for the first time, you will get a lot of issues and need a large time to do that. But, gradually time goes, issues will be solved.
+In my current project , I am trying to do. I am proposing possible solution and discuses with dev lead about those and we sit together and do some experiment to suggest the best solution that match with existing architecture. 
+
+BTW, there can be issues with architecture, I have seen this in 2009, where I was involve with a product that could support some amount of users, (avoiding to be specific). 
+
+To scale up the software, our team have to change the full architecture of the application to support almost 4oo% more
+
+So, we have done some analysis. We can do a lot more in analysis. 
+
+Usually, if you are doing analysis with performance results for a product for the first time, you will get a lot of issues and need a large time to do that. But, gradually time goes, issues will be solved.
 
 # Step 2: Group Data :  
 
-After analysis, we need to select what data should be involve with each group. This is king of tricky if you do not know the interested group. First step should be know those people and have some idea on how to communicate them. I think, performance report is just a communication format of you performance results. So, you have to very careful in this. It should be based on goal. Let me give example from project, (web app). We have 3 kind of people interested with performance testing.
+After analysis, we need to select what data should be involve with each group. 
+
+This is king of tricky if you do not know the interested group. 
+
+First step should be know those people and have some idea on how to communicate them. 
+
+I think, performance report is just a communication format of you performance results. So, you have to very careful in this. It should be based on goal. 
+
+Let me give **example** from project, (web app). We have 3 kind of people interested with performance testing.
 
 ### Business users or client : 
 They are real users interact with the system. They do trading by them self. So, for them, the high priority is , how fast we can do business transaction. 
@@ -88,9 +104,9 @@ Like as all other report, typically a repot contains (I am adding common for all
 - **Test Scenario**: What are scenarios involved in test execution (It may be presided based on group of users)
 - **Test Conditions**: Test conditions based on tool, environment, application settings and configuration including delays.
 - **Load Profile**: How user was generating load during test. Jmeter/ Load runner or all other tools provide this. You can take screenshot of the graph and add here. Like, 100 user, 1 hour, 500 users 3 hours like this with graph.
-- **KPI**:It is optional. It is called Key Performance Indicator. Based on requirement , each group need to know a value that indicates performance situation of the product. Usually it drives future investment and activity. I will provide a separate post how to make a KPI based on user requirements in case you don’t have any measurement.
+- **KPI**:It is optional. It is called Key Performance Indicator. Based on requirement , each group need to know a value that indicates performance situation of the product. Usually it drives future investment and activity.
 - **Results**: Tabular results, common for every tool. Jmeter provides summary results or Synthesis Report. Some times, this can be optional to hide detail results from end user/business users. We used hide them.
-- **Results Graph**: All graphs based on tabular results. We should be very careful in this area. We should put only related report here. We have see the goal and requirements and then decide. I mean, put the context with each graph. Ask your self, why this graph you use.
+- **Results Graph**: All graphs based on tabular results. We should be very careful in this area. We should put only related report here. We have see the goal and requirements and then decide. I mean, put the context with each graph. Ask yourself, why this graph you use.
 
 For **example**, in our project, we include only transaction comparison graph for business users.
 
