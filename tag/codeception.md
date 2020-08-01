@@ -3,7 +3,7 @@ layout: "page"
 title: "codeception"
 subtitle: I build systems for testing
 css: "/css/index.css"
-meta-title: "SDET/Java Backend Engineer"
+meta-title: "Full Stack SDET/Java Backend Engineer"
 meta-description: "Test developer with a Bsc in Computer Science"
 excerpt: "An overview of Codeception"
 comments: true

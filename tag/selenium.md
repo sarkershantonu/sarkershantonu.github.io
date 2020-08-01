@@ -1,9 +1,9 @@
 ---
 layout: "page"
-title: "Selenium DotNet"
+title: "Selenium"
 subtitle: I build systems for testing
 css: "/css/index.css"
-meta-title: "SDET/Java Backend Engineer"
+meta-title: "Full Stack SDET/Java Backend Engineer"
 meta-description: "Test developer with a Bsc in Computer Science"
 comments: true
 ---
@@ -19,8 +19,7 @@ I have been working on selenium since 2010. I have worked on selenium with c#, J
 1. Browser : Firefox driver, Chrome driver, IE, PhantomJS, Opera driver, Safari driver, Html Driver
 2. Mobile : Android driver, IOS driver
 
-This page contains all post related to Dotnet Selenium. 
-
+# Selenium DotNet
 1. [Setting up Selenium Webdriver](http://shantonusarker.blogspot.com/2012/09/setting-up-selenium-webdriver.html)
 2. [Recording in Selenium IDE and Generating WebDriver Code](http://shantonusarker.blogspot.com/2012/09/selenium-ide-example-simple-recording.html)
 3. [Introduction to Selenium WebDriver(Tab test)](http://shantonusarker.blogspot.com/2012/09/a-introduction-to-selenium-webdrivertab.html)
@@ -47,3 +46,5 @@ This page contains all post related to Dotnet Selenium.
 23. [How to take a screenshot in selenium webdriver?](http://shantonusarker.blogspot.com/2012/12/how-to-take-screenshot-in-selenium.html)
 24. [How to work with a web element in Selenium WebDriver](http://shantonusarker.blogspot.com/2012/12/how-to-work-with-web-element-in.html)
 25. [How to work with JavaScript Alert in Selenium WebDriver](http://shantonusarker.blogspot.com/2012/12/how-to-work-with-javascript-alart-in.html)
+
+# Selenium Java
