@@ -5,6 +5,7 @@ subtitle: I build systems for testing
 css: "/css/index.css"
 meta-title: "SDET/Java Backend Engineer"
 meta-description: "Test developer with a Bsc in Computer Science"
+comments: true
 ---
 <div class="list-filters">
     <a href="/" class="list-filter filter-selected">All posts</a>
@@ -27,12 +28,12 @@ This page contains all post related to Basic Performance Testing
 - [What is Client side performance testing?](http://shantonusarker.blogspot.com/2014/12/client-side-performance-testing.html)
 - [How to formulate Performance SLA or Baseline requirements ?](http://shantonusarker.blogspot.com/2015/11/formulate-performance-sla-baseline.html)
 - [Measuring web page Performance(Navigation timing)](http://shantonusarker.blogspot.com/2016/01/user-experience-ux-web-performance-application.html)
-	-> Browser Tools
-	-> Browser Plugins
-	-> Selenium
-	-> JavaScript (navigation API)
-	-> Junit annotation
-	-> Junit Performance
+	- Browser Tools
+	- Browser Plugins
+	- Selenium
+	- JavaScript (navigation API)
+	- Junit annotation
+	- Junit Performance
 
 # Performance test planning: 
 - [What is VUser ? How to write VUser or Performance or Performance Test Script?](http://shantonusarker.blogspot.com/2014/12/vuser-performance-test-script.html)

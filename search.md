@@ -2,6 +2,7 @@
 layout: default
 title: "Search sarkershantonu.github.io"
 css: "/css/search.css"
+comments: true
 ---
 
 # Search sarkershantonu.github.io

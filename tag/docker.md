@@ -6,6 +6,7 @@ css: "/css/index.css"
 meta-title: "SDET/Java Backend Engineer"
 meta-description: "Test developer with a Bsc in Computer Science"
 excerpt: "An overview of Docker"
+comments: true
 ---
 <div class="list-filters">
     <a href="/" class="list-filter filter-selected">All posts</a>
