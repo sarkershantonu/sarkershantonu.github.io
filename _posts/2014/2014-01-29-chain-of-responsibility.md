@@ -172,7 +172,7 @@ handler2.setMyNextHandler(handler3);
 handler3.setMyNextHandler(handler4);
 handler4.setMyNextHandler(handler1);
 ```
-4. Calling for a task of any of chained handler objects.  
+- Calling for a task of any of chained handler objects.  
 
 In every **RealHandler** classes , **doThis** method actually do the work (in here console print) depend on condition. 
 
