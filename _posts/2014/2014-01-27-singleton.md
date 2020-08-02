@@ -19,8 +19,8 @@ In object oriented world, sometimes we might need to create a singe object in al
 Singleton pattern is a way to keep an class one time creatable and accessible globally(so that every one can use that) 
 
 ### What are the basic principles? 
-a. Only one instance of the class can be created.
-b. Provide a global access of the object
+- Only one instance of the class can be created.
+- Provide a global access of the object
 
 So, to implement that two behavior in java/c#, we have to think ways to do that. As we know
 - If we keep the default constructor as private, it can not accessed by others
@@ -87,7 +87,6 @@ public final class MySqlConn {
     }
     /**
      * Main object creator
-     * @return
      */
     public static synchronized MySqlConn getDbConnection(){
         if(db==null){
