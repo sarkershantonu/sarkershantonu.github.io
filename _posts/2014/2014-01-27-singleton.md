@@ -9,7 +9,11 @@ excerpt: "Blog on java"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to learn about what is singleton pattern? What are the basic principles? What are the supported keywords  in java/c#? How we can Implement this in code? Where we can use this? 
+In this article we are going to learn about **singleton pattern** 
+- what is singleton pattern? 
+- What are the basic principles? 
+- What are the supported keywords  in java/c#? 
+- How we can Implement this in code? Where we can use this? 
 
 And , A simple jdbc Gateway example with Java (eclipse) and a SQLServer example with c#(VS 2010)
 
