@@ -148,7 +148,7 @@ public interface IMyHadler {
 - [Java](https://github.com/sarkershantonu/java-novice-to-advance/tree/master/DesignPatterns/ChainOfResponsibility)
 - [DotNet](https://github.com/sarkershantonu/blog-projects/tree/master/DesignPatternsDotNet/ChainOfResponsibility)
 
-### Java Example : 
+### [Java Example](https://github.com/sarkershantonu/java-novice-to-advance/tree/master/DesignPatterns/ChainOfResponsibility) : 
 You will find another class Program which actually executes as client that send request inside task object. I have use Main so that I can run and show the results in console output. 
 
 For a framework, you may not need to put it inside Main method. So you will find
@@ -194,7 +194,7 @@ when value is = 0,  RealHandlerTwo the task,
 
 when value is >0 (1,2,3,4) ,  RealHandlerThree the task. 
 
-### C# Example : Notes :
+### [C# Example](https://github.com/sarkershantonu/blog-projects/tree/master/DesignPatternsDotNet/ChainOfResponsibility) : Notes :
 1. I have used property NextHandler in place of setMyNextHandler(MyHandler successor)
 2. I avoid experimentally created RealHandlerFour class in here (which I have used in java example)
 3. I have renamed my handlers objects as worker in Main.
