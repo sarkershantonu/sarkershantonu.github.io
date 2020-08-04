@@ -207,8 +207,8 @@ Just look at the book creation, plain book will be called by **Laminate**, which
 So, we have done added function with our existing codes. 
 
 # Sources
-- [Java Example]()
-- [C# Example]()
+- [Java Example](https://github.com/sarkershantonu/java-novice-to-advance/tree/master/DesignPatterns/Decorator)
+- [C# Example](https://github.com/sarkershantonu/blog-projects/tree/master/DesignPatternsDotNet/Decorator)
 
 # When we use it? 
 - We use it when we want inherited capabilities along with added functionality at a run time.
