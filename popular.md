@@ -16,8 +16,10 @@ comments: true
 
 <div class="posts-list">
   {% for post in site.tags.popular %}
+  
   <article>
     <a class="post-preview" href="{{ post.url | prepend: site.baseurl }}">
+    
 	    <h2 class="post-title">{{ post.title }}</h2>
 	
 	    {% if post.subtitle %}
@@ -33,7 +35,8 @@ comments: true
         {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
         <span href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</span>
       </div>
-    </a>  
+    </a> 
+    
    </article>
   {% endfor %}
 </div>
