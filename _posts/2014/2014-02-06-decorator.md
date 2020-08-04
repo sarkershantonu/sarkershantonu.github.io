@@ -26,7 +26,8 @@ When we need an object extending its functionality dynamically(run time), we use
 - It is more flexible than inheritance.  
 - And, it is helpful when we have new functionality to add but we do not want the code change and
 
-Let's talk more details about a scenario.Think about a Pizza shop order scenario
+### Explanation with Example
+Let's talk more details about a scenario. Think about a Pizza shop order scenario
 
 We have a plain pizza but we can add different type of topping(added items) like as tomato souse, extra cheese, mozzarella. 
 
@@ -201,7 +202,7 @@ public class Client {
 }
 ```
 
-Just look at the book creation, plain book will be called by Lemonade, which is called by FoilPaperCovering and which is called by OffsetPrinting . 
+Just look at the book creation, plain book will be called by **Laminate**, which is called by **FoilPaperCovering** and which is called by **OffsetPrinting** . 
 
 So, we have done added function with our existing codes. 
 
