@@ -42,8 +42,12 @@ Interpreter patter have basic 3 elements.
 ![uml-interpreter](/images/Patterns/Interpreter.jpg)
 
 ### How to Implement?
-Before implementing , lets thinks , what it is. Simply, it will translate. So, we will need a class(out type) to convert which will be context.
+Before implementing , lets thinks , what it is. 
+
+Simply, it will translate. So, we will need a class(out type) to convert which will be context.
+
 And, having a conversational formula inside of a class or abstract class where extended classes will have implemented the conversion functions.
+
 And, a client who will call the context with expressions (may be along with conditions).
 
 # Example: 
