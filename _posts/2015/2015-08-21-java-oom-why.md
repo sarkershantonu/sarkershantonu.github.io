@@ -20,7 +20,7 @@ But it is not straight forward as it seems. Due to JVM architecture, this memory
 
 So, out of memory exceptions are categorized based on where it occurs.
 
-# Category 1:Java heap : 
+# Category 1:Java heap: 
 When JVM heap becomes full, then this type of error occurs. 
 
 BTW, not all the time JVM needed to be full, the main cause is, heap can not allocate more memory. JVM tries by GC calling. This error can be happened due to
@@ -34,19 +34,24 @@ and etc. This is one of most common problem for JVM OOM.
 
 #### JVM tuning flags : 
 ```
--Xmx<size>, -XX:MinHeapFreeRatio=<Percentage Minimum >,-XX:MaxHeapFreeRatio=<Percentage maximum>, -XX:NewRatio=<Number> , 
--XX:NewSize=<Size>, -XX:MaxNewSize=<Size>, 
+-Xmx<size>, 
+-XX:MinHeapFreeRatio=<Percentage Minimum >,
+-XX:MaxHeapFreeRatio=<Percentage maximum>, 
+-XX:NewRatio=<Number> , 
+-XX:NewSize=<Size>, 
+-XX:MaxNewSize=<Size>, 
 ```
-#### Summery of Java Memory : 
+
+#### Summery of Java Memory: 
 
 ![jvm-memory](/images/java/jvm/jvm-heap-memory.png)
 
-# Category 2: Perm Gen: 
+# Category 2:Perm Gen: 
 This is another common cause for JVM OOM. This occurs due to shortage of Permanent Generation space. 
 
 From Java 8, this error will not occur as perm gen was removed from JVM, so before JVM 8, we can get this error.
 
-Due to JVM work flow, when an class loader loads a class , in its initial state, if Permanent Generation space of JVM does not have enough space or fragmented to allocate required memory. 
+Due to JVM workflow, when an class loader loads a class , in its initial state, if Permanent Generation space of JVM does not have enough space or fragmented to allocate required memory. 
 
 So, it is easily understandable it occurs due to
 - Large number of class loading
@@ -59,7 +64,7 @@ Eventually, when we deploy new version application in server, if old 3rd party c
 #### JVM tuning flags : 
 ```-XX:MaxPermSize```
 
-And, if class Unloading is not enabled , we can use -XX:+CMSClassUnloadingEnabled if you are using mark & swap GC. So, while using parallel/serial GC use this flag (-XX:+UseConcMarkSweepGC) to keep the option effective.
+And, if class Unloading is not enabled , we can use **-XX:+CMSClassUnloadingEnabled **if you are using mark & swap GC. So, while using parallel/serial GC use this flag **-XX:+UseConcMarkSweepGC** to keep the option effective.
 
 #### Meta Space : 
 From Java 8, the information stored in permanent generation is moved to meta space which actually lives in native memory. It might throw out of memory exceptions for similar causes like perm gen space.
@@ -67,7 +72,7 @@ From Java 8, the information stored in permanent generation is moved to meta spa
 #### JVM tuning flags :
 ```-XX:MaxMetaspaceSize=<size>```
 
-# Category 3: GC overhead limit exceeded : 
+# Category 3:GC overhead limit exceeded: 
 When a Garbage Collection spending more than 98% of total time in collecting & less than 2% of the heap is recovered after GC, this error is thrown from JVM as error to indicate of error.
 
 This means, GC has rapidly failing to cleanup memory at its maximum efforts.
@@ -81,7 +86,7 @@ There are several causes, most of the cases, over use of manually calling GC mig
 
 These previous three type of OOM occurs in 95+% events . The rest of them are in following causes.
 
-### Unable to create new native thread : 
+#### Unable to create new native thread : 
 When host OS is unable to allocate new thread requested by JVM, JVM throws this error. This is fully platform & JVM dependent.
 
 So, we can find this error in
@@ -97,18 +102,18 @@ And, When one time error occurred, this can make chain of thread to show excepti
 You may define lower stack size parameter to increase thread creation limit by JVM to OS.
 
 
-### Native Get New TLA : 
+#### Native Get New TLA : 
 When JVM can't create new thread in local area. Local area referred to the buffer used for memory allocation in multi-threaded application. This error is specific to jRocket JVM.
 
 #### JVM tuning flags : 
 ```-XXtlaSize```
 
-### Requested array size exceeds VM limit : 
+#### Requested array size exceeds VM limit : 
 When we try to create an array larger then limit of VM. Usually it depends on x64 or x86 version of JVM allocation. 
 
 Beside, which version JVM uses the platform more efficiently. So, the limit will be **Integer.MAX_VALUE-1 = 2147483647 = 231-1**
 
-### request \[size\] bytes for \[reason\]. Out of swap space? : 
+#### request \[size\] bytes for \[reason\]. Out of swap space? : 
 When JVM fails to allocate virtual memory from OS. All OS virtual memory represented by physical & swap space to JVM, so JVM recognizes as not enough virtual memory space & consider low swap space (swapping happens when physical memory is getting filled and allocating to swap area). 
 
 So, if this error occurs, that means, OS is near to boundary limit of total allowable memory space( physical+ virtual storage) . 
@@ -117,7 +122,7 @@ So, increasing physical memory or virtual memory (swap space) might solve proble
 
 Sometimes we might face similar error like Out of memory . Kill process or specific child. This is one kind of above causes where child process could not allocate memory. It might cause operating system extra overhead.
 
-### \[reason\] \[stack trace\] (By Native method) : 
+#### \[reason\] \[stack trace\] (By Native method) : 
 While running native calls from JNI it might cause OOM with this format. 
 
 So, in that case you need to investigate the native program for root cause, this actually Java External cause from native method invocation over JNI.
