@@ -3,7 +3,7 @@ layout: post
 title: Jmeter with maven
 date: "2020-07-28 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2020/07/28/maven-jmeter/
+permalink: /2019/07/28/maven-jmeter/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
