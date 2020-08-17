@@ -10,13 +10,12 @@ navbar-links:
     - Analysis: "tag/Performance-Analysis"
     - Java Performance: "tag/Java-Performance"
     - DotNet Performance: "tag/Dotnet-Performance"
-  Jmeter: 
-    - Scripting: "tag/jmeter-script"
-    - Running Test: "tag/jmeter-run"
-    - Plugins: "tag/jmeter-plugins"
-    - Configuration: "tag/jmeter-config"
-    - WebDriver: "tag/jmeter-webdriver"
-    - Cloud: "tag/jmeter-cloud"
+    - Jmeter-Scripting: "tag/jmeter-script"
+    - Jmeter-Test-Running: "tag/jmeter-run"
+    - Jmeter-Plugins: "tag/jmeter-plugins"
+    - Jmeter-Configuration: "tag/jmeter-config"
+    - Jmeter-WebDriver: "tag/jmeter-webdriver"
+    - Jmeter-Cloud: "tag/jmeter-cloud"
   Java: 
     - Java Lang: "tag/java"
     - Reflection: "tag/reflection"
@@ -47,11 +46,6 @@ navbar-links:
     - Tools: "tag/tools"
     - Docker: "tag/docker"
     - LinuxAdmin: "tag/linux-admin"
-  Learn : 
-    - Courses: "courses"
-    - Talks: "talks"
-    - Interview: "tag/interview-questions"
-    - Reviews : "tag/reviews"
   About: 
     - Shantonu: "aboutme"
     - Experience : "cv/details/index.html"
@@ -59,6 +53,10 @@ navbar-links:
     - CV(doc) : "tag/resume"
     - Contact : "contact"
     - hireme : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
+    - Courses: "courses"
+    - Talks: "talks"
+    - Interview: "tag/interview-questions"
+    - Reviews : "tag/reviews"
   nav-search : "search"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
