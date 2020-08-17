@@ -20,5 +20,6 @@ Public Talks & online meetups.
 
 # Talks with [RedLine13](https://www.youtube.com/watch?v=jrThRCgII5k)
 
- {% youtube jrThRCgII5k %}
+
+{% youtube jrThRCgII5k %}
  
