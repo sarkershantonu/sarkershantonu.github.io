@@ -15,4 +15,8 @@ comments: true
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
-Public Talks & online meetups. 
+Public Talks & online meetups.
+
+# Talks with [RedLine13](https://www.youtube.com/watch?v=jrThRCgII5k)
+
+ 
