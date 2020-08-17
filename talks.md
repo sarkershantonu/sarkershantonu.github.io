@@ -7,6 +7,7 @@ meta-title: "Talks by Shantonu"
 meta-description: "Test developer with a Bsc in Computer Science"
 comments: true
 ---
+
 <div class="list-filters">
     <a href="/" class="list-filter filter-selected">All posts</a>
     <a href="/popular" class="list-filter">Most Popular</a>
