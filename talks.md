@@ -20,5 +20,12 @@ Public Talks & online meetups.
 
 # Talks with [RedLine13](https://www.youtube.com/watch?v=jrThRCgII5k)
 
+# JugBD : [API Automation with RestAssured](https://www.youtube.com/watch?v=gkz_EqlVtjY&list=PLLJB7JIS-EHYJqA4FbffdgPgPIr6N_kJ2)
 
- 
+# Weekly/Monthly Meeting with [SQABD](https://www.facebook.com/groups/sqabd/)
+- [Trello Board](https://trello.com/b/UTNTvLE7/topics-for-qas)
+- [2017-mar-18](https://www.youtube.com/watch?v=91stNrawgSU)
+
+- [Dec 5, 2015,on-jmeter](https://www.youtube.com/watch?v=oxoxIa_zgT0)
+
+# [Youtube Channel](https://www.youtube.com/c/ShantonuSarker/videos)
