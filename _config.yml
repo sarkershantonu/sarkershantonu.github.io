@@ -32,7 +32,7 @@ navbar-links:
     - Junit: "tag/junit"
     - TestNG: "tag/testng"
     - Robotium: "tag/robotium"
-  Development:
+  Dev:
     - Patterns: "tag/design-pattern"
     - OOP/OOAD: "tag/oop-ooad"
     - Regular Expression: "tag/regix"
