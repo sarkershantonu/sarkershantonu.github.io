@@ -51,13 +51,14 @@ navbar-links:
     - Courses: "courses"
     - Talks: "talks"
     - Interview: "tag/interview-questions"
+    - Reviews : "tag/reviews"
   About: 
-    - About Me: "aboutme"  
-    - Experience: "cv/summary/index.html"
+    - About Me: "aboutme"
+    - Experience: "cv/details/index.html"
+    - Resume: "cv/summary/index.html"
     - CV(doc): "tag/resume"
     - Contact: "contact"
     - hireme : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
-    - Reviews : "tag/reviews"
 nav-search: "search" 
 
 # If you want to have an image logo in the top-left corner instead of the title text,
