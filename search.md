@@ -2,7 +2,8 @@
 layout: default
 title: "Search sarkershantonu.github.io"
 css: "/css/search.css"
-comments: true
+meta-title: "Full Stack SDET/Java Developer"
+comments: false
 ---
 
 # Search sarkershantonu.github.io

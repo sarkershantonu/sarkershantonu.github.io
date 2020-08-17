@@ -3,7 +3,7 @@ layout: "page"
 title: "Contact Me"
 subtitle: I build systems for testing
 css: "/css/index.css"
-meta-title: "Contact Shantonu"
+meta-title: "Full Stack SDET/Java Developer"
 meta-description: "Test developer with a Bsc in Computer Science"
 comments: true
 ---
