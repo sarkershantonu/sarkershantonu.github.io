@@ -235,3 +235,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-mentions
   - jekyll-github-metadata
+  - jekyll-youtube
