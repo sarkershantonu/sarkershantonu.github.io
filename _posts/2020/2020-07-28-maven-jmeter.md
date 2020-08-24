@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jmeter with maven
-date: "2020-07-28 05:02"
+date: "2013-07-28 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2012/07/28/maven-jmeter/
 gh-repo: sarkershantonu/sarkershantonu.github.io
