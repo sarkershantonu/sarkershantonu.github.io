@@ -30,8 +30,12 @@ This will allow us to "Shift Left" performance testing. And this will allow any 
 # Steps 
 
 ### Create a Blank Project 
-### Specify test script(JMX)
 
+### Specify test script(JMX)
+This part is about the test site. 
+
+
+### CObligating Maven Plugins 
 # Final POM.XML
 - As this is performance testing , we will run test in maven verify phase(as integration test)
 - There is no Java coding involve, so, no source/test code. those will be empty folders. 
