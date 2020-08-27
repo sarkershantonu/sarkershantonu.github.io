@@ -29,13 +29,26 @@ This will allow us to "Shift Left" performance testing. And this will allow any 
 
 # Steps 
 
+
+### Create a Jmeter Test Script
+
 ### Create a Blank Project 
 
 ### Specify test script(JMX)
 This part is about the test site. 
 
 
-### CObligating Maven Plugins 
+### Configure Maven Plugins 
+
+### Adding properties 
+
+### adding plugins 
+
+### adding load test properties
+
+### Adding Basic report
+
+
 # Final POM.XML
 - As this is performance testing , we will run test in maven verify phase(as integration test)
 - There is no Java coding involve, so, no source/test code. those will be empty folders. 
@@ -43,6 +56,8 @@ This part is about the test site.
 - Properties folder : /src/test/jmeter
 - jmeter config folder (like log4j2.xml) : /src/test/conf
 - Test Data(CSV) folder : 
+
+### Run the test 
 
 # Customize Property 
 ### Jmeter Properties
