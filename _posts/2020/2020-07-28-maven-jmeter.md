@@ -35,7 +35,7 @@ We need to create a jmeter script that we are going to use to generate load. For
 - Base URL = bdjobs.com
 - Threads = 10
 - Period = 5min
-- 
+- Looping = Infinite
 
 
 
