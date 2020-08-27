@@ -31,6 +31,11 @@ This will allow us to "Shift Left" performance testing. And this will allow any 
 
 
 ### Create a Jmeter Test Script
+We need to create a jmeter script that we are going to use to generate load. For the example , i am using 
+- Base URL = bdjobs.com
+-  
+
+
 
 ### Create a Blank Project 
 
