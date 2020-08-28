@@ -37,7 +37,22 @@ We need to create a jmeter script that we are going to use to generate load. For
 - Rampup = 10s
 - Looping = Infinite (test will stop by time)
 - Period = 2min (120s)
-- 
+- Target Request Per Minuit is 30
+
+##### The test case
+We will run only to navigate links present. 
+- Step 1 : Going to main url
+- step 2 : Going to all links of jobs based on locations
+- step 3 : Going to all links of jobs based on criteria
+
+For step 2 & step 3, I have used **regular expression extractor** which will help us to get all links dynamically . We will get all links as loop. I wont explain details here as this is only maven execution.(comment if you want to know how)
+ 
+##### Keep All configuration as property 
+- To have dynamic behavior, I am keeping all variable as property in **user define variables**. These are jmeter properties, we can inject this way using maven. 
+![jmeter-test-info](/images/jmeter-maven/test-case-udv.JPG)
+
+##### Thread Group : 
+
 
 ##### Test Script details 
 - In the test 
