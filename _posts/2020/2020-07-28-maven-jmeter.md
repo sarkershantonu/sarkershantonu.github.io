@@ -33,10 +33,14 @@ This will allow us to "Shift Left" performance testing. And this will allow any 
 ### Create a Jmeter Test Script
 We need to create a jmeter script that we are going to use to generate load. For the example , i am using 
 - Base URL = bdjobs.com
-- Threads = 10
-- Period = 5min
-- Looping = Infinite
+- Threads = 20
+- Rampup = 10s
+- Looping = Infinite (test will stop by time)
+- Period = 2min (120s)
+- 
 
+##### Test Script details 
+- In the test 
 
 
 ### Create a Blank Project 
