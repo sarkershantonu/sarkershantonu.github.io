@@ -1,16 +1,15 @@
 ---
 layout: post
 title: Jmeter with maven
-date: "2013-07-28 05:02"
+date: "2020-08-28 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2012/07/28/maven-jmeter/
+permalink: /2020/08/28/maven-jmeter/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-[DRAFT]
-In this article we are going to see how can we perform Jmeter testing using maven, so that we can use this in CI/CD. 
+In this article we are going to see how can we perform Jmeter testing using maven, so that we can use this in **CI/CD**. 
 
 ## What is Jmeter? 
 Jmeter is a performance testing tool which can be integrated with CI/CD.
@@ -28,13 +27,13 @@ This will allow us to "Shift Left" performance testing. And this will allow any 
 - we will generate reports 
 
 # Steps 
-
+Here I am going to point step by step how to do this. 
 
 ### Create a Jmeter Test Script
 We need to create a jmeter script that we are going to use to generate load. For the example , i am using 
 - Base URL = bdjobs.com
 - Threads = 20
-- Rampup = 10s
+- RampUp = 10s
 - Looping = Infinite (test will stop by time)
 - Period = 2min (120s)
 - Target Request Per Minuit is 30 (RPM)
@@ -93,27 +92,26 @@ Now, lets's open your favorite IDE (i am using intellij IDEA) & create a blank m
 
 Add properties section in pom.xml
 ```
-    <properties>
-                <BUILD_TAG>${project.version}</BUILD_TAG>
-               <base.url>www.bdjobs.com</base.url>
-               <jobs.url>jobs.bdjobs.com</jobs.url>
-               <protocol>https</protocol>
-               <port>443</port>
-               <connect.timeout>30000</connect.timeout>
-               <response.timeout>40000</response.timeout>
-               <thread.name>BDJOBS</thread.name>
-               <thread.number>20</thread.number>
-               <rampup>10</rampup>
-               <startup.delay>5</startup.delay>
-               <test.duration>600</test.duration>
-               <target.rpm>30</target.rpm>
-               <jmeter.plugin.version>3.1.0</jmeter.plugin.version>
-               <encoding>UTF-8</encoding>
-               <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
-               <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
-               <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
-
-    </properties>
+<properties>
+	<BUILD_TAG>${project.version}</BUILD_TAG>
+	<base.url>www.bdjobs.com</base.url>
+	<jobs.url>jobs.bdjobs.com</jobs.url>
+	<protocol>https</protocol>
+	<port>443</port>
+	<connect.timeout>30000</connect.timeout>
+	<response.timeout>40000</response.timeout>
+	<thread.name>BDJOBS</thread.name>
+	<thread.number>20</thread.number>
+	<rampup>10</rampup>
+	<startup.delay>5</startup.delay>
+	<test.duration>600</test.duration>
+	<target.rpm>30</target.rpm>
+	<jmeter.plugin.version>3.1.0</jmeter.plugin.version>
+	<encoding>UTF-8</encoding>
+	<project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
+	<project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
+	<project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
+</properties>
 ```
 
 ##### Add jmeter maven plugins
@@ -131,30 +129,30 @@ Add properties section in pom.xml
 
 ```
 <plugin>
-            <groupId>com.lazerycode.jmeter</groupId>
-            <artifactId>jmeter-maven-plugin</artifactId>
-            <version>${jmeter.plugin.version}</version>
-            <executions>
-                <execution>
-                    <id>configuration</id>
-                    <goals>
-                        <goal>configure</goal>
-                    </goals>
-                </execution>
-                <execution>
-                    <id>tests</id>
-                    <goals>
-                        <goal>jmeter</goal>
-                    </goals>
-                </execution>
-                <execution>
-                    <id>check-results</id>
-                    <goals>
-                        <goal>results</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin>
+    <groupId>com.lazerycode.jmeter</groupId>
+    <artifactId>jmeter-maven-plugin</artifactId>
+    <version>${jmeter.plugin.version}</version>
+    <executions>
+        <execution>
+			<id>configuration</id>
+			<goals>
+				<goal>configure</goal>
+			</goals>
+		</execution>
+		<execution>
+			<id>tests</id>
+			<goals>
+				<goal>jmeter</goal>
+			</goals>
+		</execution>
+		<execution>
+			<id>check-results</id>
+			<goals>
+				<goal>results</goal>
+			</goals>
+			</execution>
+	</executions>
+</plugin>
 ```
 
 In here you can see there are three goals. 
@@ -167,99 +165,69 @@ This part we are going to configure maven plugins with our properties that we sp
 
 ``` 
 <configuration>
-                <propertiesUser>
-                    <base.url>${base.url}</base.url>
-                    <jobs.url>${jobs.url}</jobs.url>
-                    <app.protocol>${protocol}</app.protocol>
-                    <app.port>${port}</app.port>
-                    <connect.timeout>${connect.timeout}</connect.timeout>
-                    <response.timeout>${response.timeout}</response.timeout>
-                    <thread.name>${thread.name}</thread.name>
-                    <thread.number>${thread.number}</thread.number>
-                    <rampup>${rampup}</rampup>
-                    <startup.delay>${startup.delay}</startup.delay>
-                    <test.duration>${test.duration}</test.duration>
-                    <target.rpm>${target.rpm}</target.rpm>
-                </propertiesUser>
+	<propertiesUser>
+		<base.url>${base.url}</base.url>
+		<jobs.url>${jobs.url}</jobs.url>
+		<app.protocol>${protocol}</app.protocol>
+		<app.port>${port}</app.port>
+		<connect.timeout>${connect.timeout}</connect.timeout>
+		<response.timeout>${response.timeout}</response.timeout>
+		<thread.name>${thread.name}</thread.name>
+		<thread.number>${thread.number}</thread.number>
+		<rampup>${rampup}</rampup>
+		<startup.delay>${startup.delay}</startup.delay>
+		<test.duration>${test.duration}</test.duration>
+		<target.rpm>${target.rpm}</target.rpm>
+	</propertiesUser>
 </configuration>
 ```
 
 ##### Specify test script(JMX)
-This part is about the test site. 
+By default Jmeter plugins finds ```\src\test\jmeter``` folder for test. It runs all JMX files in the folder. As we are running single JMX, i am not changing anything. 
 
+##### Adding jmeter properties
+As this is default tests, i am not adding any property. Future post, I will show how to add user.properties.  
 
+##### Adding Basic report
+By default , plguins generates CSV files. I am not changing. 
 
-
-### Adding properties 
-
-### adding plugins 
-
-### adding load test properties
-
-### Adding Basic report
-
-
-# Final POM.XML
-- As this is performance testing , we will run test in maven verify phase(as integration test)
-- There is no Java coding involve, so, no source/test code. those will be empty folders. 
-- JMX Script folder : /src/test/jmeter
-- Properties folder : /src/test/jmeter
-- jmeter config folder (like log4j2.xml) : /src/test/conf
-- Test Data(CSV) folder : 
-
-### Run the test 
-
-# Customize Property 
-### Jmeter Properties
-### User Properties
-# The Test Case(jmx file) 
-
+# Final []POM.XML](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-with-basic-report/pom.xml)
 
 # Run your Scripts 
 Just Maven verify stage ```mvn clean verigy```
 
-# How the Script runs
+# How maven runs the test?
+As you have seen in POM configuration, we have 3 goals, define in stages. When we run **mvn clean verify**, 
+- First,  Jmeter is build with default property configuration from maven repository. If you need jmeter plugins or custom JARs in jmeter, you need to specify in this step. I will provide separate blog for this. 
 
-# How to's? 
-### JMX Configuration
+![jmeter-maven-configure](/images/jmeter-maven/config-jmeter.JPG)
 
-### JVM Configuration
-- to run jmeter JVM with **3gb*** memory, and **768mb** of metaSpace
+And that makes jmeter installed in target folder. 
 
-```
-<jMeterProcessJVMSettings>
-    <xms>3072</xms>
-    <xmx>3072</xmx>
-    <arguments>
-        <argument>-XX:MaxMetaspaceSize=768m</argument>
-    </arguments>
-</jMeterProcessJVMSettings>
-```
+![jmeter-configure](/images/jmeter-maven/configure-step.jpg)
 
-- Applying same thing in Another way 
+- Second, Jmeter runs the test. 
 
-```
-<jMeterProcessJVMSettings>
-    <arguments>
-        <argument>-XX:MaxMetaspaceSize=768m</argument>
-        <argument>-Xmx3072m</argument>
-        <argument>-Xms3072m</argument>
-    </arguments>
-</jMeterProcessJVMSettings>		         
-```
+![jmeter-maven-run](/images/jmeter-maven/perftest-jmeter.JPG)
 
-- to run jmeter JVM with **3gb*** memory, and **768mb** of metaSpace and enable profiling (for initial diagnosis) 
+now, during the test, we can see command line results like this. 
 
-```
-<jMeterProcessJVMSettings>
-	<xms>3072</xms>
-	<xmx>3072</xmx>
-	<arguments>
-		<argument>-Xprof</argument>
-		<argument>-Xfuture</argument>
-		<argument>-XX:MaxMetaspaceSize=768m</argument>
-	</arguments>
-</jMeterProcessJVMSettings>
-```
+![jmeter-during-execution](/images/jmeter-maven/during-test-run.JPG)
+
+- Third, Jmeter Reporting step. First it will scan for reports
+
+![jmeter-report-find](/images/jmeter-maven/scanning-for-results.JPG)
+
+and then it will generate results. 
+
+![jmeter-configure](/images/jmeter-maven/results-step.JPG)
+
+When results are generated, you can see this in target folder . This is CSV result 
+
+![jmeter-configure](/images/jmeter-maven/results.JPG)
+
+There are multiple type of results we can get like jtl, html etc. I will provide separate blog on detail reporting. 
 
 # [Project Source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-with-basic-report)
+
+Thanks :) 
