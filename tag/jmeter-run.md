@@ -17,6 +17,9 @@ comments: true
 
 This page contains all post related to Jmeter Test Executions.
 
+# Jmeter-Maven 
+- [Jmeter with basic report](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/)
+
 # Basics 
 - [How run JMeter in different modes?](http://shantonusarker.blogspot.com/2013/01/how-run-jmeter-in-different-modes.html)
 - [How ro run JMeter with a proxy?](http://shantonusarker.blogspot.com/2013/01/how-ro-run-jmeter-with-proxy.html)
