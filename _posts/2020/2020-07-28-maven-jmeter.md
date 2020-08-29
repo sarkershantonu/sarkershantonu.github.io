@@ -203,7 +203,7 @@ Project will look like this
 ![final-project](/images/jmeter-maven/final-project.JPG)
 
 # Run your Scripts 
-Just run Maven verify stage :  ```mvn clean verigy```
+Just run Maven verify stage :  ```mvn clean verify```
 
 And you can see the results in ***/target/jmeter/results***
 
