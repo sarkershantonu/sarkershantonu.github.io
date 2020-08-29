@@ -197,13 +197,13 @@ As this is default tests, i am not adding any property. Future post, I will show
 ### Adding Basic report
 By default , plguins generates CSV files. I am not changing. 
 
-# Final []POM.XML](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-with-basic-report/pom.xml)
+# Final [POM.XML](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-with-basic-report/pom.xml)
 Project will look like this 
 
 ![final-project](/images/jmeter-maven/final-project.JPG)
 
 # Run your Scripts 
-Just Maven verify stage ```mvn clean verigy```
+Just run Maven verify stage :  ```mvn clean verigy```
 
 And you can see the results in ***/target/jmeter/results***
 
