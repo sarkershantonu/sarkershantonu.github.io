@@ -51,7 +51,7 @@ navbar-links:
     - Courses: "courses"
     - Talks: "talks"
     - Reviews : "tag/reviews"
-  nav-search : "search"
+  search : "search"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
