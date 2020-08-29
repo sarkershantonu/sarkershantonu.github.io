@@ -12,19 +12,20 @@ comments: true
 In this article we are going to see how can we perform Jmeter testing using maven, so that we can use this in **CI/CD**. 
 
 ## What is Jmeter? 
-Jmeter is a performance testing tool which can be integrated with CI/CD.
+Jmeter is a performance testing tool which can be integrated with CI/CD. To know details you may [visit](https://sarkershantonu.github.io/tag/jmeter-script/)
 
 ## What is Maven 
 Maven is Java Build automation tool. 
 
 ## Why Maven with Jmeter? 
-Usually we test with any Java code. Ideally an acceptance test should have some form of performance testing with it. We are going to use maven jmeter plugins to test a web application like a development project build. 
+Usually we perform unit test with any Java code. Ideally an acceptance test should have some form of performance testing with it. We are going to use maven jmeter plugins to test a web application similar to a a development project build. 
 
-This will allow us to "Shift Left" performance testing. And this will allow any CI/CD system (like jenkins) , execute the test and show reports.
+This will allow us to "Shift Left" performance testing. And this will allow any CI/CD system (like jenkins) , execute the test and show reports. This technique can be use to run in Docker also. 
 
 # Goals
 - We will run test 
 - we will generate reports 
+- We will use maven command (from command line or IDE)
 
 # Steps 
 Here I am going to point step by step how to do this. 
@@ -38,7 +39,8 @@ We need to create a jmeter script that we are going to use to generate load. For
 - Period = 2min (120s)
 - Target Request Per Minuit is 30 (RPM)
 
-##### The test case
+
+### The test case
 We will run only to navigate links present. 
 - Step 1 : Going to main url
 
@@ -65,17 +67,17 @@ I am going to use 2s delay for each step of request. So, finally test look like 
 
 ![final](/images/jmeter-maven/test-case.JPG)
 
-##### Keep All configuration as property 
+### Keep All configuration as property 
 - To have dynamic behavior, I am keeping all variable as property in **user define variables**. These are jmeter properties, we can inject this way using maven. 
 
 ![jmeter-test-info](/images/jmeter-maven/test-case-udv.JPG)
 
-##### Thread Group configuration
+### Thread Group configuration
 - To get the target RPM i am using 20threads in infinite loop with 2min(120s) duration. This will stop test after 2min. 
 
 ![thread-test](/images/jmeter-maven/test-case-thread-config.JPG)
 
-Note : We will see some socket exception for time limit, for this test, please ignore this. In real test , use some bigger time. 
+**Note** : We will see some socket exception for time limit, for this example, please ignore this. 
 
 ##### [Test Jmx](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-with-basic-report/src/test/jmeter/BDJOBS.jmx)
 
@@ -88,7 +90,7 @@ Now, lets's open your favorite IDE (i am using intellij IDEA) & create a blank m
     <version>1.0-SNAPSHOT</version>
 ```
 
-##### Test configuration as maven properties 
+### Test configuration as maven properties 
 
 Add properties section in pom.xml
 ```
@@ -114,10 +116,12 @@ Add properties section in pom.xml
 </properties>
 ```
 
-##### Add jmeter maven plugins
+### Add jmeter maven plugins
+
 - Create a build section 
 - Create Plugins section
 - add maven plugin. I am using 3.1.0 version for this example
+
 ```
 <plugin>
     <groupId>com.lazerycode.jmeter</groupId>
@@ -125,6 +129,7 @@ Add properties section in pom.xml
     <version>${jmeter.plugin.version}</version>
 <plugin>
 ```
+
 - Get Jmeter Jar Configuration as plugin configuration 
 
 ```
@@ -160,7 +165,8 @@ In here you can see there are three goals.
 2. jmeter : Where jmeter runs the tests
 3. results : where jmeter first look for result files and then process results to generate reports.  
 
-##### Configure Maven Plugins 
+### Configure Maven Plugins 
+
 This part we are going to configure maven plugins with our properties that we specified in maven properties. For this, add configuration section after executions
 
 ``` 
@@ -182,19 +188,24 @@ This part we are going to configure maven plugins with our properties that we sp
 </configuration>
 ```
 
-##### Specify test script(JMX)
+### Specify test script(JMX)
 By default Jmeter plugins finds ```\src\test\jmeter``` folder for test. It runs all JMX files in the folder. As we are running single JMX, i am not changing anything. 
 
-##### Adding jmeter properties
+### Adding jmeter properties
 As this is default tests, i am not adding any property. Future post, I will show how to add user.properties.  
 
-##### Adding Basic report
+### Adding Basic report
 By default , plguins generates CSV files. I am not changing. 
 
 # Final []POM.XML](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-with-basic-report/pom.xml)
+Project will look like this 
+
+![final-project](/images/jmeter-maven/final-project.JPG)
 
 # Run your Scripts 
 Just Maven verify stage ```mvn clean verigy```
+
+And you can see the results in ***/target/jmeter/results***
 
 # How maven runs the test?
 As you have seen in POM configuration, we have 3 goals, define in stages. When we run **mvn clean verify**, 
