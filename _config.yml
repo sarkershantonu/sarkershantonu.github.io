@@ -19,7 +19,6 @@ navbar-links:
   Java: 
     - Java Lang: "tag/java"
     - Reflection: "tag/reflection"
-    - Spring: "tag/spring"
     - JVM: "tag/jvm"
     - JDK-Tools: "tag/jdk-tools"
   Testing: 
@@ -28,21 +27,17 @@ navbar-links:
     - Selenium-dotnet: "tag/selenium-dotnet"
     - Codeception: "tag/codeception"
     - NUnit: "tag/nunit"
-    - Junit: "tag/junit"
     - TestNG: "tag/testng"
     - Robotium: "tag/robotium"
   Dev:
     - Patterns: "tag/design-pattern"
     - OOP/OOAD: "tag/oop-ooad"
     - Regular Expression: "tag/regix"
-    - Protocol: "tag/protocol"
     - DotNet: "tag/dotnet"
     - Concepts: "tag/concepts"
     - Agile: "tag/agile"
   DevOps:
-    - CI/CD: "tag/ci-cd"
     - Dev setup: "tag/dev-env"
-    - Proxmox: "tag/proxmox"
     - Tools: "tag/tools"
     - Docker: "tag/docker"
     - LinuxAdmin: "tag/linux-admin"
@@ -55,7 +50,6 @@ navbar-links:
     - hireme : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
     - Courses: "courses"
     - Talks: "talks"
-    - Interview: "tag/interview-questions"
     - Reviews : "tag/reviews"
   nav-search : "search"
 
