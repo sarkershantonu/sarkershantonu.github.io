@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jmeter-Plugins by maven
+title: High Performing Jmeter by maven
 date: "2013-07-28 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2012/07/28/maven-jmeter-plugins/
@@ -9,6 +9,10 @@ excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
+
+In this article we are going to see how we can configure Jmeter (JVM) HEAP configuration during test. 
+
+This is very important when you are testing for a big test or limited resources  
 [draft]
 
 
