@@ -1,19 +1,18 @@
 ---
 layout: post
-title: High Performing Jmeter by maven
-date: "2013-07-28 05:02"
+title: High Performing Jmeter JVM by maven
+date: "2013-07-30 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2012/07/28/maven-jmeter-plugins/
+permalink: /2012/07/30/maven-jmeter-plugins/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
+In this article we are going to see how we can configure Jmeter (JVM) HEAP configuration during test. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
-In this article we are going to see how we can configure Jmeter (JVM) HEAP configuration during test. 
+This is very important when you are testing for a big test in a big server or limited resources . As Jmeter is JAVA application , so it runs on JVM. 
 
-This is very important when you are testing for a big test or limited resources  
-[draft]
 
 
 - As this is performance testing , we will run test in maven verify phase(as integration test)
