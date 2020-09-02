@@ -11,7 +11,11 @@ comments: true
 ---
 In this article we are going to see how we can configure Jmeter (JVM) HEAP configuration during test. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
-This is very important when you are testing for a big test in a big server or limited resources . As Jmeter is JAVA application , so it runs on JVM. 
+This is very important when you are testing for a big test in a big server or limited resources . As Jmeter is JAVA application , so it runs on JVM. Now, you might be thinking why we need to explicitly mention this.
+Because, unless we specify, JVM wont be initiated with this big size memory. And if your test case is complex or have many listeners, you probably need a big heap. 
+
+# How to verify 
+We are going to use  
 
 
 
