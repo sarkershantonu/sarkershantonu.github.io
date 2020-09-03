@@ -3,7 +3,7 @@ layout: post
 title: How to configure Jmeter JVM by maven?
 date: "2020-09-01 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2020/09/01/maven-jmeter-plugins/
+permalink: /2020/09/01/maven-jmeter-jvm-config/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
