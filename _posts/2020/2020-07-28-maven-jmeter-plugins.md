@@ -16,7 +16,10 @@ As jmeter is build with plugin architecture, community come forward with differe
 You can see jmeter plugins list from [jmeter plugin site](https://jmeter-plugins.org/). All plugins are also available in maven central also. 
 
 ### Jmeter Plugins in maven
-Now ware going to see plugin options in jmeter maven configuration. In maven central , you can see jmeter plugin set [here](https://mvnrepository.com/artifact/kg.apc)
+Now ware going to see plugin options in jmeter maven configuration. In maven central , you can see jmeter plugin set [here](https://mvnrepository.com/artifact/kg.apc). There are 61 plugins there. 
+
+I would suggest to keep jmeter small, that means , Only include plugins which we need in the test case. 
+
 
 
 ### [Finally POM ](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-plugins/pom.xml)
