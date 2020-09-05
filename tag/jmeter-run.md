@@ -20,6 +20,7 @@ This page contains all post related to Jmeter Test Executions.
 # Jmeter-Maven 
 - [Jmeter with basic report](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/)
 - [jmeter with modified HEAP size with JVM argument](https://sarkershantonu.github.io/2020/09/01/maven-jmeter-jvm-config/)
+- [Jmeter Plugins](https://sarkershantonu.github.io/2020/09/03/maven-jmeter-plugins/)
 
 # Basics 
 - [How run JMeter in different modes?](http://shantonusarker.blogspot.com/2013/01/how-run-jmeter-in-different-modes.html)
