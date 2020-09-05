@@ -11,9 +11,9 @@ comments: true
 ---
 In this article we are going to see how we can configure Jmeter with plugins. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
-### WHat is Jmeter Plugin? 
-As jmeter is build with plugin architecture, community come forward with different types of plugins when it is needed. And most of the plugins are outsourced. 
-You can see jmeter plugins list from [jmeter plugin site](https://jmeter-plugins.org/). All plugins are also available in maven central also. 
+### What is Jmeter Plugin? 
+As jmeter is build with plugin architecture, community come forward with different types of plugins when required. And most of the plugins are open sourced. 
+You can see jmeter plugins list from [jmeter plugin site](https://jmeter-plugins.org/). All plugins are also available in [**maven central**](https://mvnrepository.com/artifact/kg.apc) also. 
 
 ### Jmeter Plugins in maven
 Now ware going to see plugin options in jmeter maven configuration. In maven central , you can see jmeter plugin set [here](https://mvnrepository.com/artifact/kg.apc). There are 61 plugins there. 
@@ -24,13 +24,13 @@ In this example, we are going to see,how to include multiple plugins together as
 
 From [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/), you can know the basic POM structure. Let's see the jmeter plugins part. 
 
-Among jmeter plugins, one of useful plugin is their thread groups. These thereat groups were actually introduced to match up with Load Runner's thread models. 
+Among jmeter plugins, one of useful plugin is their thread groups. These thread groups were actually introduced to match up with Load Runner's thread models. 
 
-In this test case, I am using ultimate thread group using our existing properties. It looks like this 
+In this test case, I am using **ultimate thread group** with our existing properties. It looks like this 
 
 ![ultimate-thread-group](/images/jmeter-maven/ultimate-threadGroup.JPG)
 
-Now, lets add this ultimate thread group plugin. From [here](https://mvnrepository.com/artifact/kg.apc/jmeter-plugins-casutg), you can see latest version 2.9. 
+Now, lets add this ultimate thread group plugin. From [**here**](https://mvnrepository.com/artifact/kg.apc/jmeter-plugins-casutg), you can see latest version 2.9. 
 
 So adding directly like this under configuration. 
 
