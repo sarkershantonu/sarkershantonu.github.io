@@ -6,10 +6,10 @@ description: Learn Testing by coding
 
 navbar-links:   
   performance: 
-    - Testing: "tag/Performance-Testing"
-    - Analysis: "tag/Performance-Analysis"
-    - Java Performance: "tag/Java-Performance"
-    - DotNet Performance: "tag/Dotnet-Performance"
+    - Testing: "tag/performance-testing"
+    - Analysis: "tag/performance-analysis"
+    - Java Performance: "tag/java-performance"
+    - DotNet Performance: "tag/dotnet-performance"
     - Jmeter-Scripting: "tag/jmeter-script"
     - Jmeter-Test-Running: "tag/jmeter-run"
     - Jmeter-Plugins: "tag/jmeter-plugins"
