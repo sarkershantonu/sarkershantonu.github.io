@@ -20,6 +20,15 @@ In Jmeter, we can have different type of test results.
 4. Jmeter Listener Graphs : Images/reports created by Jmeter Listeners
 
 
+### Enabling HTML report
+To enable, html report, we can use this in configuration. 
+
+``` 
+<generateReports>true</generateReports>
+```
+
+![html](/images/jmeter-maven/html-reports.JPG)
+
 ### Result File Formatting 
 - To enable CSV results
 
@@ -32,6 +41,12 @@ In Jmeter, we can have different type of test results.
 ```
  <resultsFileFormat>xml</resultsFileFormat>
 ``` 
+
+![jtl](/images/jmeter-maven/jtl-created.JPG)
+
+But, if you have enabled ```<generateReports>``` true, this will be always CSV in spite of  XML settings. 
+
+![html-csv](/images/jmeter-maven/html-csv-reports.JPG)
 
 - To disable timestamp from file name
 
