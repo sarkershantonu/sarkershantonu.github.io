@@ -14,6 +14,4 @@ In this article we are going to see how we can configure Jmeter with plugins. Th
 
 
 ### Maven Build Erors 
-- To prevent maven build error, its better to have some threshold values to test case where a certain number of errors can be accepted. I prefer 2% error is tailorable. To apply this, use 
-```<errorRateThresholdInPercent>2</errorRateThresholdInPercent>``` in configuration section. 
 

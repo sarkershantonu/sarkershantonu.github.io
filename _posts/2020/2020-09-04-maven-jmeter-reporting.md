@@ -19,6 +19,72 @@ In Jmeter, we can have different type of test results.
 3. [HTML Results](https://jmeter.apache.org/usermanual/generating-dashboard.html) (modern report)
 4. Jmeter Listener Graphs : Images/reports created by Jmeter Listeners
 
+
+### Result File Formatting 
+- To enable CSV results
+
+```
+ <resultsFileFormat>csv</resultsFileFormat>
+``` 
+
+- To enable JTL results 
+
+```
+ <resultsFileFormat>xml</resultsFileFormat>
+``` 
+
+- To disable timestamp from file name
+
+```
+<testResultsTimestamp>false</testResultsTimestamp>
+``` 
+
+- Add timestamp at the end of the results filename
+
+```
+<appendResultsTimestamp>true</appendResultsTimestamp>
+```
+
+- Specify [**date time format**](http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html) in result file 
+
+```
+<resultsFileNameDateFormat>MMM, yyyy</resultsFileNameDateFormat>
+```
+
+- Result file folder location 
+
+```
+<resultsDirectory>/results/jmeter</resultsDirectory>
+```
+
+- As maven build fails when detecting errors  & it stops builds. To prevents this, we can ignore failure of results 
+
+``` 
+<ignoreResultFailures>true</ignoreResultFailures>
+```
+
+- To prevent maven build error, its better to have some threshold values to test case where a certain number of errors can be accepted. I prefer 2% error is tailorable. To apply this, use 
+```<errorRateThresholdInPercent>2</errorRateThresholdInPercent>``` in configuration section. 
+
+
+- Stop Jmeter from printing console output 
+
+```
+ <suppressJMeterOutput>true</suppressJMeterOutput> 
+```
+
+- to skip whole test 
+
+```
+ <skipTests>true</skipTests>
+```
+
+- To specify Log Level 
+
+``` 
+ <overrideRootLogLevel>debug</overrideRootLogLevel>
+```
+
 ### [Finally POM ](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-plugins/pom.xml)
 
 ### [Project-source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-plugins)
