@@ -77,4 +77,10 @@ I have added 4 plugins here (most commonly used jmeter plugins)
 
 - [Complete Source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-multiple-plugins)
 
+### Note 
+- if any plugin use outdated dependencies , use this 
+
+```
+<downloadExtensionDependencies>false</downloadExtensionDependencies>
+```
 Thanks :) 

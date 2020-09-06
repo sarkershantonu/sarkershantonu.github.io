@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Jmeter-Plugins execution tweaks
-date: "2013-09-06 05:02"
+title: Managing Properties in Jmeter Maven
+date: "2013-09-05 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2013/09/06/maven-jmeter-plugins-tweaks/
+permalink: /2013/09/05/maven-jmeter-Properties/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
@@ -13,7 +13,9 @@ comments: true
 In this article we are going to see how we can configure Jmeter with plugins. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
 
-### Maven Build Erors 
+### Properties in jmeter 
+
+### Default Property location
 
 ### To change configuration directory 
 - by default the configuration directory is **/src/test/conf**. When we want to change , we can use 
