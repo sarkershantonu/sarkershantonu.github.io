@@ -20,7 +20,7 @@ In Jmeter, we can have different type of test results.
 
 
 ### Enabling HTML report
-To enable, html report, we can use this in configuration. 
+- To enable, html report, we can use this in configuration. 
 
 ``` 
 <generateReports>true</generateReports>
@@ -78,8 +78,10 @@ But, if you have enabled ```<generateReports>``` true, this will be always CSV i
 ```
 
 - To prevent maven build error, its better to have some threshold values to test case where a certain number of errors can be accepted. I prefer 2% error is tailorable. To apply this, use 
-```<errorRateThresholdInPercent>2</errorRateThresholdInPercent>``` in configuration section. 
 
+```
+<errorRateThresholdInPercent>2</errorRateThresholdInPercent>
+``` 
 
 - Stop Jmeter from printing console output 
 
@@ -87,7 +89,7 @@ But, if you have enabled ```<generateReports>``` true, this will be always CSV i
  <suppressJMeterOutput>true</suppressJMeterOutput> 
 ```
 
-- to skip whole test 
+- To skip whole test 
 
 ```
  <skipTests>true</skipTests>
