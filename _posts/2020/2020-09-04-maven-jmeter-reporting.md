@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Test Reporting with jmeter-maven
-date: "2020-09-03 05:02"
+date: "2020-09-04 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2020/09/03/maven-jmeter-reporting/
+permalink: /2020/09/04/maven-jmeter-reporting/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
