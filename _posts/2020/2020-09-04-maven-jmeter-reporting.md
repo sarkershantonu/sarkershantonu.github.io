@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Jmeter-Plugins with maven
-date: "2015-09-03 05:02"
+title: Test Reporting with jmeter-maven
+date: "2020-09-03 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2015/09/03/maven-jmeter-plugins/
+permalink: /2020/09/03/maven-jmeter-reporting/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-[draft]
 In this article we are going to see how we can get good reports in jmeter after tests. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
 ### Jmeter Reports
@@ -100,7 +99,7 @@ But, if you have enabled ```<generateReports>``` true, this will be always CSV i
  <overrideRootLogLevel>debug</overrideRootLogLevel>
 ```
 
-### [Finally POM ](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-plugins/pom.xml)
+### [Finally report POM.XML ](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-enhanced-reporting/pom.xml)
 
-### [Project-source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-plugins)
+### [html-reporting-Project-source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-enhanced-reporting)
 
