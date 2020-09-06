@@ -105,3 +105,8 @@ But, if you have enabled ```<generateReports>``` true, this will be always CSV i
 
 ### [html-reporting-Project-source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-enhanced-reporting)
 
+### HTML Report UI
+
+![dashboard](/images/jmeter-maven/html-dashboard.JPG)
+
+![over-time](/images/jmeter-maven/html-over-time-charts.JPG)
