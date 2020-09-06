@@ -120,23 +120,26 @@ To use that plugins, we need to exclude html reporting and keep default XML (jtl
 
 ``` 
 <plugin>
-            <groupId>de.codecentric</groupId>
-            <artifactId>jmeter-graph-maven-plugin</artifactId>
-            <version>0.1.0</version>
+    <groupId>de.codecentric</groupId>
+    <artifactId>jmeter-graph-maven-plugin</artifactId>
+    <version>0.1.0</version>
 </plugin>
 ```
 
 We need to add a configuration section and add type of graph one by one. 
 
 ``` 
-<graphs>
-    <graph>
-        <pluginType>ThreadsStateOverTime</pluginType>
-        <width>1024</width>
-        <height>768</height>
-        <outputFile>${project.build.directory}/jmeter/results/graphs/ThreadsStateOverTime.png</outputFile>
-    </graph>
-<graphs>
+<configuration>
+    <inputFile>${project.build.directory}/jmeter/results/*.jtl</inputFile>
+    <graphs>
+        <graph>
+            <pluginType>ThreadsStateOverTime</pluginType>
+            <width>1024</width>
+            <height>768</height>
+            <outputFile>${project.build.directory}/jmeter/results/graphs/ThreadsStateOverTime.png</outputFile>
+        </graph>
+    <graphs>
+</configuration>
 ```
 
 This plugins supports [following Graphs](https://jmeter-plugins.org/wiki/JMeterPluginsCMD/)(PNG): 
@@ -154,12 +157,12 @@ This plugins supports [following Graphs](https://jmeter-plugins.org/wiki/JMeterP
 
 We can add all graphs or only necessary graphs. To show in example, I have added all supported graphs in project. 
 
-### [Finally POM.XML ](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-old-graphs/pom.xml)
+### [Finally Graph POM.XML ](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-old-graphs/pom.xml)
 
-### [old-graph-Project](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-old-graphs)
+### [Old Graph Project Source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-old-graphs)
 
 ### Lets Run & generate Graphs 
-- If we want to generate report, we need to run 
+- If we want to generate Graphs, we need to run 
 
 ```
 mvn jmeter-graph:create-graph
@@ -169,31 +172,53 @@ And we can see graphs generated in configured folder. In my case **${project.bui
 
 ![generated-old-reports](/images/jmeter-maven/old-reports.JPG)
 
-From my example , I am adding all generated images. 
+From my example , I am adding all generated Graphs. 
+
+- BytesThroughputOverTime
 
 ![generated-old-reports1](/images/jmeter-maven/old/BytesThroughputOverTime.png)
 
+- HitsPerSecond
+
 ![generated-old-reports2](/images/jmeter-maven/old/HitsPerSecond.png)
+
+- LatenciesOverTime
 
 ![generated-old-reports3](/images/jmeter-maven/old/LatenciesOverTime.png)
 
-PageDataExtractorOverTime wont have any data to show, so, its blank. 
+- **PageDataExtractorOverTime** wont have any data to show, so, its **blank**. 
 
 ![generated-old-reports4](/images/jmeter-maven/old/PageDataExtractorOverTime.png)
 
+- ResponseCodesPerSecond
+
 ![generated-old-reports5](/images/jmeter-maven/old/ResponseCodesPerSecond.png)
+
+- ResponseTimesDistribution
 
 ![generated-old-reports6](/images/jmeter-maven/old/ResponseTimesDistribution.png)
 
+- ResponseTimesOverTime
+
 ![generated-old-reports7](/images/jmeter-maven/old/ResponseTimesOverTime.png)
+
+- ResponseTimesPercentiles
 
 ![generated-old-reports8](/images/jmeter-maven/old/ResponseTimesPercentiles.png)
 
+- ThreadsStateOverTime
+
 ![generated-old-reports9](/images/jmeter-maven/old/ThreadsStateOverTime.png)
+
+- ThroughputVsThreads
 
 ![generated-old-reports10](/images/jmeter-maven/old/ThroughputVsThreads.png)
 
+- TimesVsThreads
+
 ![generated-old-reports11](/images/jmeter-maven/old/TimesVsThreads.png)
+
+- TransactionsPerSecond
 
 ![generated-old-reports12](/images/jmeter-maven/old/TransactionsPerSecond.png)
 
