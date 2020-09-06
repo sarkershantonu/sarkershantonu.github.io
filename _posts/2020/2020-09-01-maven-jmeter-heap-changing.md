@@ -16,6 +16,7 @@ This is very important when you are testing for a big test in a big server or li
 Now, you might be thinking why we need to explicitly mention this.Because, unless we specify, JVM wont be initiated with this big size memory. And if your test case is complex or have many listeners, you probably need a big heap. 
 
 ### JVM Configurations
+- To add JVM argument , under plugins configuration section ```<jMeterProcessJVMSettings>``` will be present. Here are some examples. 
 - to run jmeter JVM with **3.5gb*** heap, and **768mb** of metaSpace
 
 ```
