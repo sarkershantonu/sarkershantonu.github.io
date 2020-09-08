@@ -17,3 +17,10 @@ And, if we use very minimum element in Jmeter, we may not need jmeter complete v
 
 ### Jmeter Jar Configuration 
 
+### Adding 3rd party JARs 
+
+### Removing Jars 
+
+### Project with min version Jmeter
+
+### Project with 3rd party external JAR
