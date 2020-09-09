@@ -155,12 +155,35 @@ now, Lets exclude some
 
 ``` 
 
-<excludedArtifacts>
-    <exclusion>com.sun.jdmk:jmxtools</exclusion>
-    <exclusion>com.sun.jmx:jmxri</exclusion>
-    <exclusion>org.apache.tika:tika-core</exclusion>
-    <exclusion>org.apache.tika.parser:tika-parser</exclusion>
+ <excludedArtifacts>
+	<exclusion>com.sun.jdmk:jmxtools</exclusion>
+	<exclusion>com.sun.jmx:jmxri</exclusion>
+	<exclusion>org.apache.tika:tika-core</exclusion>
+	<exclusion>org.apache.tika:tika-parsers</exclusion>
+	<exclusion>org.neo4j.driver:neo4j-java-driver</exclusion>
+	<exclusion>com.helger:ph-commons</exclusion>
+	<exclusion>com.helger:ph-css</exclusion>
+	<exclusion>commons-pool2:commons-pool2</exclusion>
+	<exclusion>commons-math3:commons-math3</exclusion>
+	<exclusion>org.slf4j:slf4j-nop</exclusion>
+	<exclusion>logkit:logkit</exclusion>
+	<exclusion>avalon-logkit:avalon-logkit</exclusion>
+	<exclusion>jdom:jdom</exclusion>
+	<exclusion>log4j:log4j</exclusion>
+	<exclusion>commons-logging:commons-logging</exclusion>
+	<exclusion>excalibur-logger:excalibur-logger</exclusion>
 </excludedArtifacts>
 ```
 
+After this in lib folder you will see those JARs are gone. 
+
+![jar-ex](/images/jmeter-maven/jar-excluded.JPG)
+
+So, finally this is the [**pom.xml**](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-mini/pom.xml)
+
+### Project [Source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-mini)
+
+**NOTE** : Don't just blindly remove dependent JARs. You should have good hold on Jmeter code base to know which are mandatory for components you use in your test case. If you remove necessary JAR, build process cant run. 
+
 ### Project with 3rd party external JAR
+
