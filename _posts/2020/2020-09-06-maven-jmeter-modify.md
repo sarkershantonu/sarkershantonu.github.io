@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Jmeter-Plugins execution tweaks
-date: "2013-09-06 05:02"
+title: Modify Jmeter JARs in maven
+date: "2020-09-06 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2013/09/06/maven-jmeter-plugins-tweaks/
+permalink: /2020/09/06/maven-jmeter-modify-jars/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
@@ -22,9 +22,7 @@ And, if we use very minimum element in Jmeter, we may not need jmeter complete v
 
 ```
 <testPlanLibraries>
-    <artifact>org.apache.activemq:activemq-spring:5.15.2</artifact>
-    <artifact>org.apache.activemq:activemq-client:5.15.2</artifact>
-    <artifact>org.apache.activemq:activemq-broker:5.15.2</artifact>
+    <artifact>group.id:artifact-id:version-no</artifact>
 </testPlanLibraries>
  ```
 
@@ -32,8 +30,7 @@ And, if we use very minimum element in Jmeter, we may not need jmeter complete v
 
 ``` 
 <excludedArtifacts>
-    <exclusion>com.sun.jdmk:jmxtools</exclusion>
-    <exclusion>com.sun.jmx:jmxri</exclusion>
+     <artifact>group.id:artifact-id:version-no</artifact>
 </excludedArtifacts>
 ```
 
@@ -41,7 +38,7 @@ And, if we use very minimum element in Jmeter, we may not need jmeter complete v
 
 ``` 
 <junitLibraries>
-    <artifact>com.lazerycode.junit:junit-test:1.0.0</artifact>
+    <artifact>group.id:artifact-id:version-no</artifact>
 </junitLibraries>
 ```
 
@@ -187,3 +184,22 @@ So, finally this is the [**pom.xml**](https://github.com/sarkershantonu/jmeter-n
 
 ### Project with 3rd party external JAR
 
+For this example, I am using activemq jar to include. 
+
+``` 
+<testPlanLibraries>
+    <artifact>org.apache.activemq:activemq-all:5.16.0</artifact>
+</testPlanLibraries>
+```
+
+And we can see 
+
+![jar-included](/images/jmeter-maven/jar-added.JPG)
+
+So, finally the pom is [**here**](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-custom-libs/pom.xml)
+
+**NOTEs** : 
+- I ran the project with ```mvn clean verify```
+- For external jar adding project, please ignore test case. I am shoeing only configuration, test case is not regiment here. 
+
+Thanks :) 
