@@ -1,16 +1,15 @@
 ---
 layout: post
 title: Managing Properties in Jmeter Maven
-date: "2013-09-05 05:02"
+date: "2013-09-07 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2013/09/05/maven-jmeter-Properties/
+permalink: /2013/09/07/maven-jmeter-Properties/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-[draft]
-In this article we are going to see how we can configure Jmeter with plugins. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can add jmeter properties & configurations in maven plugin. This is continuation post of [previous article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
 
 ### Properties in jmeter 
