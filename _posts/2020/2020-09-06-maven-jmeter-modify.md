@@ -156,8 +156,10 @@ now, Lets exclude some
 ``` 
 
 <excludedArtifacts>
-                    <exclusion>com.sun.jdmk:jmxtools</exclusion>
-                    <exclusion>com.sun.jmx:jmxri</exclusion>
+    <exclusion>com.sun.jdmk:jmxtools</exclusion>
+    <exclusion>com.sun.jmx:jmxri</exclusion>
+    <exclusion>org.apache.tika:tika-core</exclusion>
+    <exclusion>org.apache.tika.parser:tika-parser</exclusion>
 </excludedArtifacts>
 ```
 
