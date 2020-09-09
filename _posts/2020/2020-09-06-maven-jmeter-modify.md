@@ -9,13 +9,11 @@ excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can customize jmeter when executing with maven plugin. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can customize jmeter when executing with maven plugin. This is continuation post of [previous article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
-In the last article, we know about how we can configure Jmeter plugins. Now, when testing in jmeter, if we need any 3rd party JAR/Lib, how we can do that. We will see that now. 
+if we use very minimum elements in Jmeter, we may not need jmeter complete version to run, we can run minimum jmeter. That means, less download time, less java memory usages, faster loading. We will see this here. 
 
-And, if we use very minimum element in Jmeter, we may not need jmeter complete version to run, we can run minimum jmeter. That means, less download time, less java memory usages, faster loading. We will see this here. 
-
-### Jmeter Jar Configuration 
+Now, when testing in jmeter, if we need any 3rd party JAR/Lib, how we can do that. We will see that now. 
 
 ### Adding 3rd party JARs 
 - This will JARs at /lib directory
@@ -180,7 +178,7 @@ So, finally this is the [**pom.xml**](https://github.com/sarkershantonu/jmeter-n
 
 ### Project [Source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-mini)
 
-**NOTE** : Don't just blindly remove dependent JARs. You should have good hold on Jmeter code base to know which are mandatory for components you use in your test case. If you remove necessary JAR, build process cant run. 
+**NOTE** : Don't just blindly remove dependent JARs. You should have good hold on Jmeter code base to know which are mandatory for components you use in your test case. If you remove necessary JAR, build will fail. 
 
 ### Project with 3rd party external JAR
 
@@ -200,6 +198,6 @@ So, finally the pom is [**here**](https://github.com/sarkershantonu/jmeter-novic
 
 **NOTEs** : 
 - I ran the project with ```mvn clean verify```
-- For external jar adding project, please ignore test case. I am shoeing only configuration, test case is not regiment here. 
+- For external jar adding project, please ignore test case. I am showing only configuration, test case is not important here. 
 
 Thanks :) 
