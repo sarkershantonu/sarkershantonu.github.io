@@ -17,15 +17,14 @@ comments: true
 
 Public Talks & online meetups.
 
-### Talks with [RedLine13](https://www.youtube.com/watch?v=jrThRCgII5k)
-
+# Talks with [RedLine13](https://www.youtube.com/watch?v=jrThRCgII5k)
 
 <iframe width="560" height="315" align="center" src="https://www.youtube-nocookie.com/embed/jrThRCgII5k?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-### JugBD : [API Automation with RestAssured](https://www.youtube.com/watch?v=gkz_EqlVtjY&list=PLLJB7JIS-EHYJqA4FbffdgPgPIr6N_kJ2)
+# JugBD : [API Automation with RestAssured](https://www.youtube.com/watch?v=gkz_EqlVtjY&list=PLLJB7JIS-EHYJqA4FbffdgPgPIr6N_kJ2)
 
-### [SQABD](https://www.facebook.com/groups/sqabd/) Weekly/Monthly Meeting
+# [SQABD](https://www.facebook.com/groups/sqabd/) Weekly/Monthly Meeting
 - [Trello Board](https://trello.com/b/UTNTvLE7/topics-for-qas)
 - [2017-mar-18](https://www.youtube.com/watch?v=91stNrawgSU)
 
