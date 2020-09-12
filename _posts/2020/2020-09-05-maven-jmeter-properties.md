@@ -11,9 +11,10 @@ comments: true
 ---
 In this article we are going to see how we can add jmeter properties & configurations in maven plugin. This is continuation post of [previous article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
-
 ### Properties in jmeter 
-
+- jmeter.properties
+- merge-results.properties
+- 
 ### Default Property location
 
 ### To change configuration directory 
