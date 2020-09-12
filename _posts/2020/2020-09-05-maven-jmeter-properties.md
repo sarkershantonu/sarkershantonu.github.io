@@ -12,9 +12,18 @@ comments: true
 In this article we are going to see how we can add jmeter properties & configurations in maven plugin. This is continuation post of [previous article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
 ### Properties in jmeter 
-- jmeter.properties
-- merge-results.properties
-- 
+- jmeter.properties : these are jmeter internal component properties 
+- merge-results.properties : These are properties for listner which aggregrates multiple JTL files 
+- reportgenerator.properties : HTML report generator properties 
+- saveservice.properties : internal Jmeter service properties 
+- system.properties : Jmeter system properties 
+- upgrade.properties : Jmeter upgrade properties 
+- user.properties : User customizable properties 
+
+### Properties to work on 
+We can change any property file and this will affect in jmeter startup. 
+
+
 ### Default Property location
 
 ### To change configuration directory 
