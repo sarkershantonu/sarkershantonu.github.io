@@ -23,13 +23,10 @@ In this article we are going to see how we can add jmeter properties & configura
 ### Properties to work on 
 We can change any property file and this will affect in jmeter startup. But, it is safe to change any property key/value in **user.properties** file . Usually properties in this file will override other prperties values. 
 
-So, if you need to change any properties from jmeter.properties, put in user.properties file. 
+So, if you need to change any properties from jmeter.properties, put in **user.properties** file. 
 
-### Default Path 
-By default all properties are pointed to **/src/test/jmeter**, the test case directory
-
-
-### Default Property location
+### Default Property Path
+By default all properties are pointed to **/src/test/jmeter**, the test case directory. 
 
 ### To change configuration directory 
 - by default the configuration directory is **/src/test/conf**. When we want to change , we can use 
