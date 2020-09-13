@@ -28,8 +28,18 @@ So, if you need to change any properties from jmeter.properties, put in **user.p
 ### Default Property Path
 By default all properties are pointed to **/src/test/jmeter**, the test case directory. 
 
+
 ### To change configuration directory 
 - by default the configuration directory is **/src/test/conf**. When we want to change , we can use 
 ```<confFilesDirectory>path_to_cofig_files</confFilesDirectory>```
 
 What are the config files? usually jmeter internal configurations, like log4j2.xml. Or, if you are using any custom JAR which may have any configuration files.
+
+
+### To change jmeter.properties : I wont recommend
+- This will change log level of Jmeter's own logging system 
+``` 
+<propertiesJMeter>
+    <log_level.jmeter>DEBUG</log_level.jmeter>
+<propertiesJMeter>
+```
