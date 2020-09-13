@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Managing Properties in Jmeter Maven
-date: "2013-09-07 05:02"
+date: "2020-09-13 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2013/09/07/maven-jmeter-Properties/
+permalink: /2013/09/13/maven-jmeter-Properties/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
