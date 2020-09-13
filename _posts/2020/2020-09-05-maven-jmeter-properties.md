@@ -26,7 +26,7 @@ We can change any property file and this will affect in jmeter startup. But, it 
 So, if you need to change any properties from jmeter.properties, put in user.properties file. 
 
 ### Default Path 
-By default all properties are pointed to 
+By default all properties are pointed to **/src/test/jmeter**, the test case directory
 
 
 ### Default Property location
