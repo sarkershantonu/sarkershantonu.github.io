@@ -36,19 +36,19 @@ I also prefer to parametrize Load Test properties.
 In my example i am using these properties. 
 ```
  <propertiesUser>
- 			<base.url>www.bdjobs.com</base.url>
- 			<jobs.url>jobs.bdjobs.com</jobs.url>
- 			<app.protocol>https</app.protocol>
- 			<app.port>443</app.port>
- 			<connect.timeout>30000</connect.timeout>
- 			<response.timeout>40000</response.timeout>
- 			<thread.name>my_testing_threads</thread.name>
- 			<thread.number>20</thread.number>
- 			<rampup>60</rampup>
- 			<startup.delay>5</startup.delay>
- 			<test.duration>600</test.duration>
- 			<target.rpm>10</target.rpm>
- 			<jmeter.save.saveservice.thread_counts>true</jmeter.save.saveservice.thread_counts>
+	<base.url>www.bdjobs.com</base.url>
+	<jobs.url>jobs.bdjobs.com</jobs.url>
+	<app.protocol>https</app.protocol>
+	<app.port>443</app.port>
+	<connect.timeout>30000</connect.timeout>
+	<response.timeout>40000</response.timeout>
+	<thread.name>my_testing_threads</thread.name>
+	<thread.number>20</thread.number>
+	<rampup>60</rampup>
+	<startup.delay>5</startup.delay>
+	<test.duration>600</test.duration>
+	<target.rpm>10</target.rpm>
+	<jmeter.save.saveservice.thread_counts>true</jmeter.save.saveservice.thread_counts>
 </propertiesUser>
 ```
 
