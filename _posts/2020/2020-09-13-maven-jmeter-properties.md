@@ -26,76 +26,6 @@ We can change any property file and this will affect in jmeter startup. But, it 
 
 So, if you need to change any properties from jmeter.properties, put in **user.properties** file. 
 
-### To change Property folder 
-- By default all properties are pointed to **/src/test/jmeter**, the test case directory. 
-- To change the directory 
-
-```
-<propertiesFilesDirectory>./src/test/properties</propertiesFilesDirectory>
-```
-
-### To change configuration directory 
-- by default the configuration directory is **/src/test/conf**. When we want to change , we can use 
-```<confFilesDirectory>path_to_cofig_files</confFilesDirectory>```
-
-What are the config files? usually jmeter internal configurations, like log4j2.xml. Or, if you are using any custom JAR which may have any configuration files.
-
-### Use  Custom Property file 
-- To use own property file , we can inject with customPropertiesFiles. I am adding local.properties in project 
-
-``` 
-<customPropertiesFiles>
-    <file>./src/test/conf/dev/local.properties</file>
-</customPropertiesFiles>
-```
-
-#### [Example Source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-with-custom-properties)
-In this example, I have testing with ```./src/test/conf/stage/server.properties```. This is similar like a development environment where 
-- developers can test locally 
-- developers can test dedicate dev server
-- tester can test in qa server
-- CI/CD can test in staging server. (i am using this)
-
-in the property file I have following in server.properties 
-
-``` 
-thread.name=BDJOBS
-base.url=www.bdjobs.com
-jobs.url=jobs.bdjobs.com
-app.protocol=https
-app.port=443
-thread.number=5
-rampup=10
-startup.delay=5
-test.duration=600
-target.rpm=5
-connect.timeout=30000
-response.timeout=40000
-```
-
-and I am including this property in plugins 
-
-```
-<customPropertiesFiles>
-    <file>./src/test/conf/stage/server.properties</file>
-</customPropertiesFiles>
-```
-
-So, you can see the [**POM.XML**](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-with-custom-properties/pom.xml), which is clean and small. 
-
-And, when we run the test , we can see this. I am using jvisualVM to validate only 5 threads are created to test the app. 
-
-![image-custom-file](/images/jmeter-maven/custom-prop-file-thread-number.JPG)
-
-### To Replace Properties 
-Usually custom properties are merged with existing properties. If we want wa can replace. 
-
-``` 
-<configuration>
-    <propertiesReplacedByCustomFiles>true</propertiesReplacedByCustomFiles>
-</configuration>
-```
-
 ### To change user.properties : Best Practice 
 This is recommended way to inject custom property in jmeter. Infant, if you want ot change any jmeter internal property , use this way. User property will always override system property. So, if you have any changed values, do it here. 
 
@@ -183,6 +113,77 @@ mvn -Dthread.number=50 -Dtarget.rpm=40 clean verify
 ```
 
 In this way , we can reuse same test case for different load configurations, different environments etc. 
+
+
+### To change Property folder 
+- By default all properties are pointed to **/src/test/jmeter**, the test case directory. 
+- To change the directory 
+
+```
+<propertiesFilesDirectory>./src/test/properties</propertiesFilesDirectory>
+```
+
+### To change configuration directory 
+- by default the configuration directory is **/src/test/conf**. When we want to change , we can use 
+```<confFilesDirectory>path_to_cofig_files</confFilesDirectory>```
+
+What are the config files? usually jmeter internal configurations, like log4j2.xml. Or, if you are using any custom JAR which may have any configuration files.
+
+### Use  Custom Property file 
+- To use own property file , we can inject with customPropertiesFiles. I am adding local.properties in project 
+
+``` 
+<customPropertiesFiles>
+    <file>./src/test/conf/dev/local.properties</file>
+</customPropertiesFiles>
+```
+
+#### [Example Source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-with-custom-properties)
+In this example, I have testing with ```./src/test/conf/stage/server.properties```. This is similar like a development environment where 
+- developers can test locally 
+- developers can test dedicate dev server
+- tester can test in qa server
+- CI/CD can test in staging server. (i am using this)
+
+in the property file I have following in server.properties 
+
+``` 
+thread.name=BDJOBS
+base.url=www.bdjobs.com
+jobs.url=jobs.bdjobs.com
+app.protocol=https
+app.port=443
+thread.number=5
+rampup=10
+startup.delay=5
+test.duration=600
+target.rpm=5
+connect.timeout=30000
+response.timeout=40000
+```
+
+and I am including this property in plugins 
+
+```
+<customPropertiesFiles>
+    <file>./src/test/conf/stage/server.properties</file>
+</customPropertiesFiles>
+```
+
+So, you can see the [**POM.XML**](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-with-custom-properties/pom.xml), which is clean and small. 
+
+And, when we run the test , we can see this. I am using jvisualVM to validate only 5 threads are created to test the app. 
+
+![image-custom-file](/images/jmeter-maven/custom-prop-file-thread-number.JPG)
+
+### To Replace Properties 
+Usually custom properties are merged with existing properties. If we want wa can replace. 
+
+``` 
+<configuration>
+    <propertiesReplacedByCustomFiles>true</propertiesReplacedByCustomFiles>
+</configuration>
+```
 
 ### To change global.properties 
 This are spatial properties, used to send instructions to remote slave PC in jmeter master-slave execution. 
