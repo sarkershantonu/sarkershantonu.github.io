@@ -52,7 +52,7 @@ In my example i am using these properties.
 </propertiesUser>
 ```
 
-A skater approach is to parametrize even these property with maven property. So that when we need , we can change these values when we execute. 
+A smarter approach is to parametrize even these property with maven property. So that when we need , we can change these values when we execute. 
 
 #### [Example Source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-with-maven-properties)  
 
