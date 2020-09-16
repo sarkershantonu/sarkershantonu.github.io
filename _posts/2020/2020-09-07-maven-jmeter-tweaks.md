@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Jmeter-Plugins execution tweaks
-date: "2013-09-06 05:02"
+title: Tips & Tricks using Jmeter Maven Plugin
+date: "2020-09-15 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2013/09/06/maven-jmeter-plugins-tweaks/
+permalink: /2013/09/15/maven-jmeter-plugins-tricks/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
