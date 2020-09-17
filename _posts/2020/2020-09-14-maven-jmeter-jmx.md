@@ -87,10 +87,15 @@ Like include , exclude also supports multiple files
 
 ``` 
 <testFilesExcluded>
-	<excludeJMeterTestFile>test3.jmx</excludeJMeterTestFile>
-	<excludeJMeterTestFile>test4.jmx</excludeJMeterTestFile>
+	<excludeJMeterTestFile>BDJOBS1.jmx</excludeJMeterTestFile>
+    <excludeJMeterTestFile>BDJOBS2.jmx</excludeJMeterTestFile>
 </testFilesExcluded>
 ```
+
+#### [Exclude JMX Example ](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-multiple-exclude-jmx)
+
+![exclude-jmx-results](/images/jmeter-maven/exclude-jmx.JPG)
+
 
 ### Excluding JMX with Regex
 Like include you can also use regex to exclude. From include example, if we want to exclude all login test cases, we will use like this 
@@ -101,7 +106,7 @@ Like include you can also use regex to exclude. From include example, if we want
 </testFilesExcluded>
 ```
 
-#### [Multiple JMX Example with regix](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-exclude-jmx-regex)
+#### [Multiple Exclude JMX Example with regix](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-exclude-jmx-regex)
 
 ![multiple-jmx-results-regex-exclude](/images/jmeter-maven/test-exclude-regex.JPG)
 
