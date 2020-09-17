@@ -40,6 +40,18 @@ Now, if you want to add multiple test cases, just add multiple test file
                         </testFilesIncluded>
 ```
 
+### Specify JMX with Regular Expression 
+If you want to run test cases with specific regular expression patterns, you can use regex. 
+
+For example, you want to run different type of login scenarios where each jmx contain each type of log-ins, so you should use like this.  
+
+``` 
+<configuration>
+                        <testFilesIncluded>
+                            <jMeterTestFile>login*.jmx</jMeterTestFile>
+                        </testFilesIncluded>
+```
+
 
 ### Selecting All test
 What are the config files? usually jmeter internal configurations, like log4j2.xml. Or, if you are using any custom JAR which may have any configuration files.
