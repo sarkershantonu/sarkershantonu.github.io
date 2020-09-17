@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Managing Jmeter Test Scripts(JMX) in Maven Plugin
+title: Managing Jmeter Test Scripts(JMX) in Maven
 date: "2020-09-14 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/14/maven-jmeter-plugins-jmx/
@@ -9,9 +9,7 @@ excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-[draft]
-In this article we are going to see how we can configure Jmeter with plugins. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
-
+In this article we are going to see how we can manage Jmeter Test Cases in maven plugin. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
 ### Maven Build Erors 
 
