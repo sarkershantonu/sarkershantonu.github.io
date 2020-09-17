@@ -28,9 +28,16 @@ To change default test case folder , we need to use **testFilesDirectory**
 
 ```
 <configuration>
-    <testFilesDirectory>/src/test/testcases</testFilesDirectory>
+    <testFilesDirectory>${project.basedir}/src/test/testcases</testFilesDirectory>
 </configuration>
 ```
+
+#### [Example Project]()
+- In here I have added **testcases** folder under /src/test/
+- Default **/src/test/jmeter** folder has BDJOBS1.jmx, BDJOBS2.jmx
+- Our Selected **/src/test/testcases** folder has only **BDJOBS.jmx**. We will see only this test case executed and result produced. 
+
+![custom-folder](/images/jmeter-maven/custom-folder.JPG)
 
 ### Specify JMX to run 
 If you want to run specific tests, you should add in configuration with testFilesIncluded
@@ -110,7 +117,7 @@ Like include you can also use regex to exclude. From include example, if we want
 
 ![multiple-jmx-results-regex-exclude](/images/jmeter-maven/test-exclude-regex.JPG)
 
-
-
 ### Notes : 
 - Multiple tests will run serial , not in parallel. 
+
+Thanks :) 
