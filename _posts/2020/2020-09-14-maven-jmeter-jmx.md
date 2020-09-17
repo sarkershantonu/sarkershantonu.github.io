@@ -54,7 +54,7 @@ Now, if you want to add multiple test cases, just add multiple test file
 
 ![multiple-jmx](/images/jmeter-maven/multiple-jmx-run.JPG)
 
-![multiple-jmx](/images/jmeter-maven/multiple-jmx-run-results.JPG)
+![multiple-jmx-results](/images/jmeter-maven/multiple-jmx-run-results.JPG)
 
 ### Specify JMX to run by Regular Expression 
 If you want to run test cases with specific regular expression patterns, you can use regex. 
@@ -66,6 +66,13 @@ For example, you want to run different type of login scenarios where each jmx co
 	<jMeterTestFile>login*.jmx</jMeterTestFile>
 </testFilesIncluded>
 ```
+
+#### [Multiple JMX Example with regix](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-multiple-jmx)
+
+![multiple-jmx-regex](/images/jmeter-maven/multiple-jmx-run-regix.JPG)
+
+![multiple-jmx-results-regex](/images/jmeter-maven/multiple-jmx-regex-results.JPG)
+
 
 ### Excluding JMX
 If you have many test cases in jmeter folder and you want to exclude test cases, you have to use **testFilesExcluded** 
