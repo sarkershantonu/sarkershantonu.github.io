@@ -19,4 +19,4 @@ In this article we are going to see how we can configure Jmeter with plugins. Th
 - by default the configuration directory is **/src/test/conf**. When we want to change , we can use 
 ```<confFilesDirectory>path_to_cofig_files</confFilesDirectory>```
 
-What are the config files? usually jmeter internal configurations, like log4j2.xml. Or, if you are using any custom JAR which may have any configuration files.
+What are the config files? usually jmeter internal configurations, like log4j2.xml. Or, if you are using any   custom JAR which may have any configuration files.
