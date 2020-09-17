@@ -21,13 +21,23 @@ By default maven jmeter plugins assume your all test cases are present in **/src
                             </goals>
 </execution>
 ```
-### To specify only JMX to run 
-If you want to run specific tests, you should add in configuration with testFilesIncluded 
-``` 
+
+### Specify Folder for all Test Cases 
+To change default jmeter folder for test case, we need to use **testFilesDirectory**
+
+```
 <configuration>
-                        <testFilesIncluded>
-                            <jMeterTestFile>test1.jmx</jMeterTestFile>
-                        </testFilesIncluded>
+    <testFilesDirectory>/src/test/testcases</testFilesDirectory>
+</configuration>
+```
+
+### Specify JMX to run 
+If you want to run specific tests, you should add in configuration with testFilesIncluded
+ 
+``` 
+<testFilesIncluded>
+    <jMeterTestFile>test1.jmx</jMeterTestFile>
+</testFilesIncluded>
 ```
 
 Now, if you want to add multiple test cases, just add multiple test file 
@@ -43,7 +53,7 @@ Now, if you want to add multiple test cases, just add multiple test file
 ### Specify JMX with Regular Expression 
 If you want to run test cases with specific regular expression patterns, you can use regex. 
 
-For example, you want to run different type of login scenarios where each jmx contain each type of log-ins, so you should use like this.  
+For example, you want to run different type of login scenarios where each jmx contain each type of log-ins, so you should use like this. In here all login related test cases has prefix **login**. 
 
 ``` 
 <configuration>
@@ -52,6 +62,35 @@ For example, you want to run different type of login scenarios where each jmx co
                         </testFilesIncluded>
 ```
 
+### Excluding JMX
+If you have many test cases in jmeter folder and you want to exclude test cases, you have to use **testFilesExcluded** 
 
-### Selecting All test
-What are the config files? usually jmeter internal configurations, like log4j2.xml. Or, if you are using any custom JAR which may have any configuration files.
+``` 
+<configuration>
+                        <testFilesExcluded>
+                            <excludeJMeterTestFile>test3.jmx</excludeJMeterTestFile>
+                        </testFilesExcluded>
+                    </configuration>
+```
+Like include , this exclude also supports multiple files 
+
+``` 
+<configuration>
+                        <testFilesExcluded>
+                            <excludeJMeterTestFile>test3.jmx</excludeJMeterTestFile>
+                            <excludeJMeterTestFile>test4.jmx</excludeJMeterTestFile>
+                        </testFilesExcluded>
+                    </configuration>
+```
+
+
+### Excluding JMX with Regex
+Like include you can also use regex to exclude. From include example, if we want to exclude all login test cases, we will use like this 
+
+```
+<configuration>
+                <testFilesExcluded>
+                    <excludeJMeterTestFile>login*.jmx</excludeJMeterTestFile>
+                </testFilesExcluded>
+            </configuration>
+```
