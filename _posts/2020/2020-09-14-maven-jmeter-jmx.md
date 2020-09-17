@@ -101,7 +101,7 @@ Like include you can also use regex to exclude. From include example, if we want
 </testFilesExcluded>
 ```
 
-#### [Multiple JMX Example with regix]()
+#### [Multiple JMX Example with regix](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-exclude-jmx-regex)
 
 ![multiple-jmx-results-regex-exclude](/images/jmeter-maven/test-exclude-regex.JPG)
 
