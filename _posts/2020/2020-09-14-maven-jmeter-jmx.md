@@ -32,7 +32,7 @@ To change default test case folder , we need to use **testFilesDirectory**
 </configuration>
 ```
 
-#### [Example Project]()
+#### [Example Project](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-jmx-custom-folder)
 - In here I have added **testcases** folder under /src/test/
 - Default **/src/test/jmeter** folder has BDJOBS1.jmx, BDJOBS2.jmx
 - Our Selected **/src/test/testcases** folder has only **BDJOBS.jmx**. We will see only this test case executed and result produced. 
