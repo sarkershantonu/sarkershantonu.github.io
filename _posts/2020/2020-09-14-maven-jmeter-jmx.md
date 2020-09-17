@@ -67,7 +67,7 @@ For example, you want to run different type of login scenarios where each jmx co
 </testFilesIncluded>
 ```
 
-#### [Multiple JMX Example with regix](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-multiple-jmx)
+#### [Multiple JMX Example with regix](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-include-jmx-regex)
 
 ![multiple-jmx-regex](/images/jmeter-maven/multiple-jmx-run-regix.JPG)
 
@@ -101,6 +101,11 @@ Like include you can also use regex to exclude. From include example, if we want
 </testFilesExcluded>
 ```
 
-# Notes : 
+#### [Multiple JMX Example with regix]()
+
+![multiple-jmx-results-regex-exclude](/images/jmeter-maven/test-exclude-regex.JPG)
+
+
+
+### Notes : 
 - Multiple tests will run serial , not in parallel. 
-- Multiple 
