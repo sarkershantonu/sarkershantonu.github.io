@@ -58,6 +58,9 @@ Now, if you want to add multiple test cases, just add multiple test file
 ```
 
 #### [Multiple JMX Example](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-multiple-jmx)
+- It has 3 JMX files 
+- Only 2 of those are selected
+- We can see only two test case run and report generated.
 
 ![multiple-jmx](/images/jmeter-maven/multiple-jmx-run.JPG)
 
@@ -75,11 +78,12 @@ For example, you want to run different type of login scenarios where each jmx co
 ```
 
 #### [Multiple JMX Example with regix](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-include-jmx-regex)
+- We have 3 jmx in the folder 
+- We select regex **login\*.jmx** which is present as prefix in 2 test cases. So, these 2 will run. 
 
 ![multiple-jmx-regex](/images/jmeter-maven/multiple-jmx-run-regix.JPG)
 
 ![multiple-jmx-results-regex](/images/jmeter-maven/multiple-jmx-regex-results.JPG)
-
 
 ### Excluding JMX
 If you have many test cases in jmeter folder and you want to exclude test cases, you have to use **testFilesExcluded** 
@@ -100,9 +104,10 @@ Like include , exclude also supports multiple files
 ```
 
 #### [Exclude JMX Example ](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-multiple-exclude-jmx)
+- We have 3 test cases
+- We excluded 2 of those and only one test case will run & report will be generated. 
 
 ![exclude-jmx-results](/images/jmeter-maven/exclude-jmx.JPG)
-
 
 ### Excluding JMX with Regex
 Like include you can also use regex to exclude. From include example, if we want to exclude all login test cases, we will use like this 
@@ -114,6 +119,8 @@ Like include you can also use regex to exclude. From include example, if we want
 ```
 
 #### [Multiple Exclude JMX Example with regix](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-exclude-jmx-regex)
+- we have 3 test cases 
+- 2 test cases were exceeded with regex **login\*.jmx**. So, only 1 test case will run. 
 
 ![multiple-jmx-results-regex-exclude](/images/jmeter-maven/test-exclude-regex.JPG)
 
