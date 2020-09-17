@@ -11,10 +11,16 @@ comments: true
 ---
 In this article we are going to see how we can manage Jmeter Test Cases in maven plugin. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
+By default maven jmeter plugins assume your all test cases are present in **/src/test/jmeter** folder. So, by default, it runs all. So when you just specify jmeter executions, it will run all the test, no need specify any test. 
+``` 
+<execution>
+                            <id>jmeter-tests</id>
+                            <goals>
+                                <goal>jmeter</goal>
+                            </goals>
+</execution>
+```
 ### Maven Build Erors 
 
-### To change configuration directory 
-- by default the configuration directory is **/src/test/conf**. When we want to change , we can use 
-```<confFilesDirectory>path_to_cofig_files</confFilesDirectory>```
-
+### Selecting All test
 What are the config files? usually jmeter internal configurations, like log4j2.xml. Or, if you are using any custom JAR which may have any configuration files.
