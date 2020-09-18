@@ -15,11 +15,10 @@ In this article we are going to see how we can configure Jmeter with plugins. Th
 
 ### Maven Build Erors 
 
-# How to Script in Jmeter to run using this plugins
-- Make variable for all possible information. 
+# Script Writing 
+- Make user variable for all possible information. This will make test cases dynamically changeable during execution. 
 - Keep all these value injectable via jmeter properties using [__P](https://jmeter.apache.org/usermanual/functions.html#__P) or [__property](https://jmeter.apache.org/usermanual/functions.html#__property)
-- Keep these variable a default value
-- Do not change Test Plan name
+- Do not change **Test Plan** name
 - 
  
 
