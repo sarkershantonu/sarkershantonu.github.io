@@ -11,7 +11,7 @@ comments: true
 ---
 In this article we are going to see how we can get good reports in jmeter after tests. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
-### Jmeter Reports
+# Jmeter Reports
 In Jmeter, we can have different type of test results. 
 1. CSV test results (default selection by plugins)
 2. JTL logs 
@@ -104,6 +104,13 @@ But, if you have enabled ```<generateReports>``` true, this will be always CSV i
 ### [Finally report POM.XML ](https://github.com/sarkershantonu/jmeter-novice-to-advance/blob/master/jmeter-maven-examples/jmeter-enhanced-reporting/pom.xml)
 
 ### [html-reporting-Project-source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-enhanced-reporting)
+- I have added following 3 html report properties for example which are optional
+
+```
+<jmeter.reportgenerator.report_title>Shantonu Example</jmeter.reportgenerator.report_title>
+<jmeter.reportgenerator.overall_granularity>500</jmeter.reportgenerator.overall_granularity>
+<jmeter.reportgenerator.exporter.html.series_filter>^(-success|-failure)?$</jmeter.reportgenerator.exporter.html.series_filter> 
+```
 
 ### HTML Report UI
 
