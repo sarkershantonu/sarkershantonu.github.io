@@ -43,7 +43,7 @@ When you are working in corporate network or private cloud, you may need to run 
 </proxyConfig>
 ```
 
-#### [Jmeter-Proxy Example]()
+#### [Jmeter-Proxy Example](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-under-proxy)
 - In here I am using example proxy where **host : 96.246.184.18 & port : 9128**
 
 ![proxy](/images/jmeter-maven/proxy-config.JPG)
