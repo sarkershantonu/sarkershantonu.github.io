@@ -15,8 +15,35 @@ In this article we are going to see how we can configure Jmeter with plugins. Th
 
 ### Maven Build Erors 
 
-### To change configuration directory 
-- by default the configuration directory is **/src/test/conf**. When we want to change , we can use 
-```<confFilesDirectory>path_to_cofig_files</confFilesDirectory>```
+# How to Script in Jmeter to run using this plugins
+- Make variable for all possible information. 
+- Keep all these value injectable via jmeter properties using [__P](https://jmeter.apache.org/usermanual/functions.html#__P) or [__property](https://jmeter.apache.org/usermanual/functions.html#__property)
+- Keep these variable a default value
+- Do not change Test Plan name
+- 
+ 
 
-What are the config files? usually jmeter internal configurations, like log4j2.xml. Or, if you are using any   custom JAR which may have any configuration files.
+
+### Specify Jmeter version to use
+- By default pllugin will get latest jmeter version associated with plugin version. But, When you need specific jmeter for your load use **<jmeterVersion>** under configuration to specify jmeter version. 
+
+```
+<jmeterVersion>5.1.1</jmeterVersion>
+```
+
+### Jmeter under proxy 
+When you are working in corporate network or private cloud, you may need to run your tests under a proxy. if you want to specify corporate proxy configuration , under  <configuration> use this 
+```
+<proxyConfig>
+    <host>host_ip</host>
+    <port>proxy_port</port>
+    <username>user_name</username>
+    <password>password_of_proxy</password>
+    <hostExclusions>localhost|*.shantonu.com|any_host_for_exclusion</hostExclusions>
+</proxyConfig>
+```
+
+#### [Jmeter-Proxy Example]()
+- In here I am using example proxy where **host : 96.246.184.18 & port : 9128**
+
+![proxy](/images/jmeter-maven/proxy-config.JPG)
