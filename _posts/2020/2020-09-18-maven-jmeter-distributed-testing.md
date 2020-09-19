@@ -68,7 +68,7 @@ Now, you may avoid using user.properties and directly put in ```<propertiesUser>
 ### Add worker info to controller
 Now we need worker IP addresses in controller user.properties. 
 ```
-remote_hosts=192.168.4.6
+remote_hosts=192.168.4.5
 ```
 
 We can also do this by plugin configuration. I prefer this way to keep it changeable during maven command. So, I will add my servers with ```<serverList>```. This accepts comma separated multiple values. 
