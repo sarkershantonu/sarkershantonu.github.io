@@ -17,27 +17,26 @@ To know basic about Jmeter distributed testing, you may visit [**this**](https:/
 
 ![remote-testing](/images/jmeter-maven/remote-testing.jpg)
 
-So, we need two projects one for controller , one for slave. We will run slave to all slave hosts, but controller will trigger. 
+So, we need two projects one for controller , one for worker. We will run worker project to all worker hosts, but controller will trigger test using RMI.  
 
 As we know , we need to setup RMI, there are some manual steps before original test execution. 
 
-# RMI setup
-- In jmeter controller 
-
-
-### [Command to create key pair](https://jmeter.apache.org/usermanual/remote-test.html#setup_ssl) 
+### RMI setup
+- We need to create SSL keys to use in both controller & worker for RMI. JDK comes with **keytool** which we need to use. 
 
 ``` 
 keytool -genkey -keyalg RSA -alias rmi -keystore rmi_keystore.jks -storepass changeit -validity 7 -keysize 2048 %*
 ```
 
-- In jmeter bin directory, you can see a script **create-rmi-keystore.bat** containing the same command. This will create **rmi_keystore.jks**  
+In jmeter bin directory, you can see a script **create-rmi-keystore.bat** containing the same command. We can use this in commandline which will create **rmi_keystore.jks**  
 
-I use following info with my password to create **jks** file. You should your own password & info. 
+I am using following info with my password to create **jks** file. You should your own password & info. 
 
 ![jks-setup](/images/jmeter-maven/jks-info.JPG)
 
-We used to keep this in jmeter bin directory. So in this case, we will keep in **/src/test/conf**
+For , jmeter GUI, We have to keep this in jmeter bin directory. So in this case, we will keep in **/src/test/conf**
+
+ 
 
 ### Add info to user.properties 
 After adding jks file, we need to specify associated property so that jmeter can work properly. So, we need following properties based on info when I have created jks.
@@ -61,6 +60,7 @@ server.rmi.ssl.truststore.password=123456
 # Set this if you don't want to use SSL for RMI
 server.rmi.ssl.disable=true
 ```
+
 This should be in both **worker & controller** user.properties. 
 
 Now, you may avoid using user.properties and directly put in ```<propertiesUser>``` section (i prefer)
@@ -77,7 +77,7 @@ We can also do this by plugin configuration. I prefer this way to keep it change
   <serverList>192.168.4.6</serverList>
 ```
 
-### Jmeter Remote [Controller Project]()
+### Jmeter Remote [Controller Project](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-controller-remote)
 - This will have JMX
 - This will have JKS files
 - This will have user properties
@@ -128,8 +128,9 @@ I am adding additional runInBackground property false, this is optional.
 </configuration>
 ```
 
-So, please see worker project for final pom 
-### Jmeter Remote [Worker Project]()
+So, please see worker project for final pom. 
+
+### Jmeter Remote [Worker Project](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-worker-remote)
 - This will have JKS files
 - This will have user properties
 
@@ -163,3 +164,5 @@ in this case you need to change user properties based on command like alias is *
 
 - P12 to JKS : ```keytool -importkeystore -srckeystore keystore.p12 -srcstoretype PKCS12 -deststoretype JKS -destkeystore keystore.jks```
 - For security, my repository wont have JKS keys of my PC
+- For simplicity, I am using password 123456
+- [detail RMI setup](https://jmeter.apache.org/usermanual/remote-test.html#setup_ssl)
