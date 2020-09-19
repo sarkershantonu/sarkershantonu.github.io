@@ -71,16 +71,20 @@ Now we need worker IP addresses in controller user.properties.
 remote_hosts=192.168.4.5
 ```
 
-We can also do this by plugin configuration. I prefer this way to keep it changeable during maven command. So, I will add my servers with ```<serverList>```. This accepts comma separated multiple values. 
+We can also do this by plugin ```configuration``` to keep it changeable during maven command. Use ```<serverList>``` to add comma separated multiple server addresses. 
 
 ```
   <serverList>192.168.4.6</serverList>
 ```
 
+To keep simple, I am commenting this from project & keep this info in **user.properties**. 
+ 
+Please final controller project pom from controller project. 
+
 ### Jmeter Remote [Controller Project](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-controller-remote)
-- This will have JMX
-- This will have JKS files
-- This will have user properties
+- This has JMX
+- This has JKS files
+- This has user properties
 
 ### Add RMI info to worker property 
 - This will **not** have any JMX as it will injected by server 
