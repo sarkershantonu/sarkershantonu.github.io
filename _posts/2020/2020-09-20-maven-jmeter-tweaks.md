@@ -1,19 +1,18 @@
 ---
 layout: post
 title: Tips & Tricks using Jmeter Maven Plugin
-date: "2013-09-15 05:02"
+date: "2020-09-20 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2013/09/15/maven-jmeter-tricks/
+permalink: /2020/09/20/maven-jmeter-tricks/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-[draft]
-In this article we are going to see how we can configure Jmeter with plugins. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can efficiently use Jmeter maven. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
 
-
-### Maven Build Erors 
+### Maven Build Errors 
+- Always use -X -e for debug and error verbose mode. 
 
 # Script Writing 
 - Make user variable for all possible information. This will make test cases dynamically changeable during execution. 
