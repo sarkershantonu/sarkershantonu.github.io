@@ -162,3 +162,4 @@ in this case you need to change user properties based on command like alias is *
 - JKS to P12 : ```keytool -importkeystore -srckeystore keystore.jks -srcstoretype JKS -deststoretype PKCS12 -destkeystore keystore.p12```
 
 - P12 to JKS : ```keytool -importkeystore -srckeystore keystore.p12 -srcstoretype PKCS12 -deststoretype JKS -destkeystore keystore.jks```
+- For security, my repository wont have JKS keys of my PC
