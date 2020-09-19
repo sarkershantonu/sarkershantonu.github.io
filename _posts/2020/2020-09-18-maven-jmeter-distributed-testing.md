@@ -87,9 +87,12 @@ Please final controller project pom from controller project.
 - This has user properties
 
 ### Add RMI info to worker property 
-- This will **not** have any JMX as it will injected by server 
+- NO JMX as it will injected by server 
 - Keep created JKS file **rmi_keystore.jks** at **/sec/test/conf** folder 
 - Use **user.properties** like controller like this 
+
+![worker-project](/images/jmeter-maven/remote-worker.JPG)
+
 
 ``` 
 server.rmi.ssl.keystore.type=JKS
@@ -121,7 +124,7 @@ I am keeping **user.properties** in /src/test/jmeter folder.
 </execution>
 ``` 
 
-I am adding additional runInBackground property false, this is optional. 
+I am adding additional ```runInBackground``` property false, this is optional. 
 
 - We need to Add worker's IP info . I am injecting via maven property  ```<hostname>192.168.4.5</hostname>``` into configuration. And keeping default server port *1099*
 
