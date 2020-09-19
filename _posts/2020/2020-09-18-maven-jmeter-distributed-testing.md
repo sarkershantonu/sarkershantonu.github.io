@@ -33,15 +33,69 @@ keytool -genkey -keyalg RSA -alias rmi -keystore rmi_keystore.jks -storepass cha
 
 - In jmeter bin directory, you can see a script **create-rmi-keystore.bat** containing the same command. This will create **rmi_keystore.jks**  
 
-I use following info with a password to create **jks** file. 
+I use following info with my password to create **jks** file. You should your own password & info. 
 
 ![jks-setup](/images/jmeter-maven/jks-info.JPG)
 
 We used to keep this in jmeter bin directory. So in this case, we will keep in **/src/test/conf**
 
-# Jmeter Remote Controller POM 
+### Add info to user.properties 
+After adding jks file, we need to specify associated property so that jmeter can work properly. So, we need following properties based on info when I have created jks.
 
-# Jmeter Remote Worker POM
+``` 
+# DISTRIBUTED TESTING CONFIGURATION
+# Type of keystore : JKS
+server.rmi.ssl.keystore.type=JKS
+# Keystore file that contains private key
+server.rmi.ssl.keystore.file=rmi_keystore.jks
+# Password of Keystore
+server.rmi.ssl.keystore.password=123456
+# Key alias : this is very important to be matched with command alies in keytool
+server.rmi.ssl.keystore.alias=rmi
+# Type of truststore : JKS
+server.rmi.ssl.truststore.type=JKS
+# Keystore file that contains certificate
+server.rmi.ssl.truststore.file=rmi_keystore.jks
+# Password of Trust store
+server.rmi.ssl.truststore.password=123456
+# Set this if you don't want to use SSL for RMI
+server.rmi.ssl.disable=true
+```
+This should be in both worker & controller user.properties. 
 
-# Notes : 
+Now, you may avoid using user.properties and directly put in ```<propertiesUser>``` section (i prefer)
+
+### Add worker info to controller
+Now we need worker IP addresses in controller user.properties. 
+```
+remote_hosts=192.168.4.6
+```
+
+We can also do this by plugin configuration. I prefer this way to keep it changeable during maven command. So, I will add my servers with ```<serverList>```. This accepts comma separated multiple values. 
+
+```
+  <serverList>192.168.4.6</serverList>
+```
+
+### Jmeter Remote Controller Project 
+- This will have JMX
+
+### Add RMI info to worker property 
+- This will not have any JMX as it will injected by server 
+- 
+
+### Jmeter Remote Worker Project
+### Notes : 
 - SSL is disable to avoid manual process. As it is intranet setup, so, security issues can be ignored. 
+- All are done with Oracle JDK8, so key standard is JKS. If you are using latest openjdk, you might need to use **P12** format. You may use my keystore command.  
+
+``` 
+keytool -genkeypair -alias pkcs12 -keyalg EC -dname "cn=CN, ou=OU, o=O, c=C" -validity 365 -keystore shantonu_key_store.pfx -keypass 123456 -storepass 123456 -v
+```
+
+in this case you need to change user properties based on command like alias is **pkcs12**, format is **pkcs12**, file name is **hantonu_key_store.pfx**
+
+- If you have existing JKS file, you can convert to P12. 
+- JKS to P12 : ```keytool -importkeystore -srckeystore keystore.jks -srcstoretype JKS -deststoretype PKCS12 -destkeystore keystore.p12```
+
+- P12 to JKS : ```keytool -importkeystore -srckeystore keystore.p12 -srcstoretype PKCS12 -deststoretype JKS -destkeystore keystore.jks```
