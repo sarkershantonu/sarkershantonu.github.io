@@ -61,7 +61,7 @@ server.rmi.ssl.truststore.password=123456
 # Set this if you don't want to use SSL for RMI
 server.rmi.ssl.disable=true
 ```
-This should be in both worker & controller user.properties. 
+This should be in both **worker & controller** user.properties. 
 
 Now, you may avoid using user.properties and directly put in ```<propertiesUser>``` section (i prefer)
 
@@ -77,14 +77,77 @@ We can also do this by plugin configuration. I prefer this way to keep it change
   <serverList>192.168.4.6</serverList>
 ```
 
-### Jmeter Remote Controller Project 
+### Jmeter Remote [Controller Project]()
 - This will have JMX
+- This will have JKS files
+- This will have user properties
 
 ### Add RMI info to worker property 
-- This will not have any JMX as it will injected by server 
-- 
+- This will **not** have any JMX as it will injected by server 
+- Keep created JKS file **rmi_keystore.jks** at **/sec/test/conf** folder 
+- Use **user.properties** like controller like this 
 
-### Jmeter Remote Worker Project
+``` 
+server.rmi.ssl.keystore.type=JKS
+server.rmi.ssl.keystore.file=rmi_keystore.jks
+server.rmi.ssl.keystore.password=123456
+server.rmi.ssl.keystore.alias=rmi
+server.rmi.ssl.truststore.type=JKS
+server.rmi.ssl.truststore.file=rmi_keystore.jks
+server.rmi.ssl.truststore.password=123456
+server.rmi.ssl.disable=true
+```
+
+I am keeping **user.properties** in /src/test/jmeter folder.
+
+- We need to have two executions in jmeter plugins, just enough to install & run as remote server. 
+
+```
+<execution>
+    <id>configuration</id>
+    <goals>
+        <goal>configure</goal>
+    </goals>
+</execution>
+<execution>
+    <id>start-jmeter-server</id>
+    <goals>
+        <goal>remote-server</goal>
+    </goals>
+</execution>
+``` 
+
+I am adding additional runInBackground property false, this is optional. 
+
+- We need to Add worker's IP info . I am injecting via maven property  ```<hostname>192.168.4.5</hostname>``` into configuration. And keeping default server port *1099*
+
+``` 
+<configuration>
+    <exportedRmiHostname>${hostname}</exportedRmiHostname>
+    <serverPort>1099</serverPort>
+</configuration>
+```
+
+So, please see worker project for final pom 
+### Jmeter Remote [Worker Project]()
+- This will have JKS files
+- This will have user properties
+
+### Executing Remote tests 
+- Step 1 : Run Jmeter worker project ``` mvn clean verify ``` 
+
+- Step 2 : Run Jmeter controller project ``` mvn clean verify ```  
+
+In worker : 
+
+![worker](/images/jmeter-maven/jmeter-worker-run.JPG)
+
+In Controller : 
+
+![controller](/images/jmeter-maven/remote-controller.JPG)
+
+- Step 3 : Ger report from controller. 
+
 ### Notes : 
 - SSL is disable to avoid manual process. As it is intranet setup, so, security issues can be ignored. 
 - All are done with Oracle JDK8, so key standard is JKS. If you are using latest openjdk, you might need to use **P12** format. You may use my keystore command.  
