@@ -3,7 +3,7 @@ layout: post
 title: Tips & Tricks using Jmeter Maven Plugin
 date: "2020-09-20 05:02"
 tags: [jmeter,ci-cd]
-permalink: /2020/09/20/maven-jmeter-tricks/
+permalink: /2020/09/20/maven-jmeter-tricks-proxy/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
