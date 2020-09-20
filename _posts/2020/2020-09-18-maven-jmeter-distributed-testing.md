@@ -164,7 +164,7 @@ In Controller :
 keytool -genkeypair -alias pkcs12 -keyalg EC -dname "cn=CN, ou=OU, o=O, c=C" -validity 365 -keystore shantonu_key_store.pfx -keypass 123456 -storepass 123456 -v
 ```
 
-in this case you need to change user properties based on command like alias is **pkcs12**, format is **pkcs12**, file name is **hantonu_key_store.pfx**
+in this case you need to change user properties based on command like alias is **pkcs12**, format is **pkcs12**, file name is **shantonu_key_store.pfx**
 
 - If you have existing JKS file, you can convert to P12. 
 - JKS to P12 : ```keytool -importkeystore -srckeystore keystore.jks -srcstoretype JKS -deststoretype PKCS12 -destkeystore keystore.p12```
