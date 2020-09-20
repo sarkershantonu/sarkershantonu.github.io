@@ -25,6 +25,8 @@ This page contains all post related to Jmeter Test Executions.
 - [modify-jmeter-jars](https://sarkershantonu.github.io/2020/09/06/maven-jmeter-modify-jars/)
 - [Modify Properties](https://sarkershantonu.github.io/2013/09/13/maven-jmeter-Properties/)
 - [Manage JMX](https://sarkershantonu.github.io/2020/09/14/maven-jmeter-plugins-jmx/)
+- [Distributed Testing](https://sarkershantonu.github.io/2020/09/18/maven-jmeter-distributed-testing/)
+- [Proxy Setting ans Tips]()
 
 # Basics 
 - [How run JMeter in different modes?](http://shantonusarker.blogspot.com/2013/01/how-run-jmeter-in-different-modes.html)

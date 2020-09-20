@@ -39,8 +39,11 @@ When you are working in corporate network or private cloud, you may need to run 
 - Always use -X -e for debug and error verbose mode. 
 - Single Line command ```mvn clean verify``` may not clean project , so, i prefer to use ```mvn clean``` and ```mvn verify``` separately. 
 
-# Script Writing 
+### Script Writing 
 - Make user variable for all possible information. This will make test cases dynamically changeable during execution. 
 - Keep all these value injectable via jmeter properties using [__P](https://jmeter.apache.org/usermanual/functions.html#__P) or [__property](https://jmeter.apache.org/usermanual/functions.html#__property)
 - Do not change **Test Plan** name
 - Try to avoid non traditional component. If you use that, make sure your POM has this. Remote server pom also should have all configuration to execute the JMX
+
+
+This is continuing post, I will add gradually. 
