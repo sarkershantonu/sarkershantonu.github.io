@@ -1,0 +1,8 @@
+Arc Diagram Best practice : Component diagram 
+
+1. Use Arrowed line , shows information flow
+2. dont use bi directional line , use multiple
+3. never use no directional line 
+4. If there is reponse, should be small doted lines 
+5. Sync calls are bold lines
+6. Async calls are Bold Gaped lines

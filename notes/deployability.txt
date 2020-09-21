@@ -1,0 +1,11 @@
+deployability 
+
+1. how easy it is? ease of deployment 
+2. Frequency of deployment 
+3. Risk of deployment 
+
+deployment time graphs time vs deployment no 
+
+deployment error graphs ... failed deployment/total deployment x100 as percentage 
+
+
