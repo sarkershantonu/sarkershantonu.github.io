@@ -37,7 +37,7 @@ Cluster is organization of Nodes for Kubernetes. A cluster gets the commands fro
 3. When there are multiple masters, which is highly recommended for production scenarios, one of the Master nodes is the leader and the only one active. The others are the followers and ready to take over the work in case the leader Master Node isn’t responding anymore
 
 
-# Concepts 
+# Basic Concepts 
 - kubelet: 
     
 - kube-proxy:
@@ -68,3 +68,7 @@ kubectl get nodes
 
 important links : 
 https://info.payara.fish/hubfs/Kubernetes/How%20to%20Use%20Payara%20Micro%20with%20Kubernetes%20Guide.pdf
+
+# kubernetes Cloud Providers
+
+# Local Installations 
