@@ -18,7 +18,7 @@ Jmeter is a performance testing tool which can be integrated with CI/CD. To know
 Maven is Java Build automation tool. 
 
 ## Why Maven with Jmeter? 
-Usually we perform unit test with any Java code. Ideally an acceptance test should have some form of performance testing with it. We are going to use maven jmeter plugins to test a web application similar to a a development project build. 
+Usually we perform unit test with any Java code. Ideally an acceptance test should have some form of performance testing with it. We are going to use maven jmeter plugins to test a web application similar to a development project build. 
 
 This will allow us to "Shift Left" performance testing. And this will allow any CI/CD system (like jenkins) , execute the test and show reports. This technique can be use to run in Docker also. 
 
