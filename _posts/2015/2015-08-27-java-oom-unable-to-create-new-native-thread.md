@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java OutOfMemoryError:Unable to create new native thread
+title: Java OOM, Unable to create new native thread
 date: "2015-08-27 02:54"
 tags: [java, jvm,java-oom]
 permalink: /2015/08/27/java-oom-unable-to-create-new-native-thread/
