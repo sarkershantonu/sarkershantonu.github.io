@@ -14,8 +14,10 @@ In this post I will provide how to reproduce out of memory error in Metaspace(ja
 I am using **Oracle JVM 1.6 x64** & **Oracle JVM 1.8 x64** on windows 7 x64/8gb ram/ 2.5Ghz Core i5 laptop. 
 
 ## Tools : 
+
 ### IDE : 
 - Eclipse
+
 ### Profiling/Monitoring tool :
 1. Visual VM
 2. Jconsole (optional)
@@ -37,7 +39,7 @@ I am using following flags to get detail info
 - Dcom.sun.management.jmxremote.ssl=false 
 - Djava.rmi.server.hostname=localhost
 
-Change localhost to the IP or host name if you remote profiling.
+Change localhost to the IP or host name if you **remote profiling**.
 
 ### C. Creating heap dump on error : 
 - -XX:+HeapDumpOnOutOfMemoryError 
@@ -59,10 +61,10 @@ So, finally, these are JVM parameters for all
 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=D:\OOM
 ```
 
-And add **anyone from section D**.
+And add **anyone from section D** based on which JVM you are using. 
 
 # Step 2. Scenario:
-A PermGen space is used to store following items [info source](https://blogs.oracle.com/jonthecollector/presenting-the-permanent-generation)
+A PermGen space is used to store following items : 
 - Methods of a class (including the bytecodes)
 - Names of the classes (in the form of an object that points to a string also in the permanent generation)
 - Constant pool information (data read from the class file, see chapter 4 of the JVM specification for all the details).
@@ -70,7 +72,9 @@ A PermGen space is used to store following items [info source](https://blogs.ora
 - Internal objects created by the JVM (java/lang/Object or java/lang/exception for instance)
 - Information used for optimization by the compilers (JITs)
 
-In following example , we will use an invocation handler to invoke a method from ***MyClass*** using reflection. MyClass is implementation of MyInterface, so the invocation handler will be generic invocation handler of MyInterface. 
+[**info source**](https://blogs.oracle.com/jonthecollector/presenting-the-permanent-generation)
+ 
+In following example , we will use an invocation handler to invoke a method from ***MyClass*** using reflection. MyClass is implementation of **MyInterface**, so the invocation handler will be generic invocation handler of MyInterface. 
 
 And, when we execute the handler. We will store each class which is actually an Anonymous class (of MyClass) so that each time we store, the class class will has new hashcode and represent as new identity in JVM. 
 
@@ -172,7 +176,11 @@ So, from main method , I run only this ```TestPermGenMetaSpaceOOM.createPermGenO
 
 ![image-j6-permgen](/images/java/jvm/oom/permgen-j6-error.png)
 
-Fro this you can see , **java_pid15652.hprof** heap dump is created. So, if we use **Visual VM** to open the heap dump. **file –> load –>change file type to .hprof,-> select heap dump & open**. If you see main contributor , is the hash map entry, the collection that we use to store all class loaders.
+Fro this you can see , **java_pid15652.hprof** heap dump is created. So, if we use **Visual VM** to open the heap dump. 
+
+**file –> load –>change file type to .hprof,-> select heap dump & open**. 
+
+If you see main contributor , is the hash map entry, the collection that we use to store all class loaders.
 
 ![hprof-image](/images/java/jvm/oom/permgen-j6-hprof.png)
 
@@ -219,7 +227,7 @@ Fro this you can see , **java_pid15652.hprof** heap dump is created. So, if we u
 
 ![image-j8-metaspace](/images/java/jvm/oom/metaspace-j8-meta-usages.png)
 
-# Step 6: (optional) Monitoring from Yourkit :
+# Step 6: Monitoring at Yourkit :(optional)
 
 ### JDK 6 : 
 - Heap Space : Used 42Mb from 63MB 
