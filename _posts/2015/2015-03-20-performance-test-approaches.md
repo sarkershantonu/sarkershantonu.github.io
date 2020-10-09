@@ -2,7 +2,7 @@
 layout: post
 title: Performance Test approaches
 date: "2015-03-20 08:06"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2015/03/20/performance-test-approaches/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance testing"

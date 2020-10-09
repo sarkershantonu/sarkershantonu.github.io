@@ -2,7 +2,7 @@
 layout: post
 title: Designing Load Scenarios
 date: "2015-04-08 14:21"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2015/04/08/design-load-scenario/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance testing"

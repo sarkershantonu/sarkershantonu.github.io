@@ -2,7 +2,7 @@
 layout: post
 title: Performance Reporting
 date: "2014-12-28 10:35"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2014/12/28/performance-reporting/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance testing"

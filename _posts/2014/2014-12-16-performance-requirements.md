@@ -2,7 +2,7 @@
 layout: post
 title: Performance requirements
 date: "2014-12-16 07:46"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2014/12/16/performance-requirements/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance testing"

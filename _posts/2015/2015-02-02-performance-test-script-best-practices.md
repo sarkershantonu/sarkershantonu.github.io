@@ -2,7 +2,7 @@
 layout: post
 title:  Performance Tests Script best practices
 date: "2015-02-02 08:07"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2015/02/02/performance-test-script-best-practices/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance testing"

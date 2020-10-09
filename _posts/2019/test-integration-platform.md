@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to Junit Benchmark
 date: "2013-01-08 02:54"
-tags: [junit, Performance-Testing]
+tags: [junit, performance-testing]
 permalink: /2013/01/08/test-integration-platform/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on test integration with co/cd"

@@ -2,7 +2,7 @@
 layout: post
 title:  Understanding Web Performance
 date: "2015-07-27 21:29"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2015/07/27/understanding-web-performance/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance testing"

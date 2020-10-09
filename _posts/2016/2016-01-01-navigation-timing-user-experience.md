@@ -2,7 +2,7 @@
 layout: post
 title: Measuring web page Performance
 date: "2016-01-13 03:42"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2016/01/13/navigation-timing-user-experience/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on navigation-timing-user-experience"

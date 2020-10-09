@@ -2,7 +2,7 @@
 layout: post
 title: What is Stress Testing?
 date: "2013-01-12 03:06"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2013/01/12/stress-testing/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance testing"

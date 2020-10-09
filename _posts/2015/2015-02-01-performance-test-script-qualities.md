@@ -2,7 +2,7 @@
 layout: post
 title: Performance test script Qualities
 date: "2015-02-01 08:06"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2015/02/01/performance-test-script-qualities/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance testing"

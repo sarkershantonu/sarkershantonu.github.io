@@ -2,7 +2,7 @@
 layout: post
 title: Jmeter Live Testing with Docker
 date: "2016-04-08 05:02"
-tags: [Performance-Testing,Grafana,InfluxDB,jmeter,docker]
+tags: [performance-testing,Grafana,InfluxDB,jmeter,docker]
 permalink: /2016/04/08/live-performance-monitoring-jmeter-grafana-influxdb-docker/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Live Jmeter Test Result Monitoring"

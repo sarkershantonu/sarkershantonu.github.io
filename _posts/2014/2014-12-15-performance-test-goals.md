@@ -2,7 +2,7 @@
 layout: post
 title: Why we need Performance Testing? 
 date: "2014-12-15 05:40"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2014/12/15/performance-test-goals/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance testing"

@@ -2,7 +2,7 @@
 layout: post
 title: Writing VUser or Performance Test Script
 date: "2015-01-31 08:06"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2015/01/31/vuser-performance-test-script/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance testing"

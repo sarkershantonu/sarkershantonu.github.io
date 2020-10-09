@@ -2,7 +2,7 @@
 layout: post
 title: Performance SLA or Baseline requirements
 date: "2015-11-30 06:50"
-tags: [Performance-Testing]
+tags: [performance-testing]
 permalink: /2015/11/30/sla-baseline-requirements/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Performance Testing SLA"
