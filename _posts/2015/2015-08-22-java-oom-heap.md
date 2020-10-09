@@ -9,15 +9,15 @@ excerpt: "Blog on Java Exception"
 gh-badge: [star,follow]
 comments: true
 ---
-In this post I will provide how to reproduce out of memory error in Java . We will see how to recreate and what are the impact in monitoring tools.
-
-This is a continuing article of [out of memory error/explanation](https://sarkershantonu.github.io/2015/08/21/java-oom-why/).  
+In this post I will provide how to reproduce out of memory error in Java . We will see how to reproduce and what we can see in monitoring tools. This is a continuing article of [out of memory error/explanation](https://sarkershantonu.github.io/2015/08/21/java-oom-why/).  
 
 I am using **Oracle JVM 1.6 x64** & **Oracle JVM 1.8 x64** on windows 7 x64/8gb ram/ 2.5Ghz Core i5 laptop. 
 
 ## Tools : 
+
 ### IDE : 
 - Eclipse
+
 ### Profiling/Monitoring tool :
 1. Visual VM
 2. Jconsole (optional)
