@@ -117,5 +117,4 @@ But, if you application is very fast and scalable , have less initiation time, y
 
 - Scalability is also a part of performance , but for measuring, it is ignored as that is related to capacity only. 
 
-
 Thanks, please let me know if you have any questions....:)  
