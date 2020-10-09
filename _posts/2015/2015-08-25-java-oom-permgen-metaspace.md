@@ -2,7 +2,7 @@
 layout: post
 title: Java OutOfMemoryError :PermGen space or Metaspace
 date: "2015-08-25 02:54"
-tags: [java, jvm,java-oom]
+tags: [java, jvm, java-oom]
 permalink: /2015/08/25/java-oom-permgen-metaspace/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Java, JVM"
