@@ -52,11 +52,10 @@ So, we have 3 items. And, the meaning of each item is
 - Size : More size, less performance(inversely proportionate )
 - Throughput: More throughput , more performance. (proportionate )
 
-So, in here KPI for each **step/transaction = Response Time x Size x(1/Throughput)**
+So, in here KPI for each **step/transaction = Response Time x Size x(1/Throughput)**. In here, you can calculate throughput inversely and then multiply all. Or, add all.
+- = Response Time x Size x Throughput inverse
+- = Response Time + Size + Throughput inverse
 
-In here, you can calculate throughput inversely and then multiply all. Or, add all.
-= Response Time x Size x Throughput inverse
-= Response Time + Size + Throughput inverse
 (addition is also used to measure the value)
 
 **Note** : To keep graph more align, we might have to change the unit, Example – millisecond to min/hour, changing items in Kilo/Mega range
