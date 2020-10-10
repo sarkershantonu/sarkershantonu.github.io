@@ -13,10 +13,16 @@ In this article we are going to see generic ideas about memory leak detection te
 
 For this example, I will add reference on a java(j2ee) and a dotnet(Asp.Net/Web Forms) application. I will try to avoid theoretical definitions , rather using my own way to express.
 
-### What is a memory leak? 
-By the name we can understand, it is about high memory consumption. Actually, it has large impact in several type. In generic way, when an application's required memory increases while application is running, it might refers to memory leak. Not necessary a memory increment will be a definite leak, but, logical relation between functionality and required memory can define if it is leak or not. Based on symptoms, I define memory leak in two categories.
+# What is a memory leak? 
+By the name we can understand, it is about high memory consumption. Actually, it has large impact in several type. 
 
-### Symptom :  Increase of memory usages: 
+In generic way, when an application's required memory increases while application is running, it might refers to memory leak. 
+
+Not necessary a memory increment will be a definite leak, but, logical relation between functionality and required memory can define if it is leak or not. 
+
+Based on symptoms, I define memory leak in two categories.
+
+#### Symptom :  Increase of memory usages: 
 While running application , if we see the system memory & application memory usages(heap+non heap) increases, that is clear indication the required memory is higher. We need to relate this with action that we perform with the application. 
 
 Let's say , if our actions on application working with large volume of data, it is logical to have memory increment. 
@@ -38,7 +44,7 @@ For java :
 
 This can lead to critical stage and cause Out of memory Exception.
 
-### Symptom : Memory usages is not dropping: 
+#### Symptom : Memory usages is not dropping: 
 While running application with large number of user or data (typical stress test scenario), if we see memory is not released and for longer time observation, the memory is still occupied. This may cause memory increment for new action perform on application.
 
 To ensure this symptom, we may perform  **force GC** to see, if memory usages are going down then it is okay, if not, that means, it is **constantly occupied**. And, we can see the same generational changes of memory like as described in previous symptom .
@@ -46,41 +52,20 @@ To ensure this symptom, we may perform  **force GC** to see, if memory usages ar
 It is very logical, when we perform some task on application, it will load new class , create object and do the task. But as soon as we complete, we should expect those objects should be destroyed/cleaned in next GC cycle.
 
 # Tools :
+- OS Memory monitoring tool : perfmon or similar
 
-##  OS Memory monitoring tool 
-- perfmon or similar
+#### Application Memory monitoring tool 
+- Dotnet : VMMap, any profiler like ANTS memory/DotMemory,
+- Java :  JConsole/Visual VM, Java Mission Control(JMC)
+- IBM JAVA : **Health center** Under **IBM Support Analyst**
+- Or, Commercial Profiler like **Yourkit** or **JProfiler**
+- APM : you may also select any APM tools(Dynatrace, NewRelic or AppDynamics)  for both technology monitoring. 
 
-##  Application Memory monitoring tool 
+#### Snapshot collection & compare Tools : 
+- Dotnet : Perfview, Ants memory, DotMemory
+- Java : JConsole/Visual VM, JMC,Yourkit, JProfiler
 
-#### Dotnet :  
-- VMMap 
-- any profiler like ANTS memory/DotMemory,
-
-#### Oracle Java : 
-- JConsole/Visual VM 
-- Java Mission Control.(JMC)
-
-#### IBM JAVA : 
-- Health center Under IBM Support Analyst
-
-Or, Commercial Profiler like **Yourkit** or **JProfiler**
-
-## APM 
-you may also select any APM tools(Dynatrace, NewRelic or AppDynamics)  for both technology monitoring. 
-
-## Tools for Memory snapshot collect & compare : 
-
-#### Dotnet : 
-- Perfview
-- Ants memory
-- DotMemory
-#### Java : 
-- JConsole/Visual VM
-- JMC 
-- Yourkit
-- JProfiler
-
-## Analysis tool : 
+#### Analysis tool : 
 Either manually, see things as you need or follow up commercial tool suggestions.
 
 # how to find the memory leaks ?
@@ -149,14 +134,14 @@ We have fixed , small group of steps as a part of big scenario. Now, prepare you
 
 So, after doing all steps, you will get a heap snapshot for each step.
 
-## Step E : Comparing heap snapshot : 
+## Step E : Comparing snapshots : 
 Consider initial heap snapshot as Baseline or zero snapshot. Let say, we have take total 5 snapshots and No 1 is consider as base snapshot.  
 
 So, now, we can compare in two ways.
 - Comparing each snapshot with baseline : It will show the differences from initial state.That means, from example, comparing Snapshot 2, 3, 4, 5 with snapshot 1.
 - Comparing each snapshot with it's previous snapshot : This will show gradually growing. That means, from example, comparing Snapshot 5 with 4, 4 with 3, 3 with 2, 2 with 1.
 
-## Step F : Analyze Snapshots : 
+## Step F : Snapshot Analyze 
 If you do comparison, paid tool will give you differences by default. For Free tools, you might need get those manually by shorting, binding, folding.  So, lets see what items that we need to see.
 
 ### Summary Analysis: 
@@ -212,7 +197,7 @@ So, now you get your leaking object, you get who is calling, how it is called. A
 
 Note : Most of tools trigger a Full GC before taking snapshot, so for analysis you need consider that event with mealtime data monitoring and heap comparison analysis. For this, you may use free tools(shipped with framework) to take manual heap snapshot and compare them. 
 
-References :
+These are good reads for this article :
 1. [A quick overview on JVM Architecture](https://sarkershantonu.github.io/2015/08/02/jvm-architecture/)
 2. [What are the elements inside DotNet?](https://shantonusarker.blogspot.com/2015/04/dotnet-elements-inside-clr-cls-il-jit-cts-gc.html)
 3. [What is CLR? How it works?](https://shantonusarker.blogspot.com/2015/05/what-is-clr-how-it-works-basic-ideas.html)
