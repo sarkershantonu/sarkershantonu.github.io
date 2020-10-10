@@ -47,52 +47,70 @@ It is very logical, when we perform some task on application, it will load new c
 
 # Tools :
 
-###  OS Memory monitoring tool 
+##  OS Memory monitoring tool 
 - perfmon or similar
 
-###  Application Memory monitoring tool 
+##  Application Memory monitoring tool 
 
 #### Dotnet :  
-- VMMap, or any profiler , ANTS memory/DotMemory,
-#### Java : JConsole/Visual VM or Java Mission Control.(JMC)
-IBM JAVA : Health center Under IBM Support Analyst
-Or Commercial Profiler like Yourkit or JProfiler
+- VMMap 
+- any profiler like ANTS memory/DotMemory,
 
-And, you may also select any APM tools(Dynatrace, NewRelic or AppDynamics)  for both technology monitoring like)
+#### Oracle Java : 
+- JConsole/Visual VM 
+- Java Mission Control.(JMC)
 
-3. Tools for Memory snapshot collect & compare : (
-Dotnet : Perfview, Or Commercial Ants memory, DotMemory
-Java : JConsole/Visual VM, JMC or commercial tool Yourkit or JProfiler
+#### IBM JAVA : 
+- Health center Under IBM Support Analyst
 
-4. Analysis tool : Either manually, see things as you need or follow up commercial tool suggestions.
+Or, Commercial Profiler like **Yourkit** or **JProfiler**
 
-So, how to find the memory leak ?
+## APM 
+you may also select any APM tools(Dynatrace, NewRelic or AppDynamics)  for both technology monitoring. 
 
-I will follow Top down analysis. I will provide separate blog post for what is top down analysis, for quick recap, Top down analysis refers to approach on performance analysis from top level system to deep drive into code at run time .
+## Tools for Memory snapshot collect & compare : 
 
-Step A : Choose Scenario: 
+#### Dotnet : 
+- Perfview
+- Ants memory
+- DotMemory
+#### Java : 
+- JConsole/Visual VM
+- JMC 
+- Yourkit
+- JProfiler
+
+## Analysis tool : 
+Either manually, see things as you need or follow up commercial tool suggestions.
+
+# how to find the memory leaks ?
+
+I will follow **Top down** analysis. I will provide separate blog post for what is top down analysis, for quick recap, **top down analysis refers to approach on performance analysis from top level system to deep drive into code at run time** .
+
+### Step A : Choose Scenario: 
 First you need to know which area of you application might have memory leak. Usually, leak analysis activity comes after any performance test or profiling activity or in worst case Out of Memory exceptions happened.
+
 In all cases, the initial steps must be know which actions or events or UI interactions are causing this suspects. This will ensure, the effort you are doing , is going on right direction.
 
-For example : Let's consider a banking application, when user logins in , he gets account balance & all other baking functions. If he do credit, debit or any transaction, due to different 3rd party dependency , the application takes large memory and leaks are suspected.
+For example : Let's consider a banking application, when user signs in , he gets account balance & all other baking functions. If he do credit, debit or any transaction, due to different 3rd party dependency , the application takes large memory and leaks are suspected.
 
-Step B : Monitor System & Process Memory Usages : 
-Monitor Environment/OS Memory Usages : After knowing application , either by automation (load test tool or function test tool) or manually, you should run the same process repetitively for a longer period and monitor memory usages of
-1. Host PC using OS monitoring tool
-2. Application Process (each OS has process monitoring)
-3. Application Run time (Java/Dotnet)
-(This part is based on architecture of run time, to know more detail you can visit my posts below)
+### Step B : Monitoring : 
 
-This is small example for a IIS process monitoring with task manager and profmon.
+#### Monitor Environment/OS Memory Usages : 
+After knowing application , either by automation (load test tool or function test tool) or manually, you should run the same process repetitively for a longer period and monitor memory usages of
+- Host PC using OS monitoring tool
+- Application Process (each OS has process monitoring)
+- Application Run time (Java/Dotnet)
 
+This part is based on architecture of run time, to know more detail you can visit my posts below. This is small example for a IIS process monitoring with **task manager and profmon**.
 
-
+![task-perfmon](/images/performance-analysis/ml-iis-monitoring.jpg)
 
 Now, we have clear visibility over environment for memory and we can see the memory usages trends (over time). Let's go to next stage.
 
-You can do application internal monitoring also with profilers.
+You can do application internal monitoring also with any profiler.
 
-
+![leak-profiler](/images/performance-analysis/ml-iis-increment-memory.jpg)
 
 Step C : Breakdown your Scenario: 
 After getting memory usage over time, break down with your chosen areas(from step A) separately and narrow your scope. You will have small , well defined small steps from all steps.
