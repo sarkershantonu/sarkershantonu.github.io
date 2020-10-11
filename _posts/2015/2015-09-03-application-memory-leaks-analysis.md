@@ -199,7 +199,7 @@ Note : Most of tools trigger a Full GC before taking snapshot, so for analysis y
 
 These are good reads for this article :
 1. [A quick overview on JVM Architecture](https://sarkershantonu.github.io/2015/08/02/jvm-architecture/)
-2. [What are the elements inside DotNet?](https://shantonusarker.blogspot.com/2015/04/dotnet-elements-inside-clr-cls-il-jit-cts-gc.html)
-3. [What is CLR? How it works?](https://shantonusarker.blogspot.com/2015/05/what-is-clr-how-it-works-basic-ideas.html)
+2. [What are the elements inside DotNet?](https://sarkershantonu.github.io/2015/04/25/dotnet-clr-elements/)
+3. [What is CLR? How it works?](https://sarkershantonu.github.io/2015/04/27/dotnet-clr-how-it-works/)
 
  Thanks.. :)
