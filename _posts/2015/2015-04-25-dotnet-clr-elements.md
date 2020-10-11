@@ -43,11 +43,11 @@ In summary, CLS has the specification which should be common for all language. S
 
 ![cls-basic](/images/dotnet/clr/cls.png)
 
-- Base Classes : Like JDK, Dotnet also have some Base class libraries which helps to build application. These are called Base Classes. This is provided by Microsoft commonly used for all languages (as it follows CLS). 
+- **Base Classes** : Like JDK, Dotnet also have some Base class libraries which helps to build application. These are called Base Classes. This is provided by Microsoft commonly used for all languages (as it follows CLS). 
 
 Example : ADO.Net, I/O, Diagnostics, Environment controlling libraries etc. From 3.5, Microsoft add some smart libraries named as Layer Cake.
 
-- Foundations : To make development attractive and targeted for specific user problems, Dotnet brings different type of application development as suit which contains different base classes and associated runtime system. Like, for web , ASP.net. For mobile, win mobile platform, for desktop, win forms , WPF etc.
+- **Foundations** : To make development attractive and targeted for specific user problems, Dotnet brings different type of application development as suit which contains different base classes and associated runtime system. Like, for web , ASP.net. For mobile, win mobile platform, for desktop, win forms , WPF etc.
 
 ![IL-basic](/images/dotnet/clr/dotnet-component-overview.png)
 
