@@ -3,7 +3,7 @@ layout: post
 title: Dotnet Performance Counters
 date: "2015-06-09 20:36"
 tags: [dotnet, clr, performance-analysis, performance-reporting]
-permalink: /2015/06/09/dotnet-clr-how-it-works/
+permalink: /2015/06/09/dotnet-performance-counters/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on performance-analysis"
 gh-badge: [star,follow]
