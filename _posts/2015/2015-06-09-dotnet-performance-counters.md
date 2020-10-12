@@ -109,9 +109,7 @@ This indicates application interaction/usages with COM components, COM+ services
 
 Note : This counter usually **ignored for managed codebase**. But if you are using **legacy codebase** or libraries, this needed to monitor. The key thing to monitor is CCWs and if data transaction is large with un-managed code, then Stubs. 
 
-
-
-# Performance Counter : Exception 
+# Exception Performance Counters
 As we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by Exception. 
 
 ### What is an exception?
@@ -155,26 +153,47 @@ According to Microsoft forums, a rate more than **100 exceptions/s** is consider
 - All exception rates represents data rate between two sample of collection not average of all collected data. 
 - Exception/sec is the most useful and usually used. 
 
-# Performance Counter : JIT 
+# JIT Performance Counters  
 When we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by JIT compilation and how JIT is performing.  
 
 This is another important counter for performance monitoring for individual code block performance. 
-
 - **Number of bytes of MSIL processed by JIT(IL Bytes JITted)** : Shows amount of IL/MSIL code compiled by JIT  compiler since the application started(in byte). 
-
 - **Total IL bytes processed by JIT** : Same as previous(IL Bytes JITted) but with all in count. So, it will same in one collected sample.
-
 - **Rate of IL processing by JIT (IL Bytes JITted / sec)** : Shows rate of IL code compilation by JIT.
-
 - **Note** : This rate represents JIT compilation rate between two collected samples not average of all. This is an important measurement for performance.,spatially for application running server capacity.
-
 - **Number of Methods processed by JIT(Methods JITted)** : Shows total number of Methods JIT compiled since the application started. It excludes, per-compiled methods.
-
 - **Standard JIT Failures** : It shows JIT compilation failures peak number of methods since the application started. MSIL verification, JIT internal error, Resource or Dependency Errors etc will also be included in count. This is another important counter for performance monitoring. 
-
 - **Time % for a code in a JIT compilation phase:(% Time in JIT)** : JIT copulation occurs in phases. A phase occurs when a method and its dependencies are compiled. This time shows % of total time needed for compilation in one phase JIT. 
 
 That means, for example, this shows how much percentage need for JIT to compile a piece of code in respect to total method compilation. This counter is updated at the end of every JIT compilation phase.(neutralize the counter for each phase) 
 
+# CLR Class loaders' Performance Counters
+If we are measuring performance affected by Class loaders, assemblies, app domains inside CLR, we need this. For basic idea of CLR, [please see this post](https://sarkershantonu.github.io/2015/04/27/dotnet-clr-how-it-works/)
 
+### Related to Class loader : 
+- **Bytes in Loader Heap** : Class loader committed memory (in RAM)across all app domain.
+- **Current Classes Loaded** : Current number of classes loaded in all assemblies. 
+- **Rate of Classes Loaded (/sec)** : Rate of classes loaded in all assemblies in the last two collected samples.
+- **Rate of Load Failures(/sec)** : Rate of classes failed to load in all assemblies in the last two collected samples. 
+- **Total Number of Load Failures** : Count of failed to load class since the application started. For performance measurement, **failure counts(total and rate)** are very important to identify the events. This should be trigger for **big errors**. So, need to carefully monitor the failure heuristics and related failures. 
+- **Total Classes Loaded** : Cumulative Count of loaded classes in all assemblies since the application started.
+
+### Related to Assembly: 
+- **Current Assemblies** : Current number of loaded assemblies in all app domains for a running application.
+- **Rate of Assemblies(/sec)** : Rate of assemblies loading across all app domain in the last two collected samples.
+- **Total Assemblies** : Counts total number of loaded assemblies since the application started.  
+
+Note : If an assembly is loaded as domain-neutral from other app domains, it counts **only once** for all type of assembly counters. 
+
+### Related to App Domain :
+- **Current app domains** : Current app domain numbers loaded in the app.  
+- **Rate of app domains (/sec)**: Rate of app domain loading in the last two collected samples.
+- **Rate of app domains unloaded (/sec)**: Rate of app domain unloading in the last two collected samples.
+- **Total App domains** : Count of all loaded app domains since app started. 
+- **Total app domains unloaded** : Count of all unloaded app domains since app started. For multiple loading same app domains, it is counted multiple times 
+
+For performance monitoring, all **loading and unloading rate** are more important as they **indicate performance of CLR**. 
+
+
+Thanks ...:) 
 Thanks... :)
