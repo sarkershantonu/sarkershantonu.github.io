@@ -56,7 +56,6 @@ It shows how many finally block executed(which caught an exception) per second. 
 #### Throw to Catch Depth / Sec : 
 This shows the level(depth) of exception, from level that throws up to where it is caught in rate(per second). That means, this shows the exception depth (nested exception) rate among two samples. 
 
-
 ### Notes : 
 - This both counters includes handled and un-handled exceptions.
 - Usually there will be two kinds of exceptions 
@@ -64,7 +63,6 @@ This shows the level(depth) of exception, from level that throws up to where it 
     - Converted Un- managed exceptions: Thrown from converted un managed code(C++ libs, Com, or CLR core) that are converted into .NET exceptions.   
 - All exception rates represents data rate between two sample of collection not average of all collected data. 
 - Exception/sec is the most useful and usually used. 
-
 
 # Performance Counter : JIT 
 - When we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by JIT compilation and how JIT is performing.  
@@ -79,12 +77,12 @@ Same as previous(IL Bytes JITted) but with all in count. So, it will same in one
 #### Rate of IL processing by JIT (IL Bytes JITted / sec) : 
 Shows rate of IL code compilation by JIT.
 
-Note : This rate represents JIT compilation rate between two collected samples not average of all. This is an important measurement for performance.,spatially for application running server capacity.
+**Note** : This rate represents JIT compilation rate between two collected samples not average of all. This is an important measurement for performance.,spatially for application running server capacity.
 
 #### Number of Methods processed by JIT(Methods JITted) : 
 Shows total number of Methods JIT compiled since the application started.
 
-Note: It excludes, per-compiled methods.
+**Note**: It excludes, per-compiled methods.
 
 #### Standard JIT Failures : 
 It shows JIT compilation failures peak number of methods since the application started. MSIL verification, JIT internal error, Resource or Dependency Errors etc will also be included in count. This is another important counter for performance monitoring. 
@@ -94,7 +92,7 @@ JIT copulation occurs in phases. A phase occurs when a method and its dependenci
 
 That means, for example, this shows how much percentage need for JIT to compile a piece of code in respect to total method compilation.
 
-Note : This counter is updated at the end of every JIT compilation phase.(neutralize the counter for each phase) 
+**Note** : This counter is updated at the end of every JIT compilation phase.(neutralize the counter for each phase) 
 
 
 Thanks... :)
