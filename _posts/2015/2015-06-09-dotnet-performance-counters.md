@@ -18,9 +18,7 @@ In this article we are going to know about different performance counters in dot
 Before starting this, i would request readers to go through basic dotnet CLR introduction. [This post might help in very basic level](https://sarkershantonu.github.io/2015/04/27/dotnet-clr-how-it-works/)
  
 ### Memory Counter : Allocation/Size
-- **Large Object Heap size (byte) : 
-Size of large object(grater 85kb) heap which are spatially handled by GC directly(not using generational model). 
-
+- **Large Object Heap size (byte)** : Size of large object(grater 85kb) heap which are spatially handled by GC directly(not using generational model). 
 - **Gen 0 heap size (byte)**: Allocatable size of Generation 0(youngest) objects. 
 - **Gen 1 heap size (byte)**: Allocatable size of Generation 1. 
 - **Gen 2 heap size (byte)**: Allocatable size for Generation 2(oldest) objects. 
@@ -28,16 +26,14 @@ Size of large object(grater 85kb) heap which are spatially handled by GC directl
     - This excludes generation 0 heap size as it will be collected after soonest GC collection.
     - This shows current memory allocated in GC Heaps. 
 
-Note : All are updated after end of a GC collection (not allocation). 
-
-All sizes are important to analyze memory allocation amount while profiling. So, these are important counters for memory leak analysis. 
+Note : All are updated after end of a GC collection (not allocation). All sizes are important to analyze memory allocation amount while profiling. So, these are important counters for memory leak analysis. 
 
 - **Number of Total committed Bytes** : Size of Virtual Memory committed by GC. In windows, initially it is inside RAM, committed, which has reserved allocated memory in page file.
 - **Number  Total reserved Bytes** : Size of Virtual Memory reserved by GC. In windows, reserved virtual memory is allocated with committed memory in page files(to disk) to support when not enough RAM space.
 
-Committed and reserved indicate, how much resource hungry the application is. So, important counters for measuring **server/run time environment capacity**. 
+Committed and reserved indicate, **how much resource hungry** the application is. So, important counters for measuring **server/run time environment capacity**. 
 ### Memory Counter : Promotion(Generation Upgrade)
-- ** Finalization Survivors : Number of survived objects after a GC event due to wait to be finalized.
+- **Finalization Survivors** : Number of survived objects after a GC event due to wait to be finalized.
     - Reference holding objects are not counted here 
     - It is not cumulative
     - Updated after each GC event
@@ -82,6 +78,45 @@ Note : They can also store non sync info like COM interop metadata. This is a **
 Example , let say 5 second time interval from last GC and current GC and current GC took 2sec, so this will show 40% GC time. So, it is updated after each GC call. This is a **very important counter** as it shoes **how much % work done by GC**
 
 - **Allocated Bytes/sec**: It shows the rate of allocation, so it is updated after each GC collection and measured among two sample intervals. This is an **important performance counter where GC performance is in question**. To measure, how fast the allocation happens, this helps. 
+
+# CLR Thread Performance Counters
+In this article we are going to know about performance counters related to Running thread inside CLR.
+As we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by Thread processing, locking and unlocking thread.
+
+Number of current physical Threads: Shows native OS threads created and owned ny CLR.
+Note:
+>This does not include the threads used by the runtime in its internal operations
+>It is a subset of the threads in the operating system process.
+
+Number of current logical Threads : Shows number of thread objects(local threads) managed by CLR including running, halted/stopped thread in last collected sample
+
+Both thread numbers indicates performance overhead. If numbers are too high, application might be in risk to manage those(GC overhead and  long queue lengths/wait time) . So these are important performance encounters. 
+
+Current Queue Length : Number of threads waiting to acquire a managed lock in last collated sample/observed.
+
+Queue Length / sec : Rate of waiting threads to acquire a managed lock between last two collected samples.
+
+Queue Length Peak : Number of threads waiting to acquire a managed lock since the application started.
+
+Queue lengths show wait time of threads. This indicates how activities are waiting for resources or events. So, these are very important counters for performance.
+
+Rate of recognized threads / sec : Rate of runtime recognized threads between last two collected samples.
+>Runtime does not create these unique(same ID) threads but must run at least once.
+>These are associated with a corresponding managed thread object and have the
+
+Number of current recognized threads : Currently recognized uniquely identified threads in runtime.
+
+Total recognized Threads : Number of total recognized uniquely identified threads.
+
+Contention Rate / Sec : Rate of failed attempts by threads on acquiring a managed lock in runtime.
+
+Total Number of Contentions : Numbers of failed attempts by threads on acquiring a managed lock in runtime.
+Total number of contentions shows total fail times, it is also an important performance counter.
+
+
+Thanks..:)
+
+
 
 # Performance Counter : Exception 
 As we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by Exception. 
