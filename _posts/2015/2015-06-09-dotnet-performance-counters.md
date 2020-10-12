@@ -101,6 +101,15 @@ Both thread numbers **indicates performance overhead**. If numbers are too high,
 - **Contention Rate / Sec** : Rate of failed attempts by threads on acquiring a managed lock in runtime.
 - **Total Number of Contentions** : Numbers of failed attempts by threads on acquiring a managed lock in runtime. It shows total fail times, it is also an important performance counter.
 
+# CLR Interop Performance Counters
+This indicates application interaction/usages with COM components, COM+ services, and external typed libraries. 
+- **Numbers of  of CCWs** : Shows current number of COM callable wrappers (CCWs). That means, it actually shows number of managed objects for un-managed COM code. CCW is a proxy for a referenced managed object by an un-managed COM client.
+- **Number of Stubs** : Current number of stubs created by CLR. Marshaling arguments and return values from managed to un-managed code is done by Stubs during a COM interop call or a platform invoke call.
+- **Number of marshaling** : Total number of marshaled events since application started. Arguments & returned values marshaling between managed and un-managed code are in this count. This counter is not incremented if the stubs are inlined(they are usually inlined when small marshaling overhead )
+
+Note : This counter usually **ignored for managed codebase**. But if you are using **legacy codebase** or libraries, this needed to monitor. The key thing to monitor is CCWs and if data transaction is large with un-managed code, then Stubs. 
+
+
 
 # Performance Counter : Exception 
 As we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by Exception. 
