@@ -194,6 +194,12 @@ Note : If an assembly is loaded as domain-neutral from other app domains, it cou
 
 For performance monitoring, all **loading and unloading rate** are more important as they **indicate performance of CLR**. 
 
+# CLR Security  Performance Counters
+CLR has different security checks before execute an application.  These counters help us for measuring performance overhead for CLR security checks for an application.
+- **% Time in RT checks** : Time % spend on access checking since last collected sample. Update after each checking. This is very important performance counter due to nature. It might be **overhead for performance**.
+- **Stack Walk Depth** : Depth (in number) at last runtime code access security check by walking the stack. This indicates complexity. 
+- **Total Runtime Checks** : Total number of performed runtime code access security checks since the application started. Runtime checks are done when a caller ask for a permission at current thread stack of caller. With **high Stack Walk Depth** value,  this counter indicates the **performance penalty** due to **security checks**. So, this two together becomes important performance counter. 
+- **Number of Link Time Checks**: Total number of Link Time code access security checks since the app started.Link time checks due to caller demands for permission at JIT compile time. So, it is once per caller. Due to this behavior, it is **ignored while performance measurement but measure only for security purposes**. 
 
-Thanks ...:) 
+
 Thanks... :)
