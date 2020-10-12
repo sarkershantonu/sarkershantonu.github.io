@@ -11,7 +11,7 @@ comments: true
 ---
 In this article we are going to know about different performance counters in dotnet. 
 
-# Memory Performance Counters
+# A: Memory Counters
 - As we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by Memory allocation , deallocation. 
 - This is a very important if we are measuring dotnet performance impact for a particular application. 
 
@@ -79,7 +79,7 @@ Example , let say 5 second time interval from last GC and current GC and current
 
 - **Allocated Bytes/sec**: It shows the rate of allocation, so it is updated after each GC collection and measured among two sample intervals. This is an **important performance counter where GC performance is in question**. To measure, how fast the allocation happens, this helps. 
 
-# CLR Thread Performance Counters
+# B:CLR Thread Counters
 When we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by Thread processing, locking and unlocking thread.
 - **Number of current physical Threads** : Shows native OS threads created and owned ny CLR.
 
@@ -101,7 +101,7 @@ Both thread numbers **indicates performance overhead**. If numbers are too high,
 - **Contention Rate / Sec** : Rate of failed attempts by threads on acquiring a managed lock in runtime.
 - **Total Number of Contentions** : Numbers of failed attempts by threads on acquiring a managed lock in runtime. It shows total fail times, it is also an important performance counter.
 
-# CLR Interop Performance Counters
+# C: CLR Interop Counters
 This indicates application interaction/usages with COM components, COM+ services, and external typed libraries. 
 - **Numbers of  of CCWs** : Shows current number of COM callable wrappers (CCWs). That means, it actually shows number of managed objects for un-managed COM code. CCW is a proxy for a referenced managed object by an un-managed COM client.
 - **Number of Stubs** : Current number of stubs created by CLR. Marshaling arguments and return values from managed to un-managed code is done by Stubs during a COM interop call or a platform invoke call.
@@ -109,7 +109,7 @@ This indicates application interaction/usages with COM components, COM+ services
 
 Note : This counter usually **ignored for managed codebase**. But if you are using **legacy codebase** or libraries, this needed to monitor. The key thing to monitor is CCWs and if data transaction is large with un-managed code, then Stubs. 
 
-# Exception Performance Counters
+# D: Exception Counters
 As we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by Exception. 
 
 ### What is an exception?
@@ -132,17 +132,13 @@ finally {
 And, fundamentally, each type of exception, when it is caught, is a independent object of specific/generic exception class. So, if a piece of code leads to series of exceptions, it might hamper run time environment.
 
 In many projects, developers decide to implement business logic exceptions via try catch which is okay for small project scope, but for complex and multilayer business validation, it becomes overhead ]
-
 - **Exception Trowing Rate(/sec)** : How many exceptions per second are thrown? : It shows this rate. Usually this rate represents exception rate between two sample of data collection not average. So, it is a vital one. 
 
 According to Microsoft forums, a rate more than **100 exceptions/s** is consider as poor performance. In practical , it depends on application.
 
 - **Number of Thrown Exceptions** : How many exception are thrown? : This shows the number of exceptions since the application started. If any exception is re-thrown , counted again.
-
 - **Filtered Exception Rate(/sec)** : It shows how many particular exception per second are thrown? It is same as exception throwing rate just with added filter. 
-
 - **Finally rate(/sec)** : It shows how many finally block executed(which caught an exception) per second. It does not shows finally blocks which are not throws exception. 
-
 - **Throw to Catch Depth / Sec** : This shows the level(depth) of exception, from level that throws up to where it is caught in rate(per second). That means, this shows the exception depth (nested exception) rate among two samples. 
 
 ### Notes : 
@@ -153,7 +149,7 @@ According to Microsoft forums, a rate more than **100 exceptions/s** is consider
 - All exception rates represents data rate between two sample of collection not average of all collected data. 
 - Exception/sec is the most useful and usually used. 
 
-# JIT Performance Counters  
+# E:JIT Counters  
 When we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by JIT compilation and how JIT is performing.  
 
 This is another important counter for performance monitoring for individual code block performance. 
@@ -167,7 +163,7 @@ This is another important counter for performance monitoring for individual code
 
 That means, for example, this shows how much percentage need for JIT to compile a piece of code in respect to total method compilation. This counter is updated at the end of every JIT compilation phase.(neutralize the counter for each phase) 
 
-# CLR Class loaders' Performance Counters
+# F:CLR Class loaders' Counters
 If we are measuring performance affected by Class loaders, assemblies, app domains inside CLR, we need this. For basic idea of CLR, [please see this post](https://sarkershantonu.github.io/2015/04/27/dotnet-clr-how-it-works/)
 
 ### Related to Class loader : 
@@ -194,14 +190,14 @@ Note : If an assembly is loaded as domain-neutral from other app domains, it cou
 
 For performance monitoring, all **loading and unloading rate** are more important as they **indicate performance of CLR**. 
 
-# CLR Security Performance Counters
+# G: CLR Security Counters
 CLR has different security checks before execute an application.  These counters help us for measuring performance overhead for CLR security checks for an application.
 - **% Time in RT checks** : Time % spend on access checking since last collected sample. Update after each checking. This is very important performance counter due to nature. It might be **overhead for performance**.
 - **Stack Walk Depth** : Depth (in number) at last runtime code access security check by walking the stack. This indicates complexity. 
 - **Total Runtime Checks** : Total number of performed runtime code access security checks since the application started. Runtime checks are done when a caller ask for a permission at current thread stack of caller. With **high Stack Walk Depth** value,  this counter indicates the **performance penalty** due to **security checks**. So, this two together becomes important performance counter. 
 - **Number of Link Time Checks**: Total number of Link Time code access security checks since the app started.Link time checks due to caller demands for permission at JIT compile time. So, it is once per caller. Due to this behavior, it is **ignored while performance measurement but measure only for security purposes**. 
 
-# CLR Network Performance Counters(Asp Dotnet)
+# H: CLR Network Counters(Asp)
 A web application sending and receiving data will be observed in CLR boundary. 
 
 ### CPU/Thread Related Counters :
