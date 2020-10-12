@@ -80,42 +80,26 @@ Example , let say 5 second time interval from last GC and current GC and current
 - **Allocated Bytes/sec**: It shows the rate of allocation, so it is updated after each GC collection and measured among two sample intervals. This is an **important performance counter where GC performance is in question**. To measure, how fast the allocation happens, this helps. 
 
 # CLR Thread Performance Counters
-In this article we are going to know about performance counters related to Running thread inside CLR.
-As we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by Thread processing, locking and unlocking thread.
+When we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by Thread processing, locking and unlocking thread.
+- **Number of current physical Threads** : Shows native OS threads created and owned ny CLR.
 
-Number of current physical Threads: Shows native OS threads created and owned ny CLR.
-Note:
->This does not include the threads used by the runtime in its internal operations
->It is a subset of the threads in the operating system process.
+Notes:
+- This does not include the threads used by the runtime in its internal operations
+- It is a subset of the threads in the operating system process.
 
-Number of current logical Threads : Shows number of thread objects(local threads) managed by CLR including running, halted/stopped thread in last collected sample
+- **Number of current logical Threads** : Shows number of thread objects(local threads) managed by CLR including running, halted/stopped thread in last collected sample
 
-Both thread numbers indicates performance overhead. If numbers are too high, application might be in risk to manage those(GC overhead and  long queue lengths/wait time) . So these are important performance encounters. 
-
-Current Queue Length : Number of threads waiting to acquire a managed lock in last collated sample/observed.
-
-Queue Length / sec : Rate of waiting threads to acquire a managed lock between last two collected samples.
-
-Queue Length Peak : Number of threads waiting to acquire a managed lock since the application started.
-
-Queue lengths show wait time of threads. This indicates how activities are waiting for resources or events. So, these are very important counters for performance.
-
-Rate of recognized threads / sec : Rate of runtime recognized threads between last two collected samples.
->Runtime does not create these unique(same ID) threads but must run at least once.
->These are associated with a corresponding managed thread object and have the
-
-Number of current recognized threads : Currently recognized uniquely identified threads in runtime.
-
-Total recognized Threads : Number of total recognized uniquely identified threads.
-
-Contention Rate / Sec : Rate of failed attempts by threads on acquiring a managed lock in runtime.
-
-Total Number of Contentions : Numbers of failed attempts by threads on acquiring a managed lock in runtime.
-Total number of contentions shows total fail times, it is also an important performance counter.
-
-
-Thanks..:)
-
+Both thread numbers **indicates performance overhead**. If numbers are too high, application might be in risk to manage those(GC overhead and  long queue lengths/wait time) . So these are **important** performance encounters. 
+- **Current Queue Length** : Number of threads waiting to acquire a managed lock in last collated sample/observed.
+- **Queue Length / sec** : Rate of waiting threads to acquire a managed lock between last two collected samples.
+- **Queue Length Peak** : Number of threads waiting to acquire a managed lock since the application started. Queue lengths show wait time of threads. This indicates **how activities are waiting** for resources or events. So, these are very important counters for performance.
+- **Rate of recognized threads / sec** : Rate of runtime recognized threads between last two collected samples.
+    - Runtime does not create these unique(same ID) threads but must run at least once.
+    - These are associated with a corresponding managed thread object and have the
+- **Number of current recognized threads** : Currently recognized uniquely identified threads in runtime.
+- **Total recognized Threads** : Number of total recognized uniquely identified threads.
+- **Contention Rate / Sec** : Rate of failed attempts by threads on acquiring a managed lock in runtime.
+- **Total Number of Contentions** : Numbers of failed attempts by threads on acquiring a managed lock in runtime. It shows total fail times, it is also an important performance counter.
 
 
 # Performance Counter : Exception 
