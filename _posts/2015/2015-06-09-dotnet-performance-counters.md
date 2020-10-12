@@ -194,12 +194,42 @@ Note : If an assembly is loaded as domain-neutral from other app domains, it cou
 
 For performance monitoring, all **loading and unloading rate** are more important as they **indicate performance of CLR**. 
 
-# CLR Security  Performance Counters
+# CLR Security Performance Counters
 CLR has different security checks before execute an application.  These counters help us for measuring performance overhead for CLR security checks for an application.
 - **% Time in RT checks** : Time % spend on access checking since last collected sample. Update after each checking. This is very important performance counter due to nature. It might be **overhead for performance**.
 - **Stack Walk Depth** : Depth (in number) at last runtime code access security check by walking the stack. This indicates complexity. 
 - **Total Runtime Checks** : Total number of performed runtime code access security checks since the application started. Runtime checks are done when a caller ask for a permission at current thread stack of caller. With **high Stack Walk Depth** value,  this counter indicates the **performance penalty** due to **security checks**. So, this two together becomes important performance counter. 
 - **Number of Link Time Checks**: Total number of Link Time code access security checks since the app started.Link time checks due to caller demands for permission at JIT compile time. So, it is once per caller. Due to this behavior, it is **ignored while performance measurement but measure only for security purposes**. 
 
+# CLR Network Performance Counters(Asp Dotnet)
+A web application sending and receiving data will be observed in CLR boundary. 
+
+### CPU/Thread Related Counters :
+Very important to track performance
+- **HttpWebRequests Created/sec** : Rate of creating HttpWebRequest objects per second inside AppDomain.
+- **HttpWebRequests Queued/sec** : Rate of adding HttpWebRequest object to the queue per sec inside AppDomain.
+- **HttpWebRequests Aborted/sec**: Rate of Abort Method calling per second in HttpWebRequest objects inside AppDomain.
+- **HttpWebRequests Failed/sec**: Rate of failed HttpWebRequest objects per second inside AppDomain. This is measured by observing http status code failure (not 200-299) from server.
+
+### Time Counters: 
+Very important counters
+- **HttpWebRequest Average Lifetime**: Last interval (sample) ended average completion time for all HttpWebRequest objects inside AppDomain since the process started.
+    - Calculation for a single time: Time start when object created and ends when the object responses (to response stream).
+    - If  GetResponse or BeginGetResponse methods are not called by app then the lifetime of the HttpWebRequest object is ignored.
+    - If exception occurred(while calling GetResponse or EndGetResponse methods) the lifetime ends.
+- **HttpWebRequest Average Queue Time** : Average Time-On-Queue for all HttpWebRequest objects that left the queue inside AppDomain since the process started in the last interval(sample).
+
+### Data Counters : 
+This is important when memory issues are present. 
+- **Bytes Received** : Total (cumulative) bytes received by all socket objects inside an App Domain since the process started.
+- **Bytes Sent** : Total(cumulative) bytes sent by all socket objects within an AppDomain since the process started.
+
+Note : These bytes are not defined by TCP/IP as it is inside CLR.
+### Connection Object counters : 
+- **Connections Established**: Total(cumulative) number of Socket objects connected inside AppDomain for stream sockets since the process started.
+- **Datagrams Received** : Total(cumulative) datagram packets received by all Socket objects inside AppDomain since the process started.
+- **Datagrams Sent** : Total(cumulative) datagram packets sent by all Socket objects inside AppDomain since the process started. 
+
+These connection counters are measured by monitoring Socket class calls.
 
 Thanks... :)
