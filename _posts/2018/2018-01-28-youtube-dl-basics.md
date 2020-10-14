@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to use youtube-dl in ubuntu cli?
+title: How to use youtube-dl?
 date: "2018-01-28 05:02"
 tags: [tools]
 permalink: /2018/01/28/youtube-dl-basics/
