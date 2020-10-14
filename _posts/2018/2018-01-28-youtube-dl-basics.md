@@ -5,7 +5,7 @@ date: "2018-01-28 05:02"
 tags: [tools]
 permalink: /2018/01/28/youtube-dl-basics/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on Tools"
 gh-badge: [star,follow]
 comments: true
 ---
