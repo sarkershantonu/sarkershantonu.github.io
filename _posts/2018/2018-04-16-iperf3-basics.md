@@ -31,17 +31,19 @@ Iperf is a network speed test utilities. It is more accurate than speedtest-cli 
 
 - Manually install, download from [here](https://iperf.fr/iperf-download.php)
 
-# Run iperf3 server 
+### Run iperf3 server 
 
 		iperf3 -s 
-# Run iperf3 server in Background
+
+### Run iperf3 server in Background
 
 		iperf3 -s D
-# Run iperf3 client to test
+
+### Run iperf3 client to test
 
 		iperf3 -c ip_or_address_of_server
 		
-# Iperf3 Testing Example 
+### Iperf3 Testing Example 
 
 		iperf3 -c shantonu.duckdns.org
 
