@@ -69,10 +69,10 @@ WantedBy=multi-user.target
 
 And run the service : 
 ```
-systemctl daemon-reload
-systemctl enable iperf3.service
-systemctl start iperf3
-systemctl status iperf3
+sudo systemctl daemon-reload
+sudo systemctl enable iperf3.service
+sudo systemctl start iperf3
+sudo systemctl status iperf3
 ```
 
 ### More Options 
