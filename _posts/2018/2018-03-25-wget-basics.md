@@ -46,8 +46,6 @@ Wget stands for Web Get. Wget is a CLI utilities for  HTTP, HTTPS, FTP and FTPS 
 - Get all Ubuntu ISO files from CDN (will be hundreds of GB)
 
 		 wget -r -l4 -A.iso http://cdimage.ubuntu.com
-
-![test](/images/speedtest/speedtest-cli-link3.jpg)
 		
 ### [Official Manual](https://www.gnu.org/software/wget/manual/wget.html)
 
