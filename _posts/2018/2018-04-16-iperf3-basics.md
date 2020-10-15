@@ -12,19 +12,24 @@ comments: true
 In this article we are going to see how we can use iperf3.
 
 ### What is iperf3? 
-Wget stands for Web Get. Wget is a CLI utilities for  HTTP, HTTPS, FTP and FTPS request in commandline . It is one of the most popular ubuntu tools used for data crawling/testing.  
+Iperf is a network speed test utilities. It is more accurate than speedtest-cli and you can define your server to test with.   
+
 - Default iperf3 server listens on TCP port 5201
+- Iperf has client mode & server mode 
+- Client mode create request to test with server. 
+- Server mode runs in background to receive request for speed test. 
 
 ### Why iperf3?
-- Ready to run without install in ubuntu systems
-- fast & easy
-- site crawling is easy
-- you can create batch crawler with wget.  
+- Network speed test in cli
+- Intranet speed test 
+- Testing speed among different type of network in same organization or in different part of the world. 
 
 ### Installation 
 - Install via APT
 
-         sudo apt-get update && sudo apt-get install wget       	
+         sudo apt-get update &&  sudo apt-get install -y iperf3       	
+
+- Manually install, download from [here](https://iperf.fr/iperf-download.php)
 
 # Run iperf3 server 
 
@@ -41,6 +46,32 @@ Wget stands for Web Get. Wget is a CLI utilities for  HTTP, HTTPS, FTP and FTPS 
 		iperf3 -c shantonu.duckdns.org
 
 ![image](/images/iperf3-cli.jpg)
+
+### Create iperf3 service in linux
+Create a file iperf3.service at ```/etc/systemd/system/``` or ```$HOME/.config/systemd/user/iperf3.service``` location 
+
+```
+# /etc/systemd/system/iperf3.service
+# User service: $HOME/.config/systemd/user/iperf3.service
+
+[Unit]
+Description=iperf3 server
+After=syslog.target network.target auditd.service
+
+[Service]
+ExecStart=/usr/bin/iperf3 -s
+
+[Install]
+WantedBy=multi-user.target
+```
+
+And run the service : 
+```
+systemctl daemon-reload
+systemctl enable iperf3.service
+systemctl start iperf3
+systemctl status iperf3
+```
 
 ### More Options 
 There are more CLI options, here is the whole list. 
