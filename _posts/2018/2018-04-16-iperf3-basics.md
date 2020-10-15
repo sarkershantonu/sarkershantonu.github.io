@@ -75,6 +75,11 @@ sudo systemctl start iperf3
 sudo systemctl status iperf3
 ```
 
+if you want log for this service (optional) : 
+``` 
+sudo journalctl -f -u iperf3
+```
+
 ### More Options 
 There are more CLI options, here is the whole list. 
 
