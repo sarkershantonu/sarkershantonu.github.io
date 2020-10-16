@@ -34,4 +34,6 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
     - Command mode 
     - Select Mode
     - Ex-mode
+
 ### Basic Commands 
+- To Exit : ```:q``` & press Enter
