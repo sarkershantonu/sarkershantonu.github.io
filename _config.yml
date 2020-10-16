@@ -227,4 +227,3 @@ plugins:
   - jekyll-mentions
   - jekyll-github-metadata
   - jekyll-youtube
-  - jekyll-theme-architect
