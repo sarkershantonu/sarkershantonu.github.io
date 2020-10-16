@@ -9,6 +9,9 @@ excerpt: "Blog on Tools"
 gh-badge: [star,follow]
 comments: true
 ---
+
+[draft] 
+
 In this article we are going to see how we can use Vim.
 
 ### What is VIM?
