@@ -24,7 +24,7 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
 - Another Vim tiny version ```sudo apt install vim-nox```
 
 ### How it works?
-- Vim has three modes : 
+- Vim has multiple modes : 
     - Normal Mode : For navigation . When you press ESC, all modes come back to this mode. 
     - Insert Mode : For insert/edit. Pressing ```i``` will go in this mode. 
     - View/visual Mode
