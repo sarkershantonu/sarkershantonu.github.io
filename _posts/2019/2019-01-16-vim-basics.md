@@ -24,13 +24,13 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
 - Another Vim tiny version ```sudo apt install vim-nox```
 
 ### How it works?
-- Vim has multiple modes : 
-    - Normal Mode : For navigation . When you press ESC, all modes come back to this mode. 
-    - Insert Mode : For insert/edit. Pressing ```i``` will go in this mode. 
-    - View/visual Mode : For navigation and manipulation of text selections
-    - Command mode : For inserting editor command. Press ```ESC``` for command mode
-    - Select Mode : Similar to visual mode but more functionality. 
-    - Ex-mode : Similar to the command-line mode but optimized for batch processing.
+Vim has multiple modes : 
+- Normal Mode : For navigation . When you press ESC, all modes come back to this mode. 
+- Insert Mode : For insert/edit. Pressing ```i``` will go in this mode. 
+- View/visual Mode : For navigation and manipulation of text selections
+- Command mode : For inserting editor command. Press ```ESC``` for command mode
+- Select Mode : Similar to visual mode but more functionality. 
+- Ex-mode : Similar to the command-line mode but optimized for batch processing.
 
 ### How VIM runs command 
 This will show how vi actually runs the command. This will help you to understand how VIM works with exit command example. 
