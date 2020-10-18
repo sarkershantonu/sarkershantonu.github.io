@@ -32,10 +32,21 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
     - Select Mode : Similar to visual mode but more functionality. 
     - Ex-mode : Similar to the command-line mode but optimized for batch processing.
 
+### How VIM runs command 
+This will show how vi actually runs the command. This will help you to understand how VIM works with exit command example. 
+
+![vim](/images/tools/vim/vim-hwo-runs.png)
+
+[source](https://stackoverflow.com/questions/11828270/how-do-i-exit-the-vim-editor)
+
 ### Command Mode Basics
 - To exit : ```:q``` 
 - To save and exit ```:wq```
-- To trash all changes ```:q!```
+- To quit without saving ```:q!```
+- to write and quit even if file has only read permission ```:wq!```
+- to write and quit ```:x``` or ```:exit```
+- to quit all ```:qa```
+- to quit without saving and make Vim return non-zero error ```:cq```
 - To delete the unwanted character ```x```
 - To undo the last the command and U to undo the whole line ```u``` 
 - To redo ```CTRL-R ```
