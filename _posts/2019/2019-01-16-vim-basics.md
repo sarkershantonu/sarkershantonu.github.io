@@ -29,9 +29,9 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
 ### How it works?
 - Vim has three modes : 
     - Normal Mode : For navigation . When you press ESC, all modes come back to this mode. 
-    - Insert Mode : For insert/edit. 
+    - Insert Mode : For insert/edit. Pressing ```i``` will go in this mode. 
     - View/visual Mode
-    - Command mode : For inserting editor command
+    - Command mode : For inserting editor command. Press ```ESC``` for command mode
     - Select Mode : Similar to visual mode but more functionality. 
     - Ex-mode
 
@@ -48,4 +48,4 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
 - To move the cursor to the end of the third word forward```3e```
 - To move to the start of the line```0```
 - To delete multiple words, we can use **dXw**, here X can be any number. For 2 words ```d2w```, for 3 words ```d3w```
-- To delete multiple lines, we can use **Xdd** dd to delete the line and 2dd to delete to line .number can be changed for deleting the number of consecutive words
+- To delete multiple lines, we can use **Xdd** . Single line delete ```dd```, 2 line delete ```2dd```
