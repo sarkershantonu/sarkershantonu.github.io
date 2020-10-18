@@ -38,12 +38,12 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
 ### Basic Commands 
 - To exit : ```:q``` 
 - To save and exit ```:wq```
-x - to delete the unwanted character
-u - to undo the last the command and U to undo the whole line
-CTRL-R to redo
-A - to append text at the end
+- To trash all changes ```:q!```
+- To delete the unwanted character ```x```
+- To undo the last the command and U to undo the whole line ```u``` 
+- To redo ```CTRL-R ```
+- To append text at the end ```A```
 
-:q! - to trash all changes
 dw - move the cursor to the beginning of the word to delete that word
 2w - to move the cursor two words forward.
 3e - to move the cursor to the end of the third word forward.
