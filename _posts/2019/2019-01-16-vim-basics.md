@@ -35,7 +35,7 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
     - Select Mode : Similar to visual mode but more functionality. 
     - Ex-mode
 
-### Basic Commands 
+### Command Mode Basics
 - To exit : ```:q``` 
 - To save and exit ```:wq```
 - To trash all changes ```:q!```
@@ -43,10 +43,9 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
 - To undo the last the command and U to undo the whole line ```u``` 
 - To redo ```CTRL-R ```
 - To append text at the end ```A```
-
-dw - move the cursor to the beginning of the word to delete that word
-2w - to move the cursor two words forward.
-3e - to move the cursor to the end of the third word forward.
-0 (zero) to move to the start of the line.
-d2w - which deletes 2 words .. number can be changed for deleting the number of consecutive words like d3w
-dd to delete the line and 2dd to delete to line .number can be changed for deleting the number of consecutive words
+- Move the cursor to the beginning of the word to delete that word```dw ```
+- To move the cursor two words forward```2w```
+- To move the cursor to the end of the third word forward```3e```
+- To move to the start of the line```0```
+- To delete multiple words, we can use **dXw**, here X can be any number. For 2 words ```d2w```, for 3 words ```d3w```
+- To delete multiple lines, we can use **Xdd** dd to delete the line and 2dd to delete to line .number can be changed for deleting the number of consecutive words
