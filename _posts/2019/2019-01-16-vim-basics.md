@@ -16,7 +16,7 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
   
 ### installation via apt
 - Vim CLI only ```sudo apt install vim```
-- Vim Gtk2 GUI ```sudo apt install vim-gtk3```
+- Vim Gtk3 GUI ```sudo apt install vim-gtk3```
 - Vim tiny version ```sudo apt install vim-tiny```
 - neovim ```sudo apt install neovim```
 - Vim athena GUI ```sudo apt install vim-athena```
