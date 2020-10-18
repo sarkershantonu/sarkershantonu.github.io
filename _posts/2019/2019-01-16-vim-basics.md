@@ -27,10 +27,10 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
 - Vim has multiple modes : 
     - Normal Mode : For navigation . When you press ESC, all modes come back to this mode. 
     - Insert Mode : For insert/edit. Pressing ```i``` will go in this mode. 
-    - View/visual Mode
+    - View/visual Mode : For navigation and manipulation of text selections
     - Command mode : For inserting editor command. Press ```ESC``` for command mode
     - Select Mode : Similar to visual mode but more functionality. 
-    - Ex-mode
+    - Ex-mode : Similar to the command-line mode but optimized for batch processing.
 
 ### Command Mode Basics
 - To exit : ```:q``` 
