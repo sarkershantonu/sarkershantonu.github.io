@@ -31,9 +31,22 @@ Vim is the most popular cli editor used mostly in linux/unix like Os. System adm
     - Normal Mode : For navigation . When you press ESC, all modes come back to this mode. 
     - Insert Mode : For insert/edit. 
     - View/visual Mode
-    - Command mode 
-    - Select Mode
+    - Command mode : For inserting editor command
+    - Select Mode : Similar to visual mode but more functionality. 
     - Ex-mode
 
 ### Basic Commands 
-- To Exit : ```:q``` & press Enter
+- To exit : ```:q``` 
+- To save and exit ```:wq```
+x - to delete the unwanted character
+u - to undo the last the command and U to undo the whole line
+CTRL-R to redo
+A - to append text at the end
+
+:q! - to trash all changes
+dw - move the cursor to the beginning of the word to delete that word
+2w - to move the cursor two words forward.
+3e - to move the cursor to the end of the third word forward.
+0 (zero) to move to the start of the line.
+d2w - which deletes 2 words .. number can be changed for deleting the number of consecutive words like d3w
+dd to delete the line and 2dd to delete to line .number can be changed for deleting the number of consecutive words
