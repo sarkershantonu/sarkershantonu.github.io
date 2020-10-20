@@ -26,7 +26,7 @@ Nano is one of the commandline editor pre installed mostly in debian based linux
 ### Command Mode Basics
 - Exit ```CTRL+X```
 - Write Out ```CTRL+O```
-- Exit ```CTRL+X```
+- Find letter/word ```CTRL+W```
 - Exit ```CTRL+X```
 - Exit ```CTRL+X```
 - Exit ```CTRL+X```
