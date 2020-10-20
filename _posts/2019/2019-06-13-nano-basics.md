@@ -14,11 +14,12 @@ In this article we are going to see how we can use Vim.
 ### What is NANO?
 Nano is one of the commandline editor pre installed mostly in debian based linux distribution. 
 
-### installation via apt
-
-``` 
-sudo apt install -y nano
-```
-
+### installation 
+- via apt(debian) ``` sudo apt install -y nano```
+- Via yum(CentOS/Fedora)``` yum install nano ```
+  
 ### Basic Commands
-- Open a file ```nano _fileName_```
+- Open a file Syntax ```nano _fileName_```. Example : ```nano readme.md```. 
+
+### How VIM runs command 
+### Command Mode Basics
