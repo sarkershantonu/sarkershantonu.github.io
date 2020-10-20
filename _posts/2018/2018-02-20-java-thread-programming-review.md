@@ -39,3 +39,4 @@ comments: true
 
 আশাকরি পাঠক সমাজে ও ছাত্রছাত্রীদের মধ্যে বইটি বেশ জনপ্রিয় হয়ে উঠবে।
 
+[**Originally this was posted in Rokon's Blog back in 2018**](https://bazlur.com/posts/2018-02-20-java-thread-programming-review-/) 
