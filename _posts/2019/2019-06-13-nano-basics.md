@@ -20,6 +20,7 @@ Nano is one of the commandline editor pre installed mostly in debian based linux
   
 ### Basic Commands
 - Open a file Syntax ```nano _fileName_```. Example : ```nano readme.md```. 
-
+- Open a file with specific position by line number and column number ```nano +lineNo,columnNo _filename_```. 
+- 
 ### How VIM runs command 
 ### Command Mode Basics
