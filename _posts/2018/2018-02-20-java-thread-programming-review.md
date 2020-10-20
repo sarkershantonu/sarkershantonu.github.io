@@ -10,6 +10,8 @@ gh-badge: [star,follow]
 comments: true
 ---
 
+![java-thread-programming](/images/reviews/book/java-thread-programming/java-thread-programming.jpg)
+
 [**রোকন**](https://www.linkedin.com/in/bazlur/) জাভা থ্রেড পোগ্রামিং নিয়ে একটি নতুন বই লিখেছে,[**জাভা থ্রেড প্রোগ্রামিং**](https://www.rokomari.com/book/159071/java-thread-programming) । বইটি আমি আগাগোড়া পড়েছি। বেশকতগুলো জিনিস আমার বেশ পছন্দ হয়েছে। 
 
 আমি এগুলো পয়েন্ট আকারে লিখতে চাইঃ 
