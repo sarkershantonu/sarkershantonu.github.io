@@ -22,5 +22,16 @@ Nano is one of the commandline editor pre installed mostly in debian based linux
 - Open a file Syntax ```nano _fileName_```. Example : ```nano readme.md```. 
 - Open a file with specific position by line number and column number ```nano +lineNo,columnNo _filename_```. 
 - 
-### How VIM runs command 
+### Nano Command Keyboard Shortcuts
 ### Command Mode Basics
+- Exit ```CTRL+X```
+- Write Out ```CTRL+O```
+- Exit ```CTRL+X```
+- Exit ```CTRL+X```
+- Exit ```CTRL+X```
+- Exit ```CTRL+X```
+- Exit ```CTRL+X```
+- Exit ```CTRL+X```
+- To Files ```CTRL+T```
+- Cancel ```CTRL+C```
+- Get Help ```CTRL+G```
