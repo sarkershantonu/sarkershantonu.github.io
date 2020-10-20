@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Introduction to Junit Benchmark
 date: "2013-01-08 02:54"
 tags: [junit, performance-testing]
