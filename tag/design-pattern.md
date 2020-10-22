@@ -48,6 +48,6 @@ This page contains all post related to Design Pattern.
 # C Creational Pattern 
 1. [Singleton Pattern](https://sarkershantonu.github.io/2014/01/27/singleton/)
 2. [Factory Method](https://sarkershantonu.github.io/2014/02/02/factory-method/)
-3. [Abstract Factory](https://sarkershantonu.github.io/2014/02/abstract-factory-design-pattern-simplified.html)
+3. [Abstract Factory](https://sarkershantonu.github.io/2014/02/04/abstract-factory/)
 4. [Builder Design Pattern](https://sarkershantonu.github.io/2014/02/builder-design-pattern-simplified.html)  
 5. [Prototype Design Pattern](https://sarkershantonu.github.io/2014/02/prototype-design-pattern-simplified.html) 
