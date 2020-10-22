@@ -19,10 +19,10 @@ In object oriented world, we cannot avoid patterns to solve problem for differen
 
 This page contains all post related to Design Pattern.
 
-# Book [Gang Of Four](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
-# Source [Java](https://github.com/sarkershantonu/blog-projects/tree/master/DesignPatternsJava) and [DotNet](https://github.com/sarkershantonu/blog-projects/tree/master/DesignPatternsDotNet)
+### Book [Gang Of Four](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
+### Source: [Java](https://github.com/sarkershantonu/blog-projects/tree/master/DesignPatternsJava) and [DotNet](https://github.com/sarkershantonu/blog-projects/tree/master/DesignPatternsDotNet)
 
-# A. Behavioral Patterns 
+### Behavioral Patterns 
 1. [Chain of Responsibility](https://sarkershantonu.github.io/2014/01/29/chain-of-responsibility/) 
 2. [Memento Design Pattern](https://sarkershantonu.github.io/2014/02/10/memento/)
 3. [Visitor Pattern](https://sarkershantonu.github.io/2014/02/11/visitor/) 
@@ -35,7 +35,7 @@ This page contains all post related to Design Pattern.
 10. [Observer Pattern](https://sarkershantonu.github.io/2014/01/30/observer/)
 11. [State Design Pattern](https://sarkershantonu.github.io/2014/02/28/state/)
 
-# B. Structural Pattern 
+### Structural Pattern 
 1. [Adapter Pattern](https://sarkershantonu.github.io/2014/02/22/adapter/)
 2. [Proxy Pattern ](https://sarkershantonu.github.io/2014/02/05/proxy/)
 3. [Decorator Pattern](https://sarkershantonu.github.io/2014/02/06/decorator/)
@@ -45,9 +45,9 @@ This page contains all post related to Design Pattern.
 7. [Facade Pattern](https://sarkershantonu.github.io/2014/02/15/facade/)
 
 
-# C Creational Pattern 
+### Creational Pattern 
 1. [Singleton Pattern](https://sarkershantonu.github.io/2014/01/27/singleton/)
 2. [Factory Method](https://sarkershantonu.github.io/2014/02/02/factory-method/)
 3. [Abstract Factory](https://sarkershantonu.github.io/2014/02/04/abstract-factory/)
 4. [Builder Design Pattern](https://sarkershantonu.github.io/2014/02/18/builder/)  
-5. [Prototype Design Pattern](https://sarkershantonu.github.io/2014/02/prototype-design-pattern-simplified.html) 
+5. [Prototype Design Pattern](https://sarkershantonu.github.io/2014/02/17/prototype/) 
