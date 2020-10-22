@@ -36,7 +36,7 @@ This page contains all post related to Design Pattern.
 11. [State Design Pattern](https://sarkershantonu.github.io/2014/02/28/state/)
 
 # B. Structural Pattern 
-1. [Adapter Pattern](https://sarkershantonu.github.io/2014/02/adapter-design-pattern-simplified.html)
+1. [Adapter Pattern](https://sarkershantonu.github.io/2014/02/22/adapter/)
 2. [Proxy Pattern ](https://sarkershantonu.github.io/2014/02/proxy-design-pattern-simplified.html)
 3. [Decorator Pattern](https://sarkershantonu.github.io/2014/02/composite-design-pattern-simplified.html)
 4. [Composite Design pattern](https://sarkershantonu.github.io/2014/02/composite-design-pattern-simplified.html) 
