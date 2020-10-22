@@ -30,7 +30,7 @@ This page contains all post related to Design Pattern.
 5. [Mediator Pattern](https://sarkershantonu.github.io/2014/02/13/mediator/)  
 6. [Interpreter Design Pattern](https://sarkershantonu.github.io/2014/02/14/interpreter/)  
 7. [Template Method Design Pattern](https://sarkershantonu.github.io/2014/02/16/template/)
-8. [Strategy Design Pattern](https://sarkershantonu.github.io/2014/02/strategy-design-pattern-simplified.html) 
+8. [Strategy Design Pattern](https://sarkershantonu.github.io/2014/02/20/strategy/) 
 9. [Command Design Pattern](https://sarkershantonu.github.io/2014/02/command-design-pattern-simplified.html)   
 10. [Observer Pattern](https://sarkershantonu.github.io/2014/01/observer-design-pattern-simplified.html)
 11. [State Design Pattern](https://sarkershantonu.github.io/2014/03/state-design-pattern-simplified.html)
