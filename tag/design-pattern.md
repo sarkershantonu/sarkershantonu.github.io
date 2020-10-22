@@ -24,7 +24,7 @@ This page contains all post related to Design Pattern.
 
 # A. Behavioral Patterns 
 1. [Chain of Responsibility](https://sarkershantonu.github.io/2014/01/29/chain-of-responsibility/) 
-2. [Memento Design Pattern](https://sarkershantonu.github.io/2014/02/memento-design-pattern-simplified.html)
+2. [Memento Design Pattern](https://sarkershantonu.github.io/2014/02/10/memento/)
 3. [Visitor Pattern](https://sarkershantonu.github.io/2014/02/visitor-design-pattern-simplified.html) 
 4. [Iterator Pattern](https://sarkershantonu.github.io/2014/02/iterator-design-pattern-simplified.html)   
 5. [Mediator Pattern](https://sarkershantonu.github.io/2014/02/mediator-design-pattern-simplified.html)  
