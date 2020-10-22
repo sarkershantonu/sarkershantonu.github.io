@@ -32,7 +32,7 @@ This page contains all post related to Design Pattern.
 7. [Template Method Design Pattern](https://sarkershantonu.github.io/2014/02/16/template/)
 8. [Strategy Design Pattern](https://sarkershantonu.github.io/2014/02/20/strategy/) 
 9. [Command Design Pattern](https://sarkershantonu.github.io/2014/02/26/command/)   
-10. [Observer Pattern](https://sarkershantonu.github.io/2014/01/observer-design-pattern-simplified.html)
+10. [Observer Pattern](https://sarkershantonu.github.io/2014/01/30/observer/)
 11. [State Design Pattern](https://sarkershantonu.github.io/2014/03/state-design-pattern-simplified.html)
 
 # B. Structural Pattern 
