@@ -41,7 +41,7 @@ This page contains all post related to Design Pattern.
 3. [Decorator Pattern](https://sarkershantonu.github.io/2014/02/06/decorator/)
 4. [Composite Design pattern](https://sarkershantonu.github.io/2014/02/08/composite/) 
 5. [Flyweight Design Pattern](https://sarkershantonu.github.io/2014/02/09/flyweight/)
-6. [Bridge Design Pattern](https://sarkershantonu.github.io/2014/02/bridge-design-sattern-simplified.html)
+6. [Bridge Design Pattern](https://sarkershantonu.github.io/2014/02/24/bridge/)
 7. [Facade Pattern](https://sarkershantonu.github.io/2014/02/15/facade/)
 
 
