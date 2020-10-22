@@ -38,7 +38,7 @@ This page contains all post related to Design Pattern.
 # B. Structural Pattern 
 1. [Adapter Pattern](https://sarkershantonu.github.io/2014/02/22/adapter/)
 2. [Proxy Pattern ](https://sarkershantonu.github.io/2014/02/05/proxy/)
-3. [Decorator Pattern](https://sarkershantonu.github.io/2014/02/composite-design-pattern-simplified.html)
+3. [Decorator Pattern](https://sarkershantonu.github.io/2014/02/08/composite/)
 4. [Composite Design pattern](https://sarkershantonu.github.io/2014/02/composite-design-pattern-simplified.html) 
 5. [Flyweight Design Pattern](https://sarkershantonu.github.io/2014/02/flyweight-design-pattern-simplified.html)
 6. [Bridge Design Pattern](https://sarkershantonu.github.io/2014/02/bridge-design-sattern-simplified.html)
