@@ -27,7 +27,7 @@ This page contains all post related to Design Pattern.
 2. [Memento Design Pattern](https://sarkershantonu.github.io/2014/02/10/memento/)
 3. [Visitor Pattern](https://sarkershantonu.github.io/2014/02/11/visitor/) 
 4. [Iterator Pattern](https://sarkershantonu.github.io/2014/02/12/iterator/)   
-5. [Mediator Pattern](https://sarkershantonu.github.io/2014/02/mediator-design-pattern-simplified.html)  
+5. [Mediator Pattern](https://sarkershantonu.github.io/2014/02/13/mediator/)  
 6. [Interpreter Design Pattern](https://sarkershantonu.github.io/2014/02/interpreter-design-pattern-simplified.html)  
 7. [Template Method Design Pattern](https://sarkershantonu.github.io/2014/02/template-method-design-pattern-simplified.html)
 8. [Strategy Design Pattern](https://sarkershantonu.github.io/2014/02/strategy-design-pattern-simplified.html) 
