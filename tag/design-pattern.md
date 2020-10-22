@@ -44,7 +44,6 @@ This page contains all post related to Design Pattern.
 6. [Bridge Design Pattern](https://sarkershantonu.github.io/2014/02/24/bridge/)
 7. [Facade Pattern](https://sarkershantonu.github.io/2014/02/15/facade/)
 
-
 ### Creational Pattern 
 1. [Singleton Pattern](https://sarkershantonu.github.io/2014/01/27/singleton/)
 2. [Factory Method](https://sarkershantonu.github.io/2014/02/02/factory-method/)
