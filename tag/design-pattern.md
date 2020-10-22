@@ -42,7 +42,7 @@ This page contains all post related to Design Pattern.
 4. [Composite Design pattern](https://sarkershantonu.github.io/2014/02/composite-design-pattern-simplified.html) 
 5. [Flyweight Design Pattern](https://sarkershantonu.github.io/2014/02/flyweight-design-pattern-simplified.html)
 6. [Bridge Design Pattern](https://sarkershantonu.github.io/2014/02/bridge-design-sattern-simplified.html)
-7. [Facade Pattern](https://sarkershantonu.github.io/2014/02/facade-design-pattern-simplified.html)
+7. [Facade Pattern](https://sarkershantonu.github.io/2014/02/15/facade/)
 
 
 # C Creational Pattern 
