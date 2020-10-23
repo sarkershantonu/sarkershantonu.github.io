@@ -9,6 +9,8 @@ excerpt: "Blog on Performance testing"
 gh-badge: [star,follow]
 comments: true
 ---
+![image](/images/performance-testing/load/stress-testing.jpg)
+
 In this article we are going to have some basic idea on What is stress testing?And some basic steps on how to do it. 
 
 In here, I am just describing my understanding. It may varies from others. It will be very nice if you comment on this. 
