@@ -24,7 +24,7 @@ This page contains all post related to Software Testing Concepts.
 5. [What is PreQA or Dev testing in Agile](https://sarkershantonu.github.io/2012/09/03/pre-qa/)
 6. [Bug priority in Agile(KANBAN/Scrum),UTP Method](https://sarkershantonu.github.io/2012/08/29/bug-priority-utp-method/)
 7. [What is Exploratory Testing?](https://sarkershantonu.github.io/2012/12/06/exploratory-testing/)
-8. [What is Adhoc Testing? How to do it.](https://sarkershantonu.github.io/2012/12/what-is-adhoc-testing-how-to-do-it.html)
+8. [What is Adhoc Testing? How to do it.](https://sarkershantonu.github.io/2012/12/20/adhoc-testing/)
 9. [What is L10N testing(Localization)? How to do it](https://sarkershantonu.github.io/2012/12/what-is-adhoc-testing-how-to-do-it.html)
 10. [What is Load Testing? How to do it](https://sarkershantonu.github.io/2012/12/what-is-load-testing-how-to-do-it.html)
 11. [What is Stress Testing? How to do it](https://sarkershantonu.github.io/2013/01/what-is-stress-testing-how-to-do-it.html)
