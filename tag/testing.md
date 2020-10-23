@@ -25,7 +25,7 @@ This page contains all post related to Software Testing Concepts.
 6. [Bug priority in Agile(KANBAN/Scrum),UTP Method](https://sarkershantonu.github.io/2012/08/29/bug-priority-utp-method/)
 7. [What is Exploratory Testing?](https://sarkershantonu.github.io/2012/12/06/exploratory-testing/)
 8. [What is Adhoc Testing? How to do it.](https://sarkershantonu.github.io/2012/12/20/adhoc-testing/)
-9. [What is L10N testing(Localization)? How to do it](https://sarkershantonu.github.io/2012/12/what-is-adhoc-testing-how-to-do-it.html)
+9. [What is L10N testing(Localization)? How to do it](https://sarkershantonu.github.io/2013/01/04/l10n-testing/)
 10. [What is Load Testing? How to do it](https://sarkershantonu.github.io/2012/12/31/load-testing/)
 11. [What is Stress Testing? How to do it](https://sarkershantonu.github.io/2013/01/12/stress-testing/)
 12. [What is Deployment Testing?](https://sarkershantonu.github.io/2012/12/17/deployment-testing/)
