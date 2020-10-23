@@ -27,6 +27,6 @@ This page contains all post related to Software Testing Concepts.
 8. [What is Adhoc Testing? How to do it.](https://sarkershantonu.github.io/2012/12/20/adhoc-testing/)
 9. [What is L10N testing(Localization)? How to do it](https://sarkershantonu.github.io/2012/12/what-is-adhoc-testing-how-to-do-it.html)
 10. [What is Load Testing? How to do it](https://sarkershantonu.github.io/2012/12/31/load-testing/)
-11. [What is Stress Testing? How to do it](https://sarkershantonu.github.io/2013/01/what-is-stress-testing-how-to-do-it.html)
+11. [What is Stress Testing? How to do it](https://sarkershantonu.github.io/2013/01/12/stress-testing/)
 12. [What is Deployment Testing?](https://sarkershantonu.github.io/2012/12/what-is-deployment-testing.html)
 13. [What are the major web elements?](https://sarkershantonu.github.io/2012/11/popular-web-site-elements.html)
