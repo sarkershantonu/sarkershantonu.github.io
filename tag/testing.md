@@ -19,7 +19,7 @@ This page contains all post related to Software Testing Concepts.
 # Software Testing Basics
 1. [Introduction to software testing](https://sarkershantonu.github.io/2009/05/26/introduction-software-testing/)
 2. [How to report a bug](https://sarkershantonu.github.io/2012/09/03/bug-report/)
-3. [What is Bug Cycle](https://sarkershantonu.github.io/2012/12/what-is-bug-cycle.html)
+3. [What is Bug Cycle](https://sarkershantonu.github.io/2012/12/07/bug-cycle/)
 4. [How to prepare a Test Plan](https://sarkershantonu.github.io/2012/12/how-to-prepare-test-plan.html)
 5. [What is PreQA or Dev testing in Agile](https://sarkershantonu.github.io/2012/09/pre-qa-essential-step-in-agilekan.html)
 6. [Bug priority in Agile(KANBAN/Scrum),UTP Method](https://sarkershantonu.github.io/2012/08/how-to-prioritize-bugs-in.html)
