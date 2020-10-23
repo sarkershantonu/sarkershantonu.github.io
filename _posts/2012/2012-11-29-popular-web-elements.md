@@ -53,3 +53,9 @@ In some cases there are many different ways to do the same thing. These are some
 Some elements that are essential to a website aren’t properly described as either front-end or back-end components. Still, a website doesn’t work right without them.
 - Hosting. Hosting is where your website is physically located. On a server, somewhere, are a set of files that are transmitted to user computers when they call your name.
 - Domain Name. This is the address. When someone asks to see your website, they put this address into the internet, and your site is served up to them.
+
+Basic image for idea 
+
+![image](/images/testing/web-elements.jpg)
+
+This is a continuous post, i will add gradually 
