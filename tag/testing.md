@@ -21,7 +21,7 @@ This page contains all post related to Software Testing Concepts.
 2. [How to report a bug](https://sarkershantonu.github.io/2012/09/03/bug-report/)
 3. [What is Bug Cycle](https://sarkershantonu.github.io/2012/12/07/bug-cycle/)
 4. [How to prepare a Test Plan](https://sarkershantonu.github.io/2012/12/05/prepare-test-plan/)
-5. [What is PreQA or Dev testing in Agile](https://sarkershantonu.github.io/2012/09/pre-qa-essential-step-in-agilekan.html)
+5. [What is PreQA or Dev testing in Agile](https://sarkershantonu.github.io/2012/09/03/pre-qa/)
 6. [Bug priority in Agile(KANBAN/Scrum),UTP Method](https://sarkershantonu.github.io/2012/08/how-to-prioritize-bugs-in.html)
 7. [What is Exploratory Testing?](https://sarkershantonu.github.io/2012/12/what-is-exploratory-testing.html)
 8. [What is Adhoc Testing? How to do it.](https://sarkershantonu.github.io/2012/12/what-is-adhoc-testing-how-to-do-it.html)
