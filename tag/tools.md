@@ -18,3 +18,8 @@ This page contains all post related to Testing & Development Tools that I have u
 
 # ADB : Android Debugger
 - [Basic ADB commands , managing android mobile from PC](http://shantonusarker.blogspot.com/2012/10/adb-commandsbasic-managing-android.html)
+
+
+# Useful Tools
+- [How to use nano in cli?](https://sarkershantonu.github.io/2019/06/13/nano-basics/)
+- []
