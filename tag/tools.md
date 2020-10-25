@@ -24,3 +24,4 @@ This page contains all post related to Testing & Development Tools that I have u
 - [How to use nano in cli?](https://sarkershantonu.github.io/2019/06/13/nano-basics/)
 - [How to use vim in cli?](https://sarkershantonu.github.io/2019/01/16/vim-basics/)
 - [How to use iperf3?](https://sarkershantonu.github.io/2018/04/16/iperf3-basics/)
+- [How to use wget in cli?](https://sarkershantonu.github.io/2018/03/25/wget-basics/)
