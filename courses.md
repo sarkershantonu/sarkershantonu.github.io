@@ -36,7 +36,7 @@ Courses which i used to take online.
 ||API Testing with PostMan-NewMan || 40hr
 ||Mobile Testing with Robotium || 40hr
 ||Mobile Testing with Appium || 40hr
-||Cucumber ||Java || 15hr
-||Spechflow ||C# || 5hr
-||Fitnesse -Java || 15hr
+||Cucumber-Java || 15hr
+||Spechflow-C# || 5hr
+||Fitnesse-Java || 15hr
 ||Agile Testing => from beginner to expert || 40hr
