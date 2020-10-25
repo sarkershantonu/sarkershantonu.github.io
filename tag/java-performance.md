@@ -25,5 +25,5 @@ This page contains all post related to Java Performance
 - [Java OutOfMemoryError : GC overhead limit exceeded Example](https://sarkershantonu.github.io/2015/08/28/java-oom-gc-overhead/)
 
 # Java / JVM Troubleshooting 
-- [How to find memory leaks in application? General Ideas](http://shantonusarker.blogspot.com/2015/09/how-to-find-memory-leaks-in-application.html)
+- [How to find memory leaks in application? General Ideas](https://sarkershantonu.github.io/2015/09/03/application-memory-leaks-analysis/)
 - [Tool for Offline Java Memory Analysis](http://shantonusarker.blogspot.com/2015/09/java-memory-analysis-heap-dump-tools-ibm-oracle-sun.html)
