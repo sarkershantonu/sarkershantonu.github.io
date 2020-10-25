@@ -17,7 +17,7 @@ comments: true
 
 This page contains all post related to Java Performance
 
-# Java Out of Memory Error simulation. 
+# Java Out of Memory Error simulation
 - [Java Run Time error/exceptions:Out of Memory(OOM) What & why?](https://sarkershantonu.github.io/2015/08/21/java-oom-why/)
 - [JVM Exception/Error Example: OutOfMemoryError: Java heap space](https://sarkershantonu.github.io/2015/08/22/java-oom-heap/)
 - [OutOfMemoryError :PermGen space or Metaspace Example: JVM Exception/Error](https://sarkershantonu.github.io/2015/08/25/java-oom-permgen-metaspace/)
