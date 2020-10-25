@@ -14,4 +14,6 @@ comments: true
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
-Coerces which i used to take online. 
+Courses which i used to take online. 
+
+- Java for testers
