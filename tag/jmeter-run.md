@@ -3,7 +3,7 @@ layout: "page"
 title: "Jmeter Execution"
 subtitle: I build systems for testing
 css: "/css/index.css"
-meta-title: "Full Stack SDET/Java Developer"
+meta-title: "Full Stack Performance Engineer/SDET/Java Developer"
 meta-description: "Test developer with a Bsc in Computer Science"
 comments: true
 ---
