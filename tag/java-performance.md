@@ -15,10 +15,9 @@ comments: true
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
-This page contains all post related to Java Performance
-
 ![image](/images/performance-analysis/jvm-performance.jpg)
 
+This page contains all post related to Java Performance
 # Java Out of Memory Error simulation
 - [Java Run Time error/exceptions:Out of Memory(OOM) What & why?](https://sarkershantonu.github.io/2015/08/21/java-oom-why/)
 - [JVM Exception/Error Example: OutOfMemoryError: Java heap space](https://sarkershantonu.github.io/2015/08/22/java-oom-heap/)
