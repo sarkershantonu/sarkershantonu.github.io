@@ -39,4 +39,4 @@ Courses which i used to take online.
 ||Cucumber ||Java || 15hr
 ||Spechflow ||C# || 5hr
 ||Fitnesse -Java || 15hr
-||
+||Agile Testing => from beginner to expert || 40hr
