@@ -26,6 +26,9 @@ Courses which i used to take online.
 - Jmeter for beginner | 40hr
 - Jmeter novice to advance | 100hr
 - How to plan for Performance Testing | 40hr
+- UI/WEB Performance Analysis | 40hr
+- Java Profiling for Performance Improvement | 40hr
+- DotNet Profiling for Performance Improvement | 40hr
 - Unit Testing with Junit-testNG | 40hr
 - API Testing with PostMan-NewMan | 40hr
 - Cucumber - Java | 15hr
