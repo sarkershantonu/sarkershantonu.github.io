@@ -23,10 +23,13 @@ Courses which i used to take online.
 - Context Driven Test Project Architecture | 40hr 
 - Selenium-Java | 40hr
 - Selenium-Dotnet | 40hr
+- Performance Testing Basics | 40hr
 - Jmeter for beginner | 40hr
 - Jmeter novice to advance | 100hr
-- How to plan for Performance Testing | 40hr
+- Jmeter/Plugin Development | 40hr
+- How to plan for 100kCCU Performance Testing | 40hr
 - UI/WEB Performance Analysis | 40hr
+- APM Basics Newrelic/Dynatrace/AppDynamics | 40hr
 - Java Profiling for Performance Improvement | 40hr
 - DotNet Profiling for Performance Improvement | 40hr
 - Unit Testing with Junit-testNG | 40hr
