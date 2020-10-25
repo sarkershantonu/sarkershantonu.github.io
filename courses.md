@@ -39,4 +39,11 @@ Courses which i used to take online.
 ||Cucumber-Java || 15hr
 ||Spechflow-C# || 5hr
 ||Fitnesse-Java || 15hr
+||Git for beginners || 40hr
+||Jenkins for beginners || 40hr
+||Build Pipeline with Jenkins/Gitlab||40hr
 ||Agile Testing => from beginner to expert || 40hr
+||Docker for beginners || 40hr
+||Kubernetes for Beginners || 40hr
+||Proxmox for Beginners || 40hr
+ 
