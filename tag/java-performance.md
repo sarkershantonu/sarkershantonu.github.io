@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "JVM Performance"
+title: "Java Performance"
 subtitle: I build systems for testing
 css: "/css/index.css"
 meta-title: "Full Stack SDET/Java Developer"
