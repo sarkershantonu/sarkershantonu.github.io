@@ -1,20 +1,25 @@
 ---
-layout: post
-title: How to use youtube-dl?
-date: "2018-01-28 05:02"
-tags: [tools]
-permalink: /2018/01/28/youtube-dl-basics/
+
+title: How install & use Pi-hole?
+date: "2012-06-28 05:02"
+tags: [pihole, devops, linux]
+permalink: /2018/06/28/pi-hole-basics/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Tools"
+excerpt: "Blog on Pihole"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can use youtube-dl.
+[draft]
+In this article we are going to see how we can we install and use pi-hole. 
 
-### What is youtube-dl? 
+### What is pi-hole? 
 youtube-dl is a CLI utilities for downloading videos from youtube. 
 
-### Why youtube-dl?
+### How to install pi-hole
+
+### How to Change Admin Password
+
+# Pi-hole Admin GUI 
 - If you want to download big videos without watching
 - If you have a playlist and you want to download over night or without your control
 - If you want to download entire channel 
