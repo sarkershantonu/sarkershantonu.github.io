@@ -39,7 +39,7 @@ This page contains all post related to Basic Performance Testing
 - [What is VUser ? How to write VUser or Performance or Performance Test Script?](https://sarkershantonu.github.io/2015/01/31/vuser-performance-test-script/)
 - [Qualities of a Performance test script](https://sarkershantonu.github.io/2015/02/01/performance-test-script-qualities/)
 - [Performance Testing Tips : Writing test script](https://sarkershantonu.github.io/2015/02/02/performance-test-script-best-practices/)
-- [What are the approaches in performance testing?](http://shantonusarker.blogspot.com/2015/02/when-to-do-performance-testing-agile.html)
+- [What are the approaches in performance testing?](https://sarkershantonu.github.io/2015/03/20/performance-test-approaches/)
 - [How to design load scenario for performance testing?](http://shantonusarker.blogspot.com/2015/04/design-load-scenario.html)
 
 # [WAPTPro](http://shantonusarker.blogspot.com/2013/01/introduction-to-waptpro.html) : One of my Favorite tool
