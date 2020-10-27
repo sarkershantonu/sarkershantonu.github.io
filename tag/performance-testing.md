@@ -23,7 +23,7 @@ This page contains all post related to Basic Performance Testing
 - [What are Performance Testing types?](https://sarkershantonu.github.io/2014/11/25/performance-test-types/)
 
 # Performance Requirements : 
-- [Why Performance Test? Performance test goals.](http://shantonusarker.blogspot.com/2014/12/Why-Performance-test-Performance-goal.html)
+- [Why Performance Test? Performance test goals.](https://sarkershantonu.github.io/2014/12/15/performance-test-goals/)
 - [What are Performance requirements?](http://shantonusarker.blogspot.com/2014/12/what-is-performance-requirements.html)
 - [What is Client side performance testing?](http://shantonusarker.blogspot.com/2014/12/client-side-performance-testing.html)
 - [How to formulate Performance SLA or Baseline requirements ?](http://shantonusarker.blogspot.com/2015/11/formulate-performance-sla-baseline.html)
