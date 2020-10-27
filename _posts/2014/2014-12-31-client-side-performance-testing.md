@@ -13,9 +13,9 @@ In this article we are going to learn about **client side performance testing**.
 
 In old time (like 10-15 years ago), the web was totally different then now. At that time there were less type of client and less client side processing. 
 
-But, now a days, spatially after Web - 0 booming, we see client has become more smarter, more functionality there as well as new innovation through new technology. 
+But, now a days, spatially after Web-0 booming, we see client has become more smarter, more functionality there as well as new innovation through new technology. 
 
-And, we have seen hardware become cheaper. So, client also started using local hardware not like as old time , fully depends on server. 
+And, we have seen hardware become cheaper. So, client also started using local hardware not like as old times , fully depends on servers. 
 
 So, in performance engineering context, if we only do performance testing and monitoring of server, it does not make any sense. We will be missing a lot of performance issues based on client functionality. 
 
@@ -32,9 +32,9 @@ So, it can be differ based on operating systems, browser version, environment se
 
 ### Goals of client-side Performance Testing
 So, main targets for client side performance testing are
-- Measuring actual Client timing for particular scenarios. It can be grouped as business transactions or can be measured with separate request for single user. 
-- Measuring single user time under different load and stress scenario. It is actually part of usability but it is included as performance test activity. 
-- Observe application behavior when server is down. Spatially due to application stress, when one or more servers are down, what are the situation . This might be some critical due to data integrity. I have tested for server back up time test after getting down.
+- **Measuring actual Client timing** for particular scenarios. It can be grouped as business transactions or can be measured with separate request for single user. 
+- **Measuring single user time** under different load and stress scenario. It is actually part of usability but it is included as performance test activity. 
+- **Observe application behavior** when server is down. Spatially due to application stress, when one or more servers are down, what are the situation . This might be some critical due to data integrity. I have tested for server back up time test after getting down.
 
 This particular type is fully based on requirements. Like as in our current project, we run this test every day to see the progress. 
 
