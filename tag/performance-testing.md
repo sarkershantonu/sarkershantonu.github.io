@@ -26,7 +26,7 @@ This page contains all post related to Basic Performance Testing
 - [Why Performance Test? Performance test goals.](https://sarkershantonu.github.io/2014/12/15/performance-test-goals/)
 - [What are Performance requirements?](https://sarkershantonu.github.io/2014/12/16/performance-requirements/)
 - [What is Client side performance testing?](http://shantonusarker.blogspot.com/2014/12/client-side-performance-testing.html)
-- [How to formulate Performance SLA or Baseline requirements ?](http://shantonusarker.blogspot.com/2015/11/formulate-performance-sla-baseline.html)
+- [How to formulate Performance SLA or Baseline requirements ?](https://sarkershantonu.github.io/2015/11/30/sla-baseline-requirements/)
 - [Measuring web page Performance(Navigation timing)](http://shantonusarker.blogspot.com/2016/01/user-experience-ux-web-performance-application.html)
 	- Browser Tools
 	- Browser Plugins
