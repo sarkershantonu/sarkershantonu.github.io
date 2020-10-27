@@ -13,7 +13,7 @@ In this article we are going to learn about **client side performance testing**.
 
 In old time (like 10-15 years ago), the web was totally different then now. At that time there were less type of client and less client side processing. 
 
-But, now a days, spatially after Web 2.0 booming, we see client has become more smarter, more functionality there as well as new innovation through new technology. 
+But, now a days, spatially after Web - 0 booming, we see client has become more smarter, more functionality there as well as new innovation through new technology. 
 
 And, we have seen hardware become cheaper. So, client also started using local hardware not like as old time , fully depends on server. 
 
@@ -45,7 +45,7 @@ As you know from my previous post, [type of performance testing](https://sarkers
 ### Client-side Performance Measurement :
 This part is tricky. In performance world. when we say performance tools, it all refers to **server side** performance measurement tool like loadrunner, jmeter etc. So, what about client side performance? 
 
-As, it was not popular before, it was mostly done by manually. Still it is one of the best practices to sit and test application critical functionality with a stop watch and measure that. I remember doing that in back to 2008. These are handy, no need automation , no need to know  much technical stuffs. But, as it is manual time measurement and humans are not as perfect as machine for measuring time. So, it has error. So, there should be tool there.
+As, it was not popular before, it was mostly done by manually. Still it is one of the best practices to sit and test application critical functionality with a stop watch and measure that. I remember doing that in back to 200-  These are handy, no need automation , no need to know  much technical stuffs. But, as it is manual time measurement and humans are not as perfect as machine for measuring time. So, it has error. So, there should be tool there.
 
 Usually, before **Jmeter Plug-ins**, there was no mentionable tool for web application performance test tools. We can use **Jmeter webdriver** plug-in to operate the same functionality that a human does and measure that time accurately. And, we can do same steps programmatically by using browser simulation. Like
 - Selenum-webdriver-running in Java/C#/Python/Ruby/nodeJS with any supported test runner that measures.
@@ -69,7 +69,7 @@ Now, for client side application monitoring, its' really depend on application c
 Lets see some tools for web application protocol, http(s) for monitoring and analysis.
 
 ### Browser Based Tools : 
-Most of modern browsers have build in tools. Like , IE or Chrome, if you press F12, you can see the tools. They follow w3 standards on [navigation timing](http://www.w3.org/TR/navigation-timing/)
+Most of modern browsers have build in tools. Like , IE or Chrome, if you press F12, you can see the tools. They follow w3 standards on [navigation timing](http://www.w- org/TR/navigation-timing/)
 - I like YSlow with firebug in firefox. (first install fire bug and then YSlow)
 - Most popular , Page Speed by google.
 - Tools from Chrome Extension like => **Easy website optimizer**, **Developer tool**, for REST web service **Rest console** , **postman**, **Advance REST client** etc.
@@ -83,52 +83,57 @@ Most of modern browsers have build in tools. Like , IE or Chrome, if you press F
 For traffic monitoring i use
 - [Wireshark](https://www.wireshark.org/)
 - [Fiddler](http://www.telerik.com/fiddler)
-- [YATT]() with [winPicap]()
-- [Burp Proxy]()
-- [HttpWatch]()
-- [MaxQ](),not focus on monitoring but you can use for that
-- [IEWatch]()
-- [ZaProxy]()
-- [CURL-LOADER]()
-- [Charles]()
+- [YATT](http://www.pocketsoap.com/yatt/) with [winPicap](http://www.winpcap.org/)
+- [Burp Proxy](http://portswigger.net/burp/proxy.html)
+- [HttpWatch](http://www.httpwatch.com/)
+- [MaxQ](http://maxq.tigris.org/),not focus on monitoring but you can use for that
+- [IEWatch](http://www.tucows.com/preview/367462/IEWatch)
+- [ZaProxy](https://github.com/zaproxy/zaproxy/releases)
+- [CURL-LOADER](http://sourceforge.net/projects/curl-loader/)
+- [Charles](http://www.charlesproxy.com/)
 
-4. 3rd Party tools:
+### 3rd Party tools:
+- Newrelic
 - DynaTrace
 - SolarWinds
 - AppDynamics
 - Nagios (Free)
-- Zabbix
+- [Zabbix](http://www.zabbix.com/)
 - MS Message analyzer
-- WBench
-- Hyperic Application & System Monitoring
+- [WBench](https://github.com/desktoppr/wbench)
+- [Hyperic Application & System Monitoring](http://sourceforge.net/projects/hyperic-hq/)
 - For web service testing, SOAP UI
 
  And more and more....:).
-Paid tools are good but i guess you can use a skill person for using set of other tools rather paying them…:)
+ 
+Paid tools are good but i guess you can use a skilled person for using set of other tools rather paying them…:)
 
 ### Helper tools: 
 For different web architecture, data come to client in different format. So, you should have
-1. Base64 decoder that supports different character set.
-2. URL decoder
-3. Decompressing tool
-4. File/Character format converters.
+- Base64 decoder that supports different character set.
+- URL decoder
+- Decompressing tool
+- File/Character format converters.
 
+### What to Monitor
 Here we get the tools, but before using tools, we need to define what to monitor. Usually for an application we monitor.
-1. Application rendering time
-2. Specific JS/AJAX request/response/processing time
-3. User dependent request time
-4. Client side validation time
-5. Loading time for script/style/dynamic content.
-6. Total and request specific data coming and going
-7. How request are queued and processed(the behavior)
-8. Any exception based(serer/client) function or behavior.
-9. Business transaction or Particular  request time
+- Application rendering time
+- Specific JS/AJAX request/response/processing time
+- User dependent request time
+- Client side validation time
+- Loading time for script/style/dynamic content.
+- Total and request specific data coming and going
+- How request are queued and processed(the behavior)
+- Any exception based(serer/client) function or behavior.
+- Business transaction or Particular  request time
 
 And for client resources.
-1. Browser & Application occupying CPU/Cache/Memory/Disk/IO/Bandwidth
-2. If application interact with any other service or application , we need monitoring that too.
+- Browser & Application occupying CPU/Cache/Memory/Disk/IO/Bandwidth
+- If application interact with any other service or application , we need monitoring that too.
 
-Example, once our application uses the export function open with MS excel and in a point of time it crashes due to our application occupied so much memory , that excel could have memory to load up the big size data.
+![image](/images/performance-testing/client-side/client-side-perf.jpeg)
+
+**Example**:  once our application uses the export function open with MS excel and in a point of time it crashes due to our application occupied so much memory , that excel could have memory to load up the big size data.
 
 ### Test plan for client side execution: 
 Usually, a separate thread or users used to run the client side performance test to get the timing. 
@@ -136,4 +141,5 @@ Usually, a separate thread or users used to run the client side performance test
 Not like as server side script that will run thousands of user and run parallel as it is specifically made for single user execution time for specific scenarios. 
 
 So, in the next post we are going to test a sample application using **Jmeter webdriver** and measure the time.
+
 Thanks..:)
