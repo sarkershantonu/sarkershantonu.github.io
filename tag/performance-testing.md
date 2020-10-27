@@ -18,7 +18,7 @@ This page contains all post related to Basic Performance Testing
 
 # Basics Concepts: 
 - [Performance Testing in a Nutshell](http://shantonusarker.blogspot.com/2015/01/performance-testing-in-a-nutshell.html)
-- [What is Load Testing? How to do it](http://shantonusarker.blogspot.com/2012/12/what-is-load-testing-how-to-do-it.html)
+- [What is Load Testing? How to do it](https://sarkershantonu.github.io/2012/12/31/load-testing/)
 - [What is Stress Testing? How to do it](http://shantonusarker.blogspot.com/2013/01/what-is-stress-testing-how-to-do-it.html)
 - [What are Performance Testing types?](http://shantonusarker.blogspot.com/2014/11/performance-testing-types.html)
 
