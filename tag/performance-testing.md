@@ -40,6 +40,6 @@ This page contains all post related to Basic Performance Testing
 - [Qualities of a Performance test script](https://sarkershantonu.github.io/2015/02/01/performance-test-script-qualities/)
 - [Performance Testing Tips : Writing test script](https://sarkershantonu.github.io/2015/02/02/performance-test-script-best-practices/)
 - [What are the approaches in performance testing?](https://sarkershantonu.github.io/2015/03/20/performance-test-approaches/)
-- [How to design load scenario for performance testing?](http://shantonusarker.blogspot.com/2015/04/design-load-scenario.html)
+- [How to design load scenario for performance testing?](https://sarkershantonu.github.io/2015/04/08/design-load-scenario/)
 
 # [WAPTPro](http://shantonusarker.blogspot.com/2013/01/introduction-to-waptpro.html) : One of my Favorite tool
