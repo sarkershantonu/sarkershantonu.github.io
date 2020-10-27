@@ -30,7 +30,7 @@ That means, when we do performance testing of an application based on its client
 
 So, it can be differ based on operating systems, browser version, environment settings, firewall and antivirus, faster priority functional execution and user activity of course.
 
-### Goals of client-side performance testing
+### Goals of client-side Performance Testing
 So, main targets for client side performance testing are
 - Measuring actual Client timing for particular scenarios. It can be grouped as business transactions or can be measured with separate request for single user. 
 - Measuring single user time under different load and stress scenario. It is actually part of usability but it is included as performance test activity. 
@@ -57,7 +57,7 @@ Usually, before **Jmeter Plug-ins**, there was no mentionable tool for web appli
 
 Jmeter has this webdriver sampler in plugin , we can use that.
 
-### Client-side performance monitoring :
+### Client-side Performance Monitoring :
 This means we have to have monitoring for our application as well as client resources.
 
 Like as every operation systems, windows or linux has their own system internal tools to monitor resources. 
