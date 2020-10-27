@@ -20,7 +20,7 @@ This page contains all post related to Basic Performance Testing
 - [Performance Testing in a Nutshell](http://shantonusarker.blogspot.com/2015/01/performance-testing-in-a-nutshell.html)
 - [What is Load Testing? How to do it](https://sarkershantonu.github.io/2012/12/31/load-testing/)
 - [What is Stress Testing? How to do it](https://sarkershantonu.github.io/2013/01/12/stress-testing/)
-- [What are Performance Testing types?](http://shantonusarker.blogspot.com/2014/11/performance-testing-types.html)
+- [What are Performance Testing types?](https://sarkershantonu.github.io/2014/11/25/performance-test-types/)
 
 # Performance Requirements : 
 - [Why Performance Test? Performance test goals.](http://shantonusarker.blogspot.com/2014/12/Why-Performance-test-Performance-goal.html)
