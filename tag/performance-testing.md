@@ -37,7 +37,7 @@ This page contains all post related to Basic Performance Testing
 
 # Performance test planning: 
 - [What is VUser ? How to write VUser or Performance or Performance Test Script?](https://sarkershantonu.github.io/2015/01/31/vuser-performance-test-script/)
-- [Qualities of a Performance test script](http://shantonusarker.blogspot.com/2015/02/qualities-vuser-performance-test-scripts.html)
+- [Qualities of a Performance test script](https://sarkershantonu.github.io/2015/02/01/performance-test-script-qualities/)
 - [Performance Testing Tips : Writing test script](http://shantonusarker.blogspot.com/2015/02/vuser-performance-test-script-tips.html)
 - [What are the approaches in performance testing?](http://shantonusarker.blogspot.com/2015/02/when-to-do-performance-testing-agile.html)
 - [How to design load scenario for performance testing?](http://shantonusarker.blogspot.com/2015/04/design-load-scenario.html)
