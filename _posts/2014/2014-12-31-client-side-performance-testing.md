@@ -45,7 +45,7 @@ As you know from my previous post, [type of performance testing](https://sarkers
 ### Client-side Performance Measurement :
 This part is tricky. In performance world. when we say performance tools, it all refers to **server side** performance measurement tool like loadrunner, jmeter etc. So, what about client side performance? 
 
-As, it was not popular before, it was mostly done by manually. Still it is one of the best practices to sit and test application critical functionality with a stop watch and measure that. I remember doing that in back to 200-  These are handy, no need automation , no need to know  much technical stuffs. But, as it is manual time measurement and humans are not as perfect as machine for measuring time. So, it has error. So, there should be tool there.
+As, it was not popular before, it was mostly done by manually. Still it is one of the best practices to sit and test application critical functionality with a stop watch and measure that. I remember doing that in back to 2008-09. These are handy, no need automation , no need to know  much technical stuffs. But, as it is manual time measurement and humans are not as perfect as machine for measuring time. So, it has error. So, there should be tool there.
 
 Usually, before **Jmeter Plug-ins**, there was no mentionable tool for web application performance test tools. We can use **Jmeter webdriver** plug-in to operate the same functionality that a human does and measure that time accurately. And, we can do same steps programmatically by using browser simulation. Like
 - Selenum-webdriver-running in Java/C#/Python/Ruby/nodeJS with any supported test runner that measures.
