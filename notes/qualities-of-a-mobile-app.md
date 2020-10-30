@@ -25,3 +25,21 @@ Look and feel
 Imposing add.
 
 Opinion : 
+
+
+# Usability Issues of a Mobile application
+
+Readability  
+Read time  
+Screen repainting  
+ Consistency  
+Key layout ease of use
+Application speed   Error messages 
+Function progress  
+Actions while rendering  
+ Multiple display format handling 
+ Differing screen sizes  
+ Multiple format input handling  
+Accelerometer/motion sensor responses 
+ Spelling errors  
+ Technical text errors 
