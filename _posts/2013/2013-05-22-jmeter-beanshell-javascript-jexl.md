@@ -39,24 +39,27 @@ ${__javaScript(new Date(),currentDate)}
 - The JavaScript runner function has two parameter, first one is the java script expression(mandatory) and second one is the variable name where captured data will be stored.
 - Jmeter use JavaScript Standalone interpreter inside [apache rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino) to run the script
 
-3. [JXEL Script](http://commons.apache.org/proper/commons-jexl/) :  
+### [JXEL Script](http://commons.apache.org/proper/commons-jexl/) :  
+
+```
 ${__jexl(aString.length(),myVariableLength)}
- -The JEXL script runner function has two parameter, first one is the JEXL script expression(mandatory) and second one is the variable name where captured data will be stored.
- -JEXL can create Class(in JAVA) and call methods. So, dynamic scripting possible with this function. 
+```
+- The JEXL script runner function has two parameter, first one is the JEXL script expression(mandatory) and second one is the variable name where captured data will be stored.
+- JEXL can create Class(in JAVA) and call methods. So, dynamic scripting possible with this function. 
 
-The __jexl2 does the same purpose with more support. 
+The **__jexl2** does the same purpose with more support. 
 
-Note : These variables are set before any of the script execution, so we can work with them in BeanShell/ JavaScript/ JEXL script.
+**Note** : These variables are set before any of the script execution, so we can work with them in BeanShell/ JavaScript/ JEXL script.
 
--log - the logger for the function (*)
--ctx - the current JMeter context variable
--vars - the current JMeter variables
--props - JMeter Properties object
--threadName - the threadName (String)
--Sampler the current Sampler, if any
--SampleResult - the current SampleResult, if any
+- log - the logger for the function (*)
+- ctx - the current JMeter context variable
+- vars - the current JMeter variables
+- props - JMeter Properties object
+- threadName - the threadName (String)
+- Sampler the current Sampler, if any
+- SampleResult - the current SampleResult, if any
 
 This is spatially for JEXL 
--OUT - System.out - e.g. OUT.println("Printing message")
+- OUT - System.out - e.g. OUT.println("Printing message")
 
 Thanks...:)
