@@ -31,9 +31,13 @@ ${__BeanShell(source("testFunctionfile.bsh"),myVer)}
 - There is a sample init file in the **/bin** directory: ```BeanShellFunction.bshrc```
 
 ### JavaScript : 
+
+```
 ${__javaScript(new Date(),currentDate)}
--The JavaScript runner function has two parameter, first one is the java script expression(mandatory) and second one is the variable name where captured data will be stored.
--Jmeter use JavaScript Stan alone interpreter to run the script.
+```
+
+- The JavaScript runner function has two parameter, first one is the java script expression(mandatory) and second one is the variable name where captured data will be stored.
+- Jmeter use JavaScript Standalone interpreter inside [apache rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino) to run the script
 
 3. [JXEL Script](http://commons.apache.org/proper/commons-jexl/) :  
 ${__jexl(aString.length(),myVariableLength)}
