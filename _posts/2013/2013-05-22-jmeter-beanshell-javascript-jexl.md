@@ -14,15 +14,21 @@ In this article we are going to see how can we run scripts (BeanShell/JavaScript
 We know there are number of post and pre processors are there to do that. But in here we will see how can we run functionally in a simple manner.
 
 ### Bean Shell Script : 
+
+```
 ${__BeanShell(beanShellScript,myVer)}
--It has two parameter(both mandatory), first one bean shell script as string or file locator. Second one the name of variable. Example with file locator is
+``` 
+
+- It has two parameter(both mandatory), first one bean shell script as string or file locator. Second one the name of variable. 
+
+Example with file locator is
 ${__BeanShell(source("testFunctionfile.bsh"),myVer)} 
 
- -It returns the value depend on what script we use.
-- If the property "beanshell.function.init" is defined, we can use the name of a sourced file. 
--Single function can be called in multiple threads. In that case we need to use execute() to synchronize.
--This can be used to define common methods and variables 
--There is a sample init file in the /bin directory: BeanShellFunction.bshrc.
+- It returns the value depend on what script we use.
+- If the **property** ```beanshell.function.init``` is defined, we can use the name of a sourced file. 
+- Single function can be called in multiple threads. In that case we need to use execute() to synchronize.
+- This can be used to define common methods and variables 
+- There is a sample init file in the **/bin** directory: ```BeanShellFunction.bshrc```
 
 2. JavaScript : 
 ${__javaScript(new Date(),currentDate)}
