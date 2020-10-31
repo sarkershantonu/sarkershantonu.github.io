@@ -30,7 +30,7 @@ ${__BeanShell(source("testFunctionfile.bsh"),myVer)}
 - This can be used to define common methods and variables 
 - There is a sample init file in the **/bin** directory: ```BeanShellFunction.bshrc```
 
-2. JavaScript : 
+### JavaScript : 
 ${__javaScript(new Date(),currentDate)}
 -The JavaScript runner function has two parameter, first one is the java script expression(mandatory) and second one is the variable name where captured data will be stored.
 -Jmeter use JavaScript Stan alone interpreter to run the script.
