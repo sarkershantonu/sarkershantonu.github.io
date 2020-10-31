@@ -19,7 +19,7 @@ We know there are number of post and pre processors are there to do that. But in
 ${__BeanShell(beanShellScript,myVer)}
 ``` 
 
-- It has two parameter(both mandatory), first one bean shell script as string or file locator. Second one the name of variable. 
+It has two parameter(both mandatory), first one bean shell script as string or file locator. Second one the name of variable. 
 
 Example with file locator is
 ${__BeanShell(source("testFunctionfile.bsh"),myVer)} 
@@ -36,8 +36,9 @@ ${__BeanShell(source("testFunctionfile.bsh"),myVer)}
 ${__javaScript(new Date(),currentDate)}
 ```
 
-- The JavaScript runner function has two parameter, first one is the java script expression(mandatory) and second one is the variable name where captured data will be stored.
-- Jmeter use JavaScript Standalone interpreter inside [apache rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino) to run the script
+The JavaScript runner function has two parameter, first one is the java script expression(mandatory) and second one is the variable name where captured data will be stored.
+
+Jmeter use JavaScript Standalone interpreter inside [apache rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino) to run the script
 
 ### [JXEL Script](http://commons.apache.org/proper/commons-jexl/) :  
 
