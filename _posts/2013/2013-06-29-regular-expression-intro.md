@@ -9,13 +9,16 @@ excerpt: "Blog on L10N testing"
 gh-badge: [star,follow]
 comments: true
 ---
+In this article, we are going to learn basic Regular Expression.
 
-In this article, we are going to learn basic Regular Expression. Regular expression is one of the daily necessary items for a developer as well as tester. My focus will be on how to cover both side. I personally use regular expression
-1. Jmeter , for extracting information from response data
-2. Data Scraping, for extracting information from any HTML/CSS/XML element
-3. Selenium webdriver, for finding element
-4. Robotium, for finding element
-5. Genie, For finding element.
+### Why Regular Expression(Regix)
+Regular expression is one of the daily necessary items for a developer as well as tester. My focus will be on how to cover both side. I personally use regular expression
+- Jmeter, Gatling, Load Runner for extracting information from response data/headers/cookie/url
+- Data Scraping, for extracting information from any HTML/CSS/XML element
+- Selenium webdriver, for finding element
+- Robotium, for finding element
+- Genie, For finding element.
+- NodePadd++ to modify regix based information.
 
 So, my focus will be the basic terms and examples which are used by me.
 
