@@ -22,7 +22,7 @@ navbar-links:
     - JDK-Tools: "tag/jdk-tools"
   Testing: 
     - Software Testing: "tag/testing"
-    - Selenium-dotnet: "tag/selenium-dotnet"
+    - Selenium: "tag/selenium"
     - Codeception: "tag/codeception"
     - NUnit: "tag/nunit"
     - TestNG: "tag/testng"
