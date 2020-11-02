@@ -34,22 +34,21 @@ Before start writing Expressions, we need to know some **Stringdefination/meanin
 - Digits : 0-9
 - Capital Letters: A-Z
 - any character: .
-
 - any single digit: \d
-\D - any Non Digit character
-\. - Period
-\s - white space
-\S - any Non White space
-\w - any alpha numeric character
-\W - any non alpha numeric character
+- any Non Digit character: \D
+- Period: \.
+- white space:\s
+- any Non White space: \S
+- any alpha numeric character: \w
+- any non alpha numeric character: \W
+- starts with indicator: ^
+- ends with indicator: $
+- makes/captures in a groups: ( )
+- makes/captures in a sub groups: (a(bc))
+- makes/captures variable content: (.*)
 
-^ - starts with indicator
-$ - ends
-
-( ) - makes/captures in a groups
-(a(bc)) - makes/captures in a sub groups
-(.*) - makes/captures variable content
-a|b - matches a or b
+### Conditionl Logic Example
+- matches a or b: a|b
 
 [abc] - only one of a, b or c
 [^abc] - Not of [abc], means no a/b/c
