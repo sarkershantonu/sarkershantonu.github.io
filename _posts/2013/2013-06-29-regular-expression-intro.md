@@ -28,8 +28,9 @@ a. Given text or set of characters or a doc( text/html/xml or any)
 b. Pattern to match( the regular expression)
 c. Matched Array(the result set)
 
-Before start writing Expressions, we need to know some string meaning(literal) in the regex. Let's use see in the rgular expression the meaning of the symbols.
-a-z - Letters
+### String Defination
+Before start writing Expressions, we need to know some **Stringdefination/meaning** (literal) in the regex. Let's use see in the rgular expression the meaning of the symbols.
+- ```a-z``` - Letters
 0-9 - Digits
 A-Z  - Capital Letters
 . - any character
