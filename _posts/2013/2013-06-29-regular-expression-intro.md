@@ -49,15 +49,13 @@ Before start writing Expressions, we need to know some **Stringdefination/meanin
 
 ### Conditionl Logic Example
 - matches a or b: a|b
-
-[abc] - only one of a, b or c
-[^abc] - Not of [abc], means no a/b/c
-[a-z] - any single character of range a to z
-[A-Z] - any single character of range A to Z
-[0-9] - any single number between 0-9, it is similar to \d
-
-{m} - m Repetitions
-{m,n} - m to n Repetitions
+- only one of a, b or c: [abc]
+- Not of abc, means no a/b/c: [^abc]
+- any single character of range a to z: [a-z]
+- any single character of range A to Z: [A-Z]
+- any single number between 0-9: [0-9] .It is similar to \d
+- m times repetitions: {m}
+- Minimum m time to maximum n time repetitions: {m,n}
 * - 0 or more Repetitions
 + - 1 or more Repetitions
 ? - optional
