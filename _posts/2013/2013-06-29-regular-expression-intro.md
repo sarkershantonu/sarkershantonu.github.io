@@ -19,7 +19,7 @@ In this article, we are going to learn basic Regular Expression. Regular express
 
 So, my focus will be the basic terms and examples which are used by me.
 
-First, let's have an idea about what is Regular Expression. A regular expression is the set of characters containing symbolic and literal meaning, together they create an expression that matches like as pattern match from a given character set. Detail description, you may find in wiki. The main objective is , getting objective character set from given set of characters.
+First, let's have an idea about what is Regular Expression. A regular expression is the set of characters containing symbolic and literal meaning, together they create an expression that matches like as pattern match from a given character set. Detail description, you may find in [wiki](https://en.wikipedia.org/wiki/Regular_expression). The main objective is , getting objective character set from given set of characters.
 So, a regular expression activity will have 3 parts.
 a. Given text or set of characters or a doc( text/html/xml or any)
 b. Pattern to match( the regular expression)
