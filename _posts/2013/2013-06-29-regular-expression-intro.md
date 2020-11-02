@@ -56,9 +56,9 @@ Before start writing Expressions, we need to know some **Stringdefination/meanin
 - any single number between 0-9: [0-9] .It is similar to \d
 - m times repetitions: {m}
 - Minimum m time to maximum n time repetitions: {m,n}
-* - 0 or more Repetitions
-+ - 1 or more Repetitions
-? - optional
+- any literal present ZERO or more times : *
+- any literal present ONE or more times: +
+- optional character indication :?
 
 So, what are those. Those are meaning in the expression. Example - if our data string is like abcdefgh123ijklmnopqrstuvwxyz
 and we need to find 123 from there. so, our regular expression will be simple
