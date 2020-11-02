@@ -2,7 +2,7 @@
 layout: post
 title: L10N testing
 date: "2013-06-29 03:51"
-tags: [regix]
+tags: [regex]
 permalink: /2013/06/29/regular-expression-intro/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on L10N testing"
@@ -18,7 +18,7 @@ Regular expression is one of the daily necessary items for a developer as well a
 - Selenium webdriver, for finding element
 - Robotium, for finding element
 - Genie, For finding element.
-- NodePadd++ to modify regix based information.
+- NodePadd++ to modify regex based information.
 
 So, my focus will be the basic terms and examples which are used by me.
 
@@ -28,7 +28,7 @@ a. Given text or set of characters or a doc( text/html/xml or any)
 b. Pattern to match( the regular expression)
 c. Matched Array(the result set)
 
-Before start writing Expressions, we need to know some string meaning(literal) in the regix. Let's use see in the rgular expression the meaning of the symbols.
+Before start writing Expressions, we need to know some string meaning(literal) in the regex. Let's use see in the rgular expression the meaning of the symbols.
 a-z - Letters
 0-9 - Digits
 A-Z  - Capital Letters
