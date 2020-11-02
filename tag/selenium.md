@@ -35,7 +35,7 @@ I have been working on selenium since 2010. I have worked on selenium with c#, J
 13. [Working with Selected item in Selenium Webdriver](http://shantonusarker.blogspot.com/2012/12/working-with-selected-item-in-selenium.html)
 14. [How to run JavaScript in selenium WebDriver](http://shantonusarker.blogspot.com/2012/12/how-to-run-javascript-in-selenium.html)
 15. [How to run selenium webdriver code in IE](http://shantonusarker.blogspot.com/2012/12/how-to-run-selenium-webdriver-code-in-ie.html)
--- Setting Authentication  via http URL(htaccess) 
+- Setting Authentication  via http URL(htaccess)
 16. [How to press Keyboard in selenium webdriver?](http://shantonusarker.blogspot.com/2012/12/how-to-press-key-of-keyboard-selenium.html)
 17. [How to drag and drop in Selenium webdriver](http://shantonusarker.blogspot.com/2012/12/how-to-drag-and-drop-in-selenium.html)
 18. [Actions in selenium webdriver](http://shantonusarker.blogspot.com/2012/12/actions-in-selenium-webdriver.html)
@@ -48,3 +48,9 @@ I have been working on selenium since 2010. I have worked on selenium with c#, J
 25. [How to work with JavaScript Alert in Selenium WebDriver](http://shantonusarker.blogspot.com/2012/12/how-to-work-with-javascript-alart-in.html)
 
 # Selenium Java
+
+# Selenium Wrappers
+
+# Selenium Test Project Architecture
+- Layered Architecture
+- Event Driven Architecture
