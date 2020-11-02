@@ -30,12 +30,12 @@ c. Matched Array(the result set)
 
 ### String Defination
 Before start writing Expressions, we need to know some **Stringdefination/meaning** (literal) in the regex. Let's use see in the rgular expression the meaning of the symbols.
-- ```a-z``` - Letters
-0-9 - Digits
-A-Z  - Capital Letters
-. - any character
+- Letters: a-z
+- Digits : 0-9
+- Capital Letters: A-Z
+- any character: .
 
-\d - any digit(single character)
+- any single digit: \d
 \D - any Non Digit character
 \. - Period
 \s - white space
