@@ -42,6 +42,4 @@ Now we group our necessary items that we need to get from the expression. As we 
 
 If we do not want package name and class name , we just omit the braces: ```at\s[a-zA-Z]+.[a-zA-Z]+.([a-zA-Z]+).([a-zA-Z]+.[a-zA-Z]+):(\d+)\)$```
 
-So, in this way we can get our necessary information from a expression .
-
 Thanks ...:)
