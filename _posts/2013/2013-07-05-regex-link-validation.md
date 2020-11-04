@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Extract Email by Regular Expression
-date: "2013-06-30 03:51"
+date: "2013-07-05 03:51"
 tags: [regex]
-permalink: /2013/06/30/regex-email-extract/
+permalink: /2013/07/05/regex-link-validation/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Regular Expression"
 gh-badge: [star,follow]
