@@ -1,48 +1,43 @@
 ---
 layout: post
 title: Extract Email by Regular Expression
-date: "2013-06-30 03:51"
+date: "2013-07-01 03:51"
 tags: [regex]
-permalink: /2013/06/30/regex-email-extract/
+permalink: /2013/07/01/regex-java-exception-extract/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on L10N testing"
+excerpt: "Blog on Regular Expression"
 gh-badge: [star,follow]
 comments: true
 ---
 ![image](/images/regex/regex-tut-1.jpg)
 
-In this article, we are going to see how we can retrieve different information from an email address. To know regular expression basics, please see [this old post](https://sarkershantonu.github.io/2013/06/29/regular-expression-intro/).
+In this article, we are going to see how can we extract information from a **Exception/Trace** messages using Regular Expression. 
 
-### The Email Format 
-Normally we have email address like **sarker.shantonu@gmail.com** and some time we may find **sarker.shantonu+abcedd@gmail.com** , but due to implementation rules , we omit the characters after+ . 
+This is regular basis need, spatially when you are analyzing a trace message that you found after an automated test process or unit test.
 
-So, we need to retrieve information from a valid email address. What info can be retrieve?
-- Domain Name(in example gmail.com) 
-- User name
+For basic idea about regular expression,[this old post](https://sarkershantonu.github.io/2013/06/29/regular-expression-intro/).
 
-### Retrieve with analysis
-So, let's take the complex data as  sarker.shantonu+abcedd@gmail.com
+So, when we analysis a trace message, we have to retrieve information from a single trace message from trace stack. I am providing an simple example with an android trace message.
 
-In here, the domain name start from @ and then small letter words, here can be capital and numbers. 
+at widget.List.fillFrom(ListView.java:709)
 
-And end will be up to dot(not including). So, our regular expression will indicate a alphabet/ numeric number from beginning and end which can be one or more(to accurate 2 or more)
+In here, the format of the trace is packageName.className.methodName(FileName:lineNumber)
 
-So, for domain name extraction, it will be ```@[a-zA-z0-9]{2,}``` 
-- In here max limit is not mentioned, so I keep it blank ```{2,}```. And ```[a-zA-z0-9]``` means, any character range a to z or A to Z or 0 to 9. 
-- To  simplify, ```@[a-zA-z0-9]+``` will results same but ```+``` refers to 1 or more existence of the character set. 
+So, by construction all type of names that are used in java are made of alphabets, so the expression of every name will be [a-zA-Z]+.(any character, single of multiple which are are under rage of a-z, A-Z)
+Every line number may have single character to 4/5 character(if we write very long class). So , for line number the expression will be \d+(any digit more than 1 time)
 
-Now, we need to get the username. A username start with any of numeric or alphabetic character, ends with numeric or alphabetic character, and in between them it can contains dot(.) , Dash(-), underscore(_). 
+Now, let's look at the message, it begins with at and have a space then the original message.
+And in the end it closes with ).
+And after every name there is a Character(dot character or braces) .
+So if we add those conditions together, we get these 
+at\s[a-zA-Z]+.[a-zA-Z]+.[a-zA-Z]+.[a-zA-Z]+.[a-zA-Z]+:\d+\)$
 
-So, our regular expression will be  ```[0-9a-zA-Z]*[-._\w]*[0-9a-zA-Z]```
-- ```[0-9a-zA-Z]``` means any character a-z or A-Z or 0-9.
-- ```*``` means previous charter set can be repeated 0or more time
-- ```[-._\w]``` means it can have - or . or _ or any alphanumeric character
-- ```*``` means previous charter set can be repeated 0or more time
-- ```[0-9a-zA-Z]``` means any character a-z or A-Z or 0-9. 
+Now we group our necessary items that we need to get from the expression. As we want package  name, class name, method name, file name, line number
+at\s([a-zA-Z]+).([a-zA-Z]+).([a-zA-Z]+).([a-zA-Z]+.[a-zA-Z]+):(\d+)\)$
 
-### Finally 
-If we now, use grouping both where first group will show user name and the 2nd group domain. Then our expression will be like as below ```([0-9a-zA-Z]*[-._\w]*[0-9a-zA-Z])@([a-zA-z0-9]+)```
+If we do not want package name and class name , we just omit the braces. 
+at\s[a-zA-Z]+.[a-zA-Z]+.([a-zA-Z]+).([a-zA-Z]+.[a-zA-Z]+):(\d+)\)$
 
-so, we have our user name and domain in separate group.
+So, in this way we can get our necessary information from a expression .
 
-Thanks....:) 
+Thanks ...:)
