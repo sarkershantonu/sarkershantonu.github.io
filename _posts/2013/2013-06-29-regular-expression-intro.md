@@ -67,18 +67,17 @@ If our data string is like ***abcdefgh123ijklmnopqrstuvwxyz*** and we need to fi
 
 So, our regular expression will be simple ```123```
 
-we can add some intelligence here. What if we do not know the value is 1,2 or 3. If we need 3 adjacent digits. 
+we can add some intelligence here. What if we do not know the value is 1,2 or 3. If we need 3 adjacent digits. So , our expression will be ```\d\d\d```
 
-So , our expression will be ```\d\d\d```
+As there is 3 times digits, we can write like ```\d{3}```.
 
-If we do smarter way, as there is 3 times digit we can write the same thing in this way ```\d{3}```.
-
-If, we consider a digit but there can 1 digits minimum and 3 digits maximum. Then expression will be ```\d{1,3}```. 
+If, we consider a digit but there can 1 minimum and 3 maximum. Then expression will be ```\d{1,3}```. 
  
 In a similar situation when we need min 1, maximum unlimited the expression will be ```\d+```. 
+
 Or no minimum and unlimited maximum digits , the expression ```\d*```
 
-### useful Links
+### Useful Links
 1. For learning basic with [JAVA](http://www.vogella.com/articles/JavaRegularExpressions/article.html)
 2. To [practice](http://regexone.com/)
 3. To do experiment or test before apply , use this tool [**The Regex Coach**](http://www.weitz.de/regex-coach/)
