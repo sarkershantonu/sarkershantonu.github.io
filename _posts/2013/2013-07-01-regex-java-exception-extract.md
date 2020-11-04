@@ -24,7 +24,8 @@ When analyzing a trace message, we have to retrieve information from a single tr
 
 In here, the format of the trace is ***packageName.className.methodName(FileName:lineNumber)***
 
-So, by construction all type of names that are used in java are made of alphabets, so the expression of every name will be ```[a-zA-Z]+.```(any character, single of multiple which are are under rage of a-z, A-Z)
+### Retrieve with analysis
+So, by construction all type of names that are used in java are made of alphabets, so the expression of every name will be ```[a-zA-Z]+.```(any character, single of multiple which are under rage of a-z, A-Z)
 
 Every line number may have single character to 4/5 character(if we write very long class). So , for line number the expression will be ```\d+```(any digit more than 1 time)
 
