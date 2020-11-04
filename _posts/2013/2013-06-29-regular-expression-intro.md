@@ -47,7 +47,7 @@ Before start writing Expressions, we need to know some **Stringdefination/meanin
 - makes/captures in a sub groups: (a(bc))
 - makes/captures variable content: (.*)
 
-### Conditionl Logic Example
+### Conditionl Logic expressions
 - matches a or b: a|b
 - only one of a, b or c: [abc]
 - Not of abc, means no a/b/c: [^abc]
@@ -60,7 +60,9 @@ Before start writing Expressions, we need to know some **Stringdefination/meanin
 - any literal present ONE or more times: +
 - optional character indication :?
 
-So, what are those. Those are meaning in the expression. Example - if our data string is like abcdefgh123ijklmnopqrstuvwxyz
+So, what are those. Those are meaning in the expression.
+
+Example - if our data string is like abcdefgh123ijklmnopqrstuvwxyz
 and we need to find 123 from there. so, our regular expression will be simple
 123
 we can add some intelligence here..  what if we do not know the value is 1,2 or 3. If it was told to use that 3 adjacent digits. so , our expression will be
@@ -78,6 +80,6 @@ Here are some useful tutorial
 2. To practice
 3. To do experiment or test before apply , use this tool "The Regex Coach"
 
-And for advance users , you may see this. It's a very enlarge support for JAVA.
+And for advance users , you may [**see this**](https://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html). It's a very enlarge support for JAVA.
 
 Thanks...:)...
