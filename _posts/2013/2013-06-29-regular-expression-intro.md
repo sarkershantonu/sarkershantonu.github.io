@@ -30,56 +30,59 @@ c. Matched Array(the result set)
 
 ### String Definition
 Before start writing Expressions, we need to know some **Stringdefination/meaning** (literal) in the regex. Let's use see in the rgular expression the meaning of the symbols.
-- Letters: a-z
-- Digits : 0-9
-- Capital Letters: A-Z
-- any character: .
-- any single digit: \d
-- any Non Digit character: \D
-- Period: \.
-- white space:\s
-- any Non White space: \S
-- any alpha numeric character: \w
-- any non alpha numeric character: \W
-- starts with indicator: ^
-- ends with indicator: $
-- makes/captures in a groups: ( )
-- makes/captures in a sub groups: (a(bc))
+- Letters: ```a-z```
+- Digits : ```0-9```
+- Capital Letters: ```A-Z```
+- any character: ```.```
+- any single digit: ```\d```
+- any Non Digit character: ```\D```
+- Period: ```\.```
+- white space:```\s```
+- any Non White space: ```\S```
+- any alpha numeric character: ```\w```
+- any non alpha numeric character: ```\W```
+- starts with indicator: ```^```
+- ends with indicator: ```$
+- makes/captures in a groups: ```( )```
+- makes/captures in a sub groups: ```(a(bc))```
 - makes/captures variable content: (.*)
 
 ### Conditional Logic expressions
-- matches a or b: a|b
-- only one of a, b or c: [abc]
-- Not of abc, means no a/b/c: [^abc]
-- any single character of range a to z: [a-z]
-- any single character of range A to Z: [A-Z]
-- any single number between 0-9: [0-9] .It is similar to \d
-- m times repetitions: {m}
-- Minimum m time to maximum n time repetitions: {m,n}
-- any literal present ZERO or more times : *
-- any literal present ONE or more times: +
-- optional character indication :?
+- matches a or b: ```a|b```
+- only one of a, b or c: ```[abc]```
+- Not of abc, means no a/b/c: ```[^abc]```
+- any single character of range a to z: ```[a-z]```
+- any single character of range A to Z: ```[A-Z]```
+- any single number between 0-9: ```[0-9]``` .It is similar to ```\d```
+- m times repetitions: ```{m}```
+- Minimum m time to maximum n time repetitions: ```{m,n}```
+- any literal present ZERO or more times : ```*```
+- any literal present ONE or more times: ```+```
+- optional character indication :```?```
 
 So, what are those. Those are meaning in the expression.
 
-Example - if our data string is like abcdefgh123ijklmnopqrstuvwxyz
-and we need to find 123 from there. so, our regular expression will be simple
-123
-we can add some intelligence here..  what if we do not know the value is 1,2 or 3. If it was told to use that 3 adjacent digits. so , our expression will be
-\d\d\d
-If we do more smarter way, as there is 3 times digit we ca write the same thing in this way
-\d{3}
-If, it was mentioned that we will have a digits but there can 1 digits minimum and max 3 digits. Then expression :
-\d{1,3}
-If we make a stile change , say, we want to have at least 1 digit to and up to infinite(all digits serially), so the expression will be
-\d+
+### Example:  
+If our data string is like ***abcdefgh123ijklmnopqrstuvwxyz*** and we need to find **123** from there. 
 
-I will provide several useful regular expression example with explanations in separate post.
-Here are some useful tutorial
-1. For learning basic with JAVA
-2. To practice
-3. To do experiment or test before apply , use this tool "The Regex Coach"
+So, our regular expression will be simple ```123```
 
-And for advance users , you may [**see this**](https://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html). It's a very enlarge support for JAVA.
+we can add some intelligence here. What if we do not know the value is 1,2 or 3. If we need 3 adjacent digits. 
+
+So , our expression will be ```\d\d\d```
+
+If we do smarter way, as there is 3 times digit we can write the same thing in this way ```\d{3}```.
+
+If, we consider a digit but there can 1 digits minimum and 3 digits maximum. Then expression will be ```\d{1,3}```. 
+ 
+In a similar situation when we need min 1, maximum unlimited the expression will be ```\d+```. 
+Or no minimum and unlimited maximum digits , the expression ```\d*```
+
+### useful Links
+1. For learning basic with [JAVA](http://www.vogella.com/articles/JavaRegularExpressions/article.html)
+2. To [practice](http://regexone.com/)
+3. To do experiment or test before apply , use this tool [**The Regex Coach**](http://www.weitz.de/regex-coach/)
+
+And for advanced users , you may [**see this**](https://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html). It's a very enlarge support for JAVA.
 
 Thanks...:)...
