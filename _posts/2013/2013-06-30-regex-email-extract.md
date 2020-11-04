@@ -11,7 +11,7 @@ comments: true
 ---
 ![image](/images/regex/regex-tut-1.jpg)
 
-In this article, we are going to see how we can retrieve different information from an email address.
+In this article, we are going to see how we can retrieve different information from an email address. To know regular expression basics, please see [this old post](https://sarkershantonu.github.io/2013/06/29/regular-expression-intro/).
 
 ### The Email Format 
 Normally we have email address like **sarker.shantonu@gmail.com** and some time we may find **sarker.shantonu+abcedd@gmail.com** , but due to implementation rules , we omit the characters after+ . 
