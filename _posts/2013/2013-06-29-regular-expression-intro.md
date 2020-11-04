@@ -5,7 +5,7 @@ date: "2013-06-29 03:51"
 tags: [regex]
 permalink: /2013/06/29/regular-expression-intro/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on L10N testing"
+excerpt: "Blog on Regular Expression"
 gh-badge: [star,follow]
 comments: true
 ---
