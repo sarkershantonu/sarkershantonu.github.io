@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Extract Email by Regular Expression
+title: Validate Link by Regular Expression
 date: "2013-07-05 03:51"
 tags: [regex]
 permalink: /2013/07/05/regex-link-validation/
