@@ -1,6 +1,6 @@
 ---
 layout: post
-title: L10N testing
+title: Introduction to Regular Expression
 date: "2013-06-29 03:51"
 tags: [regex]
 permalink: /2013/06/29/regular-expression-intro/
@@ -28,7 +28,7 @@ a. Given text or set of characters or a doc( text/html/xml or any)
 b. Pattern to match( the regular expression)
 c. Matched Array(the result set)
 
-### String Defination
+### String Definition
 Before start writing Expressions, we need to know some **Stringdefination/meaning** (literal) in the regex. Let's use see in the rgular expression the meaning of the symbols.
 - Letters: a-z
 - Digits : 0-9
@@ -47,7 +47,7 @@ Before start writing Expressions, we need to know some **Stringdefination/meanin
 - makes/captures in a sub groups: (a(bc))
 - makes/captures variable content: (.*)
 
-### Conditionl Logic expressions
+### Conditional Logic expressions
 - matches a or b: a|b
 - only one of a, b or c: [abc]
 - Not of abc, means no a/b/c: [^abc]
