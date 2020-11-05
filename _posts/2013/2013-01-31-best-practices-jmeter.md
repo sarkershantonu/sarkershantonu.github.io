@@ -2,7 +2,7 @@
 layout: post
 title: Jmeter Best Practices
 date: "2013-01-31 20:52"
-tags: [Jmeter]
+tags: [jmeter]
 permalink: /2013/01/31/best-practices-jmeter/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter Best Practices"
