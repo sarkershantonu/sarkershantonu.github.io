@@ -2,7 +2,7 @@
 layout: post
 title: Jmeter User/Thread Support
 date: "2015-04-16 19:54"
-tags: [Jmeter]
+tags: [jmeter]
 permalink: /2015/04/16/user-threads-jmeter-supports/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter Advance"
