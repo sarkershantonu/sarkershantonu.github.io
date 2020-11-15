@@ -1,0 +1,128 @@
+Course syllabus:
+
+Section 1 : Introduction to Performance engineering(PE)
+
+Skill set required to be a successful performance engineer
+Where do we lag as a performance tester when it comes to PE
+Various engineering activities & tools across SDLC
+What is expected from Performance engineer
+During the interview as well as during the project execution.
+Section 2 : Think Like a Developer
+
+Java Performance Engineering/JVM Architecture
+Why Java &Get Your Basics
+JDK/JRE/JVM
+Get the understanding of JVM architecture (Memory management / Threads/Execution engine)
+Types of JVM and its performance impact.
+Think like a Developer to be a good performance engineer
+Get Hands On and start writing small programs
+Setting up Java Environment/Eclipse
+Practical understanding of JVM components with the new java project/programs
+Section 3 : Thread Analysis
+
+Introduction to Various real time performance Issues, its impact, engineering approach to address the issues.
+Introduction to Java Threads
+How Java threads are handled by JVM
+Thread status and how to analyze the health of the thread during the load test execution
+How and when to take Thread Dumps
+Tools(jvisual vm/jprofiler)/Command line functions& step by step process to take the thread dump
+How to analyze the Thread Dump and identify the bottle necks
+Practical examples with real time application & code to create thread issues and conduct thread dump analysis
+Fixing the code post recommendation and to observe the impact
+Thread configuration in server and its impact on the performance
+Thread connection pool concepts and how it works. Tools :Eclipse/Tomcat/Java project/JvisualVM/Jprofiler/fastthread.io/IBM TMDA
+ Section 4 : Java Memory Management Part 1
+
+Deep dive into Memory allocations
+How memory works Stack & Heap
+Role Of Metaspace
+Tuning the Java Memory Settings
+Practical explanation of creating memory issues/Leaks and Monitoring the heap
+How to connect java process with jvisualvm/jprofiler to monitor the heap
+How and when to take the heap dump
+Heap dump analysis and finding the possible root cause of the memory leaks.
+ Section 5 : Java Memory Management Part 2 – Garbage Collection
+
+Introduction to GC concepts and how JVM manages memory via GC
+JVM GC collectors Serial/Parallel/CMS/G1
+Tuning GC components
+Old/young generations, survivor space
+Practical examples & code walkthrough to show the memory issues/ how GC works.
+Section 6 : CPU profiling & response time analysis
+
+CPU Hotspots
+Troubleshooting High response time issues
+How to use Jprofiler to identify bottlenecks
+Practical examples with ream time application to create issues and identify the bottleneck at class/methods
+Section 7 : Monitoring Strategy before/during/after Load Test execution
+
+Architecture overview as part of monitoring strategy
+Setting up the right monitors to collect metrics
+Various tools and methodology to monitor and collect performance metrics during load test
+Detailed overview on Linux monitoring and tools
+Nmon/vmstat/top/iostat/telegraf/Jconsole
+Walkthrough on important performance counters
+Practical session on monitoring/using these tools in linux/windows machines with realtime applications
+Overview on Network Monitoring tools to understand the network related bottleneck with practical examples
+Section 8 : Client Side performance engineering
+
+Why client / browser side performance
+What are the common client side performance issues
+Tools and methodology to analyze the performance issues
+Automating the client side performance
+Browser APIs to collect client side statistics
+How to provide Recommendations
+Practical examples with real time applications to understand the issues/ provide recommendations with the fixes
+ Section 9 : Database Performance
+
+Relational & NoSQL Database
+Performance considerations
+Oracle Process Architecture
+Oracle Memory architecture
+Tablespace and how it is managed
+Database Monitoring
+Automatic Workload Repository(AWR)
+How and when to take AWR reports for performance analysis
+Automatic Database Diagnostic Monitor (ADDM)
+Practical examples of database issues in AWR reports
+Monitoring of NoSQL databases
+MongoDB Monitoring
+Elastic Search Monitoring
+Data backup& recovery strategy
+How and why Clustering
+Section 10 : Resiliency engineering
+
+What is Resiliency engineering & why it is required
+Strategy & approach
+Tools
+Various failure scenarios
+CPU burn/diskburn/server crashes
+Netflix Chaos Monkey
+Practical scenarios of creating failures
+Section 11 : Production Monitoring
+
+Synthetic monitoring & Real User Monitoring
+Walk through of various techniques/tools available for synthetic monitoring
+Alerts & production like scenarios
+Real user monitoring tools
+Firebase/google analytics/TeaLeaf
+Section 12 : Nonfunctional requirements
+
+Workload definition – Performance engineering strategy
+Templates for creating engineering plan/strategy
+Performance engineer role in Architecture /Design review
+Defining SLA & SLO for applications / Individual components
+ Section 13 : Introduction to Mobile Native App performance engineering (Android)
+
+Key nonfunctional metrics for mobile native app
+Android Monitoring tools
+App crashes & battery Drains
+Heap dump and CPU profiling
+Identifying bottlenecks
+Section 14 : Bonus section of Introduction to Devops (continuous testing)& cloud
+
+Jmeter/Jenkins integration
+InfluxDB/grafana monitoring and quality gates for automated decision making in the devops pipeline
+Continuous automated monitoring in devops
+Introduction to AWS & Azure Cloud monitoring tools
+ 
