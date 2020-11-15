@@ -1,0 +1,10 @@
+# https://codeforces.com/ [Special focus for regular practice]
+# https://atcoder.jp/home
+# http://lightoj.com/index.php [Special focus for topic wise practice]
+# https://uva.onlinejudge.org [Classic problem]
+# https://www.codechef.com/ [Harder problems, Maths]
+# https://a2oj.com/ [Ladders, Mixed Problems]
+# https://csacademy.com/
+# https://www.spoj.com/
+# https://vjudge.net/ [Custom contest platform]
+# https://www.hackerrank.com
