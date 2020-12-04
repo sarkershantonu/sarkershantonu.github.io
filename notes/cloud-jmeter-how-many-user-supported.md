@@ -1,0 +1,1 @@
+Jmeter thread support per AWS
