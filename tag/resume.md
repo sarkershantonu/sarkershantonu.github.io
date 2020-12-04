@@ -19,4 +19,4 @@ comments: true
 - [Summary Version](https://www.dropbox.com/s/nqwhic4wt2z3ss3/Resume_Shantanu%20Sarker_SDET_14Y.doc?dl=0)
 - [Detailed Version](https://www.dropbox.com/s/3372fobq4hyviyt/Resume_Shantanu%20Sarker_SDET_14Y_details.doc?dl=0)
 
-No Dropbox account necessary, to download please click download button from right upper corner. 
+To download please click download button from right upper corner, no Dropbox account needed.  
