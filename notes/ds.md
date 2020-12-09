@@ -88,3 +88,52 @@ iii) Classics and variations
 15
 Segment Tree
 i) Basic segment Tree
+
+List of data structures and algorithms:
+
+Data Structure
+Deque
+Extendable Array (Vector)
+Linked List (Doubly)
+Stack (Fixed size)
+Queue (Fixed size)
+Heap (Binary)
+Priority Queue
+Tree
+Binary Tree
+Binary Search Tree
+Order Statistic Tree
+Red Black Tree
+Traversal (Binary)
+Preorder
+Postorder
+Inorder
+Euler Tour
+Sorting
+Heapsort
+Merge Sort
+Quicksort
+Lomuto Partition
+Randomized Partition
+Hoare partition
+Bubble Sort
+Insertion Sort
+Selection Sort
+Searching
+Binary Search
+Linear Search
+Range Queries (on BST)
+Divide and Conquer
+Maximum Subarray
+Strassen's Matrix Multiplication
+Dynamic Programming
+Maximum Subarray
+Numeric
+Matrix (Basic Operations)
+Puzzle
+Josephus problem (1. Using Queue, 2. Using Order Statistic Tree)
+Development environments:
+
+Ubuntu 16.04.2 (WSL)
+GCC 7.3.0
+Valgrind 3.13.0
