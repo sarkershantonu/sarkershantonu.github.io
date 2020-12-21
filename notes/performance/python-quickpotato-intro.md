@@ -2,14 +2,20 @@
 
 https://github.com/JoeyHendricks/QuickPotato
 
-install PIP 
 
-install QuickPotato
+# Installation : 
 
-Check version 
+##  install PIP
 
-```py -m pip --version```
-
+```shell
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-
 py get-pip.py
+```
+## install QuickPotato
+
+##Check version
+
+```shell 
+py -m pip --version
+```
+
