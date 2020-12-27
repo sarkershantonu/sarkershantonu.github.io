@@ -2,7 +2,7 @@
 layout: default
 title: "Search sarkershantonu.github.io"
 css: "/css/search.css"
-meta-title: "Full Stack Performance Engineer/SDET/Java Developer"
+meta-title: "Performance Engineer/SDET/Java Developer"
 comments: false
 ---
 
