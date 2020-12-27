@@ -17,7 +17,7 @@ comments: true
 This page contains all Gadgets & Gear Information
 
 # Daily Use Laptop : 
-## [Sager NP8954 (Clevo P955ER)](https://www.amazon.com/-/es/np8954-0-73-ligero-Gaming-Laptop-visualizaci%C3%B3n/dp/B07D5MD3F2)
+### [Sager NP8954 (Clevo P955ER)](https://www.amazon.com/-/es/np8954-0-73-ligero-Gaming-Laptop-visualizaci%C3%B3n/dp/B07D5MD3F2)
 - [Core i7 8750h](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8750H+%40+2.20GHz&id=3237)
 - 32Gb DDR4 (2x16GB 2666Mhz)
 - 256Gb nvme Toshiba
@@ -31,7 +31,7 @@ With :
 - [Samsung T260](https://www.cnet.com/products/samsung-syncmaster-t260-lcd-monitor-25-5/)
 - Keyboard & Mice
 
-## [Tablet: Dell Latitude 7275](https://www.cnet.com/products/dell-latitude-7275-12-5-core-m5-6y57-8-gb-ram-256-gb-ssd/)
+### [Tablet: Dell Latitude 7275](https://www.cnet.com/products/dell-latitude-7275-12-5-core-m5-6y57-8-gb-ram-256-gb-ssd/)
 - Core i5 M5-6Y57
 - DDr3 8GB
 - 256GB SSD
@@ -39,7 +39,7 @@ With :
 - Windows 10 Pro
 
 # Development Servers 
-## [Liva Bat](https://www.ecs.com.tw/ECSWebSite/Product/Product_LIVA/EN/LIVA) : Local NAS
+### [Liva Bat](https://www.ecs.com.tw/ECSWebSite/Product/Product_LIVA/EN/LIVA) : Local NAS
 - Celeron N2807 @1.58-2.2GHz
 - DDR3L 2GB
 - 32GB
@@ -48,7 +48,7 @@ With :
 - Wifi+ Bluetooth
 - HDMI+VGA
 
-## XEON Server (own Build Dev servers)
+### XEON Server (own Build Dev servers)
 - Xeon E5-2568-V3
 - 64GB DDR4 ECC
 - Zotac 1080ti mini  
@@ -69,6 +69,6 @@ With :
   - pi-hole
   - next cloud
     
-## [Raspberry Pi3B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
-## [Raspberry Zero](https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/)
+### [Raspberry Pi3B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+### [Raspberry Zero](https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/)
 
