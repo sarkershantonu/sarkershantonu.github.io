@@ -1,3 +1,14 @@
+---
+layout: post
+title: Installing Jmeter plugins in Linux CLI
+date: "2021-01-06 17:02"
+tags: [jmeter,ci-cd]
+permalink: /2021/01/06/install-jmeter-plugins-cli/
+gh-repo: sarkershantonu/sarkershantonu.github.io
+excerpt: "Blog on Jmeter"
+gh-badge: [star,follow]
+comments: true
+---
 
 In this article we are going to see how we can install Jmeter plugins in CLI linux. 
 
@@ -5,8 +16,14 @@ This is very useful for aws, remote servers with no gui, installing over SSH, Do
 
 ### Step 0 : Dependencies 
 - For downloading , you need CURL/WGET
+```
+sudo apt install curl -y
+```
 - For Running jmeter , you need an oracle jdk8+
-- Create a folder where you used to store all artifacts. 
+- Create a folder where you used to store all artifacts. I have created jm53
+
+![work-dir](/images/jmeter/install-cli/work-dir.JPG)
+  
 - We will use ``/opt`` to install jmeter after configuration. 
 
 ### Step 1 : Update OS Apps
@@ -29,7 +46,7 @@ tar -xvf apache-jmeter-5.3.tgz
 - Remove **docs**
 - Remove **printable_docs**
 ``` 
-rm -rf $JMETER_VERSION/docs $JMETER_VERSION/printable_docs 
+rm -rf apache-jmeter-5.3/docs apache-jmeter-5.3/printable_docs 
 ```
 
 ### Step 5 : Download CMD Runner in lib folder
@@ -37,7 +54,7 @@ rm -rf $JMETER_VERSION/docs $JMETER_VERSION/printable_docs
 - Download current CMD runner version 2.2.1
 ``` 
 cd apache-jmeter-5.3/lib
-curl -o https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.2.1/cmdrunner-2.2.1.jar
+curl -O https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.2.1/cmdrunner-2.2.1.jar
 ```
 
 ### Step 6 : Download jmeter plugin Manager
@@ -45,7 +62,7 @@ curl -o https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.2.1/cmdrunner-2.2.1.ja
 - Download Jmeter plugin Manager , current version is 1.6
 ``` 
 cd ext/
-curl -o https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.6/jmeter-plugins-manager-1.6.jar
+curl -O https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.6/jmeter-plugins-manager-1.6.jar
 ```
 
 ### Step 7 : Download Plugins
@@ -58,6 +75,7 @@ java  -jar cmdrunner-2.2.1.jar --tool org.jmeterplugins.repository.PluginManager
 
 And you should see plugins installed. 
 
+### Step 8: Adding Jmeter in Environment
 
 ### PluginManagerCMD Details 
 From github [**repository**](https://github.com/undera/jmeter-plugins-manager/blob/master/src/main/java/org/jmeterplugins/repository/PluginManagerCMD.java), you can see how CMD runner processing the installation. .
