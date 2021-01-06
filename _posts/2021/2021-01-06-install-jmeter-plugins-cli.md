@@ -121,14 +121,15 @@ cd apache-jmeter-5.3/bin
 As we are making standard installation, we need to move jmeter to the OPT folder. 
 
 ``` 
-cp -r apache-jmeter-5.3 /opt/`
+cp -r apache-jmeter-5.3 /opt/
 ```
 
 ![jmeter-opt](/images/jmeter/install-cli/cp-opt.JPG)
 
-### Step 9: Put Jmeter in PATH variable
+### Step 10: Put Jmeter in PATH variable
 We need to jmeter in PATH variable. You can do this in many ways, but I prefer this way. 
 - Get your current PATH variable values 
+
 ```
 echo $PATH
 ```
