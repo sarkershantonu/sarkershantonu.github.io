@@ -14,25 +14,36 @@ In this article we are going to see how we can install Jmeter plugins in CLI lin
 
 This is very useful for aws, remote servers with no gui, installing over SSH, Docker configuration etc. 
 
-### Step 0 : Dependencies 
-- For downloading , you need CURL/WGET
-```
-sudo apt install curl -y
-```
-- For Running jmeter , you need an oracle jdk8+
-- Create a folder where you used to store all artifacts. I have created jm53
+### Step 1 : Dependencies 
 
-![work-dir](/images/jmeter/install-cli/work-dir.JPG)
-  
-- We will use ``/opt`` to install jmeter after configuration. 
-
-### Step 1 : Update OS Apps
+- Update OS Apps
 ``` 
 sudo apt-get update
 ```
 
+- For downloading , you need CURL/WGET
+
+```
+sudo apt install curl -y
+```
+
+- As jmeter 5.3 requires JDK8+. Any jdk distribution will be okay. But for view result tree, Oracle jdk (for java fx) is required. As we are running in CLI, we can ignore that.
+
+```
+sudo apt install -y default-jdk
+```
+
+For Debian 10/ubuntu 20, default jdk is 11. So, after installation we can validate version.
+
+![java-version](/images/jmeter/install-cli/java-11-installation.JPG)
+
+- Create a folder where you used to store all artifacts. I have created jm53
+
+![work-dir](/images/jmeter/install-cli/work-dir.JPG)
+
 ### Step 2 : Download Jmeter 
-I am going to use jmeter 5.3 in this example, you can use other versions. 
+- We will use ``/opt`` to install jmeter after configuration.  I am going to use jmeter 5.3 in this example, you can use other versions. 
+
 ```
 curl -O https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.3.tgz
 ```
@@ -40,6 +51,7 @@ curl -O https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.3.tgz
 ![download-jmeter](/images/jmeter/install-cli/download-jmeter.JPG)
 
 ### Step 3 : Extract Jmeter archive
+
 ``` 
 tar -xvf apache-jmeter-5.3.tgz 
 ```
@@ -47,23 +59,28 @@ tar -xvf apache-jmeter-5.3.tgz
 ### Step 4: Optional : Remove Unnecessary Folders
 - Remove **docs**
 - Remove **printable_docs**
+
 ``` 
 rm -rf apache-jmeter-5.3/docs apache-jmeter-5.3/printable_docs 
 ```
+
 ![removed-docs](/images/jmeter/install-cli/removed-docs.JPG)
 
 ### Step 5 : Download CMD Runner in lib folder
 - Goto lib folder
 - Download current CMD runner version 2.2.1
+
 ``` 
 cd apache-jmeter-5.3/lib
 curl -O https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.2.1/cmdrunner-2.2.1.jar
 ```
+
 ![download-cmd](/images/jmeter/install-cli/cmd-download.JPG)
 
 ### Step 6 : Download jmeter plugin Manager
 - Goto lib/ext folder
 - Download Jmeter plugin Manager , current version is 1.6
+
 ``` 
 cd ext/
 curl -O https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.6/jmeter-plugins-manager-1.6.jar
@@ -75,12 +92,21 @@ curl -O https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.6/jmeter-
 - We have to exclude unwanted plugins. I am excluding  jpgc-hadoop,jpgc-oauth
 ```
 cd ..
-java  -jar cmdrunner-2.2.1.jar --tool org.jmeterplugins.repository.PluginManagerCMD install-all-except jpgc-hadoop,jpgc-oauth,ulp-jmeter-autocorrelator-plugin,ulp-jmeter-videostreaming-plugin,ulp-jmeter-gwt-plugin,
+java  -jar cmdrunner-2.2.1.jar --tool org.jmeterplugins.repository.PluginManagerCMD install-all-except jpgc-hadoop,jpgc-oauth,ulp-jmeter-autocorrelator-plugin,ulp-jmeter-videostreaming-plugin,ulp-jmeter-gwt-plugin
 ```
 
 And you should see plugins installed to jmeter. 
 
 ![download-cmd](/images/jmeter/install-cli/)
+
+### Step 9: Validate Jmeter Version
+- Please check Jmeter Version. You need to goto bin folder and run jmeter executable
+``` 
+cd apache-jmeter-5.3/bin
+
+./jmeter.sh --version
+```
+
 
 ### Step 9: Move Jmeter to OPT
 As we are making standard installation, we need to move jmeter to the OPT folder. 
@@ -202,8 +228,8 @@ Now, either you can choose **install** and select all plugin ids, or you can cho
 
 I always exclude all UBIK plugins as they are proprietary. 
 
-### Oracle JDK8 installations
-- Download [oracle jdk](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html#license-lightbox)
+### JDK installations
+
 
 ### Notes 
 1. In all download you may use ```wget``` instead of ```curl -O```
