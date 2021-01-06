@@ -58,6 +58,7 @@ rm -rf apache-jmeter-5.3/docs apache-jmeter-5.3/printable_docs
 cd apache-jmeter-5.3/lib
 curl -O https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.2.1/cmdrunner-2.2.1.jar
 ```
+![download-cmd](/images/jmeter/install-cli/)
 
 ### Step 6 : Download jmeter plugin Manager
 - Goto lib/ext folder
@@ -66,6 +67,7 @@ curl -O https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.2.1/cmdrunner-2.2.1.ja
 cd ext/
 curl -O https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.6/jmeter-plugins-manager-1.6.jar
 ```
+![download-plugin-manager](/images/jmeter/install-cli/)
 
 ### Step 7 : Download Plugins
 - get back to lib folder and execute cmd runner with plugins 
@@ -75,9 +77,20 @@ cd ..
 java  -jar cmdrunner-2.2.1.jar --tool org.jmeterplugins.repository.PluginManagerCMD install-all-except jpgc-hadoop,jpgc-oauth,ulp-jmeter-autocorrelator-plugin,ulp-jmeter-videostreaming-plugin,ulp-jmeter-gwt-plugin,
 ```
 
-And you should see plugins installed. 
+And you should see plugins installed to jmeter. 
 
-### Step 8: Adding Jmeter in Environment
+![download-cmd](/images/jmeter/install-cli/)
+
+### Step 9: Move Jmeter to OPT
+As we are making standard installation, we need to move jmeter to the OPT folder. 
+
+``` 
+cp -r apache-jmeter-5.3 /opt/`
+```
+
+### Step 9: Put Jmeter in PATH variable
+We need to jmeter in PATH variable. You can do this in many ways, but I prefer this way. 
+- Edit ****
 
 ### PluginManagerCMD Details 
 From github [**repository**](https://github.com/undera/jmeter-plugins-manager/blob/master/src/main/java/org/jmeterplugins/repository/PluginManagerCMD.java), you can see how CMD runner processing the installation. .
