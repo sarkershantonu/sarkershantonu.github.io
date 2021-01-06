@@ -128,16 +128,10 @@ cp -r apache-jmeter-5.3 /opt/
 
 ### Step 10: Put Jmeter in PATH variable
 We need to jmeter in PATH variable. You can do this in many ways, but I prefer this way. 
-- Get your current PATH variable values 
 
-```
-echo $PATH
-```
+- See your current PATH variable values ```echo $PATH```
 
 ![path-before](/images/jmeter/install-cli/path-value-before.JPG)
-
-```/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin```
-
 
 - edit you **.profile** file to add environment variables 
 
