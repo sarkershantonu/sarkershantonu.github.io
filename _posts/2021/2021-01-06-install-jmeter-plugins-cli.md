@@ -97,7 +97,7 @@ java  -jar cmdrunner-2.2.1.jar --tool org.jmeterplugins.repository.PluginManager
 
 And you should see plugins installed to jmeter. 
 
-![download-cmd](/images/jmeter/install-cli/)
+![download-jmeter-plugins](/images/jmeter/install-cli/download-jmeter-plugins.JPG)
 
 ### Step 9: Validate Jmeter Version
 - Please check Jmeter Version. You need to goto bin folder and run jmeter executable
@@ -106,7 +106,7 @@ cd apache-jmeter-5.3/bin
 
 ./jmeter.sh --version
 ```
-
+![jmeter-version](/images/jmeter/install-cli/jmeter-version.JPG)
 
 ### Step 9: Move Jmeter to OPT
 As we are making standard installation, we need to move jmeter to the OPT folder. 
