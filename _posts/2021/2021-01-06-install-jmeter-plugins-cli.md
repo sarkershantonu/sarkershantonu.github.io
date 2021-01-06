@@ -119,9 +119,46 @@ cp -r apache-jmeter-5.3 /opt/`
 
 ### Step 9: Put Jmeter in PATH variable
 We need to jmeter in PATH variable. You can do this in many ways, but I prefer this way. 
-- Edit ****
+- Get your current PATH variable values 
+```
+echo $PATH
+```
+
+![path-before](/images/jmeter/install-cli/path-value-before.JPG)
+
+```/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin```
 
 
+- edit you **.profile** file to add environment variables 
+
+```
+nano .profile
+```
+- Add Jmeter Home variable at the end of the line 
+
+``` 
+JMETER_HOME="/opt/apache-jmeter-5.3/"
+```
+
+- Modify PATH variable at the end of the line
+
+``` 
+PATH="$JMETER_HOME/bin:$PATH"
+```
+
+- Reload your bash profile 
+
+``` 
+source ~/.profile
+```
+
+To test, lets see the path ```echo $PATH``` & we can see jmeter added
+
+![jmeter-done](/images/jmeter/install-cli/path-value-after.JPG)
+
+And let's check jmeter version by ```jmeter --version```
+
+![jmeter-done](/images/jmeter/install-cli/env-jmeter-version.JPG)
 
 We are done.
 
@@ -233,9 +270,6 @@ From https://jmeter-plugins.org/repo/ , you can see IDs of all available plugins
 Now, either you can choose **install** and select all plugin ids, or you can choose **install-all-except** & provide excluded ones. 
 
 I always exclude all UBIK plugins as they are proprietary. 
-
-### JDK installations
-
 
 ### Notes 
 1. In all download you may use ```wget``` instead of ```curl -O```
