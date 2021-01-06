@@ -99,7 +99,7 @@ And you should see plugins installed to jmeter.
 
 ![download-jmeter-plugins](/images/jmeter/install-cli/download-jmeter-plugins.JPG)
 
-### Step 9: Validate Jmeter Version
+### Step 8: Validate Jmeter Version
 - Please check Jmeter Version. You need to goto bin folder and run jmeter executable
 ``` 
 cd apache-jmeter-5.3/bin
@@ -115,11 +115,17 @@ As we are making standard installation, we need to move jmeter to the OPT folder
 cp -r apache-jmeter-5.3 /opt/`
 ```
 
+![jmeter-opt](/images/jmeter/install-cli/cp-opt.JPG)
+
 ### Step 9: Put Jmeter in PATH variable
 We need to jmeter in PATH variable. You can do this in many ways, but I prefer this way. 
 - Edit ****
 
-### PluginManagerCMD Details 
+
+
+We are done.
+
+### PluginManagerCMD Details | Optional Learning
 From github [**repository**](https://github.com/undera/jmeter-plugins-manager/blob/master/src/main/java/org/jmeterplugins/repository/PluginManagerCMD.java), you can see how CMD runner processing the installation. .
 
 In this example I am using  **install-all-except**, but you can also use 
