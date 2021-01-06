@@ -50,6 +50,7 @@ tar -xvf apache-jmeter-5.3.tgz
 ``` 
 rm -rf apache-jmeter-5.3/docs apache-jmeter-5.3/printable_docs 
 ```
+![removed-docs](/images/jmeter/install-cli/removed-docs.JPG)
 
 ### Step 5 : Download CMD Runner in lib folder
 - Goto lib folder
@@ -58,7 +59,7 @@ rm -rf apache-jmeter-5.3/docs apache-jmeter-5.3/printable_docs
 cd apache-jmeter-5.3/lib
 curl -O https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.2.1/cmdrunner-2.2.1.jar
 ```
-![download-cmd](/images/jmeter/install-cli/)
+![download-cmd](/images/jmeter/install-cli/cmd-download.JPG)
 
 ### Step 6 : Download jmeter plugin Manager
 - Goto lib/ext folder
@@ -67,7 +68,7 @@ curl -O https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.2.1/cmdrunner-2.2.1.ja
 cd ext/
 curl -O https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.6/jmeter-plugins-manager-1.6.jar
 ```
-![download-plugin-manager](/images/jmeter/install-cli/)
+![download-plugin-manager](/images/jmeter/install-cli/plugins-download.JPG)
 
 ### Step 7 : Download Plugins
 - get back to lib folder and execute cmd runner with plugins 
@@ -200,6 +201,9 @@ From https://jmeter-plugins.org/repo/ , you can see IDs of all available plugins
 Now, either you can choose **install** and select all plugin ids, or you can choose **install-all-except** & provide excluded ones. 
 
 I always exclude all UBIK plugins as they are proprietary. 
+
+### Oracle JDK8 installations
+- Download [oracle jdk](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html#license-lightbox)
 
 ### Notes 
 1. In all download you may use ```wget``` instead of ```curl -O```
