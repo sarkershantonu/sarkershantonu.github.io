@@ -12,11 +12,12 @@ comments: true
 
 In this article we are going to see how we can install Jmeter plugins in CLI linux. 
 
-This is very useful for aws, remote servers with no gui, installing over SSH, Docker configuration etc. 
+This is very useful for AWS, remote servers with no gui, installing over SSH, Docker configuration etc. 
 
 ### Step 1 : Dependencies 
 
 - Update OS Apps
+
 ``` 
 sudo apt-get update
 ```
@@ -42,6 +43,7 @@ For Debian 10/ubuntu 20, default jdk is 11. So, after installation we can valida
 ![work-dir](/images/jmeter/install-cli/work-dir.JPG)
 
 ### Step 2 : Download Jmeter 
+
 - We will use ``/opt`` to install jmeter after configuration.  I am going to use jmeter 5.3 in this example, you can use other versions. 
 
 ```
@@ -57,6 +59,7 @@ tar -xvf apache-jmeter-5.3.tgz
 ```
 
 ### Step 4: Optional : Remove Unnecessary Folders
+
 - Remove **docs**
 - Remove **printable_docs**
 
@@ -67,6 +70,7 @@ rm -rf apache-jmeter-5.3/docs apache-jmeter-5.3/printable_docs
 ![removed-docs](/images/jmeter/install-cli/removed-docs.JPG)
 
 ### Step 5 : Download CMD Runner in lib folder
+
 - Goto lib folder
 - Download current CMD runner version 2.2.1
 
@@ -78,6 +82,7 @@ curl -O https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.2.1/cmdrunner-2.2.1.ja
 ![download-cmd](/images/jmeter/install-cli/cmd-download.JPG)
 
 ### Step 6 : Download jmeter plugin Manager
+
 - Goto lib/ext folder
 - Download Jmeter plugin Manager , current version is 1.6
 
@@ -88,24 +93,28 @@ curl -O https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.6/jmeter-
 ![download-plugin-manager](/images/jmeter/install-cli/plugins-download.JPG)
 
 ### Step 7 : Download Plugins
+
 - get back to lib folder and execute cmd runner with plugins 
-- We have to exclude unwanted plugins. I am excluding  jpgc-hadoop,jpgc-oauth
+- We have to exclude unwanted plugins. I am excluding jpgc-hadoop,jpgc-oauth,ulp-jmeter-autocorrelator-plugin,ulp-jmeter-videostreaming-plugin,ulp-jmeter-gwt-plugin
+
 ```
 cd ..
 java  -jar cmdrunner-2.2.1.jar --tool org.jmeterplugins.repository.PluginManagerCMD install-all-except jpgc-hadoop,jpgc-oauth,ulp-jmeter-autocorrelator-plugin,ulp-jmeter-videostreaming-plugin,ulp-jmeter-gwt-plugin
 ```
 
-And you should see plugins installed to jmeter. 
+And you should see plugins installing to jmeter. 
 
 ![download-jmeter-plugins](/images/jmeter/install-cli/download-jmeter-plugins.JPG)
 
 ### Step 8: Validate Jmeter Version
 - Please check Jmeter Version. You need to goto bin folder and run jmeter executable
+
 ``` 
 cd apache-jmeter-5.3/bin
 
 ./jmeter.sh --version
 ```
+
 ![jmeter-version](/images/jmeter/install-cli/jmeter-version.JPG)
 
 ### Step 9: Move Jmeter to OPT
