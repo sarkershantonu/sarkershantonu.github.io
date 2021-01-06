@@ -37,6 +37,8 @@ I am going to use jmeter 5.3 in this example, you can use other versions.
 curl -O https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.3.tgz
 ```
 
+![download-jmeter](/images/jmeter/install-cli/download-jmeter.JPG)
+
 ### Step 3 : Extract Jmeter archive
 ``` 
 tar -xvf apache-jmeter-5.3.tgz 
