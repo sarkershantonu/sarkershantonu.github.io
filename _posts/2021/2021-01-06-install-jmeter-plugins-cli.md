@@ -178,7 +178,7 @@ In this example I am using  **install-all-except**, but you can also use
 - upgrades
 - help
 
-**Now, what plugins to exclude?** 
+**Now, what plugins to select /exclude?** 
 
 You can see the whole list [***here***](https://jmeter-plugins.org/repo/). If you get the IDs, you can see which are not needed. And  put those after **install-all-except** with a comma. 
 
