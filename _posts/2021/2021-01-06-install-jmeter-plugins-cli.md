@@ -141,7 +141,7 @@ nano .profile
 - Add Jmeter Home variable at the end of the line 
 
 ``` 
-JMETER_HOME="/opt/apache-jmeter-5.3/"
+JMETER_HOME="/opt/apache-jmeter-5.3"
 ```
 
 - Modify PATH variable at the end of the line
