@@ -20,4 +20,15 @@ To avoid confusion , I will refer a jmeter server as slave.
 - Master Slave communication is established by Java RMI (remote method invocation)
 - We can install a certificates for secure master-slave communication. 
 
-Prerequisite :  
+Prerequisite : 
+
+Create a Secure 
+
+
+assign port in master
+assign port in slave 
+
+define slaves in master
+
+install firewall 
+apt install ufw 
