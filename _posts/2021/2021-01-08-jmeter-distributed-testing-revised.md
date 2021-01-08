@@ -1,7 +1,7 @@
 2021-01-08-jmeter-distributed-testing-revised
 
 ---
-This is an update blog post of original posted blog from 2013 about distributed testing with jmeter. 
+This is an update of [**original  blog from 2013**](https://shantonusarker.blogspot.com/2013/01/how-to-distribute-test-in-jmeter.html) about distributed testing with jmeter. 
 
 What id distributed testing? 
 - A performance test tool simulate user behaviour and use parallel executions to simulate multi-user behaviour. This part is not easy when you are testing a big number of users. 
@@ -13,5 +13,11 @@ The way it works is :
 - One or more Slave Jmeter present which runs in a spatial mode to get instructions(load) from Master and run those as well as send results back to Master. 
 - Tester will collect results from Master without worry about how they aggregate many Slave jmeter results. 
 
+In jmeter bin folder, we can see jmeter-server.bat/jmeter-server.sh. This will allow jmeter to run as slave. Thought the name is server, but this actually put jmeter in server mode allowing remote jmeter to control execution. 
+
+To avoid confusion , I will refer a jmeter server as slave. 
+
 - Master Slave communication is established by Java RMI (remote method invocation)
-- 
+- We can install a certificates for secure master-slave communication. 
+
+Prerequisite :  
