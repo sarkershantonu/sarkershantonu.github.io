@@ -20,3 +20,6 @@ comments: true
 - [Detailed Version](https://www.dropbox.com/s/3372fobq4hyviyt/Resume_Shantanu%20Sarker_SDET_14Y_details.doc?dl=0)
 
 To download please click download button from right upper corner, no Dropbox account needed.  
+
+### Summary up to December 2020
+![summary-career](/images/shantonu/career-shantonu.JPG)
