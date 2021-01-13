@@ -16,10 +16,13 @@
 - lscpu
 - lsblk
 - df -H
-- How much RAM present 
-  
-```free -m```
+- How much RAM present /used/free 
+```
+free -m
+```
+
  This will show in megabyte. -g can be used for gigabyte & -k can be used for killobyte.  
+
 
 # Network Tools
 
