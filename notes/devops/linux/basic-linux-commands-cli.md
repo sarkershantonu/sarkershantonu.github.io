@@ -39,8 +39,15 @@ free -m
 ``` 
 sudo lsof -i -P -n | grep LISTEN
 sudo netstat -tulpn | grep LISTEN
+sudo ss -tulpn | grep ':22'
 ```
-- if you 
+- if you want to add specific pots
+
+```shell
+
+sudo netstat -tulpn | grep :443
+sudo ss -tulpn | grep ':22'
+```
 
 # How to use Grep 
 # Process Monitoring 
