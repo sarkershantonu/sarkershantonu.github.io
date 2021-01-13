@@ -63,7 +63,15 @@ sudo ss -tulpn | grep ':22'
 sudo netstat -tulpn | grep :443
 sudo ss -tulpn | grep ':22'
 ```
-- which process is listening on a port on Linux
+
+### Options 
+
+- -t : Display TCP sockets/port
+- -u : Show UDP sockets/port
+- -l : See only listening sockets i.e. open port
+- -p : Also display process name that opened port/socket
+- -n : View addresses and port numbers in a numerical format. Do not use DNS to resolve names.
+
 
 # How to use Grep 
 # Process Monitoring 
