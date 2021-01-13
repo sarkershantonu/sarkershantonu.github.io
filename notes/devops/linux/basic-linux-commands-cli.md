@@ -69,6 +69,8 @@ sudo ss -tulpn | grep ':22'
 # Process Monitoring 
 - PS
 - kill
+- top
+- stop
 
 
 # Spatial commands
@@ -78,5 +80,7 @@ sudo ss -tulpn | grep ':22'
 - head
 - tail
 - wc
+- chown
+- chmod
 
 # Manage users 
