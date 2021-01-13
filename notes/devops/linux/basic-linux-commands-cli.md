@@ -12,9 +12,17 @@
 
 # System info 
 - hmesg
-- lspci
-- lscpu
-  
+- To Know PCI device information 
+
+```
+lspci
+```
+
+- To know CPU information 
+
+```
+lscpu
+```  
 - To know how many disk/drives present in system 
 
 ```
