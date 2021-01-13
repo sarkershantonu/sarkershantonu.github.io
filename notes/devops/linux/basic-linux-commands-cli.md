@@ -34,7 +34,14 @@ free -m
 
 
 # Network Tools
-- To know free
+- To know what is running in ports
+
+``` 
+sudo lsof -i -P -n | grep LISTEN
+sudo netstat -tulpn | grep LISTEN
+```
+- if you 
+
 # How to use Grep 
 # Process Monitoring 
 - PS
