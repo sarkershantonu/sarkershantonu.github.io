@@ -34,7 +34,7 @@ free -m
 
 
 # Network Tools
-
+- To know free
 # How to use Grep 
 # Process Monitoring 
 - PS
