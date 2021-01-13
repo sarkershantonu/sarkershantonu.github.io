@@ -34,6 +34,13 @@ free -m
 
 
 # Network Tools
+- To know which services using which ports
+
+```shell
+cat /etc/services
+```
+
+
 - How to check if a port is in use on Linux
 
 ``` 
