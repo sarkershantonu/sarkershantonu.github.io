@@ -34,20 +34,21 @@ free -m
 
 
 # Network Tools
-- To know what is running in ports
+- How to check if a port is in use on Linux
 
 ``` 
 sudo lsof -i -P -n | grep LISTEN
 sudo netstat -tulpn | grep LISTEN
 sudo ss -tulpn | grep ':22'
 ```
-- if you want to add specific pots
+- How can you find out which process is listening on a port on Linux
 
-```shell
+```
 
 sudo netstat -tulpn | grep :443
 sudo ss -tulpn | grep ':22'
 ```
+- which process is listening on a port on Linux
 
 # How to use Grep 
 # Process Monitoring 
