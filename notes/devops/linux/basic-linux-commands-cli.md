@@ -14,8 +14,17 @@
 - hmesg
 - lspci
 - lscpu
-- lsblk
-- df -H
+  
+- To know how many disk/drives present in system 
+
+```
+lsblk
+```
+
+- To know how much disk space used
+```
+df -H
+```
 - How much RAM present /used/free 
 ```
 free -m
