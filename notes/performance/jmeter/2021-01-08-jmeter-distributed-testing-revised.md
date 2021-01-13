@@ -20,6 +20,12 @@ To avoid confusion , I will refer a jmeter server as slave.
 - Master Slave communication is established by Java RMI (remote method invocation)
 - We can install a certificates for secure master-slave communication. 
 
+Example : Non Secure setup:
+server.rmi.ssl.disable=false
+
+Defining Ports : 
+server.rmi.localport=4000
+server.rmi.port=1234
 Prerequisite : 
 
 Create a Secure 
