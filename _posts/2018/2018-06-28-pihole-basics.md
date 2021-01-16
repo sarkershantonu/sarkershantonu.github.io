@@ -37,7 +37,8 @@ sudo bash basic-install.sh
 
 ```
 
-### How to Change Admin Password
+### pi-hole cli commands
+- To Change Admin Password ``` pihole -a -p``` & provide a new password twice. 
 
 ### How to add your own block list
 
