@@ -1,5 +1,4 @@
 ---
-
 title: How install & use Pi-hole?
 date: "2012-06-28 05:02"
 tags: [pihole, devops, linux]
@@ -13,31 +12,37 @@ comments: true
 In this article we are going to see how we can we install and use pi-hole. 
 
 ### What is pi-hole? 
-youtube-dl is a CLI utilities for downloading videos from youtube. 
+
 
 ### How to install pi-hole
+- Using CURL 
+
+```shell
+curl -sSL https://install.pi-hole.net | bash
+```
+
+- Manually using Git 
+
+```shell
+git clone --depth 1 https://github.com/pi-hole/pi-hole.git Pi-hole
+cd "Pi-hole/automated install/"
+sudo bash basic-install.sh
+```
+
+- Manually using WGET 
+
+```shell
+wget -O basic-install.sh https://install.pi-hole.net
+sudo bash basic-install.sh
+
+```
 
 ### How to Change Admin Password
 
 # Pi-hole Admin GUI 
-- If you want to download big videos without watching
-- If you have a playlist and you want to download over night or without your control
-- If you want to download entire channel 
-- If you have a schedule job which downloads youtube videos. 
 
-### Installation 
-- Install via APT
 
-		sudo apt-get install -y youtube-dl
-- install via PIP
 
-		sudo pip install youtube-dl
-	
-- install manually (best way to get latest version)
-
-		sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl
-		sudo chmod a+x /usr/local/bin/youtube-dl
-		hash -r
 
 # Updating
 - To update 
