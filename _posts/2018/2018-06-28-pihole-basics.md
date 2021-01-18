@@ -34,7 +34,7 @@ sudo bash basic-install.sh
 ```shell
 wget -O basic-install.sh https://install.pi-hole.net
 sudo bash basic-install.sh
-
+ 
 ```
 
 ### pi-hole cli commands
