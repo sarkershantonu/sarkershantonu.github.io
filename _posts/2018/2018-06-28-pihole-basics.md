@@ -12,6 +12,12 @@ comments: true
 In this article we are going to see how we can we install and use pi-hole. 
 
 ### What is pi-hole? 
+Pihole is a DNS blocker. It blocks unwanted DNS queries requested by sites. 
+
+Now you may ask, how do I know when DNS queries are requested? You need to get back to basics of how WEB works (http/https). These are very basic 
+- [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+
+### Why pi-hole?
 
 
 ### How to install pi-hole
