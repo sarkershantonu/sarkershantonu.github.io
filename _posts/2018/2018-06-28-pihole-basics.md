@@ -1,5 +1,5 @@
 ---
-title: Block Adds using Pi-hole?
+title: Block advertisements using Pi-hole?
 date: "2018-06-28 05:02"
 tags: [pihole, devops, linux]
 permalink: /2018/06/28/pi-hole-basics/
@@ -71,9 +71,8 @@ Home Page
 [homepage](/images/pihole/home.JPG)
 
 Query Log to see blocking status. 
+
 [query](/images/pihole/q-log.JPG)
-
-
 
 
 # Updating
