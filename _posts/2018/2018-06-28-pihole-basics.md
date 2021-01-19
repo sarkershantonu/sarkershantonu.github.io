@@ -16,7 +16,7 @@ Pihole is a DNS blocker. It blocks unwanted DNS queries requested by sites.
 
 Now you may ask, how do I know when DNS queries are requested? You need to get back to basics of how WEB works (http/https). These are very basic 
 - [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
-
+- [What is DNS](https://www.cloudflare.com/learning/dns/what-is-dns/)
 ### Why pi-hole?
 
 
