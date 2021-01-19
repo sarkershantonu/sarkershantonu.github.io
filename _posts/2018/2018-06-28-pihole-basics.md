@@ -26,6 +26,7 @@ We will be using pi-hole to block
 4. Known sites where we don't allow devices to go. (harmful and know spams)
 
 This is DNS level blocking, so, it is not network blocking. If direct IP request happens, pi-hole cant stop as there is no DNS query involve. 
+
 ### How to install pi-hole
 - Using CURL 
 
@@ -56,7 +57,21 @@ sudo bash basic-install.sh
 
 
 
-# Pi-hole Admin GUI 
+# Pi-hole Admin GUI
+Home Page
+
+[home-no-login](/images/pihole/home-no-login.JPG)
+
+Login Page 
+
+[home-login](/images/pihole/home-login.JPG)
+
+Home Page
+
+[homepage](/images/pihole/home.JPG)
+
+Query Log to see blocking status. 
+[query](/images/pihole/q-log.JPG)
 
 
 
