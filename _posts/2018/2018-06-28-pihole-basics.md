@@ -1,5 +1,5 @@
 ---
-title: How install & use Pi-hole?
+title: Block Adds using Pi-hole?
 date: "2018-06-28 05:02"
 tags: [pihole, devops, linux]
 permalink: /2018/06/28/pi-hole-basics/
@@ -17,9 +17,15 @@ Pihole is a DNS blocker. It blocks unwanted DNS queries requested by sites.
 Now you may ask, how do I know when DNS queries are requested? You need to get back to basics of how WEB works (http/https). These are very basic 
 - [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 - [What is DNS](https://www.cloudflare.com/learning/dns/what-is-dns/)
+
 ### Why pi-hole?
+We will be using pi-hole to block 
+1. Advertisements 
+2. Adult Contents 
+3. Spammy sites
+4. Known sites where we don't allow devices to go. (harmful and know spams)
 
-
+This is DNS level blocking, so, it is not network blocking. If direct IP request happens, pi-hole cant stop as there is no DNS query involve. 
 ### How to install pi-hole
 - Using CURL 
 
