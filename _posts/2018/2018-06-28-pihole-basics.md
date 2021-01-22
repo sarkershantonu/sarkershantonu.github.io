@@ -16,6 +16,7 @@ Pihole is a DNS blocker. It blocks unwanted DNS queries requested by sites.
 
 Now you may ask, how do I know when DNS queries are requested? You need to get back to basics of how WEB works (http/https). These are very basic 
 - [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+- [Web - How it Works ?](https://www.tutorialspoint.com/web_developers_guide/web_how_it_works.htm)
 - [What is DNS](https://www.cloudflare.com/learning/dns/what-is-dns/)
 
 ### Why pi-hole?
@@ -26,6 +27,24 @@ We will be using pi-hole to block
 4. Known sites where we don't allow devices to go. (harmful and know spams)
 
 This is DNS level blocking, so, it is not network blocking. If direct IP request happens, pi-hole cant stop as there is no DNS query involve. 
+
+### How this is useful
+- To have filtered/clean internet
+- If you have kid in you home, its necessary. 
+- Avoid internet spam & viruses
+- Using pi-hole, we can avoid advertisements to a certain level in pc/mobile/tablet/smart tv. 
+
+### How to use in Android 
+- Usually a linux systems need root privilege to change DNS address. To make life easy, you can use any of [these apps](https://play.google.com/store/search?q=dns%20changer&c=apps). I am using [this app](https://play.google.com/store/apps/details?id=com.frostnerd.dnschanger)
+### How to use in IOS
+
+### How to use in Windows 
+
+### Notes 
+- Usually DNS queries are cached. So, before applying this your device ,please either clear DNS cache or reboot(this should clear DNS cache).
+- You may need admin rights to make changes in DNS address 
+- You can use pi-hole address in your router, in that case, you don't need to change DNS address to any device manually. All devices connected to router will go through pi-hole. 
+
 
 ### How to install pi-hole
 - Using CURL 
