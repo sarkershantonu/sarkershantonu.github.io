@@ -1,0 +1,1 @@
+In this article we are going to learn basics about linux folder structure. I am using ubuntu 
