@@ -1,0 +1,13 @@
+---
+layout: post
+title: How to work with Window and Frames in Selenium WebDriver
+date: '2012-12-04T03:57:00.003+06:00'
+author: Shantonu Sarker
+tags:
+- Selenium WebDriver
+modified_time: '2012-12-10T01:38:45.640+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-455240721605013720
+blogger_orig_url: https://shantonusarker.blogspot.com/2012/12/how-to-work-with-windows-and-frames-in.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we will see the methods to work with Window and Frame(IFRAME elements) in selenium web driver. I use c#(VS2010). <br /><br />-To switch focus to another window by its Name.<br />&nbsp;driver.SwitchTo().Window("The name of the window to select");<br />Note : If we want to switch the focus, then we use this. Mostly used when we need to change one window to another. The name is in string format for the title of the window.<br /><br />-To switch focus to another frame by Zero based Index<br />driver.SwitchTo().Frame(0);<br />&nbsp;-To switch focus to another frame by its name or ID<br />driver.SwitchTo().Frame("ID");<br />-To switch focus to An OpenQA.Selenium.IWebDriver frame.( an object of IWebDrive)<br />driver.SwitchTo().Frame(element);<br />Note : In hear, element is a IWebElement type object. Actually its a real web element. For the element object finding, I use<br />private IWebElement element; // declaring element, outside of method<br /><br />And for switch frame parameter, I use this <br />element = driver.FindElement(By.XPath("Xpath Location")); <br />driver.SwitchTo().Frame(element);<br />Note: Xpath location is one of the popular way to identify web elements accurately.<br /><br />-To switch focus to currently focused element OR the body element [if no element focused]<br />driver.SwitchTo().ActiveElement();<br /><br />-To Select either the first frame on the page or the main document when a page contains iFrames<br />driver.SwitchTo().DefaultContent();<br /><br />-To switch to the currently active modal dialog<br />driver.SwitchTo().Alert(); <br /><br />...to be continued... thanks..:) </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
