@@ -1,0 +1,13 @@
+---
+layout: post
+title: How to change user agent in Firefox by selenium webdriver
+date: '2012-12-26T14:48:00.002+06:00'
+author: Shantonu Sarker
+tags:
+- Selenium WebDriver
+modified_time: '2013-06-30T04:28:19.195+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-5356139744021540061
+blogger_orig_url: https://shantonusarker.blogspot.com/2012/12/how-to-change-user-agent-in-firefox-by.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article , we will see the function to change user agent of Firefox using selenium webdriver. I am using c# with vs 2010.<br />From my administrating Firefox post, we know that we can change preferences. I have another post describing different user agent(how to change user agent in jmeter) . So, lets change the agent from webdriver so that when ever we need we can use Firefox to change its agent to test different behavior of a web application. <br /><br />First declare a Firefox profile. Then change <b>general.useragent.override</b> with a value(desire user agent string, any from <a href="http://www.useragentstring.com/pages/useragentstring.php" target="_blank">here </a>or <a href="http://www.user-agents.org/" target="_blank">here </a>)<br /><br />public static FirefoxProfile myFireProfile = new FirefoxProfile();<br /><br />myFireProfile.SetPreference("general.useragent.override", "our_string");<br /><br />public IWebDriver driver= new FirefoxDriver(myFireProfile);<br /><br />So, our Firefox driver initializes with new user agent .<br /><br />Thanks...:)&nbsp; </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
