@@ -1,0 +1,13 @@
+---
+layout: post
+title: How to select and deselect web element in selenium webdriver.
+date: '2012-12-07T11:43:00.002+06:00'
+author: Shantonu Sarker
+tags:
+- Selenium WebDriver
+modified_time: '2013-01-08T13:15:24.408+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-5326827642419752183
+blogger_orig_url: https://shantonusarker.blogspot.com/2012/12/how-to-select-and-deselect-web-element.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see the what are the functions needed to select and dis select any web element found by web driver. I am using c# code(vs2010) here. <br />From my previous <a href="http://shantonusarker.blogspot.com/2012/12/how-to-find-web-element-in-selenium.html" target="_blank">post</a>, we know how to find a web element. To select an web element, we need to declare select element object and then assign the found element as selected. So the code will be<br />private SelectElement myElement ;<br />element = driver.FindElement(By.XPath("String"));//finding element<br /><br />We can select an element by 3 ways.<br /><br />1. To Select the element option by the index(as determined by the "index" attribute of the element)<br />myElement.SelectByIndex(12); //Here 12 is an integer<br /><br />2. To Select all options by the text displayed<br />myElement.SelectByText("String");<br /><br />3. To Select an option by the value.<br />myElement.SelectByValue("string");<br /><br />Like as selected ,deselect  can be done in 3 ways also. <br />myElement.DeselectByIndex(12);<br />myElement.DeselectByText("string");<br />myElement.DeselectByValue("String");<br /><br />In addition, we can deselect all<br />myElement.DeselectAll();<br /><br />...Thanks...:) </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
