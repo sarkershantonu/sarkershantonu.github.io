@@ -1,0 +1,13 @@
+---
+layout: post
+title: How to drag and drop in Selenium webdriver
+date: '2012-12-18T12:20:00.001+06:00'
+author: Shantonu Sarker
+tags:
+- Selenium WebDriver
+modified_time: '2013-06-30T04:28:19.229+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-8225064635546580952
+blogger_orig_url: https://shantonusarker.blogspot.com/2012/12/how-to-drag-and-drop-in-selenium.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article, we are going to see how we can drag and drop an web element with JQuery UI.&nbsp; I am using c# with VS 2010.<br /><br />To drag and drop, first, we have to initiate two web elements which should be draggable and droppable . And then using those two web elements together we can perform an action drag and drop. So initiations will be define by driver finding elements. In code , it will be<br />private IWebElement draggable;<br />private IWebElement droppable;<br />In the test method, we have to declear them<br />draggable = driver.FindElement(By.Id("draggableIDstring"));//we can use other method like Xpath to find element, for this, see from my old posts. <br />droppable = driver.FindElement(By.Id("droppableIDstring"));<br />Then we have to perform a new action with those web elements. <br />new Actions(driver).DragAndDrop(draggable, droppable).Build().Perform();<br /><br />In here, Actions initiated by driver, performs(after build) drag &amp; drop.<br />Note: Be careful of building the new action before perform[.Build()]. Here draggable is source element and droppable is destination element. <br /><br />I will try to provide more action performing.<br /><br />Thanks...:) <br /><br /></div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
