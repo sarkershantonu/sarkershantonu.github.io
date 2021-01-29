@@ -1,0 +1,13 @@
+---
+layout: post
+title: How to Find a web element in Selenium Webdriver
+date: '2012-12-07T02:38:00.001+06:00'
+author: Shantonu Sarker
+tags:
+- Selenium WebDriver
+modified_time: '2013-01-08T13:15:34.734+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-7539633683046970958
+blogger_orig_url: https://shantonusarker.blogspot.com/2012/12/how-to-find-web-element-in-selenium.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article, we are going to see the functions needed to find a web element from a webpage from code using selenium web driver. I am using c# code to do that.<br /><br />First, every element of an webpage are following IWebElement contract(similar to web element class) . So we need to declare that. The code will be - <br />private IWebElement element;<br /><br />Now, we need to assign the element by finding using driver. We can find a web element in eight ways. <br />1. To find elements by their CSS class(web driver has different class for different type css) <br />element = driver.FindElement(By.ClassName("String"));<br /><br />2. To find elements by their cascading stylesheet (CSS) selector<br />element = driver.FindElement(By.CssSelector("string"));<br /><br />3. To find elements by their ID(maintained id in full page)<br />element = driver.FindElement(By.Id("String"));<br /><br />4. To find elements by their link text(link showing text)<br />element = driver.FindElement(By.LinkText("String"));<br /><br />5. To find elements by their name(maintained name in full page)<br />element = driver.FindElement(By.Name("String"));<br /><br />6. To find elements by a partial match on their link text(not exac match with link text)<br />element = driver.FindElement(By.PartialLinkText("String"));<br /><br />7. To find elements by their tag name<br />element = driver.FindElement(By.TagName("String"));<br /><br />8. To find elements by an XPath query<br />element = driver.FindElement(By.XPath("String"));<br /><br />Note : Xpath query is the most convenient way to use in dynamic web page. we should learn about xpath also.<br /><br />...thanks.:) .. if selenium versions updated, I will update the finding ways. </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
