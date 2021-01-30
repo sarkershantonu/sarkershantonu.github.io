@@ -1,0 +1,13 @@
+---
+layout: post
+title: Configuring JMeter Part 3 - How to configure Hosts&RMI?
+date: '2013-01-18T11:42:00.000+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:27:22.064+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-764917558377010398
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-3-how-to.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><br />In this article we are going to see how can we change property of  JMeter.<br />Jmeter has a very big number of properties. In this section we will see the RMI settings mention in <b>jmeter.propertie.</b><br /><br />&nbsp;In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named <b>jmeter.properties</b>. Open this with note pad. We can find <b>RMI</b> properties which are activated and some are not yet activated.<br /><br />- To define remote host[we have to use IP for remote]<br />remote_hosts=127.0.0.1<br />Example For Multiple Hosts<br />remote_hosts=localhost:1099,localhost:2010<br />[With Port, multiple assign]<br />remote_hosts=192.168.1.28:1099,192.168.1.54:1099<br />[Different workstations ] <br /><br />-To define RMI port to be used by the server (must start rmi registry with same port)<br />server_port=1099<br />-To Change the port to 5555<br />- set server_port=5555<br />- start rmiregistry with port 5555<br />For windows<br />SET SERVER_PORT=5555<br />JMETER-SERVER<br />For Unix:<br />SERVER_PORT=5555 jmeter-server<br />On the client:<br />- set remote_hosts=server:5555<br /><br />-To set RMI port used by the RemoteSampleListenerImpl[Default 0 means randomly assigned]<br />client.rmi.localport=0 <br /><br />-To use a specific port for the JMeter server engine(before starting the server)<br />server.rmi.localport=5555<br /><br />-To change the default port (1099) used to access the server:<br />server.rmi.port=1234 <br /><br />-To stop the server creating the RMI registry:<br />server.rmi.create=false <br /><br />-To exit after the first test<br />server.exitaftertest=true <br /><br /><div class="MsoNormal">-To start mirror server on the port</div><div class="MsoNormal">mirror.server.port=8081<br /><br />Thanks..:) </div></div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
