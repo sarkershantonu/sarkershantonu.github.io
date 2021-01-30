@@ -1,0 +1,13 @@
+---
+layout: post
+title: Configuring JMeter Part 17 - Mailer Model/Load sampler
+date: '2013-01-21T02:50:00.001+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:27:21.998+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-2782722778349136238
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-17-mailer.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">&nbsp;In this article we are going to see how can we configure jmeter by changing property of  JMeter. In this section we will see the different settings for<b> Mailer Model/Load sampler</b> in <b>jmeter.properties.</b><br /><br />In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named <b>jmeter.properties</b>. Open this with note pad.<br /><br />----------------Mailer Model configuration-------<br />(It is kind of Listener, it will be useful if we integrate mailing system/logging )<br /><br />-To set the number of successful samples before a message is sent<br />mailer.successlimit=2<br /><br />-To set Number of failed samples before a message is sent<br />mailer.failurelimit=2<br /><br />------------------- LDAP <b>Sampler </b>configuration----------------------------<br />-To set the Max number of search results to be sorted(0=turn off all sorting)<br />ldapsampler.max_sorted_results=1000<br /><br />-To set the Number of characters to log for each of three sections (a value of 100 means a maximum of 300 characters of diff text will be displayed)<br />assertion.equals_section_diff_len=100<br />Note:A number of extra characters needed like "..." and "[[["/"]]]" which are used to decorate it.<br /><br />-To set test written out to log to signify start/end of diff delta<br />assertion.equals_diff_delta_start=[[[<br />assertion.equals_diff_delta_end=]]]<br /><br />I will try to provide example for this part.<br />...Thanks..:) <br /><br /><br /></div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
