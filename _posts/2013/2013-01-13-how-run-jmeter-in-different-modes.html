@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'How run JMeter in different modes? '
+date: '2013-01-13T07:07:00.002+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:28:19.233+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-8463727795173645135
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/how-run-jmeter-in-different-modes.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to learn how to run JMeter in different mode or ways. This is introductory article for novice users. <br /><br />After downloading JMeter , in the bin directory if we run<br /><br />jmeter.bat [Run JMeter with GUI]<br />jmeter-n.cmd [run a non-GUI test dropping a JMX file]<br />jmeter-n-r.cmd [run a non-GUI test remotely dropping a JMX file]<br />jmeter-t.cmd&nbsp; [drop a JMX file on this to load it with GUI]<br />jmeter-server.bat [start JMeter in server mode]<br />mirror-server.cmd [runs the JMeter Mirror Server in non-GUI mode]<br />shutdown.cmd [Stops a non-GUI instance gracefully]<br />stoptest.cmd - [Stop a non-GUI instance abruptly]<br /><br />Note: the special name LAST can be used with jmeter-n.cmd, jmeter-t.cmd and jmeter-n-r.cmd and means the last test plan that was run interactively.  <br /><br />We can override JVM settings using JVM_ARGS in the jmeter.bat script.<br />For example:  <br /><pre>set JVM_ARGS="-Xms1024m -Xmx1024m -Dpropname=propvalue"<br />jmeter -t test.jmx ...&nbsp;</pre><pre>&nbsp;</pre>To edit the jmeter shell script using JVM_ARGS(if JVM options are not supported by current JVM) For example:  <br /><pre>JVM_ARGS="-Xms1024m -Xmx1024m" jmeter -t test.jmx [etc.]<br /><br /></pre>This two i have not used yet, but I am configuring JMeter for my current work, so when ever I have finished, I will add an example with changed environment variable(JVM_ARGS)<br /><br />There is another way to run jmeter in expert mode . If we edit the following line as true and enable it in <b>jmeter.properties</b> file. It will work. <br />-To Turn expert mode on/off [It will show expert-mode beans and properties]<br />jmeter.expertMode=true<br /><br />Thanks...:)</div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
