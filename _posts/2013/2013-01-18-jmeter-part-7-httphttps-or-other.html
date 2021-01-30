@@ -1,0 +1,13 @@
+---
+layout: post
+title: Configuring JMeter Part 6 - HTTP/HTTPS or other Protocols?
+date: '2013-01-18T13:53:00.002+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:27:21.990+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-2126524899448878317
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/jmeter-part-7-httphttps-or-other.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see how can we configure jmeter by changing property of  JMeter.<br />Jmeter has many of properties. In this section we will see the protocol settings in <b>jmeter.propertie.</b><br /><br />In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named <b>jmeter.properties</b>. Open this with note pad. We can find various properties which are activated and some are not yet activated. <br /><br /><b>------HTTPS/SSL Section---</b> <br />- To enable/Disable SSL session sharing <br />https.sessioncontext.shared=true<br /><br />-To set Default HTTPS protocol level<br />https.default.protocol=TLS<br />Note : we can set&nbsp; SSLv3 here<br /><br />-To Enable multiple HTTPS protocols (Careful before doing):<br />https.socket.protocols=SSLv2Hello SSLv3 TLSv1<br /><br />-To reuse cache in SSL[false will reset cache]<br />https.use.cached.ssl.context=true<br /><br />-To set Start/End index for keystores with many entries[Default is 0]<br />https.keyStoreStartIndex=0<br />https.keyStoreEndIndex=0<br /><br /><br /><b>------HTTP Section---</b> <br /><br />-To set retry 3 times of HTTP Java sampler<br />http.java.sampler.retries=3<br /><br />-To define Http Client parameters (Commons/Apache)<br />httpclient.parameters.file=httpclient.parameters<br />hc.parameters.file=hc.parameters<br />[Note : See httpclient.parameters/hc.parameters file in bin folder]<br /><br />-To set the socket timeout 200(ms)[No time out is 0]<br />httpclient.timeout=200<br /><br />-To Set the http version [defaults to 1.1]<br />httpclient.version=1.0<br /><br />-To Define characters per second [Grater 0 to emulate slow connections]<br />httpclient.socket.http.cps=0<br />httpclient.socket.https.cps=0<br /><br />-To enable loopback<br />httpclient.loopback=true<br /><br />-To Define the local host address to be used for multi-homed hosts(multi agent running)<br />httpclient.localaddress=1.2.3.4<br /><br />-To set retry count on http 3 or 4&nbsp; <br />httpclient3.retrycount=1<br />httpclient4.retrycount=1<br /><br /><div class="MsoNormal"></div>..Thanks...:)... </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
