@@ -1,0 +1,13 @@
+---
+layout: post
+title: Configuring JMeter Part 12 - BeanShell Server
+date: '2013-01-20T18:38:00.001+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:27:22.060+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-7531350145135313842
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-12-beanshell.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see how can we configure jmeter by changing property of  JMeter. In this section we will see the different mode settings for<b> TCP Sampler</b> in <b>jmeter.propertie.</b><br /><br />In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named <b>jmeter.properties</b>. Open this with note pad. Search for tcp sampler section in notepad and get the following.<br /><br />For primary idea on BeanShell Server, please follow the structure <a href="http://www.beanshell.org/manual/remotemode.html" target="_blank">here </a>and if you interested in an example server, you may see <a href="http://www.beanshell.org/examples/httpd.html" target="_blank">this</a>. It can be used while running test remotely.&nbsp; <br /><br />-To Define the port number as non-zero to start the http BeanShell Server on that port<br />beanshell.server.port=9000<br />[Note : The telnet server will be started on the next port]<br /><br />-To Set the server initialization file(in path)<br />beanshell.server.file=../extras/startup.bsh<br /><br />-To Define a file(path) to be processed at startup<br />beanshell.init.file=<br />[Path is not given, it will use own interpreter]<br /><br />-To set the initialization files for BeanShell Sampler, Function and other BeanShell elements<br />beanshell.sampler.init=BeanShellSampler.bshrc<br />beanshell.function.init=BeanShellFunction.bshrc<br />beanshell.assertion.init=BeanShellAssertion.bshrc<br />beanshell.listener.init=etc<br />beanshell.postprocessor.init=etc<br />beanshell.preprocessor.init=etc<br />beanshell.timer.init=etc<br />[Note : Beanshell test elements do not share interpreters. Each element in each thread has its own interpreter. This is retained between samples.The file BeanShellListeners.bshrc contains sample definitions of Test and Thread Listeners. ]<br /><br />...Thanks..:) </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
