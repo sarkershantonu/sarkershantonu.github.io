@@ -1,0 +1,14 @@
+---
+layout: post
+title: How to find a webelement or webelements in Robotium?
+date: '2013-05-20T09:07:00.000+06:00'
+author: Shantonu Sarker
+tags:
+- Robotium
+- Android
+modified_time: '2013-06-30T04:26:38.294+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-3832109773210921659
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/05/how-to-find-webelement-in-robotium.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we will see the functions used for getting a web element from a web application using Robotium while doing testing.<br /><br />We need to initiate the Solo object. After initiation, we will uses solo to get those.<br /><br /><b>For Single web element :&nbsp;</b><br /><br />Solo object have a function named&nbsp; solo.getWebElement(), where we use two parameter to get element. First parameter is for element finder(By object) and 2nd one is the index(nth found), So <br />-The function returns a web element <br />-We need to specify By object( the object finder)<br />-We need to specify index.  (Zero based integer index and in here 0 means found 1)<br /><br />-To select a web element by its class name(Actually it is the type name defines what type of web element that is, like button, text box etc) <br /><i>solo.getWebElement(By.className("Textbox"),0);</i><br /><br />-To select a web element by its css selector<br />solo.getWebElement(By.cssSelector("CSSAsString"),0);<br /><br />-To select a web element by its ID<br />solo.getWebElement(By.id("idAsString"), 0);<br /><br />-To select a web element by its&nbsp; Name<br />solo.getWebElement(By.name("NameAsString"), 0);<br /><br />&nbsp;-To select a web element by itsTag Name<br />solo.getWebElement(By.tagName("tagNameAsString"), 0);<br /><br />-To select a web element by its text content<br />solo.getWebElement(By.textContent("contentAsString"), 0);<br /><br />-To select a web element by its Xpath <br />solo.getWebElement(By.xpath("xpathAsString"), 0);<br /><br /><b>For Multiple web element :&nbsp; </b><br /><br />There are two function,<br /><br />1. <i>solo.getCurrentWebElements(By.[--by xpath or above items--])</i><br />This is just multiple version of previous single web element finding<br /><br />2. <i>solo.getCurrentWebElements();&nbsp;</i><br /><br />For both cases they provide an array list of WebElements displayed in the active WebView.<br /><br />Thanks..:)</div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
