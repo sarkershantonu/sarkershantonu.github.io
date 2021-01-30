@@ -1,0 +1,13 @@
+---
+layout: post
+title: Regular Expression with Jmeter Function
+date: '2013-05-23T01:04:00.000+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:25:57.770+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-4830161117107645753
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/05/regular-expression-with-jmeter-function.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see how we can use regular expression with a function to retrieve information from response data. We will see full detail of the function.<br /><br /><i>${__regexFunction((?i).*?abcd.*,$2$,ALL,,,ReturnOnNoMatch,myVariable,InputVariableTextToParse)}</i><br /> <br />This is the function with Seven Parameters. <br /><br />First Parameter(mandatory) :The regular expression which will be applied to response data. It grabs all the matches. <br /><br />Second Parameter(mandatory) : This is the template string that will replace the function at run-time. To refer to a group captured , we need to use the syntax: $[group_number]$. Ie: $1$, or $2$.<br /><br />Third Parameter : We have to insert our choice of matching in here for the use in case of multiple matches.We can choose in 4 ways. <br />An integer - Tells JMeter to use that match. '1' for the first found match, '2' for the second, and so on<br />RAND - Tells JMeter to choose a match at <b>random</b>.<br />ALL - Tells JMeter to use <b>all matches</b>, and create a template string for each one and then append them all together.<br />A float number between 0 and 1 - tells JMeter to find the Xth match using the formula: (number_of_matches_found * float_number) <b>rounded to nearest integer</b><br /><br />Fourth Parameter : If ALL selected from 3rd, this argument item(character/string) will be added between every value during append<br /><br />Fifth Parameter :&nbsp; Default returning value if no match found<br /><br />Sixth Parameter : A reference name for reusing the values parsed by this function. Stored values are ${myVer}&nbsp; and ${myVer_g#} where "#" is the group number from the regular expression ("0" can be used to refer to the entire match).<br /><br />Seventh Parameter :&nbsp; Input variable name. If specified, then the value of the variable is used as <b>the input instead of using the previous sample result.</b><br /><br />-It can also store variable for further use<br />-As it can use reference variable, we can use previous results as parameters. <br />-Vastly used for quick data and report processing.<br /><br />Thanks..:) </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
