@@ -1,0 +1,13 @@
+---
+layout: post
+title: How to write log in jmeter?
+date: '2013-05-22T17:05:00.001+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:26:38.283+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-2593126454373832131
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/05/how-to-write-log-in-jmeter.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see functions of jmeter used for writing custom Log while running jmeter test. As, default log is stored in /bin/jmeter.log file, this will store in there.<br /><br />There ate two functions are used for running custom jmeter logs.&nbsp; <br /><br />1.<i> ${__log(StringForLogAndReturn,DEBUG,Text thrown,Comments)}</i><br />-It has 4 parameter<br />-it provides a string as output and logs the string<br />-The first parameter(<i>StringForLogAndReturn</i>) is only mandatory parameter. Text in here will be logged and return as function return. So, we can use this for console output also.<br />- 2nd parameter for LOG LEVEL, means which level of log will be written. There are<br />OUT , it will show log to command line(java System.out).<br />ERR ,it will show log to System.err(systems error log)<br />DEBUG , Only provides digging info(helpful for post/pre processors)<br />INFO, this is default log from jmeter<br />WARN or ERROR , Only warning messages<br />-3rd parameter is used to throw(like exception) a throw-able to the logger if it is non empty. That means, we can throw an exception along with log by this.<br />-4th parameter is comments. It is typical user comments.<br /><br /><br />2. <i>${__logn(StringForLogAndReturn,DEBUG,Text thrown)}</i><br />-It has 3 parameter<br />-it logs the string but provides an empty string.<br />- Like as __log, all parameters are same except it does not have comments as parameter. <br /><br />Both are used in<br />-When we need to debug steps /requests/processing logs<br />-When we want to know detail information about what happened during execution<br />-When we are skipping all listeners and wan to see the errors(or our specific info) only<br />-When we want extracted information/parameters in the log(we can use variable inside every parameter) <br /><br />Thanks...:)</div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
