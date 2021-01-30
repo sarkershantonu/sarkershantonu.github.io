@@ -1,0 +1,14 @@
+---
+layout: post
+title: How to insert text / type in Robotium?
+date: '2013-05-29T02:52:00.003+06:00'
+author: Shantonu Sarker
+tags:
+- Robotium
+- Android
+modified_time: '2013-06-30T04:25:57.766+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-4734676433928237609
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/05/how-to-insert-text-type-in-robotium.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see how to insert a text or data using at an  Android device while performing Unit Testing using robotium  framework. Android handles those keys like as soft key board.<br /><br />We need to initiate the Solo object. After initiation, we will uses solo to get those.<br /><br />-To enter a <b>text </b>to a <b>specific editable text area</b> (EditText object) . In here myEditText is the EditText item<br /><i>solo.enterText(myEditText, "InputString");</i><br /><br />-To enter a <b>text </b>to a <b>index</b>(0 based) of a editable text area&nbsp; <br /><i>solo.enterText(1,"MyString");</i><br /><br />-To enter a <b>text </b>in a <b>specific web element</b> . Use any one By method to get web element.<br /><i>solo.enterTextInWebElement(By.id("uid"), "shantonu");</i> <br /><br />Like as Entering Text,, we can type the text also. The basic difference, it will keep a delay as well as use different event in android. <br /><br />-To type a <b>text </b>in a <b>specific editable text</b> area (EditText object)<br /><i>&nbsp;solo.typeText(myEditText, "StringToType");</i><br /><br />-To type a <b>text </b>to a <b>index</b>(0 based) of a editable text area <br /><i>solo.typeText(0, "StringToType");</i><br /><br />-To enter a <b>text </b>in a specific<b> web element </b>. Use any one <b>By </b>method to get web element.<br /><i>solo.typeTextInWebElement(By.id("uid"), "StringToType");</i><br /><br /><br />-To enter a <b>text </b>in a specific <b>web element object</b>. myWebElement is a web element object. <br /><i>solo.typeTextInWebElement(myWebElement, "StringToType");</i><br /><br /><br />-To enter a <b>text </b>in a specific <b>web element </b>and <b>index</b>(0 based) of <b>matches</b>. Use any one By method to get web element.<br /><i>solo.typeTextInWebElement(By.id("uid"), "StringToType", 0);</i><br /><br />Thanks..:)&nbsp; </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
