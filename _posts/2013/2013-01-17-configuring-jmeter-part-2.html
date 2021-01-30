@@ -1,0 +1,13 @@
+---
+layout: post
+title: Configuring JMeter Part 2 - How to configure HTTP sampler?
+date: '2013-01-17T17:33:00.000+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:27:22.043+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-6705673589087352986
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-2.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In here we are going to see the continuation of&nbsp; configure JMeter post. We will see how to change settings of HTTP sampler .<br /><br />In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named <b>jmeter.properties</b>. Open this with note pad. We can find various properties which are activated and some are not yet activated. If we change settings by editing following. <br /><br />-To set Max redirects in a single sequence[default 5]<br />httpsampler.max_redirects=5<br /><br />-To set Max frame/iframe nesting depth[default 5]<br />httpsampler.max_frame_depth=5<br /><br />-To set Max await timeout (sec) when concurrent download embedded resources (default 60)<br />httpsampler.await_termination_timeout=60<br /><br />-To set no separate container for embedded resources<br />httpsampler.separate.container=true<br /><br />-To set ignore download fails<br />httpsampler.ignore_failed_embedded_resources=false<br /><br />Thanks..:) </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
