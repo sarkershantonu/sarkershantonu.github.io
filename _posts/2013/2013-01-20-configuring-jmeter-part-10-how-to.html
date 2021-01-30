@@ -1,0 +1,13 @@
+---
+layout: post
+title: Configuring JMeter Part 10 - How to configure batch processing?
+date: '2013-01-20T15:08:00.001+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:27:22.006+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-4237493078426235607
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-10-how-to.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><br />In this article we are going to see how can we configure jmeter by changing property of  JMeter. In this section we will see the different mode settings for <b>batch processing</b> in <b>jmeter.propertie.</b><br /><br />In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named <b>jmeter.properties</b>. Open this with note pad.<br /><br />-To set Sample sender configuration [true = client (default), false=server]<br />sample_sender_client_configured=true<br /><br />-To set remote batching support<br />&nbsp;mode=Standard<br />[Other values :&nbsp; <br />Standard= returns each sample synchronously(default) <br />Hold = retains samples until end of test (need memory)<br />Batch = returns samples in batches<br />Statistical = returns sample summary statistics<br />Spatial combined values : Stripped, StrippedBatch. <br />&nbsp;StrippedBatch mode will remove some data from the SampleResults as the response body and it will send Sample Results as Batches (low resource using) ]<br /><br />&nbsp;-To load a class of an implementation of org.apache.jmeter.samplers.SampleSender<br />mode=org.example.load.MySampleSender<br /><br />-To Set key statistical samples on threadName (false for threadGroup)<br />key_on_threadname=true<br /><br />[DiskStore: For Hold mode, but serialises the samples to disk, rather than saving in memory]<br />mode=DiskStore<br />Note: the mode is currently resolved on the client, other properties (e.g. time_threshold) are resolved on the server.<br /><br />-To set for holding samples up to 100<br />hold_samples=true<br />num_sample_threshold=100<br /><br />-To set threshold time(ms)<br />time_threshold=60000<br /><br />[Asynchronous sender: To use a queue and background worker process to return the samples]<br /><br />-To set queue size to 100 [Asynch Mode]<br />asynch.batch.queue.size=100<br /><br />-To set the Monitor Health Visualizer buffer size to 800<br />monitor.buffer.size=800<br /><br />...Thanks..:) </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
