@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'Configuring JMeter Part 13 - Path and Properties '
+date: '2013-01-20T18:55:00.000+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:27:21.978+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-1879090038967547353
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-13-path-and.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see how can we configure jmeter by changing property of  JMeter. In this section we will see the different mode settings for<b> class path and properties</b> in <b>jmeter.propertie.</b><br /><br />In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named <b>jmeter.properties</b>. Open this with note pad. <br /><br />----------------------- Classpath configuration-------------------------------<br />-To define for searching jmeter Extensions(Do not use this for utility jars, ). These are just addional to default lib/ext. <br />search_paths=/app1/lib;/app2/lib<br /><br />-To define additional class path for utility jars or JUnit test cases<br />user.classpath=../classes;../jars/jar1.jar<br /><br /><br />-To specify the class finder for GUI/Non GUI mode classes.<br />classfinder.functions.contain=.functions.<br />classfinder.functions.notContain=.gui.<br />[ Comment those if there any problem<br />Note : The classpath finder currently needs to load every single JMeter class to find the classes it needs.For non-GUI mode, it's only necessary to scan for Function classes, but all classes<br />are still loaded. In here, I used , .gui for GUI mode classes and .function Non-Gui Mode.]<br /><br />-----------------------Additional property files to load-----------------------------<br />-To set additional properties . we can change by wither editing those  property file or assign those property with our custom property file and  assign them here.<br /><i>user.properties=user.properties<br />system.properties=system.properties</i><br />[Note, if we assign those, it will look for it, if not(disabled), this two file will be ignored]<br /><br />... Thanks...:)</div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
