@@ -1,0 +1,13 @@
+---
+layout: post
+title: How ro run JMeter with a proxy?
+date: '2013-01-13T07:17:00.002+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:28:19.171+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-244583802944785903
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/how-ro-run-jmeter-with-proxy.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article, we will see how to run JMeter for testing a web application under proxy environment. This article is for novice who are learning jmeter.<br /><br />If we need to run JMeter with a web proxy (in the network) ,  we need to run the jmeter.bat/jmeter file from a command line with the following parameters<br /><br />jmeter -H <my .proxy.server=".proxy.server"> -P <portname> -u <username> -a <password> -N <localhost>&nbsp;</localhost></password></username></portname></my><br /><br />In here<br />-H [proxy server hostname or ip address] <br />  -P [proxy server port] <br />  -N [nonproxy hosts] (e.g. *.apache.org|localhost) <br />  -u [username for proxy authentication - if required] <br />  -a [password for proxy authentication - if required]&nbsp;<br /><br />And those &lt;&gt;, need values.&nbsp; <br /><br />Thanks...:) </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
