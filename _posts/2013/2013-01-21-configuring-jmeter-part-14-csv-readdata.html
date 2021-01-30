@@ -1,0 +1,13 @@
+---
+layout: post
+title: Configuring JMeter Part 14 - CSV Read/Data Set/Time
+date: '2013-01-21T01:32:00.002+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:27:21.974+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-1713493469881991897
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-14-csv-readdata.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">&nbsp;In this article we are going to see how can we configure jmeter by changing property of  JMeter. In this section we will see the different mode settings for<b> CSVRead , Data Set</b> and Time in <b>jmeter.properties.</b><br /><br />In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named <b>jmeter.properties</b>. Open this with note pad. <br /><br />- to&nbsp; set the separator&nbsp; characters, or these will be included in the list of valid delimiters<br />csvread.delimiter=,<br />Note: Default is Comma ",". Other values are ; , !, ~, \t<br /><br />-To set a String to return at EOF (if recycle not used)<br />csvdataset.eofstring=<eof></eof><br /><eof><br /></eof><eof>-To define the default formats of _time() configuration. </eof><br /><eof>time.YMD=yyyyMMdd</eof><br /><eof>time.HMS=HHmmss</eof><br /><eof>time.YMDHMS=yyyyMMdd-HHmmss</eof><br /><eof>time.USER1=</eof><br /><eof>time.USER2=</eof><br /><eof><br /></eof><eof>...Thanks..:) </eof></div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
