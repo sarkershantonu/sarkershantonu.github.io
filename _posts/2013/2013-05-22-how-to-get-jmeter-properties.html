@@ -1,0 +1,13 @@
+---
+layout: post
+title: How to access Jmeter Properties ?
+date: '2013-05-22T21:09:00.004+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:25:57.810+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-7538446549358319355
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/05/how-to-get-jmeter-properties.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">As we know previously , we can change jmeter properties by editing properties files stored in /bin directory. I have a full 18 posts for all type of property definitions. In this section , we will see that how can we read and write the properties while jmeter is running.<br /><br />Jmeter has three build in function doing that. They are as follows<br />&nbsp; <br />1.&nbsp; <i>${__property(remote_hosts,myVariable,127.0.0.1)}</i><br /><br /><br />-It returns a value of jmeter property(<i>remote_hosts)</i>. If the value is not present in the file, default value will be given.<br />- It has 3 parameter, first one is property name(mandatory) , second one is the variable name where to store, third one the default value of the property.<br />-If we do not use the 2nd and third one, it will give the value of the property.<br />Ex- <i>${__property(user.dir)}</i> - returns user.dir value as string<br />-If we use 1st and 2nd parameter, the return value will be saved to the variable mentioned in2nd parameter. It is same if whether we use third one or not.<br />-Default is returned if there is no value. <br /><br />Note : To get default values, we don't need to define function names or parameters.<br /><br />2.&nbsp; <i>${__P(remote_hosts,127.0.0.1)}</i><br /><br />-This is same as previous one but we can not store in a variable. So, except the variable parameter, it has property name(mandatory) &amp; default. <br />-If no default value give, it assumes 1(use for loop, thread and others) <br />-It is mainly used in command line to get the property values. <br /><br />3.&nbsp; <i>${__setProperty(remote_hosts,127.0.0.1,True)}</i><br /><br />-This is opposite functionality as _property. We can set a property with values.<br />-It has 3 parameter, first one is property name(mandatory) , second one is the property value to store, third one shows whether we want to return the original value. So third parameter is True/False<br />-So, if we choose False, it will return a empty string.<br />&nbsp;-It is used for changing property time to time after executing threads. <br /><br />Thanks..:) </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
