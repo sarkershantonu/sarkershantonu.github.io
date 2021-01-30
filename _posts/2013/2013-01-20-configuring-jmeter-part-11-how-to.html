@@ -1,0 +1,13 @@
+---
+layout: post
+title: Configuring JMeter Part 11-How to configure TCP Sampler?
+date: '2013-01-20T18:22:00.000+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:27:21.994+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-2749491447641771136
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-11-how-to.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see how can we configure jmeter by changing property of  JMeter. In this section we will see the different mode settings for<b> TCP Sampler</b> in <b>jmeter.propertie.</b><br /><br />In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named <b>jmeter.properties</b>. Open this with note pad. Search for tcp sampler section in notepad and get the following.&nbsp; <br /><br /><br />-To set default handler class<br />tcp.handler=TCPClientImpl<br /><br />-To set byte value 111 for end of line[it will be from -128 to +127]<br />eolByte = 111<br />-To set this to a value [outside the range -128 to +127] (to skip eol checking)<br />tcp.eolByte=1000<br /><br />-To set&nbsp; TCP Charset<br />tcp.charset=<br />[Note : It is used by  org.apache.jmeter.protocol.tcp.sampler.TCPClientImpl default to Platform  defaults charset as returned by Charset.defaultCharset().name().]<br /><br />-To set status.prefix(start with the string, in here <i>Status=</i>) and suffix (strings for enclose the status response code, in here Full stop.)<br />tcp.status.prefix=<i>Status=</i><br />tcp.status.suffix=<i>.</i><br /><br /><br />-To specify status.properties (property file to convert codes to messages)<br />tcp.status.properties=mytestfiles/tcpstatus.properties<br /><br />-To set length prefix (for LengthPrefixedBinaryTCPClientImpl implementation)[2 is default]<br /><br />tcp.binarylength.prefix.length=2<br /><br />Note : In that part, I could not use all. I will try this with an example later on.<br /><br />..Thanks..:) </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
