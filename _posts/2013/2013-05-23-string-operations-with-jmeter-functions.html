@@ -1,0 +1,13 @@
+---
+layout: post
+title: String operations with jmeter functions
+date: '2013-05-23T00:23:00.001+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:25:57.753+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-3270874116290453827
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/05/string-operations-with-jmeter-functions.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see some necessary string operations that can be done using jmeter function.<br />Jmeter provides a lots of functions for operation over string/data. Some technique are describe below. <br /><br />1. <i>${__escapeOroRegexpChars([^"].+?,MyVer)}</i><br />-This will escape the ORO Regexp meta characters to java \Q\E Regexp engine. From example, it will be \[\^\"\]\.\+\?<br /><br />&nbsp;-It has two parameter, first one(mandatory) the string to escape and the second one is the variable name to save.<br /><br /><i>2. ${__char(65)</i><br />-This function converts from a integer value(parameter) to Unicode character . In the example, it will give A. <br />- The parameter value is integer(default Decimal, can be Hex, binary, octal)<br />-This allows us to add characters to a field.<br />-Helpful for identifying items. <br /><i>3. ${__unescape(\t\n\r)}</i><br />-The __unescape function returns a string result of evaluating a Java-escaped string like as __char() above.<br />-It has one parameter which is mandatory. This is more like Jaca-escaped string. <br />-This allows&nbsp; us to add characters to a field.<br />-Helpful for identifying items. <br /><br /><br /><i>4. ${__escapeHtml( "Shantonu" &amp; "Test" )}</i><br />-It escapes characters in a string using HTML entities,<br />-It supports HTML 4.0<br />-It has one parameter, the string to escape. This function will hide spatial string (our chosen) and shown with HTML formatting. The example will be converted in to<br /><i>"Shantonu" &amp; "Test"</i><br /><br /><i>5. ${__unescapeHtml("Shantonu" &amp; "Test")}</i><br />-It is opposite of Escape HTML , so&nbsp; we will give HTML formatted text and get string formatted data.<br />From the example we will get <i>"Shantonu" &amp; "Test"</i><br /><br /><br />Thanks..:) </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
