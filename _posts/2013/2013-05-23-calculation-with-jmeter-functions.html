@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'Calculation with Jmeter functions '
+date: '2013-05-23T01:46:00.000+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:25:57.744+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-1568603582495033100
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/05/calculation-with-jmeter-functions.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see the function in Jmeter used for Calculations. Calculation like randomizing, incremental, simple adding etc.&nbsp; <br /><br /><i>${__counter(FALSE,myVeriable)}</i><br />This is a simple counter that increments in +1.<br />-It uses Integer variable , so limit is 2147482647<br />-Counter function is fully independent&nbsp; <br />-It has 2 parameter, First one(mandatory) take TRUE/FALSE and 2nd one is the name of Variable to store the data.<br />-TRUE means, it will count user separate among users<br />-FALSE means, the count user will be globally. All users will be counted centrally.<br /><br /><i>${__intSum(4,5,myVeriable)}</i><br />-It takes minimum 2(up to nth) integer value as variable and returns result in a variable as sum of those. <br /><br /><i>${__longSum(9999999999,22222222222,myVeriable)}</i><br />-It takes minimum 2 (up to nth) Long valueas variable and returns result in a variable as sum of those.<br /><br /><i>${__UUID}</i><br />-It returns a pseudo random type 4 Universally Unique IDentifier (<a href="http://en.wikipedia.org/wiki/Universally_unique_identifier" target="_blank">UUID</a>)<br />Note: I actually have not got much information about that. <br /><br /><i>${__RandomString(5,shantonu,myVeriable)}</i><br />-It returns a random string from given set of characters(second parameter) of length(first parameter which is mandatory ) and stores in a variable(third parameter)<br /><br /><i>${__Random(1,100,myVariable)} </i><br />-It returns a random integer value from given set of range (first parameter for min &amp; second  parameter for max) stores in a  variable(third parameter) <br /><br />Thanks..:) </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
