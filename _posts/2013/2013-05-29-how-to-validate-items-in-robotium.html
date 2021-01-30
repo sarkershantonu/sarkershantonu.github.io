@@ -1,0 +1,14 @@
+---
+layout: post
+title: How to validate items in Robotium?
+date: '2013-05-29T04:05:00.002+06:00'
+author: Shantonu Sarker
+tags:
+- Robotium
+- Android
+modified_time: '2013-06-30T04:25:57.814+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-7945962480239936137
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/05/how-to-validate-items-in-robotium.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see how to validate different items at an  Android device while performing Unit Testing using robotium  framework. Basically we will check whether the item present or not. <br /><br />We need to initiate the Solo object. After initiation, we will uses solo to get those.<br /><br /><b>Check Box :</b>&nbsp; <br />-To validate(true/false) a with specific <b>Index </b>whether it is checked or not.&nbsp; <br /><i>solo.isCheckBoxChecked(0);</i><br />-To validate(true/false) a with specific <b>text </b>of the item whether it is checked or not.&nbsp; <br /><i>solo.isCheckBoxChecked("lebelText");</i><br /><br /><b>Radio Button :</b><br />-To validate(true/false) a with specific <b>Index </b>whether it is selected or not.&nbsp; <br /><i>solo.isRadioButtonChecked(0);</i><br /><br />-To validate(true/false) a with specific <b>text </b>of the item whether it is selected or not.&nbsp;&nbsp; <br /><i>solo.isRadioButtonChecked("lebelText");</i><br />&nbsp; <br /><b>Spinner Menu / Sub Menu : </b><br />-To validate(true/false) if the specific <b>text</b> is selected in any Spinner in screen.So, it returns true if that text is present <br /><i>solo.isSpinnerTextSelected("lebelText");</i><br /><br />-To validate(true/false) if the specific <b>text</b> is selected in indexed (0 based) Spinner in screen. We are just specifying the spinner here. <br /><i>solo.isSpinnerTextSelected(0, "lebelText");</i><br /><br /><b>Toggle Button :&nbsp; </b><br />-To validate(true/false) a with specific <b>Index </b>whether it is checked or not.&nbsp; <br /><i>solo.isToggleButtonChecked(0);</i><br /><br />-To validate(true/false) a with specific <b>text </b>of the item whether it is checked or not. <br /><i>solo.isToggleButtonChecked("lebelText");</i><br /><br /><br /><b>Text </b>based <b>compound button : </b><br /><br />-To Check the specific Text is checked or not. It is used with checked text box or compound button. <br /><i>solo.isTextChecked("lebelText");</i> <br /><br /><br />Note : As all are validation functions , so each function returns Boolean value(true/false). So we can use them for conditional purpose. <br /><br />...Thanks...:)</div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
