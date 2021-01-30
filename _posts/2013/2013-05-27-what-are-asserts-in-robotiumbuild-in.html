@@ -1,0 +1,14 @@
+---
+layout: post
+title: 'What are the asserts in Robotium(build in)? '
+date: '2013-05-27T19:27:00.002+06:00'
+author: Shantonu Sarker
+tags:
+- Robotium
+- Android
+modified_time: '2013-06-30T04:25:57.826+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-9052800167692016459
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/05/what-are-asserts-in-robotiumbuild-in.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see the build in asserts methods spatially come with robotium  framework. These are not predefined Java asserts, these are from solo object specified form mobile. <br /><br />After Initiating solo, we will mainly two type asserts<br /><br /><b>1. Memory checking </b>: This asserts the available memory is not low by the system. Actually, it checks whether the current system memory is running low or not. <br /><i>solo.assertMemoryNotLow();</i><br /><br />Actually this is the implementation of this : <br />ActivityManager.MemoryInfo mi = new ActivityManager.MemoryInfo();&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ((ActivityManager)activityUtils.getCurrentActivity().getSystemService("activity")).getMemoryInfo(mi);<br />Assert.assertFalse("Low memory available: " + mi.availMem + " bytes!", mi.lowMemory);<br /><br /><b>2. Activity Checking </b>: This assert is spatially for checking current activity. It has 4 overloaded methods to get this checking in 4 ways. We assume current activity = NoteEditor<br /><br />-To check current activity with specified message and name <br /><i>solo.assertCurrentActivity("Expected NoteEditor activity", "NoteEditor");</i><br /><br /><br />-To check current activity with specified message ,name and  new instance or not.<br /><i>solo.assertCurrentActivity("Expected NoteEditor activity", "NoteEditor", true);</i><br /><br />-To check current activity with specified message and Class (extracted from Name)<br /><i>solo.assertCurrentActivity("Expected NoteEditor activity",NotesList.class);</i><br /><br />-To check current activity with specified message ,Class (extracted from Name) new instance or not. <br /><i>solo.assertCurrentActivity("Expected NoteEditor activity", NotesList.class, true);</i><br /><br />Note :&nbsp; The Boolean value checks whether it is new activity or not where we use this.<br /><br />Thanks..:)&nbsp; </div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
