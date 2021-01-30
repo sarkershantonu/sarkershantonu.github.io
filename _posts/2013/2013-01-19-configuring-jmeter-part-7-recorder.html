@@ -1,0 +1,13 @@
+---
+layout: post
+title: Configuring JMeter Part 7 - Recorder Proxy Configuration
+date: '2013-01-19T18:20:00.002+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:27:22.028+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-4894834715237287260
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-7-recorder.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><br />In this article we are going to see how can we configure jmeter by changing property of  JMeter. In this section we will see the Recorder Proxy settings in <b>jmeter.propertie.</b><br /><br />In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named <b>jmeter.properties</b>. Open this with note pad. We can find various properties which are activated and some are not yet activated.<br /><br />-To set gap between HTTP requests while recording (Unit in MS)<br />proxy.pause=1000<br /><br />-To add numeric prefix Sampler names (Number of steps like 1,2) [default false]<br />proxy.number.requests=true<br /><br />-To set default HTTP Sampler (currently HttpClient4)<br />[Other Values = HTTPSampler, Java, HTTPSampler2, HttpClient3.1]<br />jmeter.httpsampler=HttpClient4<br /><br />-To set content-type include filter to use(recording filter which will be recording)<br />proxy.content_type_include=text/html|text/plain|text/xml<br />[all used as OR here, we can also use one of the like text/html]<br /><br />-To set content-type exclude filter to use(recording filter which will not be recording)<br />proxy.content_type_exclude=image/.*|text/css|application/.*<br />[all used as OR here, we can also use one of the like image/jpg]<br /><br />-To set Default headers to remove from Header Manager elements<br />[Cookie and Authorization Manager are always removed]<br />proxy.headers.remove=If-Modified-Since,If-None-Match,Host<br />[Note : We can also use any one option also]<br /><br />-To set binary content-type handling(by saving the request in a file)<br /><i>proxy.binary.types=application/x-amf,application/x-java-serialized-object</i><br />-To set directory(The files will be saved in this)<br /><i>proxy.binary.directory=user.dir</i><br />-To set file suffix(Files will be created with this filesuffix)<br /><i>proxy.binary.filesuffix=.binary </i><br /><br />To be noted, this is the proxy used for recording(local machine proxy server)<br /><br />...Thanks...:)</div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
