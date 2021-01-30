@@ -1,0 +1,13 @@
+---
+layout: post
+title: Configuring JMeter Part 9 - How to configure Parsers?
+date: '2013-01-19T19:12:00.001+06:00'
+author: Shantonu Sarker
+tags:
+- jmeter
+modified_time: '2013-06-30T04:27:22.011+06:00'
+blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-4673967186283256265
+blogger_orig_url: https://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-9-how-to.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">In this article we are going to see how can we configure jmeter by changing property of  JMeter. In this section we will see the different type of Parsers' settings in <b>jmeter.propertie.</b><br /><br />In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named <b>jmeter.properties</b>. Open this with note pad. <br /><br />---------&nbsp;HTTPSampleResponse Parser configuration/Parser selection---------<br />-To set the parsers [Space-separated list of parser groups]<br />HTTPResponse.parsers=htmlParser wmlParser<br /><br />---------- HTML Parser configuration----------<br />-To set HTML parser Class Name<br />htmlParser.className=org.apache.jmeter.protocol.http.parser.HtmlParserHTMLParser<br />[Note : This is Default parser, Other parsers:<br />org.apache.jmeter.protocol.http.parser.JTidyHTMLParser<br />org.apache.jmeter.protocol.http.parser.RegexpHTMLParser]<br /><br />-To set pursing file type<br />htmlParser.types=text/html application/xhtml+xml application/xml text/xml<br /><br />------------WML Parser configuration------------<br />-To define pursing class(we can use our own developed purser class)<br />wmlParser.className=org.apache.jmeter.protocol.http.parser.RegexpHTMLParser<br /><br />-To set pursing file type(default, text type, vnd.wap.wml)<br />wmlParser.types=text/vnd.wap.wml&nbsp; <br /><br />... Thanks...:)</div><div class="blogger-post-footer">Thanks for reading my personal blog. contact: shantonu_oxford@yahoo.com</div>
