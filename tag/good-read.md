@@ -8,21 +8,33 @@ meta-description: "Test developer with a Bsc in Computer Science"
 comments: true
 ---
 # Technical Books
-## English Books
 ### Data Structure & Algorithm
-### Programming Java
+- Down to programming contest
+
+### Programming & Architecture
 - OOAD
+- Clean Code
+- Clean Architecture
+- The Clean Coder
 - 
 
-### Programming C++
+### Programming Java
+- Java Complete Reference
+- Head First Java
 
+### Programming C++
+- Understanding C
+- Pointers in C
 
 ### Programming Python
 
 ### Programming C#
 
+### Database
 
 
-### 
-## Bangle Books
+### System Analysis & Design
+
+### Linux
+
 
