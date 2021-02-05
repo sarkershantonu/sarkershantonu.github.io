@@ -20,3 +20,4 @@ This page contains all post related to Linux/Ubuntu Administration.
 ### Basic Administration 
 - [How to connect Ubuntu Desktop Remotely](http://shantonusarker.blogspot.com/2013/10/connect-Ubuntu-server-Desktop-Remotely-vnc-rdp-windows.html)
 - [How to change IP in Ubuntu 20.04LTS](https://sarkershantonu.github.io/2020/06/11/ubuntu-ip-change/)
+- [How to change hostname in Ubuntu](https://sarkershantonu.github.io/2019/04/16/ubuntu-host-name-change/)
