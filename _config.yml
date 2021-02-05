@@ -38,7 +38,7 @@ navbar-links:
     - Dev setup: "tag/dev-env"
     - Tools: "tag/tools"
     - Docker: "tag/docker"
-    - LinuxAdmin: "tag/linux-admin"
+    - LinuxAdmin: "tag/linux"
   About: 
     - Shantonu: "aboutme"
     - Experience : "cv/details/index.html"
