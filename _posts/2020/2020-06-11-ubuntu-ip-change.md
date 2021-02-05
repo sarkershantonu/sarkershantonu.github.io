@@ -55,7 +55,8 @@ Now we know, this VM network interface is not managed by CloudInit.
 ```shell
  sudo nano /etc/netplan/00-installer-config.yaml
 ```
-I am changing from ```192.168.4.20``` to ```192.168.4.20```. And after change , this i see
+
+I am changing from ```192.168.4.20``` to ```192.168.4.21```. And after change , this i see
 
 ![after-netplan](/images/ubuntu/ip-change/after-netplan.JPG)
 
