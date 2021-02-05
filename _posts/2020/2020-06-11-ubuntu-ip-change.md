@@ -11,7 +11,7 @@ comments: true
 ---
 In this article we are going to see how we can change IP name in Ubuntu 20.04LTS. 
 
-Unlike older ubuntu versions 
+Unlike older ubuntu versions , Ubuntu Server 20.04 LTS uses the tricky [**Netplan**](https://netplan.io/) for network configuration by default
 
 ```ip a```
 
@@ -22,3 +22,8 @@ cat /etc/netplan/00-installer-config.yaml
 
 ```
 ![before-netplan](/images/ubuntu/ip-change/before-netplan.JPG)
+
+```shell
+ cat /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
+```
+![disable-cloud-config](/images/ubuntu/ip-change/disable-cloud-config.JPG)
