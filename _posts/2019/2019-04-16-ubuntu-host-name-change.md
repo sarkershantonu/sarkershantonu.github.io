@@ -3,7 +3,7 @@ layout: post
 title: How to change hostname in Ubuntu
 date: "2019-04-16 05:02"
 tags: [tools,linux]
-permalink: /2019/04/16/vim-basics/
+permalink: /2019/04/16/ubuntu-host-name-change/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Linux"
 gh-badge: [star,follow]
