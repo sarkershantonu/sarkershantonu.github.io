@@ -8,7 +8,6 @@ excerpt: "Blog on Pihole"
 gh-badge: [star,follow]
 comments: true
 ---
-[draft]
 In this article we are going to see how we can we install and use pi-hole. 
 
 ### What is pi-hole? 
@@ -36,9 +35,30 @@ This is DNS level blocking, so, it is not network blocking. If direct IP request
 
 ### How to use in Android 
 - Usually a linux systems need root privilege to change DNS address. To make life easy, you can use any of [these apps](https://play.google.com/store/search?q=dns%20changer&c=apps). I am using [this app](https://play.google.com/store/apps/details?id=com.frostnerd.dnschanger)
+
 ### How to use in IOS
+As i do not have IOS devices, i can't show you any screenshots but, if you can follow basic DNS changing steps for IOS, it should be ok. [**This link might help you**](https://apple.stackexchange.com/questions/303168/ios-11-how-to-change-dns-settings-for-cellular-mobile-data)
 
 ### How to use in Windows 
+In windows 10 , from start menu, type **view network connections** and you should see this 
+
+![net-connection](/images/pihole/win-network-connections.JPG)
+
+Click open and see your network devices.
+
+![net-connection-open](/images/pihole/win-network-connections-open.JPG)
+
+In my case, I will use wifi. Right click and open **Properties**. You will see this
+
+![net-properties](/images/pihole/win-network-connections-properties.JPG)
+
+Double click **TCP/IPv4** & you will see a popup. Change DNS entry like following
+
+![net-properties-dns-change](/images/pihole/win-network-connections-properties-dns-change.JPG)
+
+- Primary DNS , pihole IP ```192.168.4.21```.
+- Secondary DNS ```1.1.1.3```, i am using cloudflare, you can use google also ```8.8.8.8```. 
+
 
 ### Notes 
 - Usually DNS queries are cached. So, before applying this your device ,please either clear DNS cache or reboot(this should clear DNS cache).
@@ -46,11 +66,13 @@ This is DNS level blocking, so, it is not network blocking. If direct IP request
 - You can use pi-hole address in your router, in that case, you don't need to change DNS address to any device manually. All devices connected to router will go through pi-hole. 
 
 
-### How to install pi-hole
+# How to install pi-hole
+
+##### Get Installer running :
 - Using CURL 
 
 ```shell
-curl -sSL https://install.pi-hole.net | bash
+sudo curl -sSL https://install.pi-hole.net | bash
 ```
 
 - Manually using Git 
@@ -69,38 +91,48 @@ sudo bash basic-install.sh
  
 ```
 
+ 
+- You should see a Welcome Screen . Press ENTER(OK) and then you should see
+- A donate link of paypal. Press OK. And you should see a windows **Static IP Needed** to inform you that, you should have static IP. Press Ok.
+- You should see **Select Upstream DNS Provider. To use your own, select Custom** window. I will select cloudflare, you can select any . Press OK. 
+- You may be prompt for block list,where you may need to choose(updated)
+- A widnow to select which IP version ,i select IPv4.
+- Confirming window static IP address , press YES and 
+
+![static-ip](/images/pihole/static-ip.JPG)
+
+- A window to confirm Admin web interface. I selected on & ok. As we will see admin screen amd try to manage with web gui. 
+- A window to ask for which http server you need to tun for Admin gui. Select ON. 
+- A window to confirm LOG dns queries. I select On & OK. This will allow us to see the queries.
+- A window to show privacy mode, I have selected 0 to show all. 
+- At the end, a window to show you completion messages with admin password. I always change this password following ```pihole``` cli commands. 
+
+![installation-done](/images/pihole/install-complete.JPG)
+
 ### pi-hole cli commands
 - To Change Admin Password ``` pihole -a -p``` & provide a new password twice. 
-
-### How to add your own block list
-
-
+- Add asite.com in blacklist ```pihole -b asite.com```
 
 # Pi-hole Admin GUI
-Home Page
+- Home Page with no log in
 
 [home-no-login](/images/pihole/home-no-login.JPG)
 
-Login Page 
+- Login Page 
 
 [home-login](/images/pihole/home-login.JPG)
 
-Home Page
+- Home Page
 
 [homepage](/images/pihole/home.JPG)
 
-Query Log to see blocking status. 
+- Query Log to see blocking status. 
 
 [query](/images/pihole/q-log.JPG)
 
+- Own Block list using web GUI
 
-# Updating
-- To update 
-
-	sudo youtube-dl -U
-			
-# Usages 
-
+[block-list](/images/pihole/gui-blocklist.JPG)
 		
 ### More CLI Options 
 
@@ -154,3 +186,7 @@ Options:
   arpflush            Flush information stored in Pi-hole's network tables
 
 ```
+
+So, that's all. To make this post smaller I have skipped most of webgui options, I would suggest you can explore that.
+
+### [My Block List](https://github.com/sarkershantonu/linux-admin/blob/master/pihole/blacklist.txt)
