@@ -112,6 +112,11 @@ sudo bash basic-install.sh
 ### pi-hole cli commands
 - To Change Admin Password ``` pihole -a -p``` & provide a new password twice. 
 - Add asite.com in blacklist ```pihole -b asite.com```
+- Update pihole ``` pihole -up```
+- Flash logs ``` pihole -f```
+- Disable pihole ``` pihole disable```
+- Enable pihole ``` pihole enable```
+- Pihole status ``` pihole status```
 
 # Pi-hole Admin GUI
 - Home Page with no log in
