@@ -2,7 +2,7 @@
 layout: post
 title: How to use nano in cli?
 date: "2019-06-13 05:02"
-tags: [tools]
+tags: [tools,linux]
 permalink: /2019/06/13/nano-basics/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Tools"
