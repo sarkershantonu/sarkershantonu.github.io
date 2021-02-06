@@ -22,3 +22,5 @@ This page contains all post related to Linux/Ubuntu Administration.
 - [How to change IP in Ubuntu 20.04LTS](https://sarkershantonu.github.io/2020/06/11/ubuntu-ip-change/)
 - [How to change hostname in Ubuntu](https://sarkershantonu.github.io/2019/04/16/ubuntu-host-name-change/)
 - [Block advertisements using Pi-hole?](https://sarkershantonu.github.io/2018/06/28/pi-hole-basics/)
+- [How to use nano in cli?](https://sarkershantonu.github.io/2019/06/13/nano-basics/)
+
