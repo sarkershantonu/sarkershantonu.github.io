@@ -21,3 +21,4 @@ This page contains all post related to Linux/Ubuntu Administration.
 - [How to connect Ubuntu Desktop Remotely](https://sarkershantonu.github.io/blog/connect-Ubuntu-server-Desktop-Remotely-vnc-rdp-windows/)
 - [How to change IP in Ubuntu 20.04LTS](https://sarkershantonu.github.io/2020/06/11/ubuntu-ip-change/)
 - [How to change hostname in Ubuntu](https://sarkershantonu.github.io/2019/04/16/ubuntu-host-name-change/)
+- [Block advertisements using Pi-hole?](https://sarkershantonu.github.io/2018/06/28/pi-hole-basics/)
