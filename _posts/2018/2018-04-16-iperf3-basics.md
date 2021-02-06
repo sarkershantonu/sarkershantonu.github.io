@@ -2,7 +2,7 @@
 layout: post
 title: How to use iperf3?
 date: "2018-04-16 05:02"
-tags: [tools]
+tags: [tools,linux]
 permalink: /2018/04/16/iperf3-basics/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Tools"

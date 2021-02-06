@@ -2,7 +2,7 @@
 layout: post
 title: How to use vim in cli?
 date: "2019-01-16 05:02"
-tags: [tools]
+tags: [tools,linux]
 permalink: /2019/01/16/vim-basics/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Tools"

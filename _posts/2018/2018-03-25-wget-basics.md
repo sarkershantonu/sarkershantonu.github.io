@@ -2,7 +2,7 @@
 layout: post
 title: How to use wget in cli?
 date: "2018-03-25 05:02"
-tags: [tools]
+tags: [tools,linux]
 permalink: /2018/03/25/wget-basics/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Tools"

@@ -2,7 +2,7 @@
 layout: post
 title: How to change IP in Ubuntu 20.04LTS
 date: "2020-06-11 05:02"
-tags: [tools,linux]
+tags: [linux]
 permalink: /2020/06/11/ubuntu-ip-change/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Linux"

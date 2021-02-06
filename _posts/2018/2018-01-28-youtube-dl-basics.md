@@ -2,7 +2,7 @@
 layout: post
 title: How to use youtube-dl?
 date: "2018-01-28 05:02"
-tags: [tools]
+tags: [tools,linux]
 permalink: /2018/01/28/youtube-dl-basics/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Tools"

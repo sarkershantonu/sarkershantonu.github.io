@@ -2,7 +2,7 @@
 layout: post
 title: Installing Jmeter plugins in Linux CLI
 date: "2021-01-06 17:02"
-tags: [jmeter,ci-cd]
+tags: [jmeter,ci-cd, linux]
 permalink: /2021/01/06/install-jmeter-plugins-cli/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter"

@@ -2,7 +2,7 @@
 layout: post
 title: How to use speedtest-cli?
 date: "2018-02-21 05:02"
-tags: [tools]
+tags: [tools,linux]
 permalink: /2018/02/21/speedtest-cli-basics/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Tools"
