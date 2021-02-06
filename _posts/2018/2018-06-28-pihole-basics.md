@@ -116,23 +116,23 @@ sudo bash basic-install.sh
 # Pi-hole Admin GUI
 - Home Page with no log in
 
-[home-no-login](/images/pihole/home-no-login.JPG)
+![home-no-login](/images/pihole/home-no-login.JPG)
 
 - Login Page 
 
-[home-login](/images/pihole/home-login.JPG)
+![home-login](/images/pihole/home-login.JPG)
 
 - Home Page
 
-[homepage](/images/pihole/home.JPG)
+![homepage](/images/pihole/home.JPG)
 
 - Query Log to see blocking status. 
 
-[query](/images/pihole/q-log.JPG)
+![query](/images/pihole/q-log.JPG)
 
 - Own Block list using web GUI
 
-[block-list](/images/pihole/gui-blocklist.JPG)
+![block-list](/images/pihole/gui-blocklist.JPG)
 		
 ### More CLI Options 
 
