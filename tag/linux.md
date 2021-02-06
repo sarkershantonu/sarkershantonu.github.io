@@ -31,4 +31,5 @@ This page contains all post related to Linux/Ubuntu Administration.
 - [How to use wget in cli?](https://sarkershantonu.github.io/2018/03/25/wget-basics/)
 - [How to use speedtest-cli?](https://sarkershantonu.github.io/2018/02/21/speedtest-cli-basics/)
 - [How to use youtube-dl?](https://sarkershantonu.github.io/2018/01/28/youtube-dl-basics/)
+- [How to install Docker?](https://sarkershantonu.github.io/2016/03/08/install-docker/)
 
