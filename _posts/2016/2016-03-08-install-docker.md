@@ -2,7 +2,7 @@
 layout: post
 title: How to install Docker?
 date: "2016-03-08 01:19"
-tags: [docker,DevOps]
+tags: [docker,DevOps, linux]
 permalink: /2016/03/08/install-docker/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on installing docker"
