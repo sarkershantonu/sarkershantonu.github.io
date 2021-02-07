@@ -24,7 +24,7 @@ Courses which i used to take online.
 ||Selenium-Java || 40hr
 ||Selenium-Dotnet || 40hr
 ||Performance Testing Basics || 40hr
-||Jmeter for beginner || 40hr
+||Jmeter for a beginner || 40hr
 ||Jmeter novice to advance || 100hr
 ||Jmeter/Plugin Development || 40hr
 ||How to plan for 100kCCU Performance Testing || 40hr
