@@ -30,6 +30,7 @@ test('About Test',()=>
 ### [WebDriverIO](https://webdriver.io/)
 
 ### [Cypress](https://www.cypress.io/)
+### [testcafe](https://github.com/DevExpress/testcafe)
 
 # Node JS & GUI Testing 
 
