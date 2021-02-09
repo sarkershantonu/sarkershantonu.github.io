@@ -31,6 +31,7 @@ test('About Test',()=>
 
 ### [Cypress](https://www.cypress.io/)
 ### [testcafe](https://github.com/DevExpress/testcafe)
+### [taiko](https://github.com/getgauge/taiko)
 
 # Node JS & GUI Testing 
 
