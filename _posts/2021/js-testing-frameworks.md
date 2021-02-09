@@ -6,7 +6,8 @@
 
 ### For ReactJS
 - [Enzyme](https://github.com/enzymejs/enzyme)
-
+### For VUA.JS
+- [avoriaz](https://github.com/eddyerburgh/avoriaz)
 ### Test Harness
 - [TAPE](https://github.com/substack/tape)
 
