@@ -30,9 +30,13 @@ test('About Test',()=>
 ### [WebDriverIO](https://webdriver.io/)
 
 ### [Cypress](https://www.cypress.io/)
+
 # Node JS & GUI Testing 
 
 ### [Mocha](https://github.com/mochajs/mocha)
 
 # JS testing for developers
 - [sinonjs](https://sinonjs.org/)
+
+# Enhanced Reporting
+- [Allure](https://docs.qameta.io/allure/#_javascript)
