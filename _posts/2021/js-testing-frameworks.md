@@ -6,6 +6,9 @@
 
 ### [Cypress](https://www.cypress.io/)
 
+### For ReactJS
+- [Enzyme](https://github.com/enzymejs/enzyme)
+
 # Works with multiple frameworks
 ### [JEST](https://github.com/facebook/jest)
 - Installation ```npm install --save-dev jest```
