@@ -6,7 +6,7 @@
 
 ### For ReactJS
 - [Enzyme](https://github.com/enzymejs/enzyme)
-### For VUA.JS
+### For VUE.JS
 - [avoriaz](https://github.com/eddyerburgh/avoriaz)
 ### Test Harness
 - [TAPE](https://github.com/substack/tape)
@@ -22,6 +22,8 @@ test('About Test',()=>
     }
 );
 ```
+
+### [EyeJS](https://github.com/arguiot/EyeJS)
 ### [CasperJS](https://www.casperjs.org/)
 
 ### [Jasmine](https://jasmine.github.io/)
