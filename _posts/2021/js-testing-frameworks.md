@@ -37,6 +37,7 @@ test('About Test',()=>
 
 # JS testing for developers
 - [sinonjs](https://sinonjs.org/)
+- [testdouble](https://github.com/testdouble/testdouble.js)
 
 # JS Performance 
 - [reactopt](https://github.com/reactopt/reactopt)
