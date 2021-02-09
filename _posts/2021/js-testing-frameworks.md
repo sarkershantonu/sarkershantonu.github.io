@@ -38,5 +38,8 @@ test('About Test',()=>
 # JS testing for developers
 - [sinonjs](https://sinonjs.org/)
 
+# JS Performance 
+- [reactopt](https://github.com/reactopt/reactopt)
+
 # Enhanced Reporting
 - [Allure](https://docs.qameta.io/allure/#_javascript)
