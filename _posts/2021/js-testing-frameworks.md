@@ -34,3 +34,5 @@ test('About Test',()=>
 
 ### [Mocha](https://github.com/mochajs/mocha)
 
+# JS testing for developers
+- [sinonjs](https://sinonjs.org/)
