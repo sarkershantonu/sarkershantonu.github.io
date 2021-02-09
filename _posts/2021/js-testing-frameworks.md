@@ -48,3 +48,6 @@ test('About Test',()=>
 
 # Testing Guidelines 
 - [Testing Library](https://testing-library.com/)
+
+# 3rd-party helpers
+- [pixelmatch](https://github.com/mapbox/pixelmatch)
