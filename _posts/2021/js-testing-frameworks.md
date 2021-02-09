@@ -43,3 +43,6 @@ test('About Test',()=>
 
 # Enhanced Reporting
 - [Allure](https://docs.qameta.io/allure/#_javascript)
+
+# Testing Guidelines 
+- [Testing Library](https://testing-library.com/)
