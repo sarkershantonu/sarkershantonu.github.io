@@ -51,7 +51,7 @@ test('About Test',()=>
 - [Allure](https://docs.qameta.io/allure/#_javascript)
 
 # Testing Guidelines with react
-- [Testing Library](https://testing-library.com/)
+- [Testing Library](https://testing-library.com/) : Testing Library is a family of packages for testing applications in numerous frameworks such as React, Vue, React Native and Angular among others. This set of libraries helps you test UI components in a user-centric way by encouraging you to test user behavior rather than implementation details, such as the presence of elements in the UI at a certain moment in time. One of the benefits of this mindset is more reliable tests, and this is what we call out as its main differentiator. We recommend you assess this family of libraries when testing your web applications in any framework. Although our direct experience is limited to React Testing Library and Angular Testing Library, we've been impressed with what we've seen.
 
 # 3rd-party helpers
 - [pixelmatch](https://github.com/mapbox/pixelmatch)
