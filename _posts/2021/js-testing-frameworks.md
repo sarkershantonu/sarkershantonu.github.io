@@ -22,6 +22,7 @@ test('About Test',()=>
     }
 );
 ```
+- [jest-dashboard](https://github.com/theoutlander/jest-dashboard)
 
 ### [EyeJS](https://github.com/arguiot/EyeJS)
 ### [CasperJS](https://www.casperjs.org/)
