@@ -50,7 +50,7 @@ test('About Test',()=>
 # Enhanced Reporting
 - [Allure](https://docs.qameta.io/allure/#_javascript)
 
-# Testing Guidelines 
+# Testing Guidelines with react
 - [Testing Library](https://testing-library.com/)
 
 # 3rd-party helpers
