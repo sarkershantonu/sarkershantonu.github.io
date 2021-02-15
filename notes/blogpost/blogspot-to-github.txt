@@ -1,0 +1,29 @@
+blog-01-17-2021.xml
+
+ruby -r rubygems -e 'require "jekyll-import";JekyllImport::Importers::Blogger.run({"source" => "blog-01-17-2021.xml","no-blogger-info" => false,"replace-internal-link" => false,})'
+
+
+$ ruby -r rubygems -e 'require "jekyll-import";
+    JekyllImport::Importers::Blogger.run({
+      "source"                => "blog-01-17-2021.xml",
+      "no-blogger-info"       => false,
+      "replace-internal-link" => false,
+    })'
+	
+
+ruby -r rubygems -e 'require "jekyll-import";
+    JekyllImport::Importers::Blogger.run({
+      "source"                => "/path/to/blog-MM-DD-YYYY.xml",
+      "no-blogger-info"       => false, # not to leave blogger-URL info (id and old URL) in the front matter
+      "replace-internal-link" => false, # replace internal links using the post_url liquid tag.
+    })'	
+	
+	
+	gem install middleman
+	
+	ruby -r rubygems import-blogspot.rb
+	
+	Mail => to aatanu da for 
+	
+	$_GET['IsMobileUrl'] if this is true, then showing mmobile verion 
+	
