@@ -1,0 +1,23 @@
+ACID
+Phenomena
+Dirty Write,
+Dirty Read,
+Non-Repeatable Read,
+Phantom Read,
+Read Skew,
+Write Skew,
+Lost Update
+2PL (Two-Phase Locking)
+MVCC (Multi-Version Concurrency Control)
+Isolation levels and database concurrency control
+Logical vs. physical clock optimistic locking
+JPA physical and optimistic lock types
+OPTIMISTIC
+OPTIMISTIC FORCE INCREMENT,
+PESSIMISTIC FORCE INCREMENT,
+PESSIMISTIC READ,
+PESSIMISTIC WRITE
+Versionless optimistic locking
+SKIP_LOCKED and queuing access
+Preventing lost updates in long conversations
+PostgreSQL advisory locks
