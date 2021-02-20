@@ -1,0 +1,1 @@
+https://docs.cypress.io/guides/guides/network-requests.html#Stub-Responses
