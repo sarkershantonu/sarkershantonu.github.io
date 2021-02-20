@@ -1,0 +1,1 @@
+https://docs.cypress.io/guides/component-testing/introduction.html#React
