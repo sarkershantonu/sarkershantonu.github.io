@@ -1,0 +1,1 @@
+Grouping test runs : https://docs.cypress.io/guides/guides/parallelization.html#Grouping-test-runs
