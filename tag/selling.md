@@ -67,24 +67,12 @@ I bought this in 2019 from USA ($2100), Comes with Shoulder Bag + Wifi Mouse.
 - 1 year Used
 
 ### Revolving Chair Big
-
+- 1.5 year used 
 
 # Previously Sold
-### [Liva Bat](https://www.ecs.com.tw/ECSWebSite/Product/Product_LIVA/EN/LIVA) : Local NAS : SOLD
-- Celeron N2807 @1.58-2.2GHz
-- DDR3L 2GB
-- 32GB
-- USB 3.0 + 2.0
-- GBLAN
-- Wifi+ Bluetooth
-- HDMI+VGA
-
-### ASUS i3/4gb/64gbssd Laptop
-
-### ipod mini 3g/8gb
-
-### 8TB USB3 HDD
-
-### IPad 3 wifi/64gb
-
-### Logitech Bluetooth keyboard k480
+- [Liva Bat](https://www.ecs.com.tw/ECSWebSite/Product/Product_LIVA/EN/LIVA) : Local NAS : SOLD
+- ASUS i3/4gb/64gbssd Laptop
+- ipod mini 3g/8gb
+- 8TB USB3 HDD
+- IPad 3 wifi/64gb
+- Logitech Bluetooth keyboard k480
