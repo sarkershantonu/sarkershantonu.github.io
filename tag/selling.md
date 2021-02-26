@@ -23,8 +23,11 @@ This Page Contains all devices/gadgets that I am selling which are personally us
 ### Seagate 1TB/8GB Laptop SSHD
 
 ### Tomoko Mechanical Keyboard 87 key 
+
 ### Logitech k750 Solar Wireless Keyboard 
+
 ### sk hynix 8gb ddr4 sodimm 2400mhz
+
 ### Android Smart Watch : New
 
 ### Nook Touch Paper White : 
@@ -48,15 +51,25 @@ This Page Contains all devices/gadgets that I am selling which are personally us
 I bought this in 2019 from USA ($2100), Comes with Shoulder Bag + Wifi Mouse.  
 
 ### Treadmill
+- 1 year used 
+- No Digital Meter
+- Manual 
 
 ### Dining Table 
+- 1 year used
 ### Baby Bouncer
-### Baby Walker 
+- 3 Month Used
+
+### Baby Walker     
+- 2 Month Used 
+
 ### Tanin Fordable Table
+- 1 year Used
+
 ### Revolving Chair Big
 
 
-# Previously SOld
+# Previously Sold
 ### [Liva Bat](https://www.ecs.com.tw/ECSWebSite/Product/Product_LIVA/EN/LIVA) : Local NAS : SOLD
 - Celeron N2807 @1.58-2.2GHz
 - DDR3L 2GB
@@ -68,7 +81,10 @@ I bought this in 2019 from USA ($2100), Comes with Shoulder Bag + Wifi Mouse.
 
 ### ASUS i3/4gb/64gbssd Laptop
 
-### ipod moni 3g/8gb
+### ipod mini 3g/8gb
+
 ### 8TB USB3 HDD
+
 ### IPad 3 wifi/64gb
+
 ### Logitech Bluetooth keyboard k480
