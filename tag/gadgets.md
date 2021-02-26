@@ -39,14 +39,6 @@ With :
 - Windows 10 Pro
 
 # Development Servers 
-### [Liva Bat](https://www.ecs.com.tw/ECSWebSite/Product/Product_LIVA/EN/LIVA) : Local NAS
-- Celeron N2807 @1.58-2.2GHz
-- DDR3L 2GB
-- 32GB
-- USB 3.0 + 2.0
-- GBLAN
-- Wifi+ Bluetooth
-- HDMI+VGA
 
 ### XEON Server (own Build Dev servers)
 - Xeon E5-2568-V3
