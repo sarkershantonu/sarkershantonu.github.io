@@ -1,4 +1,3 @@
-2021-01-08-jmeter-distributed-testing-revised
 
 ---
 This is an update of [**original  blog from 2013**](https://shantonusarker.blogspot.com/2013/01/how-to-distribute-test-in-jmeter.html) about distributed testing with jmeter. 
