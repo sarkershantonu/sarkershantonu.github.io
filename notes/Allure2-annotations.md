@@ -59,9 +59,11 @@ Example :
 ### @TmsLink : Test Management System Links
 We can add test management tracker/system links with test cases. This will provide complete link in report. URL prefix can be configured using **allure.link.tms.pattern** property. 
 
-Scope Of Use : Methods & Class.
+Scope Of Use : Methods & Classes.
 
-Parameters : It can take String value which represents path of TMS link
+Parameters : It can take String value which is the link of management system. 
+
+For example, if our test case on TMS link is ```https://tms.mycompany.com/browse/tc-256```, then we can use ```tc-256``` as value here. 
 
 Example :
 
@@ -70,7 +72,7 @@ Example :
 
 ### @TmsLinks :
 
-Scope Of Use : Methods & Class. 
+Scope Of Use : Methods & Classes. 
 
 Parameters : It can take String value which can be description of the step.
 
