@@ -10,4 +10,13 @@ I am not putting details on why we need allure, to know details about allure rep
 So, what are the annotations for Allure 2 that we can use. Here are the list. I am describing one by one. 
 
 
-# 
+
+### [Example With Junit5](https://github.com/sarkershantonu/Automation-Getting-Started/tree/master/Allure2-Junit5)
+- [POM.XML](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/Allure2-Junit5/pom.xml) structure
+
+Key Points in POM 
+- Surefire Plugins configuration
+- Reporting Configuration 
+- Supported Maven Site Plugins configurations 
+- Allure Dependency for using allure annotation in Code. 
+- Allure depends on aspectj, log4j, please check those.
