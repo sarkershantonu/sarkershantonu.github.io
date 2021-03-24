@@ -7,16 +7,71 @@ Allure is an opensource report engine built using AngulaJs. It generates report 
 
 I am not putting details on why we need allure, to know details about allure reporting format, please see [**my old post**](https://sarkershantonu.github.io/2016/10/03/allure1/)
 
-So, what are the annotations for Allure 2 that we can use. Here are the list. I am describing one by one. 
-
 
 
 ### [Example With Junit5](https://github.com/sarkershantonu/Automation-Getting-Started/tree/master/Allure2-Junit5)
 - [POM.XML](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/Allure2-Junit5/pom.xml) structure
 
 Key Points in POM 
-- Surefire Plugins configuration
+- Surefire Plugins configuration 
 - Reporting Configuration 
 - Supported Maven Site Plugins configurations 
 - Allure Dependency for using allure annotation in Code. 
 - Allure depends on aspectj, log4j, please check those.
+
+### Allure Properties 
+
+```
+allure.results.directory=target/allure-results
+allure.link.issue.pattern=https://example.org/browse/{}
+allure.link.tms.pattern=https://example.org/browse/{}
+```
+So, what are the annotations for Allure 2 that we can use. Here are the list. I am describing one by one. 
+
+### @Step : 
+Each step method to perform a test. That means, when you write your test, your test might need multiple methods to call. Annotate to each method which are used in a @Test.  
+
+Scope Of Use : Methods. Can be used with methods only
+
+Parameters : It can take String value which can be description of the step. 
+
+Example : 
+
+### @AllureId :
+### @Attachment :
+### @Description :
+### @Epic :
+### @Epics :
+### @Feature :
+### @Features :
+### @Flaky :
+### @Issue :
+### @Issues :
+### @Lead :
+### @Link :
+### @Links :
+### @Muted :
+### @Owner :
+### @Severity :
+### @Stories :
+### @Story :
+
+### @TmsLink : Test Management System Links
+We can add test management tracker/system links with test cases. This will provide complete link in report. URL prefix can be configured using **allure.link.tms.pattern** property. 
+
+Scope Of Use : Methods & Class.
+
+Parameters : It can take String value which represents path of TMS link
+
+Example :
+
+
+- Link in allure.properties : ```allure.link.tms.pattern=https://example.org/browse/{}``` where our provided text will put in ```{}``` section. 
+
+### @TmsLinks :
+
+Scope Of Use : Methods & Class. 
+
+Parameters : It can take String value which can be description of the step.
+
+Example : 
