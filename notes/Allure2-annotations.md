@@ -71,6 +71,7 @@ Example :
 - Link in allure.properties : ```allure.link.tms.pattern=https://example.org/browse/{}``` where our provided text will put in ```{}``` section. 
 
 ### @TmsLinks :
+This is same as @TmsLink but with multiple entry. That means, this allows multiple TMS link attached with a test class/method
 
 Scope Of Use : Methods & Classes. 
 
