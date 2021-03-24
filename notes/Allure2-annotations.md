@@ -37,7 +37,9 @@ Parameters : It can take String value which can be description of the step.
 
 Example : 
 
-### @AllureId :
+### @AllureId : For Allure Enterprise Solution 
+- Scope Of Use : Methods
+- Parameters : It can take String
 ### @Attachment :
 ### @Description :
 ### @Epic :
