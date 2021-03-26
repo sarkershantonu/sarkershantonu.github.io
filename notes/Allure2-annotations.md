@@ -54,7 +54,7 @@ Example :
 - Example :
 
 ### @Epic :
-An Epic is set of work which can be devided in smaller stories. Basic Idea about EPIC can be found [**here**](https://www.atlassian.com/agile/project-management/epics)
+An Epic is set of work which can be divided in smaller stories. Basic Idea about EPIC can be found [**here**](https://www.atlassian.com/agile/project-management/epics)
 
 - Scope Of Use : Methods & Classes 
 - Parameters : Description string. 
@@ -70,7 +70,8 @@ This is for supporting multiple EPICs together in a single test.
 - Example :
 
 ### @Feature :
-A functionality that we deliver in a version of a release. 
+A functionality that we deliver in a version of a release. It may contain multiple stories but make sure they are released in single version. 
+It is similar to EPIC but scope is single version. 
 
 - Scope Of Use : Methods & Classes
 - Parameters : Description string.
