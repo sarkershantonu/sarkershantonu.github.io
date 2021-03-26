@@ -42,11 +42,17 @@ Example :
 - Parameters : It can take String
 
 ### @Attachment :
+
 - Scope Of Use : Methods
 - Parameters : Attachment Name, Attachment type, attached file extension. All are string 
 - Example :
 
 ### @Description :
+
+- Scope Of Use : Methods
+- Parameters : Description string & boolean if we want to extract description from method's JavaDoc
+- Example :
+
 ### @Epic :
 ### @Epics :
 ### @Feature :
