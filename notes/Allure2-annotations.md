@@ -79,10 +79,14 @@ It is similar to EPIC but scope is single version.
 - Parameters : Description string.
 - Example :
 
-### @Stories :
+### @Features :
+
 ### @Story :
 
-### @Features :
+### @Stories :
+
+
+
 ### @Flaky :
 ### @Issue :
 ### @Issues :
