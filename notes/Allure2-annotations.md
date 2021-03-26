@@ -63,7 +63,11 @@ An Epic is set of work which can be devided in smaller stories. Basic Idea about
 
 
 ### @Epics :
+This is for supporting multiple EPICs together in a single test.
 
+- Scope Of Use : Methods & Classes
+- Parameters : Array of EPIC
+- Example :
 
 ### @Feature :
 ### @Features :
