@@ -41,6 +41,9 @@ Example :
 - Scope Of Use : Methods
 - Parameters : It can take String
 ### @Attachment :
+- Scope Of Use : Methods
+- Parameters : Attachment Name, Attachment type, attached file extension. All are string 
+- Example :
 ### @Description :
 ### @Epic :
 ### @Epics :
