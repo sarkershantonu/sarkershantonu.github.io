@@ -70,6 +70,15 @@ This is for supporting multiple EPICs together in a single test.
 - Example :
 
 ### @Feature :
+A functionality that we deliver in a version of a release. 
+
+- Scope Of Use : Methods & Classes
+- Parameters : Description string.
+- Example :
+
+### @Stories :
+### @Story :
+
 ### @Features :
 ### @Flaky :
 ### @Issue :
@@ -80,8 +89,6 @@ This is for supporting multiple EPICs together in a single test.
 ### @Muted :
 ### @Owner :
 ### @Severity :
-### @Stories :
-### @Story :
 
 ### @TmsLink : Test Management System Links
 We can add test management tracker/system links with test cases. This will provide complete link in report. URL prefix can be configured using **allure.link.tms.pattern** property. 
