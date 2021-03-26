@@ -56,6 +56,8 @@ Example :
 ### @Epic :
 An Epic is set of work which can be divided in smaller stories. Basic Idea about EPIC can be found [**here**](https://www.atlassian.com/agile/project-management/epics)
 
+In summary, A large feature or theme that can span several releases is called EPIC
+
 - Scope Of Use : Methods & Classes 
 - Parameters : Description string. 
 - Example :
