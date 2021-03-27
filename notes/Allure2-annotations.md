@@ -93,17 +93,17 @@ A short (the smallest possible) requirement written in end user perspective. [A 
 
 Scope Of Use : Methods & Classes.
 
-Parameters : Description string.
+Parameters : It can take String value which can be description of the step.
 
 Example :
 
 ### @Stories :
 
-This is same as @TmsLink but with multiple entry. That means, this allows multiple TMS link attached with a test class/method
+This is same as @Story but with multiple entry. That means, this allows multiple Story descriptions attached with a test class/method
 
 Scope Of Use : Methods & Classes.
 
-Parameters : It can take String value which can be description of the step.
+Parameters : Array of Story
 
 ### @Flaky :
 ### @Issue :
