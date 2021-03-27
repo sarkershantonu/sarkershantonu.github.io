@@ -107,7 +107,20 @@ Parameters : Array of Story
 Example :
 
 ### @Flaky :
+Used with unstable tests. In allure report we can see annotated test as unstable.  
+
+Scope Of Use : Methods & Classes.
+
+Parameters : None
+Example :
+
 ### @Issue :
+Linking a rest with issues. 
+
+Scope Of Use : Methods & Classes.
+
+Parameters : String to link issue tracker's original issue link 
+Example :
 ### @Issues :
 ### @Lead :
 ### @Link :
