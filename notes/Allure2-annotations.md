@@ -84,7 +84,7 @@ This is same as @Feature but with multiple entry. That means, this allows multip
 
 Scope Of Use : Methods & Classes.
 
-Parameters : A feature 
+Parameters : Array of feature 
 
 Example : 
 
