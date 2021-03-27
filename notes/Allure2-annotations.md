@@ -89,6 +89,13 @@ Parameters : A feature
 Example : 
 
 ### @Story :
+A short (the smallest possible) requirement written in end user perspective. [A good read is here](https://www.atlassian.com/agile/project-management/user-stories)
+
+Scope Of Use : Methods & Classes.
+
+Parameters : Description string.
+
+Example :
 
 ### @Stories :
 
