@@ -104,6 +104,7 @@ This is same as @Story but with multiple entry. That means, this allows multiple
 Scope Of Use : Methods & Classes.
 
 Parameters : Array of Story
+Example :
 
 ### @Flaky :
 ### @Issue :
