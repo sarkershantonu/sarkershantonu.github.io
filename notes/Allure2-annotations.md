@@ -80,12 +80,23 @@ It is similar to EPIC but scope is single version.
 - Example :
 
 ### @Features :
+This is same as @Feature but with multiple entry. That means, this allows multiple Feature descriptions attached with a test class/method
+
+Scope Of Use : Methods & Classes.
+
+Parameters : A feature 
+
+Example : 
 
 ### @Story :
 
 ### @Stories :
 
+This is same as @TmsLink but with multiple entry. That means, this allows multiple TMS link attached with a test class/method
 
+Scope Of Use : Methods & Classes.
+
+Parameters : It can take String value which can be description of the step.
 
 ### @Flaky :
 ### @Issue :
