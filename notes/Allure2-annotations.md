@@ -141,8 +141,30 @@ Scope Of Use : Methods
 Parameters : String value as name of the lead person
 
 Example :
+
 ### @Link :
+We can link any URL with @Link. It can be any external link /reference. 
+
+Scope Of Use : Methods & Classes.
+
+Parameters : It takes 
+- name , a string to represent link text 
+- url , a string to represent an actual link
+- type , a string to represent what type of link
+- value , similar to name 
+
+Example :
+
 ### @Links :
+
+This is same as @Link but with multiple entry. That means, this allows multiple Links  attached with a test class/method
+
+Scope Of Use : Methods & Classes.
+
+Parameters : Arrays of Links
+
+Example :
+
 ### @Muted :
 ### @Owner :
 ### @Severity :
