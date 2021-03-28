@@ -173,7 +173,16 @@ Scope Of Use : Methods & Classes.
 Parameters :None
 
 Example : 
+
 ### @Owner :
+This allows to put owner information of a test case presentable Allure report.
+
+Scope Of Use : Methods & Classes.
+
+Parameters :Takes string as name of owner
+
+Example :
+
 ### @Severity :
 
 ### @TmsLink : Test Management System Links
