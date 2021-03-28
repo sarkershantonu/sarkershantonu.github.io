@@ -134,12 +134,11 @@ Example :
 
 
 ### @Lead :
-
-This is same as @Issue but with multiple entry. That means, this allows multiple Issue link attached with a test class/method
+This annotation can be used to define a test case LEAD information. 
 
 Scope Of Use : Methods 
 
-Parameters : Arrays of Issue
+Parameters : String value as name of the lead person
 
 Example :
 ### @Link :
