@@ -184,6 +184,20 @@ Parameters :Takes string as name of owner
 Example :
 
 ### @Severity :
+We can prioritize out test by putting Severity information in Allure report usine @Severity
+
+Scope Of Use : Methods & Classes.
+
+Parameters :Takes SeverityLevel values. Allure 2.0 has following Severities (enum name io.qameta.allure.SeverityLevel)
+
+- BLOCKER("blocker"), 
+- CRITICAL("critical"),
+- NORMAL("normal"),
+- MINOR("minor"),
+- TRIVIAL("trivial");
+
+
+Example :
 
 ### @TmsLink : Test Management System Links
 We can add test management tracker/system links with test cases. This will provide complete link in report. URL prefix can be configured using **allure.link.tms.pattern** property. 
