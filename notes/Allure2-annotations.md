@@ -166,6 +166,13 @@ Parameters : Arrays of Links
 Example :
 
 ### @Muted :
+If you want to exclude any test from Allure report, use @Muted. 
+
+Scope Of Use : Methods & Classes.
+
+Parameters :None
+
+Example : 
 ### @Owner :
 ### @Severity :
 
