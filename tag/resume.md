@@ -17,7 +17,11 @@ comments: true
 
 # DOC Resume/CV : 
 - [Summary Version](https://www.dropbox.com/s/nqwhic4wt2z3ss3/Resume_Shantanu%20Sarker_SDET_14Y.doc?dl=0)
-- [Detailed Version](https://www.dropbox.com/s/3372fobq4hyviyt/Resume_Shantanu%20Sarker_SDET_14Y_details.doc?dl=0)
+- [Detailed Version](https://www.dropbox.com/s/8bo1pgqa82ygvh1/Details_CV_Shantanu%20Sarker_SDET_15Y.doc?dl=0)
+
+# PDF/CV
+- [Summary Version]
+- [Detailed Version](https://www.dropbox.com/s/t7k7g4fmnmubly6/Details_CV_Shantanu%20Sarker_SDET_15Y.pdf?dl=0)
 
 To download please click download button from right upper corner, no Dropbox account needed.  
 
