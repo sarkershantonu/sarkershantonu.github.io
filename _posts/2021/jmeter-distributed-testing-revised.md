@@ -2,12 +2,12 @@
 ---
 This is an update of [**original  blog from 2013**](https://shantonusarker.blogspot.com/2013/01/how-to-distribute-test-in-jmeter.html) about distributed testing with jmeter. 
 
-What id distributed testing? 
+### What id distributed testing? 
 - A performance test tool simulate user behaviour and use parallel executions to simulate multi-user behaviour. This part is not easy when you are testing a big number of users. 
 
 Jmeter has nice approach to actually distribute its load(test executions) among its slaves. 
 
-The way it works is : 
+### How it works?
 - A Master Jmeter is present to start , stop test and collect results.
 - One or more Slave Jmeter present which runs in a spatial mode to get instructions(load) from Master and run those as well as send results back to Master. 
 - Tester will collect results from Master without worry about how they aggregate many Slave jmeter results. 
@@ -21,7 +21,7 @@ To avoid confusion , I will refer a jmeter server as slave.
 
 [Install Jmeter in master & slaves](https://sarkershantonu.github.io/2021/01/06/install-jmeter-plugins-cli/)
 
-Example : Non Secure setup:
+# Example Without SSL : Non-Secure setup:
 server.rmi.ssl.disable=false
 
 Defining Ports : 
@@ -39,3 +39,5 @@ define slaves in master
 
 install firewall 
 apt install ufw 
+
+# Example SSL : 
