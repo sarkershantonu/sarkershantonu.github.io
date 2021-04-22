@@ -20,6 +20,7 @@ Key Points in POM
 - Allure depends on aspectj, log4j, please check those.
 
 ### Allure Properties 
+Allure reports comes with predefine properties. Here are the default values
 
 ```
 allure.results.directory=target/allure-results
