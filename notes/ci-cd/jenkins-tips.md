@@ -15,3 +15,8 @@ To See this is implemented :
 - Goto Manage Jenkins 
 - Goto Manage Nodes & Clouds
 - 
+
+### Jenkins Agent Jar Location 
+- JENKINS_URL/jnlpJars/agent.ja
+### JNLP Jar Location
+- JENKINS_URL/computer/your_name_of_slave/slave-agent.jnlp
