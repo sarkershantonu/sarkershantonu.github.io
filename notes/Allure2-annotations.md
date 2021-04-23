@@ -108,7 +108,7 @@ Parameters : It can take String value which can be description of the step.
 
 Example : I have included steps in all methods of calculator class. That means every time any calculator method is called for testing, it will be shown in Allure report as step. 
 
-This shows default behavior of @Step. That means , method name will be used as step description.  
+- This shows default behavior of @Step. That means , method name will be used as step description.  
 
 ``` 
 @Step
@@ -117,6 +117,7 @@ This shows default behavior of @Step. That means , method name will be used as s
     }
 ```
 
+- This shows custom step name with parameters 
 
 ```shell
  }
