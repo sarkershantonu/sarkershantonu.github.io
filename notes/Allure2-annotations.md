@@ -36,9 +36,7 @@ In the whole example, I am using this simple calculator class to test.
 
 ```Java
 package org.automation;
-
 import io.qameta.allure.Step;
-
 public class Calculator {
     @Step
     public int sub(int a, int b) {
