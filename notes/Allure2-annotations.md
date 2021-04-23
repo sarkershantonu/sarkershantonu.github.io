@@ -117,6 +117,19 @@ This shows default behavior of @Step. That means , method name will be used as s
     }
 ```
 
+
+```shell
+ }
+    @Step("adding Integers with {} ")
+    public Integer add(Integer... numbers) {
+        Integer result = new Integer(0);
+        for (Integer i : numbers) {
+            result += i;
+        }
+        return result;
+    }
+
+```
 ### @AllureId : For Allure Enterprise Solution 
 - Scope Of Use : Methods
 - Parameters : It can take String
