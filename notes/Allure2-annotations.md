@@ -167,7 +167,7 @@ In the report we can see like this
 
 ![string-attachemnt](/images/allure/allure2/attachment-string.JPG)
 
-b. This will attach where screenshot was called.
+b. This will attach where screenshot was called. I have added a name just to show we can set name of the attachment. 
 ``` 
     @Attachment(value = "imageCaptured")
     public static byte[] capturePNG() throws IOException, AWTException {
