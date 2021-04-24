@@ -136,6 +136,7 @@ Example : I have included steps in all methods of calculator class. That means e
 Example : I am not using Allure corporate service, no I dont have any example for this. This is mainly Used by Allure Enterprise to link test cases with related test methods.
 
 ### @Attachment :
+Usually when a method returns a String or Byte array, we can attach this to allure report. That means, if we take any screenshot taking method, we can easily use ```@Attachment``` to include into report.
 
 - Scope Of Use : Methods
 - Parameters : Attachment Name, Attachment type, attached file extension. All are string 
