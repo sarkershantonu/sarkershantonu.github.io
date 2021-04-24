@@ -34,7 +34,7 @@ So, what are the annotations for Allure 2 that we can use. Here are the list. I 
 
 In the whole example, I am using this simple calculator class to test. 
 
-```Java
+```
 package org.automation;
 import io.qameta.allure.Step;
 public class Calculator {
@@ -115,9 +115,9 @@ Example : I have included steps in all methods of calculator class. That means e
     }
 ```
 
-- This shows custom step name with parameters 
+- This shows custom step sentence with parameters which is indicated by ```{}```
 
-```shell
+```
  }
     @Step("adding Integers with {} ")
     public Integer add(Integer... numbers) {
