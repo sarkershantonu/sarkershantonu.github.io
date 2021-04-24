@@ -133,6 +133,8 @@ Example : I have included steps in all methods of calculator class. That means e
 - Scope Of Use : Methods
 - Parameters : It can take String
 
+Example : I am not using Allure corporate service, no I dont have any example for this. This is mainly Used by Allure Enterprise to link test cases with related test methods.
+
 ### @Attachment :
 
 - Scope Of Use : Methods
