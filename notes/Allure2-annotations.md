@@ -140,7 +140,53 @@ Usually when a method returns a String or Byte array, we can attach this to allu
 
 - Scope Of Use : Methods
 - Parameters : Attachment Name, Attachment type, attached file extension. All are string 
-- Example :
+- Example : in the example, I am including ```@Attachment``` in method call and utility where I am taking screenshot. 
+
+a. This will get the return of the method and save as attachement 
+
+``` 
+@Step
+    @Attachment
+    public String add(String... strings){
+        if(null==strings || strings.length<=0)
+        {
+            return "empty_input";
+        }
+        else
+        {
+            StringBuffer sb = new StringBuffer();
+            for (String a:strings){
+                sb.append(a);
+            }
+            return sb.toString();
+        }
+    }
+```
+
+In the report we can see like this 
+
+![string-attachemnt](/images/allure/allure2/attachment-string.JPG)
+
+b. This will attach where screenshot was called.
+``` 
+    @Attachment(value = "imageCaptured")
+    public static byte[] capturePNG() throws IOException, AWTException {
+        byte[] out = null;
+        BufferedImage screencapture = new Robot().createScreenCapture(
+                new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
+        ByteArrayOutputStream bo = new ByteArrayOutputStream();
+        ImageIO.write(screencapture, "png", bo);
+        out = bo.toByteArray();
+        bo.close();
+        return out;
+    }
+```
+
+
+In the report we can see like this
+
+![string-attachemnt](/images/allure/allure2/attachment-images.JPG)
+
 
 ### @Description :
 
