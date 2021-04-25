@@ -194,6 +194,19 @@ When you want to add mode details to your test , use this as description of a te
 - Parameters : Description string & boolean if we want to extract description from method's JavaDoc
 - Example :
 
+```
+ @Test
+    @Severity(SeverityLevel.BLOCKER)
+    @Description("Adding two int ")
+    @Lead("shantonu.sarker")
+    @Owner("shantonu")
+    @Story("An User should be able to add two numbers")
+    @Issue("WW-21")
+    public void testAdd(){
+        assertEquals(30,myCal.add(25,5));
+    }
+
+```
 ### @Epic :
 An Epic is set of work which can be divided in smaller stories. Basic Idea about EPIC can be found [**here**](https://www.atlassian.com/agile/project-management/epics)
 
