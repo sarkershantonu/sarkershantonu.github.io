@@ -189,7 +189,7 @@ In the report we can see like this
 
 
 ### @Description :
-
+When you want to add mode details to your test , use this as description of a test. Usually I prefer to put manual testcase title as description so that in report we can see.  
 - Scope Of Use : Methods
 - Parameters : Description string & boolean if we want to extract description from method's JavaDoc
 - Example :
