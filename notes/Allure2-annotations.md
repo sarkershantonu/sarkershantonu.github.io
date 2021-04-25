@@ -203,6 +203,8 @@ When you want to add mode details to your test , use this as description of a te
 
 ```
 
+![description](/images/allure/allure2/.JPG)
+
 ### @Epic :
 An Epic is set of work which can be divided in smaller stories. Basic Idea about EPIC can be found [**here**](https://www.atlassian.com/agile/project-management/epics)
 
