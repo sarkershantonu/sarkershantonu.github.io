@@ -195,13 +195,8 @@ When you want to add mode details to your test , use this as description of a te
 - Example :
 
 ```
- @Test
+    @Test
     @Severity(SeverityLevel.BLOCKER)
-    @Description("Adding two int ")
-    @Lead("shantonu.sarker")
-    @Owner("shantonu")
-    @Story("An User should be able to add two numbers")
-    @Issue("WW-21")
     public void testAdd(){
         assertEquals(30,myCal.add(25,5));
     }
