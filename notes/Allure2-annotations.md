@@ -212,10 +212,24 @@ In summary, A large feature or theme that can span several releases is called EP
 
 - Scope Of Use : Methods & Classes 
 - Parameters : Description string. 
-- Example :
+- Example : 
 
+In class 
 
+``` 
+@Epic("We Need to Develop A calculator")
+public class TestWithAllureReports extends CalculatorTestBase {...}
+```
 
+In method 
+
+``` 
+@Test
+@Epic("Adding functionality of Adding two int ")
+    public void testAdd(){
+        assertEquals(30,myCal.add(25,5));
+    }
+```
 ### @Epics :
 This is for supporting multiple EPICs together in a single test.
 
