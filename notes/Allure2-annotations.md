@@ -237,6 +237,17 @@ This is for supporting multiple EPICs together in a single test.
 - Parameters : Array of EPIC
 - Example :
 
+In method 
+
+``` 
+    @Test
+    @Epics(@Epic("Adding functionality of Adding two int "),@Epic("A screenshot should be taken when we are adding"))
+    public void testAddWIthScreenshot() throws IOException, AWTException {
+        assertEquals(30,myCal.add(25,5));
+        ScreenShotUtil.capturePNG();
+    }
+```
+
 ### @Feature :
 A functionality that we deliver in a version of a release. It may contain multiple stories but make sure they are released in single version. 
 It is similar to EPIC but scope is single version. 
