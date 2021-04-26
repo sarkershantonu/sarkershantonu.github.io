@@ -284,6 +284,21 @@ Parameters : Array of feature
 
 Example : 
 
+In method 
+
+``` 
+    @Test
+    @Features({@Feature("Addition of two Integer"),
+            @Feature("Addition of two Floating point number"),
+            @Feature("Adding Integer & Floating point number")})
+    public void testAddMixType(){
+        Double[] data_double = new Double[]{15.0,25.1,4.9};
+        Integer[] data_int = new Integer[]{15,5,10};
+        assertEquals(45.0,myCal.add(data_double));
+        assertEquals(30,myCal.add(data_int));
+    }
+```
+
 ### @Story :
 A short (the smallest possible) requirement written in end user perspective. [A good read is here](https://www.atlassian.com/agile/project-management/user-stories)
 
