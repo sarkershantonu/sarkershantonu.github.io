@@ -257,6 +257,24 @@ It is similar to EPIC but scope is single version.
 - Parameters : Description string.
 - Example :
 
+In class
+
+``` 
+@Feature("Adding two values")
+public class TestWithAllureReports extends CalculatorTestBase {...}
+```
+
+In method
+
+``` 
+@Test
+@Feature("A  Screenshot present when adding two integers")
+     public void testAddWIthScreenshot() throws IOException, AWTException {
+        assertEquals(30,myCal.add(25,5));
+        ScreenShotUtil.capturePNG();
+    }
+```
+
 ### @Features :
 This is same as @Feature but with multiple entry. That means, this allows multiple Feature descriptions attached with a test class/method
 
