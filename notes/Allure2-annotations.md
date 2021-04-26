@@ -250,6 +250,7 @@ In method
 
 ### @Feature :
 A functionality that we deliver in a version of a release. It may contain multiple stories but make sure they are released in single version. 
+
 It is similar to EPIC but scope is single version. 
 
 - Scope Of Use : Methods & Classes
