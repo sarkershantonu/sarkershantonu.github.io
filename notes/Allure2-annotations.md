@@ -308,6 +308,15 @@ Parameters : It can take String value which can be description of the step.
 
 Example :
 
+In Method : 
+``` 
+    @Test
+    @Story("An User should be able to add all items in an array if integers")
+    public void testAddIntegerArray(){
+        Integer[] data = new Integer[]{5,10,25,6,4};
+        assertEquals(50,myCal.add(data));
+    }
+```
 ### @Stories :
 
 This is same as @Story but with multiple entry. That means, this allows multiple Story descriptions attached with a test class/method
