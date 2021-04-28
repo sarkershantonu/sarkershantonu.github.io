@@ -307,6 +307,13 @@ Scope Of Use : Methods & Classes.
 Parameters : It can take String value which can be description of the step.
 
 Example :
+- in class 
+
+``` 
+@Story("An User should be able to perform calculator operations ")
+public class TestWithAllureReports extends CalculatorTestBase {...}
+```
+
 
 In Method : 
 ``` 
