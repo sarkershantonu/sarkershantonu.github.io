@@ -104,7 +104,7 @@ Scope Of Use : Methods. Can be used with methods only
 
 Parameters : It can take String value which can be description of the step. 
 
-Example : I have included steps in all methods of calculator class. That means every time any calculator method is called for testing, it will be shown in Allure report as step. 
+**Example :** I have included steps in all methods of calculator class. That means every time any calculator method is called for testing, it will be shown in Allure report as step. 
 
 - This shows default behavior of @Step. That means , method name will be used as step description.  
 
@@ -133,14 +133,14 @@ Example : I have included steps in all methods of calculator class. That means e
 - Scope Of Use : Methods
 - Parameters : It can take String
 
-Example : I am not using Allure corporate service, no I dont have any example for this. This is mainly Used by Allure Enterprise to link test cases with related test methods.
+**Example :** I am not using Allure corporate service, no I dont have any example for this. This is mainly Used by Allure Enterprise to link test cases with related test methods.
 
 ### @Attachment :
 Usually when a method returns a String or Byte array, we can attach this to allure report. That means, if we take any screenshot taking method, we can easily use ```@Attachment``` to include into report.
 
 - Scope Of Use : Methods
 - Parameters : Attachment Name, Attachment type, attached file extension. All are string 
-- Example : in the example, I am including ```@Attachment``` in method call and utility where I am taking screenshot. 
+- **Example :** in the example, I am including ```@Attachment``` in method call and utility where I am taking screenshot. 
 
 a. This will get the return of the method and save as attachement 
 
@@ -192,7 +192,7 @@ In the report we can see like this
 When you want to add mode details to your test , use this as description of a test. Usually I prefer to put manual testcase title as description so that in report we can see.  
 - Scope Of Use : Methods
 - Parameters : Description string & boolean if we want to extract description from method's JavaDoc
-- Example :
+- **Example :**
 
 ```
     @Test
@@ -212,7 +212,7 @@ In summary, A large feature or theme that can span several releases is called EP
 
 - Scope Of Use : Methods & Classes 
 - Parameters : Description string. 
-- Example : 
+- **Example :** 
 
 In class 
 
@@ -235,7 +235,7 @@ This is for supporting multiple EPICs together in a single test.
 
 - Scope Of Use : Methods & Classes
 - Parameters : Array of EPIC
-- Example :
+- **Example :**
 
 In method 
 
@@ -255,7 +255,7 @@ It is similar to EPIC but scope is single version.
 
 - Scope Of Use : Methods & Classes
 - Parameters : Description string.
-- Example :
+- **Example :**
 
 In class
 
@@ -282,7 +282,7 @@ Scope Of Use : Methods & Classes.
 
 Parameters : Array of feature 
 
-Example : 
+**Example :** 
 
 In method 
 
@@ -306,14 +306,13 @@ Scope Of Use : Methods & Classes.
 
 Parameters : It can take String value which can be description of the step.
 
-Example :
+**Example :**
 - in class 
 
 ``` 
 @Story("An User should be able to perform calculator operations ")
 public class TestWithAllureReports extends CalculatorTestBase {...}
 ```
-
 
 In Method : 
 ``` 
@@ -331,7 +330,7 @@ This is same as @Story but with multiple entry. That means, this allows multiple
 Scope Of Use : Methods & Classes.
 
 Parameters : Array of Story
-Example :
+**Example :**
 
 ### @Flaky :
 Used with unstable tests. In allure report we can see annotated test as unstable.  
@@ -339,7 +338,7 @@ Used with unstable tests. In allure report we can see annotated test as unstable
 Scope Of Use : Methods & Classes.
 
 Parameters : None
-Example :
+**Example :**
 
 ### @Issue :
 Linking a rest with issues. 
@@ -347,7 +346,7 @@ Linking a rest with issues.
 Scope Of Use : Methods & Classes.
 
 Parameters : String to link issue tracker's original issue link 
-Example :
+**Example :**
 
 ### @Issues :
 
@@ -357,7 +356,7 @@ Scope Of Use : Methods & Classes.
 
 Parameters : Arrays of Issue
 
-Example : 
+**Example :** 
 
 
 ### @Lead :
@@ -367,7 +366,7 @@ Scope Of Use : Methods
 
 Parameters : String value as name of the lead person
 
-Example :
+**Example :**
 
 ### @Link :
 We can link any URL with @Link. It can be any external link /reference. 
@@ -380,7 +379,7 @@ Parameters : It takes
 - type , a string to represent what type of link
 - value , similar to name 
 
-Example :
+**Example :**
 
 ### @Links :
 
@@ -390,7 +389,7 @@ Scope Of Use : Methods & Classes.
 
 Parameters : Arrays of Links
 
-Example :
+**Example :**
 
 ### @Muted :
 If you want to exclude any test from Allure report, use @Muted. 
@@ -399,7 +398,7 @@ Scope Of Use : Methods & Classes.
 
 Parameters :None
 
-Example : 
+**Example :** 
 
 ### @Owner :
 This allows to put owner information of a test case presentable Allure report.
@@ -408,7 +407,7 @@ Scope Of Use : Methods & Classes.
 
 Parameters :Takes string as name of owner
 
-Example :
+**Example :**
 
 ### @Severity :
 We can prioritize out test by putting Severity information in Allure report usine @Severity
@@ -424,7 +423,7 @@ Parameters :Takes SeverityLevel values. Allure 2.0 has following Severities (enu
 - TRIVIAL("trivial");
 
 
-Example :
+**Example :**
 
 ### @TmsLink : Test Management System Links
 We can add test management tracker/system links with test cases. This will provide complete link in report. URL prefix can be configured using **allure.link.tms.pattern** property. 
@@ -435,7 +434,7 @@ Parameters : It can take String value which is the link of management system.
 
 For example, if our test case on TMS link is ```https://tms.mycompany.com/browse/tc-256```, then we can use ```tc-256``` as value here. 
 
-Example :
+**Example :**
 
 
 - Link in allure.properties : ```allure.link.tms.pattern=https://example.org/browse/{}``` where our provided text will put in ```{}``` section. 
@@ -447,4 +446,4 @@ Scope Of Use : Methods & Classes.
 
 Parameters : It can take String value which can be description of the step.
 
-Example : 
+**Example :** 
