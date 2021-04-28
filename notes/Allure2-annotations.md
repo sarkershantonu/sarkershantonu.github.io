@@ -332,6 +332,22 @@ Scope Of Use : Methods & Classes.
 Parameters : Array of Story
 **Example :**
 
+In a method 
+``` 
+    @Test
+    @Stories({
+    @Story("An User should be able to add Multi data type numbers (integer & double)"),
+    @Story("An User should be able to add integer"),
+    @Story("An User should be able to add  double numbers")})
+    public void testAddMixType(){
+        Double[] data_double = new Double[]{15.0,25.1,4.9};
+        Integer[] data_int = new Integer[]{15,5,10};
+        assertEquals(45.0,myCal.add(data_double));
+        assertEquals(30,myCal.add(data_int));
+    }
+
+```
+
 ### @Flaky :
 Used with unstable tests. In allure report we can see annotated test as unstable.  
 
