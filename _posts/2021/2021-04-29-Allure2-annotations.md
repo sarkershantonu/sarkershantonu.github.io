@@ -285,7 +285,7 @@ In method
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![epics-method](/images/allure/allure2/epics-method.JPG)
 
 ### @Feature :
 A functionality that we deliver in a version of a release. It may contain multiple stories but make sure they are released in single version. 
