@@ -437,8 +437,18 @@ Parameters : It takes
 
 **Example :**
 
-### @Links :
+In Method : 
 
+``` 
+@Test
+@Link(name = "requirements", url="https://www.programiz.com/c-programming/examples/add-numbers",type = "Trello")
+    public void testAddIntegerArray(){
+        Integer[] data = new Integer[]{5,10,25,6,4};
+        assertEquals(50,myCal.add(data));
+    }
+
+```
+### @Links :
 This is same as @Link but with multiple entry. That means, this allows multiple Links  attached with a test class/method
 
 Scope Of Use : Methods & Classes.
