@@ -143,6 +143,11 @@ public Integer add(Integer... numbers) {
 }
 
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
+
 ### @AllureId : For Allure Enterprise Solution 
 - Scope Of Use : Methods
 - Parameters : It can take String
@@ -216,6 +221,7 @@ When you want to add mode details to your test , use this as description of a te
     }
 
 ```
+**In Report :**
 
 ![description](/images/allure/allure2/.JPG)
 
@@ -244,6 +250,11 @@ In method
         assertEquals(30,myCal.add(25,5));
     }
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
+
 ### @Epics :
 This is for supporting multiple EPICs together in a single test.
 
@@ -262,6 +273,10 @@ In method
     }
 ```
 
+**In Report :**
+
+![](/images/allure/allure2/)
+
 ### @Feature :
 A functionality that we deliver in a version of a release. It may contain multiple stories but make sure they are released in single version. 
 
@@ -278,6 +293,10 @@ In class
 public class TestWithAllureReports extends CalculatorTestBase {...}
 ```
 
+**In Report :**
+
+![](/images/allure/allure2/)
+
 In method
 
 ``` 
@@ -288,6 +307,12 @@ In method
         ScreenShotUtil.capturePNG();
     }
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
+
+
 
 ### @Features :
 This is same as @Feature but with multiple entry. That means, this allows multiple Feature descriptions attached with a test class/method
@@ -313,6 +338,11 @@ In method
     }
 ```
 
+**In Report :**
+
+![](/images/allure/allure2/)
+
+
 ### @Story :
 A short (the smallest possible) requirement written in end user perspective. [A good read is here](https://www.atlassian.com/agile/project-management/user-stories)
 
@@ -328,6 +358,11 @@ Parameters : It can take String value which can be description of the step.
 public class TestWithAllureReports extends CalculatorTestBase {...}
 ```
 
+**In Report :**
+
+![](/images/allure/allure2/)
+
+
 In Method : 
 ``` 
     @Test
@@ -337,6 +372,12 @@ In Method :
         assertEquals(50,myCal.add(data));
     }
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
+
+
 ### @Stories :
 
 This is same as @Story but with multiple entry. That means, this allows multiple Story descriptions attached with a test class/method
@@ -344,6 +385,7 @@ This is same as @Story but with multiple entry. That means, this allows multiple
 Scope Of Use : Methods & Classes.
 
 Parameters : Array of Story
+
 **Example :**
 
 In a method 
@@ -361,6 +403,10 @@ In a method
     }
 
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
 
 ### @Flaky :
 Used with unstable tests. In allure report we can see annotated test as unstable.  
@@ -380,12 +426,19 @@ Parameters : None
         Assertions.fail("Flaky Test");
     }
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
+
+
 ### @Issue :
 Linking a rest with issues. 
 
 Scope Of Use : Methods & Classes.
 
 Parameters : String to link issue tracker's original issue link 
+
 **Example :**
 
 In Method  : 
@@ -397,6 +450,11 @@ In Method  :
         assertEquals(30,myCal.add(25,5));
     }
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
+
 
 ### @Issues :
 This is same as @Issue but with multiple entry. That means, this allows multiple Issue link attached with a test class/method
@@ -421,6 +479,11 @@ In method :
     
 ```
 
+**In Report :**
+
+![](/images/allure/allure2/)
+
+
 In Class : 
 
 ``` 
@@ -428,6 +491,11 @@ In Class :
 public class TestWithAllureReports extends CalculatorTestBase {...}
  
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
+
 
 ### @Lead :
 This annotation can be used to define a test case LEAD information. 
@@ -445,6 +513,11 @@ Parameters : String value as name of the lead person
         assertEquals(30,myCal.add(25,5));
     }
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
+
 
 In Report :
 
@@ -473,6 +546,11 @@ In Method :
 
 ```
 
+**In Report :**
+
+![](/images/allure/allure2/)
+
+
 ### @Links :
 This is same as @Link but with multiple entry. That means, this allows multiple Links  attached with a test class/method
 
@@ -489,6 +567,11 @@ In Class :
         @Link(name = "requirements-multiply", url="https://www.programiz.com/c-programming/examples/product-numbers",type = "Trello")})
 public class TestWithAllureReports extends CalculatorTestBase {...}
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
+
 
 ### @Muted :
 If you want to exclude any test from Allure report, use @Muted. 
@@ -510,6 +593,11 @@ In Method :
 ```
 And we cant see this in report. 
 
+**In Report :**
+
+![](/images/allure/allure2/)
+
+
 ### @Owner :
 This allows to put owner information of a test case presentable Allure report.
 
@@ -526,6 +614,11 @@ In Class :
 public class TestWithAllureReports extends CalculatorTestBase {...}
 ```
 
+**In Report :**
+
+![](/images/allure/allure2/)
+
+
 in method : 
 
 ``` 
@@ -536,6 +629,11 @@ in method :
     }
 
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
+
 
 ### @Severity :
 We can prioritize out test by putting Severity information in Allure report usine @Severity
@@ -569,6 +667,10 @@ In Method :
     }
 ```
 
+**In Report :**
+
+![](/images/allure/allure2/)
+
 
 ### @TmsLink : Test Management System Links
 We can add test management tracker/system links with test cases. This will provide complete link in report. URL prefix can be configured using **allure.link.tms.pattern** property. 
@@ -591,6 +693,12 @@ In method :
     }
 ```
 
+**In Report :**
+
+![](/images/allure/allure2/)
+
+
+
 - Link in allure.properties : ```allure.link.tms.pattern=https://example.org/browse/{}``` where our provided text will put in ```{}``` section. 
 
 ### @TmsLinks :
@@ -610,6 +718,10 @@ public class TestWithAllureReports extends CalculatorTestBase {..}
  
 ```
 
+**In Report :**
+
+![](/images/allure/allure2/)
+
 In Method : 
 
 ``` 
@@ -622,6 +734,10 @@ In Method :
         assertEquals(30,myCal.add(data_int));
     }
 ```
+
+**In Report :**
+
+![](/images/allure/allure2/)
 
 ### The test code 
 Finally, I have two part of the test code. I put ```CalculatorTestBase.java``` as base test case and actual test case will be ```TestWithAllureReports.java```.Here are the source code 
