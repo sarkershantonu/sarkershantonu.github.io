@@ -372,7 +372,7 @@ public class TestWithAllureReports extends CalculatorTestBase {...}
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![story-class](/images/allure/allure2/story-class.JPG)
 
 
 In Method : 
