@@ -130,6 +130,10 @@ public int add(int a, int b) {
 }
 ```
 
+**In Report :**
+
+![step](/images/allure/allure2/steps.JPG)
+
 - This shows custom step sentence with parameters which is indicated by ```{}```
 
 ```
@@ -146,7 +150,7 @@ public Integer add(Integer... numbers) {
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![steps-custom](/images/allure/allure2/steps-custom.JPG)
 
 ### @AllureId : For Allure Enterprise Solution 
 - Scope Of Use : Methods
