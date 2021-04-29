@@ -536,9 +536,16 @@ Parameters :Takes SeverityLevel values. Allure 2.0 has following Severities (enu
 - MINOR("minor"),
 - TRIVIAL("trivial");
 
-
 **Example :**
 
+In Class : 
+
+``` 
+@Severity(SeverityLevel.NORMAL)
+public class TestWithAllureReports extends CalculatorTestBase {
+```
+
+In 
 ### @TmsLink : Test Management System Links
 We can add test management tracker/system links with test cases. This will provide complete link in report. URL prefix can be configured using **allure.link.tms.pattern** property. 
 
