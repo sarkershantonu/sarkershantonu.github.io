@@ -397,8 +397,8 @@ Parameters : Arrays of Issue
 In method : 
 
 ``` 
-
-  @Issues({@Issue("WW-22"),@Issue("WW-23")})
+    @Test
+    @Issues({@Issue("WW-22"),@Issue("WW-23")})
     public void testAddMixType(){
         Double[] data_double = new Double[]{15.0,25.1,4.9};
         Integer[] data_int = new Integer[]{15,5,10};
