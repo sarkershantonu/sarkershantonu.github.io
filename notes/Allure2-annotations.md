@@ -461,8 +461,8 @@ Parameters : Arrays of Links
 In Class : 
 
 ``` 
-@Links({ @Link(name = "requirements", url="https://www.programiz.com/c-programming/examples/add-numbers",type = "Trello"),
-        @Link(name = "requirements", url="https://www.programiz.com/c-programming/examples/product-numbers",type = "Trello")})
+@Links({ @Link(name = "requirements-add", url="https://www.programiz.com/c-programming/examples/add-numbers",type = "Trello"),
+        @Link(name = "requirements-multiply", url="https://www.programiz.com/c-programming/examples/product-numbers",type = "Trello")})
 public class TestWithAllureReports extends CalculatorTestBase {...}
 ```
 
