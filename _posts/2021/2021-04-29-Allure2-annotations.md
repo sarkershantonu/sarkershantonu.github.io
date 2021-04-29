@@ -322,7 +322,7 @@ In method
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![feature-cmethod](/images/allure/allure2/feature-cmethod.JPG)
 
 
 
