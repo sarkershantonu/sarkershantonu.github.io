@@ -424,6 +424,16 @@ Parameters : String value as name of the lead person
 
 **Example :**
 
+```
+    @Test
+    @Lead("shantonu.sarker")
+    public void testAdd(){
+        assertEquals(30,myCal.add(25,5));
+    }
+```
+
+In Report :
+
 ### @Link :
 We can link any URL with @Link. It can be any external link /reference. 
 
