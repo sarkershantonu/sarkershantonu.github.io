@@ -515,6 +515,11 @@ public class TestWithAllureReports extends CalculatorTestBase {...}
 in method : 
 
 ``` 
+    @Test
+    @Owner("shantonu")
+    public void testAdd(){
+        assertEquals(30,myCal.add(25,5));
+    }
 
 ```
 
