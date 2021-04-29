@@ -384,6 +384,16 @@ Parameters : Arrays of Issue
 
 **Example :** 
 
+In method : 
+
+``` 
+    @Test
+    @Issue("WW-21")
+    @Epic("Adding functionality of Adding two int ")
+    public void testAdd(){
+        assertEquals(30,myCal.add(25,5));
+    }
+```
 
 ### @Lead :
 This annotation can be used to define a test case LEAD information. 
