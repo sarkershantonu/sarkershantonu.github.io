@@ -545,7 +545,17 @@ In Class :
 public class TestWithAllureReports extends CalculatorTestBase {
 ```
 
-In 
+In Method : 
+
+``` 
+    @Test
+    @Severity(SeverityLevel.BLOCKER)
+    public void testAdd(){
+        assertEquals(30,myCal.add(25,5));
+    }
+```
+
+
 ### @TmsLink : Test Management System Links
 We can add test management tracker/system links with test cases. This will provide complete link in report. URL prefix can be configured using **allure.link.tms.pattern** property. 
 
