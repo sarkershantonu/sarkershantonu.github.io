@@ -10,6 +10,7 @@ I am not putting details on why we need allure, to know details about allure rep
 ### [Example With Junit5](https://github.com/sarkershantonu/Automation-Getting-Started/tree/master/Allure2-Junit5)
 - [POM.XML](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/Allure2-Junit5/pom.xml) structure
 - [Example Test cases](https://github.com/sarkershantonu/Automation-Getting-Started/tree/master/Allure2-Junit5/src/test/java/org/automation/junit5/tests/allure/TestWithAllureReports.java)
+- [Application to test](https://github.com/sarkershantonu/Automation-Getting-Started/blob/master/Allure2-Junit5/src/main/java/org/automation/Calculator.java)
 
 ### Key Points in POM 
 - Surefire Plugins configuration 
