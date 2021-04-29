@@ -567,6 +567,15 @@ For example, if our test case on TMS link is ```https://tms.mycompany.com/browse
 
 **Example :**
 
+In method : 
+
+``` 
+    @Test
+    @TmsLink("tc-256")
+    public void testAdd(){
+        assertEquals(30,myCal.add(25,5));
+    }
+```
 
 - Link in allure.properties : ```allure.link.tms.pattern=https://example.org/browse/{}``` where our provided text will put in ```{}``` section. 
 
