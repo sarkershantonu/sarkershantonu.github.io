@@ -385,7 +385,6 @@ In Method  :
 ```
 
 ### @Issues :
-
 This is same as @Issue but with multiple entry. That means, this allows multiple Issue link attached with a test class/method
 
 Scope Of Use : Methods & Classes.
