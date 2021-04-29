@@ -408,6 +408,14 @@ In method :
     
 ```
 
+In Class : 
+
+``` 
+@Issues({@Issue("WW-22"),@Issue("WW-21"),@Issue("WW-23")})
+public class TestWithAllureReports extends CalculatorTestBase {...}
+ 
+```
+
 ### @Lead :
 This annotation can be used to define a test case LEAD information. 
 
