@@ -245,6 +245,10 @@ In class
 public class TestWithAllureReports extends CalculatorTestBase {...}
 ```
 
+**In Report :**
+
+![epic-class](/images/allure/allure2/epic-class.JPG)
+
 In method 
 
 ``` 
