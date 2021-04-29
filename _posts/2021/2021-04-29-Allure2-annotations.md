@@ -263,6 +263,8 @@ In method
 
 ![epic-method](/images/allure/allure2/epic-method.JPG)
 
+Note : there are two method which has same epic name, so, two test will be under this single epic
+
 ### @Epics :
 This is for supporting multiple EPICs together in a single test.
 
