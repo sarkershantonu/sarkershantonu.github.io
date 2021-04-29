@@ -448,6 +448,7 @@ In Method :
     }
 
 ```
+
 ### @Links :
 This is same as @Link but with multiple entry. That means, this allows multiple Links  attached with a test class/method
 
@@ -456,6 +457,14 @@ Scope Of Use : Methods & Classes.
 Parameters : Arrays of Links
 
 **Example :**
+
+In Class : 
+
+``` 
+@Links({ @Link(name = "requirements", url="https://www.programiz.com/c-programming/examples/add-numbers",type = "Trello"),
+        @Link(name = "requirements", url="https://www.programiz.com/c-programming/examples/product-numbers",type = "Trello")})
+public class TestWithAllureReports extends CalculatorTestBase {...}
+```
 
 ### @Muted :
 If you want to exclude any test from Allure report, use @Muted. 
