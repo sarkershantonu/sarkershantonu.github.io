@@ -1,3 +1,15 @@
+---
+layout: post
+title: Introduction to Allure2 Annotations
+date: "2021-04-29 17:02"
+tags: [allure, automation, reporting]
+permalink: /2021/04/29/allure2-annotations/
+gh-repo: sarkershantonu/sarkershantonu.github.io
+excerpt: "Blog on Allure"
+gh-badge: [star,follow]
+comments: true
+---
+
 In this blog we are going to see how can we use Allure-2 Annotations in our test cases. 
 
 If you are interested to know about Allure-1 annotations, one of [my old blog](https://sarkershantonu.github.io/2016/10/03/allure1/) you may read. 
