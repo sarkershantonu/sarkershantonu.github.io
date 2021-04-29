@@ -287,6 +287,8 @@ In method
 
 ![epics-method](/images/allure/allure2/epics-method.JPG)
 
+Note : In here you can see ```testAddWIthScreenshot()``` present under both epic 
+
 ### @Feature :
 A functionality that we deliver in a version of a release. It may contain multiple stories but make sure they are released in single version. 
 
