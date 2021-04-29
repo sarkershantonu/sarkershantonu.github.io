@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Allure2 Annotations
-date: "2021-04-29 17:02"
+date: "2020-04-29 17:02"
 tags: [allure, automation, reporting]
 permalink: /2021/04/29/allure2-annotations/
 gh-repo: sarkershantonu/sarkershantonu.github.io
@@ -125,23 +125,22 @@ Parameters : It can take String value which can be description of the step.
 
 ``` 
 @Step
-    public int add(int a, int b) {
-        return a + b;
-    }
+public int add(int a, int b) {
+	return a + b;
+}
 ```
 
 - This shows custom step sentence with parameters which is indicated by ```{}```
 
 ```
- }
-    @Step("adding Integers with {} ")
-    public Integer add(Integer... numbers) {
-        Integer result = new Integer(0);
-        for (Integer i : numbers) {
-            result += i;
-        }
-        return result;
+@Step("adding Integers with {} ")
+public Integer add(Integer... numbers) {
+    Integer result = new Integer(0);
+    for (Integer i : numbers) {
+        result += i;
     }
+    return result;
+}
 
 ```
 ### @AllureId : For Allure Enterprise Solution 
@@ -161,21 +160,21 @@ a. This will get the return of the method and save as attachement
 
 ``` 
 @Step
-    @Attachment
-    public String add(String... strings){
-        if(null==strings || strings.length<=0)
-        {
-            return "empty_input";
-        }
-        else
-        {
-            StringBuffer sb = new StringBuffer();
-            for (String a:strings){
-                sb.append(a);
-            }
-            return sb.toString();
-        }
+@Attachment
+public String add(String... strings){
+    if(null==strings || strings.length<=0)
+    {
+        return "empty_input";
     }
+    else
+    {
+        StringBuffer sb = new StringBuffer();
+        for (String a:strings){
+            sb.append(a);
+        }
+        return sb.toString();
+    }
+}
 ```
 
 In the report we can see like this 
