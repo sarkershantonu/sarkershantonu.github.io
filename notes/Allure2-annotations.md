@@ -354,8 +354,18 @@ Used with unstable tests. In allure report we can see annotated test as unstable
 Scope Of Use : Methods & Classes.
 
 Parameters : None
-**Example :**
 
+**Example :** I am making a test to fail intentionally. 
+
+- In method 
+
+``` 
+ @Test
+    @Flaky
+    public void flakyTestExample(){
+        Assertions.fail("Flaky Test");
+    }
+```
 ### @Issue :
 Linking a rest with issues. 
 
