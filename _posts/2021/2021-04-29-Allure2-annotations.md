@@ -3,7 +3,7 @@ layout: post
 title: Introduction to Allure2 Annotations
 date: "2020-04-29 17:02"
 tags: [allure, automation, reporting]
-permalink: /2021/04/29/allure2-annotations/
+permalink: /2020/04/29/allure2-annotations/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Allure"
 gh-badge: [star,follow]
