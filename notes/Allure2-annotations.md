@@ -387,12 +387,15 @@ Parameters : Arrays of Issue
 In method : 
 
 ``` 
-    @Test
-    @Issue("WW-21")
-    @Epic("Adding functionality of Adding two int ")
-    public void testAdd(){
-        assertEquals(30,myCal.add(25,5));
+
+  @Issues({@Issue("WW-22"),@Issue("WW-23")})
+    public void testAddMixType(){
+        Double[] data_double = new Double[]{15.0,25.1,4.9};
+        Integer[] data_int = new Integer[]{15,5,10};
+        assertEquals(45.0,myCal.add(data_double));
+        assertEquals(30,myCal.add(data_int));
     }
+    
 ```
 
 ### @Lead :
