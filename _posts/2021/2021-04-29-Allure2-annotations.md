@@ -219,7 +219,7 @@ When you want to add mode details to your test , use this as description of a te
 
 ```
     @Test
-    @Severity(SeverityLevel.BLOCKER)
+    @Description("Adding two int ")
     public void testAdd(){
         assertEquals(30,myCal.add(25,5));
     }
