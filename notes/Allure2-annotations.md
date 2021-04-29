@@ -587,3 +587,24 @@ Scope Of Use : Methods & Classes.
 Parameters : It can take String value which can be description of the step.
 
 **Example :** 
+
+In Class : 
+
+``` 
+@TmsLinks({@TmsLink("tc-257"), @TmsLink("tc-258"), @TmsLink("tc-256")})
+public class TestWithAllureReports extends CalculatorTestBase {..}
+ 
+```
+
+In Method : 
+
+``` 
+    @Test
+    @TmsLinks({@TmsLink("tc-257"), @TmsLink("tc-258")})
+    public void testAddMixType(){
+        Double[] data_double = new Double[]{15.0,25.1,4.9};
+        Integer[] data_int = new Integer[]{15,5,10};
+        assertEquals(45.0,myCal.add(data_double));
+        assertEquals(30,myCal.add(data_int));
+    }
+```
