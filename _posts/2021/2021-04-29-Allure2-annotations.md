@@ -352,7 +352,7 @@ In method
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![features-method](/images/allure/allure2/features-method.JPG)
 
 
 ### @Story :
