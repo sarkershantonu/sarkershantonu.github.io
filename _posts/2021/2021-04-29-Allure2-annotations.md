@@ -907,3 +907,8 @@ public class TestWithAllureReports extends CalculatorTestBase {
 
 
 ```
+
+### Allure Report
+- Overall 
+
+![overall](/images/allure/allure2/overall.JPG)
