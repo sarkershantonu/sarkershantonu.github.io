@@ -261,7 +261,7 @@ In method
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![epic-method](/images/allure/allure2/epic-method.JPG)
 
 ### @Epics :
 This is for supporting multiple EPICs together in a single test.
