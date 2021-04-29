@@ -912,3 +912,7 @@ public class TestWithAllureReports extends CalculatorTestBase {
 - Overall 
 
 ![overall](/images/allure/allure2/overall.JPG)
+
+- Failed & invalid tests 
+
+![failed](/images/allure/allure2/fail-invalids.JPG)
