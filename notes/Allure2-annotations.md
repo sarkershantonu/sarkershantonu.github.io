@@ -505,6 +505,19 @@ Parameters :Takes string as name of owner
 
 **Example :**
 
+In Class : 
+
+``` 
+@Owner("shantonu")
+public class TestWithAllureReports extends CalculatorTestBase {...}
+```
+
+in method : 
+
+``` 
+
+```
+
 ### @Severity :
 We can prioritize out test by putting Severity information in Allure report usine @Severity
 
