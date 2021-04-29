@@ -374,6 +374,7 @@ public class TestWithAllureReports extends CalculatorTestBase {...}
 
 ![story-class](/images/allure/allure2/story-class.JPG)
 
+Note : As story is the lowest part of epic-feature-story hierarchy. As we have put this line as story of a class, you will see this story added to all methods inside that class.  
 
 In Method : 
 ``` 
