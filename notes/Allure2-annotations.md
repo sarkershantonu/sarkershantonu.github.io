@@ -475,6 +475,17 @@ Parameters :None
 
 **Example :** 
 
+In Method : 
+
+``` 
+    @Test
+    @Muted
+    public void mutedTestExample(){
+        Assertions.fail(" A muted test which wont be shown in report");
+    }
+```
+And we cant see this in report. 
+
 ### @Owner :
 This allows to put owner information of a test case presentable Allure report.
 
