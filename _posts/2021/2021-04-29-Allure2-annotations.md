@@ -530,9 +530,7 @@ Parameters : String value as name of the lead person
     }
 ```
 
-**In Report :**
-
-![](/images/allure/allure2/)
+Note : @Lead information will not be shown in report. In result JSON, you can see. 
 
 
 In Report :
