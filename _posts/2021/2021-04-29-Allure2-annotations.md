@@ -125,7 +125,9 @@ Scope Of Use : Methods. Can be used with methods only
 
 Parameters : It can take String value which can be description of the step. 
 
-**Example :** I have included steps in all methods of calculator class. That means every time any calculator method is called for testing, it will be shown in Allure report as step. 
+**Example :** 
+
+I have included steps in all methods of calculator class. That means every time any calculator method is called for testing, it will be shown in Allure report as step. 
 
 - This shows default behavior of @Step. That means , method name will be used as step description.  
 
@@ -159,17 +161,23 @@ public Integer add(Integer... numbers) {
 ![steps-custom](/images/allure/allure2/steps-custom.JPG)
 
 ### @AllureId : For Allure Enterprise Solution 
-- Scope Of Use : Methods
-- Parameters : It can take String
+Scope Of Use : Methods
+Parameters : It can take String
 
-**Example :** I am not using Allure corporate service, no I dont have any example for this. This is mainly Used by Allure Enterprise to link test cases with related test methods.
+**Example :** 
+
+I am not using Allure corporate service, no I dont have any example for this. This is mainly Used by Allure Enterprise to link test cases with related test methods.
 
 ### @Attachment :
 Usually when a method returns a String or Byte array, we can attach this to allure report. That means, if we take any screenshot taking method, we can easily use ```@Attachment``` to include into report.
 
-- Scope Of Use : Methods
-- Parameters : Attachment Name, Attachment type, attached file extension. All are string 
-- **Example :** in the example, I am including ```@Attachment``` in method call and utility where I am taking screenshot. 
+Scope Of Use : Methods
+
+Parameters : Attachment Name, Attachment type, attached file extension. All are string 
+
+**Example :** 
+
+in the example, I am including ```@Attachment``` in method call and utility where I am taking screenshot. 
 
 a. This will get the return of the method and save as attachement 
 
@@ -219,9 +227,12 @@ In the report we can see like this
 
 ### @Description :
 When you want to add mode details to your test , use this as description of a test. Usually I prefer to put manual testcase title as description so that in report we can see.  
-- Scope Of Use : Methods
-- Parameters : Description string & boolean if we want to extract description from method's JavaDoc
-- **Example :**
+
+Scope Of Use : Methods
+
+Parameters : Description string & boolean if we want to extract description from method's JavaDoc
+
+**Example :**
 
 ```
     @Test
@@ -240,9 +251,11 @@ An Epic is set of work which can be divided in smaller stories. Basic Idea about
 
 In summary, A large feature or theme that can span several releases is called EPIC
 
-- Scope Of Use : Methods & Classes 
-- Parameters : Description string. 
-- **Example :** 
+Scope Of Use : Methods & Classes 
+
+Parameters : Description string. 
+
+**Example :** 
 
 In class 
 
@@ -274,9 +287,11 @@ Note : there are two method which has same epic name, so, two test will be under
 ### @Epics :
 This is for supporting multiple EPICs together in a single test.
 
-- Scope Of Use : Methods & Classes
-- Parameters : Array of EPIC
-- **Example :**
+Scope Of Use : Methods & Classes
+
+Parameters : Array of EPIC
+
+**Example :**
 
 In method 
 
@@ -300,9 +315,11 @@ A functionality that we deliver in a version of a release. It may contain multip
 
 It is similar to EPIC but scope is single version. 
 
-- Scope Of Use : Methods & Classes
-- Parameters : Description string.
-- **Example :**
+Scope Of Use : Methods & Classes
+
+Parameters : Description string.
+
+**Example :**
 
 In class
 
@@ -369,7 +386,8 @@ Scope Of Use : Methods & Classes.
 Parameters : It can take String value which can be description of the step.
 
 **Example :**
-- in class 
+
+In class 
 
 ``` 
 @Story("An User should be able to perform calculator operations ")
@@ -383,6 +401,7 @@ public class TestWithAllureReports extends CalculatorTestBase {...}
 Note : As story is the lowest part of epic-feature-story hierarchy. As we have put this line as story of a class, you will see this story added to all methods inside that class.  
 
 In Method : 
+
 ``` 
     @Test
     @Story("An User should be able to add all items in an array of integers")
@@ -435,7 +454,9 @@ Scope Of Use : Methods & Classes.
 
 Parameters : None
 
-**Example :** I am making a test to fail intentionally. 
+**Example :** 
+
+I am making a test to fail intentionally. 
 
 - In method 
 
