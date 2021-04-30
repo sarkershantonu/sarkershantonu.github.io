@@ -509,8 +509,9 @@ public class TestWithAllureReports extends CalculatorTestBase {...}
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![issues-class](/images/allure/allure2/issues-class.JPG)
 
+Note : As I have attached ```"WW-22,WW-21,WW-23``` in the class, all of the test method will get this number by default. 
 
 ### @Lead :
 This annotation can be used to define a test case LEAD information. 
