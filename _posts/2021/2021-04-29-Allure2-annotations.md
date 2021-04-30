@@ -41,8 +41,8 @@ allure.link.tms.pattern=https://example.org/browse/{}
 ```
 So, what are the annotations for Allure 2 that we can use. Here are the list. I am describing one by one. 
 
-### Commands to run the test
-- To test ```mvnw -Dtest.suite=org.automation.junit5.suites.AllureExamples.class clean test```
+### Commands to see report
+- To run test  ```mvnw -Dtest.suite=org.automation.junit5.suites.AllureExamples.class clean test```
 - To generate & view report locally ``` mvnw site io.qameta.allure:allure-maven:report io.qameta.allure:allure-maven:serve ```
 
 For quick run, I have added two files for windows ``` allure-example.bat``` and ```build-show-report.bat ``` linux based OS ``` allure-example.sh``` and ```build-show-report.sh ```. Just run them one by one. 
