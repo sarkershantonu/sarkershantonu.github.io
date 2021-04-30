@@ -683,7 +683,7 @@ Note : if you use this in class level, all test methods will have that value by 
 
 - In Graph view, you can see this
 
-![](/images/allure/allure2/)
+![severity-overall](/images/allure/allure2/severity-overall.JPG)
 
 ### @TmsLink : Test Management System Links
 We can add test management tracker/system links with test cases. This will provide complete link in report. URL prefix can be configured using **allure.link.tms.pattern** property. 
