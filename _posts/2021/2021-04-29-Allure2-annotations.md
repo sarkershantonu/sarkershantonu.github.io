@@ -532,9 +532,6 @@ Parameters : String value as name of the lead person
 
 Note : @Lead information will not be shown in report. In result JSON, you can see. 
 
-
-In Report :
-
 ### @Link :
 We can link any URL with @Link. It can be any external link /reference. 
 
