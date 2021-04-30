@@ -608,7 +608,6 @@ And we cant see this in report.
 
 ![muted](/images/allure/allure2/muted.JPG)
 
-
 ### @Owner :
 This allows to put owner information of a test case presentable Allure report.
 
@@ -618,33 +617,31 @@ Parameters :Takes string as name of owner
 
 **Example :**
 
-In Class : 
-
-``` 
-@Owner("shantonu")
-public class TestWithAllureReports extends CalculatorTestBase {...}
-```
-
-**In Report :**
-
-![](/images/allure/allure2/)
-
 
 in method : 
 
 ``` 
     @Test
     @Owner("shantonu")
-    public void testAdd(){
+    public void testAddWIthScreenshot() throws IOException, AWTException {
         assertEquals(30,myCal.add(25,5));
+        ScreenShotUtil.capturePNG();
     }
 
 ```
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![owner](/images/allure/allure2/owner.JPG)
 
+In Class :
+
+``` 
+@Owner("shantonu")
+public class TestWithAllureReports extends CalculatorTestBase {...}
+```
+
+Note : If you add owner info in class level, all of your test methods will get the owner info. 
 
 ### @Severity :
 We can prioritize out test by putting Severity information in Allure report usine @Severity
