@@ -468,7 +468,7 @@ In Method  :
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![issue-method](/images/allure/allure2/issue-method.JPG)
 
 
 ### @Issues :
