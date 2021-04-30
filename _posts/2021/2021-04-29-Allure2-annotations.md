@@ -606,7 +606,7 @@ And we cant see this in report.
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![muted](/images/allure/allure2/muted.JPG)
 
 
 ### @Owner :
