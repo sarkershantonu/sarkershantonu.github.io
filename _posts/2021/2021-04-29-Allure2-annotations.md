@@ -379,7 +379,7 @@ Note : As story is the lowest part of epic-feature-story hierarchy. As we have p
 In Method : 
 ``` 
     @Test
-    @Story("An User should be able to add all items in an array if integers")
+    @Story("An User should be able to add all items in an array of integers")
     public void testAddIntegerArray(){
         Integer[] data = new Integer[]{5,10,25,6,4};
         assertEquals(50,myCal.add(data));
