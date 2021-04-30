@@ -496,7 +496,7 @@ In method :
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![issues-method](/images/allure/allure2/issues-method.JPG)
 
 
 In Class : 
