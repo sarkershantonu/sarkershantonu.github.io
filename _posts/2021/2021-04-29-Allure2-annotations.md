@@ -644,7 +644,7 @@ public class TestWithAllureReports extends CalculatorTestBase {...}
 Note : If you add owner info in class level, all of your test methods will get the owner info. 
 
 ### @Severity :
-We can prioritize out test by putting Severity information in Allure report usine @Severity
+We can prioritize out test by putting Severity information in Allure report using @Severity. Allure has builtin constants to use it with. 
 
 Scope Of Use : Methods & Classes.
 
@@ -677,8 +677,13 @@ In Method :
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![severity-method](/images/allure/allure2/severity-method.JPG)
 
+Note : if you use this in class level, all test methods will have that value by default. Any test method value will override class level declearation.  
+
+- In Graph view, you can see this
+
+![](/images/allure/allure2/)
 
 ### @TmsLink : Test Management System Links
 We can add test management tracker/system links with test cases. This will provide complete link in report. URL prefix can be configured using **allure.link.tms.pattern** property. 
