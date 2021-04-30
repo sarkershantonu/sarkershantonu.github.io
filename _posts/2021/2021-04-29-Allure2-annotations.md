@@ -822,8 +822,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Story("An User should be able to perform calculator operations ")
 @Owner("shantonu")
 @Issues({@Issue("WW-22"),@Issue("WW-21"),@Issue("WW-23")})
-@Links({ @Link(name = "requirements", url="https://www.programiz.com/c-programming/examples/add-numbers",type = "Trello"),
-        @Link(name = "requirements", url="https://www.programiz.com/c-programming/examples/product-numbers",type = "Trello")})
+@Links({ @Link(name = "RQ-1", url="https://www.programiz.com/c-programming/examples/add-numbers",type = "Trello"),
+        @Link(name = "RQ-2", url="https://www.programiz.com/c-programming/examples/product-numbers",type = "Trello")})
 @Severity(SeverityLevel.NORMAL)
 @TmsLinks({@TmsLink("tc-257"), @TmsLink("tc-258"), @TmsLink("tc-256")})
 public class TestWithAllureReports extends CalculatorTestBase {
@@ -831,7 +831,6 @@ public class TestWithAllureReports extends CalculatorTestBase {
     @Severity(SeverityLevel.BLOCKER)
     @Description("Adding two int ")
     @Lead("shantonu.sarker")
-    @Owner("shantonu")
     @Story("An User should be able to add two numbers")
     @Issue("WW-21")
     @Epic("Adding functionality of Adding two int ")
@@ -843,6 +842,7 @@ public class TestWithAllureReports extends CalculatorTestBase {
     @Test
     @Epics({@Epic("Adding functionality of Adding two int "),@Epic("A screenshot should be taken when we are adding")})
     @Feature("A  Screenshot present when adding two integers")
+    @Owner("shantonu")
     public void testAddWIthScreenshot() throws IOException, AWTException {
         assertEquals(30,myCal.add(25,5));
         ScreenShotUtil.capturePNG();
@@ -864,7 +864,7 @@ public class TestWithAllureReports extends CalculatorTestBase {
     @Test
     @Severity(SeverityLevel.MINOR)
     @Description("Adding all items from an int Array")
-    @Story("An User should be able to add all items in an array if integers")
+    @Story("An User should be able to add all items in an array of integers")
     public void testAddIntArray(){
         int[] data = {5,10,25,6,4};
         assertEquals(50,myCal.add(data));
@@ -873,7 +873,7 @@ public class TestWithAllureReports extends CalculatorTestBase {
     @Test
     @Severity(SeverityLevel.CRITICAL)
     @Description("Adding all items from an Integer Array")
-    @Story("An User should be able to add all items in an array if integers")
+    @Story("An User should be able to add all items in an array of integers")
     @Issue("WW-25")
     @Link(name = "requirements", url="https://www.programiz.com/c-programming/examples/add-numbers",type = "Trello")
     public void testAddIntegerArray(){
@@ -886,12 +886,12 @@ public class TestWithAllureReports extends CalculatorTestBase {
     @Description("Adding two integer & double values")
     @Stories({@Story("An User should be able to add Multi data type numbers (integer & double)"),
             @Story("An User should be able to add integer"),
-    @Story("An User should be able to add  double numbers")})
+            @Story("An User should be able to add  double numbers")})
     @Features({@Feature("Addition of two Integer"),
             @Feature("Addition of two Floating point number"),
             @Feature("Adding Integer & Floating point number")})
     @Issues({@Issue("WW-22"),@Issue("WW-23")})
-    @TmsLinks({@TmsLink("tc-257"), @TmsLink("tc-258")})
+    @TmsLinks({@TmsLink("tc-300"), @TmsLink("tc-301")})
     public void testAddMixType(){
         Double[] data_double = new Double[]{15.0,25.1,4.9};
         Integer[] data_int = new Integer[]{15,5,10};
@@ -915,7 +915,6 @@ public class TestWithAllureReports extends CalculatorTestBase {
     public void flakyTestExample(){
         Assertions.fail("Flaky Test");
     }
-
 }
 
 
