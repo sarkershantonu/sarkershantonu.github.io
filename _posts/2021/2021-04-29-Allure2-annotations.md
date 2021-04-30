@@ -580,8 +580,9 @@ public class TestWithAllureReports extends CalculatorTestBase {...}
 
 **In Report :**
 
-![](/images/allure/allure2/link-class.JPG)
+![link-class](/images/allure/allure2/link-class.JPG)
 
+Note : As ```RQ-1, RQ-2``` added in class level, all test cases will have those two links. 
 
 ### @Muted :
 If you want to exclude any test from Allure report, use @Muted. 
