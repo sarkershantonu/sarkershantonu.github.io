@@ -559,7 +559,7 @@ In Method :
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![link-method](/images/allure/allure2/link-method.JPG)
 
 
 ### @Links :
