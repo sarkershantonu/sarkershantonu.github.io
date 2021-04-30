@@ -388,7 +388,7 @@ In Method :
 
 **In Report :**
 
-![](/images/allure/allure2/story-method.JPG)
+![story-method](/images/allure/allure2/story-method.JPG)
 
 
 ### @Stories :
