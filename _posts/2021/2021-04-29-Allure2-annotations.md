@@ -434,7 +434,7 @@ Parameters : None
 - In method 
 
 ``` 
- @Test
+    @Test
     @Flaky
     public void flakyTestExample(){
         Assertions.fail("Flaky Test");
@@ -443,8 +443,9 @@ Parameters : None
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![flaky](/images/allure/allure2/flaky.JPG)
 
+It has the text which i have added in assertion fail.
 
 ### @Issue :
 Linking a rest with issues. 
