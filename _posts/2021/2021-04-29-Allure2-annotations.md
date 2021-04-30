@@ -708,7 +708,7 @@ In method :
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![tms-method](/images/allure/allure2/tms-method.JPG)
 
 
 
