@@ -402,6 +402,7 @@ Parameters : Array of Story
 **Example :**
 
 In a method 
+
 ``` 
     @Test
     @Stories({
@@ -419,7 +420,7 @@ In a method
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![stories-method](/images/allure/allure2/stories-method.JPG)
 
 ### @Flaky :
 Used with unstable tests. In allure report we can see annotated test as unstable.  
