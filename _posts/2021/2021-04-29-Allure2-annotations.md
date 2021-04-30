@@ -737,7 +737,7 @@ In Method :
 
 ``` 
     @Test
-    @TmsLinks({@TmsLink("tc-257"), @TmsLink("tc-258")})
+    @TmsLinks({@TmsLink("tc-300"), @TmsLink("tc-301")})
     public void testAddMixType(){
         Double[] data_double = new Double[]{15.0,25.1,4.9};
         Integer[] data_int = new Integer[]{15,5,10};
