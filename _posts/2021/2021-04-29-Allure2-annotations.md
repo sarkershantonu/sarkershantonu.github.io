@@ -731,7 +731,7 @@ public class TestWithAllureReports extends CalculatorTestBase {..}
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![tms-links-class](/images/allure/allure2/tms-links-class.JPG)
 
 In Method : 
 
@@ -748,7 +748,9 @@ In Method :
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![tms-links-method](/images/allure/allure2/tms-links-method.JPG)
+
+Note : If we add this in class level, all test methods will get the links. 
 
 ### The test code 
 Finally, I have two part of the test code. I put ```CalculatorTestBase.java``` as base test case and actual test case will be ```TestWithAllureReports.java```.Here are the source code 
