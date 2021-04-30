@@ -561,7 +561,6 @@ In Method :
 
 ![link-method](/images/allure/allure2/link-method.JPG)
 
-
 ### @Links :
 This is same as @Link but with multiple entry. That means, this allows multiple Links  attached with a test class/method
 
@@ -574,14 +573,14 @@ Parameters : Arrays of Links
 In Class : 
 
 ``` 
-@Links({ @Link(name = "requirements-add", url="https://www.programiz.com/c-programming/examples/add-numbers",type = "Trello"),
-        @Link(name = "requirements-multiply", url="https://www.programiz.com/c-programming/examples/product-numbers",type = "Trello")})
+@Links({ @Link(name = "RQ-1", url="https://www.programiz.com/c-programming/examples/add-numbers",type = "Trello"),
+        @Link(name = "RQ-2", url="https://www.programiz.com/c-programming/examples/product-numbers",type = "Trello")})
 public class TestWithAllureReports extends CalculatorTestBase {...}
 ```
 
 **In Report :**
 
-![](/images/allure/allure2/)
+![](/images/allure/allure2/link-class.JPG)
 
 
 ### @Muted :
