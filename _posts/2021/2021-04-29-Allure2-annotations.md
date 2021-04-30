@@ -710,8 +710,6 @@ In method :
 
 ![tms-method](/images/allure/allure2/tms-method.JPG)
 
-
-
 - Link in allure.properties : ```allure.link.tms.pattern=https://example.org/browse/{}``` where our provided text will put in ```{}``` section. 
 
 ### @TmsLinks :
