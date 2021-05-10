@@ -15,3 +15,6 @@ A suite containing single or multiple Releases
 A suite containing all tests 
 
 A suite containing Regression Suite 
+
+How to Apply  : 
+- Making custom annotation with Tags 
