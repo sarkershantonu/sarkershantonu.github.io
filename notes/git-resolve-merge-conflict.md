@@ -7,3 +7,5 @@
 ### What is merge conflict
 
 ### The Scenarios & solutions
+
+
