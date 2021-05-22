@@ -42,6 +42,10 @@ Courses which I used to take online.
 
 ||API Testing with PostMan-NewMan || **40hr**
 
+||API Testing novice to advance || **40hr**
+
+||API Testing with RestAssured || **40hr**
+
 ### 3 day Workshops
 
 ||APM Basics Newrelic/Dynatrace/AppDynamics || **20hr**
