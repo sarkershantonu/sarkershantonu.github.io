@@ -74,7 +74,7 @@ Courses which I used to take online.
 
 ||Cucumber with Java || **5hr**
 
-||Spechflow with Dotnet || **5hr**
+||Specflow with Dotnet || **5hr**
 
 ||Fitnesse-Java || **5hr**
 
