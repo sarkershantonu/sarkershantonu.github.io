@@ -64,7 +64,7 @@ Courses which I used to take online.
 
 ||Proxmox for Beginners || **20hr**
 
-||How to plan for 100kCCU Performance Testing || **20hr**
+||Performance Testing, A Practical Approach || **20hr**
 
 ### Day Long Workshops
 
