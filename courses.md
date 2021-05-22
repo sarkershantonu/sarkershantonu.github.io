@@ -34,7 +34,7 @@ Courses which I used to take online.
 
 ||Selenium-Java || **40hr**
 
-||Selenium-Dotnet || **40hr**
+||Practical Approach to build Java Selenium Frameworks || **40hr**
 
 ||Jmeter/Plugin Development || **40hr**
 
