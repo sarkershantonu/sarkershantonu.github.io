@@ -28,7 +28,7 @@ Courses which I used to take online.
 
 ### Weekly Workshops 5 days
 
-||Performance Testing Basics || **40hr**
+||Performance Testing Basics to Advance || **40hr**
 
 ||Jmeter for a beginner || **40hr**
 
