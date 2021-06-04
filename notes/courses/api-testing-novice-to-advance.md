@@ -19,4 +19,7 @@
 ### Automation Tools 
 
 
-### CI/CD : Newman
+### CI/CD : 
+- Newman
+- RestAssured
+- Karate 
