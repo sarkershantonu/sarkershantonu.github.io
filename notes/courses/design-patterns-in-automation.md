@@ -18,4 +18,7 @@
 
 ### DP : Page Object Model 
 
-### Screen Play 
+### DP : Screen Play
+
+### DP : Component Object Model 
+- Helpful React JS components 
