@@ -6,3 +6,5 @@
 
 ### Useful GOF Design Patterns
 
+### DP : Single tone & Why 
+
