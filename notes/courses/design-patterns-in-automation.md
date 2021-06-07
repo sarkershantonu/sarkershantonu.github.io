@@ -7,11 +7,13 @@
 ### Useful GOF Design Patterns
 
 ### DP : Single tone & Why we are using
+
 - What : 
 - Why : 
 - How : 
 - Example : 
 - Home Task : 
+
 ### DP : Factory Method & Why we are using 
 
 ### DP : Memento & Why we are using 
