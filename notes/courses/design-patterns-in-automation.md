@@ -16,4 +16,6 @@
 
 ### Popular Automation Testing Patterns 
 
-### Page Object Model 
+### DP : Page Object Model 
+
+### Screen Play 
