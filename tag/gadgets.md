@@ -16,8 +16,18 @@ comments: true
 
 This page contains all Gadgets & Gear Information
 
-# Daily Use Laptop : 
-### [Sager NP8954 (Clevo P955ER)](https://www.amazon.com/-/es/np8954-0-73-ligero-Gaming-Laptop-visualizaci%C3%B3n/dp/B07D5MD3F2)
+# Daily Use Laptops : 
+### Primary [Lenovo Legion 5](https://www.lenovo.com/us/en/laptops/legion-laptops/legion-5-series/Lenovo-Legion-5-15ARH05/p/88GMY501444)
+- [Ryzen 7 4800h](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4800H&id=3676)
+- 512gb nvme SSD
+- 8GB DDR4 3200Mhz
+- GTX 1650/4GB
+- 15.6 inch (ca. 40 cm) FHD@120hz(1920x1080)
+- Windows 10 + PopOs
+
+
+
+### Secondary [Sager NP8954 (Clevo P955ER)](https://www.amazon.com/-/es/np8954-0-73-ligero-Gaming-Laptop-visualizaci%C3%B3n/dp/B07D5MD3F2)
 - [Core i7 8750h](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8750H+%40+2.20GHz&id=3237)
 - 32Gb DDR4 (2x16GB 2666Mhz)
 - 256Gb nvme Toshiba
