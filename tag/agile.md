@@ -21,3 +21,7 @@ This page contains all post related to Agile development/testing.
 1. [Simple Agile Board](https://trello.com/b/noYl6vDp/simple)
 2. [Simple Kanban Board](https://trello.com/b/VmLfQlix/kan-ban-simple)
 3. [Kaz Software Kanban Board](https://trello.com/b/7pdQ0hJr/kaz-software)
+
+# Agile Mindset & Best Practices 
+
+# Agile Testing
