@@ -15,9 +15,11 @@ What is a Docker Registry?
 
 Docker Architecture : 
 - Overview
+- Full Picture
 - Components
 - CLI
 - Client
+
 
 
 Docker Memes :) 
