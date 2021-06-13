@@ -20,13 +20,9 @@ Docker Architecture :
 - CLI
 - Client
 
-
-
 Docker Memes :) 
 
-Docker Architecture Overview
-The Full Picture
-Docker Container Manipulation Basics
+Docker Commands :
 - Run a Container
 - Publish a Port
 - Use Detached Mode
@@ -39,24 +35,14 @@ Docker Container Manipulation Basics
 - Run a Container in Interactive Mode
 - Execute Commands Inside a Container
 - Work With Executable Images
-Docker Image Manipulation Basics
 - Create a Docker Image
 - Tag Docker Images
 - List and Remove Docker Images
 - Understand the Many Layers of a Docker Image
 - Build NGINX from Source
 - Optimize Docker Images
-Embracing Alpine Linux
-- Create Executable Docker Images
-- Share Your Docker Images Online
-- Containerize a JavaScript Application
-- Write the Development Dockerfile
-- Work With Bind Mounts in Docker
-- Work With Anonymous Volumes in Docker
-- Perform Multi-Staged Builds in Docker
-- Ignore Unnecessary Files
-Network Manipulation Basics in Docker
-Docker Network Basics
+
+Networking  Basics :
 - Create a User-Defined Bridge in Docker
 - Attach a Container to a Network in Docker
 - Detach Containers from a Network in Docker
@@ -71,6 +57,16 @@ Docker Network Basics
 - Write Management Scripts in Docker
 - Compose Projects Using Docker-Compose
 
+Docker Tips : 
+- Create Executable Docker Images
+- Share Your Docker Images Online
+- Containerize a JavaScript Application
+- Write the Development Dockerfile
+- Work With Bind Mounts in Docker
+- Work With Anonymous Volumes in Docker
+- Perform Multi-Staged Builds in Docker
+- Ignore Unnecessary Files
+
 Docker Compose:  Basics
 - Start Services in Docker Compose
 - List Services in Docker Compose
@@ -78,3 +74,8 @@ Docker Compose:  Basics
 - Access Logs from a Running Service in Docker Compose
 - Stop Services in Docker Compose
 - Compose a Full-stack Application in Docker Compose
+
+Testing With Docker : 
+- Test Containers 
+- Data Containers
+- Testing In Production (shadow)
