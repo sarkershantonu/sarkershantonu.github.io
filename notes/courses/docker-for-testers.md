@@ -20,7 +20,7 @@ Docker Architecture :
 - CLI
 - Client
 
-Docker Memes :) 
+
 
 Docker Commands :
 - Run a Container
@@ -79,3 +79,17 @@ Testing With Docker :
 - Test Containers 
 - Data Containers
 - Testing In Production (shadow)
+- Jmeter with docker
+- Selenium Testing in docker 
+- API testing in docker
+
+Docker Monitoring : 
+- App monitoring
+- Grafana 
+- InfluxDB 
+
+Example : 
+A. Jmeter Grafana InfluxDB system for live performance Monitoring 
+B. Selenium Chrome headless compatibility Grid testing with screenshot & video. 
+
+Docker Memes :) 
