@@ -26,7 +26,10 @@
 - How it runs?
 - Tagging 
 
-
+# Cucumber in CI/CD
+- Basic Commands 
+- Jenkins Plugins 
+- 
 
 # Tips & Tricks 
 - How to write smarter Specs 
