@@ -20,6 +20,7 @@
 - When 
 - Then 
 - And 
+- Data Tables
 
 # Cucumber Architecture 
 - How it runs?
