@@ -20,3 +20,7 @@
 - When 
 - Then 
 - And 
+
+# Cucumber Architecture 
+- How it runs?
+- Tagging 
