@@ -29,4 +29,4 @@
 # Tips & Tricks 
 - How to write smarter Specs 
 - How to design test runner
-- 
+- How to run tags
