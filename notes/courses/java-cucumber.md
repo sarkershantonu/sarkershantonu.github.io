@@ -26,7 +26,10 @@
 - How it runs?
 - Tagging 
 
+
+
 # Tips & Tricks 
 - How to write smarter Specs 
 - How to design test runner
 - How to run tags
+- How to generate beautiful report
