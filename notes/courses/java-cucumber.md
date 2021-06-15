@@ -25,3 +25,6 @@
 # Cucumber Architecture 
 - How it runs?
 - Tagging 
+
+# Tips & Tricks 
+- How to write smarter Specs 
