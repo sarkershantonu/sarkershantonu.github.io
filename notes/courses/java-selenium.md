@@ -12,3 +12,8 @@
 - How to use
 
 # Selenium Library 
+- WebDriver
+- WebElement
+- JavaScriptExecutor
+- Ajax Handler
+- Wait
