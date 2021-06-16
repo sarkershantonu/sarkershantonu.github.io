@@ -17,3 +17,18 @@
 - JavaScriptExecutor
 - Ajax Handler
 - Wait
+
+# Selenium Basics
+
+# Selenium Advance
+
+# Reporting 
+- Logging 
+- Screenshots 
+- Video Recording 
+
+# Selenium Docker 
+
+# Testing With API 
+
+# Ci/CD
