@@ -25,11 +25,13 @@
 # Cucumber Architecture 
 - How it runs?
 - Tagging 
+- Junit Cucumber
+- Cucumber Runner
 
 # Cucumber in CI/CD
 - Basic Commands 
 - Jenkins Plugins 
-- 
+- Reports in Jenkins
 
 # Tips & Tricks 
 - How to write smarter Specs 
