@@ -7,5 +7,8 @@
 # Selenium Java 
 
 # Selenium Architecture 
+- How it runs?
+- Sub Components
+- How to use
 
 # Selenium Library 
