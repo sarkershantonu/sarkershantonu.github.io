@@ -25,12 +25,19 @@
 # Selenium Advance
 - How to handle Session
 
+# Remote Execution
+- What Is Selenium Grid
+
 # Reporting 
 - Logging 
 - Screenshots 
 - Video Recording 
 
 # Selenium Docker 
+- Running Headless Chrome
+- Running Headless PhantomJS
+- Running Grid in Docker 
+
 
 # Testing With API 
 
