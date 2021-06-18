@@ -3,7 +3,9 @@
 # Selenium Evaluation History
 
 # What is Not Selenium
-- W
+- Where not to use Selenium 
+- How to meet testing requirements with selenium
+- Anti-patterns 
 
 # Selenium Java 
 - Hello World Selenium 
