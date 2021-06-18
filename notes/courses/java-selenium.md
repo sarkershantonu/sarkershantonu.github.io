@@ -27,6 +27,8 @@
 
 # Remote Execution
 - What Is Selenium Grid
+- Setting Up Selenium Grid
+- 
 
 # Reporting 
 - Logging 
@@ -42,3 +44,6 @@
 # Testing With API 
 
 # Ci/CD
+- Basic Test Commands 
+- Jenkins With selenium Grid
+- Jenkins Pipeline Acceptance Test suite 
