@@ -30,6 +30,11 @@
 
 # Selenium Advance
 - How to handle Session
+- Execute Java Script 
+- Testing AngularJS 
+- Testing ReactJS
+- Design Pattern : POM
+- Design Pattern : COM
 
 # Remote Execution
 - What Is Selenium Grid
