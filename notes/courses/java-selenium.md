@@ -39,7 +39,8 @@
 # Remote Execution
 - What Is Selenium Grid
 - Setting Up Selenium Grid
-- 
+- Desire Compatibilities
+- Compatibility Testing with GRID
 
 # Reporting 
 - Logging 
