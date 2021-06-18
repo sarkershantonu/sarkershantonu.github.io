@@ -19,8 +19,11 @@
 - Wait
 
 # Selenium Basics
+- How to handle browser
+- How to handle wait
 
 # Selenium Advance
+- How to handle Session
 
 # Reporting 
 - Logging 
