@@ -1,3 +1,6 @@
+Total : 120hr, 40 classes, 20 weeks. 
+Home Task 
+
 # What is Selenium ?
 
 # Selenium Evaluation History
