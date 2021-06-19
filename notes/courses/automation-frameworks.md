@@ -1,3 +1,14 @@
+# Course Info
+- Total : 80hr, 20 classes, 2 Exams , 12 weeks.
+- Home Task : 10
+- Exams :
+    - Software Architecture Basic : 4hr : Multiple Choice
+    - Complete UAT system : 12hr : HandsOn
+    - Testing Dynamic Website : 4hr : HandsOn
+    - Testing ReactJs Website : 4hr : HandsOn
+    - Building CI/CD with Own Jenkins : 12 hr : HandsOn
+
+
 # What is a Test Framework?
 
 # What is a testing system?
