@@ -19,6 +19,8 @@ Eligibility :
 - 2+ Experience as Manual Tester who can understand basic testing. 
 - Book Reading **Head First OOAD, GOF DP, Clean Code, The Clean Coder**.  
 
+Engagement : Weekly 20-25hr for 20 weeks.  
+
 # What is a Test Framework?
 
 # What is a testing system?
