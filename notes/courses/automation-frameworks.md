@@ -15,3 +15,7 @@
 ### Example : Hybrid Testing System : UAT
 
 # Useful Design Patterns 
+
+# Reporting Best Practices
+
+# Tracing Best Practices 
