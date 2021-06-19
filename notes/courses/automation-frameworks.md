@@ -11,8 +11,7 @@
     - Software Architecture Basic : 4hr : Multiple Choice
     - Complete UAT system : 12hr : HandsOn
     - Building CI/CD with Own Jenkins : 12 hr : HandsOn
-
-
+    
 Eligibility : 
 - Hands On Java Coding 2 years+ as developer 
 - If Test Automation Engineer, 5+ years experience as Coder
