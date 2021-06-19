@@ -1,12 +1,17 @@
 # Course Info
-- Total : 80hr, 20 classes, 2 Exams , 12 weeks.
-- Home Task : 5
-- Exams :
+- Total : 60hr, 15 classes, 3 Exams , 15 weeks + 3 Weeks exam
+  
+- Home Task : 12
+  - Design Patterns : 6 
+  - Building UI test framework from scratch : 2
+  - Building API framework from scratch : 2
+  - Building End to End test framework from scratch : 2
+
+- Exams : 3
     - Software Architecture Basic : 4hr : Multiple Choice
     - Complete UAT system : 12hr : HandsOn
     - Building CI/CD with Own Jenkins : 12 hr : HandsOn
-
-
+    
 # What is a Test Framework?
 
 # What is a testing system?
