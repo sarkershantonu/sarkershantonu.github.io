@@ -19,3 +19,8 @@
 # Reporting Best Practices
 
 # Tracing Best Practices 
+
+# Supporting CI/CD
+- Jenkins
+- Docker
+- Test Containers 
