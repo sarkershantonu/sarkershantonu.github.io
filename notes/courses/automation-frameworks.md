@@ -5,13 +5,20 @@
   - Design Patterns : 6 
   - Building UI test framework from scratch : 2
   - Building API framework from scratch : 2
-  - Building End to End test framework from scratch : 2
+  - Building End-to-End test framework from scratch : 2
 
 - Exams : 3
     - Software Architecture Basic : 4hr : Multiple Choice
     - Complete UAT system : 12hr : HandsOn
     - Building CI/CD with Own Jenkins : 12 hr : HandsOn
-    
+
+
+Eligibility : 
+- Hands On Java Coding 2 years+ as developer 
+- If Test Automation Engineer, 5+ years experience as Coder
+- 2+ Experience as Manual Tester who can understand basic testing. 
+- Book Reading **Head First OOAD, GOF DP, Clean Code, The Clean Coder**.  
+
 # What is a Test Framework?
 
 # What is a testing system?
