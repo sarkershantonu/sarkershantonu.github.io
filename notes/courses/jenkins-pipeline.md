@@ -15,3 +15,7 @@
 - With AWS
 - With Non Container Environment 
 - With Windows(with Hacks)
+
+# Best Practices 
+- Pattern
+- Anti Pattern 
