@@ -14,7 +14,9 @@
 
 # Jenkins Pipeline Concept 
 
-# Jenkins Pipeline Plugins Set
+# Jenkins Pipeline Tools 
+- Plugins Set
+- Environment Tools
 
 # YAML Basics
 
@@ -27,3 +29,7 @@
 # Best Practices 
 - Pattern
 - Anti Pattern 
+
+# Personal Tips 
+- Yaml
+- Execution
