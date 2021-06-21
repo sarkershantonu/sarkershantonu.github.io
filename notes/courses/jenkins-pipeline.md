@@ -13,4 +13,4 @@
 # Building Deployment Pipeline 
 - With Docker 
 - With AWS
-- With Non Container Environments 
+- With Non Container Environment 
