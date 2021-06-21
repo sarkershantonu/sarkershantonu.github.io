@@ -1,3 +1,11 @@
-# What is Jenkins Pipeline?
+# What is Jenkins? 
+
+# What is a Pipeline?
+
+# What is Jenkins Pipeline? 
+
+# Jenkins Pipeline Concept 
 
 # Jenkins Pipeline Plugins Set
+
+#  
