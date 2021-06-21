@@ -14,3 +14,4 @@
 - With Docker 
 - With AWS
 - With Non Container Environment 
+- With Windows(with Hacks)
