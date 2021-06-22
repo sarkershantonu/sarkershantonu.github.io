@@ -7,8 +7,8 @@
     - Building CI/CD with Pipeline : AWS : 12hr : HandsOn
     
 # What is Jenkins? 
+- See [**this**]() topics for basic jenkins 
 
-- See this for basic 
 # What is a Pipeline?
 
 # What is Jenkins Pipeline? 
