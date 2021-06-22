@@ -8,6 +8,7 @@
     
 # What is Jenkins? 
 
+- See this for basic 
 # What is a Pipeline?
 
 # What is Jenkins Pipeline? 
