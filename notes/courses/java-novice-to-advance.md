@@ -1,5 +1,5 @@
 # Course Info
-- Total : 120hr, 30 classes, 5 Exams , 20 weeks.
+- Total : 160hr, 40 classes, 5 Exams , 20 weeks.
 - Home Task : 10
 - Exams :
     - Selenium Basic : 4hr : Multiple Choice
