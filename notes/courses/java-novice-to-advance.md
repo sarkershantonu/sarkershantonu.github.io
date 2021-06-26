@@ -13,6 +13,8 @@
 
 # Reflections 
 
+# Generics 
+
 # Design Patterns 
 
 # OOAD
@@ -23,3 +25,4 @@
 
 # Clean Architecture 
 
+# Best Practices 
