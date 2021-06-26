@@ -13,4 +13,7 @@
 
 # Reflections 
 
-# 
+# Design Patterns 
+
+# OOAD
+
