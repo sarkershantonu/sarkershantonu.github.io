@@ -18,3 +18,8 @@
 # OOAD
 
 # SOLID
+
+# Clean Code & Clean Coder 
+
+# Clean Architecture 
+
