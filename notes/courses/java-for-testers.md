@@ -8,3 +8,7 @@ Principle : OOP
 # packaging
 
 # Reflection basics
+
+# How to use annotations
+
+# Generics
