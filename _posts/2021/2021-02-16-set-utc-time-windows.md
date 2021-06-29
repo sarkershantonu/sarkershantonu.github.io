@@ -10,10 +10,23 @@ gh-badge: [star,follow]
 comments: true
 ---
 
+### Time Issue in windows/Linux 
 As developer or tester I needed to dual boot my Laptop/PC to change to linux from windows (or vice versa). This seems easy if you can do clean installation but there are small things we need to care about. 
 
 One of that is Time. Usually when you reboot to change windows to linux or linux to windows, you will see your time hase changed. 
-- Open Regedit 
+
+**Why?**, Under the hood Linux (I am using poOs which is built on debian linux) use UTC time , so when you select your region, linux assume your BIOS time as UTC time and adjust local time based on your selection. 
+
+For example, I am living in Bangladesh (UTC+6) when I choose time location as dhaka , this will assume my BIOS has UTC time and adjust local time. If my BIOS time is 2PM, my local time will be 8PM. 
+
+But, windows does not assume anything. It assumes, BIOS time as local time. So, 2PM BIOS will be shown as 2PM dhaka time. 
+
+So, if I boot to linux, my time will be changed and vice versa.
+
+To resolve this, I need to configure windows following same way like linux to consider BIOS time as UTC. In this way both OS will show same time in PC clock.
+
+### Make Windows following UTC 
+- Open Regedit as Admin 
 - Goto ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\TimeZoneInformation```
 - Right click on Blank Space and select "New > " & select ```DWORD(32)Value```
 
@@ -25,3 +38,7 @@ One of that is Time. Usually when you reboot to change windows to linux or linux
 ![reg-changed](/images/windows/time/reg-final.JPG)
 
 - Reboot PC 
+
+We are done. Now you can see both OS will follow UTC time. 
+
+Thanks :) 
