@@ -10,6 +10,9 @@ gh-badge: [star,follow]
 comments: true
 ---
 
+As developer or tester I needed to dual boot my Laptop/PC to change to linux from windows (or vice versa). This seems easy if you can do clean installation but there are small things we need to care about. 
+
+One of that is Time. Usually when you reboot to change windows to linux or linux to windows, you will see your time hase changed. 
 - Open Regedit 
 - Goto ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\TimeZoneInformation```
 - Right click on Blank Space and select "New > " & select ```DWORD(32)Value```
