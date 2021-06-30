@@ -9,6 +9,8 @@
 ### Rest API , Manual Testing
 
 ### PostMan
+- Installing
+- Browser Plugins 
 
 ### RestClient : IntelliJ IDEA
 
