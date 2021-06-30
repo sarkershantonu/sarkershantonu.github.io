@@ -19,6 +19,9 @@
 ### Rest API Automation 
 
 ### Automation Tools 
+- Newman
+- RestAssured
+- Karate
 
 ### RestAssured 
 - Init Project 
@@ -36,6 +39,3 @@
 ### Tracing Steps to reproduce Bugs
 
 ### CI/CD :
-- Newman
-- RestAssured
-- Karate 
