@@ -22,20 +22,20 @@
 
 
 
-# RestAssured 
+### RestAssured 
 - Init Project 
 - JSON Testing 
 - Contract Testing 
 
-# Advance Testing
+### Advance Testing
 - Building end-to-end test suite
 - Performance Testing API with JMH/Junit Performance 
 
-# Reporting 
+### Reporting 
 
-# Logging 
+### Logging 
 
-# Tracing Steps to reproduce Bugs
+### Tracing Steps to reproduce Bugs
 
 ### CI/CD :
 - Newman
