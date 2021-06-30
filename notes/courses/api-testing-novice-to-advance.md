@@ -20,10 +20,7 @@
 
 ### Automation Tools 
 
-### CI/CD : 
-- Newman
-- RestAssured
-- Karate 
+
 
 # RestAssured 
 - Init Project 
@@ -37,3 +34,10 @@
 # Reporting 
 
 # Logging 
+
+# Tracing Steps to reproduce Bugs
+
+### CI/CD :
+- Newman
+- RestAssured
+- Karate 
