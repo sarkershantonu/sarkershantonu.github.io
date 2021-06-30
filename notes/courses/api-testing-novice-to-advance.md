@@ -20,8 +20,6 @@
 
 ### Automation Tools 
 
-
-
 ### RestAssured 
 - Init Project 
 - JSON Testing 
