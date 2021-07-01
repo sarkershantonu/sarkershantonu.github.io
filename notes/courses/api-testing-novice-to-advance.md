@@ -1,11 +1,10 @@
 # Course Info
-- Total : 80hr, 20 classes, 3 Exams , 20 weeks.
-- Home Task : 10
+- Total : 80hr, 20 classes, 3 Exams , 10 weeks.
+- Home Task : 5
 - Exams :
-    - Selenium Basic : 4hr : Multiple Choice
-    - Testing Static Website : 4hr : HandsOn
-    - Testing Dynamic Website : 4hr : HandsOn
-    - Testing ReactJs Website : 4hr : HandsOn
+    - API Testing Basic : 4hr : Multiple Choice
+    - Rest Testing With PostMan & NewMan: 4hr : HandsOn
+    - Rest Testing with RestAssured : 12hr : HandsOn
     - Building CI/CD with Own Jenkins : 12 hr : HandsOn
   
 ### What is API?
