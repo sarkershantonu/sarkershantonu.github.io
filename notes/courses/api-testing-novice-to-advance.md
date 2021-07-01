@@ -8,10 +8,12 @@
     - Rest Testing With PostMan & NewMan: 4hr : HandsOn
     - Rest Testing with RestAssured : 12hr : HandsOn
     - Building CI/CD with Own Jenkins : 12 hr : HandsOn
-  
+
+# TOC : 
+
 ### What is API?
 
-### What are API types
+### API types with History
 
 ### API Protocols 
 
