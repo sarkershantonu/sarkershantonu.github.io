@@ -31,6 +31,7 @@
 ### Advance Testing
 - Building end-to-end test suite
 - Performance Testing API with JMH/Junit Performance 
+- Security Testing of APIs
 
 ### Reporting 
 
