@@ -1,5 +1,7 @@
 # Course Info
-- Total : 80hr, 20 classes, 3 Exams , 10 weeks.
+- Total : 80hr
+- 20 classes/10 weeks 
+- 4 Exams
 - Home Task : 5
 - Exams :
     - API Testing Basic : 4hr : Multiple Choice
