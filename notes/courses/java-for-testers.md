@@ -23,7 +23,7 @@
     - End to end UI testing with selenium+ restassured : 12hr : HandsOn
     - A complete CI/CD with Own Jenkins : 12 hr : HandsOn
   
-# J#ava & History
+# Java & History
 
 Principle : OOP
 # Keywords
