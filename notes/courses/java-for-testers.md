@@ -44,6 +44,7 @@
 - Access modifiers
 
 # Annotations
+- How it works
 - How to use annotations
 
 # Reflection basics
@@ -52,6 +53,5 @@
 - Access Fields
 - Access Annotations 
 
-# 
 
 # Generics
