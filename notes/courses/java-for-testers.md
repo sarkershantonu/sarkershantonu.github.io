@@ -33,6 +33,8 @@
 # Keywords
 
 # logic element
+- if/else
+- switch
 
 # packaging
 
