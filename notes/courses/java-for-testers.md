@@ -25,8 +25,8 @@
   
 # Java & History
 
-Principle : OOP
-
+# Principle : OOP
+- 
 # Keywords
 
 # logic element
