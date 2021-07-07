@@ -46,6 +46,8 @@
 # Annotations
 - How it works
 - How to use annotations
+- Custom Annotations 
+- Processor, per-processor, post-processor
 
 # Reflection basics
 - Access Methods
