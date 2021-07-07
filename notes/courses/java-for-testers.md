@@ -44,6 +44,10 @@
 - Access modifiers
 
 # Reflection basics
+- Access Methods
+- Access Classes & Interfaces
+- Access Fields
+- Access Annotations 
 
 # How to use annotations
 
