@@ -26,7 +26,10 @@
 # Java & History
 
 # Principle : OOP
-- 
+- Inheritance
+- Polymorphism
+- Encapsulation 
+
 # Keywords
 
 # logic element
