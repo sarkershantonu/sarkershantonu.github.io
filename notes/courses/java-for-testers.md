@@ -35,6 +35,10 @@
 # logic element
 - if/else
 - switch
+- for
+- whole
+- do/while
+- goto
 
 # packaging
 
