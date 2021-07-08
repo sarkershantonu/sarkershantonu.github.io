@@ -55,7 +55,6 @@
 - Access Fields
 - Access Annotations 
 
-
 # Generics
 - What is generics
 - How it works
