@@ -60,3 +60,5 @@
 - What is generics
 - How it works
 - How to design your code using generics 
+- Recognizing generic code
+- Simplifying generics  
