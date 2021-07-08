@@ -1,9 +1,8 @@
 # Course Info
 - Total : 200hr
 - 50 classes/26 weeks
-- 18 Exams
 - Home Task : 13
-- Exams :
+- Exams : 18 : 
     - Java Basic: Logic units : 4hr : Multiple Choice + Lab
     - Java Basic: OOP : 4hr : Multiple Choice + Lab
     - Java Basic: Annotations & Reflections : 4hr : Multiple Choice + Lab
