@@ -42,6 +42,8 @@
 
 # packaging
 - Access modifiers
+- META-INF 
+
 
 # Annotations
 - How it works
