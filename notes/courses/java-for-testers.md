@@ -29,6 +29,7 @@
 - Inheritance
 - Polymorphism
 - Encapsulation 
+- OOP Keywords 
 
 # Keywords
 
@@ -43,7 +44,6 @@
 # packaging
 - Access modifiers
 - META-INF 
-
 
 # Annotations
 - How it works
