@@ -63,3 +63,11 @@
 - How to design your code using generics 
 - Recognizing generic code
 - Simplifying generics  
+
+# Dependency Management 
+- No Management 
+- Maven/Gradle 
+- Repository 
+- Private Repository 
+- Maven Lifecycle 
+- Create Project's POM.XML
