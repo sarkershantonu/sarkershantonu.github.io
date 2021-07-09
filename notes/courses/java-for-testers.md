@@ -26,9 +26,9 @@
 
 # Keywords
 
-- abstract
-- assert
-- boolean
+- abstract : OOP
+- assert : Testing
+- boolean : Data Type
 - break
 - byte
 - case
