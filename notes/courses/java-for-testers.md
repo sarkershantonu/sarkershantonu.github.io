@@ -37,8 +37,8 @@
 - class : OOP
 - const
 - continue : Loop /continue
-- default
-- do
+- default : Default Implementation in interface 
+- do :  Looping
 - double : Data Type
 - else
 - enum : OOP
@@ -57,28 +57,28 @@
 - long : Data Type
 - native
 - new : OOP
-- package
-- private
-- protected : 
-- public
+- package : packaging
+- private : Access Modifier
+- protected : Access Modifier 
+- public : Access Modifier
 - return
 - short : Data Type 
 - static
 - strictfp
-- super
+- super : OOP
 - switch
 - synchronized
-- this
-- throw
-- throws
+- this : OOP
+- throw : Exception
+- throws : Exception
 - transient
-- try
+- try : Exception
 - void : Data Type
 - volatile
 - while
-- true
-- false
-- null
+- true : Data Type
+- false : Data Type
+- null : Data Type
 
 # Principle : OOP
 - Inheritance
