@@ -51,7 +51,7 @@
 - if : Conditional
 - implements : OOP
 - import : packaging
-- instanceof
+- instanceof : Conditional of object
 - int : Data Type
 - interface : OOP
 - long : Data Type
