@@ -29,39 +29,40 @@
 - abstract : OOP
 - assert : Testing
 - boolean : Data Type
-- break
-- byte
+- break : Loop /break
+- byte : Data Type 
 - case
 - catch
-- char
-- class
+- char : Data Type
+- class : OOP
 - const
-- continue
+- continue : Loop /continue
 - default
 - do
-- double
+- double : Data Type
 - else
-- enum
+- enum : OOP
 - extends
 - final
 - finally
-- float
+- float : Data Type
 - for
 - goto
 - if
-- implements
-- import
+- implements : OOP
+- import : packaging
 - instanceof
-- int
-- interface
-- long
+- int : Data Type
+- interface : OOP
+- long : Data Type
 - native
-- new
+- new : OOP
 - package
 - private
-- protected
-- public- return
-- short
+- protected : 
+- public
+- return
+- short : Data Type 
 - static
 - strictfp
 - super
@@ -72,7 +73,7 @@
 - throws
 - transient
 - try
-- void
+- void : Data Type
 - volatile
 - while
 - true
