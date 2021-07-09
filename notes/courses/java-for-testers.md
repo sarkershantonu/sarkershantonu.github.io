@@ -31,24 +31,24 @@
 - boolean : Data Type
 - break : Loop /break
 - byte : Data Type 
-- case
-- catch
+- case : Conditional
+- catch : Exception
 - char : Data Type
 - class : OOP
-- const
+- const : filed modifier
 - continue : Loop /continue
 - default : Default Implementation in interface 
-- do :  Looping
+- do : Looping
 - double : Data Type
-- else
+- else : Conditional
 - enum : OOP
-- extends
-- final
-- finally
+- extends : OOP
+- final : filed modifier
+- finally : Exception
 - float : Data Type
-- for
-- goto
-- if
+- for : Looping
+- goto : Looping
+- if : Conditional
 - implements : OOP
 - import : packaging
 - instanceof
@@ -61,12 +61,12 @@
 - private : Access Modifier
 - protected : Access Modifier 
 - public : Access Modifier
-- return
+- return : method output
 - short : Data Type 
-- static
+- static : filed modifier
 - strictfp
 - super : OOP
-- switch
+- switch : Conditional
 - synchronized
 - this : OOP
 - throw : Exception
@@ -74,8 +74,8 @@
 - transient
 - try : Exception
 - void : Data Type
-- volatile
-- while
+- volatile : filed modifier/threading
+- while : Looping
 - true : Data Type
 - false : Data Type
 - null : Data Type
