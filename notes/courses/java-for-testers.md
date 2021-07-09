@@ -86,8 +86,6 @@
 - Encapsulation 
 - OOP Keywords 
 
-
-
 # logic element
 - if/else
 - switch
