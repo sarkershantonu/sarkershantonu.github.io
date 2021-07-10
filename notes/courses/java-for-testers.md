@@ -37,20 +37,36 @@
 - OOP Keywords
 
 # Keywords
-### OOP 
-### Data Types 
 
+### OOP 
 - abstract : OOP
-- assert : Testing
-- boolean : Data Type
-- break : Loop /break
-- byte : Data Type 
-- case : Conditional
-- catch : Exception
-- char : Data Type
 - class : OOP
-- const : filed modifier
+
+
+
+### Data Types 
+- byte : Data Type
+- boolean : Data Type
+- char : Data Type
+
+
+# Conditional 
+- break : Loop /break
+- case : Conditional
 - continue : Loop /continue
+
+### Exception Handling 
+- catch : Exception
+
+- assert : Testing
+
+
+
+
+
+
+- const : filed modifier
+
 - default : Default Implementation in interface 
 - do : Looping
 - double : Data Type
