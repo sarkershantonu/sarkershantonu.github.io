@@ -41,22 +41,32 @@
 ### OOP 
 - abstract : OOP
 - class : OOP
-
+- enum : OOP
+- extends : OOP
+- implements : OOP
+- interface : OOP
 
 
 ### Data Types 
 - byte : Data Type
 - boolean : Data Type
 - char : Data Type
+- double : Data Type
+- int : Data Type
+- long : Data Type
 
 
 # Conditional 
 - break : Loop /break
 - case : Conditional
 - continue : Loop /continue
+- do : Looping
+- else : Conditional
 
 ### Exception Handling 
 - catch : Exception
+- finally : Exception
+  
 
 - assert : Testing
 
@@ -68,23 +78,22 @@
 - const : filed modifier
 
 - default : Default Implementation in interface 
-- do : Looping
-- double : Data Type
-- else : Conditional
-- enum : OOP
-- extends : OOP
+
+
+
+
 - final : filed modifier
-- finally : Exception
+
 - float : Data Type
 - for : Looping
 - goto : Looping
 - if : Conditional
-- implements : OOP
+
 - import : packaging
 - instanceof : Conditional of object
-- int : Data Type
-- interface : OOP
-- long : Data Type
+
+
+
 - native
 - new : OOP
 - package : packaging
