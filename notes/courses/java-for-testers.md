@@ -25,6 +25,10 @@
 # Java & History
 - Why Java? How it came it in picture
 - History of OOP
+- Java 8 & changes
+- Java then & now 
+- My Java History 
+
 
 # Principle : OOP
 - Inheritance
