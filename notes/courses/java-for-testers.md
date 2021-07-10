@@ -23,7 +23,8 @@
     - A complete CI/CD with Own Jenkins : 8 hr : HandsOn
   
 # Java & History
-
+- Why Java? How it came it in picture
+- History of OOP
 # Keywords
 
 - abstract : OOP
