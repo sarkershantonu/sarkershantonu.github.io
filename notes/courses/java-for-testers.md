@@ -25,6 +25,13 @@
 # Java & History
 - Why Java? How it came it in picture
 - History of OOP
+
+# Principle : OOP
+- Inheritance
+- Polymorphism
+- Encapsulation
+- OOP Keywords
+
 # Keywords
 
 - abstract : OOP
@@ -81,11 +88,6 @@
 - false : Data Type
 - null : Data Type
 
-# Principle : OOP
-- Inheritance
-- Polymorphism
-- Encapsulation 
-- OOP Keywords 
 
 # logic element
 - if/else
