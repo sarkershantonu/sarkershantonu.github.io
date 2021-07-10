@@ -45,6 +45,9 @@
 - extends : OOP
 - implements : OOP
 - interface : OOP
+- new : OOP
+- super : OOP
+- this : OOP
 
 
 ### Data Types 
@@ -54,19 +57,38 @@
 - double : Data Type
 - int : Data Type
 - long : Data Type
+- short : Data Type
+- float : Data Type
+- void : Data Type
+- true : Data value
+- false : Data value
+- null : Data value
 
-
-# Conditional 
+# Conditional & looping
 - break : Loop /break
 - case : Conditional
 - continue : Loop /continue
 - do : Looping
 - else : Conditional
+- if : Conditional
+- for : Looping
+- goto : Looping
+- switch : Conditional
+- while : Looping
+
+### Access Modifier
+- private : Access Modifier
+- protected : Access Modifier
+- public : Access Modifier
 
 ### Exception Handling 
 - catch : Exception
 - finally : Exception
+- throw : Exception
+- throws : Exception
+- try : Exception
   
+
 
 - assert : Testing
 
@@ -84,10 +106,8 @@
 
 - final : filed modifier
 
-- float : Data Type
-- for : Looping
-- goto : Looping
-- if : Conditional
+
+
 
 - import : packaging
 - instanceof : Conditional of object
@@ -95,32 +115,27 @@
 
 
 - native
-- new : OOP
+
 - package : packaging
-- private : Access Modifier
-- protected : Access Modifier 
-- public : Access Modifier
+
 - return : method output
-- short : Data Type 
+
 - static : filed modifier
 - strictfp
-- super : OOP
-- switch : Conditional
+
+
 - synchronized
-- this : OOP
-- throw : Exception
-- throws : Exception
+
+
 - transient
-- try : Exception
-- void : Data Type
+
+
 - volatile : filed modifier/threading
-- while : Looping
-- true : Data Type
-- false : Data Type
-- null : Data Type
 
 
-# logic element
+
+
+# logic elements
 - if/else
 - switch
 - for
