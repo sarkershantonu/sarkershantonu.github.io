@@ -75,6 +75,7 @@
 - goto : Looping
 - switch : Conditional
 - while : Looping
+- instanceof : Conditional of object
 
 ### Access Modifier
 - private : Access Modifier
@@ -89,51 +90,20 @@
 - try : Exception
   
 
-
+### Others
 - assert : Testing
-
-
-
-
-
-
 - const : filed modifier
-
 - default : Default Implementation in interface 
-
-
-
-
 - final : filed modifier
-
-
-
-
 - import : packaging
-- instanceof : Conditional of object
-
-
-
 - native
-
 - package : packaging
-
 - return : method output
-
 - static : filed modifier
 - strictfp
-
-
 - synchronized
-
-
 - transient
-
-
 - volatile : filed modifier/threading
-
-
-
 
 # logic elements
 - if/else
