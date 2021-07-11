@@ -98,12 +98,8 @@
 
 ### Others
 - assert : Testing
-
-
 - native
-
 - return : method output
-
 - strictfp
 - synchronized
 - transient
