@@ -48,7 +48,7 @@
 - new : OOP
 - super : OOP
 - this : OOP
-
+- default : Default Implementation in interface
 
 ### Data Types 
 - byte : Data Type
@@ -93,7 +93,7 @@
 ### Others
 - assert : Testing
 - const : filed modifier
-- default : Default Implementation in interface 
+
 - final : filed modifier
 - import : packaging
 - native
