@@ -77,10 +77,12 @@
 - while : Looping
 - instanceof : Conditional of object
 
-### Access Modifier
+### Access Modifier & packaging
 - private : Access Modifier
 - protected : Access Modifier
 - public : Access Modifier
+- import : packaging
+- package : packaging
 
 ### Exception Handling 
 - catch : Exception
@@ -97,9 +99,9 @@
 ### Others
 - assert : Testing
 
-- import : packaging
+
 - native
-- package : packaging
+
 - return : method output
 
 - strictfp
