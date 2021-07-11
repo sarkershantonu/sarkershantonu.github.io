@@ -89,17 +89,19 @@
 - throws : Exception
 - try : Exception
   
+# Filed Modifier
+- const : filed modifier
+- final : filed modifier
+- static : filed modifier
 
 ### Others
 - assert : Testing
-- const : filed modifier
 
-- final : filed modifier
 - import : packaging
 - native
 - package : packaging
 - return : method output
-- static : filed modifier
+
 - strictfp
 - synchronized
 - transient
