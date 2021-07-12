@@ -10,7 +10,7 @@
     - Complete Web Application Spring Boot : 12 hr : HandsOn
   
 # Annotations 
-
+- Custom Annotation creation 
 # Reflections 
 
 # Generics 
