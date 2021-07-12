@@ -8,18 +8,23 @@
     - Design Pattern  : 12hr : HandsOn
     - Building Framework Like Spring : 12hr : HandsOn
     - Complete Web Application Spring Boot : 12 hr : HandsOn
-  
+
+# AOP
+- What is APO 
+- How to it works 
+- AspectJ
+
 # Annotations 
 - Custom Annotation 
 - Pre processor, Post Processor
-
+- Let's Create "Autowire"
 # Reflections 
 
 # Generics 
 
 # Threading 
 
-# AOP 
+
 
 # Design Patterns 
 
