@@ -23,6 +23,9 @@
 - Create 
 
 # Generics 
+- Writing Generic Code
+- Reading Generic Code
+- How to design with generic thinking
 
 # Threading 
 - Old Plain Threading concept
