@@ -26,7 +26,7 @@
 - Writing Generic Code
 - Reading Generic Code
 - How to design with generic thinking
-- When you can use generics & when you cant?
+- When you can use generics & when you can't?
 
 # Threading 
 - Old Plain Threading concept
