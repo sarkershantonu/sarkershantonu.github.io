@@ -42,6 +42,9 @@
 - Mistakes to avoid 
 
 # Clean Architecture 
+- Summary
+- Key to follow
+- Mistakes to avoid
 
 # Best Practices 
 
