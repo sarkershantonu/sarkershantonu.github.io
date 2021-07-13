@@ -37,6 +37,9 @@
 # SOLID
 
 # Clean Code & Clean Coder 
+- Summary
+- Key to follow
+- Mistakes to avoid 
 
 # Clean Architecture 
 
