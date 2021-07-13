@@ -25,8 +25,10 @@
 # Generics 
 
 # Threading 
-
-
+- Old Plain Threading concept
+- Java Thread & Runnable
+- Modern Threading (java 1.7+)
+- Monitoring Thread using VisualVM
 
 # Design Patterns 
 
