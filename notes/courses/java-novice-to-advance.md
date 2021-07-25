@@ -64,6 +64,12 @@
 - Key to follow
 - Mistakes to avoid
 
+# JVM 
+- JVM tool intro 
+- VisualVM monitoring & diagnosis
+- Java Mission Control 
+- Examples 
+
 # Best Practices 
 
 # Event Driven 
