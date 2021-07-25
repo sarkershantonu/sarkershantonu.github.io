@@ -82,7 +82,7 @@ comments: false
 - false : Data value
 - null : Data value
 
-# Conditional & looping
+### Conditional & looping
 - break : Loop /break
 - case : Conditional
 - continue : Loop /continue
@@ -109,7 +109,7 @@ comments: false
 - throws : Exception
 - try : Exception
   
-# Filed Modifier
+### Filed Modifier
 - const : filed modifier
 - final : filed modifier
 - static : filed modifier
@@ -123,7 +123,7 @@ comments: false
 - transient
 - volatile : filed modifier/threading
 
-# logic elements
+### logic elements
 - if/else
 - switch
 - for
