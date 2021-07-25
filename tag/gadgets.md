@@ -21,7 +21,7 @@ This page contains all Gadgets & Gear Information
 - [Ryzen 7 4800h](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4800H&id=3676)
 - 512gb nvme SSD
 - 24GB DDR4 
-- GTX 1650/4GB
+- [GTX 1650/4GB](https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+GTX+1650+%28Mobile%29&id=4090)
 - 15.6 inch (ca. 40 cm) FHD@120hz(1920x1080)
 - Windows 10 + PopOs
 
