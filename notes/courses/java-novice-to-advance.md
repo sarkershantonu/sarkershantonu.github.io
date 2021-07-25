@@ -37,6 +37,11 @@
 # Design Patterns 
 
 # OOAD
+- Why OOAD 
+- Book OOAD
+- Example 
+- Project by team as home task
+
 
 # SOLID
 - Principles
