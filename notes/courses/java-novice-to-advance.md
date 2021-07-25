@@ -20,7 +20,11 @@
 - Let's Create "Autowire"
 
 # Reflections 
-- Create 
+- Concept 
+- How it works
+- API Utilities 
+- Examples 
+- Home task 
 
 # Generics 
 - Writing Generic Code
