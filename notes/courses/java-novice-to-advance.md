@@ -53,7 +53,6 @@
 - Home Task 
 - Exam
 
-
 # Clean Code & Clean Coder 
 - Summary
 - Key to follow
