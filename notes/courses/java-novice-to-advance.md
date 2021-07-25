@@ -39,6 +39,11 @@
 # OOAD
 
 # SOLID
+- Principles
+- Code Example 
+- Home Task 
+- Exam
+
 
 # Clean Code & Clean Coder 
 - Summary
