@@ -18,7 +18,7 @@ Courses which I used to take online.
 
 ### Long time course
 
-||[**Java for testers**](https://sarkershantonu.github.io/pages/java-for-testers/)||**100hr**
+||[**Java for testers**](https://sarkershantonu.github.io/pages/java-for-testers/)||**200hr**
 
 ||Java novice to advance || **100hr** 
 
