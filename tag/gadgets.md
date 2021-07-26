@@ -16,20 +16,18 @@ comments: true
 
 This page contains all Gadgets & Gear Information
 
-# Daily Use Laptops : 
-### Primary [Lenovo Legion 5](https://www.lenovo.com/us/en/laptops/legion-laptops/legion-5-series/Lenovo-Legion-5-15ARH05/p/88GMY501444)
+# Development PCs: 
+### Primary [Lenovo Legion 5](https://www.lenovo.com/us/en/laptops/legion-laptops/legion-5-series/Lenovo-Legion-5-15ARH05/p/88GMY501444) Laptop
 - [Ryzen 7 4800h](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4800H&id=3676)
 - 512gb nvme SSD
 - 24GB DDR4 
 - [GTX 1650/4GB](https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+GTX+1650+%28Mobile%29&id=4090)
-- 15.6 inch (ca. 40 cm) FHD@120hz(1920x1080)
-- Windows 10 + PopOs
+- Display : 15.6 inch 1920x1080@120hz
+- Windows 10 + PopOs20
 
 With : 
 - [Samsung T260](https://www.cnet.com/products/samsung-syncmaster-t260-lcd-monitor-25-5/)
 - Keyboard & Mice
-
-# Development Servers 
 
 ### Home Lab with Proxmox
 - Xeon E5-2568-V3
@@ -39,7 +37,8 @@ With :
 - 2x 4TB 2.5 inch (15mm) HDD
 - 3x 8TB 3.5 inch NAS HDD
 - 1500Watt Module PSU
-- Dev Environments
+
+### Dev Environments
   - 50+ LXCs for different dev VMs
   - 15+ VMs for development & testing
   - Software RAID with MD 
@@ -54,4 +53,3 @@ With :
     
 ### [Raspberry Pi3B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
 ### [Raspberry Zero](https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/)
-
