@@ -39,17 +39,20 @@ With :
 - 1500Watt Module PSU
 
 ### Dev Environments
-  - 50+ LXCs for different dev VMs
-  - 15+ VMs for development & testing
-  - Software RAID with MD 
-  - Docker Hub
-  - Kubernetes(experimental) 
-  - VPN
-  - GitLab
-  - sonar cube
-  - plex
-  - pi-hole
-  - next cloud
+- 50+ LXCs for different dev VMs
+- 15+ VMs for development & testing
+- Software RAID with MD 
+- Docker Hub
+- Kubernetes(experimental) 
+- VPN
+- GitLab
+- sonar cube
+- plex
+- pi-hole
+- next cloud
+- Selenium Grid 
+- Jmeter5 Distributed system
+- Jenkins Build Environments
     
 ### [Raspberry Pi3B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
 ### [Raspberry Zero](https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/)
