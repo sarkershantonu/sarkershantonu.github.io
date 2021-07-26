@@ -31,20 +31,20 @@ With :
 
 # Development Servers 
 
-### XEON Server (own Build Dev servers)
+### Home Lab with Proxmox
 - Xeon E5-2568-V3
 - 64GB DDR4 ECC
-- Zotac 1080ti mini  
+- Zotac GTX 1080ti mini
 - 1TB SATA SSD
 - 2x 4TB 2.5 inch (15mm) HDD
 - 3x 8TB 3.5 inch NAS HDD
-- 1500Watt PST
-- Proxmox 
+- 1500Watt Module PSU
+- Dev Environments
   - 50+ LXCs for different dev VMs
   - 15+ VMs for development & testing
-  - RAID with MD 
+  - Software RAID with MD 
   - Docker Hub
-  - Kubernetes 
+  - Kubernetes(experimental) 
   - VPN
   - GitLab
   - sonar cube
