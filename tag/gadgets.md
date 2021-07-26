@@ -5,7 +5,7 @@ subtitle: I build systems for testing
 css: "/css/index.css"
 meta-title: "Performance Engineer/SDET/Java Developer"
 meta-description: "Test developer with a Bsc in Computer Science"
-comments: true
+comments: false
 ---
 <div class="list-filters">
     <a href="/" class="list-filter filter-selected">All posts</a>
