@@ -1,4 +1,21 @@
-# Course Info
+---
+layout: "page"
+title: "Course : Java Advance"
+subtitle: Learn with Shantonu
+css: "/css/index.css"
+meta-title: "Performance Engineer/SDET/Java Developer"
+meta-description: "Test developer with a Bsc in Computer Science"
+comments: false
+---
+<div class="list-filters">
+    <a href="/" class="list-filter filter-selected">All posts</a>
+
+    <a href="/courses" class="list-filter">courses</a>
+	<a href="/talks" class="list-filter">talks</a>
+    <a href="/tags" class="list-filter">Index</a>
+</div>
+
+# Java Novice to Advance : Course Info
 - Total : 160hr, 40 classes, 5 Exams , 20 weeks.
 - Home Task : 10
 - Exams :
