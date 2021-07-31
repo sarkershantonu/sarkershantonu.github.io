@@ -43,6 +43,12 @@ Engagement : Weekly 20-25hr for 20 weeks.
 
 # Basic components of a testing system. 
 
+# Test Organization 
+
+### Test Category 
+
+### Testing Suites
+
 ### Example : UI Automation
 
 ### Example : API Automation
