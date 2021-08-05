@@ -19,10 +19,8 @@ comments: false
 - Home Task : 5
 - Exams :
     - Test Automation Patterns Basic : 4hr : Multiple Choice
-    - Mix Pattern Example : 4hr : HandsOn
-    - Testing Dynamic Website : 4hr : HandsOn
-    - Testing ReactJs Website : 4hr : HandsOn
-    - Building CI/CD with Own Jenkins : 12 hr : HandsOn
+    - Mix Pattern  : 4hr : HandsOn
+    - Mix Pattern  : 4hr : HandsOn
 
 ### What is design pattern
 
