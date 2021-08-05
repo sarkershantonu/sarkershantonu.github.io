@@ -29,7 +29,7 @@ Docker Architecture :
 - CLI
 - Client
 
-Docker Commands :
+### Docker Commands :
 - Run a Container
 - Publish a Port
 - Use Detached Mode
