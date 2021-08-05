@@ -49,7 +49,7 @@ Docker Commands :
 - Build NGINX from Source
 - Optimize Docker Images
 
-Networking  Basics :
+### Networking  Basics :
 - Create a User-Defined Bridge in Docker
 - Attach a Container to a Network in Docker
 - Detach Containers from a Network in Docker
