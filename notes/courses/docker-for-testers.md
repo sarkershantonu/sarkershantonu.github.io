@@ -3,8 +3,9 @@
 - Home Task : 5
 - Exams :
     - Docker Basic : 1hr : Multiple Choice
-    - Mix Pattern  : 4hr : HandsOn
-    - Mix Pattern  : 4hr : HandsOn
+    - Docker in Development  : 4hr : HandsOn
+    - Docker in testing  : 4hr : HandsOn
+    - Test Container  : 4hr : HandsOn
 
 What is Docker? 
 
@@ -27,8 +28,6 @@ Docker Architecture :
 - Components
 - CLI
 - Client
-
-
 
 Docker Commands :
 - Run a Container
