@@ -64,7 +64,24 @@ Networking  Basics :
 - Write Management Scripts in Docker
 - Compose Projects Using Docker-Compose
 
-Docker Tips : 
+
+### Docker Compose:  Basics
+- Start Services in Docker Compose
+- List Services in Docker Compose
+- Execute Commands Inside a Running Service in Docker Compose
+- Access Logs from a Running Service in Docker Compose
+- Stop Services in Docker Compose
+- Compose a Full-stack Application in Docker Compose
+
+### Testing With Docker : 
+- Test Containers 
+- Data Containers
+- Testing In Production (shadow)
+- Jmeter with docker
+- Selenium Testing in docker 
+- API testing in docker
+
+### Docker Tips :
 - Create Executable Docker Images
 - Share Your Docker Images Online
 - Containerize a JavaScript Application
@@ -74,26 +91,10 @@ Docker Tips :
 - Perform Multi-Staged Builds in Docker
 - Ignore Unnecessary Files
 
-Docker Compose:  Basics
-- Start Services in Docker Compose
-- List Services in Docker Compose
-- Execute Commands Inside a Running Service in Docker Compose
-- Access Logs from a Running Service in Docker Compose
-- Stop Services in Docker Compose
-- Compose a Full-stack Application in Docker Compose
-
-Testing With Docker : 
-- Test Containers 
-- Data Containers
-- Testing In Production (shadow)
-- Jmeter with docker
-- Selenium Testing in docker 
-- API testing in docker
-
-Docker Monitoring : 
+### Docker Monitoring
 - App monitoring
-- Grafana 
-- InfluxDB 
+- Grafana
+- InfluxDB
 
 Example : 
 A. Jmeter Grafana InfluxDB system for live performance Monitoring 
