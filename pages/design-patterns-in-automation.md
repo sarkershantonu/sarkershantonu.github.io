@@ -15,7 +15,7 @@ comments: false
 </div>
 
 # Course Info
-- Total : 3hr, 5 classes, 2 Exams , 5 weeks.
+- Total : 30hr, 5 classes, 2 Exams , 5 weeks.
 - Home Task : 5
 - Exams :
     - Test Automation Patterns Basic : 4hr : Multiple Choice
