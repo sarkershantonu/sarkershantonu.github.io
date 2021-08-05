@@ -14,6 +14,15 @@ comments: false
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
+# Course Info
+- Total : 3hr, 5 classes, 2 Exams , 5 weeks.
+- Home Task : 5
+- Exams :
+    - Selenium Basic : 4hr : Multiple Choice
+    - Testing Static Website : 4hr : HandsOn
+    - Testing Dynamic Website : 4hr : HandsOn
+    - Testing ReactJs Website : 4hr : HandsOn
+    - Building CI/CD with Own Jenkins : 12 hr : HandsOn
 
 ### What is design pattern
 
