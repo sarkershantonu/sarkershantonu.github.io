@@ -7,15 +7,13 @@
     - Docker in testing  : 4hr : HandsOn
     - Test Container  : 4hr : HandsOn
 
-What is Docker? 
+### What is Docker? Why Docker?
 
-Why Docker?
-
-Docker Installation 
+# Docker Installation 
 - Windows 
 - Linux 
   
-Hello World 
+### Docker : Hello World 
 
 ### Docker Basics :
 What is a Container?
