@@ -22,7 +22,7 @@ What is a Container?
 What is a Docker Image?
 What is a Docker Registry?
 
-Docker Architecture : 
+### Docker Architecture : 
 - Overview
 - Full Picture
 - Components
