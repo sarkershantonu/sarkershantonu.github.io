@@ -18,7 +18,7 @@ comments: false
 - Total : 30hr, 5 classes, 2 Exams , 5 weeks.
 - Home Task : 5
 - Exams :
-    - Test Automation Patterns Basic : 4hr : Multiple Choice
+    - Test Automation Patterns Basic : 1hr : Multiple Choice
     - Mix Pattern  : 4hr : HandsOn
     - Mix Pattern  : 4hr : HandsOn
 
