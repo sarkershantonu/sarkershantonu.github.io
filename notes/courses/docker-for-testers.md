@@ -17,7 +17,7 @@ Docker Installation
   
 Hello World 
 
-Docker Basics :
+### Docker Basics :
 What is a Container?
 What is a Docker Image?
 What is a Docker Registry?
