@@ -1,3 +1,11 @@
+# Course Info
+- Total : 3hr, 5 classes, 2 Exams , 5 weeks.
+- Home Task : 5
+- Exams :
+    - Test Automation Patterns Basic : 4hr : Multiple Choice
+    - Mix Pattern  : 4hr : HandsOn
+    - Mix Pattern  : 4hr : HandsOn
+
 What is Docker? 
 
 Why Docker?
