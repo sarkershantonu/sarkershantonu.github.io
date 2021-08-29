@@ -94,7 +94,7 @@ What is a Docker Registry?
 - Grafana
 - InfluxDB
 
-Example : 
+### Example : 
 A. Jmeter Grafana InfluxDB system for live performance Monitoring 
 B. Selenium Chrome headless compatibility Grid testing with screenshot & video. 
 
