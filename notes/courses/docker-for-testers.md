@@ -16,9 +16,9 @@
 ### Docker : Hello World 
 
 ### Docker Basics :
-What is a Container?
-What is a Docker Image?
-What is a Docker Registry?
+- What is a Container?
+- What is a Docker Image?
+- What is a Docker Registry?
 
 ### Docker Architecture : 
 - Overview
