@@ -96,6 +96,6 @@ What is a Docker Registry?
 
 ### Example : 
 A. Jmeter Grafana InfluxDB system for live performance Monitoring 
-B. Selenium Chrome headless compatibility Grid testing with screenshot & video. 
+B. Selenium Chrome headless compatibility testing Grid with screen capture & video recording. 
 
 Docker Memes :) 
