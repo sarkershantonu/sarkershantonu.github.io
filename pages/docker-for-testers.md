@@ -1,3 +1,21 @@
+---
+layout: "page"
+title: "Course : Docker For Testers"
+subtitle: Learn with Shantonu
+css: "/css/index.css"
+meta-title: "Performance Engineer/SDET/Java Developer"
+meta-description: "Test developer with a Bsc in Computer Science"
+comments: false
+---
+<div class="list-filters">
+    <a href="/" class="list-filter filter-selected">All posts</a>
+
+    <a href="/courses" class="list-filter">courses</a>
+	<a href="/talks" class="list-filter">talks</a>
+    <a href="/tags" class="list-filter">Index</a>
+</div>
+
+
 # Course Info
 - Total : 30hr, 10 classes, 3 Exams , 10 weeks.
 - Home Task : 5
