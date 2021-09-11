@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Jmeter Distributed testing using Maven
-date: "2020-09-18 05:02"
-tags: [jmeter,ci-cd]
-permalink: /2020/09/18/maven-jmeter-distributed-testing/
+date: "2021-08-31 05:02"
+tags: [linux]
+permalink: /2021/08/31/popular-linux-commands-sys-monitoring/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on Linux Commands"
 gh-badge: [star,follow]
 comments: true
 ---
