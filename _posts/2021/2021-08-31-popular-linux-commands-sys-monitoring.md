@@ -27,10 +27,13 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ```lspci -v```
 
+``` lshw```
 
-``` lsblk```
+
 
 ### Storage Info : 
+
+``` lsblk```
 
 ```lsblk -a```
 
@@ -41,7 +44,7 @@ This blog I am going to show some popular linux commands that I often use to mon
 ```sudo fdisk -l```
 
 
-``` lshw```
+
 
 ### CPU Info 
 ``` lscpu```
