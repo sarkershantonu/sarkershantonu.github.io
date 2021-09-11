@@ -19,6 +19,7 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ```lshw -short```
 
+```sudo lshw -html > lshw.html```
 
 ``` lspci```
 
