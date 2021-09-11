@@ -16,3 +16,17 @@ This blog I am going to show some popular linux commands that I often use to mon
 ### To know your hardware info 
 
 ``` lshw```
+
+``` lspci```
+
+``` lsblk```
+
+``` lshw```
+
+``` lscpu```
+
+```free -m```
+
+### Kernel Info 
+
+```uname```
