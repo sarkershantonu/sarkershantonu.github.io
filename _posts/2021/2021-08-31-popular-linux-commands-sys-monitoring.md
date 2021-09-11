@@ -27,6 +27,7 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ```lspci -v```
 
+```sudo dmesg```
 
 ### Storage Info : 
 
