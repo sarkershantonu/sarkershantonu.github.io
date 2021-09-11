@@ -17,6 +17,7 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ``` lshw```
 
+
 ``` lspci```
 
 ``` lsblk```
@@ -32,4 +33,15 @@ This blog I am going to show some popular linux commands that I often use to mon
 ```uname -r```
 
 ```uname -a```
+
+
+```uname -v```
+
+```uname -n```
+
+```uname -m```
+
+
+```top```
+
 
