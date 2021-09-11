@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jmeter Distributed testing using Maven
+title: Linux Commands for System Monitoring
 date: "2021-08-31 05:02"
 tags: [linux]
 permalink: /2021/08/31/popular-linux-commands-sys-monitoring/
