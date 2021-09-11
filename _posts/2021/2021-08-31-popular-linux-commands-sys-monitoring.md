@@ -74,4 +74,7 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ```top```
 
+```sudo dmidecode -t memory```
+
+```sudo dmidecode -t system```
 
