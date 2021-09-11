@@ -78,3 +78,4 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ```sudo dmidecode -t system```
 
+```sudo dmidecode -t bios```
