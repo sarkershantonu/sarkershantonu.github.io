@@ -48,11 +48,12 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ```free -m```
 
-``` lsusb```
 
 ### USB Info 
 
 ```lsusb -v```
+
+``` lsusb```
 
 ### Kernel Info 
 
