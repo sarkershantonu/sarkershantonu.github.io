@@ -27,9 +27,6 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ```lspci -v```
 
-``` lshw```
-
-
 
 ### Storage Info : 
 
@@ -52,6 +49,8 @@ This blog I am going to show some popular linux commands that I often use to mon
 ```free -m```
 
 ``` lsusb```
+
+### USB Info 
 
 ```lsusb -v```
 
