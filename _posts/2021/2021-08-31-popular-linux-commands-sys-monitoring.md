@@ -30,9 +30,13 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ``` lsblk```
 
-```sudo hdparm /dev/sda1```
 
 ```lsblk -a```
+
+```sudo hdparm /dev/sda1```
+
+```sudo hdparm -g /dev/sda1```
+
 
 ``` lshw```
 
