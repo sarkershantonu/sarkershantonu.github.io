@@ -30,6 +30,7 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ``` lsblk```
 
+### Storage Info : 
 
 ```lsblk -a```
 
@@ -39,7 +40,9 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ```sudo fdisk -l```
 
+
 ``` lshw```
+
 
 ``` lscpu```
 
