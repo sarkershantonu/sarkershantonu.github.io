@@ -29,4 +29,7 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ### Kernel Info 
 
-```uname```
+```uname -r```
+
+```uname -a```
+
