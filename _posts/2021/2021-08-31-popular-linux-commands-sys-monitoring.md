@@ -25,6 +25,8 @@ This blog I am going to show some popular linux commands that I often use to mon
 
 ```lspci -t```
 
+```lspci -v```
+
 ``` lsblk```
 
 ```lsblk -a```
