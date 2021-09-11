@@ -11,4 +11,4 @@ comments: true
 ---
 
 
-This blog I am going to show some popular linux commands that I offten use to monitor system.  
+This blog I am going to show some popular linux commands that I often use to monitor system.  
