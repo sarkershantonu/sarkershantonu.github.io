@@ -83,9 +83,7 @@ This will show you very details like this
 
 ![lsblk-a](/images/linux/popular-commands/lsblk-a.JPG)
 
-```sudo hdparm /dev/sda1```
 
-```sudo hdparm -g /dev/sda1```
 
 - To know each device info individually 
 
