@@ -49,9 +49,13 @@ it will look like
 
 And you can use these options 
 
-```lspci -t```
+- Produce machine-readable output```lspci -t```
 
 ```lspci -v```
+
+```lspci -mm```
+
+```lspci -nn```
 
 - You may also use one of the oldest linux command to know this info. 
 
