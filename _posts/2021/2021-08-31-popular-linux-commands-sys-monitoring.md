@@ -152,6 +152,7 @@ simple ```ps ``` will show
 - To see every process on the system using standard syntax ```ps -ef ```
 - To get info about threads ```ps -eLf```
 - To find a process with any name, for example Java, we can use this command ```ps -ef | grep java```
+- To see every process running as root (real & effective ID) in user format: ```ps -U root -u root u```
 - If you want to kill any process , you can use kill command . 
   
 For example, a process with PIC **1000**, you can kill this process by ```kill -9 1000```
