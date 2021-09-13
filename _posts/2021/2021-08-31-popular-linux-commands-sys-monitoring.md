@@ -83,8 +83,6 @@ This will show you very details like this
 
 ![lsblk-a](/images/linux/popular-commands/lsblk-a.JPG)
 
-
-
 - To know each device info individually 
 
 ```sudo fdisk -l```
@@ -93,7 +91,21 @@ This will show you very details like this
 
 
 ### CPU Info 
+
+- To know CPU info 
+
 ``` lscpu```
+
+This will show info like this 
+
+![lscpu](/images/linux/popular-commands/lscpu.JPG)
+
+- If you want to know only current speed 
+
+``` lscpu | grep MHz```
+
+![lscpu](/images/linux/popular-commands/lscpu-mhz.JPG)
+
 
 ### Memory Info 
 
