@@ -27,7 +27,7 @@ And this you can expect in cli
 
 ```sudo lshw -json > lshw.json```
 
-![lshw-html](/images/linux/popular-commands/lshw-html.JPG)
+![lshw-html](/images/linux/popular-commands/lshw-json.JPG)
 
 ### Options 
 These are all options 
