@@ -100,7 +100,7 @@ This will show info like this
 
 ![lscpu](/images/linux/popular-commands/lscpu.JPG)
 
-- If you want to know only current speed 
+- If you want to know only current cpu running speed 
 
 ``` lscpu | grep MHz```
 
