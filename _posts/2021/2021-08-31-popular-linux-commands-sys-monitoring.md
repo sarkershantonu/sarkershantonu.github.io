@@ -33,8 +33,9 @@ And this you can expect in cli
 
 ```sudo lshw -html > lshw.html```
 
+**LSHW** is an extension of LS commands with HW for hardware. It also has other extensions where you can see specific hardware group like pci devices. 
 
-
+- To know 
 ``` lspci```
 
 ```lspci -t```
