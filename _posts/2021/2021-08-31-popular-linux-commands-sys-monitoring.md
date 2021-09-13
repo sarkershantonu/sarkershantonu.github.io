@@ -10,8 +10,7 @@ gh-badge: [star,follow]
 comments: true
 ---
 
-
-This blog I am going to show some popular linux commands that I often use to monitor system.  
+This blog I am going to show some popular linux commands that I often use for monitoring system.  
 
 ### To know your hardware info 
 
