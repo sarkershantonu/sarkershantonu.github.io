@@ -23,6 +23,12 @@ And this you can expect in cli
 ![lshw-html](/images/linux/popular-commands/lshw-html.JPG)
 
 
+### Save this info in a JSON file
+
+```sudo lshw -json > lshw.json```
+
+![lshw-html](/images/linux/popular-commands/lshw-html.JPG)
+
 ### Options 
 These are all options 
 
