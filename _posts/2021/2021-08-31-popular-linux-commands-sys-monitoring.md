@@ -13,8 +13,14 @@ comments: true
 This blog I am going to show some popular linux commands that I often use for monitoring system.  
 
 ### To know your hardware info 
+- To know all hardware together 
 
 ``` lshw```
+
+This will show all hardware info in long list. You may expect al list info in cli like this 
+
+![lshw]()
+
 
 ```lshw -short```
 
