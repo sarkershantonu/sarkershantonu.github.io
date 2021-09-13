@@ -35,14 +35,23 @@ And this you can expect in cli
 
 **LSHW** is an extension of LS commands with HW for hardware. It also has other extensions where you can see specific hardware group like pci devices. 
 
-- To know 
+- To know PCI device info 
+
 ``` lspci```
+
+And you can use tese options 
 
 ```lspci -t```
 
 ```lspci -v```
 
+- You may also use one of the oldest linux command to know this info. 
+
 ```sudo dmesg```
+
+This will show you very details like this 
+
+![dmesg]()
 
 ### Storage Info : 
 
