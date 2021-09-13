@@ -89,7 +89,6 @@ This will show you very details like this
 
 ![lfdisk-l](/images/linux/popular-commands/fdisk-l.JPG)
 
-
 ### CPU Info 
 
 - To know CPU info 
@@ -106,11 +105,17 @@ This will show info like this
 
 ![lscpu](/images/linux/popular-commands/lscpu-mhz.JPG)
 
-
 ### Memory Info 
 
-```free -m```
+To know how much RAM/momory free in the system you can use ```free``` command. It has multiple options 
 
+- Show in megabyte ```free -m```
+- Show in gigabyte ```free -g```
+- Show in kilobyte ```free -k```
+- Show (default kilobyte) ```free```
+- Show in human-readable form ```free -h```
+
+![free](/images/linux/popular-commands/free.JPG)
 
 ### USB Info 
 
