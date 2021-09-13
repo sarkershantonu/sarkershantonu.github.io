@@ -143,6 +143,7 @@ To know linux kernel info details, uname is very good command.
 
 ![top](/images/linux/popular-commands/top.JPG)
 
-- To Manage process, we can use ```ps``` commands 
+- To Manage process, we can use ```ps``` commands . PS reports a snapshot of the current processes.
 
 simple ```ps ``` will show 
+
