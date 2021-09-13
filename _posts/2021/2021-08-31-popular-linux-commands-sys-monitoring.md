@@ -147,3 +147,12 @@ To know linux kernel info details, uname is very good command.
 
 simple ```ps ``` will show 
 
+![ps](/images/linux/popular-commands/ps.JPG)
+
+- To know 
+
+
+- If you want to kill any process , you can use kill command . 
+  
+For example, a process with PIC **1000**, you can kill this process by ```kill -9 1000```
+
