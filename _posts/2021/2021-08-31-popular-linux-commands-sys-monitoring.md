@@ -139,8 +139,10 @@ To know linux kernel info details, uname is very good command.
 
 ### Process Monitor
 
-```top```
+- To know currently running processes , use ```top```. This will show like 
 
+![top](/images/linux/popular-commands/top.JPG)
 
+- To Manage process, we can use ```ps``` commands 
 
-To know about LSHW, you can visit this blog 
+simple ```ps ``` will show 
