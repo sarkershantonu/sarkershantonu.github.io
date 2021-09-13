@@ -16,11 +16,12 @@ And this you can expect in cli
 
 ![lshw-short](/images/linux/popular-commands/lshw-short.JPG)
 
-- You can save this info in a HTML file using this command.
+### Save this info in a HTML file 
 
 ```sudo lshw -html > lshw.html```
 
 ![lshw-html](/images/linux/popular-commands/lshw-html.JPG)
+
 
 ### Options 
 These are all options 
