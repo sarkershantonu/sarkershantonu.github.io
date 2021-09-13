@@ -51,9 +51,9 @@ And you can use these options
 
 - Produce machine-readable output```lspci -mm```
 
-```lspci -v```
+- Verbose output ```lspci -v```
 
-```lspci -nn```
+- Show both textual and numeric ID's ```lspci -nn```
 
 - You may also use one of the oldest linux command to know this info. 
 
