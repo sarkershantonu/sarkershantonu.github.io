@@ -150,9 +150,8 @@ simple ```ps ``` will show
 ![ps](/images/linux/popular-commands/ps.JPG)
 
 - To see every process on the system using standard syntax ```ps -ef ```
-
-- To find a process with a any name, for example Java, we can use this command ```ps -ef | grep java``` 
-  
+- To get info about threads ```ps -eLf```
+- To find a process with any name, for example Java, we can use this command ```ps -ef | grep java```
 - If you want to kill any process , you can use kill command . 
   
 For example, a process with PIC **1000**, you can kill this process by ```kill -9 1000```
