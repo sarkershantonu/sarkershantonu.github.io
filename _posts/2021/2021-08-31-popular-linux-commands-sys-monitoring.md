@@ -39,7 +39,7 @@ And this you can expect in cli
 
 ``` lspci```
 
-And you can use tese options 
+And you can use these options 
 
 ```lspci -t```
 
