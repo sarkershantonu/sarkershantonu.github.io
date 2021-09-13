@@ -29,7 +29,11 @@ And this you can expect in cli
 
 ![lshw-short]()
 
+- You can save this info in a HTML file using this command. 
+
 ```sudo lshw -html > lshw.html```
+
+
 
 ``` lspci```
 
