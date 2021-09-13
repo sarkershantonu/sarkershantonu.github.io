@@ -157,3 +157,4 @@ simple ```ps ``` will show
   
 For example, a process with PIC **1000**, you can kill this process by ```kill -9 1000```
 
+... This is a continuous post, I will add more later 
