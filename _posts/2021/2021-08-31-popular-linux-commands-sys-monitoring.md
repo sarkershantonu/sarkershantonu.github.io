@@ -149,7 +149,7 @@ simple ```ps ``` will show
 
 ![ps](/images/linux/popular-commands/ps.JPG)
 
-- To know 
+- To see every process on the system using standard syntax ```ps -ef ```
 
 - To find a process with a any name, for example Java, we can use this command ```ps -ef | grep java``` 
   
