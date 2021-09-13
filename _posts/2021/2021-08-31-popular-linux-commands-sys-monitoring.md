@@ -141,12 +141,6 @@ To know linux kernel info details, uname is very good command.
 
 ```top```
 
-```sudo dmidecode -t memory```
 
-```sudo dmidecode -t system```
-
-```sudo dmidecode -t bios```
-
-```sudo dmidecode -t processor```
 
 To know about LSHW, you can visit this blog 
