@@ -49,11 +49,9 @@ it will look like
 
 And you can use these options 
 
-- Produce machine-readable output```lspci -t```
+- Produce machine-readable output```lspci -mm```
 
 ```lspci -v```
-
-```lspci -mm```
 
 ```lspci -nn```
 
