@@ -1,4 +1,5 @@
 
+This blog will show details of lablk commands, how can we use this to know hdd info.
 
 ### Options 
 
