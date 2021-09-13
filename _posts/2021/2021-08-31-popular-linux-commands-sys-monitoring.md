@@ -61,7 +61,9 @@ And you can use these options
 
 This will show you very details like this 
 
-![dmesg]()
+![dmesg](/images/linux/popular-commands/dmesg.JPG)
+
+- Human-readable of dmesg  ```sudo dmesg -H```
 
 ### Storage Info : 
 
