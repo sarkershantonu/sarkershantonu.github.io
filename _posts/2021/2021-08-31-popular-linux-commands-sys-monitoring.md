@@ -133,8 +133,7 @@ To know linux kernel info details, uname is very good command.
 - To know all info related to kernel ```uname -a```
 - To know kernel version info ```uname -v```
 - To know node name ```uname -n```
-
-```uname -m```
+- To know machine name ```uname -m```
 
 ### Process Monitor
 
