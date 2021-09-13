@@ -19,7 +19,7 @@ This blog I am going to show some popular linux commands that I often use for mo
 
 This will show all hardware info in long list. You may expect al list info in cli like this 
 
-![lshw]()
+![lshw](/images/linux/popular-commands/lshw.JPG)
 
 ```
 
