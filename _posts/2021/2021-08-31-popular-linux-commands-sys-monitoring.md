@@ -67,7 +67,17 @@ This will show you very details like this
 
 ### Storage Info : 
 
+- This will show all drive 
+
 ``` lsblk```
+
+![lsblk](/images/linux/popular-commands/lsblk.JPG)
+
+- To know IDs of all volumes 
+
+```blkid```
+
+![lsblk](/images/linux/popular-commands/blkid.JPG)
 
 ```lsblk -a```
 
