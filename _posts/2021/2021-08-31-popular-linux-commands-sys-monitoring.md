@@ -77,9 +77,11 @@ This will show you very details like this
 
 ```blkid```
 
-![lsblk](/images/linux/popular-commands/blkid.JPG)
+![blkid](/images/linux/popular-commands/blkid.JPG)
 
-```lsblk -a```
+- Showing all devices ```lsblk -a```
+
+![lsblk-a](/images/linux/popular-commands/lsblk-a.JPG)
 
 ```sudo hdparm /dev/sda1```
 
