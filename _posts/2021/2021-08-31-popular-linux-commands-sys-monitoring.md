@@ -1,14 +1,15 @@
 ---
 layout: post
 title: Linux Commands for System Monitoring
-date: "2021-08-31 05:02"
+date: "2020-08-31 05:02"
 tags: [linux]
-permalink: /2021/08/31/popular-linux-commands-sys-monitoring/
+permalink: /2020/08/31/popular-linux-commands-sys-monitoring/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Linux Commands"
 gh-badge: [star,follow]
 comments: true
 ---
+
 
 This blog I am going to show some popular linux commands that I often use for monitoring system.  
 
@@ -36,6 +37,7 @@ And this you can expect in cli
 ![lshw-html](/images/linux/popular-commands/lshw-html.JPG)
 
 **LSHW** is an extension of LS commands with HW for hardware. It also has other extensions where you can see specific hardware group like pci devices. 
+
 
 - To know about PCI devices 
 
@@ -108,3 +110,5 @@ This will show you very details like this
 ```sudo dmidecode -t bios```
 
 ```sudo dmidecode -t processor```
+
+To know about LSHW, you can visit this blog 
