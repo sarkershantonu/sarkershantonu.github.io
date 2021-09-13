@@ -27,6 +27,7 @@ This will show all hardware info in long list. You may expect al list info in cl
 
 And this you can expect in cli 
 
+![lshw-short]()
 
 ```sudo lshw -html > lshw.html```
 
