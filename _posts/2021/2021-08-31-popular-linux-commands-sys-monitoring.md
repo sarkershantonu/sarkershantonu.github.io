@@ -126,15 +126,13 @@ To know how much RAM/momory free in the system you can use ```free``` command. I
 - To know this info in verbose ``` lsusb -v```
 
 ### Kernel Info 
+To know linux kernel info details, uname is very good command.
 
-```uname -r```
-
-```uname -a```
-
-
-```uname -v```
-
-```uname -n```
+- To know kernel name use ```uname```
+- To know kernel release version info ```uname -r```
+- To know all info related to kernel ```uname -a```
+- To know kernel version info ```uname -v```
+- To know node name ```uname -n```
 
 ```uname -m```
 
