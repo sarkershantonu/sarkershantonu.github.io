@@ -119,9 +119,11 @@ To know how much RAM/momory free in the system you can use ```free``` command. I
 
 ### USB Info 
 
-```lsusb -v```
+- To know USB device info ``` lsusb```. This will be shown like this 
 
-``` lsusb```
+[lsusb](/images/linux/popular-commands/lsusb.JPG)
+
+- To know this info in verbose ``` lsusb -v```
 
 ### Kernel Info 
 
