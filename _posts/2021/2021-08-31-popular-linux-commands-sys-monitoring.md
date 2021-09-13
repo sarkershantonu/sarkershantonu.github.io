@@ -87,9 +87,11 @@ This will show you very details like this
 
 ```sudo hdparm -g /dev/sda1```
 
+- To know each device info individually 
+
 ```sudo fdisk -l```
 
-
+![lfdisk-l](/images/linux/popular-commands/fdisk-l.JPG)
 
 
 ### CPU Info 
