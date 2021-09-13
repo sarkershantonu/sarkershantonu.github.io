@@ -151,7 +151,8 @@ simple ```ps ``` will show
 
 - To know 
 
-
+- To find a process with a any name, for example Java, we can use this command ```ps -ef | grep java``` 
+  
 - If you want to kill any process , you can use kill command . 
   
 For example, a process with PIC **1000**, you can kill this process by ```kill -9 1000```
