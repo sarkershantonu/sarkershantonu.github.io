@@ -21,12 +21,6 @@ This will show all hardware info in long list. You may expect al list info in cl
 
 ![lshw](/images/linux/popular-commands/lshw.JPG)
 
-```
-
-
-
-```
-
 - You can get this same info in short form 
 
 ```lshw -short```
