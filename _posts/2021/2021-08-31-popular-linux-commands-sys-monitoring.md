@@ -43,6 +43,10 @@ And this you can expect in cli
 
 ``` lspci```
 
+it will look like
+
+![lspci](/images/linux/popular-commands/lspci.JPG)
+
 And you can use these options 
 
 ```lspci -t```
