@@ -136,6 +136,8 @@ To know linux kernel info details, uname is very good command.
 - To know machine name ```uname -m```
 - To know OS name ```uname -o```
 
+![uname](/images/linux/popular-commands/uname.JPG)
+
 ### Process Monitor
 
 ```top```
