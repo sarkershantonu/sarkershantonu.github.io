@@ -37,7 +37,7 @@ And this you can expect in cli
 
 **LSHW** is an extension of LS commands with HW for hardware. It also has other extensions where you can see specific hardware group like pci devices. 
 
-- To know PCI device info 
+- To know about PCI devices 
 
 ``` lspci```
 
