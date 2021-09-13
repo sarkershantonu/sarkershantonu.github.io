@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Linux Commands for System Monitoring
-date: "2020-08-31 05:02"
+date: "2021-08-31 05:02"
 tags: [linux]
-permalink: /2020/08/31/popular-linux-commands-sys-monitoring/
+permalink: /2021/08/31/popular-linux-commands-sys-monitoring/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Linux Commands"
 gh-badge: [star,follow]
