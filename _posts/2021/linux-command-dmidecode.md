@@ -1,5 +1,12 @@
 This blog will show details of dmidecode commands, how can we use this to know device info.
 
+```sudo dmidecode -t memory```
+
+```sudo dmidecode -t system```
+
+```sudo dmidecode -t bios```
+
+```sudo dmidecode -t processor```
 
 ### Options
 
