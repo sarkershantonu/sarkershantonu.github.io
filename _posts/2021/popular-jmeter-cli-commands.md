@@ -14,4 +14,4 @@ All example will be based on linux so, before starting , you need to install Jme
 ### Jmeter HTML Report
 - Generating HTML Report 
 
-- Generating HTML 
+- Generating HTML with custom properties 
