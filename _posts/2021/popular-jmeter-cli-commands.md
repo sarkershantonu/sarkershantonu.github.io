@@ -5,6 +5,8 @@ This is very useful if you are a DevOps person creating performance testing syst
 All example will be based on linux so, before starting , you need to install Jmeter in your linux environment. [**This blog might help you on how to do setup in cli.**](https://sarkershantonu.github.io/2021/01/06/install-jmeter-plugins-cli/)
 
 ### How to run Jmeter in headless mode 
-- Running with Test case (JMX)
+- Running with specific Test case (JMX)
 
-- Runnin
+- Running with specific Test case & Result Log (JTL)
+  
+- Running with specific Test case , Result Log & Jmeter Log(jmeter.log)
