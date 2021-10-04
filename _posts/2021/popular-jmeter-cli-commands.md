@@ -11,7 +11,7 @@ All example will be based on linux so, before starting , you need to install Jme
   
 - Running with specific Test case , Result Log & Jmeter Log(jmeter.log)
 
-### Jmeter HTML Report
+# Jmeter HTML Report
 - Generating HTML Report 
 
 - Generating HTML with custom properties 
