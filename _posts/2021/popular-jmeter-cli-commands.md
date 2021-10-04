@@ -11,6 +11,12 @@ All example will be based on linux so, before starting , you need to install Jme
   
 - Running with specific Test case , Result Log & Jmeter Log(jmeter.log)
 
+
+# Jmeter Remote Execution
+- Run Jmeter with specific host RMI (Jmeter Master)
+  
+- Run Jmeter with Slaves with RMI
+
 # Jmeter HTML Report
 - Generating HTML Report 
 
