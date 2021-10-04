@@ -10,3 +10,8 @@ All example will be based on linux so, before starting , you need to install Jme
 - Running with specific Test case & Result Log (JTL)
   
 - Running with specific Test case , Result Log & Jmeter Log(jmeter.log)
+
+### Jmeter HTML Report
+- Generating HTML Report 
+
+- Generating HTML 
