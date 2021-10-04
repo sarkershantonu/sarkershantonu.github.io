@@ -17,6 +17,8 @@ All example will be based on linux so, before starting , you need to install Jme
   
 - Run Jmeter with Slaves with RMI
 
+### Example : Execute a test on Jmeter Grid(master-slave) with result log
+
 # Jmeter HTML Report
 - Generating HTML Report 
 
