@@ -32,3 +32,62 @@ All example will be based on linux so, before starting , you need to install Jme
 - To know Jmeter version ```jmeter --version``` , you should see jmeter banner in CLI 
 
 ![banner](/images/jmeter/install-cli/env-jmeter-version.JPG)
+
+``` 
+shantonu@ubuntu:~$ jmeter --help
+    _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.4
+
+Copyright (c) 1999-2020 The Apache Software Foundation
+
+
+To list all command line options, open a command prompt and type:
+
+jmeter.bat(Windows)/jmeter.sh(Linux) -?
+
+--------------------------------------------------
+
+To run Apache JMeter in GUI mode, open a command prompt and type:
+
+jmeter.bat(Windows)/jmeter.sh(Linux) [-p property-file]
+
+--------------------------------------------------
+
+To run Apache JMeter in NON_GUI mode:
+Open a command prompt (or Unix shell) and type:
+
+jmeter.bat(Windows)/jmeter.sh(Linux) -n -t test-file [-p property-file] [-l results-file] [-j log-file]
+
+--------------------------------------------------
+
+To run Apache JMeter in NON_GUI mode and generate a report at end :
+Open a command prompt (or Unix shell) and type:
+
+jmeter.bat(Windows)/jmeter.sh(Linux) -n -t test-file [-p property-file] [-l results-file] [-j log-file] -e -o [Path to output folder]
+
+--------------------------------------------------
+To generate a Report from existing CSV file:
+Open a command prompt (or Unix shell) and type:
+
+jmeter.bat(Windows)/jmeter.sh(Linux) -g [csv results file] -o [path to output folder (empty or not existing)]
+
+--------------------------------------------------
+
+To tell Apache JMeter to use a proxy server:
+Open a command prompt and type:
+
+jmeter.bat(Windows)/jmeter.sh(Linux) -H [your.proxy.server] -P [your proxy server port]
+
+---------------------------------------------------
+
+To run Apache JMeter in server mode:
+Open a command prompt and type:
+
+jmeter-server.bat(Windows)/jmeter-server(Linux)
+
+---------------------------------------------------
+
+```
