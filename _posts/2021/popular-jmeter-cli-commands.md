@@ -56,11 +56,6 @@ All example will be based on linux so, before starting , you need to install Jme
 
 --------------------------------------------------
 
-To run Apache JMeter in NON_GUI mode and generate a report at end :
-Open a command prompt (or Unix shell) and type:
-
-jmeter.bat(Windows)/jmeter.sh(Linux) -n -t test-file [-p property-file] [-l results-file] [-j log-file] -e -o [Path to output folder]
-
 --------------------------------------------------
 To generate a Report from existing CSV file:
 Open a command prompt (or Unix shell) and type:
