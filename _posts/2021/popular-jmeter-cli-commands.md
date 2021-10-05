@@ -35,6 +35,8 @@ All example will be based on linux so, before starting , you need to install Jme
 ![banner](/images/jmeter/install-cli/env-jmeter-version.JPG)
 
 - To run jmeter in GUI mode ```jmeter```
+
+- To run jmeter in GUI mode with own properties ```jmeter -p your_property_file.properties```
 ### All Jmeter Options 
 
 ``` 
