@@ -44,7 +44,6 @@ All example will be based on linux so, before starting , you need to install Jme
 ```jmeter -g test_result.csv -o complete_path_to_output_folder```
 
 
-
 # Jmeter common CLI Options 
 - To know Jmeter version ```jmeter --version``` , you should see jmeter banner in CLI 
 
