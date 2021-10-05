@@ -23,7 +23,8 @@ All example will be based on linux so, before starting , you need to install Jme
 ```jmeter -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties```
 
 # Jmeter Remote Execution
-- Run a Jmeter Slave ```jmeter ```
+
+- Run a Jmeter Slave ```jmeter-server ```
 
 - Run Jmeter with specific host RMI (Jmeter Master)
   
