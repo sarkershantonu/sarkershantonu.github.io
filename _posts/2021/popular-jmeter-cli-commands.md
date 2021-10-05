@@ -53,6 +53,8 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - To run jmeter in GUI mode with own properties ```jmeter -p your_property_file.properties```
 
+- To run jmeter under proxy ```jmeter -H proxy_server_ip -P proxy_server_port```
+
 ### All Jmeter Options 
 
 ``` 
