@@ -8,23 +8,23 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - Running with specific Test case (JMX)
 
-```jmeter -n –t your_test_case.jmx```
+```jmeter.sh -n –t your_test_case.jmx```
 
 - Running with specific Test case & Result Log (JTL)
 
-```jmeter -n –t your_test_case.jmx -l your_test_result.jtl```
+```jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl```
   
 - Running with specific Test case , Result Log & Jmeter Log(jmeter.log)
 
-```jmeter -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log```
+```jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log```
 
 - Running with specific Test case , Result Log , Jmeter Log and custom properties
 
-```jmeter -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties```
+```jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties```
 
 # Jmeter Remote Execution
 
-- Run a Jmeter Slave ```jmeter-server ```
+- Run a Jmeter Slave ```jmeter.sh-server ```
 
 - Run Jmeter with specific host RMI (Jmeter Master)
   
@@ -36,27 +36,27 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - Run with specific Test case (JMX) and Generate HTML Report 
 
-```jmeter -n –t your_test_case.jmx -e -o complete_path_to_output_folder ```
+```jmeter.sh -n –t your_test_case.jmx -e -o complete_path_to_output_folder ```
 
 - Running with specific Test case , Result Log , Jmeter Log,  custom properties & HTML report
 
-```jmeter -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder ```
+```jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder ```
 
 - Create report from CSV test results 
 
-```jmeter -g test_result.csv -o complete_path_to_output_folder```
+```jmeter.sh -g test_result.csv -o complete_path_to_output_folder```
 
 
 # Jmeter common CLI Options 
-- To know Jmeter version ```jmeter --version``` , you should see jmeter banner in CLI 
+- To know Jmeter version ```jmeter.sh --version``` , you should see jmeter banner in CLI 
 
 ![banner](/images/jmeter/install-cli/env-jmeter-version.JPG)
 
-- To run jmeter in GUI mode ```jmeter```
+- To run jmeter in GUI mode ```jmeter.sh```
 
-- To run jmeter in GUI mode with own properties ```jmeter -p your_property_file.properties```
+- To run jmeter in GUI mode with own properties ```jmeter.sh -p your_property_file.properties```
 
-- To run jmeter under proxy ```jmeter -H proxy_server_ip -P proxy_server_port```
+- To run jmeter under proxy ```jmeter.sh -H proxy_server_ip -P proxy_server_port```
 
 
 ### All Jmeter Options 
