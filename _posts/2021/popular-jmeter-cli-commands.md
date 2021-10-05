@@ -41,7 +41,7 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - Create report from CSV test results 
 
-```jmeter -g test_result.csv -o jmeter -n –t ```
+```jmeter -g test_result.csv -o complete_path_to_output_folder```
 
 complete_path_to_output_folder
 
