@@ -23,6 +23,8 @@ All example will be based on linux so, before starting , you need to install Jme
 ```jmeter -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties```
 
 # Jmeter Remote Execution
+- Run a Jmeter Slave ```jmeter ```
+
 - Run Jmeter with specific host RMI (Jmeter Master)
   
 - Run Jmeter with Slaves with RMI
@@ -55,16 +57,11 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - To run jmeter under proxy ```jmeter -H proxy_server_ip -P proxy_server_port```
 
+
 ### All Jmeter Options 
 
 ``` 
 
-To tell Apache JMeter to use a proxy server:
-Open a command prompt and type:
-
-jmeter.bat(Windows)/jmeter.sh(Linux) -H [your.proxy.server] -P [your proxy server port]
-
----------------------------------------------------
 
 To run Apache JMeter in server mode:
 Open a command prompt and type:
