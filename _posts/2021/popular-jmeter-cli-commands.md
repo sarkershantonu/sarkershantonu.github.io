@@ -30,9 +30,14 @@ All example will be based on linux so, before starting , you need to install Jme
 ### Example : Execute a test on Jmeter Grid(master-slave) with result log
 
 # Jmeter HTML Report
-- Generating HTML Report 
 
-- Generating HTML with custom properties 
+- Run with specific Test case (JMX) and Generate HTML Report 
+
+```jmeter -n –t your_test_case.jmx -e -o complete_path_to_output_folder ```
+
+- Running with specific Test case , Result Log , Jmeter Log,  custom properties & HTML report
+
+
 
 # Jmeter common CLI Options 
 - To know Jmeter version ```jmeter --version``` , you should see jmeter banner in CLI 
@@ -47,10 +52,6 @@ All example will be based on linux so, before starting , you need to install Jme
 
 ``` 
 
-To run Apache JMeter in NON_GUI mode:
-Open a command prompt (or Unix shell) and type:
-
-jmeter.bat(Windows)/jmeter.sh(Linux) -n -t test-file [-p property-file] [-l results-file] [-j log-file]
 
 --------------------------------------------------
 
