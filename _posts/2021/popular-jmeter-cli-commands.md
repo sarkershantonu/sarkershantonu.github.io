@@ -7,7 +7,7 @@ All example will be based on linux so, before starting , you need to install Jme
 # Run Headless Jmeter 
 - Running with specific Test case (JMX)
 
-```jmeter -n –t test.jmx -l testresults.jtl```
+```jmeter -n –t your_test_case.jmx```
 
 - Running with specific Test case & Result Log (JTL)
 
