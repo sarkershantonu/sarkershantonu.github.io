@@ -24,7 +24,7 @@ All example will be based on linux so, before starting , you need to install Jme
 
 # Jmeter Remote Execution
 
-- Run a Jmeter Slave ```jmeter.sh-server ```
+- Run a Jmeter Slave ```jmeter-server ```
 
 - Run Jmeter with specific host RMI (Jmeter Master)
   
