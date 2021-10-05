@@ -18,6 +18,10 @@ All example will be based on linux so, before starting , you need to install Jme
 
 ```jmeter -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log```
 
+- Running with specific Test case , Result Log , Jmeter Log and custom properties
+
+```jmeter -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties```
+
 # Jmeter Remote Execution
 - Run Jmeter with specific host RMI (Jmeter Master)
   
