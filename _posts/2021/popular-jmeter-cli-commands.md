@@ -96,7 +96,7 @@ jmeter-server.bat(Windows)/jmeter-server(Linux)
 
 ```
 
-### Jmeter.sh linux options 
+### Jmeter linux options 
 
 ``` 
 shantonu@ubuntu:~$ jmeter.sh -?
