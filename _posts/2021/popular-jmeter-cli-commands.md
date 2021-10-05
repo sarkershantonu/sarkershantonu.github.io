@@ -37,6 +37,7 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - Running with specific Test case , Result Log , Jmeter Log,  custom properties & HTML report
 
+```jmeter -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder ```
 
 
 # Jmeter common CLI Options 
