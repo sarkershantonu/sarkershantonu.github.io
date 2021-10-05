@@ -37,30 +37,10 @@ All example will be based on linux so, before starting , you need to install Jme
 - To run jmeter in GUI mode ```jmeter```
 
 - To run jmeter in GUI mode with own properties ```jmeter -p your_property_file.properties```
+
 ### All Jmeter Options 
 
 ``` 
-shantonu@ubuntu:~$ jmeter --help
-    _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
-   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
-  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
- / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
-/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.4
-
-Copyright (c) 1999-2020 The Apache Software Foundation
-
-
-To list all command line options, open a command prompt and type:
-
-jmeter.bat(Windows)/jmeter.sh(Linux) -?
-
---------------------------------------------------
-
-To run Apache JMeter in GUI mode, open a command prompt and type:
-
-jmeter.bat(Windows)/jmeter.sh(Linux) [-p property-file]
-
---------------------------------------------------
 
 To run Apache JMeter in NON_GUI mode:
 Open a command prompt (or Unix shell) and type:
@@ -98,7 +78,7 @@ jmeter-server.bat(Windows)/jmeter-server(Linux)
 
 ```
 
-### Jmeter linux options 
+### All Jmeter options 
 
 ``` 
 shantonu@ubuntu:~$ jmeter.sh -?
