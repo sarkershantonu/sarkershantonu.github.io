@@ -11,7 +11,7 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - Running with specific Test case & Result Log (JTL)
 
-```jmeter -n –t test.jmx -l testresults.jtl```
+```jmeter -n –t your_test_case.jmx -l your_test_result.jtl```
   
 - Running with specific Test case , Result Log & Jmeter Log(jmeter.log)
 
