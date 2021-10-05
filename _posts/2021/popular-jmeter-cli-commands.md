@@ -30,3 +30,5 @@ All example will be based on linux so, before starting , you need to install Jme
 
 # Jmeter common CLI Options 
 - To know Jmeter version ```jmeter --version``` , you should see jmeter banner in CLI 
+
+![banner](/images/jmeter/install-cli/env-jmeter-version.JPG)
