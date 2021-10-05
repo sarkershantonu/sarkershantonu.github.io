@@ -27,3 +27,6 @@ All example will be based on linux so, before starting , you need to install Jme
 - Generating HTML Report 
 
 - Generating HTML with custom properties 
+
+# Jmeter common CLI Options 
+- To know Jmeter version ```jmeter --version``` , you should see jmeter banner in CLI 
