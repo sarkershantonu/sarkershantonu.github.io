@@ -58,21 +58,6 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - To run jmeter under proxy ```jmeter.sh -H proxy_server_ip -P proxy_server_port```
 
-
-### All Jmeter Options 
-
-``` 
-
-
-To run Apache JMeter in server mode:
-Open a command prompt and type:
-
-jmeter-server.bat(Windows)/jmeter-server(Linux)
-
----------------------------------------------------
-
-```
-
 ### All Jmeter options 
 
 ``` 
