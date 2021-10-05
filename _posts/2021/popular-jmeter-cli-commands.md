@@ -57,17 +57,6 @@ All example will be based on linux so, before starting , you need to install Jme
 
 ``` 
 
-
---------------------------------------------------
-
---------------------------------------------------
-To generate a Report from existing CSV file:
-Open a command prompt (or Unix shell) and type:
-
-jmeter.bat(Windows)/jmeter.sh(Linux) -g [csv results file] -o [path to output folder (empty or not existing)]
-
---------------------------------------------------
-
 To tell Apache JMeter to use a proxy server:
 Open a command prompt and type:
 
