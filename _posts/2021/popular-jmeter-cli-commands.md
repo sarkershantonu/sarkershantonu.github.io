@@ -24,11 +24,11 @@ All example will be based on linux so, before starting , you need to install Jme
 
 # Jmeter Remote Execution
 
-- Run a Jmeter Slave ```jmeter-server ```
+- Run a Jmeter Slave/server ```jmeter-server ```
 
-- Run Jmeter with specific host RMI (Jmeter Master)
+- Run Jmeter Master with specific host RMI
   
-- Run Jmeter with Slaves with RMI
+- Run Jmeter Master with Slaves with RMI
 
 ### Example : Execute a test on Jmeter Grid(master-slave) with result log
 
