@@ -26,7 +26,7 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - Run a Jmeter Slave/server ```jmeter-server ```
 
-- Run Jmeter Master with specific host RMI ``````
+- Run Jmeter Master with specific RMI hostname ``` jmeter-server -Djava.rmi.server.hostname=10.161.142.227```. Here you should change ip ```10.161.142.227``` to your master IP. 
   
 - Run Jmeter Master with Slaves with RMI
 
