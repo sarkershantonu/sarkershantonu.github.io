@@ -33,10 +33,10 @@ All example will be based on linux so, before starting , you need to install Jme
 - Run Jmeter test Scripts from master with slaves and HTML reports 
 
 ``` 
-jmetersh -n -t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder -R your_slave_IP1,your_slave_IP2,your_slave_IP3
+jmetersh -n -t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder -R 192.168.0.5,192.168.0.6,192.168.0.7
 ```
 
-Slave IP example can be ```192.168.0.5,192.168.0.6,192.168.0.7```
+You can replace slave IPs with your original IP
 
 ### Example : Execute a test on Jmeter Grid(master-slave) with result log
 
