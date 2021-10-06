@@ -26,7 +26,7 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - Run a Jmeter Slave/server ```jmeter-server ```
 
-- Run Jmeter Master with specific host RMI
+- Run Jmeter Master with specific host RMI ``````
   
 - Run Jmeter Master with Slaves with RMI
 
