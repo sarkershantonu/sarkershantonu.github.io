@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Linux Commands for System Monitoring
-date: "2021-08-31 05:02"
-tags: [linux]
-permalink: /2021/08/31/popular-linux-commands-sys-monitoring/
+title: Popular Jmeter CLI commands
+date: "2021-10-08 00:02"
+tags: [jmeter, devops, ci-cd]
+permalink: /2021/10/08/popular-linux-commands-sys-monitoring/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Linux Commands"
+excerpt: "Blog on Jmeter Commands"
 gh-badge: [star,follow]
 comments: true
 ---
