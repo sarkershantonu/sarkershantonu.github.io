@@ -30,7 +30,7 @@ All example will be based on linux so, before starting , you need to install Jme
   
 - Run Jmeter Slaves with RMI
 
-- Run Jmeter test Scripts from master with slaves and HTML reports 
+- Run Jmeter test Scripts from master with slaves and HTML reports (ultimate runnable script )
 
 ``` 
 jmetersh -n -t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder -R 192.168.0.5,192.168.0.6,192.168.0.7
