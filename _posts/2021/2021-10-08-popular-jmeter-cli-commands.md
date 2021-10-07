@@ -20,25 +20,38 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - Running with specific Test case (JMX)
 
-```jmeter.sh -n –t your_test_case.jmx```
+```
+jmeter.sh -n –t your_test_case.jmx
+```
 
 - Running with specific Test case & Result Log (JTL)
 
-```jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl```
+```
+jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl
+```
   
 - Running with specific Test case , Result Log & Jmeter Log(jmeter.log)
 
-```jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log```
+```
+jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log
+```
 
 - Running with specific Test case , Result Log , Jmeter Log and custom properties
 
-```jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties```
+```
+jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties
+```
 
 # Jmeter Remote Execution
 
 - Run a Jmeter Slave/server ```jmeter-server ```
 
-- Run Jmeter Slave with specific RMI hostname(its own) ``` jmeter-server -Djava.rmi.server.hostname=10.161.142.227```. 
+- Run Jmeter Slave with specific RMI hostname(its own) 
+  
+``` 
+jmeter-server -Djava.rmi.server.hostname=10.161.142.227
+
+```
   
 Here you should change ip ```10.161.142.227``` to your master IP. **This is the most preferable way to avoid RMI errors**. 
 
@@ -56,15 +69,21 @@ You can replace slave IPs ```192.168.0.5,192.168.0.6,192.168.0.7``` with your or
 
 - Run with specific Test case (JMX) and Generate HTML Report 
 
-```jmeter.sh -n –t your_test_case.jmx -e -o complete_path_to_output_folder ```
+```
+jmeter.sh -n –t your_test_case.jmx -e -o complete_path_to_output_folder 
+```
 
 - Running with specific Test case , Result Log , Jmeter Log,  custom properties & HTML report
 
-```jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder ```
+```
+jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder 
+```
 
 - Create report from CSV test results 
 
-```jmeter.sh -g test_result.csv -o complete_path_to_output_folder```
+```
+jmeter.sh -g test_result.csv -o complete_path_to_output_folder
+```
 
 
 # Jmeter common CLI Options 
