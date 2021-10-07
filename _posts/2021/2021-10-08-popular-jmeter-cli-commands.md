@@ -2,7 +2,7 @@
 layout: post
 title: Popular Jmeter CLI commands
 date: "2021-10-08 00:02"
-tags: [jmeter, devops, ci-cd]
+tags: [jmeter-run, ci-cd]
 permalink: /2021/10/08/popular-linux-commands-sys-monitoring/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on Jmeter Commands"
