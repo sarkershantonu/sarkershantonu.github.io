@@ -65,7 +65,7 @@ You can replace slave IPs ```192.168.0.5,192.168.0.6,192.168.0.7``` with your or
 
 - To run jmeter in GUI mode with own properties ```jmeter.sh -p your_property_file.properties```
 
-- To run jmeter under proxy with username(shantonu) & password(123abc) ```jmeter.sh -H proxy_server_ip -P proxy_server_port -u shantonu -p 123abc```
+- To run jmeter under proxy with IP, Port, username(shantonu) & password(123abc) ```jmeter.sh -H proxy_server_ip -P proxy_server_port -u shantonu -p 123abc```
 
 ### All Jmeter options 
 
