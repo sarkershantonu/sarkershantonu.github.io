@@ -1,3 +1,17 @@
+---
+layout: post
+title: Linux Commands for System Monitoring
+date: "2021-08-31 05:02"
+tags: [linux]
+permalink: /2021/08/31/popular-linux-commands-sys-monitoring/
+gh-repo: sarkershantonu/sarkershantonu.github.io
+excerpt: "Blog on Linux Commands"
+gh-badge: [star,follow]
+comments: true
+---
+
+
+
 In this blog, we are going to see Jmeter Commands that I use when running in CLI or CI/CD. 
 
 This is very useful if you are a DevOps person creating performance testing systems for testing. This will also help you to setup runtime environments using Jenkins. 
