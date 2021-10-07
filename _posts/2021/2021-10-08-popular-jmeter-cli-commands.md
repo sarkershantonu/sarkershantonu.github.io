@@ -96,7 +96,8 @@ jmeter.sh -g test_result.csv -o complete_path_to_output_folder
 
 - To run jmeter in GUI mode with own properties 
   
-```jmeter.sh -p your_property_file.properties
+```
+jmeter.sh -p your_property_file.properties
 ```
 
 - To run jmeter under proxy with IP, Port, username(shantonu) & password(123abc) 
