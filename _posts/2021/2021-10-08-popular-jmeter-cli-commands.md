@@ -58,7 +58,7 @@ Here you should change ip ```10.161.142.227``` to your master IP. **This is the 
 - Run Jmeter test from master to slaves(3) and HTML reports (ultimate runnable script )
 
 ``` 
-jmetersh -n -t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder -R 192.168.0.5,192.168.0.6,192.168.0.7
+jmeter.sh -n -t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder -R 192.168.0.5,192.168.0.6,192.168.0.7
 ```
 
 You can replace slave IPs ```192.168.0.5,192.168.0.6,192.168.0.7``` with your original IP
