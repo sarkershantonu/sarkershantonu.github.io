@@ -63,8 +63,6 @@ jmeter.sh -n -t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your
 
 You can replace slave IPs ```192.168.0.5,192.168.0.6,192.168.0.7``` with your original IP
 
-### Example : Execute a test on Jmeter Grid(master-slave) with result log
-
 # Jmeter HTML Report
 
 - Run with specific Test case (JMX) and Generate HTML Report 
