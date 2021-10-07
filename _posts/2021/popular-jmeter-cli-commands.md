@@ -26,11 +26,11 @@ All example will be based on linux so, before starting , you need to install Jme
 
 - Run a Jmeter Slave/server ```jmeter-server ```
 
-- Run Jmeter Slave with specific RMI hostname(its own) ``` jmeter-server -Djava.rmi.server.hostname=10.161.142.227```. Here you should change ip ```10.161.142.227``` to your master IP. 
+- Run Jmeter Slave with specific RMI hostname(its own) ``` jmeter-server -Djava.rmi.server.hostname=10.161.142.227```. 
   
-- Run Jmeter Slaves with RMI
+Here you should change ip ```10.161.142.227``` to your master IP. **This is the most preferable way to avoid RMI errors**. 
 
-- Run Jmeter test Scripts from master with slaves and HTML reports (ultimate runnable script )
+- Run Jmeter test from master to slaves(3) and HTML reports (ultimate runnable script )
 
 ``` 
 jmetersh -n -t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder -R 192.168.0.5,192.168.0.6,192.168.0.7
