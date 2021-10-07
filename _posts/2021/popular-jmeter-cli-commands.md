@@ -56,6 +56,7 @@ You can replace slave IPs ```192.168.0.5,192.168.0.6,192.168.0.7``` with your or
 
 
 # Jmeter common CLI Options 
+
 - To know Jmeter version ```jmeter.sh --version``` , you should see jmeter banner in CLI 
 
 ![banner](/images/jmeter/install-cli/env-jmeter-version.JPG)
