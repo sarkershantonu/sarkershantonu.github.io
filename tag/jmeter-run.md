@@ -27,7 +27,7 @@ This page contains all post related to Jmeter Test Executions.
 - [Manage JMX](https://sarkershantonu.github.io/2020/09/14/maven-jmeter-plugins-jmx/)
 - [Distributed Testing](https://sarkershantonu.github.io/2020/09/18/maven-jmeter-distributed-testing/)
 - [Proxy Setting and Tips](https://sarkershantonu.github.io/2020/09/20/maven-jmeter-tricks-proxy/)
-- [**Popular Jmeter CLI Commands**](https://sarkershantonu.github.io/2021/10/08/popular-linux-commands-sys-monitoring/)
+- [**Popular Jmeter CLI Commands**](https://sarkershantonu.github.io/2021/10/08/popular-jmeter-commands/)
 
 ### [Jmeter Maven Github](https://github.com/sarkershantonu/jmeter-maven-examples)
 
