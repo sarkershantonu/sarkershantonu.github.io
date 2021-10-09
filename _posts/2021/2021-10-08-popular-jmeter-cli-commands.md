@@ -24,7 +24,7 @@ All example will be based on linux so, before starting , you need to install Jme
 jmeter.sh -n –t your_test_case.jmx
 ```
 
-- Running with specific Test case & store result Log (JTL)
+- Running with specific test case & store result log (JTL)
 
 ```
 jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl
