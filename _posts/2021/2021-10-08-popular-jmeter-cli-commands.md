@@ -30,7 +30,7 @@ jmeter.sh -n –t your_test_case.jmx
 jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl
 ```
   
-- Running with specific Test case , Result Log & Jmeter Log(jmeter.log)
+- Running with specific Test case , result Log & Jmeter Log(jmeter.log)
 
 ```
 jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log
