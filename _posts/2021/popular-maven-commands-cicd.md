@@ -8,7 +8,7 @@ This is very useful if you are a **DevOps** person creating ci/cd system. This w
 - compile project ```mvn compile```
 - build project ```mvn build```
 - test project(before build) ```mvn test```
-
+- 
 ### Maven Lifecycle Examples 
 
 ### Maven Property Example 
