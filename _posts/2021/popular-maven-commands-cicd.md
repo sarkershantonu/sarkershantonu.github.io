@@ -4,7 +4,8 @@ This is very useful if you are a **DevOps** person creating ci/cd system. This w
 
 # Maven Lifecycle & Plugins 
 
-- Clean Project ```mvn clean```
+- clean project ```mvn clean```
+- compile project ```mvn compile```
 
 ### Maven Lifecycle Examples 
 
