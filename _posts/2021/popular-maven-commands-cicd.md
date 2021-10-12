@@ -4,6 +4,8 @@ This is very useful if you are a **DevOps** person creating ci/cd system. This w
 
 # Maven Lifecycle & Plugins 
 
+- Clean Project ```mvn clean```
+
 ### Maven Lifecycle Examples 
 
 ### Maven Property Example 
@@ -15,3 +17,7 @@ This is very useful if you are a **DevOps** person creating ci/cd system. This w
 # Maven with artifact Repository  
 
 # Maven with ANT 
+
+# Maven Wrapper 
+
+Just replace ```mvn``` with ```mvnw.bat``` in windows and ```./mvnw``` in linux. 
