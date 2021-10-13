@@ -107,7 +107,7 @@ jmeter.sh -H proxy_server_ip -P proxy_server_port -u shantonu -p 123abc
 ### Example : Running Jmeter Tests
 I used to make a shell file(run-test.sh) to run script like this.
 
-- Local Jmeter 
+- Local Test Execution  
 
 ``` shell
 
@@ -121,6 +121,7 @@ HTML=html-report-$SCRIPT-$CURRENT_TIME
 
 jmeter -n -t $SCRIPT -l $RESULT -j $LOG -e -o $HTML
 ```
+
 
 ### All Jmeter options 
 
