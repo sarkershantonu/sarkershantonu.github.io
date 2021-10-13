@@ -104,6 +104,24 @@ jmeter.sh -p your_property_file.properties
 jmeter.sh -H proxy_server_ip -P proxy_server_port -u shantonu -p 123abc
 ```
 
+### Example : Running Jmeter Tests
+I used to make a shell file(run-test.sh) to run script like this.
+
+- Local Jmeter 
+
+``` shell
+
+CURRENT_TIME=d$(ate "+%Y-%m-%d-%H-%M-%S")
+#Script Location with Name 
+SCRIPT=my_script.jmx
+# CSV results
+RESULT=result_$SCRIPT_$CURRENT_TIME.csv
+LOG=$SCRIPT_$CURRENT_TIME.log
+HTML=html-report-$SCRIPT-$CURRENT_TIME
+
+jmeter -n -t $SCRIPT -l $RESULT -j $LOG -e -o $HTML
+```
+
 ### All Jmeter options 
 
 ``` 
