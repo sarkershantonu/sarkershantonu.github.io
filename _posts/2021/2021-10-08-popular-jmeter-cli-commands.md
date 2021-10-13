@@ -122,6 +122,21 @@ HTML=html-report-$SCRIPT-$CURRENT_TIME
 jmeter -n -t $SCRIPT -l $RESULT -j $LOG -e -o $HTML
 ```
 
+- Remote Test Execution 
+
+``` shell
+CURRENT_TIME=d$(ate "+%Y-%m-%d-%H-%M-%S")
+#Script Location with Name 
+SCRIPT=my_script.jmx
+# CSV results
+SLAVES=192.168.1.211,192.168.1.212,192.168.1.213
+RESULT=result_$SCRIPT_$CURRENT_TIME.csv
+LOG=$SCRIPT_$CURRENT_TIME.log
+HTML=html-report-$SCRIPT-$CURRENT_TIME
+
+jmeter -n -t $SCRIPT -l $RESULT -j $LOG -e -o $HTML -R $SLAVES
+
+```
 
 ### All Jmeter options 
 
