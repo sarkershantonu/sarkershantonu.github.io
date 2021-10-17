@@ -21,6 +21,7 @@ This is very useful if you are a **DevOps** person creating ci/cd system. This w
 - Select a profile 
 
 ### Maven with Corporate Proxy 
+Best way to do is to put proxy information in settings.xml. You can also put proxy info directly 
 
 - Adding proxy information in regular maven commands ```-Dhttps.proxyHost=your_proxy_host -Dhttps.proxyPort=your_proxy_port```
 
