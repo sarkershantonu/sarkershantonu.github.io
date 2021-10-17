@@ -22,6 +22,8 @@ This is very useful if you are a **DevOps** person creating ci/cd system. This w
 
 ### Maven with Corporate Proxy 
 
+- Adding proxy information in regular maven commands ```-Dhttps.proxyHost=your_proxy_host -Dhttps.proxyPort=your_proxy_port```
+
 # Maven with artifact Repository  
 
 # Maven with ANT 
