@@ -27,7 +27,7 @@ This is very useful if you are a **DevOps** person creating ci/cd system. This w
 # Maven with ANT 
 - Plugins to use [**maven-antrun-plugin**](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-antrun-plugin) 
 - To build with default plugin config use ```mvn package```
-- To build with build.xml
+- To build with build.xml ```mcn install```
 
 # Maven Wrapper 
 
