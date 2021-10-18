@@ -14,7 +14,9 @@ This is very useful if you are a **DevOps** person creating ci/cd system. This w
 - 
 ### Maven Property Example 
 
-- Inject a property , the syntax is ```-DPropertuName=PropertyValue```. 
+- Inject a property , the syntax is ```-DPropertuName=PropertyValue```. example , let's say you have a property **artifact.name** and value **app.2.4** and you want to change this value to **app.2.5**.
+
+So, the maven install command will be ```mvn install -Dartifact.name=app.2.5```. 
 
 ### Maven Profile Examples 
 
