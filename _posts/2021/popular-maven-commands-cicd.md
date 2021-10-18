@@ -20,7 +20,8 @@ So, the maven install command will be ```mvn install -Dartifact.name=app.2.5```.
 
 ### Maven Profile Examples 
 
-- Select a profile 
+- To select a profile, you have to use ```-PProfileName```. For example, if you have 3 profile in pom.xml , 1.local-build, 2.dev-build, 3. prod-build, then to select any one of the profile, you have to 
+use like ```-Plocal-build``` to select **local-build**. 
 
 ### Maven with Corporate Proxy 
 Best way to do is to put proxy information in settings.xml. You can also put proxy info directly 
