@@ -12,7 +12,7 @@ comments: true
 # Contact 
 - [Gmail/Gtalk](mailto:sarker.shantonu@gmail.com): sarker.shantonu, [outlook](mailto:sarker.shantonu@live.com)
 - Skype : shantonu.sarker
-- [WhatApp](https://web.whatsapp.com/send?phone=8801778072324) : +8801778072324
+- [WhatApp](https://we.me/+8801778072324) : +8801778072324
 - [Blog](https://shantonusarker.blogspot.com/)
 - [Twitter](https://twitter.com/sarkershantonu)
 - [Github](https://github.com/sarkershantonu)
