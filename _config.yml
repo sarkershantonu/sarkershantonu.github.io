@@ -43,7 +43,7 @@ navbar-links:
     - Shantonu: "aboutme"
     - Details Exp : "cv/details/index.html"
     - Summary CV : "cv/summary/index.html"
-    - resume : "page/resume"
+    - resume : "pages/resume"
     - Contact : "contact"
     - hireme : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
     - Courses: "courses"
