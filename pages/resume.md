@@ -15,11 +15,11 @@ comments: true
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
-# DOC Resume/CV : 
+# Download DOC : 
 - [Summary Version](https://www.dropbox.com/s/jnka8664qdyw8oc/Resume_Shantanu%20Sarker_SDET_15Y.doc?dl=0)
 - [Detailed Version](https://www.dropbox.com/s/8bo1pgqa82ygvh1/Details_CV_Shantanu%20Sarker_SDET_15Y.doc?dl=0)
 
-# PDF/CV
+# Download PDF
 - [Summary Version](https://www.dropbox.com/s/7souyrk8l36p7ce/Resume_Shantanu%20Sarker_SDET_15Y.pdf?dl=0)
 - [Detailed Version](https://www.dropbox.com/s/t7k7g4fmnmubly6/Details_CV_Shantanu%20Sarker_SDET_15Y.pdf?dl=0)
 
