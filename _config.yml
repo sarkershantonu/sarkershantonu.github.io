@@ -47,7 +47,7 @@ navbar-links:
     - Contact : "pages/contact.md"
     - hireme : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
     - Courses: "courses"
-    - Talks: "talks"
+    - Talks: "pages/talks.md"
     - Reviews : "tag/reviews"
     - Gadgets : "tag/gadgets"
 nav-search: search
