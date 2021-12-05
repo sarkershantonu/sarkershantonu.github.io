@@ -40,7 +40,7 @@ navbar-links:
     - Docker: "tag/docker"
     - LinuxAdmin: "tag/linux"
   About: 
-    - Shantonu: "aboutme"
+    - Shantonu: "aboutme.html"
     - Details : "cv/details/index.html"
     - Summary : "cv/summary/index.html"
     - cv/resume : "pages/resume"
