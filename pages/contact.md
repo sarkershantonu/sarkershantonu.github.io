@@ -8,7 +8,7 @@ meta-description: "Test developer with a Bsc in Computer Science"
 comments: true
 ---
 
-![QR Code](./img/QR.PNG)
+![QR Code](../img/QR.PNG)
 # Contact 
 - [Gmail/Gtalk](mailto:sarker.shantonu@gmail.com): sarker.shantonu, [outlook](mailto:sarker.shantonu@live.com)
 - Skype : shantonu.sarker
