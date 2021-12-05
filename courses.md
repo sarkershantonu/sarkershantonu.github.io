@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "Coerces"
+title: "Courses"
 subtitle: I build systems for testing
 css: "/css/index.css"
 meta-title: "Performance Engineer/SDET/Java Developer"
