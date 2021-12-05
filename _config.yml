@@ -40,14 +40,14 @@ navbar-links:
     - Docker: "tag/docker"
     - LinuxAdmin: "tag/linux"
   About: 
-    - Shantonu: "aboutme.html"
+    - Shantonu: "aboutme"
     - Details : "cv/details/index.html"
     - Summary : "cv/summary/index.html"
     - cv/resume : "pages/resume"
-    - Contact : "pages/contact.md"
+    - Contact : "pages/contact"
     - hireme : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
     - Courses: "courses"
-    - Talks: "pages/talks.md"
+    - Talks: "pages/talks"
     - Reviews : "tag/reviews"
     - Gadgets : "tag/gadgets"
 nav-search: search
