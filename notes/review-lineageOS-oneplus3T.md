@@ -18,4 +18,6 @@ c. Install LineageOS
 - mount volumes 
 - Copy zipped LineagesOS 
 - Copy your favorite google apps, i like nano version 
+- from recovery, goto folder where you have copied and install both zips
+- reboot and done 
 4. (optional) : Install Google Apps 
