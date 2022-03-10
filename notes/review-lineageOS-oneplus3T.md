@@ -12,6 +12,10 @@ b. Install Recovery
 - Boot to fastboot 
 - from CLI check device is connected 
 - from clI , flash recovery 
-- Reboot to 
+- Reboot to Recovery 
 c. Install LineageOS
+- Wipe Device with data & cache partition 
+- mount volumes 
+- Copy zipped LineagesOS 
+- Copy your favorite google apps, i like nano version 
 4. (optional) : Install Google Apps 
