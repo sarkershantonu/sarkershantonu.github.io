@@ -9,7 +9,7 @@ a. Unlock Device bootloader
 - Install Drivers 
 - install ADB & fastboot drivers 
   - This part is tricky. When you connect device in fastboot mode, android drives is not selected by windows, you have explicitly choose select which driver to install from windows.  
-  - 
+  - So select carefully 
 b. Install Recovery
 - Boot to fastboot 
 - from CLI check device is connected 
