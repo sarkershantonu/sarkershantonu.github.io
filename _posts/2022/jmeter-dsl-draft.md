@@ -20,3 +20,5 @@ Complex Correlation Examples :
 ## References
 - [Main Project Link](https://abstracta.github.io/jmeter-java-dsl/)
 - [User Guide](https://abstracta.github.io/jmeter-java-dsl/guide/)
+- [Project Github](https://github.com/abstracta/jmeter-java-dsl)
+- [Latest Release](https://github.com/abstracta/jmeter-java-dsl/releases)
