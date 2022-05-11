@@ -16,3 +16,7 @@ Complex Thread Group Examples :
 Complex Correlation Examples : 
 
  [***GitHub Repository***](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-dsl-example)
+ 
+## References
+- [Main Project Link](https://abstracta.github.io/jmeter-java-dsl/)
+- [User Guide](https://abstracta.github.io/jmeter-java-dsl/guide/)
