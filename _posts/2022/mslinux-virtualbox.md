@@ -14,12 +14,19 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y software-properties-common git make tar wget curl rpm qemu-utils golang-go genisoimage python2-minimal bison gawk pigz
 ``` 
 
--Optional : you can also reboot
+- Optional : you can also reboot
 
 ```
 sudo reboot
 ```
 
+- Clone Project and go inside folder 
+```shell
+
+git clone https://github.com/microsoft/CBL-Mariner.git
+cd CBL-Mariner
+
+```
 
 ### Prerequisite : 
 
