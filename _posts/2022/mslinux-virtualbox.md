@@ -48,3 +48,6 @@ sudo make iso REBUILD_TOOLS=y REBUILD_PACKAGES=n CONFIG_FILE=./imageconfigs/full
 ### Package Manager
 
 ### Builtin Tools 
+
+### Reference
+- [How Build system works](https://github.com/microsoft/CBL-Mariner/blob/2.0/toolkit/docs/how_it_works/0_intro.md)
