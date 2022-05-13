@@ -28,6 +28,12 @@ cd CBL-Mariner
 cd toolkit
 
 ```
+- Build Full version ISO 
+- 
+```shell
+sudo make iso REBUILD_TOOLS=y REBUILD_PACKAGES=n CONFIG_FILE=./imageconfigs/full.json
+```
+
 - Go inside output folder **CBL-mariner/out/images/full/** and you should see ISO file.
 
 
@@ -35,3 +41,10 @@ cd toolkit
 
 # VMware
 
+# Basics on CBL-Mariner
+
+### Installer GUI 
+ 
+### Package Manager
+
+### Builtin Tools 
