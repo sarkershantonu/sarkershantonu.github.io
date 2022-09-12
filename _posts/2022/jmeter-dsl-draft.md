@@ -18,6 +18,12 @@ Compile & Run test from IDE
 
 Compile & Run using Maven commands 
 
+### Test Scenario 
+1. Go to this link
+2. Click on IT category
+3. see paged jobs. 
+4. get all links from all pages 
+
 # Thread Group Examples :
 
 ### Thread Group(Default) : 
