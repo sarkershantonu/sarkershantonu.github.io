@@ -1,5 +1,10 @@
+# What is Jenkins 
+
 # Jenkins Installation 
 
-# Jenkins Plugins 
+# What is Jenkins Plugins 
 
-# jenkins Plugins configuration 
+# Popular jenkins Plugins that I use 
+
+# Plugins that we need for demo
+
