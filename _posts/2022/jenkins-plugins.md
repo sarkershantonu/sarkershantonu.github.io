@@ -5,3 +5,6 @@
 # Poplar jenkins plugins 
 
 # Plugins that I use 
+
+Testing Plugins : 
+Pipeline Plugins : 
