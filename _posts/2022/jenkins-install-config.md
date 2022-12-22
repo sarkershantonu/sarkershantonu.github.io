@@ -8,4 +8,7 @@
 
 # Plugins that we need for demo
 
-# Jenkins Global Tool Configuration  
+# Jenkins Global Tool Configuration 
+- Maven
+- Ant
+- Gradle
