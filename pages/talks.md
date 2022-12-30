@@ -22,7 +22,10 @@ Public Talks & online meetups.
 <iframe width="560" height="315" align="center" src="https://www.youtube-nocookie.com/embed/jrThRCgII5k?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-# JugBD : [API Automation with RestAssured](https://www.youtube.com/watch?v=gkz_EqlVtjY&list=PLLJB7JIS-EHYJqA4FbffdgPgPIr6N_kJ2)
+# JugBD : 
+- [API Automation with RestAssured](https://www.youtube.com/watch?v=gkz_EqlVtjY&list=PLLJB7JIS-EHYJqA4FbffdgPgPIr6N_kJ2)
+
+- [Randome Talk](https://www.youtube.com/watch?v=R1K0tXaSoCk)
 
 # [SQABD](https://www.facebook.com/groups/sqabd/) Weekly/Monthly Meeting
 - [Trello Board](https://trello.com/b/UTNTvLE7/topics-for-qas)
