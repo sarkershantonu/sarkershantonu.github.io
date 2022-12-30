@@ -17,7 +17,12 @@ comments: true
 
 Public Talks & online meetups.
 
-# Talks with [RedLine13](https://www.youtube.com/watch?v=jrThRCgII5k)
+# Podcasts With Sudipta 
+- 
+<iframe width="560" height="315" align="center" src="https://www.youtube-nocookie.com/embed/NqavWZO1ihM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+### Talks with [RedLine13](https://www.youtube.com/watch?v=jrThRCgII5k)
 
 <iframe width="560" height="315" align="center" src="https://www.youtube-nocookie.com/embed/jrThRCgII5k?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
