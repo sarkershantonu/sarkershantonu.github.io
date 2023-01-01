@@ -14,7 +14,7 @@ comments: true
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
-Courses which I used to take online. 
+Courses which I used to take online. If you are interested to join any batch, please contact me by email. 
 
 ### Long time course
 
