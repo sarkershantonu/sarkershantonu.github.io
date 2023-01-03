@@ -19,10 +19,10 @@ Compile & Run test from IDE
 Compile & Run using Maven commands 
 
 ### Test Scenario 
-1. Go to this link
-2. Click on IT category
-3. see paged jobs. 
-4. get all links from all pages 
+1. Go to this [link](bdjobs.com)
+2. Click on [IT category](https://jobs.bdjobs.com/jobsearch.asp?fcatId=8&icatId=) & see paged jobs.
+3. get all links from all pages 
+4. Navigate to all pages
 
 # Jmeter Component :
 
