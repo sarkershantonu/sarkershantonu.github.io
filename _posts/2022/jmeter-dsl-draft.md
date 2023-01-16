@@ -24,7 +24,9 @@ Compile & Run using Maven commands
 3. get all links from all pages 
 4. Navigate to all pages
 
-# Jmeter Component :
+The script's JMX version. 
+
+# Jmeter Components :
 
 ### Thread Group(Default) : 
 
