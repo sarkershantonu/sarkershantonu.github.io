@@ -27,6 +27,8 @@ To download please click download button from right upper corner, no Dropbox acc
 
 ### Summary up to Jan 2023
 [Job Summary](/cv/timeline/jobs.html)
+
+
 ![summary-career](/images/shantonu/career-shantonu.JPG)
 
 
