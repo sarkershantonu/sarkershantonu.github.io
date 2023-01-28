@@ -26,8 +26,7 @@ comments: true
 To download please click download button from right upper corner, no Dropbox account needed.  
 
 ### Summary up to Jan 2023
+[Job Summary](/cv/timeline/jobs.html)
 ![summary-career](/images/shantonu/career-shantonu.JPG)
 
-[summary](/cv/timeline/jobs.html)
 
-[![/images/shantonu/career-shantonu.JPG|alt=summary-career]](/cv/timeline/jobs.html)
