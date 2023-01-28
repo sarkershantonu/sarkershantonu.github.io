@@ -25,7 +25,7 @@ comments: true
 
 To download please click download button from right upper corner, no Dropbox account needed.  
 
-### Summary up to October 2021
+### Summary up to Jan 2023
 ![summary-career](/images/shantonu/career-shantonu.JPG)
 
 [summary](/cv/timeline/jobs.html)
