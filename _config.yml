@@ -41,8 +41,8 @@ navbar-links:
     - LinuxAdmin: "tag/linux"
   About: 
     - Shantonu: "aboutme"
-    - Details : "cv/details/index.html"
-    - Summary : "cv/summary/index.html"
+    - Experience Details : "cv/details/index.html"
+    - Job Summary : "cv/timeline/jobs.html"
     - cv/resume : "pages/resume"
     - Contact : "pages/contact"
     - hireme : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
