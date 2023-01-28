@@ -17,28 +17,34 @@ comments: false
 This page contains all Gadgets & Gear Information
 
 # Development PCs: 
-### Primary [Lenovo Legion 5](https://www.lenovo.com/us/en/laptops/legion-laptops/legion-5-series/Lenovo-Legion-5-15ARH05/p/88GMY501444) Laptop
-- [Ryzen 7 4800h](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4800H&id=3676)
-- 512gb nvme SSD
-- 24GB DDR4 
+### Primary [Lenovo Legion 5](https://www.amazon.com/Lenovo-Legion-Gaming-Laptop-7-5800H/dp/B09QLF33NQ?th=1) Laptop
+- [Ryzen 7 5800h](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800H&id=3907)
+- 512gb nvme SSD x 2
+- 32GB DDR4 3200 (upgraded)
 - [GTX 1650/4GB](https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+GTX+1650+%28Mobile%29&id=4090)
 - Display : 15.6 inch 1920x1080@120hz
-- Windows 10 + PopOs20
+- Windows 10 + PopOs22
 
 With : 
-- [Samsung T260](https://www.cnet.com/products/samsung-syncmaster-t260-lcd-monitor-25-5/)
-- Keyboard & Mice
+- Triple Monitor Setup
+- Creative 7.1 Speaker T7700 + DDTS-100 DAC
 
-### Home Lab with Proxmox
+# HomeLab with Proxmox
+### Proxmox 1
 - Xeon E5-2568-V3
 - 64GB DDR4 ECC
-- Zotac GTX 1080ti mini
 - 1TB SATA SSD
 - 2x 4TB 2.5 inch (15mm) HDD
 - 3x 8TB 3.5 inch NAS HDD
-- 1500Watt Module PSU
+- 400Watt PSU
 
-### Dev Environments
+### Proxmox 2
+- 4x4TB 2.5inch
+- Optiplex 9020 USFF
+- 16gb DDR-3
+- 256gb SSD
+
+### Dev Environments in HomeLab
 - 50+ LXCs for different dev VMs
 - 15+ VMs for development & testing
 - Software RAID with MD 
@@ -53,6 +59,3 @@ With :
 - Selenium Grid 
 - Jmeter5 Distributed system
 - Jenkins Build Environments
-    
-### [Raspberry Pi3B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
-### [Raspberry Zero](https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/)
