@@ -29,3 +29,5 @@ To download please click download button from right upper corner, no Dropbox acc
 ![summary-career](/images/shantonu/career-shantonu.JPG)
 
 [summary](/cv/timeline/jobs.html)
+
+[/images/shantonu/career-shantonu.JPG|summary-career](/cv/timeline/jobs.html)
