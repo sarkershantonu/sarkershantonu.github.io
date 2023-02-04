@@ -12,7 +12,7 @@ comments: true
     <a href="/" class="list-filter filter-selected">All posts</a>
     <a href="/courses" class="list-filter">courses</a>
 	<a href="/talks" class="list-filter">talks</a>
-    <a href="/resume" class="list-filter">resume</a>
+    <a href="/resume" class="list-filter">pages/resume</a>
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
