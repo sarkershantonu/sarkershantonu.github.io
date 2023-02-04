@@ -9,9 +9,9 @@ comments: true
 ---
 <div class="list-filters">
     <a href="/" class="list-filter filter-selected">All posts</a>
+
     <a href="/courses" class="list-filter">courses</a>
 	<a href="/talks" class="list-filter">talks</a>
-    <a href="/resume" class="list-filter">resume</a>
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
@@ -25,9 +25,7 @@ comments: true
 
 To download please click download button from right upper corner, no Dropbox account needed.  
 
-### Summary up to Jan 2023
-[Job Summary Page](/cv/timeline/jobs.html)
-
+### [Summary up to Jan 2023](/cv/timeline/jobs.html)
 
 ![summary-career](/images/shantonu/career-shantonu.JPG)
 
