@@ -9,9 +9,9 @@ comments: true
 ---
 <div class="list-filters">
     <a href="/" class="list-filter filter-selected">All posts</a>
-
 	<a href="/talks" class="list-filter">talks</a>
     <a href="/tags" class="list-filter">Index</a>
+    <a href="/resume" class="list-filter">resume</a>
 </div>
 
 Courses which I used to take online. If you are interested to join any batch, please contact me by email. (check contact page)
