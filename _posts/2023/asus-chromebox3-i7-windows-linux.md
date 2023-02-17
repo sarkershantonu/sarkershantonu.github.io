@@ -18,7 +18,12 @@ CAUTION : Do not press SPACE to re-enable OS verification
 Now you have to wait for the transitioning to developer mode 
 
 
+
 Connect to Wifi or Lan cable (preferred) 
+
+Command Prompt : 
+From welcome message Press CTRL+ALT F2 
+Note : This is just linux terminal, if you don't see F2 working try F3/F4 
 Signin as "chronos" no password necessary  
 
 download script : 
@@ -28,8 +33,26 @@ Allow permission :
 ```sudo install -Dt /usr/local/bin -m 755 firmware-util.sh``` 
 You may have to run twice as first time there will be warning message. 
 
-```sudo bash firmware-util.sh```
+```sudo bash firmware-util.sh``` 
 
+you should see firmware selection page
+
+Select option 2 to install and follow warning messages al long for different prompted confirmation .
+
+CAUTION : It is a good idea keep back up of you chromebox firmware in case you need to get back to chromebox. 
+
+To install OS, in chromebox ssd(usually 16gb-64gb), you need OS installer. I prefer to use linux installer (ubuntu or popOs) to boot and remove all partitions from existing SSD and then install any OS. 
+I have tested : Windows 10/ 11/ Ubuntu, PopOs. 
+
+Common Problems : 
+1. Sound won't work via port or HDMI , you need external sound card. I got this both windows & linux. For windows drivers , please see https://coolstar.org/chromebook/windows.html. They also sell audio drivers. 
+2. In windows ACPI's may not work(you can see from Device manager) but I was able to download some drivers online (HP/DELL/Lenovo) to make it work by looking their Hardware ID. 
+
+
+Upgrade Tips : 
+- For i7/i5/i3 , m2. ports are connected with CPU to support NVME. So, try bigger SSDs
+- At least 16gb RAM is preferred for smooth running. 
+- 
 Firmware credit goes to :
 Website : https://mrchromebox.tech/#home
 Github : https://github.com/MrChromebox
