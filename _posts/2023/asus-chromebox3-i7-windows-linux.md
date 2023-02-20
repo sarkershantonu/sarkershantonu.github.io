@@ -52,7 +52,7 @@ Common Problems :
 Upgrade Tips : 
 - For i7/i5/i3 , m2. ports are connected with CPU to support NVME. So, try bigger nvme SSDs
 - At least 16gb RAM is preferred for smooth running. 
-- If you are not willing to pay for sound driver 
+- If you are not willing to pay for sound driver , coolstar is kind of ok. I am not much happy with that. I prefer to have usb sound card or bluetooth speaker connected(you don't need to buy any). 
 
 ### Firmware credit goes to :
 Website : https://mrchromebox.tech/#home
