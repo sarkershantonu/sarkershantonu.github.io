@@ -24,7 +24,7 @@ Connect to Wifi or Lan cable (preferred)
 Command Prompt : 
 From welcome message Press CTRL+ALT F2 
 Note : This is just linux terminal, if you don't see F2 working try F3/F4 
-Signin as "chronos" no password necessary  
+Sign-in as "chronos" no password necessary  
 
 download script : 
 ```curl -LO mrchromebox.tech/firmware-util.sh``` 
@@ -50,10 +50,15 @@ Common Problems :
 
 
 Upgrade Tips : 
-- For i7/i5/i3 , m2. ports are connected with CPU to support NVME. So, try bigger SSDs
+- For i7/i5/i3 , m2. ports are connected with CPU to support NVME. So, try bigger nvme SSDs
 - At least 16gb RAM is preferred for smooth running. 
-- 
-Firmware credit goes to :
+- If you are not willing to pay for sound driver 
+
+### Firmware credit goes to :
 Website : https://mrchromebox.tech/#home
 Github : https://github.com/MrChromebox
-For Windows driver supports : Please check compatibility here https://coolstar.org/chromebook/windows.html (see box tab) 
+
+### For Windows driver supports : 
+- Please check compatibility here https://coolstar.org/chromebook/windows.html (see box tab) 
+
+
