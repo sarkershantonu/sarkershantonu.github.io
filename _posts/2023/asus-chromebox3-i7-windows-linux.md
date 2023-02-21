@@ -51,8 +51,8 @@ download script :
 
 Run Script with permission : 
 ```sudo install -Dt /usr/local/bin -m 755 firmware-util.sh``` 
-You may have to run twice as first time there will be warning message. 
-
+You may have to run twice as first time there will be warning message.
+![recovery9](/images/hw/asus-chromebox/warning.JPG)
 Or, you may use following command directly 
 
 ```sudo bash firmware-util.sh``` 
