@@ -36,7 +36,7 @@ Connect to Wifi or Lan cable (preferred)
 Connect with Prompt 
 ![recovery4](/images/hw/asus-chromebox/wifi_prompt.JPG)
 
-If you see prompt to setup Hangout Meet, Press NO
+If you see prompt to set up Hangout Meet, Press NO
 
 ![recovery6](/images/hw/asus-chromebox/meet_default.JPG)
 
@@ -50,9 +50,15 @@ download script :
 ![recovery8](/images/hw/asus-chromebox/downloading_uefi.JPG)
 
 Run Script with permission : 
-```sudo install -Dt /usr/local/bin -m 755 firmware-util.sh``` 
+
+```sudo install -Dt /usr/local/bin -m 755 firmware-util.sh```
+
+```sudo firmware-util.sh```
+
 You may have to run twice as first time there will be warning message.
+
 ![recovery9](/images/hw/asus-chromebox/warning.JPG)
+
 Or, you may use following command directly 
 
 ```sudo bash firmware-util.sh``` 
@@ -62,7 +68,9 @@ you should see firmware selection page
 ![recoveryy7](/images/hw/asus-chromebox/firmware_select_page.JPG)
 
 Select option 2 to install and follow warning messages al long for different prompted confirmation .
-Note : As this firmware is maintained by mrchromebox, you might see little different prompt option. Select install/update UEFI Full Rom Firmware. This will wife chrome box BIOS and install mrchromebox UEFI bios. 
+
+
+Note : As this firmware is maintained by mrchromebox, you might see little different prompt option. Select install/update UEFI Full Rom Firmware. This will wipe chrome box BIOS and install mrchromebox UEFI bios. 
 
 
 CAUTION : It is a good idea keep back up of you chromebox firmware in case you need to get back to chromebox. 
