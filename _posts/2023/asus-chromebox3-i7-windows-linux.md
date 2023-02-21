@@ -59,7 +59,7 @@ Or, you may use following command directly
 
 you should see firmware selection page
 
-![recoveryy7](/images/hw/asus-chromebox/firmware_select_page.png)
+![recoveryy7](/images/hw/asus-chromebox/firmware_select_page.JPG)
 
 Select option 2 to install and follow warning messages al long for different prompted confirmation .
 Note : As this firmware is maintained by mrchromebox, you might see little different prompt option. Select install/update UEFI Full Rom Firmware. This will wife chrome box BIOS and install mrchromebox UEFI bios. 
