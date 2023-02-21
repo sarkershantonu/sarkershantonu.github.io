@@ -16,15 +16,15 @@ As soon it turns on , press CTRL+D
 
 Step 3 : Go into Developer mode with OS verification of 
 insert pin & it will be rebooted to recovery mode with OS verification off.
-![recovery](/images/hw/asus-chromebox/os_verification_off.JPG)
+![recovery2](/images/hw/asus-chromebox/os_verification_off.JPG)
 
 CAUTION : Do not press SPACE to re-enable OS verification 
 
 Now you have to wait for the transitioning to developer mode
-![recovery](/images/hw/asus-chromebox/tr_dev_mode_wait.JPG)
+![recovery3](/images/hw/asus-chromebox/tr_dev_mode_wait.JPG)
 
 Connect to Wifi or Lan cable (preferred)
-![recovery](/images/hw/asus-chromebox/wifi_prompt.JPG)
+![recovery4](/images/hw/asus-chromebox/wifi_prompt.JPG)
 
 Command Prompt : 
 From welcome message Press CTRL+ALT F2 
