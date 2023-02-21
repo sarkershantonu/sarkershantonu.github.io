@@ -16,7 +16,7 @@ As soon it turns on , press CTRL+D
 
 Step 3 : Go into Developer mode with OS verification of 
 insert pin & it will be rebooted to recovery mode with OS verification off.
-![recovery](/images/hw/asus-chromebox/os)
+![recovery](/images/hw/asus-chromebox/os_verification_off.JPG)
 
 CAUTION : Do not press SPACE to re-enable OS verification 
 
