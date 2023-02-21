@@ -11,10 +11,13 @@ insert Pin and press power button.
 ![recovery](/images/hw/asus-chromebox/recovery_mode.JPG)
 
 Step 2 : Goto Developer Mode
-As soon it turns on , press CTRL+D 
+As soon it turns on , press CTRL+D
+![recovery1](/images/hw/asus-chromebox/Developer_mode.JPG)
 
 Step 3 : Go into Developer mode with OS verification of 
-insert pin & it will be rebooted to recovery mode with OS verification off. 
+insert pin & it will be rebooted to recovery mode with OS verification off.
+![recovery](/images/hw/asus-chromebox/os)
+
 CAUTION : Do not press SPACE to re-enable OS verification 
 
 Now you have to wait for the transitioning to developer mode 
