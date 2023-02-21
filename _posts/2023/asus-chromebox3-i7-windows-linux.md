@@ -8,6 +8,8 @@ Unscrew specific flat head screw :
 Step 1 : Start Recovery Mode
 insert Pin and press power button. 
 
+![recovery](/images/hw/asus-chromebox/recovery_mode.JPG)
+
 Step 2 : Goto Developer Mode
 As soon it turns on , press CTRL+D 
 
