@@ -23,8 +23,8 @@ CAUTION : Do not press SPACE to re-enable OS verification
 Now you have to wait for the transitioning to developer mode 
 
 
-
-Connect to Wifi or Lan cable (preferred) 
+Connect to Wifi or Lan cable (preferred)
+![recovery](/images/hw/asus-chromebox/wifi_prompt.JPG)
 
 Command Prompt : 
 From welcome message Press CTRL+ALT F2 
