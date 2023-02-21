@@ -46,7 +46,8 @@ Note : This is just linux terminal, if you don't see F2 working try F3/F4
 Sign-in as "chronos" no password necessary  
 
 download script : 
-```curl -LO mrchromebox.tech/firmware-util.sh``` 
+```curl -LO mrchromebox.tech/firmware-util.sh```
+![recovery8](/images/hw/asus-chromebox/downloading_uefi.JPG)
 
 Allow permission : 
 ```sudo install -Dt /usr/local/bin -m 755 firmware-util.sh``` 
@@ -56,7 +57,7 @@ You may have to run twice as first time there will be warning message.
 
 you should see firmware selection page
 
-![recoveryy](/images/hw/asus-chromebox/firmware_select_page.png)
+![recoveryy7](/images/hw/asus-chromebox/firmware_select_page.png)
 
 Select option 2 to install and follow warning messages al long for different prompted confirmation .
 Note : As this firmware is maintained by mrchromebox, you might see little different prompt option. Select install/update UEFI Full Rom Firmware. This will wife chrome box BIOS and install mrchromebox UEFI bios. 
