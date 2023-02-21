@@ -10,7 +10,7 @@ insert Pin and press power button.
 ![recovery1](/images/hw/asus-chromebox/Developer_mode.JPG)
 
 
-//![recovery](/images/hw/asus-chromebox/recovery_mode.JPG)
+![recovery](/images/hw/asus-chromebox/recovery_mode.JPG)
 
 Step 2 : Goto Developer Mode
 
