@@ -6,25 +6,39 @@ Unscrew specific flat head screw :
 
 
 Step 1 : Start Recovery Mode
-insert Pin and press power button. 
-
-![recovery](/images/hw/asus-chromebox/recovery_mode.JPG)
-
-Step 2 : Goto Developer Mode
-As soon it turns on , press CTRL+D
+insert Pin and press power button.
 ![recovery1](/images/hw/asus-chromebox/Developer_mode.JPG)
 
+
+//![recovery](/images/hw/asus-chromebox/recovery_mode.JPG)
+
+Step 2 : Goto Developer Mode
+
+
+As soon it turns on , press CTRL+D
+
 Step 3 : Go into Developer mode with OS verification of 
-insert pin & it will be rebooted to recovery mode with OS verification off.
+
+Insert pin & it will be rebooted to recovery mode with OS verification off.
 ![recovery2](/images/hw/asus-chromebox/os_verification_off.JPG)
 
-CAUTION : Do not press SPACE to re-enable OS verification 
+
+CAUTION : Do not press SPACE to re-enable OS verification
+
+![recovery3](/images/hw/asus-chromebox/tr_dev_mode.JPG)
 
 Now you have to wait for the transitioning to developer mode
 ![recovery3](/images/hw/asus-chromebox/tr_dev_mode_wait.JPG)
 
 Connect to Wifi or Lan cable (preferred)
+![recovery5](/images/hw/asus-chromebox/wifi_connection_init.JPG)
+
+Connect with Prompt 
 ![recovery4](/images/hw/asus-chromebox/wifi_prompt.JPG)
+
+If you see prompt to setup Hangout Meet, Press NO
+
+![recovery6](/images/hw/asus-chromebox/meet_default.JPG)
 
 Command Prompt : 
 From welcome message Press CTRL+ALT F2 
@@ -42,7 +56,11 @@ You may have to run twice as first time there will be warning message.
 
 you should see firmware selection page
 
+![recoveryy](/images/hw/asus-chromebox/firmware_select_page.png)
+
 Select option 2 to install and follow warning messages al long for different prompted confirmation .
+Note : As this firmware is maintained by mrchromebox, you might see little different prompt option. Select install/update UEFI Full Rom Firmware. This will wife chrome box BIOS and install mrchromebox UEFI bios. 
+
 
 CAUTION : It is a good idea keep back up of you chromebox firmware in case you need to get back to chromebox. 
 
