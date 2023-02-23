@@ -5,11 +5,11 @@ Are you trying to use chromebox as windows/Linux PC, this is good place for you 
 
 Name : Aus Chromebox 3 , i7 8550u
 Device specification : https://www.asus.com/us/displays-desktops/mini-pcs/chrome-os-devices/asus-chromebox-3/
-
-
+i7 8550u
+4GB(2x2GB) DDR 4 (My Opinion, upgrade to 16gb to have better use)
+32gb Sata m.2 SSD (I have upgraded to 512GB nvme)
 
 Unscrew specific flat head screw : 
-
 
 Step 1 : Start Recovery Mode
 insert Pin and press power button.
