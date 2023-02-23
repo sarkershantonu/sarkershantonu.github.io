@@ -1,6 +1,12 @@
+
 Are you trying to use chromebox as windows/Linux PC, this is good place for you to try. 
 
-!!!WARNING!!! - voids the device warranty, so use at your own risk . 
+!!!WARNING!!! - If you follow the process, it voids the device's warranty, so follow at your own risk . 
+
+Name : Aus Chromebox 3 , i7 8550u
+Device specification : https://www.asus.com/us/displays-desktops/mini-pcs/chrome-os-devices/asus-chromebox-3/
+
+
 
 Unscrew specific flat head screw : 
 
