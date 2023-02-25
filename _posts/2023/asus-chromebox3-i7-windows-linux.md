@@ -1,5 +1,7 @@
 
-Are you trying to use chromebox as windows/Linux PC, this is good place for you to try. 
+This is a not a coding related technical blog more of a weekend fun project. 
+
+Are you trying to use chromebox as windows/Linux PC, this is good place for you to try. I encourage you to check eBay and using this, an old good pc might run for longer (not to put in e-waste). 
 
 !!!WARNING!!! - If you follow the process, it voids the device's warranty, so follow at your own risk . 
 
