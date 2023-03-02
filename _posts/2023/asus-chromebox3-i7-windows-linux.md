@@ -1,5 +1,5 @@
 
-This is a not a coding related blog more of a weekend fun project. I used to do a lot of fun projects based on Mini PCs & SOCs. 
+This is a not a coding related blog. This is one of my weekend fun project. I used to do a lot of fun projects based on Mini PCs & SOCs. You can see my other experiments and fun projects 
 
 Are you trying to use chromebox as windows/Linux PC, this is good place for you to try. I encourage you to check eBay and using this, an old good pc might run for longer (not to put in e-waste). 
 
