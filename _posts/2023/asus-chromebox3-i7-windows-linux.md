@@ -22,14 +22,13 @@ insert Pin and press power button.
 
 Step 2 : Goto Developer Mode
 
-
 As soon it turns on , press CTRL+D
 
 Step 3 : Go into Developer mode with OS verification of 
 
 Insert pin & it will be rebooted to recovery mode with OS verification off.
-![recovery2](/images/hw/asus-chromebox/os_verification_off.JPG)
 
+![recovery2](/images/hw/asus-chromebox/os_verification_off.JPG)
 
 CAUTION : Do not press SPACE to re-enable OS verification
 
@@ -54,7 +53,9 @@ Note : This is just linux terminal, if you don't see F2 working try F3/F4
 Sign-in as "chronos" no password necessary  
 
 download script : 
+
 ```curl -LO mrchromebox.tech/firmware-util.sh```
+
 ![recovery8](/images/hw/asus-chromebox/downloading_uefi.JPG)
 
 Run Script with permission : 
