@@ -11,11 +11,11 @@ i7 8550u
 4GB(2x2GB) DDR 4 (My Opinion, upgrade to 16gb to have better use)
 32gb Sata m.2 SSD (I have upgraded to 512GB nvme)
 
-Prepration: 
+Preparation: 
 - A philips screwdriver small head 
 - Paper clip
 - USB for backup firmware 
-- Windows/Linux USB
+- Windows/Linux USB (you can make this windows official site). Notice : License is individual responsibility. 
 Unscrew specific flat head screw : 
 
 Step 1 : Start Recovery Mode
