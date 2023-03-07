@@ -17,6 +17,9 @@ Preparation:
 - USB for backup firmware 
 - Windows/Linux USB (you can make this windows official site). Notice : License is individual responsibility. 
 - Possibly another laptop/desktop to get the commands 
+
+### Commands that you need type
+1. 
 Unscrew specific flat head screw : 
 
 Step 1 : Start Recovery Mode
