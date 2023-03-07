@@ -19,7 +19,9 @@ Preparation:
 - Possibly another laptop/desktop to get the commands 
 
 ### Commands that you need type
-1. 
+1. ```curl -LO mrchromebox.tech/firmware-util.sh```
+2. Optional ```sudo install -Dt /usr/local/bin -m 755 firmware-util.sh```
+3. ```sudo bash firmware-util.sh```
 Unscrew specific flat head screw : 
 
 Step 1 : Start Recovery Mode
