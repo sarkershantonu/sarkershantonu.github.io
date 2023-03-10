@@ -22,7 +22,11 @@ Preparation:
 1. ```curl -LO mrchromebox.tech/firmware-util.sh```
 2. Optional ```sudo install -Dt /usr/local/bin -m 755 firmware-util.sh```
 3. ```sudo bash firmware-util.sh```
-Unscrew specific flat head screw : 
+ 
+
+Hardware preparation : 
+- Open all 4 screws 
+- Unscrew firmware locking (specific) flat head screw , it used to be just upside corner of RAMs(right side). There are 4 screws attached with motherboard, 3 same type, this is only one different(flat head). 
 
 Step 1 : Start Recovery Mode
 insert Pin and press power button.
