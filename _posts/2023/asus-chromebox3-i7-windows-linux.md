@@ -25,8 +25,11 @@ Preparation:
  
 
 Hardware preparation : 
-- Open all 4 screws 
+- Open all 4 screws , that opens backport. 
 - Unscrew firmware locking (specific) flat head screw , it used to be just upside corner of RAMs(right side). There are 4 screws attached with motherboard, 3 same type, this is only one different(flat head). 
+- close backpart 
+- Keep ready paper clip for further steps 
+
 
 Step 1 : Start Recovery Mode
 insert Pin and press power button.
