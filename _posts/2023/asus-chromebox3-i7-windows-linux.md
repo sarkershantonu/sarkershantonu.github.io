@@ -13,10 +13,10 @@ i7 8550u
 
 Preparation: 
 - A philips screwdriver small head 
-- Paper clip
-- USB for backup firmware 
-- Windows/Linux USB (you can make this windows official site). Notice : License is individual responsibility. 
-- Possibly another laptop/desktop to get the commands 
+- A Paper clip
+- One USB for backup firmware 
+- One Windows/Linux USB (you can make this windows official site). Notice : License is individual responsibility. 
+- Possibly another laptop/desktop to get the commands as well as make bootable Linux/Windows Installer 
 
 ### Commands that you need type
 1. ```curl -LO mrchromebox.tech/firmware-util.sh```
