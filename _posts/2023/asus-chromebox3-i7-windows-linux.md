@@ -7,9 +7,9 @@ Are you trying to use chromebox/chromebook as windows/Linux PC, this is good pla
 
 Name : Aus Chromebox 3 , i7 8550u
 Device specification : https://www.asus.com/us/displays-desktops/mini-pcs/chrome-os-devices/asus-chromebox-3/
-i7 8550u
-4GB(2x2GB) DDR 4 (My Opinion, upgrade to 16gb to have better use)
-32gb Sata m.2 SSD (I have upgraded to 512GB nvme)
+CPU : i7 8550u
+RAM : 4GB(2x2GB) DDR 4 (My Opinion, upgrade to 16gb to have better use)
+SSD : 32gb Sata m.2 SSD (I have upgraded to 512GB nvme). i3/i5/i7 versions only supports nvme with pcie 2 lanes. (speed limit 1.6Gbps)
 
 Preparation: 
 - A philips screwdriver small head 
@@ -24,7 +24,7 @@ Preparation:
 3. ```sudo bash firmware-util.sh```
  
 
-Hardware preparation : 
+### Hardware preparation : 
 - Open all 4 screws , that opens backport. 
 - Unscrew firmware locking (specific) flat head screw , it used to be just upside corner of RAMs(right side). There are 4 screws attached with motherboard, 3 same type, this is only one different(flat head). 
 - close backpart 
