@@ -31,18 +31,18 @@ Preparation:
 - Keep ready paper clip for further steps 
 
 
-Step 1 : Start Recovery Mode
+### Step 1 : Start Recovery Mode
 insert Pin and press power button.
 ![recovery1](/images/hw/asus-chromebox/Developer_mode.JPG)
 
 
 ![recovery](/images/hw/asus-chromebox/recovery_mode.JPG)
 
-Step 2 : Goto Developer Mode
+### Step 2 : Goto Developer Mode
 
 As soon it turns on , press CTRL+D
 
-Step 3 : Go into Developer mode with OS verification of 
+### Step 3 : Go into Developer mode with OS verification of 
 
 Insert pin & it will be rebooted to recovery mode with OS verification off.
 
@@ -55,6 +55,8 @@ CAUTION : Do not press SPACE to re-enable OS verification
 Now you have to wait for the transitioning to developer mode
 ![recovery3](/images/hw/asus-chromebox/tr_dev_mode_wait.JPG)
 
+### Step 4 : Connect internet & complete installation 
+
 Connect to Wifi or Lan cable (preferred)
 ![recovery5](/images/hw/asus-chromebox/wifi_connection_init.JPG)
 
@@ -66,7 +68,7 @@ If you see prompt to set up Hangout Meet, Press NO
 ![recovery6](/images/hw/asus-chromebox/meet_default.JPG)
 
 Command Prompt : 
-From welcome message Press CTRL+ALT F2 
+From welcome message Press ***CTRL+ALT+F2*** 
 Note : This is just linux terminal, if you don't see F2 working try F3/F4 
 Sign-in as "chronos" no password necessary  
 
