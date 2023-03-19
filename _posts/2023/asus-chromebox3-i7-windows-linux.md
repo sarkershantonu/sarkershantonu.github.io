@@ -67,7 +67,7 @@ If you see prompt to set up Hangout Meet, Press NO
 
 ![recovery6](/images/hw/asus-chromebox/meet_default.JPG)
 
-Command Prompt : 
+# Command Prompt : 
 From welcome message Press ***CTRL+ALT+F2*** 
 Note : This is just linux terminal, if you don't see F2 working try F3/F4 
 Sign-in as "chronos" no password necessary  
