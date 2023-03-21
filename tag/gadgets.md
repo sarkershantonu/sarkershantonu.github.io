@@ -45,6 +45,11 @@ With :
 - Optiplex 9020 USFF
 - 16gb DDR-3
 - 256gb SSD
+- 
+### Proxmox 3 : docker node
+- Lenovo ThinkStation P330
+- 32gb DDR-4
+- 2TB SSD
 
 # Mini PCs 
 - Hacked Chromebox3 i7/16gb/256gb (Asus), running windows & linux
