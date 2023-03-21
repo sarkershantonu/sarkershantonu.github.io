@@ -46,6 +46,11 @@ With :
 - 16gb DDR-3
 - 256gb SSD
 
+# Mini PCs 
+- Hacked Chromebox3 i7/16gb/256gb (Asus), running windows & linux
+- Hp Chromebox G2 i7/16gb/64Gb
+- Hp Thin Client t740
+
 ### Dev Environments in HomeLab
 - 50+ LXCs for different dev VMs
 - 15+ VMs for development & testing
