@@ -41,7 +41,7 @@ With :
 - 400Watt PSU
 
 ### Proxmox 2
-- 4x4TB 2.5inch
+- 2x4TB 2.5inch 15mm
 - Optiplex 9020 USFF
 - 16gb DDR-3
 - 256gb SSD
