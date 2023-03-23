@@ -33,7 +33,7 @@ With :
 
 # HomeLab with Proxmox
 ### Proxmox 1
-- Xeon E5-2568-V3
+- Xeon E5-2658-V3
 - 64GB DDR4 ECC
 - 1TB SATA SSD
 - 2x 4TB 2.5 inch (15mm) HDD
