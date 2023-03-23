@@ -43,6 +43,7 @@ With :
 ### Proxmox 2
 - 2x4TB 2.5inch 15mm
 - Optiplex 9020 USFF
+- i7 4790s
 - 16gb DDR-3
 - 256gb SSD
 
