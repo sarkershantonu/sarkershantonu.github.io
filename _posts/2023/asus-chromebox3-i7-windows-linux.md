@@ -127,4 +127,11 @@ Github : https://github.com/MrChromebox
 
 Now, if you want to revert back to chrome OS, you have to follow these steps 
 - Boot to any ubuntu base OS's bootable USB drive (i did with ubuntu )
+- Enter into DEMO mode
+- Connect to network
+- Open Terminal
+- Run this command from CLI
+- 
+  ```sudo install -Dt /usr/local/bin -m 755 firmware-util.sh```
 
+```sudo firmware-util.sh```
