@@ -125,5 +125,6 @@ Github : https://github.com/MrChromebox
 ### For Windows driver supports : 
 - Please check compatibility here https://coolstar.org/chromebook/windows.html (see box tab) 
 
-Now, if you want to revert back to you
+Now, if you want to revert back to chrome OS, you have to follow these steps 
+- Boot to any ubuntu base OS's bootable USB drive (i did with ubuntu )
 
