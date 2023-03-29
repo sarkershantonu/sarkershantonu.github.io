@@ -135,3 +135,6 @@ Now, if you want to revert back to chrome OS, you have to follow these steps
   ```sudo install -Dt /usr/local/bin -m 755 firmware-util.sh```
 
 ```sudo firmware-util.sh```
+
+From here you have to select roll back to chromeOS
+
