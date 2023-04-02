@@ -131,6 +131,7 @@ Now, if you want to revert back to chrome OS, you have to follow these steps
 - Connect to network
 - Open Terminal
 - Run this command from CLI
+
 - 
   ```sudo install -Dt /usr/local/bin -m 755 firmware-util.sh```
 
