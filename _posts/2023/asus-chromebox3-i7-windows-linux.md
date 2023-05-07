@@ -141,5 +141,5 @@ From here you have to select roll back to chromeOS
 
 
 Device Tests :
-Chromebox CN60 (Celeron 2955U) works perfectly with Lubuntu including Sound . 
+Chromebox CN60 (Celeron 2955U) works perfectly with Lubuntu/Zorin Lite including Sound . 
 
