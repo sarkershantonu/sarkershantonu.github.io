@@ -132,7 +132,6 @@ Now, if you want to revert back to chrome OS, you have to follow these steps
 - Open Terminal
 - Run this command from CLI
 
-
   ```sudo install -Dt /usr/local/bin -m 755 firmware-util.sh```
 
 ```sudo firmware-util.sh```
@@ -140,7 +139,10 @@ Now, if you want to revert back to chrome OS, you have to follow these steps
 From here you have to select roll back to chromeOS
 
 
+
 Device Tests :
 Chromebox CN60 (Celeron 2955U) works perfectly with Lubuntu/Zorin Lite including Sound . 
+
+For CN60 , these are the step images : 
 
 Good Device to spend time to mod , HP Chromebox G2 i7 
