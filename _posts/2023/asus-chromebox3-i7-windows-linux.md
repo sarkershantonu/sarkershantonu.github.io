@@ -143,4 +143,4 @@ From here you have to select roll back to chromeOS
 Device Tests :
 Chromebox CN60 (Celeron 2955U) works perfectly with Lubuntu/Zorin Lite including Sound . 
 
-Good Device to spend time to mod , HP Chromebox G2 i7
+Good Device to spend time to mod , HP Chromebox G2 i7 
