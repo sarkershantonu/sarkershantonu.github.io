@@ -19,38 +19,35 @@ comments: false
 This page contains all Gadgets & Gear Information
 
 # Development PCs: 
-### Primary [Lenovo Legion 5](https://www.amazon.com/Lenovo-Legion-Gaming-Laptop-7-5800H/dp/B09QLF33NQ?th=1) Laptop
-- [Ryzen 7 5800h](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800H&id=3907)
-- 512gb nvme SSD x 2
-- 32GB DDR4 3200 (upgraded)
-- [GTX 1650/4GB](https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+GTX+1650+%28Mobile%29&id=4090)
-- Display : 15.6 inch 1920x1080@120hz
-- Windows 10 + PopOs22
+### Primary [Lenovo Legion Go](https://www.lenovo.com/us/en/p/handheld/legion-go/len106g0001) Handheld 
+- [Ryzen Z1 Extream](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Z1+Extreme&id=5508)
+- 2Tb nvme SSD
+- 16gb DDR5 7500Mhz
+- Display : 8.6 inch 1440p@144hz touch
+- Windows 10 + Ubuntu 24
 
 With : 
-- Triple Monitor Setup
-- Creative 7.1 Speaker T7700 + DDTS-100 DAC
+- Dual 27 inch Dell Monitor Setup(4k+1440p) in stand
+- Dell Triple Display Docking station with Logitech Keyboard & mouse 
+
+### Secondary Dell Precision 5540
+- i7 9850H
+- 32gb ddr4
+- 2Tb Nvme
+- Quadro T1000
+- 4k Oled Touch Screen
+- Dual Boot Windows 10 + Zorin 
 
 # HomeLab with Proxmox
-### Proxmox 1
-- Xeon E5-2658-V3
-- 64GB DDR4 ECC
-- 1TB SATA SSD
-- 2x 4TB 2.5 inch (15mm) HDD
-- 3x 8TB 3.5 inch NAS HDD
-- 400Watt PSU
-
-### Proxmox 2
-- 2x4TB 2.5inch 15mm
-- Optiplex 9020 USFF
-- i7 4790s
-- 16gb DDR-3
-- 256gb SSD
-
-### Proxmox 3 : docker node
-- Lenovo ThinkStation P330
-- 32gb DDR-4
-- 2TB SSD
+### Proxmox (z2g4 Hp SFF)
+- i5 9500
+- 32gb DDR4 
+- 1TB nvme boot SSD
+- 3x 3.2TB NVME AIC samsung/oracle
+- 2x 14TB 3.5 inch zfs HDD
+- 1x 4tb 2.5inch SSD Sata
+- 210Watt PSU
+- intel x550-t2 NIC
 
 ### Mini PCs 
 - Hacked Chromebox3 i7/16gb/256gb (Asus), running windows & linux
@@ -72,3 +69,7 @@ With :
 - Selenium Grid 
 - Jmeter5 Distributed system
 - Jenkins Build Environments
+
+# Home Networking 
+- Dual 10gbe port Router QHora-301W(https://www.qnap.com/en-us/product/qhora-301w)
+- Inhoust net : ax5400 NETGEAR Nighthawk 6-Stream Dual-Band WiFi 6 Router (RAX54S)
