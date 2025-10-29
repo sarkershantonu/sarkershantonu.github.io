@@ -40,7 +40,7 @@ This page contains all post related to Jmeter Test Executions.
 
 # Jmeter Tips & Tricks : 
 - [How many users jmeter can support?](http://shantonusarker.blogspot.com/2015/04/how-many-user-jmeter-can-support.html)
-- [JMeter Tips and Tricks](http://shantonusarker.blogspot.com/2013/01/jmeter-tipstricks-continuing.html)
+- [JMeter Tips and Tricks](https://sarkershantonu.github.io/2013/01/31/best-practices-jmeter/)
 - [How to get Session id/ JSON id / Cookie id / token/ view state?](http://shantonusarker.blogspot.com/2013/04/jmeter-tips-and-tricks-part-2.html)
 - [How to make reports(and comments) in Jmeter?](http://shantonusarker.blogspot.com/2013/04/how-to-make-reportsand-comments-in.html)
 
