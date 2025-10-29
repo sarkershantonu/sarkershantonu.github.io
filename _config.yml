@@ -20,7 +20,7 @@ navbar-links:
     - Reflection: "tag/reflection"
     - JVM: "tag/jvm"
     - JDK-Tools: "tag/jdk-tools"
-  Testing: 
+  SDET:
     - Software Testing: "tag/testing"
     - Selenium: "tag/selenium"
     - Codeception: "tag/codeception"
