@@ -20,7 +20,7 @@ comments: true
 This page contains all post related to Java Core Programming
 
 # Annotation
-- [What is java annotation? How it works?Let's make custom annotation](What is java annotation? How it works?Let's make custom annotation.)
+- [What is java annotation? How it works?Let's make custom annotation](https://sarkershantonu.github.io/2016/01/28/java-annotation/)
 
 # Unit Testing : 
 - [Compare study : JUnit3 Vs JUnit 4Vs TestNG](http://shantonusarker.blogspot.com/2015/08/comparison-unit-tests-in-java-junit-testng.html)
