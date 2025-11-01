@@ -17,4 +17,4 @@ comments: true
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
-This page contains all post related to JUnit.
+This page contains all post related to JUnit5.

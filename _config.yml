@@ -39,6 +39,8 @@ navbar-links:
     - Codeception: "tag/codeception"
     - NUnit: "tag/nunit"
     - TestNG: "tag/testng"
+    - Junit4: "tag/juni4"
+    - Junit5: "tag/junit5"
     - Robotium: "tag/robotium"
   HireMe:
     - Upwork : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"

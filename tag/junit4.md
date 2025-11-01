@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "TestNG"
+title: "JUnit"
 subtitle: I build systems for testing
 css: "/css/index.css"
 meta-title: "Performance Engineer/SDET/Java Developer"
@@ -16,8 +16,5 @@ comments: true
 
     <a href="/tags" class="list-filter">Index</a>
 </div>
-This page contains all post related to Test NG.
 
-1. [How to install TestNG in Eclipse?](http://shantonusarker.blogspot.com/2013/01/how-to-install-testng-in-eclipse.html)
-2. [https://sarkershantonu.github.io/2015/08/19/junit-testng/](https://sarkershantonu.github.io/2015/08/19/junit-testng/)
-3. 
+This page contains all post related to JUnit4.
