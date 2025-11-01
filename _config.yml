@@ -11,11 +11,11 @@ navbar-links:
     - Java: "tag/java-performance"
     - DotNet: "tag/dotnet-performance"
     - Jmeter:
-      - Jmeter-Script: "tag/jmeter-script"
-      - Jmeter-Execution: "tag/jmeter-run"
-      - Jmeter-Plugins: "tag/jmeter-plugins"
-      - Jmeter-Config: "tag/jmeter-config"
-      - Jmeter-Selenium: "tag/jmeter-webdriver"
+        - Jmeter-Script: "tag/jmeter-script"
+        - Jmeter-Execution: "tag/jmeter-run"
+        - Jmeter-Plugins: "tag/jmeter-plugins"
+        - Jmeter-Config: "tag/jmeter-config"
+        - Jmeter-Selenium: "tag/jmeter-webdriver"
   Java: 
     - Java Lang: "tag/java"
     - Reflection: "tag/reflection"
@@ -24,11 +24,11 @@ navbar-links:
   SDET/DEV:
     - Software Testing: "tag/testing"
     - Frameworks:
-      - Selenium: "tag/selenium"
-      - Codeception: "tag/codeception"
-      - NUnit: "tag/nunit"
-      - TestNG: "tag/testng"
-      - Robotium: "tag/robotium"
+        - Selenium: "tag/selenium"
+        - Codeception: "tag/codeception"
+        - NUnit: "tag/nunit"
+        - TestNG: "tag/testng"
+        - Robotium: "tag/robotium"
     - Patterns: "tag/design-pattern"
     - OOP/OOAD: "tag/oop-ooad"
     - Regular Expression: "tag/regex"
