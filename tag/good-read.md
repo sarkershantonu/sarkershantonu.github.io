@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Good To Read"
-subtitle: I build systems for testing
+subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Books suggested by Shantonu"
 meta-description: "Test developer with a Bsc in Computer Science"

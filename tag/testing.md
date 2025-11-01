@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Software Testing"
-subtitle: I build systems for testing
+subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Performance Engineer/SDET/Java Developer"
 meta-description: "Test developer with a Bsc in Computer Science"
