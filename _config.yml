@@ -6,30 +6,22 @@ description: Learn Testing by coding
 
 navbar-links:   
   performance: 
-    - title: Testing
-      url : "tag/performance-testing"
+    - Testing: "tag/performance-testing"
     - Analysis: "tag/performance-analysis"
     - Java: "tag/java-performance"
     - DotNet: "tag/dotnet-performance"
-    - Jmeter:
-        ---Jmeter-Script: "tag/jmeter-script"
-        ---Jmeter-Execution: "tag/jmeter-run"
-        ---Jmeter-Plugins: "tag/jmeter-plugins"
-        ---Jmeter-Config: "tag/jmeter-config"
-        ---Jmeter-Selenium: "tag/jmeter-webdriver"
+  Jmeter:
+    - Jmeter-Script: "tag/jmeter-script"
+    - Jmeter-Execution: "tag/jmeter-run"
+    - Jmeter-Plugins: "tag/jmeter-plugins"
+    - Jmeter-Config: "tag/jmeter-config"
+    - Jmeter-Selenium: "tag/jmeter-webdriver"
   Java: 
     - Java Lang: "tag/java"
     - Reflection: "tag/reflection"
     - JVM: "tag/jvm"
     - JDK-Tools: "tag/jdk-tools"
-  SDET/DEV:
-    - Software Testing: "tag/testing"
-    - Frameworks:
-        - Selenium: "tag/selenium"
-        - Codeception: "tag/codeception"
-        - NUnit: "tag/nunit"
-        - TestNG: "tag/testng"
-        - Robotium: "tag/robotium"
+  DEV:
     - Patterns: "tag/design-pattern"
     - OOP/OOAD: "tag/oop-ooad"
     - Regular Expression: "tag/regex"
@@ -41,6 +33,13 @@ navbar-links:
     - Tools: "tag/tools"
     - Docker: "tag/docker"
     - LinuxAdmin: "tag/linux"
+  SDET:
+    - Software Testing: "tag/testing"
+    - Selenium: "tag/selenium"
+    - Codeception: "tag/codeception"
+    - NUnit: "tag/nunit"
+    - TestNG: "tag/testng"
+    - Robotium: "tag/robotium"
   About: 
     - Shantonu: "aboutme"
     - Skills : "cv/details/index.html"
@@ -58,7 +57,7 @@ nav-search: search
 # then specify the following parameter
 # title-img: /img/path.jpg
 
-# --- Background colour/image options --- #
+# -  Background colour/image options --- #
 
 # By default, the navigation bar and footer have a light gray background, and the main page
 # has a white background. You can specify a different background colour or a background image
