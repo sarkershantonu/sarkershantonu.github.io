@@ -39,7 +39,7 @@ navbar-links:
     - Codeception: "tag/codeception"
     - NUnit: "tag/nunit"
     - TestNG: "tag/testng"
-    - Junit4: "tag/juni4"
+    - Junit4: "tag/junit4"
     - Junit5: "tag/junit5"
     - Robotium: "tag/robotium"
   HireMe:
