@@ -43,10 +43,12 @@ navbar-links:
     - Junit5: "tag/junit5"
     - Robotium: "tag/robotium"
   HireMe:
-    - Upwork : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
-    - Contact : "pages/contact"
+    - Upwork: "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
+    - Contact: "pages/contact"
     - Training: "courses"
-    - cv/resume : "pages/resume"
+    - cv/resume: "pages/resume"
+    - Github: https://github.com/sarkershantonu
+    - Linkedin : https://www.linkedin.com/in/shantonusarker/
   About:
     - Me: "aboutme"
     - Skills : "cv/details/index.html"
