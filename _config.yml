@@ -11,11 +11,11 @@ navbar-links:
     - Java: "tag/java-performance"
     - DotNet: "tag/dotnet-performance"
   Jmeter:
-    - Jmeter-Script: "tag/jmeter-script"
-    - Jmeter-Execution: "tag/jmeter-run"
-    - Jmeter-Plugins: "tag/jmeter-plugins"
-    - Jmeter-Config: "tag/jmeter-config"
-    - Jmeter-Selenium: "tag/jmeter-webdriver"
+    - Script: "tag/jmeter-script"
+    - Running: "tag/jmeter-run"
+    - Plugins: "tag/jmeter-plugins"
+    - Conf: "tag/jmeter-config"
+    - Selenium: "tag/jmeter-webdriver"
   Java: 
     - Java Lang: "tag/java"
     - Reflection: "tag/reflection"
@@ -24,7 +24,7 @@ navbar-links:
   DEV:
     - Patterns: "tag/design-pattern"
     - OOP/OOAD: "tag/oop-ooad"
-    - Regular Expression: "tag/regex"
+    - Regex: "tag/regex"
     - DotNet: "tag/dotnet"
     - Concepts: "tag/concepts"
     - Agile: "tag/agile"
@@ -34,23 +34,24 @@ navbar-links:
     - Docker: "tag/docker"
     - LinuxAdmin: "tag/linux"
   SDET:
-    - Software Testing: "tag/testing"
+    - Basics: "tag/testing"
     - Selenium: "tag/selenium"
     - Codeception: "tag/codeception"
     - NUnit: "tag/nunit"
     - TestNG: "tag/testng"
     - Robotium: "tag/robotium"
-  About: 
-    - Shantonu: "aboutme"
-    - Skills : "cv/details/index.html"
-    - Jobs : "cv/timeline/jobs.html"
-    - cv/resume : "pages/resume"
+  HireMe:
+    - Upwork : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
     - Contact : "pages/contact"
-    - hireMe : "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
-    - Courses: "courses"
+    - Training: "courses"
+    - cv/resume : "pages/resume"
+  About:
+    - Me: "aboutme"
+    - Skills : "cv/details/index.html"
+    - Timeline : "cv/timeline/jobs.html"
     - Talks: "talks"
-    - Book Reviews : "tag/reviews"
-    - Gadgets : "tag/gadgets"
+    - Reviews : "tag/reviews"
+    - MyGadgets : "tag/gadgets"
 nav-search: search
 
 # If you want to have an image logo in the top-left corner instead of the title text,
