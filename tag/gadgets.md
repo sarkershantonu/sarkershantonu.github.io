@@ -19,40 +19,43 @@ comments: false
 This page contains all Gadgets & Gear Information
 
 # Development PCs: 
-### Primary [Lenovo Legion Go](https://www.lenovo.com/us/en/p/handheld/legion-go/len106g0001) Handheld 
+### Primary Laptop
+- Latitude 5440
+- 32GB Ram
+- 512gb Nvme SSD
+- Wifi 6
+ 
+### Primary PC for AI workload
+- M4 Mac Mini
+- 24Gb Ram
+- 256gb SSD
+
+### Handheld [Lenovo Legion Go](https://www.lenovo.com/us/en/p/handheld/legion-go/len106g0001)  
 - [Ryzen Z1 Extream](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Z1+Extreme&id=5508)
-- 2Tb nvme SSD
+- 1Tb nvme SSD
 - 16gb DDR5 7500Mhz
 - Display : 8.6 inch 1440p@144hz touch
 - Windows 10 + Ubuntu 24
 
-With : 
-- Dual 27 inch Dell Monitor Setup(4k+1440p) in stand
-- Dell Triple Display Docking station with Logitech Keyboard & mouse 
-
-### Secondary Dell Precision 5540
-- i7 9850H
-- 32gb ddr4
-- 2Tb Nvme
-- Quadro T1000
-- 4k Oled Touch Screen
-- Dual Boot Windows 10 + Zorin 
+### Home Office Setup  : 
+- 34" inch Samsung 144p/165Hz/21:9 Ratio Monitor in stand
+- Lenovo UsbC Monitor T24m-20
+- Logitech Keyboard & mouse 
+- CalDigit Thunderbolt4 Hub
 
 # HomeLab with Proxmox
 ### Proxmox (z2g4 Hp SFF)
 - i5 9500
-- 32gb DDR4 
+- 64gb DDR4 
 - 1TB nvme boot SSD
 - 3x 3.2TB NVME AIC samsung/oracle
 - 2x 14TB 3.5 inch zfs HDD
-- 1x 4tb 2.5inch SSD Sata
-- 210Watt PSU
+- 3x 4tb 2.5inch SSD Sata
+- 310Watt PSU
 - intel x550-t2 NIC
 
 ### Mini PCs 
-- Hacked Chromebox3 i7/16gb/256gb (Asus), running windows & linux
-- Hp Chromebox G2 i7/16gb/64Gb
-- Hp Thin Client t740
+- (with TV) Hacked Chromebox3 i7/16gb/256gb (Asus), running windows & linux
 
 ### Dev Environments in HomeLab
 - 50+ LXCs for different dev VMs
@@ -72,4 +75,4 @@ With :
 
 # Home Networking 
 - Dual 10gbe port Router [QHora-301W](https://www.qnap.com/en-us/product/qhora-301w)
-- Inhoust net : ax5400 NETGEAR Nighthawk 6-Stream Dual-Band WiFi 6 Router (RAX54S)
+- In-house net : Nighthawk RAX200(DNS blocker + Kids friendly Network)
