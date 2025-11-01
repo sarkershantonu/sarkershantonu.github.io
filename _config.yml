@@ -17,7 +17,7 @@ navbar-links:
     - Conf: "tag/jmeter-config"
     - Selenium: "tag/jmeter-webdriver"
   Java: 
-    - Java Lang: "tag/java"
+    - Basics: "tag/java"
     - Reflection: "tag/reflection"
     - JVM: "tag/jvm"
     - JDK-Tools: "tag/jdk-tools"
