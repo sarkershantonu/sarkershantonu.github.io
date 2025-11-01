@@ -55,7 +55,7 @@ navbar-links:
     - Timeline : "cv/timeline/jobs.html"
     - Talks: "talks"
     - Reviews : "tag/reviews"
-    - MyGadgets : "tag/gadgets"
+    - Devices : "tag/gadgets"
 nav-search: search
 
 # If you want to have an image logo in the top-left corner instead of the title text,
