@@ -21,7 +21,7 @@ Jmeter is a performance testing tool i am using since 2011. This page contains a
 
 # Books Reviewed : 
 - [performance-testing-with-jmeter-2-9](https://www.packtpub.com/application-development/performance-testing-jmeter-29) , and my [review](https://sarkershantonu.github.io/2013/09/28/Performance-Testing-With-JMeter-2.9-Review/)
-- [Jmeter Cookbook](https://www.packtpub.com/application-development/jmeter-cookbook)
+- [Jmeter Cookbook](https://www.packtpub.com/en-us/product/jmeter-cookbook-9781783988297)
 
 # Basics :
 - [An Introduction to JMeter](http://shantonusarker.blogspot.com/2012/10/an-introduction-to-jmeter-free-web.html)

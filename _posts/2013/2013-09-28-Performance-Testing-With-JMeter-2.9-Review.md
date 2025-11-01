@@ -9,7 +9,7 @@ excerpt: "Blog on Jmeter Book"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article I am going to talk about a book on Jmeter published from [**Packt Publisher**](https://www.packtpub.com/application-development/performance-testing-jmeter-29). I was lucky to get an offer to review this book as a technical reviewer before publishing (you may find in the book). Today I am going to talk little more about the book. 
+In this article I am going to talk about a book on Jmeter published from [**Packt Publisher**](https://www.packtpub.com/en-us/product/performance-testing-with-jmeter-2nd-edition-9781784395346). I was lucky to get an offer to review this book as a technical reviewer before publishing (you may find in the book). Today I am going to talk little more about the book. 
 
 Most of we know , jmeter have its own documentation and which is pretty enough and rich.
 
