@@ -23,13 +23,9 @@ comments: true
 - [Summary Version](https://www.dropbox.com/s/wk6ubeg687zu9gg/Resume_Shantanu_Sarker_SDET.pdf?dl=0)
 - [Detailed Version](https://www.dropbox.com/s/64zcx0ce4bsyjjh/Details_CV_Shantanu_Sarker_SDET.pdf?dl=0)
 
-To download please click download button from right upper corner, no Dropbox account needed.  
+*To download no Dropbox account needed*
 
 ### [Summary up to Nov 2025](/cv/timeline/jobs.html)
-
-<div>
-<a href="/cv/timeline/jobs.html" >All Jobs</a>
-</div>
 ![summary-career](/images/shantonu/career-shantonu.JPG)
 
 
