@@ -5,7 +5,7 @@ description: Learn Testing by coding
 # avatar: "/img/picture.jpg"
 
 navbar-links:   
-  performance: 
+  Perf:
     - Testing: "tag/performance-testing"
     - Analysis: "tag/performance-analysis"
     - Java: "tag/java-performance"
