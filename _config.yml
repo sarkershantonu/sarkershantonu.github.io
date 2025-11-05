@@ -18,13 +18,13 @@ navbar-links:
     - Selenium: "tag/jmeter-webdriver"
   Java: 
     - Basics: "tag/java"
+    - Regex: "tag/regex"
     - Reflection: "tag/reflection"
     - JVM: "tag/jvm"
     - JDK-Tools: "tag/jdk-tools"
   DEV:
     - Patterns: "tag/design-pattern"
     - OOP/OOAD: "tag/oop-ooad"
-    - Regex: "tag/regex"
     - DotNet: "tag/dotnet"
     - Concepts: "tag/concepts"
     - Agile: "tag/agile"
@@ -45,7 +45,7 @@ navbar-links:
   HireMe:
     - Upwork: "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
     - Contact: "pages/contact"
-    - Training: "courses"
+    - Training: "pages/courses"
     - cv/resume: "pages/resume"
     - Github: https://github.com/sarkershantonu
     - Linkedin : https://www.linkedin.com/in/shantonusarker/
@@ -53,7 +53,7 @@ navbar-links:
     - Me: "aboutme"
     - Skills : "cv/details/index.html"
     - Timeline : "cv/timeline/jobs.html"
-    - Talks: "talks"
+    - Talks: "pages/talks"
     - Reviews : "tag/reviews"
     - Devices : "tag/gadgets"
 nav-search: search
