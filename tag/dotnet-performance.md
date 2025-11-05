@@ -19,7 +19,7 @@ comments: true
 
 This page contains all post related to DotNet Performance.
 
-# DotNet Framework : 
+# DotNet Framework : (TODO => links needed to be fixed)
 1. [What are the elements inside DotNet?](http://shantonusarker.blogspot.com/2015/04/dotnet-elements-inside-clr-cls-il-jit-cts-gc.html)
 2. [What is CLR? How it works?](http://shantonusarker.blogspot.com/2015/05/what-is-clr-how-it-works-basic-ideas.html)
 
