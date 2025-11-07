@@ -4,7 +4,7 @@ title: "Artificial Intelligence"
 subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
-meta-description: "Test developer with a Bsc in Computer Science"
+meta-description: "Computer Science Graduate SDET/DevOps/Programmer"
 comments: true
 ---
 <div class="list-filters">

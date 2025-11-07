@@ -3,7 +3,7 @@ title: "Course : Design Pattern in Test Automation"
 subtitle: Learn with Shantonu
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
-meta-description: "Test developer with a Bsc in Computer Science"
+meta-description: "Computer Science Graduate SDET/DevOps/Programmer"
 comments: false
 ---
 <div class="list-filters">

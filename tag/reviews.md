@@ -4,7 +4,7 @@ title: "Reviews"
 subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Reviews by Shantonu"
-meta-description: "Test developer with a Bsc in Computer Science"
+meta-description: "Computer Science Graduate SDET/DevOps/Programmer"
 comments: true
 ---
 
