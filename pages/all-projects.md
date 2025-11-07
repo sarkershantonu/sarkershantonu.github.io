@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "Personal Projects"
+title: "All Projects"
 subtitle: Learn with Shantonu
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"

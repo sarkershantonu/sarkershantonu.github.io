@@ -56,6 +56,8 @@ navbar-links:
     - Talks: "pages/talks"
     - Reviews : "tag/reviews"
     - Devices : "tag/gadgets"
+    - UpSkill : "pages/personal-training"
+    - Projects : "pages/all-projects"
 nav-search: search
 
 # If you want to have an image logo in the top-left corner instead of the title text,
