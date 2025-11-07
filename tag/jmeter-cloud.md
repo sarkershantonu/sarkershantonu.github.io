@@ -3,7 +3,7 @@ layout: "page"
 title: "Jmeter Cloud Service"
 subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
-meta-title: "Performance Engineer/SDET/Java Developer"
+meta-title: "Lead SDET/Performance Engineer/DevOps"
 meta-description: "Test developer with a Bsc in Computer Science"
 comments: true
 ---

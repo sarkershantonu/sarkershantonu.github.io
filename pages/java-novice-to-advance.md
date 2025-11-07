@@ -3,7 +3,7 @@ layout: "page"
 title: "Course : Java Advance"
 subtitle: Learn with Shantonu
 css: "/css/index.css"
-meta-title: "Performance Engineer/SDET/Java Developer"
+meta-title: "Lead SDET/Performance Engineer/DevOps"
 meta-description: "Test developer with a Bsc in Computer Science"
 comments: false
 ---
