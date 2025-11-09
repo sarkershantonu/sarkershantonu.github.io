@@ -20,8 +20,8 @@ comments: true
 This page contains all post related to DotNet Performance.
 
 # DotNet Framework :
-1. [What are the elements inside DotNet?](http://sarkershantonu.github.io/2015/04/dotnet-elements-inside-clr-cls-il-jit-cts-gc.html)
-2. [What is CLR? How it works?](http://sarkershantonu.github.io/2015/05/what-is-clr-how-it-works-basic-ideas.html)
+1. [What are the elements inside DotNet?](https://sarkershantonu.github.io/2015/04/25/dotnet-clr-elements/)
+2. [What is CLR? How it works?](https://sarkershantonu.github.io/2015/04/27/dotnet-clr-how-it-works/)
 
 # CLR Monitoring Counters : (Dotnet Performance Counter) 
 1. [JIT Compiler](http://sarkershantonu.github.io/2015/06/dotnet-performance-counter-jit-compiler.html)
