@@ -16,3 +16,9 @@ comments: true
 </div>
 
 This page contains all post related to Agile development/testing.
+
+### LLM 
+
+### Experiments in Mac / LMStudio
+
+### Cuda Experiments 
