@@ -1,7 +1,7 @@
 
-# EPAM Systems | Client : Mastercard
-### DMP Decision Management Platform
-- Test-Realtime 
-- Test-Standin
-- Test-CEM
-- 
+# Epam Systems | Client : Mastercard
+### DMP |Test-Realtime
+- Realtime is major channel under DMP processing transaction 
+### DMP |Test-Standin
+### DMP |Test-CEM
+##### Technology Stack 
