@@ -12,4 +12,8 @@ Decision management platform is service for processing mastercard transactions. 
 - frameworks/Tools : Spring, Spring boot, IBM ODM, log4j, 
 - Internal frameworks: HostManager cli & API, AON, 
 - Monitoring : Splunk, prometheus 
-- DevOps : [XLR](https://digital.ai/products/release/),Jenkins cloud,maven, gradle, Jfrog,docker, Vmware,   
+- DevOps : [XLR](https://digital.ai/products/release/),Jenkins cloud,maven, gradle, Jfrog,docker, Vmware
+
+##### Responsibilities 
+
+##### Achievements : 
