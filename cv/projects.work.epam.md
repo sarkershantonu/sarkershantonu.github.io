@@ -1,4 +1,3 @@
-
 # Epam Systems | Client : Mastercard
 - DMP : Decision management platform is service for processing mastercard transactions(ASA/ASB). It's a plugins architecture application transitioning from monolith to microservice. 
 - Flex : Flextp is flexible transaction executor that runs the DMP transactions . It is also monolith plugin architecture. We have flextp core and flextp plugins. All of the DMP services are divided into multiple channels. 
@@ -34,14 +33,14 @@
 4. Design & Implement Test Automation Frameworks
 5. Fraud detection with AI model & testing Efficiency of Ai models.
 6. Implement CI/CD with XLR, Jenkins Pipeline for testing & releases.
-7. Code /PR reviews , refactoring, implementing company wide best practices for Test Automation repositories.
+7. Define rules , strategies and conversions for Code /PR reviews , refactoring, implementing company-wide best practices for Test Automation.
 8. Test Review with Developers, testers as well as product owner.
 9. Educate QA team to start using automation
 10. POCs for Development & Testing
 11. AI model Testing with million+ data Points.
 12. Making confluence pages for design and test documentations. 
 13. Chaos testing with gremlin & Chaos Monkey 
-14. Maintain Autmation Utilities 
+14. Maintain Automation Utilities , 5+ repositories which are used by multiple teams.
 
 
 ##### Achievements:
