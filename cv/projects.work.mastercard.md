@@ -12,7 +12,7 @@
 ### DMP |Test-Realtime
 - Realtime is the main DMP transaction processing channel . We have many features like AAV Dynamic Linking, cross-site execution etc. 
 ### DMP |Test-Standin
-- Standin is a backup transactions execution when realtime or near-realtime is not available. 
+- Standin is a alternate transactions runner when realtime or near-realtime is not available. Its business flows are different but scores transactions for fraud detections. 
 ### DMP |Test-CEM
 - CEM is channel responsible for certain business flows related to external customers. 
 ### DMP |Test-RBD | realtime0110
@@ -41,6 +41,7 @@
 11. AI model Testing with million+ data Points.
 12. Making confluence pages for design and test documentations. 
 13. Chaos testing with gremlin & Chaos Monkey 
+14. Maintain Autmation Utilities 
 
 
 ##### Achievements:
