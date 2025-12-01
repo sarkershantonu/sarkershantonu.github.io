@@ -13,13 +13,14 @@
 ## Clients 
 - Sony Pictures
 - TVGLA (Sony Vendor)
-- 
-### Audience Engine | Test-Algorithm
+
+
+### jeopardy.com
 - Realtime is the main DMP transaction processing channel . We have many features like AAV Dynamic Linking, cross-site execution etc. 
-### Audience Projection |Test-UI
+### wheeloffortune.com
 - Standin is a alternate transactions runner when realtime or near-realtime is not available. Its business flows are different but scores transactions for fraud detections. 
-### DMP |Test-CEM
-- CEM is channel responsible for certain business flows related to external customers. 
+### Sony Connect 
+- This is streaming application
 ### DMP |Test-RBD | realtime0110
 - This is alternative to realtime channel available in specific zone for running alternative business flows of realtime channel 
 
