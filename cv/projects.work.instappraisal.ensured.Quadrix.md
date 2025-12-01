@@ -20,7 +20,7 @@
 ### wheeloffortune.com
 - Standin is a alternate transactions runner when realtime or near-realtime is not available. Its business flows are different but scores transactions for fraud detections. 
 ### Sony Connect 
-- This is streaming application
+  - This is streaming application
 ### DMP |Test-RBD | realtime0110
 - This is alternative to realtime channel available in specific zone for running alternative business flows of realtime channel 
 
