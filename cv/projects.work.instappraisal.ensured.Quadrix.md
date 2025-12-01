@@ -1,6 +1,6 @@
 #TODO
 
-# Luxoft USA| Insys Group|DXC | Client : AT&T
+# Instappraisal | ensured | QuadrixIt | Client : Sony Pictures
 - DMP : Decision management platform is service for processing mastercard transactions(ASA/ASB). It's a plugins architecture application transitioning from monolith to microservice. 
 - Flex : Flextp is flexible transaction executor that runs the DMP transactions . It is also monolith plugin architecture. We have flextp core and flextp plugins. All of the DMP services are divided into multiple channels. 
 - A business flow is run by each channel. A mastercard customer(card issuer) choose certain features and apply its rules (IBM ODM rules) for their customers (end card users)
@@ -10,6 +10,10 @@
 - Since 2015, mastercard runs AI mdel driven fraud detection algorithm besides its proprietary scoring algorithms. Initially it was called IPrevent , not they are TPP(Temporal Point Processes) models. based. All models are stored in Parquet file. Once models are loaded, application scores a transaction to detect fraud. 
 - DMP usages world largest in memory Database Grid (gemfire) for transaction processing.  
 
+## Clients 
+- Sony Pictures
+- TVGLA (Sony Vendor)
+- 
 ### Audience Engine | Test-Algorithm
 - Realtime is the main DMP transaction processing channel . We have many features like AAV Dynamic Linking, cross-site execution etc. 
 ### Audience Projection |Test-UI
