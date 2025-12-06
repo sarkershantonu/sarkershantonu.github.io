@@ -7,7 +7,7 @@
 - setting keyring ```echo "deb [signed-by=/usr/share/keyrings/k6-archive-keyring.gpg] https://dl.k6.io/deb stable main" | tee /etc/apt/sources.list.d/k6.list```
 - Update & install ```apt-get update && apt-get install k6```
 
-Script 
+- Script 
 
 ```shell
 apt update &&  apt upgrade -y
@@ -19,6 +19,11 @@ apt-get update
 apt-get install k6
 ```
 
-if you need these commands with , please check this single [bash script](./files/k6/ubuntu-k6-install.sh)
+if you need these commands with , please check this single [bash script](/files/k6/ubuntu-k6-install.sh)
+
+### Docker Installation 
+- docker install ```docker pull grafana/k6:master-with-browser```
+
+![docker-install-windows](/images/k6/docker/docker-install.jpg)
 
 # Distributed k6
