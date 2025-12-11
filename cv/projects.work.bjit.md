@@ -19,6 +19,32 @@
 ### DMP |Test-RBD | realtime0110
 - This is alternative to realtime channel available in specific zone for running alternative business flows of realtime channel 
 
+- Projects: 
+    1. Defrag. Client: Source Forge.
+It is a tool to defrag hard disk(  and  different type of storage) efficiently.
+Tools  and  Technologies Used: c#.Net, VS 2008, Win forms, Win32 API, VC++.
+Responsibility: 
+    a. R and D on How NTFS works with different file types and 
+    b. R and D on the internal logic of storing data, attributes of NTFS..
+    c. Test planning, Test Case writing  and  execution. 
+    d. Performance testing (Excel, Stop watch).
+    e. Deployment testing
+
+    2. Performance Tweak. Client: Source Forge.
+It is a tool for managing all type of memory (Ram, Cache) of PC by using win WIN32 API  and  shows the status monitor with graph. (Basically an update replica of O and O Claver Cache)
+Tools  and  Technologies Used: c#.Net, VS 2008, Win forms, Win32 API, VC++.Win Registry. RTH, Ttac. SVN.
+Responsibility: 
+    a. R and D on implementing API functionality
+    b. Coding in VS2008 on those API.
+
+    3. Simple Backup : Client: Source Forge.
+It is backup taking software to take data Backup over PC  and  LAN. Schedule Backup  and  Mobile Backup (using portable memory without installing software) are the focusing features. 
+Tools  and  Technologies Used: c#.Net, VS 2008, Win forms, Win32 API, VC++.Win Registry. TCP/IP.  RTH, Ttac. SVN.
+Responsibility: 
+    a. Manual testing  and  Issue tracking
+  4. Deployment testing
+
+
 ##### Technology Stack 
 - Programming Language : Java, Groovy, python
 - DB : GemFire,Oracle
