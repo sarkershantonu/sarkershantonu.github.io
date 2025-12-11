@@ -20,4 +20,4 @@
 
 # Luxoft USA
 
-# Epam USA
+# EPAM System
