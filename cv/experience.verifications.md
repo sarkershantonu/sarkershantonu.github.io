@@ -3,8 +3,8 @@
 ### Company Information
 
 ### Manager/HR Info
-- Current CEO : [Masud Mehedi](https://www.linkedin.com/in/masud-mehedi-it/) but Head of HR that time. 
-- 
+- Current CEO : [Masud Mehedi](https://www.linkedin.com/in/masud-mehedi-it/) , he was Head of HR when I was in BJIT. His Email mehedi.masud@bjitgroup.com
+- General Info email : info@bjitgroup.com
 ### Experience 
 - Job Title : Associate Software Engineer 
 - Job Start : Aug 17, 2008 
