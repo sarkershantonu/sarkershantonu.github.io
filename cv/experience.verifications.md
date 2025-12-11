@@ -1,4 +1,3 @@
-
 # [BJIT](https://bjitgroup.com/)
 ### Company Information
 
@@ -6,18 +5,37 @@
 - Current CEO : [Masud Mehedi](https://www.linkedin.com/in/masud-mehedi-it/) , he was Head of HR when I was in BJIT. His Email mehedi.masud@bjitgroup.com
 - General Info email : info@bjitgroup.com
 ### Experience 
-- Job Title : Associate Software Engineer 
+- Job Title : Assistant Software Engineer 
 - Job Start : Aug 17, 2008 
 - Job End : Mar 31, 2009
 - Experience Period : 8 Months
-- [Experience Letter]()
+- [Experience Letter](https://www.dropbox.com/scl/fi/updhfocd6ocxftzgaozh4/BJIT.jpg?rlkey=nzmlgi8zgb0t228sm2fgct3az&st=lpkxxzej&dl=0)
 
 # [KAZ Software Ltd]()
+### Company Information
+
+### Manager/HR Info
+### Experience
+- Job Title : 
+- Job Start : 
+- Job End : 
+- Experience Period : 
+- [Experience Letter]()
 
 # ReliSource Technology Ltd
 
-# Luxoft Poland
+# Luxoft | DXC
 
-# Luxoft USA
+## Luxoft Poland
+### Manager/HR Info
+## Luxoft USA
+### Manager/HR Info
+### Experience
+- Job Title :
+- Job Start :
+- Job End :
+- Experience Period :
+- [Experience Letter]()
+
 
 # EPAM System
