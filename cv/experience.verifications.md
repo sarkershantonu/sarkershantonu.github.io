@@ -25,7 +25,8 @@
 # ReliSource Technology Ltd
 
 # Luxoft | DXC
-
+Luxoft is an IT service provider company. Luxoft sponsored me from Bangladesh to Poland for to work with UBS. 
+After working 2 years, I was transferred to Luxoft USA to work with At&T (L1B visa)
 ## Luxoft Poland
 - 
 ### Manager/HR Info
