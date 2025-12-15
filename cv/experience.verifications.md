@@ -27,6 +27,7 @@
 # Luxoft | DXC
 
 ## Luxoft Poland
+- 
 ### Manager/HR Info
 ## Luxoft USA
 ### Manager/HR Info
