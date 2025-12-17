@@ -23,13 +23,27 @@
 - [Experience Letter]()
 
 # ReliSource Technology Ltd
+### Manager/HR Info
+- Reporting Manager : Ayman Noor 
+- 
+### Experience
+- Job Title : Sr SQA (Automation Lead)
+- Job Start : june 22, 2012
+- Job End : july 15, 2013
+- Experience Period : 1 year, 1 month
+- [Experience Letter]()
 
 # Luxoft | DXC
 Luxoft is an IT service provider company. Luxoft sponsored me from Bangladesh to Poland for to work with UBS. 
 After working 2 years, I was transferred to Luxoft USA to work with At&T (L1B visa)
 ## Luxoft Poland
-- 
 ### Manager/HR Info
+### Experience
+- Job Title :
+- Job Start :
+- Job End :
+- Experience Period :
+- [Experience Letter]()
 ## Luxoft USA
 ### Manager/HR Info
 ### Experience
