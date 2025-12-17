@@ -15,6 +15,7 @@
 ### Company Information
 
 ### Manager/HR Info
+- S Khan 
 ### Experience
 - Job Title : 
 - Job Start : 
