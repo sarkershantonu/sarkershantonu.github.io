@@ -24,13 +24,8 @@ This page contains all Gadgets & Gear Information
 - 32GB Ram
 - 512gb Nvme SSD
 - Wifi 6
- 
-### Primary PC for AI workload
-- M4 Mac Mini
-- 24Gb Ram
-- 256gb SSD
 
-### Handheld [Lenovo Legion Go](https://www.lenovo.com/us/en/p/handheld/legion-go/len106g0001)  
+### Handheld [Lenovo Legion Go](https://www.lenovo.com/us/en/p/handheld/legion-go/len106g0001)   | Not using any more but you can see software settings and updates in [here](https://github.com/sarkershantonu/daily-drive-linux/tree/main/steamos)
 - [Ryzen Z1 Extream](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Z1+Extreme&id=5508)
 - 1Tb nvme SSD
 - 16gb DDR5 7500Mhz
@@ -38,10 +33,11 @@ This page contains all Gadgets & Gear Information
 - Windows 10 + Ubuntu 24
 
 ### Home Office Setup  : 
-- 34" inch Samsung 144p/165Hz/21:9 Ratio Monitor in stand
+- 34" inch KTC 144p/180Hz/21:9 Ratio Monitor in stand
 - Lenovo UsbC Monitor T24m-20
 - Logitech Keyboard & mouse 
 - CalDigit Thunderbolt4 Hub
+- QNAP 10gbe Ethernet
 
 # HomeLab with Proxmox
 ### Proxmox (z2g4 Hp SFF)
@@ -89,8 +85,9 @@ This page contains all Gadgets & Gear Information
 ### AI Platform | AMD 
 - Mini PC : [EliteMini UM780 XTX](https://www.minisforum.com/products/elitemini-um780-xtx)
   - 32gb Ram
+  - Ryzen 7 7840HS cpu with liquid metal thermal past , boosts 5.1Ghz+ with 70watt Max TDP. 
   - 780m Amd iGPU with 16gb Vram
 
 ### Ai Platform | Nvidia 
-- I dont have dedicated PC, I have eGPU dock [AOOSTAR AG01](https://aoostar.com/products/aoostar-ag01-egpu-dock-with-oculink-port-built-in-huntkey-800w-power-supply-pre-order-itll-be-shipped-around-february-20th) with 800 watt PSU(upgradable flex PSU for servers), I am connecting my Rtx 3090ti 24GB Founder Edition GPU with this
+- I dont have dedicated PC, I have eGPU dock [AOOSTAR AG01](https://aoostar.com/products/aoostar-ag01-egpu-dock-with-oculink-port-built-in-huntkey-800w-power-supply-pre-order-itll-be-shipped-around-february-20th) with 800 watt PSU(upgradable flex PSU for servers), I am connecting my **Rtx 3090ti 24GB Founder Edition** GPU with this
 - I will have separate blog on setting up my environment for LLM testing. 
