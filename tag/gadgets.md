@@ -91,4 +91,6 @@ This page contains all Gadgets & Gear Information
   - 32gb Ram
   - 780m Amd iGPU with 16gb Vram
 
-### Ai Platform 
+### Ai Platform | Nvidia 
+- I dont have dedicated PC, I have eGPU dock [AOOSTAR AG01](https://aoostar.com/products/aoostar-ag01-egpu-dock-with-oculink-port-built-in-huntkey-800w-power-supply-pre-order-itll-be-shipped-around-february-20th) with 800 watt PSU(upgradable flex PSU for servers), I am connecting my Rtx 3090ti 24GB Founder Edition GPU with this
+- I will have separate blog on setting up my environment for LLM testing. 
