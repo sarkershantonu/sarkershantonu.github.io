@@ -76,3 +76,14 @@ This page contains all Gadgets & Gear Information
 # Home Networking 
 - Dual 10gbe port Router [QHora-301W](https://www.qnap.com/en-us/product/qhora-301w)
 - In-house net : Nighthawk RAX200(DNS blocker + Kids friendly Network)
+
+# AI Testing & Experiment Setup
+### AI Platform | Mac | MLX
+- Mac mini m4 
+  - 24gb Unified RAM
+  - 256gb SSD
+  - 2Tb Thunderbolt nvme ssd as external storage 
+  - 10gbe thunderbolt ethernet
+  - 10gbe thunderbolt Hub(caldigit)
+
+### w
