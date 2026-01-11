@@ -86,4 +86,9 @@ This page contains all Gadgets & Gear Information
   - 10gbe thunderbolt ethernet
   - 10gbe thunderbolt Hub(caldigit)
 
-### w
+### AI Platform | AMD 
+- Mini PC : [EliteMini UM780 XTX](https://www.minisforum.com/products/elitemini-um780-xtx)
+  - 32gb Ram
+  - 780m Amd iGPU with 16gb Vram
+
+### Ai Platform 
