@@ -25,3 +25,9 @@ Apple provides opensource Platform , Named MLX. This is solo designed for Apple 
 
 
 ### How to check your python is native python in MacOS? 
+- See version by ```python3 --version``` , expected 
+- check installation places ```which python3```
+### Build MLX from source 
+
+
+Local MLX https://www.youtube.com/watch?v=mStqWk0aCc4 
