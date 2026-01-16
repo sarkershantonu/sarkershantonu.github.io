@@ -20,4 +20,4 @@ Apple provides opensource Platform , Named MLX. This is solo designed for Apple 
 ##### MLS : Installation | Dependencies
 - Check MAC version, in my case  
 ![MacVersion]()
-- 
+- Check Python version, if not present , install python 
