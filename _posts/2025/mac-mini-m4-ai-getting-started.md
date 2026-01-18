@@ -29,5 +29,15 @@ Apple provides opensource Platform , Named MLX. This is solo designed for Apple 
 - check installation places ```which python3```
 ### Build MLX from source 
 
+Local MLX https://www.youtube.com/watch?v=mStqWk0aCc4  
 
-Local MLX https://www.youtube.com/watch?v=mStqWk0aCc4 
+Setting up Model Running Software : 
+### MacOs : Ollama Basics 
+- Installation
+- Run LLM Locally 
+- Expose LLM in Local Network (LAN)
+- How to keep LLMs disconnected from Internet 
+- Local LLM collections 
+### MacOs : LMStudio Basics
+
+### MacOs : vLLMs Basics
