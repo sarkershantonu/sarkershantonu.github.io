@@ -34,6 +34,7 @@ Local MLX https://www.youtube.com/watch?v=mStqWk0aCc4
 Setting up Model Running Software : 
 ### MacOs : Ollama Basics 
 - Installation
+  - [Download](https://ollama.com/download/Ollama.dmg) and install . Or 
 - Run LLM Locally 
 - Expose LLM in Local Network (LAN)
 - How to keep LLMs disconnected from Internet 
@@ -41,3 +42,6 @@ Setting up Model Running Software :
 ### MacOs : LMStudio Basics
 
 ### MacOs : vLLMs Basics
+
+Claude Code Basics 
+- in terminal ```curl -fsSL https://claude.ai/install.sh | bash```
