@@ -250,3 +250,5 @@ plugins:
   - jekyll-mentions
   - jekyll-github-metadata
   - jekyll-youtube
+  - jekyll-remote-theme
+  - jekyll-feed
