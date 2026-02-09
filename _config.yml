@@ -151,7 +151,7 @@ highlighter: rouge
 permalink: /blog/:title/
 paginate: 40
 paginate_path: "/page:num/"
-remote_theme: just-the-docs/just-the-docs
+#remote_theme: just-the-docs/just-the-docs
 
 kramdown:
   input: GFM
@@ -250,5 +250,4 @@ plugins:
   - jekyll-mentions
   - jekyll-github-metadata
   - jekyll-youtube
-  - jekyll-remote-theme
   - jekyll-feed
