@@ -1,7 +1,7 @@
 url: "https://sarkershantonu.github.io"
 baseurl: ""
 title: A Test Developer's Blog
-description: Learn Testing by coding
+description: Learn Coding, Testing, DevOps & Automate.
 # avatar: "/img/picture.jpg"
 
 navbar-links:   
@@ -78,8 +78,7 @@ nav-search: search
 
 # --- Footer options --- #
 
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
+# Important: you must keep the "name".
 author:
   name: Shantonu Sarker
   email: "sarker.shantonu@gmail.com"
@@ -131,7 +130,10 @@ title-separator: "-"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
-# Output options (more information on Jekyll's site)
+# Color scheme
+color_scheme: ddse
+
+# Build settings
 timezone: "Asia/Dhaka"
 markdown: kramdown
 highlighter: rouge
