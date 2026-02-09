@@ -5,7 +5,7 @@ description: Learn Coding, Testing, DevOps & Automate.
 # avatar: "/img/picture.jpg"
 
 navbar-links:   
-  Perf:
+  Performance:
     - Testing: "tag/performance-testing"
     - Analysis: "tag/performance-analysis"
     - Java: "tag/java-performance"
@@ -42,13 +42,7 @@ navbar-links:
     - Junit4: "tag/junit4"
     - Junit5: "tag/junit5"
     - Robotium: "tag/robotium"
-  HireMe:
-    - Upwork: "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
-    - Contact: "pages/contact"
-    - Training: "pages/courses"
-    - cv/resume: "pages/resume"
-    - Github: https://github.com/sarkershantonu
-    - Linkedin : https://www.linkedin.com/in/shantonusarker/
+
   About:
     - Me: "aboutme"
     - Skills : "cv/details/index.html"
@@ -58,6 +52,12 @@ navbar-links:
     - Devices : "tag/gadgets"
     - UpSkill : "pages/personal-training"
     - Projects : "pages/all-projects"
+    - Upwork: "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
+    - Contact: "pages/contact"
+    - Training: "pages/courses"
+    - cv/resume: "pages/resume"
+    - Github: https://github.com/sarkershantonu
+    - Linkedin : https://www.linkedin.com/in/shantonusarker/
 nav-search: search
 
 # Search
