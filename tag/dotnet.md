@@ -4,7 +4,7 @@ title: "DotNet"
 subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
-meta-description: "Computer Science Graduate SDET/DevOps/Programmer"
+meta-description: "SDET/DevOps/Java/CS Graduate"
 excerpt: "An overview of DotNet"
 comments: true
 ---

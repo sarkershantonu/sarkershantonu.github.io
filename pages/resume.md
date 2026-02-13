@@ -4,7 +4,7 @@ title: "Resume"
 subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Resume of Shantonu"
-meta-description: "Computer Science Graduate SDET/DevOps/Programmer"
+meta-description: "SDET/DevOps/Java/CS Graduate"
 comments: true
 ---
 <div class="list-filters">

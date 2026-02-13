@@ -1,10 +1,10 @@
 ---
 layout: "page"
 title: "Training For skill Development"
-subtitle: Learn with Shantonu
+subtitle: A Test Developer's Blog
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
-meta-description: "Computer Science Graduate SDET/DevOps/Programmer"
+meta-description: "SDET/DevOps/Java/CS Graduate"
 comments: false
 ---
 <div class="list-filters">
