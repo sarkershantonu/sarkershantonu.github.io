@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tips & Tricks using Jmeter Maven Plugin
+title: JMeter Maven Plugin tweaks
 date: "2020-09-20 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/20/maven-jmeter-tricks-proxy/
