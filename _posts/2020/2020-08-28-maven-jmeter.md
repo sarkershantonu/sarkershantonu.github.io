@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Testing Jmeter with maven
+title: JMeter Testing by maven
 date: "2020-08-28 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/08/28/maven-jmeter/
