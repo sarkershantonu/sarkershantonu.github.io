@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Modify Jmeter JARs in maven
+title: Modifying JMeter JARs by maven
 date: "2020-09-06 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/06/maven-jmeter-modify-jars/
