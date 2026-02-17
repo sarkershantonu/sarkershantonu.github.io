@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Managing Jmeter Test Scripts(JMX) in Maven
+title: Managing Jmeter Test Scripts(JMX) by Maven
 date: "2020-09-14 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/14/maven-jmeter-plugins-jmx/
