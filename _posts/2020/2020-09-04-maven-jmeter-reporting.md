@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Reporting with jmeter-maven
+title: Test Reporting in Maven JMeter
 date: "2020-09-04 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/04/maven-jmeter-reporting/
