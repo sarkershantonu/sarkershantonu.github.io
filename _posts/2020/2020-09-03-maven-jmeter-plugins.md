@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jmeter-Plugins with maven
+title: JMeter Plugins managing by maven
 date: "2020-09-03 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/03/maven-jmeter-plugins/
