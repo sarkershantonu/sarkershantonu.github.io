@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Popular Jmeter CLI commands
+title: Popular JMeter CLI commands
 date: "2021-10-08 00:02"
 tags: [jmeter-run, ci-cd]
 permalink: /2021/10/08/popular-jmeter-cli-commands/
