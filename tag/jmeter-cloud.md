@@ -19,10 +19,3 @@ comments: true
 
 This page contains all post related to JMeterCloud Services.
 
-# [Blazemeter](https://www.blazemeter.com/)
-- Loadshephia/Blazemeter Sense (https://sense.blazemeter.com/gui/)
-
-# [Flood.io](https://www.flood.io)
-
-# [Redline13](https://www.redline13.com/)
-- [My talk](https://www.redline13.com/blog/2016/10/webinar-introduction-performance-monitoring/)
