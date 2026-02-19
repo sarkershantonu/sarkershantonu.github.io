@@ -10,11 +10,7 @@ navbar-links:
     - Analysis: "tag/performance-analysis"
     - Java: "tag/java-performance"
     - DotNet: "tag/dotnet-performance"
-    - JMeter-Basics: "tag/jmeter-script"
-    - JMeter-Execution: "tag/jmeter-run"
-    - JMeter-Plugins: "tag/jmeter-plugins"
-    - JMeter-Conf: "tag/jmeter-config"
-    - JMeter-Selenium: "tag/jmeter-webdriver"
+    - JMeter-Basics: "page/jmeter"
   DEV:
     - Patterns: "tag/design-pattern"
     - OOP/OOAD: "tag/oop-ooad"
