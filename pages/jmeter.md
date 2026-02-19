@@ -1,8 +1,71 @@
-# JMeter-Basics: "tag/jmeter-script"
+# JMeter Books Reviews :
+- [performance-testing-with-jmeter-2-9](https://www.packtpub.com/application-development/performance-testing-jmeter-29) , and my [review](https://sarkershantonu.github.io/2013/09/28/Performance-Testing-With-JMeter-2.9-Review/)
+- [JMeterCookbook](https://www.packtpub.com/en-us/product/jmeter-cookbook-9781783988297)
 
-# JMeter-Execution: "tag/jmeter-run"
+# JMeter-Basics: "tag/jmeter-script"
+- [An Introduction to JMeter](http://shantonusarker.blogspot.com/2012/10/an-introduction-to-jmeter-free-web.html)
+- [Stress Testing in JMeter](http://shantonusarker.blogspot.com/2012/10/stress-testing-in-jmeter.html)
+- [How to manage User Agents in JMeter](http://shantonusarker.blogspot.com/2012/12/how-to-manage-user-agents-in-jmeter.html)
+- [Testing Web Service(SOAP/XML-RPC) using JMeter](http://shantonusarker.blogspot.com/2012/11/testing-web-servicesoapxml-rpc-using.html)
+- [How to perform Load testing in JMeter](http://shantonusarker.blogspot.com/2013/01/how-to-perform-load-testing-in-jmeter.html)
+- [How to record steps for load test in JMeter?](http://shantonusarker.blogspot.com/2013/01/how-to-record-steps-for-load-test-in.html)
+- [How to load test MS SQL Server in JMeter?](http://shantonusarker.blogspot.com/2013/01/how-to-load-test-sql-server-database-in.html)
+- [How to test Web Service (SOAP) with HTTPS(with credential)?](http://shantonusarker.blogspot.com/2013/04/jmeter-tips-and-tricks-part-2.html)
+- [What is HTTP Request Defaults? Why we use it](http://shantonusarker.blogspot.com/2013/01/what-is-http-request-defaults-why-we.html)
+- [What is HTTP Header Manager? Why we use it](http://shantonusarker.blogspot.com/2013/01/what-is-http-header-manager-why-we-use.html)
+- [What are the Timers in JMeter?](http://shantonusarker.blogspot.com/2013/02/what-are-timers-in-jmeter.html)
+- [Reports/Listeners in JMeter](http://shantonusarker.blogspot.com/2013/02/what-are-reportslisteners-in-jmeter-why.html)
+- [What are the Post Processors in JMeter?](http://shantonusarker.blogspot.com/2013/04/what-are-post-processors-in-jmeter.html)
+- [What is JDBC Connection Configuration? Why we use this.](http://shantonusarker.blogspot.com/2013/01/what-is-jdbc-connection-configuration.html)
+- [How to parameterize jmeter?](http://shantonusarker.blogspot.com/2013/04/how-to-parameterize-jmeter.html)
+- [JMeter Load Testing with Cassandra/MySql/Derby/SQLite/Ingres/PostgreSQL/Oracle/MSAccess](http://shantonusarker.blogspot.com/2013/01/jmeter-load-testing-with.html)
+- [Driver classes & Database URLs for JDBC Drivers](http://shantonusarker.blogspot.com/2013/01/driver-classes-database-urls-for-jdbc.html)
+- [How to run JavaScript in Jmeter?](http://shantonusarker.blogspot.com/2015/07/javascript-in-jmeter-bsf-jsr223.html)
+- [How to run BeanShell/JavaScript/JEXL in Jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-run-beanshelljavascriptjexl-in.html)
+- [BeanShell Server commands in Jmeter](http://shantonusarker.blogspot.com/2013/01/beanshell-server-commands-in-jmeter.html)
+
+# JMeter Functions
+- [Function Helper in Jmeter](http://shantonusarker.blogspot.com/2013/05/function-helper-in-jmeter.html)
+- [How can we parametrize host Information in Jmeter?](http://shantonusarker.blogspot.com/2013/05/how-can-we-parametrize-host-information.html)
+- [How to access JMeterProperties ?](http://shantonusarker.blogspot.com/2013/05/how-to-get-jmeter-properties.html)
+- [Calculation with JMeterfunctions](http://shantonusarker.blogspot.com/2013/05/calculation-with-jmeter-functions.html)
+- [How to get current time in Jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-get-current-time-in-jmeter.html)
+- [How to write log in jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-write-log-in-jmeter.html)
+- [How to read file in jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-read-file-in-jmeter.html)
+- [String operations with jmeter functions](http://shantonusarker.blogspot.com/2013/05/string-operations-with-jmeter-functions.html)
+- [Test Plan-Thread-sample information using Jmeter](http://shantonusarker.blogspot.com/2013/05/test-plan-thread-sample-information.html)
+- [Regular Expression with JMeterFunction](http://shantonusarker.blogspot.com/2013/05/regular-expression-with-jmeter-function.html)
+
+# JMeter-Execution: 
+- [JMeterwith basic report](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/)
+- [jmeter with modified HEAP size with JVM argument](https://sarkershantonu.github.io/2020/09/01/maven-jmeter-jvm-config/)
+- [JMeterPlugins](https://sarkershantonu.github.io/2020/09/03/maven-jmeter-plugins/)
+- [Jmeter-Reporting](https://sarkershantonu.github.io/2020/09/04/maven-jmeter-reporting/)
+- [modify-jmeter-jars](https://sarkershantonu.github.io/2020/09/06/maven-jmeter-modify-jars/)
+- [Modify Properties](https://sarkershantonu.github.io/2013/09/13/maven-jmeter-Properties/)
+- [Manage JMX](https://sarkershantonu.github.io/2020/09/14/maven-jmeter-plugins-jmx/)
+- [Distributed Testing](https://sarkershantonu.github.io/2020/09/18/maven-jmeter-distributed-testing/)
+- [Proxy Setting and Tips](https://sarkershantonu.github.io/2020/09/20/maven-jmeter-tricks-proxy/)
+- [**Popular JMeterCLI Commands**](https://sarkershantonu.github.io/2021/10/08/popular-jmeter-cli-commands/)
+- [How run JMeter in different modes?](http://shantonusarker.blogspot.com/2013/01/how-run-jmeter-in-different-modes.html)
+- [How ro run JMeter with a proxy?](http://shantonusarker.blogspot.com/2013/01/how-ro-run-jmeter-with-proxy.html)
+- [How to distribute test in jmeter?](http://shantonusarker.blogspot.com/2013/01/how-to-distribute-test-in-jmeter.html)
+- JMeter with Jenkins [How to run jmeter in Jnekins with Performance Plugins?](http://shantonusarker.blogspot.com/2015/07/run-jmeter-jnekins-performance-plugins.html)
+- [JMeter with Grafana-influxdb-docker](https://github.com/sarkershantonu/jmeter-grafana-influxdb-docker)
+
+### [JMeter Maven Github](https://github.com/sarkershantonu/jmeter-maven-examples)
 
 # JMeter-Plugins: "tag/jmeter-plugins"
+- Installation : [How to install plugins in JMeter](http://shantonusarker.blogspot.com/2013/01/how-to-install-plugins-in-jmeter.html)
+- [Introduction to JMeter PlugIn-Threads](http://shantonusarker.blogspot.com/2013/05/introdution-to-jmeter-google-plugin.html)
+- [Introduction to JMeter PlugIn-Logic Controlr](http://shantonusarker.blogspot.com/2013/05/introduction-to-jmeter-google-plugin.html)
+- [Introduction to JMeter PlugIn- Config elements](http://shantonusarker.blogspot.com/2013/05/introduction-to-jmeter-google-plugin_7.html)
+- [Introduction to JMeter PlugIn - Timer](http://shantonusarker.blogspot.com/2013/05/introduction-to-jmeter-google-plugin_8.html)
+- [Introduction to JMeter PlugIn- Post Processors](http://shantonusarker.blogspot.com/2013/05/introduction-to-jmeter-google-plugin_9.html)
+- [Introduction to JMeter PlugIn- Pre Processors](http://shantonusarker.blogspot.com/2013/05/introduction-to-jmeter-google-plugin_6102.html)
+- [Introduction to JMeter PlugIn- Listeners](http://shantonusarker.blogspot.com/2013/05/introduction-to-jmeter-google-plugin_5819.html)
+- [Introduction to JMeter PlugIn- Sampler](http://shantonusarker.blogspot.com/2013/05/introduction-to-jmeter-google-plugin_11.html)
+- [PerfMon-JMeter Server Monitoring PlugIn](http://shantonusarker.blogspot.com/2013/06/perfmon-jmeter-server-monitoring-plugin.html)
 
 # JMeter-Conf: Configuring JMeter:
 - [Part 1 : JTL File Loading Thread, User Properties for Plugins on CSV format, Custom Libraries, Debugging](http://shantonusarker.blogspot.com/2013/01/how-to-configure-plugins-in-jmeter.html)
@@ -26,7 +89,17 @@
 
 - Configuration that I work with JMeter : Bat configuration, different properties.
 
-# JMeter-Selenium: Browser Driven JMeter Testing
+# JMeter-Selenium: Browser Driven JMeter Performance Testing
+- [How to perform client side web performance testing in JMeter?](http://shantonusarker.blogspot.com/2015/01/jmeter-web-driver-sampler-code.html)
+- [How to run multiple version of firefox in windows for automation?](http://shantonusarker.blogspot.com/2015/01/run-multiple-version-of-firefox-windows.html)
+- [How to debug steps in JMeterWebdriver sampler?](http://shantonusarker.blogspot.com/2015/01/debug-steps-in-jmeter-webdriver.html)
+- [JMeterwebdriver sampler code style.](http://shantonusarker.blogspot.com/2015/01/jmeter-webdriver-sampler-code-style.html)
+
+# JMeterTips & Tricks :
+- [How many users jmeter can support?](http://shantonusarker.blogspot.com/2015/04/how-many-user-jmeter-can-support.html)
+- [JMeter Tips and Tricks](https://sarkershantonu.github.io/2013/01/31/best-practices-jmeter/)
+- [How to get Session id/ JSON id / Cookie id / token/ view state?](http://shantonusarker.blogspot.com/2013/04/jmeter-tips-and-tricks-part-2.html)
+- [How to make reports(and comments) in Jmeter?](http://shantonusarker.blogspot.com/2013/04/how-to-make-reportsand-comments-in.html)
 
 # JMeter in Cloud 
 ### [Blazemeter](https://www.blazemeter.com/)
