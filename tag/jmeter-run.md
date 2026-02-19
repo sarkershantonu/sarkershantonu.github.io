@@ -44,9 +44,9 @@ This page contains all post related to JMeterTest Executions.
 - [How to get Session id/ JSON id / Cookie id / token/ view state?](http://shantonusarker.blogspot.com/2013/04/jmeter-tips-and-tricks-part-2.html)
 - [How to make reports(and comments) in Jmeter?](http://shantonusarker.blogspot.com/2013/04/how-to-make-reportsand-comments-in.html)
 
-# JMeterwith Jenkins
+# JMeter with Jenkins
 - [How to run jmeter in Jnekins with Performance Plugins?](http://shantonusarker.blogspot.com/2015/07/run-jmeter-jnekins-performance-plugins.html) 
 
-# JMeterwith Grafana-influxdb
+# JMeter with Grafana-influxdb
 
-# JMeterwith Docker
+# JMeter with Docker
