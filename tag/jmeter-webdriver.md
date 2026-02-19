@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "Jmeter WebDriver"
+title: "JMeterWebDriver"
 subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
@@ -16,10 +16,10 @@ comments: true
 
     <a href="/tags" class="list-filter">Index</a>
 </div>
-This page contains all post related to Jmeter WebDriver.
+This page contains all post related to JMeter WebDriver.
 
 # Performance Testing with Browsers
 - [How to perform client side web performance testing in JMeter?](http://shantonusarker.blogspot.com/2015/01/jmeter-web-driver-sampler-code.html)
 - [How to run multiple version of firefox in windows for automation?](http://shantonusarker.blogspot.com/2015/01/run-multiple-version-of-firefox-windows.html)
-- [How to debug steps in Jmeter Webdriver sampler?](http://shantonusarker.blogspot.com/2015/01/debug-steps-in-jmeter-webdriver.html)
-- [Jmeter webdriver sampler code style.](http://shantonusarker.blogspot.com/2015/01/jmeter-webdriver-sampler-code-style.html)
+- [How to debug steps in JMeterWebdriver sampler?](http://shantonusarker.blogspot.com/2015/01/debug-steps-in-jmeter-webdriver.html)
+- [JMeterwebdriver sampler code style.](http://shantonusarker.blogspot.com/2015/01/jmeter-webdriver-sampler-code-style.html)

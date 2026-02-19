@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "Jmeter Plugins"
+title: "JMeterPlugins"
 subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
@@ -17,7 +17,7 @@ comments: true
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
-This page contains all post related to Jmeter Plugins.
+This page contains all post related to JMeterPlugins.
 
 # Installation 
 - [How to install plugins in JMeter](http://shantonusarker.blogspot.com/2013/01/how-to-install-plugins-in-jmeter.html)

@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "Jmeter Configurations"
+title: "JMeterConfigurations"
 subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
@@ -17,7 +17,7 @@ comments: true
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
-This page contains all post related to Jmeter Configurations.
+This page contains all post related to JMeterConfigurations.
 
 #  Configuring Jmeter: 
  - [Part 1 : JTL File Loading Thread, User Properties for Plugins on CSV format, Custom Libraries, Debugging](http://shantonusarker.blogspot.com/2013/01/how-to-configure-plugins-in-jmeter.html)
@@ -37,6 +37,6 @@ This page contains all post related to Jmeter Configurations.
  - [Part 15:Summary Results](http://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-15-summary.html)
  - [Part 16 : Cookie Manager](http://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-16-how-to.html)
  - [Part 17 : Mailer Model, Load Sampler](http://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-17-mailer.html)
- - [Part 18:  Jmeter Engine, Misc (some others)](http://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-18-jmeter.html)
+ - [Part 18:  JMeterEngine, Misc (some others)](http://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-18-jmeter.html)
 
 - Configuration that I work with JMeter : Bat configuration, different properties.

@@ -5,11 +5,11 @@ date: "2013-09-28 00:17"
 tags: [reviews]
 permalink: /2013/09/28/Performance-Testing-With-JMeter-2.9-Review/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter Book"
+excerpt: "Blog on JMeterBook"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article I am going to talk about a book on Jmeter published from [**Packt Publisher**](https://www.packtpub.com/en-us/product/performance-testing-with-jmeter-2nd-edition-9781784395346). I was lucky to get an offer to review this book as a technical reviewer before publishing (you may find in the book). Today I am going to talk little more about the book. 
+In this article I am going to talk about a book on JMeterpublished from [**Packt Publisher**](https://www.packtpub.com/en-us/product/performance-testing-with-jmeter-2nd-edition-9781784395346). I was lucky to get an offer to review this book as a technical reviewer before publishing (you may find in the book). Today I am going to talk little more about the book. 
 
 Most of we know , jmeter have its own documentation and which is pretty enough and rich.
 
@@ -19,7 +19,7 @@ Frankly, I have struggled a lot while going through very details. And we can lea
  
 Its presented very carefully. It is organized in such way to so that it can be very helpful for beginners. We can start testing very quickly without knowing much inner details.  And, it creates an impression of being very easy to new learners. 
 
-Besides that, this is the only book that contains [Jmeter plug-in](http://jmeter-plugins.org/) explanations. Jmeter plug-in was created to overcome the advantages of Load Runner over jmeter. No book contains this much detail and useful information about jmeter plug-in. This is the cover page of the book
+Besides that, this is the only book that contains [JMeterplug-in](http://jmeter-plugins.org/) explanations. JMeterplug-in was created to overcome the advantages of Load Runner over jmeter. No book contains this much detail and useful information about jmeter plug-in. This is the cover page of the book
 
 ![book-cover](/images/jmeter/jmeter-book-2.9-cover.jpg)
 
@@ -27,7 +27,7 @@ Besides that, this is the only book that contains [Jmeter plug-in](http://jmeter
 So, Who are the readers? The book is useful if you are
 1. A new person to performance testing with jmeter
 2. You are using jmeter for certain time and you want to use advance features
-3. You are doing R&D on tools, and you want to know detail about what Jmeter can do
+3. You are doing R&D on tools, and you want to know detail about what JMetercan do
 4. You are a java expert and you want to make a tool like as jmeter, you can gather information as well as get the code and requirements.
 
 ### Advantages of this book :

@@ -38,7 +38,7 @@ ${__javaScript(new Date(),currentDate)}
 
 The JavaScript runner function has two parameter, first one is the java script expression(mandatory) and second one is the variable name where captured data will be stored.
 
-Jmeter use JavaScript Standalone interpreter inside [apache rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino) to run the script
+JMeteruse JavaScript Standalone interpreter inside [apache rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino) to run the script
 
 ### [JXEL Script](http://commons.apache.org/proper/commons-jexl/) :  
 

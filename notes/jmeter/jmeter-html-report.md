@@ -1,5 +1,5 @@
 https://jmeter.apache.org/usermanual/generating-dashboard.html
-What is Jmeter HTML report?
+What is JMeterHTML report?
 
 How to generate?
 

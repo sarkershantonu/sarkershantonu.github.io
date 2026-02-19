@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "Jmeter Scripting"
+title: "JMeterScripting"
 subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
@@ -17,11 +17,11 @@ comments: true
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
-Jmeter is a performance testing tool i am using since 2011. This page contains all post related to Jmeter Scripting.
+JMeteris a performance testing tool i am using since 2011. This page contains all post related to JMeterScripting.
 
 # Books Reviewed : 
 - [performance-testing-with-jmeter-2-9](https://www.packtpub.com/application-development/performance-testing-jmeter-29) , and my [review](https://sarkershantonu.github.io/2013/09/28/Performance-Testing-With-JMeter-2.9-Review/)
-- [Jmeter Cookbook](https://www.packtpub.com/en-us/product/jmeter-cookbook-9781783988297)
+- [JMeterCookbook](https://www.packtpub.com/en-us/product/jmeter-cookbook-9781783988297)
 
 # Basics :
 - [An Introduction to JMeter](http://shantonusarker.blogspot.com/2012/10/an-introduction-to-jmeter-free-web.html)
@@ -49,14 +49,14 @@ Jmeter is a performance testing tool i am using since 2011. This page contains a
 - [How to run BeanShell/JavaScript/JEXL in Jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-run-beanshelljavascriptjexl-in.html)
 - [BeanShell Server commands in Jmeter](http://shantonusarker.blogspot.com/2013/01/beanshell-server-commands-in-jmeter.html)
 
-# Jmeter Functions 
+# JMeterFunctions 
 - [Function Helper in Jmeter](http://shantonusarker.blogspot.com/2013/05/function-helper-in-jmeter.html)
 - [How can we parametrize host Information in Jmeter?](http://shantonusarker.blogspot.com/2013/05/how-can-we-parametrize-host-information.html)
-- [How to access Jmeter Properties ?](http://shantonusarker.blogspot.com/2013/05/how-to-get-jmeter-properties.html)
-- [Calculation with Jmeter functions](http://shantonusarker.blogspot.com/2013/05/calculation-with-jmeter-functions.html)
+- [How to access JMeterProperties ?](http://shantonusarker.blogspot.com/2013/05/how-to-get-jmeter-properties.html)
+- [Calculation with JMeterfunctions](http://shantonusarker.blogspot.com/2013/05/calculation-with-jmeter-functions.html)
 - [How to get current time in Jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-get-current-time-in-jmeter.html)
 - [How to write log in jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-write-log-in-jmeter.html)
 - [How to read file in jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-read-file-in-jmeter.html)
 - [String operations with jmeter functions](http://shantonusarker.blogspot.com/2013/05/string-operations-with-jmeter-functions.html)
 - [Test Plan-Thread-sample information using Jmeter](http://shantonusarker.blogspot.com/2013/05/test-plan-thread-sample-information.html)
-- [Regular Expression with Jmeter Function](http://shantonusarker.blogspot.com/2013/05/regular-expression-with-jmeter-function.html)
+- [Regular Expression with JMeterFunction](http://shantonusarker.blogspot.com/2013/05/regular-expression-with-jmeter-function.html)

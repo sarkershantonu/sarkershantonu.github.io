@@ -1,5 +1,5 @@
 # Eclipse 
-In this article, we are going to see how can we start Jmeter from source code. This is important for extending jmeter, creating own plugins, sending custom protocol requests. 
+In this article, we are going to see how can we start JMeterfrom source code. This is important for extending jmeter, creating own plugins, sending custom protocol requests. 
 
 Download jmeter applcaiotn
 Download the code fron here 

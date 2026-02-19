@@ -93,7 +93,7 @@ comments: false
 - Test Containers 
 - Data Containers
 - Testing In Production (shadow)
-- Jmeter with docker
+- JMeterwith docker
 - Selenium Testing in docker 
 - API testing in docker
 
@@ -113,7 +113,7 @@ comments: false
 - InfluxDB
 
 ### Example : 
-A. Jmeter Grafana InfluxDB system for live performance Monitoring 
+A. JMeterGrafana InfluxDB system for live performance Monitoring 
 B. Selenium Chrome headless compatibility testing Grid with screen capture & video recording. 
 
 Docker Memes :) 

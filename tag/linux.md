@@ -27,7 +27,7 @@ This page contains all post related to Linux/Ubuntu Administration.
 
 ### Linux Tools
 - [How to use nano in cli?](https://sarkershantonu.github.io/2019/06/13/nano-basics/)
-- [Installing Jmeter plugins in Linux CLI](https://sarkershantonu.github.io/2021/01/06/install-jmeter-plugins-cli/)
+- [Installing JMeter plugins in Linux CLI](https://sarkershantonu.github.io/2021/01/06/install-jmeter-plugins-cli/)
 - [How to use vim in cli?](https://sarkershantonu.github.io/2019/01/16/vim-basics/)
 - [How to use iperf3?](https://sarkershantonu.github.io/2018/04/16/iperf3-basics/)
 - [How to use wget in cli?](https://sarkershantonu.github.io/2018/03/25/wget-basics/)

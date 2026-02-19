@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Jmeter Best Practices
+title: JMeterBest Practices
 date: "2013-01-31 20:52"
 tags: [jmeter]
 permalink: /2013/01/31/best-practices-jmeter/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter Best Practices"
+excerpt: "Blog on JMeterBest Practices"
 gh-badge: [star, follow]
 comments: true
 ---
@@ -96,7 +96,7 @@ If you use HTTP proxy server for recording and want to parametrize the URL in th
 
 - If you can not avoid listener during test execution, try only Summary Report or aggregated report.
 
-- Try using stepping thread or ultimate thread group.(Jmeter plugins) 
+- Try using stepping thread or ultimate thread group.(JMeterplugins) 
 - There are some issues may arise for holding the thread for hours or more(due to garbage collector and time out). See those issues from jmeter log (see log file or click ! symbol during execution) and fix according to that.
 
 **Example**: if you get timeout exception, then change the ramp up time. 

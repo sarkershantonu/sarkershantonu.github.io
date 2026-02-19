@@ -47,7 +47,7 @@ This part is tricky. In performance world. when we say performance tools, it all
 
 As, it was not popular before, it was mostly done by manually. Still it is one of the best practices to sit and test application critical functionality with a stop watch and measure that. I remember doing that in back to 2008-09. These are handy, no need automation , no need to know  much technical stuffs. But, as it is manual time measurement and humans are not as perfect as machine for measuring time. So, it has error. So, there should be tool there.
 
-Usually, before **Jmeter Plug-ins**, there was no mentionable tool for web application performance test tools. We can use **Jmeter webdriver** plug-in to operate the same functionality that a human does and measure that time accurately. And, we can do same steps programmatically by using browser simulation. Like
+Usually, before **JMeterPlug-ins**, there was no mentionable tool for web application performance test tools. We can use **JMeterwebdriver** plug-in to operate the same functionality that a human does and measure that time accurately. And, we can do same steps programmatically by using browser simulation. Like
 - Selenum-webdriver-running in Java/C#/Python/Ruby/nodeJS with any supported test runner that measures.
 - Ruby-watir-Gherkin-cucumber
 - Java-robot simulation
@@ -55,14 +55,14 @@ Usually, before **Jmeter Plug-ins**, there was no mentionable tool for web appli
 - Native action simulation tools/scripts(Auto IT/ Sikuli)
 - Robotium/monkey runner/ Applium for Mobile client performance measurement.
 
-Jmeter has this webdriver sampler in plugin , we can use that.
+JMeterhas this webdriver sampler in plugin , we can use that.
 
 ### Client-side Performance Monitoring :
 This means we have to have monitoring for our application as well as client resources.
 
 Like as every operation systems, windows or linux has their own system internal tools to monitor resources. 
 
-And, as open source jmeter consultant, i should say we can use **perfMon** as Jmeter plug-in to monitor client side (you may say localhost)
+And, as open source jmeter consultant, i should say we can use **perfMon** as JMeterplug-in to monitor client side (you may say localhost)
 
 Now, for client side application monitoring, its' really depend on application client type. If it is a TCP client, so you have to use TCP monitoring tool on the port which your application works.
 
@@ -140,6 +140,6 @@ Usually, a separate thread or users used to run the client side performance test
 
 Not like as server side script that will run thousands of user and run parallel as it is specifically made for single user execution time for specific scenarios. 
 
-So, in the next post we are going to test a sample application using **Jmeter webdriver** and measure the time.
+So, in the next post we are going to test a sample application using **JMeterwebdriver** and measure the time.
 
 Thanks..:)

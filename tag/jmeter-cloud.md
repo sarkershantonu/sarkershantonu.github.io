@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "Jmeter Cloud Service"
+title: "JMeterCloud Service"
 subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
@@ -17,7 +17,7 @@ comments: true
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
-This page contains all post related to Jmeter Cloud Services.
+This page contains all post related to JMeterCloud Services.
 
 # [Blazemeter](https://www.blazemeter.com/)
 - Loadshephia/Blazemeter Sense (https://sense.blazemeter.com/gui/)

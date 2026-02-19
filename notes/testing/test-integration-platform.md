@@ -39,7 +39,7 @@ comments: true
 - selenide-selenium-junit GUI test 
 - Oracle JDBC data test
 - API tests with RestAssured(if any)
-- Jmeter Performance Test (if any)
+- JMeterPerformance Test (if any)
 
 ## Execution Plan
 - Running Test using maven-failesafe (verify stage)
@@ -58,7 +58,7 @@ comments: true
 
 ## Optional addons
 - Selenium RC can be integrated for company wide selenium GRID setup
-- Jmeter Performance Tests
+- JMeterPerformance Tests
 
 ## Requirements 
 - VMs with enough configurations(Jenkins, Selenium GRID server, Selenium Grid Slave,Jmeter)

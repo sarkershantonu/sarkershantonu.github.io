@@ -105,7 +105,7 @@ Like as all other report, typically a repot contains (I am adding common for all
 - **Test Conditions**: Test conditions based on tool, environment, application settings and configuration including delays.
 - **Load Profile**: How user was generating load during test. Jmeter/ Load runner or all other tools provide this. You can take screenshot of the graph and add here. Like, 100 user, 1 hour, 500 users 3 hours like this with graph.
 - **KPI**:It is optional. It is called Key Performance Indicator. Based on requirement , each group need to know a value that indicates performance situation of the product. Usually it drives future investment and activity.
-- **Results**: Tabular results, common for every tool. Jmeter provides summary results or Synthesis Report. Some times, this can be optional to hide detail results from end user/business users. We used hide them.
+- **Results**: Tabular results, common for every tool. JMeterprovides summary results or Synthesis Report. Some times, this can be optional to hide detail results from end user/business users. We used hide them.
 - **Results Graph**: All graphs based on tabular results. We should be very careful in this area. We should put only related report here. We have see the goal and requirements and then decide. I mean, put the context with each graph. Ask yourself, why this graph you use.
 
 For **example**, in our project, we include only transaction comparison graph for business users.

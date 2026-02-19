@@ -26,13 +26,13 @@ Courses which I used to take online. If you are interested to join any batch, pl
 
 ||Python for Java Testers || **100hr**
 
-||Jmeter novice to advance || **100hr**
+||JMeternovice to advance || **100hr**
 
 ### Weekly Workshops 5 days
 
 ||Performance Testing Basics to Advance || **40hr**
 
-||Jmeter for a beginner || **40hr**
+||JMeterfor a beginner || **40hr**
 
 ||Selenium-Java || **40hr**
 

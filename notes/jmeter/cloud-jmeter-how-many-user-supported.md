@@ -1,4 +1,4 @@
-Jmeter thread support per AWS
+JMeterthread support per AWS
 
 AWS instances : 
 m4.large : 1000 threads each has single request http call. 
