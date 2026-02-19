@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing Jmeter plugins in Linux CLI
+title: Installing Jmeter plugins in Linux CLI/Cloud/AWS/Azure/GCP
 date: "2021-01-06 17:02"
 tags: [jmeter,ci-cd, linux]
 permalink: /2021/01/06/install-jmeter-plugins-cli/
