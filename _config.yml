@@ -10,7 +10,7 @@ navbar-links:
     - Analysis: "tag/performance-analysis"
     - Java: "tag/java-performance"
     - DotNet: "tag/dotnet-performance"
-    - JMeter-Basics: "page/jmeter"
+    - JMeter: "pages/jmeter"
   DEV:
     - Patterns: "tag/design-pattern"
     - OOP/OOAD: "tag/oop-ooad"
