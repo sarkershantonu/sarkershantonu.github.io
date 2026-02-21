@@ -21,12 +21,12 @@ comments: true
 
 This page contains all post related to Java Performance
 # Java Out of Memory Error simulation
-- [Java Run Time error/exceptions:Out of Memory(OOM) What & why?](https://sarkershantonu.github.io/2015/08/21/java-oom-why/)
-- [JVM Exception/Error Example: OutOfMemoryError: Java heap space](https://sarkershantonu.github.io/2015/08/22/java-oom-heap/)
-- [OutOfMemoryError :PermGen space or Metaspace Example: JVM Exception/Error](https://sarkershantonu.github.io/2015/08/25/java-oom-permgen-metaspace/)
-- [Java OutOfMemoryError :Unable to create new native thread, JVM Exception/Error](https://sarkershantonu.github.io/2015/08/27/java-oom-unable-to-create-new-native-thread/)
-- [Java OutOfMemoryError : GC overhead limit exceeded Example](https://sarkershantonu.github.io/2015/08/28/java-oom-gc-overhead/)
+- [Java Run Time error/exceptions:Out of Memory(OOM) What & why?](/2015/08/21/java-oom-why/)
+- [JVM Exception/Error Example: OutOfMemoryError: Java heap space](/2015/08/22/java-oom-heap/)
+- [OutOfMemoryError :PermGen space or Metaspace Example: JVM Exception/Error](/2015/08/25/java-oom-permgen-metaspace/)
+- [Java OutOfMemoryError :Unable to create new native thread, JVM Exception/Error](/2015/08/27/java-oom-unable-to-create-new-native-thread/)
+- [Java OutOfMemoryError : GC overhead limit exceeded Example](/2015/08/28/java-oom-gc-overhead/)
 
 # Java / JVM Troubleshooting 
-- [How to find memory leaks in application? General Ideas](https://sarkershantonu.github.io/2015/09/03/application-memory-leaks-analysis/)
+- [How to find memory leaks in application? General Ideas](/2015/09/03/application-memory-leaks-analysis/)
 - [Tool for Offline Java Memory Analysis](http://shantonusarker.blogspot.com/2015/09/java-memory-analysis-heap-dump-tools-ibm-oracle-sun.html)

@@ -19,5 +19,5 @@ comments: true
 This page contains all post related to Test NG.
 
 1. [How to install TestNG in Eclipse?](http://shantonusarker.blogspot.com/2013/01/how-to-install-testng-in-eclipse.html)
-2. [https://sarkershantonu.github.io/2015/08/19/junit-testng/](https://sarkershantonu.github.io/2015/08/19/junit-testng/)
+2. [https://sarkershantonu.github.io/2015/08/19/junit-testng/](/2015/08/19/junit-testng/)
 3. 

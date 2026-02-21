@@ -11,7 +11,7 @@ Like as all other rest client, post man has some advantages. The first think I l
 [Download Postman](https://www.getpostman.com/apps)
 
 
-Example :For this testing, I will use my same example that I have used in [previous RestAssured example](https://sarkershantonu.github.io/2016/12/24/rest-assured/) : Here is the [link](https://github.com/sarkershantonu/Bug-Storing-WS/releases/tag/2.0)
+Example :For this testing, I will use my same example that I have used in [previous RestAssured example](/2016/12/24/rest-assured/) : Here is the [link](https://github.com/sarkershantonu/Bug-Storing-WS/releases/tag/2.0)
 
 you need to download the version 1.2 and run in PC with java. 
 

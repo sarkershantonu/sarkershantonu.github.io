@@ -20,9 +20,9 @@ Courses which I used to take online. If you are interested to join any batch, pl
 
 ### Long time course
 
-||[**Java for testers**](https://sarkershantonu.github.io/pages/java-for-testers/)||**200hr**
+||[**Java for testers**](/pages/java-for-testers/)||**200hr**
 
-||[Java novice to advance](https://sarkershantonu.github.io/pages/java-novice-to-advance/)|| **100hr** 
+||[Java novice to advance](/pages/java-novice-to-advance/)|| **100hr** 
 
 ||Python for Java Testers || **100hr**
 
@@ -84,6 +84,6 @@ Courses which I used to take online. If you are interested to join any batch, pl
 
 ||Fitnesse-Java || **5hr**
 
-||[Docker for Testers] (https://sarkershantonu.github.io/pages/docker-for-testers/)|| **5hr**
+||[Docker for Testers] (/pages/docker-for-testers/)|| **5hr**
 
  

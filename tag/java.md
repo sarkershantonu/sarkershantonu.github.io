@@ -20,11 +20,11 @@ comments: true
 This page contains all post related to Java Core Programming
 
 # Annotation
-- [What is java annotation? How it works?Let's make custom annotation](https://sarkershantonu.github.io/2016/01/28/java-annotation/)
+- [What is java annotation? How it works?Let's make custom annotation](/2016/01/28/java-annotation/)
 
 # Unit Testing : 
-- [Compare study : JUnit3 Vs JUnit 4Vs TestNG](https://sarkershantonu.github.io/2015/08/19/junit-testng/)
+- [Compare study : JUnit3 Vs JUnit 4Vs TestNG](/2015/08/19/junit-testng/)
 
 # Java Thread & Synchronization 
-1. [Java Thread & Synchronization : How to use thread?](https://sarkershantonu.github.io/2015/10/08/java-thread-use/)
-2. [Java Thread & Synchronization : Basic introduction.](https://sarkershantonu.github.io/2015/10/07/java-thread-sync/)
+1. [Java Thread & Synchronization : How to use thread?](/2015/10/08/java-thread-use/)
+2. [Java Thread & Synchronization : Basic introduction.](/2015/10/07/java-thread-sync/)

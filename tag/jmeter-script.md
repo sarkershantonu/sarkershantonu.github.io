@@ -20,7 +20,7 @@ comments: true
 JMeteris a performance testing tool i am using since 2011. This page contains all post related to JMeterScripting.
 
 # Books Reviewed : 
-- [performance-testing-with-jmeter-2-9](https://www.packtpub.com/application-development/performance-testing-jmeter-29) , and my [review](https://sarkershantonu.github.io/2013/09/28/Performance-Testing-With-JMeter-2.9-Review/)
+- [performance-testing-with-jmeter-2-9](https://www.packtpub.com/application-development/performance-testing-jmeter-29) , and my [review](/2013/09/28/Performance-Testing-With-JMeter-2.9-Review/)
 - [JMeterCookbook](https://www.packtpub.com/en-us/product/jmeter-cookbook-9781783988297)
 
 # Basics :

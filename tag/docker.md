@@ -20,4 +20,4 @@ comments: true
 This page contains all post related to Docker.
 
 # Installation 
-- [How to install Docker](https://sarkershantonu.github.io/2016/03/08/install-docker/)
+- [How to install Docker](/2016/03/08/install-docker/)
