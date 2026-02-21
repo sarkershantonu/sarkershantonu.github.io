@@ -43,7 +43,7 @@ navbar-links:
     - Me: "aboutme"
     - Skills : "cv/details/index.html"
     - Talks: "pages/talks"
-    - Devices : "tag/gadgets"
+    - Devices : "pages/gadgets"
     - Projects : "pages/all-projects"
     - Upwork: "https://www.upwork.com/freelancers/~01497d9402c6e641ad"
     - Contact: "pages/contact"
