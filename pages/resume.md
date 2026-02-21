@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Resume"
-subtitle: I build systems for API/UI/Performance testing
+subtitle: I build systems for API/UI/Performance testing with AI
 css: "/css/index.css"
 meta-title: "Resume of Shantonu"
 meta-description: "SDET/DevOps/Java/CS Graduate"

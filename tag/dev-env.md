@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Dev/Test Environment Setups"
-subtitle: I build systems for API/UI/Performance testing
+subtitle: I build systems for API/UI/Performance testing with AI
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
 meta-description: "SDET/DevOps/Java/CS Graduate"
