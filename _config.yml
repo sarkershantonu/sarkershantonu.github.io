@@ -14,8 +14,7 @@ navbar-links:
     - Programming: "pages/programming"
     - Design Patterns: "pages/dp"
     - DotNet: "pages/dotnet"
-    - Java Basics: "pages/java"
-    - Java Reflection: "tag/reflection"
+    - Java : "pages/java"
     - JVM: "tag/jvm"
     - JDK-Tools: "tag/jdk-tools"
   DevOps:
