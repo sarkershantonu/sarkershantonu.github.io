@@ -5,19 +5,16 @@ description: Learn Coding, Testing, DevOps & Automate.
 # avatar: "/img/picture.jpg"
 
 navbar-links:   
-  Perf:
+  Performance:
     - Performance Test: "pages/performance"
     - Java-perf: "tag/java-performance"
     - DotNet-perf: "tag/dotnet-performance"
     - JMeter: "pages/jmeter"
   DEV:
-    - Patterns: "tag/design-pattern"
-    - OOP/OOAD: "tag/oop-ooad"
-    - DotNet: "tag/dotnet"
-    - Concepts: "tag/concepts"
-    - Agile: "tag/agile"
-    - Regex: "tag/regex"
-    - Java Basics: "tag/java"
+    - Programming: "pages/programming"
+    - Design Patterns: "pages/dp"
+    - DotNet: "pages/dotnet"
+    - Java Basics: "pages/java"
     - Java Reflection: "tag/reflection"
     - JVM: "tag/jvm"
     - JDK-Tools: "tag/jdk-tools"
