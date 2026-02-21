@@ -20,9 +20,9 @@ Courses which I used to take online. If you are interested to join any batch, pl
 
 ### Long time course
 
-||[**Java for testers**](/pages/java-for-testers/)||**200hr**
+||[**Java for testers**](/cources/pages/java-for-testers/)||**200hr**
 
-||[Java novice to advance](/pages/java-novice-to-advance/)|| **100hr** 
+||[Java novice to advance](/cources/pages/java-novice-to-advance/)|| **100hr** 
 
 ||Python for Java Testers || **100hr**
 
