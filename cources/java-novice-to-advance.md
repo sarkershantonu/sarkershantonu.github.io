@@ -1,87 +1,179 @@
+---
+layout: "page"
+title: "Course : Java Advance"
+subtitle: A Test Developer's Blog
+css: "/css/index.css"
+meta-title: "Lead SDET/Performance Engineer/DevOps"
+meta-description: "SDET/DevOps/Java/CS Graduate"
+comments: false
+---
+<div class="list-filters">
+    <a href="/" class="list-filter filter-selected">All posts</a>
+    <a href="/pages/courses" class="list-filter">courses</a>
+	<a href="/pages/talks" class="list-filter">talks</a>
+    <a href="/pages/resume" class="list-filter">resume</a>
+    <a href="/tags" class="list-filter">Index</a>
+</div>
+
+# Java Novice to Advance : Course Info
+- Total : 160hr, 40 classes, 5 Exams , 20 weeks.
+- Home Task : 10
+- Exams :
+    - Java Advance : 4hr : Multiple Choice
+    - Custom Annotation & APO : 4hr : HandsOn
+    - Reflection  : 4hr : HandsOn
+    - Design Pattern  : 12hr : HandsOn
+    - Building Framework Like Spring : 12hr : HandsOn
+    - Complete Web Application Spring Boot : 12 hr : HandsOn
+
+# AOP
+- What is APO 
+- How to it works 
+- AspectJ
+
+# Annotations 
+- Custom Annotation 
+- Pre processor, Post Processor
+- Let's Create "Autowire"
+
+# Reflections 
+- Concept 
+- How it works
+- API Utilities 
+- Examples 
+- Home task 
+
+# Generics 
+- Writing Generic Code
+- Reading Generic Code
+- How to design with generic thinking
+- When you can use generics & when you can't?
+
+# Threading 
+- Old Plain Threading concept
+- Java Thread & Runnable
+- Modern Threading (java 1.7+)
+- Monitoring Thread using VisualVM
+
+# Design Patterns 
+
+# OOAD
+- Why OOAD 
+- Book OOAD
+- Example 
+- Project by team as home task
+
+
+# SOLID
+- Principles
+- Code Example 
+- Home Task 
+- Exam
+
+# Clean Code & Clean Coder 
+- Summary
+- Key to follow
+- Mistakes to avoid 
+
+# Clean Architecture 
+- Summary
+- Key to follow
+- Mistakes to avoid
+
+# JVM 
+- JVM tool intro 
+- VisualVM monitoring & diagnosis
+- Java Mission Control 
+- Examples 
+
+# Best Practices 
+
+# Event Driven 
+
 # java-novice-to-advance
 
-A Guide to Novice to Advance as Java Developer. 
+A Guide to Novice to Advance as Java Developer.
 
 # Know & Design app Classes/Objects/Enums/Interfaces
 - override own equals and hashCode for own data/model classes
 - override toString for good output
-- Clone vs Deep clone 
+- Clone vs Deep clone
 - Define Interface & abstract class principles (why it should be a class/abstract/interface)
-- Try to declear services/functionality with interfaces 
-- Enum may contain constractors for multi purpose usages. 
+- Try to declear services/functionality with interfaces
+- Enum may contain constractors for multi purpose usages.
 - enum can have useful function to get info from member value
 - Immutable object/class design
-- Interface with default (java 8) 
+- Interface with default (java 8)
 - Marker interfaces
 - Functional interfaces, default and static methods
 - Abstract class vs Interface
 - Final Class
 - Anonymous classes
 - Design Inheritance tightly coupled (abstract) or loosely coupled (interface)
-- Data aggregation vs Composition (is or has a relationship) 
+- Data aggregation vs Composition (is or has a relationship)
 
 
-# Method Writing best practices 
+# Method Writing best practices
 - Immutable string/parameters (final in parameter)
 - Avoid premptive type , use Java Class (Integer instead of int)
-- use proper annotation 
-- Avoid comments as much as you can, method names should be sef explanatory 
-- Design type safe but generic method for multi purpose use. 
+- use proper annotation
+- Avoid comments as much as you can, method names should be sef explanatory
+- Design type safe but generic method for multi purpose use.
 - try lambda for private methods(if accepted)
 - Avoid system exception throwing , try business/custom exceptions based on design
 - Anonymous method
 - Final method
 
-# Some Naming Convensions (detail in clean code boook) 
-- maven group id(company Name)  & artifact id (project name) are small letters with dot 
-- package names are small letters with dot  
+# Some Naming Convensions (detail in clean code boook)
+- maven group id(company Name)  & artifact id (project name) are small letters with dot
+- package names are small letters with dot
 - class, enum, interface or annotation names are PascalCase
 - mthod, fields, variables are cammel case (some time method name is underscored like python)
-- Static or Final fields are all CAPITAL. 
+- Static or Final fields are all CAPITAL.
 - enum values are all CAPITAL
-- Generic Types are usually single capital letter. 
+- Generic Types are usually single capital letter.
 
-# Null Pointer best practices 
-- Use Java 8 optional 
-- compare with null==referece item (null before) 
+# Null Pointer best practices
+- Use Java 8 optional
+- compare with null==referece item (null before)
 - Compare with value==referece item (value before referece item)
-- 
+-
 
 # Generics
-- What is Generics? 
+- What is Generics?
 - Subtype/SuperType
 - Logical Seperation of concern.
 - What is generic type?
-- How to declear? Method , Class , constractor, member variable of class. 
-- what is Wildcat"?" 
+- How to declear? Method , Class , constractor, member variable of class.
+- what is Wildcat"?"
 - Why/When we use Wildcat or Generics type
-- Example : 
-       
+- Example :
+
        public <T extends InterfaceA > List<? extends Comparable<? extends T>> shortThis(List<? extends Comparable<? extends T>> items){
        .... }
 - https://shantonusarker.blogspot.com/2016/03/java-generics-simplified.html
 - https://github.com/RichardWarburton/generics-examples
 
 
-# Reflection & Best Practices 
-- What is Reflection API? 
-- Reflection with Generics 
-- Reflection for annotation processing. 
+# Reflection & Best Practices
+- What is Reflection API?
+- Reflection with Generics
+- Reflection for annotation processing.
 
-# Multi-threading  & Best Practices 
+# Multi-threading  & Best Practices
 - What is java thread ?
 - Difference between Thread & Process
-- Runnable 
-- Thread Extention 
+- Runnable
+- Thread Extention
 - Executor service
 - Semaphore
 - Inter thread communication
 - Synchronization (block, method, object)
 - Wait/notify/notifyAll
-- Lock 
-- Monitoring 
-- Dead Lock 
-- Out Of memory exceptions 
+- Lock
+- Monitoring
+- Dead Lock
+- Out Of memory exceptions
 - Thread Group
 - ThreadLocal
 - Thread Safe collections
@@ -89,11 +181,11 @@ A Guide to Novice to Advance as Java Developer.
 - Futures
 - Thread Schedulers
 - Atomic Operations
-- 
+-
 
-# Annotation 
-- What is annotation 
-- Annotation Scopes 
+# Annotation
+- What is annotation
+- Annotation Scopes
 - Pre processor
 - post processor
 - Custom Annotation
@@ -101,29 +193,29 @@ A Guide to Novice to Advance as Java Developer.
 - JDK/JVM annotations
 - Repeatable annotation
 - configuration over convention
-- 
+-
 
 # AOP
 - Basic : https://www.eclipse.org/aspectj/doc/next/faq.html
-- Proxy 
-- Dependency Injection : 
+- Proxy
+- Dependency Injection :
 
- -- square dagger 
- 
- -- Guice (by google)
- 
- -- CDI (java ee6)
- 
- --Pico Container 
- 
+-- square dagger
+
+-- Guice (by google)
+
+-- CDI (java ee6)
+
+--Pico Container
+
 - IOC
 - Performance Impact : https://web.archive.org/web/20150520175004/https://docs.codehaus.org/display/AW/AOP+Benchmark
 
-# Logging 
+# Logging
 - What is logger?
 - Java logging support?
 - Different type of logging & configurations
-- static logger & best pactices. 
+- static logger & best pactices.
 - Logging configurations
 - Different logging examples : https://github.com/sarkershantonu/Java-Logging
 
@@ -134,16 +226,16 @@ A Guide to Novice to Advance as Java Developer.
 - Basic NIO operations & exceptions
 
 # JDBC
-- What is JDBC? 
+- What is JDBC?
 - connect JDBC with different Database
 - Example with different DB: https://github.com/sarkershantonu/jdbc-examples
 - Jdbc connection class
-- Result Set & different utilities. 
+- Result Set & different utilities.
 - JDBC parsing different type of data
 - JDBC blob
 - JDBC monitoring data change event from DB
-- Connection Pooling 
-- JDBC performance issues. 
+- Connection Pooling
+- JDBC performance issues.
 
 # Lambda expressions
 - Lambda syntax
@@ -174,13 +266,14 @@ A Guide to Novice to Advance as Java Developer.
 - IntStream and other special streams
 - Random stream
 - Parallel streams
- 
+
+
 # Fork/Join framework
 - ForkJoinPool
 - Classes used for Fork/Join
 - Fork/Join example
 - Fork/Join and parallel stream processing: benchmarks
- 
+
 # Date and Time API
 - Problems with Date and Calendar in Java 8
 - LocalDate, LocalTime, LocalDateTime
@@ -191,7 +284,7 @@ A Guide to Novice to Advance as Java Developer.
 - Duration class
 - Period class
 
-# Asynchronous programming 
+# Asynchronous programming
 - Problems with multithreading
 - Parallel and asynchronous programming
 - Benefits of asynchrnous approach
@@ -213,12 +306,12 @@ A Guide to Novice to Advance as Java Developer.
 
 # Serialization
 - What is Serialization & interface
-- Externalizable interface to externalize Serialization methods. 
+- Externalizable interface to externalize Serialization methods.
 - Serialization with Remote Method Invocation (RMI)
 - XML Serialization (JAXB)
 - JSON-P Serialization
 
-# Design Patterns 
+# Design Patterns
 - https://github.com/sarkershantonu/blog-projects/tree/master/DesignPatternsJava
 - https://shantonusarker.blogspot.com/p/softwarearchitecture.html
 
@@ -229,7 +322,7 @@ A Guide to Novice to Advance as Java Developer.
 
 # Java Messaging : JMS & others
 - what is java messaging?
-- JMS client & initiation 
+- JMS client & initiation
 - JMS processing
 - Event Driven Example with JMS
 - RabbitMQ
@@ -239,7 +332,7 @@ A Guide to Novice to Advance as Java Developer.
 
 # HTTP Clients
 - Apache HTTP client
-- Jsoup parsing 
+- Jsoup parsing
 - RestAssured client
 
 # Event Driven Programming
@@ -247,8 +340,8 @@ A Guide to Novice to Advance as Java Developer.
 - Event source
 - Event Object
 - Event Listner
-- Event Management 
-- Event priority 
+- Event Management
+- Event priority
 - Java Listeners
 
 
@@ -258,7 +351,7 @@ A Guide to Novice to Advance as Java Developer.
 - Guava chaching
 - Redis caching
 
-# Unit Testing : 
+# Unit Testing :
 - https://github.com/sarkershantonu/Unit-Testing-Examples/tree/master/course
 
 # Manage Object Lifecycle
@@ -279,19 +372,19 @@ A Guide to Novice to Advance as Java Developer.
 
 # Manage data/model/entity classes
 - hashCode
-- equals 
+- equals
 - toString
 - clone, deep clone, shallow clone
 - equals & == operator
-- IDE code generators. 
+- IDE code generators.
 
-# Exceptions efficiently 
+# Exceptions efficiently
 - What are Checked and unchecked exceptions?
-- How excecption works? 
+- How excecption works?
 - How to design custom/domain exception
-- simple try vs try with resources 
+- simple try vs try with resources
 
-# JVM Monitoring tools 
+# JVM Monitoring tools
 - Java Mission Control
 - JVisualVM
 
@@ -299,37 +392,37 @@ A Guide to Novice to Advance as Java Developer.
 # JVM Tuning
 - https://github.com/sarkershantonu/jvm-tuning
 
-# Java Agent 
-- What is Java Agent 
+# Java Agent
+- What is Java Agent
 - Attaching agent with CLI parameter
 - Monitoring agent
 - Data transfe through agent
 - Protocol integration with agents
 
 
-# Java Compiler API 
-- What is compiler API? 
-- DiagnosticCollector 
+# Java Compiler API
+- What is compiler API?
+- DiagnosticCollector
 - StandardJavaFileManager
 - Element Scanning
 - Annotation Processing
 - Syntax Tree (AST) api
 
-# Security 
+# Security
 - What it JKS
 - What is JCEKS
 - Keysore setup
 - setting parameter
-- Encrypting /Decrypting 
+- Encrypting /Decrypting
 - Cypher Object
 - Best Practices
-- Key distribution using keystore 
+- Key distribution using keystore
 - Externalization of parameters
-- 
+-
 
 # Scripting on JVM
 - How JVM can execute scripts on JVM
-- Example : Jmeter Implementation 
+- Example : Jmeter Implementation
 - JavaScript on JVM
 - Beanshell on JVM
 - Groovy on JVM
