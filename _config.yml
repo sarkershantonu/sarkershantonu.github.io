@@ -5,8 +5,8 @@ description: Learn Coding, Testing, DevOps & Automate.
 # avatar: "/img/picture.jpg"
 
 navbar-links:   
-  Performance:
-    - Performance All: "pages/performance"
+  Perf:
+    - Performance Test: "pages/performance"
     - Java-perf: "tag/java-performance"
     - DotNet-perf: "tag/dotnet-performance"
     - JMeter: "pages/jmeter"
