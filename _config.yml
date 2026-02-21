@@ -19,7 +19,7 @@ navbar-links:
     - Dev setup: "tag/dev-env"
     - Tools: "tag/tools"
     - Docker: "tag/docker"
-    - LinuxAdmin: "pages/linux"
+    - Linux Admin: "pages/linux"
   SDET:
     - Testing Basics: "tag/testing"
     - Selenium: "tag/selenium"
