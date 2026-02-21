@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Design Patterns"
-subtitle: I build systems for API/UI/Performance testing with AI with AI
+subtitle: I build systems for API/UI/Performance testing with AI
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
 meta-description: "SDET/DevOps/Java/CS Graduate"
