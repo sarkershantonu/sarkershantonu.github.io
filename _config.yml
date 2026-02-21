@@ -6,10 +6,10 @@ description: Learn Coding, Testing, DevOps & Automate.
 
 navbar-links:   
   Performance:
-    - Performance Test: "pages/performance"
+    - Performance Test: "tag/performance"
     - Java-perf: "tag/java-performance"
     - DotNet-perf: "tag/dotnet-performance"
-    - JMeter: "pages/jmeter"
+    - JMeter: "tag/jmeter"
   SDET:
     - Testing Basics: "tag/testing"
     - Selenium: "tag/selenium"
@@ -17,15 +17,15 @@ navbar-links:
     - TestNG: "tag/testng"
     - Robotium: "tag/robotium"
   DEV:
-    - Coding: "pages/programming"
-    - Design Patterns: "pages/dp"
-    - All DotNet: "pages/dotnet"
-    - All Java : "pages/java"
+    - Coding: "tag/code"
+    - Design Patterns: "tag/dp"
+    - All DotNet: "tag/dotnet"
+    - All Java : "tag/java"
   DevOps:
     - Dev setup: "tag/dev-env"
     - Tools: "tag/tools"
     - Docker: "tag/docker"
-    - Linux Admin: "pages/linux"
+    - Linux Admin: "tag/linux"
   All:
     - 2009 : "pages/2009"
     - 2012 : "pages/2012"
