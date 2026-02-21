@@ -24,7 +24,7 @@ comments: false
 3. [Extracting info from java Exception-Trace messages](/2013/07/01/regex-java-exception-extract/)
 4. [How to validate link with Regular Expression?](/2013/07/05/regex-link-validation/)
 
-# Agile Boards (todo=> update with images since Trello removed free access )
+# Agile Boards (todo=> update Trello Links )
 1. [Simple Agile Board](https://trello.com/b/noYl6vDp/simple)
 2. [Simple Kanban Board](https://trello.com/b/VmLfQlix/kan-ban-simple)
 3. [Kaz Software Kanban Board](https://trello.com/b/7pdQ0hJr/kaz-software)
