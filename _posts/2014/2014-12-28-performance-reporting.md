@@ -23,7 +23,7 @@ But, what I found, every one is not very good with those numbers. Actually, i th
 
 So, how can we get context? Its not that hard. Performance testing is related to certain type of people in the group. And, a good performance engineer should add value with those results by analyze them based on different goal and requirements. 
 
-Please read performance [**goal**](https://sarkershantonu.github.io/2014/12/15/performance-test-goals/) and [**requirements**](https://sarkershantonu.github.io/2014/12/16/performance-requirements/) before this. 
+Please read performance [**goal**](/2014/12/15/performance-test-goals/) and [**requirements**](/2014/12/16/performance-requirements/) before this. 
 
 So, after getting requirement we have to make reports. I will give an example of web application(financial domain) to have better understanding. So, lets discuses what should be the steps.
 

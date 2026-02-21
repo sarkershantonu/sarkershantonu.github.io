@@ -25,9 +25,9 @@ And based on that we need to find out
 - How can we solve?
 - How to prevent those?
 
-Before driving to deeper into requirements, please read about [**performance testing goals**](https://sarkershantonu.github.io/2014/12/15/performance-test-goals/).
+Before driving to deeper into requirements, please read about [**performance testing goals**](/2014/12/15/performance-test-goals/).
 
-As we know about [**performance test types**](https://sarkershantonu.github.io/2014/11/25/performance-test-types/), if we realize, we will get requirements based on Application and the infrastructure. And we need to have those related to time. Usually time are measured in Millisecond and size in bytes. So, based on that the performance requirements must be involve in following types..
+As we know about [**performance test types**](/2014/11/25/performance-test-types/), if we realize, we will get requirements based on Application and the infrastructure. And we need to have those related to time. Usually time are measured in Millisecond and size in bytes. So, based on that the performance requirements must be involve in following types..
 
 ## Application Requirements :
 
@@ -93,7 +93,7 @@ Analysis should fully based on performance test goals. So that we can pinpoint t
 #### User Stories : 
 In agile based projects, performance tester should come up with Performance Scenario. This is important because, it will make easy to understand by other members of the team. It is very easy to make, just follow standard user story making rules. Like, from my example, one story can be , a client(mobile/web) should be able to process certain type of XML in 1200ms when server is processing 80 other requests in 70% of resource loaded.
 
-And, if you don’t have requirements, use my previous [**post**](https://sarkershantonu.github.io/2014/12/15/performance-test-goals/) to come up with performance requirements for your project.
+And, if you don’t have requirements, use my previous [**post**](/2014/12/15/performance-test-goals/) to come up with performance requirements for your project.
 
 So, in summary this shows the basic idea : 
 

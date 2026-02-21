@@ -26,10 +26,10 @@ This page contains all post related to JMeterTest Executions.
 - [Jmeter-Reporting](/2020/09/04/maven-jmeter-reporting/)
 - [modify-jmeter-jars](/2020/09/06/maven-jmeter-modify-jars/)
 - [Modify Properties](/2013/09/13/maven-jmeter-Properties/)
-- [Manage JMX](https://sarkershantonu.github.io/2020/09/14/maven-jmeter-plugins-jmx/)
-- [Distributed Testing](https://sarkershantonu.github.io/2020/09/18/maven-jmeter-distributed-testing/)
-- [Proxy Setting and Tips](https://sarkershantonu.github.io/2020/09/20/maven-jmeter-tricks-proxy/)
-- [**Popular JMeterCLI Commands**](https://sarkershantonu.github.io/2021/10/08/popular-jmeter-cli-commands/)
+- [Manage JMX](/2020/09/14/maven-jmeter-plugins-jmx/)
+- [Distributed Testing](/2020/09/18/maven-jmeter-distributed-testing/)
+- [Proxy Setting and Tips](/2020/09/20/maven-jmeter-tricks-proxy/)
+- [**Popular JMeterCLI Commands**](/2021/10/08/popular-jmeter-cli-commands/)
 
 ### [JMeterMaven Github](https://github.com/sarkershantonu/jmeter-maven-examples)
 
@@ -40,7 +40,7 @@ This page contains all post related to JMeterTest Executions.
 
 # JMeterTips & Tricks : 
 - [How many users jmeter can support?](http://shantonusarker.blogspot.com/2015/04/how-many-user-jmeter-can-support.html)
-- [JMeter Tips and Tricks](https://sarkershantonu.github.io/2013/01/31/best-practices-jmeter/)
+- [JMeter Tips and Tricks](/2013/01/31/best-practices-jmeter/)
 - [How to get Session id/ JSON id / Cookie id / token/ view state?](http://shantonusarker.blogspot.com/2013/04/jmeter-tips-and-tricks-part-2.html)
 - [How to make reports(and comments) in Jmeter?](http://shantonusarker.blogspot.com/2013/04/how-to-make-reportsand-comments-in.html)
 

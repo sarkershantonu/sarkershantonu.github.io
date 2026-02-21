@@ -9,7 +9,7 @@ excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can customize jmeter when executing with maven plugin. This is continuation post of [previous article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can customize jmeter when executing with maven plugin. This is continuation post of [previous article](/2020/08/28/maven-jmeter/).
 
 if we use very minimum elements in Jmeter, we may not need jmeter complete version to run, we can run minimum jmeter. That means, less download time, less java memory usages, faster loading. We will see this here. 
 

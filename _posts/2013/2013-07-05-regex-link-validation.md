@@ -11,7 +11,7 @@ comments: true
 ---
 ![image](/images/regex/regex-tut-1.jpg)
 
-In this article, we are going to see how we can retrieve different information from an email address. To know regular expression basics, please see [this old post](https://sarkershantonu.github.io/2013/06/29/regular-expression-intro/).
+In this article, we are going to see how we can retrieve different information from an email address. To know regular expression basics, please see [this old post](/2013/06/29/regular-expression-intro/).
 
 ### What is a Link?
 First , we have to identify , what is the characteristics of a **web link**. The generic formula of a link is ```scheme://host.domain:port/path/filename```

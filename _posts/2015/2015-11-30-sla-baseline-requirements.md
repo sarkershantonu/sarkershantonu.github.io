@@ -11,7 +11,7 @@ comments: true
 ---
 In this article we are going to see how we can formulate or introduce performance requirement in the team where is no requirement in place. Mainly we will see how to introduce Performance SLA or Baseline to create awareness.
 
-To know more about performance requirements please read [**this post**](https://sarkershantonu.github.io/2014/12/16/performance-requirements/). 
+To know more about performance requirements please read [**this post**](/2014/12/16/performance-requirements/). 
 
 ## SLA : (Service Level Agreement):
 I am not going details with definition, but in short,  SLA is the agreement at the end point of a **service/solution/software**, in our case a product. We will see details of different SLA with a web app example.
@@ -21,7 +21,7 @@ SLA can be also be described as
 ### Baseline : 
 For comparing , when we select a value as Ideal/standard or basis of all comparison, it is called based line. You can google for more detail info, but this is just simple to understand. All baseline values has preconditions details as standard.
 
-Form [**previous post**](https://sarkershantonu.github.io/2014/12/16/performance-requirements/) , we know , performance is all about how fast and how many users.
+Form [**previous post**](/2014/12/16/performance-requirements/) , we know , performance is all about how fast and how many users.
 
 So, Let's assume we have an web application like below architecture(2 tire architecture) .
 - User interact with browser with web server.

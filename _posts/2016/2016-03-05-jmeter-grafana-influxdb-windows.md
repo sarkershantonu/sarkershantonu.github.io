@@ -9,7 +9,7 @@ excerpt: "Blog on Live Jmeter Test Result Monitoring"
 gh-badge: [star,follow]
 comments: true
 ---
-This is continuing post of [Live Performance Dashboard](https://sarkershantonu.github.io/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) only this time with windows(as I have promised). I would suggest, please visit that post to continue.
+This is continuing post of [Live Performance Dashboard](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) only this time with windows(as I have promised). I would suggest, please visit that post to continue.
 
 In this example, I am going to setup influxdb & Grafana in windows 8x64 PC in VM. You can use real PC/AWS. And like as before, I will run jmeter in my local PC to test keeping monitoring system isolated. My Local Address (in this whole example) : 172.16.244.135
 
@@ -63,18 +63,18 @@ My [Windows influxdb.conf](/files/grafana-jmeter-influxdb/win/influxdb.conf)
 
 - Goto browser http://172.16.244.135:3000/. And you should able to see **grafana home page** for login prompt. use **admin, admin** to login 
 
-Like as previous [**post**](https://sarkershantonu.github.io/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/), configure influxDB settings into grafana. 
+Like as previous [**post**](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/), configure influxDB settings into grafana. 
  
 ![data-source](/images/jmeter-grafana-influxdb-windows/db-source.jpg)
 
-Like as previous [**post**](https://sarkershantonu.github.io/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/), make a dashboard. (I am using same request count) 
+Like as previous [**post**](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/), make a dashboard. (I am using same request count) 
 
 ![data-source](/images/jmeter-grafana-influxdb-windows/data-graph.jpg)
 
 So, we are done setup, now lets test it.  
 
 ## Jmeter Tests : 
-Like as previous [**post**](https://sarkershantonu.github.io/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) , I am using same test case just changed the URL to 172.16.244.135
+Like as previous [**post**](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) , I am using same test case just changed the URL to 172.16.244.135
  
 Now, if we run jmeter  
 - goto http://172.16.244.135:8083 

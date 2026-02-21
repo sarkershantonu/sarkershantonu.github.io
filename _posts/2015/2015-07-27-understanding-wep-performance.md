@@ -101,7 +101,7 @@ Based on technology each items has its own different performance counters. For d
 
 To pinpoint your bottlenecks and validate improvements, you must know your application activity. Each technology component has its own monitoring tools.
 
-**Java** : [Java Mission Control](https://www.oracle.com/java/technologies/jdk-mission-control.html) , [**Visual VM**](https://visualvm.github.io/), [**JDK/Command line tools**](https://sarkershantonu.github.io/tag/jdk-tools/)
+**Java** : [Java Mission Control](https://www.oracle.com/java/technologies/jdk-mission-control.html) , [**Visual VM**](https://visualvm.github.io/), [**JDK/Command line tools**](/tag/jdk-tools/)
 
 **Dotnet** : PerfView & Framework tools along with all Sysinternals-Suite,[ILSpy](https://github.com/icsharpcode/ILSpy) ,[**Glimpse**](https://docs.microsoft.com/en-us/aspnet/mvc/overview/performance/profile-and-debug-your-aspnet-mvc-app-with-glimpse), [**dotnet-monitor**](https://github.com/anurse/dotnet-monitor)
 

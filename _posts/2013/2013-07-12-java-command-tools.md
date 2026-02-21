@@ -23,7 +23,7 @@ We need to learn these when we are doing management or maintenance java applicat
 - Running Android unit tests
 - Appending command in the build system for build or continuous integration in JAVA projects.
 
-To install & configure java, please see [**this post**](https://sarkershantonu.github.io/2013/07/02/java-installation/)
+To install & configure java, please see [**this post**](/2013/07/02/java-installation/)
 
 Before you read forward, you may need to have clear idea on followings : 
 

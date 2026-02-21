@@ -12,7 +12,7 @@ comments: true
 In this article we are going to see how can we perform Jmeter testing using maven, so that we can use this in **CI/CD**. 
 
 ## What is Jmeter? 
-Jmeter is a performance testing tool which can be integrated with CI/CD. To know details you may [visit](https://sarkershantonu.github.io/tag/jmeter-script/)
+Jmeter is a performance testing tool which can be integrated with CI/CD. To know details you may [visit](/tag/jmeter-script/)
 
 ## What is Maven 
 Maven is Java Build automation tool. 

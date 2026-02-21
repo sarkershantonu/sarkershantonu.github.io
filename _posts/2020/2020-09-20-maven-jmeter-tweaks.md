@@ -9,7 +9,7 @@ excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can efficiently use Jmeter maven. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can efficiently use Jmeter maven. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
 
 ### Jmeter under proxy 
 When you are working in corporate network or private cloud, you may need to run your tests under a proxy. if you want to specify corporate proxy configuration , under  <configuration> use this 

@@ -198,8 +198,8 @@ So, now you get your leaking object, you get who is calling, how it is called. A
 Note : Most of tools trigger a Full GC before taking snapshot, so for analysis you need consider that event with mealtime data monitoring and heap comparison analysis. For this, you may use free tools(shipped with framework) to take manual heap snapshot and compare them. 
 
 These are good reads for this article :
-1. [A quick overview on JVM Architecture](https://sarkershantonu.github.io/2015/08/02/jvm-architecture/)
-2. [What are the elements inside DotNet?](https://sarkershantonu.github.io/2015/04/25/dotnet-clr-elements/)
-3. [What is CLR? How it works?](https://sarkershantonu.github.io/2015/04/27/dotnet-clr-how-it-works/)
+1. [A quick overview on JVM Architecture](/2015/08/02/jvm-architecture/)
+2. [What are the elements inside DotNet?](/2015/04/25/dotnet-clr-elements/)
+3. [What is CLR? How it works?](/2015/04/27/dotnet-clr-how-it-works/)
 
  Thanks.. :)

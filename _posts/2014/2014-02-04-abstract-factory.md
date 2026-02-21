@@ -15,7 +15,7 @@ In this article we are going to learn about **Abstract Factory**(or sometimes, o
 - How to implement and what are the uses.
 
 # What is Factory Pattern?
-Factory pattern is the ultimate factory implementation. In my .[previous post of factory method pattern](https://sarkershantonu.github.io/2014/02/02/factory-method/) we knew about a method which works dynamically(run time) by loose coupled objects. In factory pattern we will find every aspect is dynamic.
+Factory pattern is the ultimate factory implementation. In my .[previous post of factory method pattern](/2014/02/02/factory-method/) we knew about a method which works dynamically(run time) by loose coupled objects. In factory pattern we will find every aspect is dynamic.
 
 In factory method we get only a method, but here we get a full class of that factory behavior(that is why it called abstract factory). 
 

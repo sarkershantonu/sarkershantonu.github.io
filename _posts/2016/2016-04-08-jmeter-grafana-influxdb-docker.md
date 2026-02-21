@@ -9,9 +9,9 @@ excerpt: "Blog on Live Jmeter Test Result Monitoring"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to make a Docker Image containing grafana, influxdb. The target is, we have seen making live dashboard in Ubuntu & windows in VM, and we will make docker images to do the same. (no need VMs). For this we need to have docker in our PC. See [how to install docker in Ubuntu](https://sarkershantonu.github.io/2016/03/08/install-docker/).For other platform, you may follow this.
+In this article we are going to make a Docker Image containing grafana, influxdb. The target is, we have seen making live dashboard in Ubuntu & windows in VM, and we will make docker images to do the same. (no need VMs). For this we need to have docker in our PC. See [how to install docker in Ubuntu](/2016/03/08/install-docker/).For other platform, you may follow this.
 
-The plan is to have two different containers running influxdb and grafana and when we run Jmeter, this actually store results in influxdb and grafana dashboard is showing.To know more about grafana dashboard configuration or influxdb configuration, i request you to read [**this**](https://sarkershantonu.github.io/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/)  
+The plan is to have two different containers running influxdb and grafana and when we run Jmeter, this actually store results in influxdb and grafana dashboard is showing.To know more about grafana dashboard configuration or influxdb configuration, i request you to read [**this**](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/)  
 
 ### Run container for influxdb: 
 I am not using default influxdb container as we will use our own configuration files to run with.
@@ -24,7 +24,7 @@ I am not using default influxdb container as we will use our own configuration f
 2. Install VIM, wget, curl , in case you need those software . I prefer those for editing or downloading for long term image using. Only wget is mandatory to download
 3. Install Key and certificates (basic for influxdb)
 4. Download, install & remove influxdb installer.
-5. Expose our necessary port(read [this](https://sarkershantonu.github.io/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) to know about default port) which will work with localhost.
+5. Expose our necessary port(read [this](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) to know about default port) which will work with localhost.
 6. Setting some environment variable
 7. Putting CMD command so that when container will run, this command can run influxdb with our given configuration.
 
@@ -48,7 +48,7 @@ if you dont add this file, you have use this command for building.
 
 (if you dont make those bat file, run commands in cli)
 
-Now, check influxdb like following my [**this post**](https://sarkershantonu.github.io/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/). 
+Now, check influxdb like following my [**this post**](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/). 
 
 ### Run container for grafana: 
 I am using default grafana docker image(grafana/grafana:latest) . I pretty much follow the items form [**here**](https://github.com/grafana/grafana-docker), just in some optimized manner(following mandatory steps). This is just default steps for grafana container , no spatial configuration.  So, like as influx db 
@@ -73,14 +73,14 @@ I am using default grafana docker image(grafana/grafana:latest) . I pretty much 
 
 - Step 7 : From command line, run **run-grafana-docker.sh**
 
-For the first time it will download and install and after that everything is okay.Now, check grafana like following my [**this post**](https://sarkershantonu.github.io/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/). You need to login, add database and organize dashboard for jmeter monitoring.  
+For the first time it will download and install and after that everything is okay.Now, check grafana like following my [**this post**](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/). You need to login, add database and organize dashboard for jmeter monitoring.  
 
 ### Jmeter-Grafana docker Live monitoring :  
-- This was my backend listener from [**previous post**](https://sarkershantonu.github.io/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) 
+- This was my backend listener from [**previous post**](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) 
 
 ![backend-listener](/images/docker/jmeter-grafana-influxdb-docker/backend-litenter.jpg)
 
-And, if you run jmeter, you can see dashboard. Again for dashboard configuration, use steps from my  [**previous post**](https://sarkershantonu.github.io/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) 
+And, if you run jmeter, you can see dashboard. Again for dashboard configuration, use steps from my  [**previous post**](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) 
 
 ![influxdb](/images/docker/jmeter-grafana-influxdb-docker/influxdb-measurement.jpg)
 

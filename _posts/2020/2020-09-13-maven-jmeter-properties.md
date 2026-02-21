@@ -9,7 +9,7 @@ excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can add jmeter properties & configurations in maven plugin. This is continuation post of my [previous article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can add jmeter properties & configurations in maven plugin. This is continuation post of my [previous article](/2020/08/28/maven-jmeter/).
 
 ### Properties in jmeter 
 - **jmeter.properties** : these are jmeter internal component properties 

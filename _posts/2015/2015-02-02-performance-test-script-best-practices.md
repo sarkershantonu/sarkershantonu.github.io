@@ -11,7 +11,7 @@ comments: true
 ---
 In this article we are going to know about some tips and tricks on writing scripts for performance testing in popular performance testing tools.(aka vuser script).
 
-This tips might be helpful for writing performance test script. I would recommend you to read [**my previous post**](https://sarkershantonu.github.io/2015/01/31/vuser-performance-test-script/).
+This tips might be helpful for writing performance test script. I would recommend you to read [**my previous post**](/2015/01/31/vuser-performance-test-script/).
 
 #### Tips 1: 
 I prefer, separate vuser script for separate test cases. I have seen some engineers use same test case having multiple steps based on condition to perform multiple steps to perform a scenario. That makes the test case very complex and after a time , it is hard to understand. So, better, if you have different verity of test step for a single scenario, i suggest put them separate test case. And mix-up those test steps during execution. 
@@ -39,7 +39,7 @@ Try to familiar with different type of data format like how base46 encoding look
 Understand all locally executable functions clearly. When you are creating Vuser, that simulate load, you have to understand how can you simulate those executable functions. Example, let say for a chat application, you might have simulated log in, but after login , local client set some parameter(based on implementation) before initiate communication. You will find same behavior for web application where you use JS/Ajax calls for various functionality. And , this is become complex if you are testing single page application. You need to keep track on all of those JS execution as well as full sequence and logic. Don’t trust on some thing happens automatically. Be clear on all of your gray area of understanding the system.
 
 #### Tips 7: 
-Try same test with another performance tools to have different view of the system that will help you clear understanding on what you are doing. This helps spatially on correlation suggestion. I use [WAPTPro](https://www.loadtestingtool.com/pro.shtml) (personal choice). You may see my [post](https://sarkershantonu.github.io/2013/01/08/Introduction-to-wapt-pro/) to know about it from basic level.
+Try same test with another performance tools to have different view of the system that will help you clear understanding on what you are doing. This helps spatially on correlation suggestion. I use [WAPTPro](https://www.loadtestingtool.com/pro.shtml) (personal choice). You may see my [post](/2013/01/08/Introduction-to-wapt-pro/) to know about it from basic level.
 
 #### Tips 8: 
 Do not trust auto co relation. For co relation, you tool need to determine about you application architecture which is impossible. Tools can help to suggest but, try co relation manually. Often, tool suggestion are good for platform you are using (like , for web, if you use asp.net, load runner or wapt will suggest you to co relate view state as it is part of asp.net by default). My suggestion will be, if you ever use co-relation which are suggested , verify this with regular expression tester. To , do that, just copy recorded response data and past on regular expression tester body and test the regular expression that the tool suggested. Load runner by default use Left & Right boundary to make co relation function. Just convert that left and right boundary expression meaning to single line regular expression to verify.

@@ -30,7 +30,7 @@ So, by architecture, a thread will have
 
 ![thread-process](/images/java/thread/thread-process.jpg)
 
-To know memory management details , you can read [**JVM architecture**](https://sarkershantonu.github.io/2015/08/02/jvm-architecture/).
+To know memory management details , you can read [**JVM architecture**](/2015/08/02/jvm-architecture/).
 
 **Note** : As you know, from CPU world , there is shared CPU core technology called **Hyper Threading/Hyper Transport** which is core sharing technology that enables two processes running under same CPU core. Please dont confuse with this. 
 

@@ -11,7 +11,7 @@ comments: true
 ---
 In this post I will provide how to reproduce Java OutOfMemoryError :Unable to create new native thread . We will see how to recreate and what are the impact in monitoring tools.
 
-This is a continuing article of [out of memory error/explanation](https://sarkershantonu.github.io/2015/08/21/java-oom-why/).  
+This is a continuing article of [out of memory error/explanation](/2015/08/21/java-oom-why/).  
 
 I am using **Oracle JVM 1.6 x64** & **Oracle JVM 1.8 x64** on windows 7 x64/8gb ram/ 2.5Ghz Core i5 laptop. 
 
@@ -25,7 +25,7 @@ I am using **Oracle JVM 1.6 x64** & **Oracle JVM 1.8 x64** on windows 7 x64/8gb 
 
 I am using some JVM flags to get detail GC information and monitoring via JMX. 
 
-Now, for the nature of the error, it is easily untestable , due to PC’s limitations, JVM is unable to create new thread. Again, to know about the error, you can visit [**the original post**](https://sarkershantonu.github.io/2015/08/21/java-oom-why/).
+Now, for the nature of the error, it is easily untestable , due to PC’s limitations, JVM is unable to create new thread. Again, to know about the error, you can visit [**the original post**](/2015/08/21/java-oom-why/).
 
 ### Scenario :
 I will write a function which will actually create many threads, start them, make them a demon thread(so that they are kept running) and store all thread in a collection. 

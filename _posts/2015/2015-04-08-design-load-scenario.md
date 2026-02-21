@@ -13,7 +13,7 @@ In this article we are going learn about **Load Profile** for performance testin
 
 I am adding my experiences, feel free to comment your experiences too.
 
-Before starting this article, I would recommend you to have clear idea on [Performance Goal](https://sarkershantonu.github.io/2014/12/15/performance-test-goals/), [Performance Requirement](https://sarkershantonu.github.io/2014/12/16/performance-requirements/). 
+Before starting this article, I would recommend you to have clear idea on [Performance Goal](/2014/12/15/performance-test-goals/), [Performance Requirement](/2014/12/16/performance-requirements/). 
 
 ### Steps 1 : Understand your App and Users:
 Get to know your product in more details from business requirements or any available requirement document (SRS,BRS etc). We need to know mainly

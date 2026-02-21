@@ -9,7 +9,7 @@ excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can configure Jmeter with plugins. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can configure Jmeter with plugins. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
 
 ### What is Jmeter Plugin? 
 As jmeter is build with plugin architecture, community come forward with different types of plugins when required. And most of the plugins are open sourced. 
@@ -22,7 +22,7 @@ I would suggest to keep jmeter small in size, that means , Only include plugins 
 
 In this example, we are going to see,how to include multiple plugins together as well as single plugin. 
 
-From [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/), you can know the basic POM structure. Let's see the jmeter plugins part. 
+From [this original article](/2020/08/28/maven-jmeter/), you can know the basic POM structure. Let's see the jmeter plugins part. 
 
 Among jmeter plugins, one of useful plugin is their thread groups. These thread groups were actually introduced to match up with Load Runner's thread models. 
 

@@ -9,7 +9,7 @@ excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can perform distributed testing using maven jmeter plugin. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can perform distributed testing using maven jmeter plugin. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
 
 To know basic about Jmeter distributed testing, you may visit [**this**](https://jmeter.apache.org/usermanual/remote-test.html) or [my blog](https://shantonusarker.blogspot.com/2013/01/how-to-distribute-test-in-jmeter.html). 
 

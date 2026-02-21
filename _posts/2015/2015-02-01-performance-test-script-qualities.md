@@ -9,7 +9,7 @@ excerpt: "Blog on Performance testing"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article, we are going to see some basic quality of a performance test script which is also know as VUser script. This post actually continuation of [**this**](https://sarkershantonu.github.io/2015/01/31/vuser-performance-test-script/)
+In this article, we are going to see some basic quality of a performance test script which is also know as VUser script. This post actually continuation of [**this**](/2015/01/31/vuser-performance-test-script/)
 
 ## Qualities of a VUser Script :
 

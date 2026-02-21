@@ -15,7 +15,7 @@ In this article we are going to know about different performance counters in dot
 - As we monitor dotnet run time environment (CLR) during performance test, we need to know what to look for if we are measuring performance affected by Memory allocation , deallocation. 
 - This is a very important if we are measuring dotnet performance impact for a particular application. 
 
-Before starting this, i would request readers to go through basic dotnet CLR introduction. [This post might help in very basic level](https://sarkershantonu.github.io/2015/04/27/dotnet-clr-how-it-works/)
+Before starting this, i would request readers to go through basic dotnet CLR introduction. [This post might help in very basic level](/2015/04/27/dotnet-clr-how-it-works/)
  
 ### Memory Counter : Allocation/Size
 - **Large Object Heap size (byte)** : Size of large object(grater 85kb) heap which are spatially handled by GC directly(not using generational model). 
@@ -164,7 +164,7 @@ This is another important counter for performance monitoring for individual code
 That means, for example, this shows how much percentage need for JIT to compile a piece of code in respect to total method compilation. This counter is updated at the end of every JIT compilation phase.(neutralize the counter for each phase) 
 
 # F:CLR Class loaders' Counters
-If we are measuring performance affected by Class loaders, assemblies, app domains inside CLR, we need this. For basic idea of CLR, [please see this post](https://sarkershantonu.github.io/2015/04/27/dotnet-clr-how-it-works/)
+If we are measuring performance affected by Class loaders, assemblies, app domains inside CLR, we need this. For basic idea of CLR, [please see this post](/2015/04/27/dotnet-clr-how-it-works/)
 
 ### Related to Class loader : 
 - **Bytes in Loader Heap** : Class loader committed memory (in RAM)across all app domain.

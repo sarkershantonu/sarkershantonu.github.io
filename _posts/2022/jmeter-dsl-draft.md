@@ -4,7 +4,7 @@ Now, you may follow one of the examples from original creator but this blog inte
 
 
 ### What is Jmeter? 
-Jmeter is known to be one of the most popular tool for performance testers. It's a decades old apache project. You can see some of my jmeter [**blog posts**](https://sarkershantonu.github.io/tag/jmeter-script/) to know details 
+Jmeter is known to be one of the most popular tool for performance testers. It's a decades old apache project. You can see some of my jmeter [**blog posts**](/tag/jmeter-script/) to know details 
 
 Left shift initiative actually inspired this creation of jmeter dsl. Initially , we had [**ruby jmeter**](https://github.com/flood-io/ruby-jmeter) from flood.io. 
 

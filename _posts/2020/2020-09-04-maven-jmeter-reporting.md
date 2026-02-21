@@ -9,7 +9,7 @@ excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can get good reports in jmeter after tests. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can get good reports in jmeter after tests. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
 
 # Jmeter Reports
 In Jmeter, we can have different type of test results. 

@@ -9,7 +9,7 @@ excerpt: "Blog on Java Exception"
 gh-badge: [star,follow]
 comments: true
 ---
-In this post I will provide how to reproduce Java OutOfMemoryError : GC overhead limit exceeded . We will see how to reproduce and what we can see in monitoring tools. This is a continuing article of [out of memory error/explanation](https://sarkershantonu.github.io/2015/08/21/java-oom-why/).  
+In this post I will provide how to reproduce Java OutOfMemoryError : GC overhead limit exceeded . We will see how to reproduce and what we can see in monitoring tools. This is a continuing article of [out of memory error/explanation](/2015/08/21/java-oom-why/).  
 
 I am using **Oracle JVM 1.6 x64** & **Oracle JVM 1.8 x64** on windows 7 x64/8gb ram/ 2.5Ghz Core i5 laptop. 
 
@@ -24,7 +24,7 @@ I am using **Oracle JVM 1.6 x64** & **Oracle JVM 1.8 x64** on windows 7 x64/8gb 
 3. Yourkit (optional)
 
 ### Necessary JVM Parameters
-I am using some JVM flags to get detail GC information and monitoring via JMX. Please see [**this post in step 1**](https://sarkershantonu.github.io/2015/08/25/java-oom-permgen-metaspace/) for detail.
+I am using some JVM flags to get detail GC information and monitoring via JMX. Please see [**this post in step 1**](/2015/08/25/java-oom-permgen-metaspace/) for detail.
 
 ```
 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps
@@ -41,7 +41,7 @@ I am using some JVM flags to get detail GC information and monitoring via JMX. P
 ### Why GC overhead error?
 Due to GC is unable to free up the heap with its best efforts. The main cause is, GC is taking 98% of CPU time to cleanup heap where heap is not feeing up more than 2%. In our example, we will see GC overhead multiple time as heap is occupied after certain amount of item entry.
 
-Again, to know about the error, you can visit [this original post](https://sarkershantonu.github.io/2015/08/21/java-oom-why/)
+Again, to know about the error, you can visit [this original post](/2015/08/21/java-oom-why/)
 
 ## Scenario: 
 Very simple scenario, I am adding a string in a map(it is costly, if we use array list, it will take more time) in an infinite loop.

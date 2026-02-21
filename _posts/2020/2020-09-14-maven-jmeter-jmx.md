@@ -9,7 +9,7 @@ excerpt: "Blog on Jmeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can manage Jmeter Test Cases in maven plugin. This is continuation post of [this original article](https://sarkershantonu.github.io/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can manage Jmeter Test Cases in maven plugin. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
 
 ### Defaults : Run All Tests 
 By default maven jmeter plugins assume your all test cases are present in **/src/test/jmeter** folder. So when you just specify jmeter executions, it will run all the test, no need specify any test. 

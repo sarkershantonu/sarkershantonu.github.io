@@ -40,7 +40,7 @@ This particular type is fully based on requirements. Like as in our current proj
 
 We run regression test script(critical items only) so that we case see where is our business transition timing is going.
 
-As you know from my previous post, [type of performance testing](https://sarkershantonu.github.io/2014/11/25/performance-test-types/), this will lead us to two basic part, performance measurement and performance monitoring or debugging.
+As you know from my previous post, [type of performance testing](/2014/11/25/performance-test-types/), this will lead us to two basic part, performance measurement and performance monitoring or debugging.
 
 ### Client-side Performance Measurement :
 This part is tricky. In performance world. when we say performance tools, it all refers to **server side** performance measurement tool like loadrunner, jmeter etc. So, what about client side performance? 

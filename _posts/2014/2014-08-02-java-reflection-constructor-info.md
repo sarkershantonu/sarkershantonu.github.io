@@ -11,7 +11,7 @@ comments: true
 ---
 In this article we will see how can we retrieve Class Related Information using Java Reflection .We will see Constructor Names .
 
-Please read this [**post**](https://sarkershantonu.github.io/2014/08/01/java-reflection-class-info/) before follow post. 
+Please read this [**post**](/2014/08/01/java-reflection-class-info/) before follow post. 
 
 ## How to get all Constructors of a class?
 

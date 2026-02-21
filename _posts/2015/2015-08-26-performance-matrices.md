@@ -11,7 +11,7 @@ comments: true
 ---
 In this article, we are going to see popular performance metrics/graphs used in performance report for indicating performance of an application.
 
-In [previous article](https://sarkershantonu.github.io/2015/07/22/performance-reporting-kpi/), we knew about KPI. KPI is summary of all metrics. So let's discuss about detail performance matrices.
+In [previous article](/2015/07/22/performance-reporting-kpi/), we knew about KPI. KPI is summary of all metrics. So let's discuss about detail performance matrices.
 
 ### Performance Metrics Sources
 As we know, while doing performance testing, we have several kinds of tools providing performance measurements. So, these are actually different source of performance metrics.
@@ -23,8 +23,8 @@ As we know, while doing performance testing, we have several kinds of tools prov
 And added to that, manually we need to provide performance metrics based on performance or business goals.
 
 To know more detail about performance goals, you may visit this posts
-1. [Performance test goals](https://sarkershantonu.github.io/2014/12/15/performance-test-goals/) 
-2. [What are Performance requirements?](https://sarkershantonu.github.io/2014/12/16/performance-requirements/)
+1. [Performance test goals](/2014/12/15/performance-test-goals/) 
+2. [What are Performance requirements?](/2014/12/16/performance-requirements/)
 
 In this first part, I will describe only the measurement that we used get from load generating tools. 
 

@@ -102,7 +102,7 @@ window.performance. You will be able to see full timing. (here is image from fir
 It is very mature to have such capability of an web application to get timing inbuilt with application. There are lots of framework & libraries for that. One of them is [**Boomerang**](https://github.com/lognormal/boomerang). It is simple a JS framework that you can use measure time. Again, like as other frameworks, it not only gives navigation timing, it can also give you detail of request processing timing which is very helpful to track down performance bottle knacks.  
 
 ### By Jmeter-webdriver sampler 
-In Jmeter, we can drive selenium driven test to run browser and measure time. This way we can get time whenever we want , spatially useful when running any performance test in parallel. You can get full details [**here**](https://sarkershantonu.github.io/pages/jmeter-webdriver/) 
+In Jmeter, we can drive selenium driven test to run browser and measure time. This way we can get time whenever we want , spatially useful when running any performance test in parallel. You can get full details [**here**](/pages/jmeter-webdriver/) 
 
 ### By a Proxy : 
 We can also use local proxy to measure the timing when the app is running in a browser. My favorite is fiddler (for windows)
@@ -196,7 +196,7 @@ please see the command line information regarding performance test exertion
 
 ![junit-benchmark](/images/navigation-timing/junit-benchmark.jpg)
 
-From here, we can see, like as regular performance test, we can include thread number, iteration inside tests and measure timing. Very useful when you are testing API level test. you may see this blog for more [**details**](https://sarkershantonu.github.io/2017/01/08/junit-benchmark/)
+From here, we can see, like as regular performance test, we can include thread number, iteration inside tests and measure timing. Very useful when you are testing API level test. you may see this blog for more [**details**](/2017/01/08/junit-benchmark/)
 
 #### By running JavaScript in Selenium : 
 As we know, we can run JavaScript in selenium, so if we run navigation timing scripts in web driver, we can easily get the all type of timing. Here is one single helper class **NevigationTimeHelper** which takes a driver and get all timing.

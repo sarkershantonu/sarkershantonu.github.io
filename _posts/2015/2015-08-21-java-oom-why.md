@@ -95,7 +95,7 @@ So, we can find this error in
 - OS is trying to create a new thread.
 - OS refuses or has no native memory allocation for a new thread. 
 
-As we know when a thread is created, thread specific register, stack and all other memory allocated. [Please see JVM architecture for more details](https://sarkershantonu.github.io/2015/08/02/jvm-architecture/).
+As we know when a thread is created, thread specific register, stack and all other memory allocated. [Please see JVM architecture for more details](/2015/08/02/jvm-architecture/).
 
 And, When one time error occurred, this can make chain of thread to show exception, so those can create the error too.
 

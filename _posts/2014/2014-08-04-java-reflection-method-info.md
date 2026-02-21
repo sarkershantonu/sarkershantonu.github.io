@@ -11,7 +11,7 @@ comments: true
 ---
 In this article we will see how can we retrieve Method Information using Java Reflection
 
-Please read this [**post**](https://sarkershantonu.github.io/2014/08/01/java-reflection-class-info/) before follow post. 
+Please read this [**post**](/2014/08/01/java-reflection-class-info/) before follow post. 
 
 ## How to get all declared Method Names inside of a class? 
 This means , we will get the method names which are declared inside of the class(public , private, default, protected). Not inherited methods.  

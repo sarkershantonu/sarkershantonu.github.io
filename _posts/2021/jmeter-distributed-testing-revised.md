@@ -19,7 +19,7 @@ To avoid confusion , I will refer a jmeter server as slave.
 - Master Slave communication is established by Java RMI (remote method invocation)
 - We can install a certificates for secure master-slave communication. 
 
-[Install Jmeter in master & slaves](https://sarkershantonu.github.io/2021/01/06/install-jmeter-plugins-cli/)
+[Install Jmeter in master & slaves](/2021/01/06/install-jmeter-plugins-cli/)
 
 # Example Without SSL : Non-Secure setup:
 server.rmi.ssl.disable=false

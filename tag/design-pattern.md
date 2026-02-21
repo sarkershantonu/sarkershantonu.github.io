@@ -51,4 +51,4 @@ This page contains all post related to Design Pattern.
 2. [Factory Method](/2014/02/02/factory-method/)
 3. [Abstract Factory](/2014/02/04/abstract-factory/)
 4. [Builder Design Pattern](/2014/02/18/builder/)  
-5. [Prototype Design Pattern](https://sarkershantonu.github.io/2014/02/17/prototype/) 
+5. [Prototype Design Pattern](/2014/02/17/prototype/) 
