@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "DotNet"
+title: "Design Patterns"
 subtitle: I build systems for API/UI/Performance testing
 css: "/css/index.css"
 meta-title: "Lead SDET/Performance Engineer/DevOps"
@@ -17,7 +17,7 @@ comments: true
     <a href="/tags" class="list-filter">Index</a>
 </div>
 
-In object oriented world, we cannot avoid patterns to solve problem for different scenarios. I had to learn pattern , that helped me designing framework for testing. All of the design patterns are from well known references and codes are written by me. I will be very grateful if you have a comment on those posts. I have categorize those pattern by its type.
+In object-oriented world, we cannot avoid patterns to solve problem for different scenarios. I had to learn pattern , that helped me designing framework for testing. All of the design patterns are from well known references and codes are written by me. I will be very grateful if you have a comment on those posts. I have categorize those pattern by its type.
 
 This page contains all post related to Design Pattern.
 
