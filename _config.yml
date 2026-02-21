@@ -6,7 +6,7 @@ description: Learn Coding, Testing, DevOps & Automate.
 
 navbar-links:   
   Performance:
-    - Performance All: "pages/performance.md"
+    - Performance All: "pages/performance"
     - Java-perf: "tag/java-performance"
     - DotNet-perf: "tag/dotnet-performance"
     - JMeter: "pages/jmeter"
