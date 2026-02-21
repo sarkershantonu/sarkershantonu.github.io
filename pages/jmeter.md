@@ -20,7 +20,7 @@ comments: false
 - [performance-testing-with-jmeter-2-9](https://www.packtpub.com/application-development/performance-testing-jmeter-29) , and my [review](https://sarkershantonu.github.io/2013/09/28/Performance-Testing-With-JMeter-2.9-Review/)
 - [JMeterCookbook](https://www.packtpub.com/en-us/product/jmeter-cookbook-9781783988297)
 
-# JMeter-Basics: "tag/jmeter-script"
+# JMeter-Basics:
 - [An Introduction to JMeter](http://shantonusarker.blogspot.com/2012/10/an-introduction-to-jmeter-free-web.html)
 - [Stress Testing in JMeter](http://shantonusarker.blogspot.com/2012/10/stress-testing-in-jmeter.html)
 - [How to manage User Agents in JMeter](http://shantonusarker.blogspot.com/2012/12/how-to-manage-user-agents-in-jmeter.html)
@@ -42,7 +42,7 @@ comments: false
 - [How to run BeanShell/JavaScript/JEXL in Jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-run-beanshelljavascriptjexl-in.html)
 - [BeanShell Server commands in Jmeter](http://shantonusarker.blogspot.com/2013/01/beanshell-server-commands-in-jmeter.html)
 
-# JMeter Functions
+# JMeter Functions : 
 - [Function Helper in Jmeter](http://shantonusarker.blogspot.com/2013/05/function-helper-in-jmeter.html)
 - [How can we parametrize host Information in Jmeter?](http://shantonusarker.blogspot.com/2013/05/how-can-we-parametrize-host-information.html)
 - [How to access JMeterProperties ?](http://shantonusarker.blogspot.com/2013/05/how-to-get-jmeter-properties.html)
@@ -73,7 +73,7 @@ comments: false
 
 ### [JMeter Maven Github](https://github.com/sarkershantonu/jmeter-maven-examples)
 
-# JMeter-Plugins: "tag/jmeter-plugins"
+# JMeter-Plugins: 
 - Installation : [How to install plugins in JMeter](http://shantonusarker.blogspot.com/2013/01/how-to-install-plugins-in-jmeter.html)
 - [Introduction to JMeter PlugIn-Threads](http://shantonusarker.blogspot.com/2013/05/introdution-to-jmeter-google-plugin.html)
 - [Introduction to JMeter PlugIn-Logic Controlr](http://shantonusarker.blogspot.com/2013/05/introduction-to-jmeter-google-plugin.html)
@@ -85,7 +85,7 @@ comments: false
 - [Introduction to JMeter PlugIn- Sampler](http://shantonusarker.blogspot.com/2013/05/introduction-to-jmeter-google-plugin_11.html)
 - [PerfMon-JMeter Server Monitoring PlugIn](http://shantonusarker.blogspot.com/2013/06/perfmon-jmeter-server-monitoring-plugin.html)
 
-# JMeter-Conf: Configuring JMeter:
+# JMeter Configuring:
 - [Part 1 : JTL File Loading Thread, User Properties for Plugins on CSV format, Custom Libraries, Debugging](http://shantonusarker.blogspot.com/2013/01/how-to-configure-plugins-in-jmeter.html)
 - [Part 2: Http sampler behaviors](http://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-2.html)
 - [Part 3 : Host and RMI configurations](http://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-3-how-to.html)
