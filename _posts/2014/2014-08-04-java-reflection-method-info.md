@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Method Info by Java Reflection
+title: Retrieving Method Info using Java Reflection
 date: "2014-08-04 01:13"
 tags: [java,reflection]
 permalink: /2014/08/04/java-reflection-method-info/
