@@ -18,7 +18,6 @@ comments: false
 # OOP
 1. [What is an Interface in OOP](/2009/05/17/interface-oop/)
 
-
 # Regular Expression:
 1. [Introduction to Regular Expression](/2013/06/29/regular-expression-intro/)
 2. [How to extract data from Email](/2013/06/30/regex-email-extract/)
