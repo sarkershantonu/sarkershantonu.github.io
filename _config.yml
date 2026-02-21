@@ -13,23 +13,18 @@ navbar-links:
   DEV:
     - Programming: "pages/programming"
     - Design Patterns: "pages/dp"
-    - DotNet: "pages/dotnet"
-    - Java : "pages/java"
-    - JVM: "tag/jvm"
-    - JDK-Tools: "tag/jdk-tools"
+    - All DotNet: "pages/dotnet"
+    - All Java : "pages/java"
   DevOps:
     - Dev setup: "tag/dev-env"
     - Tools: "tag/tools"
     - Docker: "tag/docker"
-    - LinuxAdmin: "tag/linux"
+    - LinuxAdmin: "pages/linux"
   SDET:
     - Testing Basics: "tag/testing"
     - Selenium: "tag/selenium"
     - Codeception: "tag/codeception"
-    - NUnit: "tag/nunit"
     - TestNG: "tag/testng"
-    - Junit4: "tag/junit4"
-    - Junit5: "tag/junit5"
     - Robotium: "tag/robotium"
   All:
     - 2009 : "pages/2009"
