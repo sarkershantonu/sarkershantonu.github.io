@@ -1,6 +1,11 @@
-# Performance Engineering Experiences 
+# All of My Experiences as Performance Engineer
+- All Manual Testing Experiences
+- All Functional Automation testing experiences
+- All Test Management Experiences
+- All Experiences From Full time Job
+- All Experiences from Contractual/Freelance/Remote Jobs
 
-# Technology 
+# Technology Stack : Application In Test
 - Drupal 
 - Joomla
 - Sharepoint
@@ -11,5 +16,20 @@
 - Java/Spring/Rest API
 - Java/Soap API
 - Java/JMS
-- GraphQL API 
+- GraphQL API
+
+# Testing Domain 
+- Retail Banking, Client Facing
+- E-Commerce
+- Payment Processing
+- Investment Banking 
+- Wealth Management
+- Govt Education/Student Enrollment
+
+# Test Protocols 
 - 
+
+# Tools Stack Used
+### Java Stack
+
+### Dotnet Stack
