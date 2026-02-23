@@ -1,3 +1,26 @@
+---
+layout: "page"
+title: "Job Verification Details"
+subtitle: I build systems for API/UI/Performance testing with AI
+css: "/css/index.css"
+meta-title: "Lead SDET/Performance Engineer/DevOps"
+meta-description: "SDET/DevOps/Java/CS Graduate"
+comments: true
+---
+<div class="list-filters">
+    <a href="/" class="list-filter filter-selected">All posts</a>
+
+    <a href="/pages/courses" class="list-filter">courses</a>
+	<a href="/pages/talks" class="list-filter">talks</a>
+    <a href="/pages/resume" class="list-filter">resume</a>
+
+    <a href="/tags" class="list-filter">Index</a>
+</div>
+
+This page contains all of my job verifications , all of my full time jobs are verifiable. Out of all of my part-time jobs, only Upwork & stuff.com jobs cant be verified since I was hired for many project and some are very short period of time. 
+
+
+# Full time jobs : 
 # [BJIT](https://bjitgroup.com/)
 ### Company Information
 
@@ -56,3 +79,6 @@ After working 2 years, I was transferred to Luxoft USA to work with At&T (L1B vi
 
 
 # EPAM System
+
+
+# Part-time jobs : 
