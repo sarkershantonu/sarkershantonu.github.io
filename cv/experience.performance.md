@@ -27,7 +27,16 @@
 - Govt Education/Student Enrollment
 
 # Test Protocols 
-- 
+- Http/Browser
+- Http/Rest API
+- Http/SOAP
+- HTTP/RPC
+- JMS/Jvm
+- Http/GraphQL
+- Http/Kafka
+- Http/Websocket
+- UDP/custom
+- DNS
 
 # Tools Stack Used
 ### Java Stack
