@@ -17,3 +17,8 @@ comments: true
 
 # My AI journey 
 
+# Courses I have attended from Work:
+
+# Apps that I have used From work
+
+# Personal AI Experiments 
