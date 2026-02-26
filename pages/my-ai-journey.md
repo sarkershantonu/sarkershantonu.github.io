@@ -16,6 +16,7 @@ comments: true
 </div>
 
 # My AI journey 
+- From My work Epam Systems 
 
 # Courses I have attended from Work:
 
