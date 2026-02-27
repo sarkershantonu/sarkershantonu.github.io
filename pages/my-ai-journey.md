@@ -21,7 +21,13 @@ comments: true
 # Courses I have attended from Work:
 
 # Apps that I have used From work
+### Agents : 
+### Assistant/Chat bot: 
 
+# LLMs That I have used from Works:
+- 
+
+# [elitea | Epam Developped AI platform](https://elitea.ai/)
 # Topic Agents I have explored 
 
 # Personal AI Experiments 
