@@ -6,12 +6,12 @@ description: Learn Coding, Testing, DevOps & Automate.
 
 navbar-links:   
   Performance:
-    - Performance Test: "tag/performance"
+    - Testing: "tag/performance"
     - Java-perf: "tag/java-performance"
     - DotNet-perf: "tag/dotnet-performance"
     - JMeter: "tag/jmeter"
   SDET:
-    - Testing Basics: "tag/testing"
+    - Testing: "tag/testing"
     - Selenium: "tag/selenium"
     - Codeception: "tag/codeception"
     - TestNG: "tag/testng"
