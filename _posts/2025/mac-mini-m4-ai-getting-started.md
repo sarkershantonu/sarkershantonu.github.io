@@ -12,10 +12,14 @@ Apple provides opensource Platform , Named MLX. This is solo designed for Apple 
 - C 
 - C++
 
+# Increase VRAM allowance 
+- Allow Max 23GB vRam ```sudo sysctl iogpu.wired_limit_mb=23552```
+
 ### [MLX : Documentation](https://ml-explore.github.io/mlx/build/html/index.html)
 - Available via python package manager PyPi
 - Current Requirements MacOs 14.0+ & Python 3.10
 ### MLS : Installation 
+
 
 ##### MLS : Installation | Dependencies
 - Check MAC version, in my case  
