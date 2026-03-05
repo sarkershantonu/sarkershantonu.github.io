@@ -25,7 +25,7 @@ comments: true
 
 *To download no Dropbox account needed*
 
-### [Summary up to Nov 2025](/cv/timeline/jobs.html)
+### [Summary up to Mar 2026](/cv/timeline/jobs.html)
 ![summary-career](/images/shantonu/career-shantonu.JPG)
 
 
