@@ -11,21 +11,21 @@ gh-badge: [star, follow]
 comments: true
 ---
 
-# Configuring JMeter Part 1-How to configure plugins?
+# JMeter Configuration P1 : How to configure plugins?
 In this article we are going to see how can we change property of JMeter along with its plugins. For basic idea about JMeter and installing plugins, see my this post.
 
 Jmeter has a very big number of properties. I will try to include one by one incrementally.
 
  In the jmeter installed bin directory(in my case ***C:\apache-jmeter-2.8\bin*** ), we get a file named jmeter.properties. Open this with note pad. We can find various properties which are activated and some are not yet activated.
 
-# Configuring JMeter by jmeter.properties [Not recommended]
+# Configuring by jmeter.properties [Not recommended]
 - To enable/disabled correct graphs display which deal with threads after reloading the JTL file.
 ```jmeter.save.saveservice.thread_counts=true``` By Default it is deactivated and false. 
 
 
 We can configure some of the default behaviors of the plugin by adding the following lines(only the property part, not description) at the end user.properties file(it is in C:\apache-jmeter-2.8\bin in my PC) :
 
-# Configuring JMeter by user.properties [recommended] 
+# Configuring by user.properties [recommended] 
 - To Enable or disable the gradient paint for graphs. Default is true. ```jmeterPlugin.drawGradient=true```
 - To Disable final zeroing lines in all graphs Globally. Default is false. ```jmeterPlugin.neverDrawFinalZeroingLines=true```
 - To Disable current X lines drawing in all concerned graphs Globally. Default is false. ```jmeterPlugin.neverDrawCurrentX=true```
@@ -38,7 +38,7 @@ We can configure some of the default behaviors of the plugin by adding the follo
 ### CSV format Change
 - To Force CSV separator character. Default is ',' if decimal separator is '.', ';' otherwise ```#jmeterPlugin.csvSeparator=;```. This is deactivated. I decided to use ```jmeterPlugin.csvSeparator=','```
 - To Force CSV time format ```# jmeterPlugin.csvTimeFormat=HH:mm:ss```. This is deactivated. I decided to use ```jmeterPlugin.csvTimeFormat=yyMMddHHmmssZ```. 
-see [**link**](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)for more formats
+see [**link**](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) for more formats
 
 - To use a custom path for lib/ext (not for utility jars) ```search_paths=/app1/lib;/app2/lib```
 
