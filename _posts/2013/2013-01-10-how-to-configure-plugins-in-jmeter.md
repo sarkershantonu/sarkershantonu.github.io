@@ -43,8 +43,8 @@ see [**link**](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFor
 - To use a custom path for lib/ext (not for utility jars) ```search_paths=/app1/lib;/app2/lib```
 
 ### Logging
--To Log for Debugging ```log_level.jorphan.reflect=DEBUG```
--To Enable Proxy request debug log (it is disabled by default) ```log_level.jmeter.protocol.http.proxy.HttpRequestHdr=DEBUG```
+- To Log for Debugging ```log_level.jorphan.reflect=DEBUG```
+- To Enable Proxy request debug log (it is disabled by default) ```log_level.jmeter.protocol.http.proxy.HttpRequestHdr=DEBUG```
 
 Configuring part is long post. You can see my other posts for more configurations.
 
