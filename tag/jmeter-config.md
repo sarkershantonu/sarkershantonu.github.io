@@ -20,7 +20,7 @@ comments: true
 This page contains all post related to JMeterConfigurations.
 
 #  Configuring Jmeter: 
- - [Part 1 : JTL File Loading Thread, User Properties for Plugins on CSV format, Custom Libraries, Debugging](http://shantonusarker.blogspot.com/2013/01/how-to-configure-plugins-in-jmeter.html)
+ - [Part 1 : JTL File Loading Thread, User Properties for Plugins on CSV format, Custom Libraries, Debugging](/2013/01/10/how-to-configure-plugins-in-jmeter/)
  - [Part 2: Http sampler behaviors](http://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-2.html)
  - [Part 3 : Host and RMI configurations](http://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-3-how-to.html)
  - [Part 4 : Log Configuration](http://shantonusarker.blogspot.com/2013/01/configuring-jmeter-part-4-how-to.html)
