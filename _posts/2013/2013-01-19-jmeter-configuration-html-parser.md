@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JMeter HTML Parser Configuration testing
+title: JMeter Config | HTML Parser
 date: "2013-01-19 03:51"
 tags: [jmeter]
 permalink: /2013/01/19/jmeter-config-html-parsers/
