@@ -11,6 +11,7 @@ comments: true
 author: Shantonu Sarker
 ---
 
+# JMeter HTML Parser Configurations 
 In this article we are going to see how can we configure JMeter by changing property of JMeter. In this section we will see the different type of Parsers' settings in ```jmeter.properties``` or ```user.properties```.
 
 In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named jmeter.properties. Open this with note pad.
