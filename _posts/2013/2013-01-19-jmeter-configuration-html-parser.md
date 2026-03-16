@@ -3,7 +3,7 @@ layout: post
 title: JMeter HTML Parser Configuration testing
 date: "2013-01-19 03:51"
 tags: [jmeter]
-permalink: /2013/01/04/l10n-testing/
+permalink: /2013/01/19/jmeter-config-html-parsers/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on JMeter testing"
 gh-badge: [star,follow]
