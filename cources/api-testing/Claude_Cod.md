@@ -1,4 +1,16 @@
-What is coding assistant
+
+# What is coding assistant
+- Takes task
+- Find issues/Errors
+- Suggests how to solve it 
+- LLM + Set of tools 
+
+### Workings 
+- Gather Context
+- Formulate Plan
+- Take Actions for output
+
+
 Claude Code in Action
 Setup 
 Project Setup
