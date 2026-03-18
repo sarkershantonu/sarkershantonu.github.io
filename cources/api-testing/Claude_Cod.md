@@ -4,6 +4,7 @@
 - Find issues/Errors
 - Suggests how to solve it 
 - LLM + Set of tools 
+- Tools are used for adding well formatted instructions for the input 
 
 ### Workings 
 - Gather Context
