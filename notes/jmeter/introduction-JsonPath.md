@@ -2,4 +2,4 @@
 
 - https://github.com/json-path/JsonPath
 
-# How to use in Jmeter
+# How to use in JMeter

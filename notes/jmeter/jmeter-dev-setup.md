@@ -1,7 +1,7 @@
 # Eclipse 
-In this article, we are going to see how can we start JMeterfrom source code. This is important for extending jmeter, creating own plugins, sending custom protocol requests. 
+In this article, we are going to see how can we start JMeterfrom source code. This is important for extending JMeter, creating own plugins, sending custom protocol requests. 
 
-Download jmeter applcaiotn
+Download JMeter applcaiotn
 Download the code fron here 
 Extract it and 
 goto the folder that you have extracted
@@ -9,7 +9,7 @@ Add the .project file (you can create also, here is the link), this is a standar
 rename Eclipse.classpath to .classpath 
 
 
-now, From jmeter application directory
+now, From JMeter application directory
 copi directory to another location
 make api, ext, junit, opt folders and 
 download this two api and keep in api folder
@@ -20,7 +20,7 @@ opt contains all rest of jars (as quckli i am running, I will expalin which jars
 Open ecplise
 Click File, import
 select Existing ptoject
-show the directory pointing the jmeter code
+show the directory pointing the JMeter code
 keep the source in copiec to workspace
 now, from explorer copy Lib and past to imported project
 It will marge to lib directory of the project

@@ -66,7 +66,7 @@ These are mainly full page allowed events that an user can do. If page is divide
 3. There are some browser plugins (performance analyzer) to measure this time inside browser
 4. Proxy Tools like fiddler.
 5. Browser based automation(Selenium or any other tools)
-6. Jmeter/Load runner driven client performance testing. (see details in Jmeter page)
+6. JMeter/Load runner driven client performance testing. (see details in JMeter page)
 
 ## Application SLA :
 Application SLA refers to request serving time up to client end, in our example Browser. All page and events are served by application to user need time to process.The difference of client SLA & Application SLA is, Application SLA involves only requests processing time up to client. So, no client activity involved here.
@@ -82,7 +82,7 @@ Another **example**, let's assume a Game as web application which get/send all d
 ### How to measure?  
 Usually we can follow all process described end use SLA, and deduct the rendering time (as well as client activity time) . 
 
-And we can use also load testing tools to measure request and response time, like Jmeter, load runner etc.
+And we can use also load testing tools to measure request and response time, like JMeter, load runner etc.
 
 ## DB SLA :
 This is contract between Database and Application. If we consider the application connected to DB, for all  UI calls DB server requests (via procedure/sql queries etc). 

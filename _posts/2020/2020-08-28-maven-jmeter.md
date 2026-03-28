@@ -5,20 +5,20 @@ date: "2020-08-28 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/08/28/maven-jmeter/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on JMeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how can we perform Jmeter testing using maven, so that we can use this in **CI/CD**. 
+In this article we are going to see how can we perform JMeter testing using maven, so that we can use this in **CI/CD**. 
 
-## What is Jmeter? 
+## What is JMeter? 
 Jmeter is a performance testing tool which can be integrated with CI/CD. To know details you may [visit](/tag/jmeter-script/)
 
 ## What is Maven 
 Maven is Java Build automation tool. 
 
-## Why Maven with Jmeter? 
-Usually we perform unit test with any Java code. Ideally an acceptance test should have some form of performance testing with it. We are going to use maven jmeter plugins to test a web application similar to a development project build. 
+## Why Maven with JMeter? 
+Usually we perform unit test with any Java code. Ideally an acceptance test should have some form of performance testing with it. We are going to use maven JMeter plugins to test a web application similar to a development project build. 
 
 This will allow us to "Shift Left" performance testing. And this will allow any CI/CD system (like jenkins) , execute the test and show reports. This technique can be use to run in Docker also. 
 
@@ -30,8 +30,8 @@ This will allow us to "Shift Left" performance testing. And this will allow any 
 # Steps 
 Here I am going to point step by step how to do this. 
 
-### Create a Jmeter Test Script
-We need to create a jmeter script that we are going to use to generate load. For the example , i am using 
+### Create a JMeter Test Script
+We need to create a JMeter script that we are going to use to generate load. For the example , i am using 
 - Base URL = bdjobs.com
 - Threads = 20
 - RampUp = 10s
@@ -68,7 +68,7 @@ I am going to use 2s delay for each step of request. So, finally test look like 
 ![final](/images/jmeter-maven/test-case.JPG)
 
 ### Keep All configuration as property 
-- To have dynamic behavior, I am keeping all variable as property in **user define variables**. These are jmeter properties, we can inject this way using maven. 
+- To have dynamic behavior, I am keeping all variable as property in **user define variables**. These are JMeter properties, we can inject this way using maven. 
 
 ![jmeter-test-info](/images/jmeter-maven/test-case-udv.JPG)
 
@@ -116,7 +116,7 @@ Add properties section in pom.xml
 </properties>
 ```
 
-### Add jmeter maven plugins
+### Add JMeter maven plugins
 
 - Create a build section 
 - Create Plugins section
@@ -130,7 +130,7 @@ Add properties section in pom.xml
 <plugin>
 ```
 
-- Get Jmeter Jar Configuration as plugin configuration 
+- Get JMeter Jar Configuration as plugin configuration 
 
 ```
 <plugin>
@@ -161,9 +161,9 @@ Add properties section in pom.xml
 ```
 
 In here you can see there are three goals. 
-1. configure : where jmeter is build with dependent JARs from maven repo
-2. jmeter : Where jmeter runs the tests
-3. results : where jmeter first look for result files and then process results to generate reports.  
+1. configure : where JMeter is build with dependent JARs from maven repo
+2. JMeter : Where JMeter runs the tests
+3. results : where JMeter first look for result files and then process results to generate reports.  
 
 ### Configure Maven Plugins 
 
@@ -189,9 +189,9 @@ This part we are going to configure maven plugins with our properties that we sp
 ```
 
 ### Specify test script(JMX)
-By default Jmeter plugins finds ```\src\test\jmeter``` folder for test. It runs all JMX files in the folder. As we are running single JMX, i am not changing anything. 
+By default JMeter plugins finds ```\src\test\jmeter``` folder for test. It runs all JMX files in the folder. As we are running single JMX, i am not changing anything. 
 
-### Adding jmeter properties
+### Adding JMeter properties
 As this is default tests, i am not adding any property. Future post, I will show how to add user.properties.  
 
 ### Adding Basic report
@@ -209,15 +209,15 @@ And you can see the results in ***/target/jmeter/results***
 
 # How maven runs the test?
 As you have seen in POM configuration, we have 3 goals, define in stages. When we run **mvn clean verify**, 
-- First,  Jmeter is build with default property configuration from maven repository. If you need jmeter plugins or custom JARs in jmeter, you need to specify in this step. I will provide separate blog for this. 
+- First,  JMeter is build with default property configuration from maven repository. If you need JMeter plugins or custom JARs in JMeter, you need to specify in this step. I will provide separate blog for this. 
 
 ![jmeter-maven-configure](/images/jmeter-maven/config-jmeter.JPG)
 
-And that makes jmeter installed in target folder. 
+And that makes JMeter installed in target folder. 
 
 ![jmeter-configure](/images/jmeter-maven/configure-step.jpg)
 
-- Second, Jmeter runs the test. 
+- Second, JMeter runs the test. 
 
 ![jmeter-maven-run](/images/jmeter-maven/perftest-jmeter.JPG)
 
@@ -225,7 +225,7 @@ now, during the test, we can see command line results like this.
 
 ![jmeter-during-execution](/images/jmeter-maven/during-test-run.JPG)
 
-- Third, Jmeter Reporting step. First it will scan for reports
+- Third, JMeter Reporting step. First it will scan for reports
 
 ![jmeter-report-find](/images/jmeter-maven/scanning-for-results.JPG)
 

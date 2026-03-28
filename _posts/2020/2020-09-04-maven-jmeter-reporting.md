@@ -5,18 +5,18 @@ date: "2020-09-04 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/04/maven-jmeter-reporting/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on JMeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can get good reports in jmeter after tests. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can get good reports in JMeter after tests. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
 
-# Jmeter Reports
-In Jmeter, we can have different type of test results. 
+# JMeter Reports
+In JMeter, we can have different type of test results. 
 1. CSV test results (default selection by plugins)
 2. JTL logs 
 3. [HTML Results](https://jmeter.apache.org/usermanual/generating-dashboard.html) (modern report)
-4. Jmeter Listener Graphs : Images/reports created by Jmeter Listeners
+4. JMeter Listener Graphs : Images/reports created by JMeter Listeners
 
 
 ### Enabling HTML report
@@ -83,7 +83,7 @@ But, if you have enabled ```<generateReports>``` true, this will be always CSV i
 <errorRateThresholdInPercent>2</errorRateThresholdInPercent>
 ``` 
 
-- Stop Jmeter from printing console output 
+- Stop JMeter from printing console output 
 
 ```
  <suppressJMeterOutput>true</suppressJMeterOutput> 
@@ -119,7 +119,7 @@ But, if you have enabled ```<generateReports>``` true, this will be always CSV i
 ![over-time](/images/jmeter-maven/html-over-time-charts.JPG)
 
 # Creating Traditional Graphs 
-As we can always create graphs with JTL by CMD runner, another jmeter graph maven plugins available to generate this. 
+As we can always create graphs with JTL by CMD runner, another JMeter graph maven plugins available to generate this. 
 
 To use that plugins, we need to exclude html reporting and keep default XML (jtl) reporting format. 
 
@@ -172,7 +172,7 @@ We can add all graphs or only necessary graphs. To show in example, I have added
 - If we want to generate Graphs, we need to run 
 
 ```
-mvn jmeter-graph:create-graph
+mvn JMeter-graph:create-graph
 ```
 
 And we can see graphs generated in configured folder. In my case **${project.build.directory}/jmeter/results/graphs/**
@@ -229,6 +229,6 @@ From my example , I am adding all generated Graphs.
 
 ![generated-old-reports12](/images/jmeter-maven/old/TransactionsPerSecond.png)
 
-So, we have learned both modern HTML Jmeter reporting and old style Jmeter Graphs in two different project example. 
+So, we have learned both modern HTML JMeter reporting and old style JMeter Graphs in two different project example. 
 
 Thanks :)  

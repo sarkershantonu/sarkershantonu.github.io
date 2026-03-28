@@ -11,12 +11,12 @@ comments: true
 author: Shantonu Sarker
 ---
 
-In this article we are going to see how can we configure jmeter by changing property of JMeter. In this section we will see the different mode settings for class path and properties in ```jmeter.propertie```.
+In this article we are going to see how can we configure JMeter by changing property of JMeter. In this section we will see the different mode settings for class path and properties in ```jmeter.propertie```.
 
-In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named jmeter.properties. Open this with note pad.
+In the JMeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named JMeter.properties. Open this with note pad.
 
 # JMeter JVM Classpath 
-- To define for searching jmeter Extensions(Do not use this for utility jars, ). These are just addional to default lib/ext. ```search_paths=/app1/lib;/app2/lib```
+- To define for searching JMeter Extensions(Do not use this for utility jars, ). These are just addional to default lib/ext. ```search_paths=/app1/lib;/app2/lib```
 - To define additional class path for utility jars or JUnit test cases ```user.classpath=../classes;../jars/jar1.jar```
 - To specify the class finder for GUI/Non GUI mode classes.
 ``` 

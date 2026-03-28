@@ -82,7 +82,7 @@ Now, let's see what we have done with benchmark options. You can there are 3 par
 
 - benchmarkRounds (a number) = How many iterations you want to run? 
 
-If you are jmeter user, you may experienced similar parameters in thread groups.
+If you are JMeter user, you may experienced similar parameters in thread groups.
 
 Now, in test case I put some thread delay to see my test running as the test is very small so, it will run very fast. After adding some delay, the test case becomes.
 ```java 

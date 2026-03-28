@@ -15,7 +15,7 @@ In [previous article](/2015/07/22/performance-reporting-kpi/), we knew about KPI
 
 ### Performance Metrics Sources
 As we know, while doing performance testing, we have several kinds of tools providing performance measurements. So, these are actually different source of performance metrics.
-- Load Generating tool s (like load runner, jmeter, wapt, Gatling etc)
+- Load Generating tool s (like load runner, JMeter, wapt, Gatling etc)
 - Server/ Client monitoring tool : (like perfmon, perf, proc mon etc)
 - Profiling tool : (Java profilers, Dotnet profilers, Debuggers, Tracers etc) 
 - APM tools : (Dynatrace , Newrelic, AppDynamics etc) 
@@ -110,8 +110,8 @@ To understand quickly, these are widely used.
 
 ## Error Percentage: 
 This represents how much error occurred during tests. Usually for a web application following error can be occurred.
-- **Http errors** : For a web application,  all http messages will be consider as error except accepted one. Example, http-200 is always considered as not error where http 500 will be considered as error. All tools like Jmeter support configurable http error checking where you can select your type as not error. Example : IP whitelisted sites used show 404 for forbidden, which refers , the site is up but it is not accessible. For this kind of activity, we need to exclude 404 as error while testing from blocked IP.
-- **Assertion error** : Like as jmeter , all tools supports step verification. So, if step data/time verification fails, it will show error. This is application specific response assertion.
+- **Http errors** : For a web application,  all http messages will be consider as error except accepted one. Example, http-200 is always considered as not error where http 500 will be considered as error. All tools like JMeter support configurable http error checking where you can select your type as not error. Example : IP whitelisted sites used show 404 for forbidden, which refers , the site is up but it is not accessible. For this kind of activity, we need to exclude 404 as error while testing from blocked IP.
+- **Assertion error** : Like as JMeter , all tools supports step verification. So, if step data/time verification fails, it will show error. This is application specific response assertion.
 - **SLA/Response timeout error** : For most of request, when we apply SLA or response time out, when server failed to show on the condition, this error occurs.
 - **Server Error/Exception** : Like as JSP or ASP server, application server may show application error or exception which will be consider as response error.
 - **Protocol error**: Like as http protocol, all other protocols that we may use in script have its own error types. Tools will consider those as error all the time.
@@ -138,7 +138,7 @@ This is another vital performance indicator. Now a days , we used to have differ
 
 This measurement indicates how much bandwidth application needs, and how application will perform on predefined bandwidth.
 
-For network emulation , like as Jmeter, most of tools support your custom bandwidth which help you to create your application required real user scenario.
+For network emulation , like as JMeter, most of tools support your custom bandwidth which help you to create your application required real user scenario.
 
 And, most of load generating tools provide measurement of bandwidth consumption. Usually the parameter name is
 

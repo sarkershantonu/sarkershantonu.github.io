@@ -50,7 +50,7 @@ comments: false
 - [What is Performance Reporting? How to report after Performance Testing?Example with web application](/2014/12/28/performance-reporting/)
 - [Performance Bugs: How to find? How to report?](http://shantonusarker.blogspot.com/2015/01/bugs-web-performance-find-report.html)
 - [Performance Reporting : KPI ](/2015/07/22/performance-reporting-kpi/)
-- [How to make reports(and comments) in Jmeter?](http://shantonusarker.blogspot.co.uk/2013/04/how-to-make-reportsand-comments-in.html)
+- [How to make reports(and comments) in JMeter?](http://shantonusarker.blogspot.co.uk/2013/04/how-to-make-reportsand-comments-in.html)
 - [What are the Reports/Listeners in JMeter?](http://shantonusarker.blogspot.co.uk/2013/02/what-are-reportslisteners-in-jmeter-why.html)
 - [Introduction to JMeter Google PlugIn- Listeners](http://shantonusarker.blogspot.co.uk/2013/05/introduction-to-jmeter-google-plugin_5819.html)
 

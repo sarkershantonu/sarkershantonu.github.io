@@ -81,7 +81,7 @@ Choose your tool that suits your development culture.
 
 Now a days, there are lots of tools for different performance aspects. 
 
-**Example**,  for a browser based application , you can choose Jmeter/Load runner for testing, and fiddler/selenium for client behavior observation , profiler for memory and cpu consumptions in server and finally tools to monitor the entire system. These days, all application comes with debug tools(like Glimps for ASP.Net). You can use that from beginning to have quick feedback.
+**Example**,  for a browser based application , you can choose JMeter/Load runner for testing, and fiddler/selenium for client behavior observation , profiler for memory and cpu consumptions in server and finally tools to monitor the entire system. These days, all application comes with debug tools(like Glimps for ASP.Net). You can use that from beginning to have quick feedback.
 
 ##### Step 6. 
 Prepare test case which is adoptable to change behavior of application. 

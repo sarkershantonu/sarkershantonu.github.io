@@ -66,7 +66,7 @@ This page contains all Gadgets & Gear Information
 - pi-hole
 - next cloud
 - Selenium Grid 
-- Jmeter5 Distributed system
+- JMeter5 Distributed system
 - Jenkins Build Environments
 
 # Home Networking 

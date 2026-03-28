@@ -130,7 +130,7 @@ What is total % of major GC among all GC.
 
 Tips : I follow some technique to make this analysis useful for specific context.
 1. Make time limit of monitoring.
-2. Relate only one user activity(or user action) and repetitive do that to know the impact. You can use load generator tools(like jmeter) to do that work for you.
+2. Relate only one user activity(or user action) and repetitive do that to know the impact. You can use load generator tools(like JMeter) to do that work for you.
 3. For the selected activity, define behavior like , is it Eden space consuming, or survivor? how much perm-gen is occupied. Try to narrow down scope of analysis to be more effective.
 4. Try to do live monitoring GC logs , each run each type of memory. If you are saving logs, log analyzer will get that for you.
 5. Add some extreme condition (long run+ multiple scenario) to see whether you can create any error

@@ -11,9 +11,9 @@ comments: true
 author: Shantonu Sarker
 ---
 
-In this article we are going to see how can we configure jmeter by changing property of JMeter. In this section we will see the different mode settings for TCP Sampler in ```jmeter.propertie```.
+In this article we are going to see how can we configure JMeter by changing property of JMeter. In this section we will see the different mode settings for TCP Sampler in ```jmeter.propertie```.
 
-In the jmeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named jmeter.properties. Open this with note pad. Search for tcp sampler section in notepad and get the following.
+In the JMeter installed bin directory(in my case C:\apache-jmeter-2.8\bin), we get a file named JMeter.properties. Open this with note pad. Search for tcp sampler section in notepad and get the following.
 
 # Bean shell Servers
 For primary idea on BeanShell Server, please follow the structure here and if you interested in an example server, you may see this. It can be used while running test remotely.

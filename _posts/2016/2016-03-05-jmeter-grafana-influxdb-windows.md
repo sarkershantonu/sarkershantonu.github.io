@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Jmeter Live Test Monitoring in windows 8x64
+title: JMeter Live Test Monitoring in windows 8x64
 date: "2016-03-05 08:31"
 tags: [performance-testing,Grafana,InfluxDB,jmeter]
 permalink: /2016/03/05/live-performance-monitoring-jmeter-grafana-influxdb-windows/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Live Jmeter Test Result Monitoring"
+excerpt: "Blog on Live JMeter Test Result Monitoring"
 gh-badge: [star,follow]
 comments: true
 ---
 This is continuing post of [Live Performance Dashboard](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) only this time with windows(as I have promised). I would suggest, please visit that post to continue.
 
-In this example, I am going to setup influxdb & Grafana in windows 8x64 PC in VM. You can use real PC/AWS. And like as before, I will run jmeter in my local PC to test keeping monitoring system isolated. My Local Address (in this whole example) : 172.16.244.135
+In this example, I am going to setup influxdb & Grafana in windows 8x64 PC in VM. You can use real PC/AWS. And like as before, I will run JMeter in my local PC to test keeping monitoring system isolated. My Local Address (in this whole example) : 172.16.244.135
 
 **Note** : As influxdb/grafana will be accessed from outer network, make sure you put in outbound firewall rules so that others can access this
 
@@ -73,12 +73,12 @@ Like as previous [**post**](/2016/02/22/live-performance-monitoring-jmeter-grafa
 
 So, we are done setup, now lets test it.  
 
-## Jmeter Tests : 
+## JMeter Tests : 
 Like as previous [**post**](/2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/) , I am using same test case just changed the URL to 172.16.244.135
  
-Now, if we run jmeter  
+Now, if we run JMeter  
 - goto http://172.16.244.135:8083 
-- select Jmeter from right upper corner.
+- select JMeter from right upper corner.
 - from query template SHOW MEASUREMENTS
 
 we will see like this.
@@ -87,11 +87,11 @@ we will see like this.
 
 This means DB is getting Data.  
 
-- Now if we goto grafana dashboard (our dashboard name Jmeter  Live ), we should be see graph for request sending
+- Now if we goto grafana dashboard (our dashboard name JMeter  Live ), we should be see graph for request sending
 
 ![dashboard](/images/jmeter-grafana-influxdb-windows/dashboard.jpg)
 
-So, Like as Ubuntu , we have completed our setup a live Jmeter result monitoring system with Grafana & InfluxDB. 
+So, Like as Ubuntu , we have completed our setup a live JMeter result monitoring system with Grafana & InfluxDB. 
 
 **Note** : As I am installing in my PC, ignore my user name, for your PC , it will be your's. So, don't just copy past my configurations.  
 

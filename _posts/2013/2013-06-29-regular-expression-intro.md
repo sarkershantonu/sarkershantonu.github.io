@@ -13,7 +13,7 @@ In this article, we are going to learn basic Regular Expression.
 
 ### Why Regular Expression(Regix)
 Regular expression is one of the daily necessary items for a developer as well as tester. My focus will be on how to cover both side. I personally use regular expression
-- Jmeter, Gatling, Load Runner for extracting information from response data/headers/cookie/url
+- JMeter, Gatling, Load Runner for extracting information from response data/headers/cookie/url
 - Data Scraping, for extracting information from any HTML/CSS/XML element
 - Selenium webdriver, for finding element
 - Robotium, for finding element

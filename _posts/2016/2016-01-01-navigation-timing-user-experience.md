@@ -101,8 +101,8 @@ window.performance. You will be able to see full timing. (here is image from fir
 ### By JS framework : 
 It is very mature to have such capability of an web application to get timing inbuilt with application. There are lots of framework & libraries for that. One of them is [**Boomerang**](https://github.com/lognormal/boomerang). It is simple a JS framework that you can use measure time. Again, like as other frameworks, it not only gives navigation timing, it can also give you detail of request processing timing which is very helpful to track down performance bottle knacks.  
 
-### By Jmeter-webdriver sampler 
-In Jmeter, we can drive selenium driven test to run browser and measure time. This way we can get time whenever we want , spatially useful when running any performance test in parallel. You can get full details [**here**](/pages/jmeter-webdriver/) 
+### By JMeter-webdriver sampler 
+In JMeter, we can drive selenium driven test to run browser and measure time. This way we can get time whenever we want , spatially useful when running any performance test in parallel. You can get full details [**here**](/pages/jmeter-webdriver/) 
 
 ### By a Proxy : 
 We can also use local proxy to measure the timing when the app is running in a browser. My favorite is fiddler (for windows)

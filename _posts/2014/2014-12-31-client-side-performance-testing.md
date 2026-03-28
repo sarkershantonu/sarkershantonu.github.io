@@ -43,7 +43,7 @@ We run regression test script(critical items only) so that we case see where is 
 As you know from my previous post, [type of performance testing](/2014/11/25/performance-test-types/), this will lead us to two basic part, performance measurement and performance monitoring or debugging.
 
 ### Client-side Performance Measurement :
-This part is tricky. In performance world. when we say performance tools, it all refers to **server side** performance measurement tool like loadrunner, jmeter etc. So, what about client side performance? 
+This part is tricky. In performance world. when we say performance tools, it all refers to **server side** performance measurement tool like loadrunner, JMeter etc. So, what about client side performance? 
 
 As, it was not popular before, it was mostly done by manually. Still it is one of the best practices to sit and test application critical functionality with a stop watch and measure that. I remember doing that in back to 2008-09. These are handy, no need automation , no need to know  much technical stuffs. But, as it is manual time measurement and humans are not as perfect as machine for measuring time. So, it has error. So, there should be tool there.
 
@@ -62,7 +62,7 @@ This means we have to have monitoring for our application as well as client reso
 
 Like as every operation systems, windows or linux has their own system internal tools to monitor resources. 
 
-And, as open source jmeter consultant, i should say we can use **perfMon** as JMeterplug-in to monitor client side (you may say localhost)
+And, as open source JMeter consultant, i should say we can use **perfMon** as JMeterplug-in to monitor client side (you may say localhost)
 
 Now, for client side application monitoring, its' really depend on application client type. If it is a TCP client, so you have to use TCP monitoring tool on the port which your application works.
 

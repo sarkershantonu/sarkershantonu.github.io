@@ -18,9 +18,9 @@ In this article we are going to see how to write performance test case which is 
 VUser means virtual user . A real user behavior will be simulated by virtual user for performance test.
 
 ## What is VUser Script?
-When we write real user behavior or activity simulation through a virtual user, then it is referred as VUser script. This name came from Loadrunner world. In Jmeter, it is called Test Plan. In generic, we can say Performance Test Script.
+When we write real user behavior or activity simulation through a virtual user, then it is referred as VUser script. This name came from Loadrunner world. In JMeter, it is called Test Plan. In generic, we can say Performance Test Script.
 
-Thought VUser is not not real user, but, it should reflect real user scenario. In Jmeter we use different component to create a series of requests (may connected to each other or not) which are executed serially one after another. In Loadrunner, we write code in C using Loadrunner function. We might record those steps, but make sure that the script performs the activity of a scenario which we target for.
+Thought VUser is not not real user, but, it should reflect real user scenario. In JMeter we use different component to create a series of requests (may connected to each other or not) which are executed serially one after another. In Loadrunner, we write code in C using Loadrunner function. We might record those steps, but make sure that the script performs the activity of a scenario which we target for.
 
 ### How it works?
 Vuser scripts simulate the functionality on the target application from a non GUI(with background process model). This is because GUIs are heavy as well as not possible to run with multiple(thousands) instances in running environment(like running 100s browsers with separate session of same application or generating 10000 chat client connected to server via chat GUI). 
@@ -30,9 +30,9 @@ So, Vuser script use a system (provide by respective test tool) to simulate targ
 #### Example : 
 Loadrunner has vugen for writing scripts and controller(combining with multiple pc) to run and they have a analyzer for showing test results in smart way. 
 
-Jmeter has everything build in, you can use jmeter for writing script, again configure with multiple PC running jmeter as slave(remote execution model) to simulate load and after running you can use jmeter to see and analysis the results with different Graphs(Listeners)
+Jmeter has everything build in, you can use JMeter for writing script, again configure with multiple PC running JMeter as slave(remote execution model) to simulate load and after running you can use JMeter to see and analysis the results with different Graphs(Listeners)
 
-This part actually fully depend on tool. See some of my blog posts on Jmeter. 
+This part actually fully depend on tool. See some of my blog posts on JMeter. 
 
 #### How to write VUser or Performance Test Script?
 This part is totally tool specific, but I will try to keep it more generic from multiple tool using experiences.
@@ -67,7 +67,7 @@ Again, Record and compare with previous recording with
 ##### Step 8 : Analysis
 Analysis the data coming and going from client and server. This is the main area of learning the system with RAW request from a transport level. This is definitely hard but, tools are there to help you understanding they system.
 
-I should say, Jmeter is better to view each item clearly, compare to Loadrunner but, Loadrunner has advantages over co relation data(next step). These are some points that are follow for analysis for a web application
+I should say, JMeter is better to view each item clearly, compare to Loadrunner but, Loadrunner has advantages over co relation data(next step). These are some points that are follow for analysis for a web application
 
 - From request, what are the changing sectors for your protocol.( For http , data changes in URL, Header , Body)
 
@@ -80,7 +80,7 @@ And, for dynamic elements, you might face, the parameters are also changing. Get
     - Which are coming from previous request(so, you have to co relate them)
     - Which are based on environment (like web, we see ajax post fix keep IE for Internet explorer recording , FF for firefox)
 
-If there are some request which are not from there, so we have generate these data applying same logic which is run by our client. Be prepare to make code or get help from development team to write that.(We use JavaScript in Jmeter which runs on via Mozila Rhino)
+If there are some request which are not from there, so we have generate these data applying same logic which is run by our client. Be prepare to make code or get help from development team to write that.(We use JavaScript in JMeter which runs on via Mozila Rhino)
 Before writing, I suggest you to do some research on those not found data based on..
 - why we are using?
 - Is it avoidable(i remember to send some CSS values . we avid but tests were ok).Re-run and check.
@@ -106,7 +106,7 @@ Apply data initiation and clean up script either in script or by external proces
 Verify the script by replay with logs as well as debugging. (if tool supports)
 
 ##### Step 13 : (optional)
-Arrange more than one created script for a single business required scenario to complete the full scenario. (like in jmeter, if you have 5 log in test cases, arrange them in separate test fragment and make a single scenario thread and use under that). Or, in Loadrunner , organize the Run settings.
+Arrange more than one created script for a single business required scenario to complete the full scenario. (like in JMeter, if you have 5 log in test cases, arrange them in separate test fragment and make a single scenario thread and use under that). Or, in Loadrunner , organize the Run settings.
 
 ##### Step 14 :
 Add minimum reporting elements and you are ready.

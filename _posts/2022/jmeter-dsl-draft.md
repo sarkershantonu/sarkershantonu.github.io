@@ -1,18 +1,18 @@
-This is simple blog on Jmeter DSL. In this blog we are going to see hwo can we create scripts using Jmeter DSL. 
+This is simple blog on JMeter DSL. In this blog we are going to see hwo can we create scripts using JMeter DSL. 
 
-Now, you may follow one of the examples from original creator but this blog intended to show how we create using jmeter DSL similar to jmeter gui, the same way we do at work. 
+Now, you may follow one of the examples from original creator but this blog intended to show how we create using JMeter DSL similar to JMeter gui, the same way we do at work. 
 
 
-### What is Jmeter? 
-Jmeter is known to be one of the most popular tool for performance testers. It's a decades old apache project. You can see some of my jmeter [**blog posts**](/tag/jmeter-script/) to know details 
+### What is JMeter? 
+Jmeter is known to be one of the most popular tool for performance testers. It's a decades old apache project. You can see some of my JMeter [**blog posts**](/tag/jmeter-script/) to know details 
 
-Left shift initiative actually inspired this creation of jmeter dsl. Initially , we had [**ruby jmeter**](https://github.com/flood-io/ruby-jmeter) from flood.io. 
+Left shift initiative actually inspired this creation of JMeter dsl. Initially , we had [**ruby JMeter**](https://github.com/flood-io/ruby-jmeter) from flood.io. 
 
-### What is Jmeter DSL?
+### What is JMeter DSL?
 Jmeter DSL is java language 
 Getting started with Maven Project
 
-Write your first Jmeter Test in Java code
+Write your first JMeter Test in Java code
 
 Compile & Run test from IDE
 
@@ -26,7 +26,7 @@ Compile & Run using Maven commands
 
 The script's JMX version. 
 
-# Jmeter Components :
+# JMeter Components :
 
 ### Thread Group(Default) : 
 

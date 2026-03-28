@@ -12,7 +12,7 @@ comments: true
 ## Technologies
 - Java
 - Jenkins CI/CD
-- Jmeter
+- JMeter
 - Allure
 -Chrome
 

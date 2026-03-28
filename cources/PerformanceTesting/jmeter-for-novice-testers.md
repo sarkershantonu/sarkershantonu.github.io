@@ -1,4 +1,4 @@
-# Jmeter for Beginer 
+# JMeter for Beginer 
 
 # intro to GUI
 

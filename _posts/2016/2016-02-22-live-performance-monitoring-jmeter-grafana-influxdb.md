@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Jmeter Live Test Monitoring
+title: JMeter Live Test Monitoring
 date: "2016-02-22 11:57"
 tags: [performance-testing,Grafana,InfluxDB,jmeter]
 permalink: /2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Live Jmeter Test Result Monitoring"
+excerpt: "Blog on Live JMeter Test Result Monitoring"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how can we build a live performance test monitoring solution for jmeter test results.
+In this article we are going to see how can we build a live performance test monitoring solution for JMeter test results.
 
 ### Main Idea : 
-Jmeter GUI is well known for its huge resource intensiveness. So monitoring results with GUI become very very non realistic on massive load. In here we will use Jmeter in CLI mode to test and monitor results via Gratiana. This article is intended for installation & basic configuration only. Detail Grafana graph configuration will be given in separate post.
+Jmeter GUI is well known for its huge resource intensiveness. So monitoring results with GUI become very very non realistic on massive load. In here we will use JMeter in CLI mode to test and monitor results via Gratiana. This article is intended for installation & basic configuration only. Detail Grafana graph configuration will be given in separate post.
 
 ### What is Grafana ? 
 Grafana is well known industry standard monitoring dashboard used in devops. We will use this for performance monitoring. [**Project link**](http://grafana.org/) .  It needs a data source. so, we will use influxdb.
@@ -20,7 +20,7 @@ Grafana is well known industry standard monitoring dashboard used in devops. We 
 ### What is Influxdb
 Influxdb is a database which has inbuilt http based management console and provide flexible data storage . We will use inflexdb graphite plugins to connect this with grafana. [**Main project**](https://docs.influxdata.com/influxdb/v0.10/introduction/getting_started/). 
 
-We will use Jmeter [**Backend Listener**](https://jmeter.apache.org/usermanual/component_reference.html#Backend_Listener) to generate results and influxdb to store the results. Grafana will take results with simple query and show in browser. In a nutshell , this is the procedure.
+We will use JMeter [**Backend Listener**](https://jmeter.apache.org/usermanual/component_reference.html#Backend_Listener) to generate results and influxdb to store the results. Grafana will take results with simple query and show in browser. In a nutshell , this is the procedure.
 
 ![idea](/images/jmeter-grafana-influxdb/jmeter-influx.jpg)
 
@@ -28,7 +28,7 @@ We will use Jmeter [**Backend Listener**](https://jmeter.apache.org/usermanual/c
 - Grafana graphs are very good for analysis.(zooming, combined graph)
 - As results are stored in DB, we can analysis when ever we can
 - We can monitor results live
-- We can monitor results from multiple jmeter nodes , so no need Jmeter client-server execution.
+- We can monitor results from multiple JMeter nodes , so no need JMeter client-server execution.
 
 ### Setup VM
 In this whole example, I am using ubuntu 14 VM, you can use real PC or even docker. These are some of properties of my VM
@@ -81,7 +81,7 @@ My [**influxdb.conf**](/files/grafana-jmeter-influxdb/influxdb.conf) file link ,
         $ ./influxd -config <path>/influxdb.conf
 in here , like way 1, we are using same file with just added graphite configuration. 
 
-#### Validate Installation & Create DB for Jmeter :  
+#### Validate Installation & Create DB for JMeter :  
 - Now we have configured. Let's open browser and hit localhost:8083 or http://172.16.244.137:8083/
 
 ![influd-db-init](/images/jmeter-grafana-influxdb/influx-initial.jpg)
@@ -90,7 +90,7 @@ in here , like way 1, we are using same file with just added graphite configurat
 
 ![influd-db-select](/images/jmeter-grafana-influxdb/influx-config.jpg)
  
-- Lets create a database for jmeter (named as jmeter) : 
+- Lets create a database for JMeter (named as JMeter) : 
 
 ```sqlite-psql
 CREATE DATABASE "jmeter"
@@ -141,13 +141,13 @@ And install in command line :
 Optional :  I used but no need: Credential Information & Name(u can use any name) 
  
 ### Making Dashboard : 
-I will be brief in this section due to different scope need different graph. I will make a separate post on Jmeter Plugins equivalence graph configuration in grafana. You can use grafana graph generator (https://github.com/bhattchaitanya/Grafana-Dashboard-Generator) to auto graph generation before tests.
+I will be brief in this section due to different scope need different graph. I will make a separate post on JMeter Plugins equivalence graph configuration in grafana. You can use grafana graph generator (https://github.com/bhattchaitanya/Grafana-Dashboard-Generator) to auto graph generation before tests.
 So, after configuring DB. 
 - Click Home & add a Dashboard (click New)
 
 ![dash-new](/images/jmeter-grafana-influxdb/grafana-graph-init.jpg)
 
-- You can see, I have added Jmeter Live Test Dashboard. In blank dashboard add a graph
+- You can see, I have added JMeter Live Test Dashboard. In blank dashboard add a graph
 
 ![dash-new-1](/images/jmeter-grafana-influxdb/grafana-graph.jpg)
 
@@ -155,7 +155,7 @@ So, after configuring DB.
 
 ![dash-source](/images/jmeter-grafana-influxdb/grafana-metrics.jpg)
 
-- Add **jmeter.D.a.count**. What does it means?, simple, it shows count of D request from Jmeter table( a refers to single object/table).
+- Add **jmeter.D.a.count**. What does it means?, simple, it shows count of D request from JMeter table( a refers to single object/table).
 - I "General" tab , you can can configure( I use title as Max)
 - click save & back to dashboard. You can use multiple query results in single graph. 
 
@@ -173,8 +173,8 @@ In this example I have added,
 
 In here you can configuration or size. 
 
-#### Jmeter test to monitor live results: 
-- I have created a jmeter test case with single request(http, get to google.com, renamed label as D)
+#### JMeter test to monitor live results: 
+- I have created a JMeter test case with single request(http, get to google.com, renamed label as D)
 - I have added Backend Listener, I have configured
 
 ![backend-listener](/images/jmeter-grafana-influxdb/jmeter-backend-listener.jpg)
@@ -183,7 +183,7 @@ In here you can configuration or size.
 - graphiteMetricsSender    : org.apache.jmeter.visualizers.backend.graphite.TextGraphiteMetricsSender
 - My Host(VM) -> graphiteHost  :  172.16.244.137
 - My Host(VM) -> graphitePort   : 2003
-- Name Prefix of DB entry -> rootMetricsPrefix  :  jmeter.
+- Name Prefix of DB entry -> rootMetricsPrefix  :  JMeter.
 - To have detail results -> summaryOnly  :  false
 - The Name of sample from test cases -> samplersList  :  D
 - Selected Percentiles -> percentiles  :  90;95;99
@@ -194,7 +194,7 @@ Now save the test plan and run it with forever loop(1 thread, 1 sec) , so that w
 
 #### Checking update in InfluxDB : 
 1. Goto http://172.16.244.137:8083/
-2. From top right corner, select database jmeter
+2. From top right corner, select database JMeter
 3. From Query template , select SHOW MEASUREMENTS. This will show jemter tests are saved in DB
 
 ![data-influx](/images/jmeter-grafana-influxdb/influx-db-entry.jpg)
@@ -202,13 +202,13 @@ Now save the test plan and run it with forever loop(1 thread, 1 sec) , so that w
 #### Checking Update in Grafana :   
 As we have configured graph, 
 1. if we go to url http://172.16.244.137:3000/
-2. Select our dashboard (Home > Jmeter Live Test)  we should be able to see this 
+2. Select our dashboard (Home > JMeter Live Test)  we should be able to see this 
 
 ![live-dashboard](/images/jmeter-grafana-influxdb/live-results.jpg)
 
 As test is running, so END is 0. 
 
-So, we have successfully setup grafana-influxdb jmeter graph to see live results. 
+So, we have successfully setup grafana-influxdb JMeter graph to see live results. 
 
 # Useful Links :  
 - [InfluxDB Basic](https://www.youtube.com/watch?v=sRi64imN7xg)

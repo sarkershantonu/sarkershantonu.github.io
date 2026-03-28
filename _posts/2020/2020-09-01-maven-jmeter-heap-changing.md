@@ -1,23 +1,23 @@
 ---
 layout: post
-title: How to configure Jmeter JVM by maven?
+title: How to configure JMeter JVM by maven?
 date: "2020-09-01 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/01/maven-jmeter-jvm-config/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on JMeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can configure Jmeter (JVM) HEAP configuration during test. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can configure JMeter (JVM) HEAP configuration during test. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
 
-This is very important when you are testing for a big test in a big server or limited resources . As Jmeter is JAVA application , so it runs on JVM. 
+This is very important when you are testing for a big test in a big server or limited resources . As JMeter is JAVA application , so it runs on JVM. 
 
 Now, you might be thinking why we need to explicitly mention this.Because, unless we specify, JVM wont be initiated with this big size memory. And if your test case is complex or have many listeners, you probably need a big heap. 
 
 ### JVM Configurations
 - To add JVM argument , under plugins configuration section ```<jMeterProcessJVMSettings>``` will be present. Here are some examples. 
-- to run jmeter JVM with **3.5gb*** heap, and **768mb** of metaSpace
+- to run JMeter JVM with **3.5gb*** heap, and **768mb** of metaSpace
 
 ```
 <jMeterProcessJVMSettings>
@@ -90,14 +90,14 @@ we can see this in jvisualVM
 
 So, our configuration works. 
 
-Now, we will see the same thing for jmeter JVM with 15gb HEAP. This time, due to limitation of my PC's RAM(16gb), i will run from commandline , not IDE. I will see some thing like this in jvisualvm
+Now, we will see the same thing for JMeter JVM with 15gb HEAP. This time, due to limitation of my PC's RAM(16gb), i will run from commandline , not IDE. I will see some thing like this in jvisualvm
 
 ![jvm-15gb](/images/jmeter-maven/jvm-15gb-heap.JPG)
 
 ### Notes: 
 - In all cases memory values are defined in megabyte
 - Regular JVM argument can be added with ```<argument>your_jvm_arguments</argument>```
-- Jmeter performs better with jdk9+
+- JMeter performs better with jdk9+
 - Please avoid any listener in test case as runtime summary will be shown in commandline. 
 
 ### [Project-source-3.5gb](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-3.5gb-min)

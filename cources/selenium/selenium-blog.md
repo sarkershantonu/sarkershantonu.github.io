@@ -63,7 +63,7 @@ Sikuli Selenium :
 
 IOS/Android/WP Selenium : 
 
-Selenium with Jmeter :
+Selenium with JMeter :
 
 Selenium RC: 
 1. What is selenium RC?How it works?

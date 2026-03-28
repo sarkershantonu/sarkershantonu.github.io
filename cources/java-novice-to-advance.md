@@ -422,7 +422,7 @@ A Guide to Novice to Advance as Java Developer.
 
 # Scripting on JVM
 - How JVM can execute scripts on JVM
-- Example : Jmeter Implementation
+- Example : JMeter Implementation
 - JavaScript on JVM
 - Beanshell on JVM
 - Groovy on JVM

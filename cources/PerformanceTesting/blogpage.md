@@ -49,7 +49,7 @@ Performance Matrices: Part 1 : Load Generator Matrices...
 How to report after Performance Testing? 
 Performance Bugs: How to find? How to report?
 Performance Reporting : KPI 
-How to make reports(and comments) in Jmeter?
+How to make reports(and comments) in JMeter?
 What are the Reports/Listeners in JMeter?
 Introduction to JMeter Google PlugIn- Listeners 
 What is Performance Reporting? Example with web application

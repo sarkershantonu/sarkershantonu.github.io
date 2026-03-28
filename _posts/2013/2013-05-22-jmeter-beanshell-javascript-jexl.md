@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Running BeanShell/JavaScript/JEXL in Jmeter
+title: Running BeanShell/JavaScript/JEXL in JMeter
 date: "2013-05-22 08:31"
 tags: [performance-testing,jmeter]
 permalink: /2013/05/22/jmeter-beanshell-javascript-jexl/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on JMeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how can we run scripts (BeanShell/JavaScript/JEXL) inside jmeter with functions. 
+In this article we are going to see how can we run scripts (BeanShell/JavaScript/JEXL) inside JMeter with functions. 
 
 We know there are number of post and pre processors are there to do that. But in here we will see how can we run functionally in a simple manner.
 

@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Jmeter Distributed testing using Maven
+title: JMeter Distributed testing using Maven
 date: "2020-09-18 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/18/maven-jmeter-distributed-testing/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on JMeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can perform distributed testing using maven jmeter plugin. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can perform distributed testing using maven JMeter plugin. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
 
-To know basic about Jmeter distributed testing, you may visit [**this**](https://jmeter.apache.org/usermanual/remote-test.html) or [my blog](https://shantonusarker.blogspot.com/2013/01/how-to-distribute-test-in-jmeter.html). 
+To know basic about JMeter distributed testing, you may visit [**this**](https://jmeter.apache.org/usermanual/remote-test.html) or [my blog](https://shantonusarker.blogspot.com/2013/01/how-to-distribute-test-in-jmeter.html). 
 
 # Remote Testing at a glance
 
@@ -28,18 +28,18 @@ As we know , we need to setup RMI, there are some manual steps before original t
 keytool -genkey -keyalg RSA -alias rmi -keystore rmi_keystore.jks -storepass changeit -validity 7 -keysize 2048 %*
 ```
 
-In jmeter bin directory, you can see a script **create-rmi-keystore.bat** containing the same command. We can use this in commandline which will create **rmi_keystore.jks**  
+In JMeter bin directory, you can see a script **create-rmi-keystore.bat** containing the same command. We can use this in commandline which will create **rmi_keystore.jks**  
 
 I am using following info with my password to create **jks** file. You should your own password & info. 
 
 ![jks-setup](/images/jmeter-maven/jks-info.JPG)
 
-For , jmeter GUI, We have to keep this in jmeter bin directory. So in this case, we will keep in **/src/test/conf**
+For , JMeter GUI, We have to keep this in JMeter bin directory. So in this case, we will keep in **/src/test/conf**
 
  
 
 ### Add info to user.properties 
-After adding jks file, we need to specify associated property so that jmeter can work properly. So, we need following properties based on info when I have created jks.
+After adding jks file, we need to specify associated property so that JMeter can work properly. So, we need following properties based on info when I have created jks.
 
 ``` 
 # DISTRIBUTED TESTING CONFIGURATION
@@ -81,7 +81,7 @@ To keep simple, I am commenting this from project & keep this info in **user.pro
  
 Please final controller project pom from controller project. 
 
-### Jmeter Remote [Controller Project](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-controller-remote)
+### JMeter Remote [Controller Project](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-controller-remote)
 - This has JMX
 - This has JKS files
 - This has user properties
@@ -107,7 +107,7 @@ server.rmi.ssl.disable=true
 
 I am keeping **user.properties** in /src/test/jmeter folder.
 
-- We need to have two executions in jmeter plugins, just enough to install & run as remote server. 
+- We need to have two executions in JMeter plugins, just enough to install & run as remote server. 
 
 ```
 <execution>
@@ -137,14 +137,14 @@ I am adding additional ```runInBackground``` property false, this is optional.
 
 So, please see worker project for final pom. 
 
-### Jmeter Remote [Worker Project](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-worker-remote)
+### JMeter Remote [Worker Project](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-worker-remote)
 - This will have JKS files
 - This will have user properties
 
 ### Executing Remote tests 
-- Step 1 : Run Jmeter worker project ``` mvn clean verify ``` 
+- Step 1 : Run JMeter worker project ``` mvn clean verify ``` 
 
-- Step 2 : Run Jmeter controller project ``` mvn clean verify ```  
+- Step 2 : Run JMeter controller project ``` mvn clean verify ```  
 
 In worker : 
 

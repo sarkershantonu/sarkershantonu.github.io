@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Installing Jmeter plugins in Linux CLI/Cloud/AWS/Azure/GCP
+title: Installing JMeter plugins in Linux CLI/Cloud/AWS/Azure/GCP
 date: "2021-01-06 17:02"
 tags: [jmeter,ci-cd, linux]
 permalink: /2021/01/06/install-jmeter-plugins-cli/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on JMeter"
 gh-badge: [star,follow]
 comments: true
 ---
 
-In this article we are going to see how we can install Jmeter plugins in CLI linux. 
+In this article we are going to see how we can install JMeter plugins in CLI linux. 
 
 This is very useful for AWS, remote servers with no gui, installing over SSH, Docker configuration etc. 
 
@@ -28,7 +28,7 @@ sudo apt-get update
 sudo apt install curl -y
 ```
 
-- As jmeter 5.3 requires JDK8+. Any jdk distribution will be okay. But for view result tree, Oracle jdk (for java fx) is required. As we are running in CLI, we can ignore that.
+- As JMeter 5.3 requires JDK8+. Any jdk distribution will be okay. But for view result tree, Oracle jdk (for java fx) is required. As we are running in CLI, we can ignore that.
 
 ```
 sudo apt install -y default-jdk
@@ -42,9 +42,9 @@ For Debian 10/ubuntu 20, default jdk is 11. So, after installation we can valida
 
 ![work-dir](/images/jmeter/install-cli/work-dir.JPG)
 
-### Step 2 : Download Jmeter 
+### Step 2 : Download JMeter 
 
-- We will use ``/opt`` to install jmeter after configuration.  I am going to use jmeter 5.3 in this example, you can use other versions. 
+- We will use ``/opt`` to install JMeter after configuration.  I am going to use JMeter 5.3 in this example, you can use other versions. 
 
 ```
 curl -O https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.3.tgz
@@ -52,7 +52,7 @@ curl -O https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.3.tgz
 
 ![download-jmeter](/images/jmeter/install-cli/download-jmeter.JPG)
 
-### Step 3 : Extract Jmeter archive
+### Step 3 : Extract JMeter archive
 
 ``` 
 tar -xvf apache-jmeter-5.3.tgz 
@@ -81,10 +81,10 @@ curl -O https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.2.1/cmdrunner-2.2.1.ja
 
 ![download-cmd](/images/jmeter/install-cli/cmd-download.JPG)
 
-### Step 6 : Download jmeter plugin Manager
+### Step 6 : Download JMeter plugin Manager
 
 - Goto lib/ext folder
-- Download Jmeter plugin Manager , current version is 1.6
+- Download JMeter plugin Manager , current version is 1.6
 
 ``` 
 cd ext/
@@ -102,12 +102,12 @@ cd ..
 java  -jar cmdrunner-2.2.1.jar --tool org.jmeterplugins.repository.PluginManagerCMD install-all-except jpgc-hadoop,jpgc-oauth,ulp-jmeter-autocorrelator-plugin,ulp-jmeter-videostreaming-plugin,ulp-jmeter-gwt-plugin,tilln-iso8583
 ```
 
-And you should see plugins installing to jmeter. 
+And you should see plugins installing to JMeter. 
 
 ![download-jmeter-plugins](/images/jmeter/install-cli/download-jmeter-plugins.JPG)
 
-### Step 8: Validate Jmeter Version
-- Please check Jmeter Version. You need to goto bin folder and run jmeter executable
+### Step 8: Validate JMeter Version
+- Please check JMeter Version. You need to goto bin folder and run JMeter executable
 
 ``` 
 cd apache-jmeter-5.3/bin
@@ -117,8 +117,8 @@ cd apache-jmeter-5.3/bin
 
 ![jmeter-version](/images/jmeter/install-cli/jmeter-version.JPG)
 
-### Step 9: Move Jmeter to OPT
-As we are making standard installation, we need to move jmeter to the OPT folder. 
+### Step 9: Move JMeter to OPT
+As we are making standard installation, we need to move JMeter to the OPT folder. 
 
 ``` 
 cp -r apache-jmeter-5.3 /opt/
@@ -126,8 +126,8 @@ cp -r apache-jmeter-5.3 /opt/
 
 ![jmeter-opt](/images/jmeter/install-cli/cp-opt.JPG)
 
-### Step 10: Put Jmeter in PATH variable
-We need to jmeter in PATH variable. You can do this in many ways, but I prefer this way. 
+### Step 10: Put JMeter in PATH variable
+We need to JMeter in PATH variable. You can do this in many ways, but I prefer this way. 
 
 - See your current PATH variable values ```echo $PATH```
 
@@ -138,7 +138,7 @@ We need to jmeter in PATH variable. You can do this in many ways, but I prefer t
 ```
 nano .profile
 ```
-- Add Jmeter Home variable at the end of the line 
+- Add JMeter Home variable at the end of the line 
 
 ``` 
 JMETER_HOME="/opt/apache-jmeter-5.3"
@@ -156,11 +156,11 @@ PATH="$JMETER_HOME/bin:$PATH"
 source ~/.profile
 ```
 
-To test, lets see the path ```echo $PATH``` & we can see jmeter added
+To test, lets see the path ```echo $PATH``` & we can see JMeter added
 
 ![jmeter-done](/images/jmeter/install-cli/path-value-after.JPG)
 
-And let's check jmeter version by ```jmeter --version```
+And let's check JMeter version by ```jmeter --version```
 
 ![jmeter-done](/images/jmeter/install-cli/env-jmeter-version.JPG)
 
@@ -199,19 +199,19 @@ From https://jmeter-plugins.org/repo/ , you can see IDs of all available plugins
 - bzm-siebel
 - mqmeter
 - bzm-jmeter-citrix-plugin
-- jmeter-core
-- jmeter-tcp
-- jmeter-ldap
-- jmeter-native
-- jmeter-mongodb
-- jmeter-mail
-- jmeter-junit
-- jmeter-jms
-- jmeter-jdbc
-- jmeter-java
-- jmeter-ftp
-- jmeter-http
-- jmeter-components
+- JMeter-core
+- JMeter-tcp
+- JMeter-ldap
+- JMeter-native
+- JMeter-mongodb
+- JMeter-mail
+- JMeter-junit
+- JMeter-jms
+- JMeter-jdbc
+- JMeter-java
+- JMeter-ftp
+- JMeter-http
+- JMeter-components
 - jpgc-graphs-basic
 - jpgc-graphs-additional
 - jpgc-graphs-composite
@@ -261,15 +261,15 @@ From https://jmeter-plugins.org/repo/ , you can see IDs of all available plugins
 - tilln-wssecurity
 - jpgc-hadoop
 - websocket-samplers
-- jmeter.backendlistener.elasticsearch
-- jmeter.pack-listener
-- jmeter.backendlistener.kafka
+- JMeter.backendlistener.elasticsearch
+- JMeter.pack-listener
+- JMeter.backendlistener.kafka
 - ulp-jmeter-autocorrelator-plugin
 - ulp-jmeter-videostreaming-plugin
 - ulp-jmeter-gwt-plugin
-- jmeter.backendlistener.azure
-- jmeter-pubsub-sampler
-- jmeter-prometheus
+- JMeter.backendlistener.azure
+- JMeter-pubsub-sampler
+- JMeter-prometheus
 
 Now, either you can choose **install** and select all plugin ids, or you can choose **install-all-except** & provide excluded ones. 
 

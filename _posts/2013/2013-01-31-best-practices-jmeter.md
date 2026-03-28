@@ -9,7 +9,7 @@ excerpt: "Blog on JMeterBest Practices"
 gh-badge: [star, follow]
 comments: true
 ---
-In this part I will share some finding of mine using Jmeter. I have not done all on purposely. Some of them are from different blog that I have read so far.
+In this part I will share some finding of mine using JMeter. I have not done all on purposely. Some of them are from different blog that I have read so far.
 
 ### Always Follow 
 - Use latest Version(for maximum support for low resource uses)
@@ -32,24 +32,24 @@ In this part I will share some finding of mine using Jmeter. I have not done all
 - Use test action (a sampler) to apply time specific behavior. 
 - It is better to use thread group using from plugin. If you use default thread group, try to parametrize that, so that it can be run-time configurable.
 
-This is commandline user and loop count parameter jmeter test plan run command  
+This is commandline user and loop count parameter JMeter test plan run command  
 
-        jmeter -t TestPlan.jmx -Jusers=10 -Jcount=50
+        JMeter -t TestPlan.jmx -Jusers=10 -Jcount=50
 
 ### Test Debugging 
 - Debug you test case using View Results Tree listener.
-- Disable view result size limit by enabling this line from jmeter.properties(you can see any of my configuring jmeter for basic idea)
+- Disable view result size limit by enabling this line from JMeter.properties(you can see any of my configuring JMeter for basic idea)
 
         view.results.tree.max_size=0  
   
 ### Test Execution
 - Run JMeter in Non GUI mode on Test Execution. 
 - Unless you need on purpose, try to avoid executing test in distributed way. It is very resource hungry.
-- if we need Remote testing, Try to run jmeter in StrippedBatch mode(You can see this post for how to run jmeter in this mode)
+- if we need Remote testing, Try to run JMeter in StrippedBatch mode(You can see this post for how to run JMeter in this mode)
   
 ### Reporting
 - Remove all Listener while execution , save only the test results.We can extract reports from result file. 
-- Use .CSV format to save results. either you can edit jmeter.properties or user.properties for enabling CSV file result saving options(For help,you can see this post)
+- Use .CSV format to save results. either you can edit JMeter.properties or user.properties for enabling CSV file result saving options(For help,you can see this post)
 - Best to use Aggregate Graph, Response Time Graph, and  plugin graphs(see this post for plugin installation)
 
 ### How to get Session id/ JSON id / Cookie id / token/ view state? 
@@ -69,7 +69,7 @@ When these are generated dynamically, we have to parametrize those and use it wi
 Then perform like normal SOAP request.
 
 **Note** :
-- You may need to install SSL key. For that,  download from here and install from jmeter ssl manager(CTRL+M) , it is in option menu. for detail see this. 
+- You may need to install SSL key. For that,  download from here and install from JMeter ssl manager(CTRL+M) , it is in option menu. for detail see this. 
 - you may need to change this in **user.properties**
 
         https.use.cached.ssl.context=false
@@ -86,18 +86,18 @@ For example, you have weak log in database, and you want to avoid DB testing, ad
 If you use HTTP proxy server for recording and want to parametrize the URL in the script, add the URL variable in the root test plan and then record under of that. After recording you will get every request using the URL will be parametrized. 
 
 ### Test Execution : 
-- Before running **give more RAM to Jmeter** . How to do that? Open jmeter.bat(for windows) or jmeter.sh(for linux) with text editor , you will get a line for HEAP memory. default 512m. Make it 1024m or 2048
+- Before running **give more RAM to JMeter** . How to do that? Open JMeter.bat(for windows) or JMeter.sh(for linux) with text editor , you will get a line for HEAP memory. default 512m. Make it 1024m or 2048
         
         set HEAP=-Xms2048m -Xmx2048m
 
 ** Why this is important?** it will allocate JVM more space. When you try large test cases with many users, it will be needing more memory. 
 
-- Before making the test plan, Configure jmeter.properties according to your need following the architecture of the application.
+- Before making the test plan, Configure JMeter.properties according to your need following the architecture of the application.
 
 - If you can not avoid listener during test execution, try only Summary Report or aggregated report.
 
 - Try using stepping thread or ultimate thread group.(JMeterplugins) 
-- There are some issues may arise for holding the thread for hours or more(due to garbage collector and time out). See those issues from jmeter log (see log file or click ! symbol during execution) and fix according to that.
+- There are some issues may arise for holding the thread for hours or more(due to garbage collector and time out). See those issues from JMeter log (see log file or click ! symbol during execution) and fix according to that.
 
 **Example**: if you get timeout exception, then change the ramp up time. 
 If you get response exceptions from server(while testing soap, getting server busy) , you need to add some logical delay(use constant timer). 

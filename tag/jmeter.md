@@ -35,23 +35,23 @@ comments: false
 - [Reports/Listeners in JMeter](http://shantonusarker.blogspot.com/2013/02/what-are-reportslisteners-in-jmeter-why.html)
 - [What are the Post Processors in JMeter?](http://shantonusarker.blogspot.com/2013/04/what-are-post-processors-in-jmeter.html)
 - [What is JDBC Connection Configuration? Why we use this.](http://shantonusarker.blogspot.com/2013/01/what-is-jdbc-connection-configuration.html)
-- [How to parameterize jmeter?](http://shantonusarker.blogspot.com/2013/04/how-to-parameterize-jmeter.html)
+- [How to parameterize JMeter?](http://shantonusarker.blogspot.com/2013/04/how-to-parameterize-jmeter.html)
 - [JMeter Load Testing with Cassandra/MySql/Derby/SQLite/Ingres/PostgreSQL/Oracle/MSAccess](http://shantonusarker.blogspot.com/2013/01/jmeter-load-testing-with.html)
 - [Driver classes & Database URLs for JDBC Drivers](http://shantonusarker.blogspot.com/2013/01/driver-classes-database-urls-for-jdbc.html)
-- [How to run JavaScript in Jmeter?](http://shantonusarker.blogspot.com/2015/07/javascript-in-jmeter-bsf-jsr223.html)
-- [How to run BeanShell/JavaScript/JEXL in Jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-run-beanshelljavascriptjexl-in.html)
-- [BeanShell Server commands in Jmeter](http://shantonusarker.blogspot.com/2013/01/beanshell-server-commands-in-jmeter.html)
+- [How to run JavaScript in JMeter?](http://shantonusarker.blogspot.com/2015/07/javascript-in-jmeter-bsf-jsr223.html)
+- [How to run BeanShell/JavaScript/JEXL in JMeter?](http://shantonusarker.blogspot.com/2013/05/how-to-run-beanshelljavascriptjexl-in.html)
+- [BeanShell Server commands in JMeter](http://shantonusarker.blogspot.com/2013/01/beanshell-server-commands-in-jmeter.html)
 
 # JMeter Functions : 
-- [Function Helper in Jmeter](http://shantonusarker.blogspot.com/2013/05/function-helper-in-jmeter.html)
-- [How can we parametrize host Information in Jmeter?](http://shantonusarker.blogspot.com/2013/05/how-can-we-parametrize-host-information.html)
+- [Function Helper in JMeter](http://shantonusarker.blogspot.com/2013/05/function-helper-in-jmeter.html)
+- [How can we parametrize host Information in JMeter?](http://shantonusarker.blogspot.com/2013/05/how-can-we-parametrize-host-information.html)
 - [How to access JMeterProperties ?](http://shantonusarker.blogspot.com/2013/05/how-to-get-jmeter-properties.html)
 - [Calculation with JMeterfunctions](http://shantonusarker.blogspot.com/2013/05/calculation-with-jmeter-functions.html)
-- [How to get current time in Jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-get-current-time-in-jmeter.html)
-- [How to write log in jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-write-log-in-jmeter.html)
-- [How to read file in jmeter?](http://shantonusarker.blogspot.com/2013/05/how-to-read-file-in-jmeter.html)
-- [String operations with jmeter functions](http://shantonusarker.blogspot.com/2013/05/string-operations-with-jmeter-functions.html)
-- [Test Plan-Thread-sample information using Jmeter](http://shantonusarker.blogspot.com/2013/05/test-plan-thread-sample-information.html)
+- [How to get current time in JMeter?](http://shantonusarker.blogspot.com/2013/05/how-to-get-current-time-in-jmeter.html)
+- [How to write log in JMeter?](http://shantonusarker.blogspot.com/2013/05/how-to-write-log-in-jmeter.html)
+- [How to read file in JMeter?](http://shantonusarker.blogspot.com/2013/05/how-to-read-file-in-jmeter.html)
+- [String operations with JMeter functions](http://shantonusarker.blogspot.com/2013/05/string-operations-with-jmeter-functions.html)
+- [Test Plan-Thread-sample information using JMeter](http://shantonusarker.blogspot.com/2013/05/test-plan-thread-sample-information.html)
 - [Regular Expression with JMeterFunction](http://shantonusarker.blogspot.com/2013/05/regular-expression-with-jmeter-function.html)
 
 # JMeter-Execution: 
@@ -67,8 +67,8 @@ comments: false
 - [**Popular JMeterCLI Commands**](/2021/10/08/popular-jmeter-cli-commands/)
 - [How run JMeter in different modes?](http://shantonusarker.blogspot.com/2013/01/how-run-jmeter-in-different-modes.html)
 - [How ro run JMeter with a proxy?](http://shantonusarker.blogspot.com/2013/01/how-ro-run-jmeter-with-proxy.html)
-- [How to distribute test in jmeter?](http://shantonusarker.blogspot.com/2013/01/how-to-distribute-test-in-jmeter.html)
-- JMeter with Jenkins [How to run jmeter in Jnekins with Performance Plugins?](http://shantonusarker.blogspot.com/2015/07/run-jmeter-jnekins-performance-plugins.html)
+- [How to distribute test in JMeter?](http://shantonusarker.blogspot.com/2013/01/how-to-distribute-test-in-jmeter.html)
+- JMeter with Jenkins [How to run JMeter in Jnekins with Performance Plugins?](http://shantonusarker.blogspot.com/2015/07/run-jmeter-jnekins-performance-plugins.html)
 - [JMeter with Grafana-influxdb-docker](https://github.com/sarkershantonu/jmeter-grafana-influxdb-docker)
 
 ### [JMeter Maven Github](https://github.com/sarkershantonu/jmeter-maven-examples)
@@ -114,10 +114,10 @@ comments: false
 - [JMeterwebdriver sampler code style.](http://shantonusarker.blogspot.com/2015/01/jmeter-webdriver-sampler-code-style.html)
 
 # JMeterTips & Tricks :
-- [How many users jmeter can support?](http://shantonusarker.blogspot.com/2015/04/how-many-user-jmeter-can-support.html)
+- [How many users JMeter can support?](http://shantonusarker.blogspot.com/2015/04/how-many-user-jmeter-can-support.html)
 - [JMeter Tips and Tricks](/2013/01/31/best-practices-jmeter/)
 - [How to get Session id/ JSON id / Cookie id / token/ view state?](http://shantonusarker.blogspot.com/2013/04/jmeter-tips-and-tricks-part-2.html)
-- [How to make reports(and comments) in Jmeter?](http://shantonusarker.blogspot.com/2013/04/how-to-make-reportsand-comments-in.html)
+- [How to make reports(and comments) in JMeter?](http://shantonusarker.blogspot.com/2013/04/how-to-make-reportsand-comments-in.html)
 
 # JMeter in Cloud 
 ### [Blazemeter](https://www.blazemeter.com/)

@@ -28,6 +28,6 @@
 
 ### CI/CD Example : Blazemeter
 
-### CI/CD Example : Jmeter
+### CI/CD Example : JMeter
 
 ### APM to Profiling Tools : Basics to advance 

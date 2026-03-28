@@ -16,7 +16,7 @@ This tips might be helpful for writing performance test script. I would recommen
 #### Tips 1: 
 I prefer, separate vuser script for separate test cases. I have seen some engineers use same test case having multiple steps based on condition to perform multiple steps to perform a scenario. That makes the test case very complex and after a time , it is hard to understand. So, better, if you have different verity of test step for a single scenario, i suggest put them separate test case. And mix-up those test steps during execution. 
 
-**Example** : If you site has 5 ways to log in transaction, try to make 5 different test cases for each way. Like in Jmeter, I use test fragment and mix those scenarios while test execution.
+**Example** : If you site has 5 ways to log in transaction, try to make 5 different test cases for each way. Like in JMeter, I use test fragment and mix those scenarios while test execution.
 
 #### Tips 2: 
 For debugging and checking all of you correlation values , use logging or debug sampler(jmeter). It helps to get the problems quickly.

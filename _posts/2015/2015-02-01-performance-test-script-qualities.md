@@ -29,7 +29,7 @@ Vuser should occupy less memory and processing power. We need to careful about u
 Vuser should have cleanup steps. More often when we do test, there are lots of test data. Depending on system, a smart vuser should have cleanup steps to get those un necessary data out of the system. This is similar to TearDown/ @aftertest functionality if you are familiar with unit testing.
 
 #### 5. Comments : 
-Always use comments with good naming convention. In agile, it is said , your code should be self explanatory. Added to that, if you follow good naming convention and comments that reflects to requirements, it will help you as well as your successors to follow up your script. Both Jmeter and Load Runner(C code) has comment options that really helps for keeping track.
+Always use comments with good naming convention. In agile, it is said , your code should be self explanatory. Added to that, if you follow good naming convention and comments that reflects to requirements, it will help you as well as your successors to follow up your script. Both JMeter and Load Runner(C code) has comment options that really helps for keeping track.
 
 #### 6. Coding Best Practices : 
 Vuser script is similar to code. Some tool like Load runner use C code in background. So you should follow best practices, avoid code smell, organize in maintainable way and try to get rid of all of anti patterns.

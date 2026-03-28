@@ -5,15 +5,15 @@ date: "2020-09-06 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/06/maven-jmeter-modify-jars/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on JMeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can customize jmeter when executing with maven plugin. This is continuation post of [previous article](/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can customize JMeter when executing with maven plugin. This is continuation post of [previous article](/2020/08/28/maven-jmeter/).
 
-if we use very minimum elements in Jmeter, we may not need jmeter complete version to run, we can run minimum jmeter. That means, less download time, less java memory usages, faster loading. We will see this here. 
+if we use very minimum elements in JMeter, we may not need JMeter complete version to run, we can run minimum JMeter. That means, less download time, less java memory usages, faster loading. We will see this here. 
 
-Now, when testing in jmeter, if we need any 3rd party JAR/Lib, how we can do that. We will see that now. 
+Now, when testing in JMeter, if we need any 3rd party JAR/Lib, how we can do that. We will see that now. 
 
 ### Adding 3rd party JARs 
 - This will JARs at /lib directory
@@ -40,10 +40,10 @@ Now, when testing in jmeter, if we need any 3rd party JAR/Lib, how we can do tha
 </junitLibraries>
 ```
 
-### Project with min version Jmeter
-In this project We will remove some jars to make jmeter small 
+### Project with min version JMeter
+In this project We will remove some jars to make JMeter small 
 
-by default, if we run the project without excluding any JAR, we will see these JARs in jmeter **lib** directory 
+by default, if we run the project without excluding any JAR, we will see these JARs in JMeter **lib** directory 
 
 ``` 
 
@@ -178,7 +178,7 @@ So, finally this is the [**pom.xml**](https://github.com/sarkershantonu/jmeter-n
 
 ### Project [Source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-mini)
 
-**NOTE** : Don't just blindly remove dependent JARs. You should have good hold on Jmeter code base to know which are mandatory for components you use in your test case. If you remove necessary JAR, build will fail. 
+**NOTE** : Don't just blindly remove dependent JARs. You should have good hold on JMeter code base to know which are mandatory for components you use in your test case. If you remove necessary JAR, build will fail. 
 
 ### Project with 3rd party external JAR
 

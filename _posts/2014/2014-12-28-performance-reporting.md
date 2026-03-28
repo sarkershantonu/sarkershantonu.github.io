@@ -103,7 +103,7 @@ Like as all other report, typically a repot contains (I am adding common for all
 - **Test Overview**: How it was tested, during testing, what were the situation, what were monitored, what were the observation.
 - **Test Scenario**: What are scenarios involved in test execution (It may be presided based on group of users)
 - **Test Conditions**: Test conditions based on tool, environment, application settings and configuration including delays.
-- **Load Profile**: How user was generating load during test. Jmeter/ Load runner or all other tools provide this. You can take screenshot of the graph and add here. Like, 100 user, 1 hour, 500 users 3 hours like this with graph.
+- **Load Profile**: How user was generating load during test. JMeter/ Load runner or all other tools provide this. You can take screenshot of the graph and add here. Like, 100 user, 1 hour, 500 users 3 hours like this with graph.
 - **KPI**:It is optional. It is called Key Performance Indicator. Based on requirement , each group need to know a value that indicates performance situation of the product. Usually it drives future investment and activity.
 - **Results**: Tabular results, common for every tool. JMeterprovides summary results or Synthesis Report. Some times, this can be optional to hide detail results from end user/business users. We used hide them.
 - **Results Graph**: All graphs based on tabular results. We should be very careful in this area. We should put only related report here. We have see the goal and requirements and then decide. I mean, put the context with each graph. Ask yourself, why this graph you use.
@@ -112,7 +112,7 @@ For **example**, in our project, we include only transaction comparison graph fo
 
 But, for stakeholders, we added Throughput/min, Hit/Sec, Error% over time and user. Etc.
 
-And, for developers, we include al most all type of graphs following jmeter listeners. And, graphs with raw request reference not in business transaction so that each step can be shown.
+And, for developers, we include al most all type of graphs following JMeter listeners. And, graphs with raw request reference not in business transaction so that each step can be shown.
 
 ### Notes:
 - Some time we might have to change the unit of the results for better graph, like through per second to per minuets. It should be based on what are your value in range. 

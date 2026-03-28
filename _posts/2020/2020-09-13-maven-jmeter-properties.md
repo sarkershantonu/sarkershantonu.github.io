@@ -1,33 +1,33 @@
 ---
 layout: post
-title: Managing Properties in Jmeter Maven
+title: Managing Properties in JMeter Maven
 date: "2020-09-13 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/13/maven-jmeter-Properties/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on JMeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can add jmeter properties & configurations in maven plugin. This is continuation post of my [previous article](/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can add JMeter properties & configurations in maven plugin. This is continuation post of my [previous article](/2020/08/28/maven-jmeter/).
 
-### Properties in jmeter 
-- **jmeter.properties** : these are jmeter internal component properties 
+### Properties in JMeter 
+- **jmeter.properties** : these are JMeter internal component properties 
 - **merge-results.properties** : These are properties for listner which aggregrates multiple JTL files 
 - **reportgenerator.properties** : HTML report generator properties 
 - **saveservice.properties** : JMX file save, read service properties
-- **system.properties** : Jmeter system properties 
-- **upgrade.properties** : Jmeter upgrade properties 
+- **system.properties** : JMeter system properties 
+- **upgrade.properties** : JMeter upgrade properties 
 - **user.properties** : User customizable properties 
 - **global.properties** : Properties used in client-server testing. 
 
 ### Properties to work on 
-We can change any property file and this will affect in jmeter startup. But, it is safe to change any property key/value in **user.properties** file . **user.properties** will override other properties. 
+We can change any property file and this will affect in JMeter startup. But, it is safe to change any property key/value in **user.properties** file . **user.properties** will override other properties. 
 
-So, if you need to change any properties from jmeter.properties, put in **user.properties** file. 
+So, if you need to change any properties from JMeter.properties, put in **user.properties** file. 
 
 ### To change user.properties : Best Practice 
-This is recommended way to inject custom property in jmeter. Infant, if you want ot change any jmeter internal property , use this way. User property will always override system property. So, if you have any changed values, do it here. 
+This is recommended way to inject custom property in JMeter. Infant, if you want ot change any JMeter internal property , use this way. User property will always override system property. So, if you have any changed values, do it here. 
 
 I also prefer to parametrize Load Test properties. 
 
@@ -56,7 +56,7 @@ A smarter approach is to parametrize even these property with maven property. So
 
 #### [Example Source](https://github.com/sarkershantonu/jmeter-novice-to-advance/tree/master/jmeter-maven-examples/jmeter-with-maven-properties)  
 
-In here you can see I have following maven properties , which is adding values inside jmeter plugins user properties 
+In here you can see I have following maven properties , which is adding values inside JMeter plugins user properties 
 
 - Maven Properties 
 
@@ -127,7 +127,7 @@ In this way , we can reuse same test case for different load configurations, dif
 - by default the configuration directory is **/src/test/conf**. When we want to change , we can use 
 ```<confFilesDirectory>path_to_cofig_files</confFilesDirectory>```
 
-What are the config files? usually jmeter internal configurations, like log4j2.xml. Or, if you are using any custom JAR which may have any configuration files.
+What are the config files? usually JMeter internal configurations, like log4j2.xml. Or, if you are using any custom JAR which may have any configuration files.
 
 ### Use  Custom Property file 
 - To use own property file , we can inject with customPropertiesFiles. I am adding local.properties in project 
@@ -186,7 +186,7 @@ Usually custom properties are merged with existing properties. If we want wa can
 ```
 
 ### To change global.properties 
-This are spatial properties, used to send instructions to remote slave PC in jmeter master-slave execution. 
+This are spatial properties, used to send instructions to remote slave PC in JMeter master-slave execution. 
 
 For example, if we want to run each slave node with 20 threads & 15s ramp-up
 
@@ -197,8 +197,8 @@ For example, if we want to run each slave node with 20 threads & 15s ramp-up
 </propertiesGlobal>
 ```
 
-### To change jmeter.properties : I wont recommend
-This way we can change jmeter properties, for example, to change log level of Jmeter's own logging system 
+### To change JMeter.properties : I wont recommend
+This way we can change JMeter properties, for example, to change log level of JMeter's own logging system 
 ``` 
 <propertiesJMeter>
     <log_level.jmeter>DEBUG</log_level.jmeter>
@@ -206,7 +206,7 @@ This way we can change jmeter properties, for example, to change log level of Jm
 ```
 
 ### To change saveservice.properties : recommend for custom sampler
-**saveservice** is mainly used for jmeter internal JMX serialization work.  It is used to define how XStream (de-)serializes classnames. 
+**saveservice** is mainly used for JMeter internal JMX serialization work.  It is used to define how XStream (de-)serializes classnames. 
 
 Use this only when you have your own developed sampler included in JMX. 
 
@@ -217,7 +217,7 @@ Use this only when you have your own developed sampler included in JMX.
 ```
 
 ### To change upgrade.properties : recommend for updated components
-- If you have done any update or include any other component in Jmeter, you can use this to include. This also apply having company specif classes used in test project.
+- If you have done any update or include any other component in JMeter, you can use this to include. This also apply having company specif classes used in test project.
 
 ``` 
 <propertiesUpgrade>

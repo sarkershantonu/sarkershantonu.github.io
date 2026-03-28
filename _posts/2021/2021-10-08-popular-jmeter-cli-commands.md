@@ -5,18 +5,18 @@ date: "2021-10-08 00:02"
 tags: [jmeter-run, ci-cd]
 permalink: /2021/10/08/popular-jmeter-cli-commands/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter Commands"
+excerpt: "Blog on JMeter Commands"
 gh-badge: [star,follow]
 comments: true
 ---
 
-In this blog, we are going to see Jmeter Commands that I use when running in CLI or CI/CD. 
+In this blog, we are going to see JMeter Commands that I use when running in CLI or CI/CD. 
 
 This is very useful if you are a **DevOps** person creating performance testing systems for testing. This will also help you to set up runtime environments using Jenkins. 
 
-All example will be based on linux so, before starting , you need to install Jmeter in your linux environment. [**This blog might help you on how to do setup in CLI**](/2021/01/06/install-jmeter-plugins-cli/)
+All example will be based on linux so, before starting , you need to install JMeter in your linux environment. [**This blog might help you on how to do setup in CLI**](/2021/01/06/install-jmeter-plugins-cli/)
 
-# Run Headless Jmeter 
+# Run Headless JMeter 
 
 - Running with specific Test case (JMX)
 
@@ -30,23 +30,23 @@ jmeter.sh -n –t your_test_case.jmx
 jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl
 ```
   
-- Running with specific Test case , result Log & Jmeter Log(jmeter.log)
+- Running with specific Test case , result Log & JMeter Log(jmeter.log)
 
 ```
-jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log
+jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j JMeter.log
 ```
 
-- Running with specific Test case , Result Log , Jmeter Log and custom properties
+- Running with specific Test case , Result Log , JMeter Log and custom properties
 
 ```
-jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties
+jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j JMeter.log -p your_property_file.properties
 ```
 
-# Jmeter Remote Execution
+# JMeter Remote Execution
 
-- Run a Jmeter Slave/server ```jmeter-server ```
+- Run a JMeter Slave/server ```jmeter-server ```
 
-- Run Jmeter Slave with specific RMI hostname(its own) 
+- Run JMeter Slave with specific RMI hostname(its own) 
   
 ``` 
 jmeter-server -Djava.rmi.server.hostname=10.161.142.227
@@ -55,15 +55,15 @@ jmeter-server -Djava.rmi.server.hostname=10.161.142.227
   
 Here you should change ip ```10.161.142.227``` to your master IP. **This is the most preferable way to avoid RMI errors**. 
 
-- Run Jmeter test from master to slaves(3) and HTML reports (ultimate runnable script )
+- Run JMeter test from master to slaves(3) and HTML reports (ultimate runnable script )
 
 ``` 
-jmeter.sh -n -t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder -R 192.168.0.5,192.168.0.6,192.168.0.7
+jmeter.sh -n -t your_test_case.jmx -l your_test_result.jtl -j JMeter.log -p your_property_file.properties -e -o complete_path_to_output_folder -R 192.168.0.5,192.168.0.6,192.168.0.7
 ```
 
 You can replace slave IPs ```192.168.0.5,192.168.0.6,192.168.0.7``` with your original IP
 
-# Jmeter HTML Report
+# JMeter HTML Report
 
 - Run with specific Test case (JMX) and Generate HTML Report 
 
@@ -71,10 +71,10 @@ You can replace slave IPs ```192.168.0.5,192.168.0.6,192.168.0.7``` with your or
 jmeter.sh -n –t your_test_case.jmx -e -o complete_path_to_output_folder 
 ```
 
-- Running with specific Test case , Result Log , Jmeter Log,  custom properties & HTML report
+- Running with specific Test case , Result Log , JMeter Log,  custom properties & HTML report
 
 ```
-jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j jmeter.log -p your_property_file.properties -e -o complete_path_to_output_folder 
+jmeter.sh -n –t your_test_case.jmx -l your_test_result.jtl -j JMeter.log -p your_property_file.properties -e -o complete_path_to_output_folder 
 ```
 
 - Create report from CSV test results 
@@ -84,27 +84,27 @@ jmeter.sh -g test_result.csv -o complete_path_to_output_folder
 ```
 
 
-# Jmeter common CLI Options 
+# JMeter common CLI Options 
 
-- To know Jmeter version ```jmeter.sh --version``` , you should see jmeter banner in CLI 
+- To know JMeter version ```jmeter.sh --version``` , you should see JMeter banner in CLI 
 
 ![banner](/images/jmeter/install-cli/env-jmeter-version.JPG)
 
-- To run jmeter in GUI mode ```jmeter.sh```
+- To run JMeter in GUI mode ```jmeter.sh```
 
-- To run jmeter in GUI mode with own properties 
+- To run JMeter in GUI mode with own properties 
   
 ```
 jmeter.sh -p your_property_file.properties
 ```
 
-- To run jmeter under proxy with IP, Port, username(shantonu) & password(123abc) 
+- To run JMeter under proxy with IP, Port, username(shantonu) & password(123abc) 
   
 ```
 jmeter.sh -H proxy_server_ip -P proxy_server_port -u shantonu -p 123abc
 ```
 
-### Example : Running Jmeter Tests
+### Example : Running JMeter Tests
 I used to make a shell file(run-test.sh) to run script like this.
 
 - Local Test Execution  
@@ -138,10 +138,10 @@ jmeter -n -t $SCRIPT -l $RESULT -j $LOG -e -o $HTML -R $SLAVES
 
 ```
 
-### All Jmeter options 
+### All JMeter options 
 
 ``` 
-shantonu@ubuntu:~$ jmeter.sh -?
+shantonu@ubuntu:~$ JMeter.sh -?
     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
    / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
   / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
@@ -157,11 +157,11 @@ Copyright (c) 1999-2020 The Apache Software Foundation
 	-v, --version
 		print the version information and exit
 	-p, --propfile <argument>
-		the jmeter property file to use
+		the JMeter property file to use
 	-q, --addprop <argument>
 		additional JMeter property file(s)
 	-t, --testfile <argument>
-		the jmeter test(.jmx) file to run. "-t LAST" will load last 
+		the JMeter test(.jmx) file to run. "-t LAST" will load last 
 		used file
 	-l, --logfile <argument>
 		the file to log samples to
@@ -199,14 +199,14 @@ Copyright (c) 1999-2020 The Apache Software Foundation
 		force delete existing results files and web report folder if
 		 present before starting the test
 	-L, --loglevel <argument>=<value>
-		[category=]level e.g. jorphan=INFO, jmeter.util=DEBUG or com
+		[category=]level e.g. jorphan=INFO, JMeter.util=DEBUG or com
 		.example.foo=WARN
 	-r, --runremote
 		Start remote servers (as defined in remote_hosts)
 	-R, --remotestart <argument>
 		Start these remote servers (overrides remote_hosts)
 	-d, --homedir <argument>
-		the jmeter home directory to use
+		the JMeter home directory to use
 	-X, --remoteexit
 		Exit the remote servers at end of test (non-GUI)
 	-g, --reportonly <argument>

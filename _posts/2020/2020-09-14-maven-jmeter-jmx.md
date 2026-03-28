@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Managing Jmeter Test Scripts(JMX) by Maven
+title: Managing JMeter Test Scripts(JMX) by Maven
 date: "2020-09-14 05:02"
 tags: [jmeter,ci-cd]
 permalink: /2020/09/14/maven-jmeter-plugins-jmx/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on JMeter"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how we can manage Jmeter Test Cases in maven plugin. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
+In this article we are going to see how we can manage JMeter Test Cases in maven plugin. This is continuation post of [this original article](/2020/08/28/maven-jmeter/).
 
 ### Defaults : Run All Tests 
-By default maven jmeter plugins assume your all test cases are present in **/src/test/jmeter** folder. So when you just specify jmeter executions, it will run all the test, no need specify any test. 
+By default maven JMeter plugins assume your all test cases are present in **/src/test/jmeter** folder. So when you just specify JMeter executions, it will run all the test, no need specify any test. 
 
 ``` 
 <execution>
@@ -86,7 +86,7 @@ For example, you want to run different type of login scenarios where each jmx co
 ![multiple-jmx-results-regex](/images/jmeter-maven/multiple-jmx-regex-results.JPG)
 
 ### Excluding JMX
-If you have many test cases in jmeter folder and you want to exclude test cases, you have to use **testFilesExcluded** 
+If you have many test cases in JMeter folder and you want to exclude test cases, you have to use **testFilesExcluded** 
 
 ``` 
 <testFilesExcluded>

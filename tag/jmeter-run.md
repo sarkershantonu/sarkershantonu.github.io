@@ -36,16 +36,16 @@ This page contains all post related to JMeterTest Executions.
 # Basics 
 - [How run JMeter in different modes?](http://shantonusarker.blogspot.com/2013/01/how-run-jmeter-in-different-modes.html)
 - [How ro run JMeter with a proxy?](http://shantonusarker.blogspot.com/2013/01/how-ro-run-jmeter-with-proxy.html)
-- [How to distribute test in jmeter?](http://shantonusarker.blogspot.com/2013/01/how-to-distribute-test-in-jmeter.html)
+- [How to distribute test in JMeter?](http://shantonusarker.blogspot.com/2013/01/how-to-distribute-test-in-jmeter.html)
 
 # JMeterTips & Tricks : 
-- [How many users jmeter can support?](http://shantonusarker.blogspot.com/2015/04/how-many-user-jmeter-can-support.html)
+- [How many users JMeter can support?](http://shantonusarker.blogspot.com/2015/04/how-many-user-jmeter-can-support.html)
 - [JMeter Tips and Tricks](/2013/01/31/best-practices-jmeter/)
 - [How to get Session id/ JSON id / Cookie id / token/ view state?](http://shantonusarker.blogspot.com/2013/04/jmeter-tips-and-tricks-part-2.html)
-- [How to make reports(and comments) in Jmeter?](http://shantonusarker.blogspot.com/2013/04/how-to-make-reportsand-comments-in.html)
+- [How to make reports(and comments) in JMeter?](http://shantonusarker.blogspot.com/2013/04/how-to-make-reportsand-comments-in.html)
 
 # JMeter with Jenkins
-- [How to run jmeter in Jnekins with Performance Plugins?](http://shantonusarker.blogspot.com/2015/07/run-jmeter-jnekins-performance-plugins.html) 
+- [How to run JMeter in Jnekins with Performance Plugins?](http://shantonusarker.blogspot.com/2015/07/run-jmeter-jnekins-performance-plugins.html) 
 
 # JMeter with Grafana-influxdb
 

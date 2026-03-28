@@ -1,13 +1,13 @@
-# Jmeter Advance 
+# JMeter Advance 
 
 # Script checker
 
 # Plugin Development
 
-# Jmeter Maven
+# JMeter Maven
 
-# Jmeter CI/CD : Docker
+# JMeter CI/CD : Docker
 
-# Jmeter CI/CD : Grafana-influx-dashnoard
+# JMeter CI/CD : Grafana-influx-dashnoard
 
-# Jmeter Plugin Development Intro
+# JMeter Plugin Development Intro

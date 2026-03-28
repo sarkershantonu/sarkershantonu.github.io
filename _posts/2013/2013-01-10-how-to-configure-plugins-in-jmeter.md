@@ -6,7 +6,7 @@ author: Shantonu Sarker
 tags: [jmeter]
 permalink: /2013/01/10/how-to-configure-plugins-in-jmeter/
 gh-repo: sarkershantonu/sarkershantonu.github.io
-excerpt: "Blog on Jmeter"
+excerpt: "Blog on JMeter"
 gh-badge: [star, follow]
 comments: true
 ---
@@ -16,9 +16,9 @@ In this article we are going to see how can we change property of JMeter along w
 
 Jmeter has a very big number of properties. I will try to include one by one incrementally.
 
- In the jmeter installed bin directory(in my case ***C:\apache-jmeter-2.8\bin*** ), we get a file named jmeter.properties. Open this with note pad. We can find various properties which are activated and some are not yet activated.
+ In the JMeter installed bin directory(in my case ***C:\apache-jmeter-2.8\bin*** ), we get a file named JMeter.properties. Open this with note pad. We can find various properties which are activated and some are not yet activated.
 
-# Configuring by jmeter.properties [Not recommended]
+# Configuring by JMeter.properties [Not recommended]
 - To enable/disabled correct graphs display which deal with threads after reloading the JTL file.
 ```jmeter.save.saveservice.thread_counts=true``` By Default it is deactivated and false. 
 
@@ -37,7 +37,7 @@ We can configure some of the default behaviors of the plugin by adding the follo
 
 ### CSV format Change
 - To Force CSV separator character. Default is ',' if decimal separator is '.', ';' otherwise ```#jmeterPlugin.csvSeparator=;```. This is deactivated. I decided to use ```jmeterPlugin.csvSeparator=','```
-- To Force CSV time format ```# jmeterPlugin.csvTimeFormat=HH:mm:ss```. This is deactivated. I decided to use ```jmeterPlugin.csvTimeFormat=yyMMddHHmmssZ```. 
+- To Force CSV time format ```# JMeterPlugin.csvTimeFormat=HH:mm:ss```. This is deactivated. I decided to use ```jmeterPlugin.csvTimeFormat=yyMMddHHmmssZ```. 
 see [**link**](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) for more formats
 
 - To use a custom path for lib/ext (not for utility jars) ```search_paths=/app1/lib;/app2/lib```
