@@ -3,7 +3,7 @@ layout: post
 title: Regex in JMeter Function
 date: "2013-05-23 08:31"
 tags: [performance-testing,jmeter]
-permalink: /2013/05/23/jmeter-function-calculations/
+permalink: /2013/05/23/jmeter-function-regex/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on JMeter"
 gh-badge: [star,follow]
