@@ -1,5 +1,16 @@
 ---
 layout: post
+title: Regex in JMeter Function
+date: "2013-05-23 08:31"
+tags: [performance-testing,jmeter]
+permalink: /2013/05/23/jmeter-function-calculations/
+gh-repo: sarkershantonu/sarkershantonu.github.io
+excerpt: "Blog on JMeter"
+gh-badge: [star,follow]
+comments: true
+author: Shantonu Sarker
+
+layout: post
 title: Regular Expression with JMeterFunction
 date: '2013-05-23T01:04:00.000+06:00'
 author: Shantonu Sarker
