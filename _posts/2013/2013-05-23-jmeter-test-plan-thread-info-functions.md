@@ -1,13 +1,28 @@
 ---
 layout: post
-title: Test Plan-Thread-sample information using JMeterFunctions
-date: '2013-05-23T01:59:00.002+06:00'
+title: JMeter Test Plan Thread Info by functions
+date: "2013-05-23 08:31"
+tags: [performance-testing,jmeter]
+permalink: /2013/05/23/jmeter-function-thread-info/
+gh-repo: sarkershantonu/sarkershantonu.github.io
+excerpt: "Blog on JMeter"
+gh-badge: [star,follow]
+comments: true
 author: Shantonu Sarker
-tags:
-- jmeter
-modified_time: '2013-06-30T04:25:57.823+06:00'
-blogger_id: tag:blogger.com,1999:blog-2902524569242410076.post-8493983778368220886
-blogger_orig_url: https://shantonusarker.blogspot.com/2013/05/test-plan-thread-sample-information.html
 ---
 
-<div dir="ltr" style="text-align: left;" trbidi="on">In this following article we are going to see how can we retrieve current Test Plan , Thread and sample information. These are static, so they are rarely used. <br /><br />-To get name of current running Test Plan<br /><i>${__TestPlanName}</i><br />-Only used in function that calls the full test plan.<br /><br />-To get number if thread currently running<br /><i>${__threadNum}&nbsp;</i><br />-It is independent thread wise. <br />-not useful for test plan<br /><br />-To know the current sampler name<br /><i>${__samplerName()}</i><br />-Not useful for test plan<br />-Sometime it can be used with header manager/cookie manager to get value from current sample<br /><br /><br />Thanks..:) </div><div class="blogger-post-footer"></div>
+In this following article we are going to see how can we retrieve current Test Plan , Thread and sample information. These are static, so they are rarely used.
+
+### Test Plan Name
+- To get name of current running Test Plan ```${__TestPlanName}```
+- Only used in function that calls the full test plan.
+
+### Thread Number
+- To get number if thread currently running ```${__threadNum}``` 
+- It is independent thread wise.
+- not useful for test plan
+
+### Current Sample Name 
+- To know the current sampler name ```${__samplerName()}``` 
+- Not useful for test plan
+- Sometimes it can be used with header manager/cookie manager to get value from current sample
