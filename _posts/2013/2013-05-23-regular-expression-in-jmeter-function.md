@@ -12,6 +12,7 @@ author: Shantonu Sarker
 ---
 
 In this article we are going to see how we can use regular expression with a function to retrieve information from response data. We will see full detail of the function.
+
 ```${__regexFunction((?i).*?abcd.*,$2$,ALL,,,ReturnOnNoMatch,myVariable,InputVariableTextToParse)}```
 - This is the function with Seven Parameters.
 - First Parameter(mandatory) :The regular expression which will be applied to response data. It grabs all the matches.
@@ -25,8 +26,8 @@ In this article we are going to see how we can use regular expression with a fun
 - Fifth Parameter :  Default returning value if no match found
 - Sixth Parameter : A reference name for reusing the values parsed by this function. Stored values are ${myVer}  and ${myVer_g#} where "#" is the group number from the regular expression ("0" can be used to refer to the entire match).
 - Seventh Parameter :  Input variable name. If specified, then the value of the variable is used as the input instead of using the previous sample result.
- - It can also store variable for further use
- - As it can use reference variable, we can use previous results as parameters.
- - Vastly used for quick data and report processing.
+  - It can also store variable for further use
+  - As it can use reference variable, we can use previous results as parameters.
+  - Vastly used for quick data and report processing.
 
 Thanks..:)
