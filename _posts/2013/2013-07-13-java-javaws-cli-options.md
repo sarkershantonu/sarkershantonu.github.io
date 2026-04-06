@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Commandline Options
+title: Java Javaw CLI Commands
 date: "2013-07-13 14:10"
 tags: [java,jdk-tools]
 permalink: /2013/07/13/java-javaw-cli/
