@@ -3,7 +3,7 @@ layout: post
 title: Java Commandline Options
 date: "2013-07-13 14:10"
 tags: [java,jdk-tools]
-permalink: /2013/07/13/java-javaw-cli-options/
+permalink: /2013/07/13/java-javaw-cli/
 gh-repo: sarkershantonu/sarkershantonu.github.io
 excerpt: "Blog on java"
 gh-badge: [star,follow]
