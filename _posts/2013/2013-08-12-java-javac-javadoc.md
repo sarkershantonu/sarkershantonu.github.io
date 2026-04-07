@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How java, javac, javadoc work?
+title: What are Java,JavaC, JavaDoc?
 date: "2013-08-12 05:59"
 tags: [java,reflection]
 permalink: /2013/08/12/java-javac-javadoc/
