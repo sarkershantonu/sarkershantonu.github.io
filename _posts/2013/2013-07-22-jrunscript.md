@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jrunscript, Java CLI script shell
+title: Java Shell script,jrunscript
 date: "2013-07-22 10:06"
 tags: [java,jdk-tools]
 permalink: /2013/07/22/jrunscript/
