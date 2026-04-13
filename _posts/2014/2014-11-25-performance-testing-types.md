@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Performance Testing types
+title: Performance Test Types
 date: "2014-11-25 02:43"
 tags: [performance-testing]
 permalink: /2014/11/25/performance-test-types/
