@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JMeter User/Thread Support
+title: JMeter VUser/Thread Support
 date: "2015-04-16 19:54"
 tags: [jmeter]
 permalink: /2015/04/16/user-threads-jmeter-supports/
