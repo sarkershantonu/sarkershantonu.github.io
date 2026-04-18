@@ -16,7 +16,7 @@ This post is fully based on my personal experiences, other people may find diffe
 Performance test, is a kind of test which measures **how well** application is performing rather than **what is** performing.
 
 ### Performance Testing In Agile
-Usually people from non agile environment think. Performance testing all about timing , so it should be done at the end. Some says, some says not. But the fact is, performance testing is usually based on 3 key aspects
+Usually people from non-agile environment think. Performance testing all about timing , so it should be done at the end. Some says, some says not. But the fact is, performance testing is usually based on 3 key aspects
 - **How much time?**
 - **How much size?**
 - **How many users?**
