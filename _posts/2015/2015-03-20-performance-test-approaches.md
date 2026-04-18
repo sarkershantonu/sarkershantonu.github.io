@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Performance Test approaches
+title: Performance Testing approaches
 date: "2015-03-20 08:06"
 tags: [performance-testing]
 permalink: /2015/03/20/performance-test-approaches/
