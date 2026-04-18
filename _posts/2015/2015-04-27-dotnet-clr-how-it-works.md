@@ -19,7 +19,7 @@ That means, MSIL or intermediate language running platform is CLR. So, main func
 Let’s break down this functionality with basic understanding of CLR. I will not go much deeper, just those basics what a performance engineers should know. 
 
 ### Class/MSIL code verifier(CV) or Code Verification : 
-This basically checks and verifies the code/classes that it going to run. So, CLR must know CLI(Common Language Infrastructure) specifications to do that. CLR has that inside. It also includes Type Checker.
+This basically checks and verifies the code/classes that it's going to run. So, CLR must know CLI(Common Language Infrastructure) specifications to do that. CLR has that inside. It also includes Type Checker.
 
 ### Code Access Security(CAS) : 
 Inside runtime, there is an element called CAS which actually verifies security inside code, access security, execution and authentication related checks over MSIL code. It is ignored in desktop apps but widely used for web apps.
