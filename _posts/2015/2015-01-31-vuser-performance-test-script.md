@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Writing VUser or Performance Test Script
+title: What is a VUser Script?
 date: "2015-01-31 08:06"
 tags: [performance-testing]
 permalink: /2015/01/31/vuser-performance-test-script/
