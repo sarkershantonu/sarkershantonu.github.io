@@ -19,11 +19,11 @@ comments: true
 
 This page contains all post related to JMeterTest Executions.
 
-# [Jmeter-Maven](https://github.com/sarkershantonu/jmeter-maven-examples)
+# [JMeter-Maven](https://github.com/sarkershantonu/jmeter-maven-examples)
 - [JMeterwith basic report](/2020/08/28/maven-jmeter/)
 - [jmeter with modified HEAP size with JVM argument](/2020/09/01/maven-jmeter-jvm-config/)
 - [JMeterPlugins](/2020/09/03/maven-jmeter-plugins/)
-- [Jmeter-Reporting](/2020/09/04/maven-jmeter-reporting/)
+- [JMeter-Reporting](/2020/09/04/maven-jmeter-reporting/)
 - [modify-jmeter-jars](/2020/09/06/maven-jmeter-modify-jars/)
 - [Modify Properties](/2013/09/13/maven-jmeter-Properties/)
 - [Manage JMX](/2020/09/14/maven-jmeter-plugins-jmx/)

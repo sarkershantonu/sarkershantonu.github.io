@@ -17,7 +17,7 @@ This is very important as, after creating scenario and test cases, we need to ru
 x86 operating system and x86 both has memory expansion limitation upto 4gb where 3.2gb(+/-), so to have optimal output from JMeter, you need to use x64 for both Operating system and Java edition.
 
 ### Java Memory Optimization
-Jmeter is Java tool. It run with JVM. To obtain maximum capability, we need to provide maximum resources to JMeter during execution. In JMeter, bin directory, we get JMeter.bat/sh. Open this file with text editor.(windows - .bat, Linux- .sh). First, we need to increase heap size
+JMeter is Java tool. It run with JVM. To obtain maximum capability, we need to provide maximum resources to JMeter during execution. In JMeter, bin directory, we get JMeter.bat/sh. Open this file with text editor.(windows - .bat, Linux- .sh). First, we need to increase heap size
 **HEAP=-Xms1024m -Xmx8192m**
 
 It means, heap size minimum 1GB, maximum up to 8GB. I ran this to my 16GB PC. Configure following you own PC configuration.

@@ -4,12 +4,12 @@ Now, you may follow one of the examples from original creator but this blog inte
 
 
 ### What is JMeter? 
-Jmeter is known to be one of the most popular tool for performance testers. It's a decades old apache project. You can see some of my JMeter [**blog posts**](/tag/jmeter-script/) to know details 
+JMeter is known to be one of the most popular tool for performance testers. It's a decades old apache project. You can see some of my JMeter [**blog posts**](/tag/jmeter-script/) to know details 
 
 Left shift initiative actually inspired this creation of JMeter dsl. Initially , we had [**ruby JMeter**](https://github.com/flood-io/ruby-jmeter) from flood.io. 
 
 ### What is JMeter DSL?
-Jmeter DSL is java language 
+JMeter DSL is java language 
 Getting started with Maven Project
 
 Write your first JMeter Test in Java code

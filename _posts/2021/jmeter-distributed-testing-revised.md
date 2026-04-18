@@ -5,7 +5,7 @@ This is an update of [**original  blog from 2013**](https://shantonusarker.blogs
 ### What id distributed testing? 
 - A performance test tool simulate user behaviour and use parallel executions to simulate multi-user behaviour. This part is not easy when you are testing a big number of users. 
 
-Jmeter has nice approach to actually distribute its load(test executions) among its slaves. 
+JMeter has nice approach to actually distribute its load(test executions) among its slaves. 
 
 ### How it works?
 - A Master JMeter is present to start , stop test and collect results.

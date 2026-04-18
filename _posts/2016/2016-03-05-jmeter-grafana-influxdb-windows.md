@@ -47,7 +47,7 @@ So, you will get default configuration.
 ![influxdb-running](/images/jmeter-grafana-influxdb-windows/influxdb-running.jpg)
 
 - Now,  if we goto browser and see http://172.16.244.135:8083 , we will be able to see home page. 
-- Like as before , create a table 'Jmeter'.
+- Like as before , create a table 'JMeter'.
 
 ![influxdb-running](/images/jmeter-grafana-influxdb-windows/influxdb-db.jpg)
 

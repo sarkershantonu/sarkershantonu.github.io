@@ -9,7 +9,7 @@ excerpt: "Blog on Performance testing"
 gh-badge: [star,follow]
 comments: true
 ---
-In this article we are going to see how to write performance test case which is know as VUser script. We will try to learn generic way so that we can apply to **Jmeter, Loadrunner, WAPT** or any other tools in the market. 
+In this article we are going to see how to write performance test case which is know as VUser script. We will try to learn generic way so that we can apply to **JMeter, Loadrunner, WAPT** or any other tools in the market. 
 
 - The steps might change in order but the idea behind all are almost same for every tools.
 - We will discuses about performance test script for server side performance. So, there will be no reference for client side performance testing.
@@ -30,7 +30,7 @@ So, Vuser script use a system (provide by respective test tool) to simulate targ
 #### Example : 
 Loadrunner has vugen for writing scripts and controller(combining with multiple pc) to run and they have a analyzer for showing test results in smart way. 
 
-Jmeter has everything build in, you can use JMeter for writing script, again configure with multiple PC running JMeter as slave(remote execution model) to simulate load and after running you can use JMeter to see and analysis the results with different Graphs(Listeners)
+JMeter has everything build in, you can use JMeter for writing script, again configure with multiple PC running JMeter as slave(remote execution model) to simulate load and after running you can use JMeter to see and analysis the results with different Graphs(Listeners)
 
 This part actually fully depend on tool. See some of my blog posts on JMeter. 
 

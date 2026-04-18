@@ -15,9 +15,9 @@ In JMeter , we can execute JavaScript in 3 ways.
 # 1. Using Run time Function: 
 This is one of the most easy way of using java Script. Syntax :
         
-        ${__javaScript(<Your desire script>),<JmeterVariableName>}
+        ${__javaScript(<Your desire script>),<JMeterVariableName>}
 
-JmeterVariableNames is **Optional**
+JMeterVariableNames is **Optional**
 
 ## How it works : 
 JMeter support javaScript over Java using [**Rhino**](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino). So, it has limitations to support only Rhino supported functions. So, if you function involving page rendering or system specific logic, it might not work. For detail declarative use full java Script runner samplers.  

@@ -121,7 +121,7 @@ Heap dump and CPU profiling
 Identifying bottlenecks
 Section 14 : Bonus section of Introduction to Devops (continuous testing)& cloud
 
-Jmeter/Jenkins integration
+JMeter/Jenkins integration
 InfluxDB/grafana monitoring and quality gates for automated decision making in the devops pipeline
 Continuous automated monitoring in devops
 Introduction to AWS & Azure Cloud monitoring tools

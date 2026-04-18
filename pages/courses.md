@@ -38,7 +38,7 @@ Courses which I used to take online. If you are interested to join any batch, pl
 
 ||Practical Approach to build Java Selenium Frameworks || **40hr**
 
-||Jmeter/Plugin Development || **40hr**
+||JMeter/Plugin Development || **40hr**
 
 ||Patterns & Architecture for Automation|| **40hr**
 

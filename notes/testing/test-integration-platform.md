@@ -61,6 +61,6 @@ comments: true
 - JMeterPerformance Tests
 
 ## Requirements 
-- VMs with enough configurations(Jenkins, Selenium GRID server, Selenium Grid Slave,Jmeter)
+- VMs with enough configurations(Jenkins, Selenium GRID server, Selenium Grid Slave,JMeter)
 - Enough Bandwidth
 - necessary access to environments

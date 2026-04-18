@@ -12,7 +12,7 @@ comments: true
 In this article we are going to see how can we build a live performance test monitoring solution for JMeter test results.
 
 ### Main Idea : 
-Jmeter GUI is well known for its huge resource intensiveness. So monitoring results with GUI become very very non realistic on massive load. In here we will use JMeter in CLI mode to test and monitor results via Gratiana. This article is intended for installation & basic configuration only. Detail Grafana graph configuration will be given in separate post.
+JMeter GUI is well known for its huge resource intensiveness. So monitoring results with GUI become very very non realistic on massive load. In here we will use JMeter in CLI mode to test and monitor results via Gratiana. This article is intended for installation & basic configuration only. Detail Grafana graph configuration will be given in separate post.
 
 ### What is Grafana ? 
 Grafana is well known industry standard monitoring dashboard used in devops. We will use this for performance monitoring. [**Project link**](http://grafana.org/) .  It needs a data source. so, we will use influxdb.

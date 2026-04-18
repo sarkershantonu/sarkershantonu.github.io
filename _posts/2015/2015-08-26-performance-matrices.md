@@ -29,7 +29,7 @@ To know more detail about performance goals, you may visit this posts
 In this first part, I will describe only the measurement that we used get from load generating tools. 
 
 # Load Generators Graphs :
-For performance testing, we may use **load runner** or **Jmeter** or any other tools. I am keeping this as generic.  
+For performance testing, we may use **load runner** or **JMeter** or any other tools. I am keeping this as generic.  
 
 Load generators creates scenario (different type of user load/stress/soak/spike)externally. Externally means, how those requests are absorbed from client who use it. 
 

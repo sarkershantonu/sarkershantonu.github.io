@@ -14,7 +14,7 @@ comments: true
 # JMeter Configuration P1 : How to configure plugins?
 In this article we are going to see how can we change property of JMeter along with its plugins. For basic idea about JMeter and installing plugins, see my this post.
 
-Jmeter has a very big number of properties. I will try to include one by one incrementally.
+JMeter has a very big number of properties. I will try to include one by one incrementally.
 
  In the JMeter installed bin directory(in my case ***C:\apache-jmeter-2.8\bin*** ), we get a file named JMeter.properties. Open this with note pad. We can find various properties which are activated and some are not yet activated.
 
