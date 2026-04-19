@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Performance SLA or Baseline requirements
+title: Performance requirements, SLA or Baseline
 date: "2015-11-30 06:50"
 tags: [performance-testing]
 permalink: /2015/11/30/sla-baseline-requirements/
