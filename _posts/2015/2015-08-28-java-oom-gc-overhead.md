@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java OutOfMemoryError by GC overhead limit exceeded
+title: OOM by GC overhead limit exceeded
 date: "2015-08-28 20:36"
 tags: [java, jvm, java-oom]
 permalink: /2015/08/28/java-oom-gc-overhead/
