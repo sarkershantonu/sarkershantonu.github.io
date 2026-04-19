@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java OutOfMemoryError in Heap Space
+title: OOM Error in JVM Heap
 date: "2015-08-22 20:36"
 tags: [java, jvm, java-oom]
 permalink: /2015/08/22/java-oom-heap/
