@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Measuring web page Performance
+title: Measuring Webpage Performance
 date: "2016-01-13 03:42"
 tags: [performance-testing]
 permalink: /2016/01/13/navigation-timing-user-experience/
