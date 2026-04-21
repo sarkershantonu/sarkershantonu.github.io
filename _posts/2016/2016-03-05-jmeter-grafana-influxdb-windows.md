@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JMeter Live Test Monitoring in windows 8x64
+title: Monitor JMeter Live Test in windows
 date: "2016-03-05 08:31"
 tags: [performance-testing,Grafana,InfluxDB,jmeter]
 permalink: /2016/03/05/live-performance-monitoring-jmeter-grafana-influxdb-windows/
