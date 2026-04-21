@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JMeter Live Test Monitoring
+title: Monitor JMeter Test Live
 date: "2016-02-22 11:57"
 tags: [performance-testing,Grafana,InfluxDB,jmeter]
 permalink: /2016/02/22/live-performance-monitoring-jmeter-grafana-influxdb/
