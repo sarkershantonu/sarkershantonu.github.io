@@ -4,7 +4,7 @@
   [AI Playground](https://github.com/intel/AI-Playground)
 - -[Doc](https://game.intel.com/us/stories/introducing-ai-playground/)
 
-# Olama
+# Ollama
 - 
 
 # OpenClaw
