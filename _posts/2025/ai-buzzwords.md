@@ -9,3 +9,14 @@
 # MCP 
 # Open
 
+# LLM 
+# SLM
+# TinyLm
+
+# How to run LLLm
+
+# Popular Companies 
+
+
+# Popular LLMs
+
