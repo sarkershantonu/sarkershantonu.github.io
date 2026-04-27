@@ -1,8 +1,10 @@
 
-This blog will show details of lablk commands, how can we use this to know hdd info.
+This blog will show details of **lablk** commands, how can we use this to know hdd info.
 
-### Options 
+### LSBLK
+- This is an extended functionality following popular LS command for the Bulk Storage context. That means, the command style will be like LS, but you can get all info that you need for bulk stora. 
 
+### From Manual 
 ```
 Usage:
  lsblk [options] [<device> ...]
