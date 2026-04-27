@@ -4,6 +4,10 @@ This blog will show details of **lablk** commands, how can we use this to know h
 ### LSBLK
 - This is an extended functionality following popular LS command for the Bulk Storage context. That means, the command style will be like LS, but you can get all info that you need for bulk stora. 
 
+### What is a bulk Storage? 
+- Block storage in Linux refers to hardware or virtual devices that store data in fixed-size blocks (e.g., 512 bytes or 4KB), such as HDDs, SSDs, and NVMe drives
+- So, if you have any type of storage, you should have listed under lsblk command 
+
 ### From Manual 
 ```
 Usage:
