@@ -2,7 +2,10 @@ This blog will show details of DMESG commands, how can we use this to know hardw
 
 ### Options 
 
-# From Manual : 
+### Examples : 
+
+
+### From Manual : 
 
 ```
 Usage:
