@@ -8,6 +8,10 @@ This blog will show details of **lablk** commands, how can we use this to know h
 - Block storage in Linux refers to hardware or virtual devices that store data in fixed-size blocks (e.g., 512 bytes or 4KB), such as HDDs, SSDs, and NVMe drives
 - So, if you have any type of storage, you should have listed under lsblk command 
 
+### Examples : 
+- To see all devices ```lsblk -a```
+- 
+
 ### From Manual 
 ```
 Usage:
