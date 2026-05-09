@@ -1,5 +1,6 @@
 In this article , we are going to see how to run LLMs locally. 
 
+To run LLMs locally, we need to use LLM runners platforms. 
 
 ollama
 
