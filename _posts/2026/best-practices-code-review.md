@@ -10,4 +10,5 @@ Maven Best practices
 Test Code : 
 Test Method Name 
 Test Annotation/Attribute should contain 
+Test Types 
 
