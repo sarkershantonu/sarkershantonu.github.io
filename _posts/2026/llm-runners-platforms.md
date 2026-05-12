@@ -10,3 +10,20 @@ How to expose locally
 LmStudio 
 
 vLLM : 
+
+
+# ML Setup : Ollama
+# ML Setup : LmStudio
+# ML Setup : vLLM
+
+# Run LLM
+
+### Local host Execution
+
+### Remote Execution : LAN
+
+
+Llama CPP
+MLX
+Cuda
+vLLM

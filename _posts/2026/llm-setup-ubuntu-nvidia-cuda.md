@@ -54,12 +54,3 @@ sudo apt-get -y install cuda-toolkit-13-2
 - For monitoring I use ```nvidia-smi``` commands , when you are stressing/testing, you should see something like this 
 ![Usages by nvidia-smi](/images/ubuntu/nvidia/nvidia-smi-3090ti-usages.jpg)
 
-# ML Setup : Ollama 
-# ML Setup : LmStudio
-# ML Setup : vLLM
-
-# Run LLM 
-
-### Local host Execution 
-
-### Remote Execution : LAN
