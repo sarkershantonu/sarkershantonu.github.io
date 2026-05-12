@@ -37,6 +37,11 @@ sudo apt-get update
 sudo apt-get -y install cuda-toolkit-13-2
 ```
 
+### Test Nvidia Driver Installed 
+
+```git clone https://github.com/NVIDIA/cuda-samples.git```
+```sudo apt install cmake```
+
 # ML Setup : Ollama 
 # ML Setup : LmStudio
 # ML Setup : vLLM
