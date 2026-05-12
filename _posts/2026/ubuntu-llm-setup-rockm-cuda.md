@@ -42,6 +42,12 @@ sudo apt-get -y install cuda-toolkit-13-2
 ```git clone https://github.com/NVIDIA/cuda-samples.git```
 ```sudo apt install cmake```
 
+### Nvidia GPU Monitoring
+- Stressing on GPU thermal & power Limit, I use [Furmark](https://geeks3d.com/furmark/downloads/)
+- For Application based GPU debugging, I use nvidia dev tool : [Nsight](https://developer.nvidia.com/nsight-systems)
+- For monitoring I use ```nvidia-smi``` commands , when you are stressing/testing, you should see something like this 
+![Usages by nvidia-smi](/images/ubuntu/nvidia/nvidia-smi-3090ti-usages.jpg)
+
 # ML Setup : Ollama 
 # ML Setup : LmStudio
 # ML Setup : vLLM
