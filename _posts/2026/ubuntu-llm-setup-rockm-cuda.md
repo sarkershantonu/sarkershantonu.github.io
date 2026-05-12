@@ -37,6 +37,12 @@ sudo apt-get update
 sudo apt-get -y install cuda-toolkit-13-2
 ```
 
+### install NVCC
+```sudo apt install nvidia-cuda-toolkit```
+
+```nvcc --version```
+![version output](/images/ubuntu/nvidia/nvcc-version.png)
+
 ### Test Nvidia Driver Installed 
 
 ```git clone https://github.com/NVIDIA/cuda-samples.git```
