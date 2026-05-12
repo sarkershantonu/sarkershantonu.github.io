@@ -1,0 +1,1 @@
+I am going to run CUda sample in Ubuntu 
