@@ -12,3 +12,5 @@ Test Method Name
 Test Annotation/Attribute should contain 
 Test Types 
 
+These are basics of Code review check points I usually make 
+
