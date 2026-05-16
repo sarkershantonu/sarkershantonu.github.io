@@ -15,3 +15,14 @@ sudo dpkg -i LM-Studio-0.4.12-1-x64.deb
 ```
 
 vLLM
+
+
+https://github.com/janhq/awesome-local-ai
+https://huggingface.co/
+
+
+=>
+https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-2026/
+
+https://github.com/przbadu-ai/LocalMind-Old
+https://pydantic.dev/
