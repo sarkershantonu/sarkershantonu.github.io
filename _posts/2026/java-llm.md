@@ -4,3 +4,5 @@
 I will use MLX & Cuda platform. 
 
 # Java Projects related LLMs 
+
+Sample Code : 
