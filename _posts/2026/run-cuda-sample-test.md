@@ -8,7 +8,7 @@ I am going to run CUda sample in Ubuntu
 
 ```mkdir build && cd build```
 
-Run cmake 
+- Run cmake 
 ```cmake ..```
 ```cmake -DENABLE_CUDA_DEBUG=True ...```
 
