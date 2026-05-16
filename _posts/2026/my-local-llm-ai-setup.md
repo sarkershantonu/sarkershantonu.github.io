@@ -1,5 +1,6 @@
 # System 1 : Linux
 ### Hardware Info 
+- MiniPc MinisForum 
 ### Platform Stack
 ### Software Info
 
