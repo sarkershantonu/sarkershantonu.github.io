@@ -16,4 +16,5 @@
 # System 2 : Mac
 ### Hardware Info
 ### Platform Stack
+- MLX
 ### Software Info
