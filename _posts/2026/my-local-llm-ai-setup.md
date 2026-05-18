@@ -9,12 +9,17 @@
 - ROCKm
 - 
 ### Software Info
+- Ubuntu LTS 24.4
 - Python
 - C++
 - Java
 
-# System 2 : Mac
+# System 2 : Mac M4mini
+
 ### Hardware Info
+- M4 Mini
+- 24Gb Unified Memory
 ### Platform Stack
 - MLX
 ### Software Info
+- MacOs 
