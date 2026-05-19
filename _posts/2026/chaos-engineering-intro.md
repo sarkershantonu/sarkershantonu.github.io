@@ -19,6 +19,23 @@ My thoughts on Chaos Engineering
 - Component Diagram 
   - Internal Application component
   - External Upstream & downstream components
+  - Component Distributions (multi tire, multi DB, caching ) 
 - Sequence Diagram
 - If possible , data flow diagram 
-Flowchart 
+- Deployment Details
+
+### Activities :
+- Analyze & get each component , all ins & out as well as relationships 
+- Get every deployment component & configurations 
+- Make all combinations (you may use tools) 
+- Eliminate impossibles
+- Consider Resources for a infrastructure
+  - Availability range, (min max) of CPU ,Storage , IO, Memory , Network
+  - Error in CPU, storage, IO, memory, network
+  - Not Available at all 
+- Consider Application behavior 
+  - deployed app server limitations(like Apache, nginx)
+  - Stress Applications to limit Process/Memory/IO usages(you may need to incorporate load testing tools)
+  - 
+
+### Flowchart 
