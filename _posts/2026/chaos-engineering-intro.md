@@ -29,10 +29,16 @@ My thoughts on Chaos Engineering
 - Get every deployment component & configurations 
 - Make all combinations (you may use tools) 
 - Eliminate impossibles
-- Consider Resources for a infrastructure
+- Consider infrastructure Resources
   - Availability range, (min max) of CPU ,Storage , IO, Memory , Network
   - Error in CPU, storage, IO, memory, network
   - Not Available at all 
+- Consider OS Layer behavior
+  - Kernel Errors
+  - Process/IO/Memory/CPU Limitations in kernel level
+  - Network latency and configurations 
+- Consider Platform Behavior
+  - JVM/ Dotnet CLR Limitations/ Errors
 - Consider Application behavior 
   - deployed app server limitations(like Apache, nginx)
   - Stress Applications to limit Process/Memory/IO usages(you may need to incorporate load testing tools)
