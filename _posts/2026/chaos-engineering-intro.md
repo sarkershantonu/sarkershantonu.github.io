@@ -14,4 +14,11 @@ My thoughts on Chaos Engineering
 ### Requirements 
 
 ### Example : Requirements 
+
+### Documents 
+- Component Diagram 
+  - Internal Application component
+  - External Upstream & downstream components
+- Sequence Diagram
+- If possible , data flow diagram 
 Flowchart 
