@@ -8,3 +8,7 @@ How to perform chaos engineering?
 What are popular tools for chaos?
 
 How to learn by Practice & POC? 
+
+My thoughts on Chaos Engineering 
+
+Flowchart 
