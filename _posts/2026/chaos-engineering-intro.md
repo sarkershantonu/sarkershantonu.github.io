@@ -54,3 +54,7 @@ My thoughts on Chaos Engineering
   - Paperer Tests to run during Chaos Experiments. Since Chaos is an Experiment not testing, you need to interact with existing performance & functional tests. 
 
 ### Flowchart 
+
+```mermaid
+  info
+```
