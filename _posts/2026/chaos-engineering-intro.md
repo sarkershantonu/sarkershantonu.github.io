@@ -42,6 +42,10 @@ My thoughts on Chaos Engineering
 - Consider Application behavior 
   - deployed app server limitations(like Apache, nginx)
   - Stress Applications to limit Process/Memory/IO usages(you may need to incorporate load testing tools)
-  - 
+- Consider Chaos Tool Limitations/Facilities 
+  - Chaos Mesh
+  - Litmus Chaos
+  - Chaos Toolkit
+  - gremlin (commercial)
 
 ### Flowchart 
