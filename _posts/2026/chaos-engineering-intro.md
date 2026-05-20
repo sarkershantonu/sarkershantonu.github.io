@@ -47,5 +47,10 @@ My thoughts on Chaos Engineering
   - Litmus Chaos
   - Chaos Toolkit
   - gremlin (commercial)
+- Chaos Experiment Test Plan
+  - How it will be run
+  - How to track
+  - When to trigger
+  - Paperer Tests to run during Chaos Experiments. Since Chaos is an Experiment not testing, you need to interact with existing performance & functional test executions. 
 
 ### Flowchart 
