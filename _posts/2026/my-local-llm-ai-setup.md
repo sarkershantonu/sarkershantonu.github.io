@@ -14,7 +14,7 @@
 - C++
 - Java
 
-# System 2 : Mac M4mini
+# System 2 : Mac M4 mini
 
 ### Hardware Info
 - M4 Mini
