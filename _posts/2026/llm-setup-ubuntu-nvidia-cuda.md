@@ -58,3 +58,15 @@ sudo apt-get -y install cuda-toolkit-13-2
 - For monitoring I use ```nvidia-smi``` commands , when you are stressing/testing, you should see something like this 
 ![Usages by nvidia-smi](/images/ubuntu/nvidia/nvidia-smi-3090ti-usages.jpg)
 
+### Install vulkun for running samples 
+
+sudo apt-get install libvulkan-dev vulkan-tools
+sudo apt-get install freeglut3-dev
+sudo apt-get install libxmu-dev libxi-dev
+sudo ln -s /usr/lib/x86_64-linux-gnu/libglut.so.3 /usr/lib/libglut.so
+sudo apt-get update
+sudo apt-get install libfreeimage3 libfreeimage-dev
+sudo apt-get install libopenmpi-dev openmpi-bin
+
+-- Could NOT find NVSCI (missing: NVSCIBUF_LIBRARY NVSCISYNC_LIBRARY NVSCIBUF_INCLUDE_DIR NVSCISYNC_INCLUDE_DIR) 
+
