@@ -16,6 +16,7 @@
 1. install nvidia drivers 
 - 
 ```sudo apt-get install -y nvidia-open```
+After this, if you chek nvidi-smi, it should show you status 
 
 2. Install Cuda Drivers
 ```
