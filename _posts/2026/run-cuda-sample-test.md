@@ -9,9 +9,21 @@ I am going to run CUda sample in Ubuntu
 ```mkdir build && cd build```
 
 - Run cmake 
-```cmake ..```
+- ```cmake ..```
 ```cmake -DENABLE_CUDA_DEBUG=True ...```
+- ```make -j$(nproc)```
+- ```$ make -j$(nproc) --ignore-errors # or --keep-going```
+```$ mkdir build && cd build
+ cmake .. -DBUILD_TEGRA=True \
+  -DCMAKE_CUDA_COMPILER=/usr/local/cuda/bin/nvcc \
+  -DCMAKE_TOOLCHAIN_FILE=../cmake/toolchains/toolchain-aarch64-linux.cmake \
+  -DTARGET_FS=/drive/temp \
+  -DCMAKE_LIBRARY_PATH=/drive/temp/usr/local/cuda-13.1/thor/lib64/ \
+  -DCMAKE_INCLUDE_PATH=/drive/temp/usr/local/cuda-13.1/thor/include/ 
+  ```
 
+```python run_tests.py```
+![TestRunnint](/images/ubuntu/nvidia/xorwow-test-running.jpg)
 
 https://github.com/nvidia/cuda-samples
 
