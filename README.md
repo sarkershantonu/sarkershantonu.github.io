@@ -12,3 +12,9 @@
 - 
 # Shantonu's Career TimeLine
 ![career](/images/shantonu/career-shantonu.JPG)
+
+# Blog Tools 
+- Jekyll
+- mermaid
+- Markdown
+- Code Snipped Java/JS/C#/Bash
