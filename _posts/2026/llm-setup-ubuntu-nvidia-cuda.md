@@ -13,7 +13,8 @@
 ##### Cuda installation
 - Check your GPU compatible Cuda [here](https://developer.nvidia.com/cuda/gpus). My GPU is RTX 3090Ti, so I need to install Cuda 8.6
 
-
+- install nvidia drivers 
+- 
 ```sudo apt-get install -y nvidia-open```
 
 - Install Cuda Drivers
