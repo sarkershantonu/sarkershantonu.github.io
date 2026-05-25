@@ -22,7 +22,7 @@ I am going to run CUda sample in Ubuntu
   -DCMAKE_INCLUDE_PATH=/drive/temp/usr/local/cuda-13.1/thor/include/ 
   ```
 
-```python run_tests.py```
+```python3 run_tests.py```
 ![TestRunnint](/images/ubuntu/nvidia/xorwow-test-running.jpg)
 
 https://github.com/nvidia/cuda-samples
