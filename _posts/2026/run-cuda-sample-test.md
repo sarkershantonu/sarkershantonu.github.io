@@ -1,12 +1,24 @@
 I am going to run CUda sample in Ubuntu 
 
-```git clone https://github.com/NVIDIA/cuda-samples.git```
-
-```sudo apt install cmake``` 
-```cmake --version```
+### Install Prerequisite
+- Install cmake
+```
+sudo apt install cmake 
+cmake --version 
+```
 ![cmake](/images/ubuntu/nvidia/cmake-version.png)
 
+- install dependent libraries
+```
+sudo apt update && sudo apt install -y libvulkan-dev vulkan-tools freeglut3-dev libxmu-dev libxi-dev libopenmpi-dev openmpi-bin libfreeimage3 libfreeimage-dev
+sudo ln -s /usr/lib/x86_64-linux-gnu/libglut.so.3 /usr/lib/libglut.so
+```
+
+
+
+
 ```mkdir build && cd build```
+```git clone https://github.com/NVIDIA/cuda-samples.git```
 
 - Run cmake 
 - ```cmake ..```
