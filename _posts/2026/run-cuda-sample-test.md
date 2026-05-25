@@ -14,11 +14,12 @@ sudo apt update && sudo apt install -y libvulkan-dev vulkan-tools freeglut3-dev 
 sudo ln -s /usr/lib/x86_64-linux-gnu/libglut.so.3 /usr/lib/libglut.so
 ```
 
-
-
-
-```mkdir build && cd build```
+### Get Samples 
+- Clone repository 
 ```git clone https://github.com/NVIDIA/cuda-samples.git```
+- Create build folder and go inside
+```mkdir build && cd build```
+
 
 - Run cmake 
 - ```cmake ..```
