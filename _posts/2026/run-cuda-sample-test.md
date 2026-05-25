@@ -19,13 +19,14 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libglut.so.3 /usr/lib/libglut.so
 ```git clone https://github.com/NVIDIA/cuda-samples.git```
 - Create build folder and go inside
 ```mkdir build && cd build```
-
-
-- Run cmake 
+- Run cmake , 
 - ```cmake ..```
 ```cmake -DENABLE_CUDA_DEBUG=True ...```
 - ```make -j$(nproc)```
 - ```$ make -j$(nproc) --ignore-errors # or --keep-going```
+
+- you can run only cmake, this might be cause lots errors due to runtime peremeters. I prefer to
+
 ```$ mkdir build && cd build
  cmake .. -DBUILD_TEGRA=True \
   -DCMAKE_CUDA_COMPILER=/usr/local/cuda/bin/nvcc \
