@@ -5,6 +5,12 @@ I will use MLX & Cuda platform.
 
 # Java Projects related LLMs 
 
+
+### Java LLM Prerequisite : Setup
+- Download from Hugging face 
+
+
+
 Sample Code : 
 
-[Github Example](https://github.com/sarkershantonu/llm-java-examples) | todo
+[Github Source](https://github.com/sarkershantonu/llm-java-examples) | todo
