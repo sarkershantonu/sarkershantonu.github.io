@@ -25,7 +25,7 @@ This page contains all post related to JMeterTest Executions.
 - [JMeterPlugins](/2020/09/03/maven-jmeter-plugins/)
 - [JMeter-Reporting](/2020/09/04/maven-jmeter-reporting/)
 - [modify-jmeter-jars](/2020/09/06/maven-jmeter-modify-jars/)
-- [Modify Properties](/2013/09/13/maven-jmeter-Properties/)
+- [Modify Properties](/2020/09/13/maven-jmeter-Properties/)
 - [Manage JMX](/2020/09/14/maven-jmeter-plugins-jmx/)
 - [Distributed Testing](/2020/09/18/maven-jmeter-distributed-testing/)
 - [Proxy Setting and Tips](/2020/09/20/maven-jmeter-tricks-proxy/)

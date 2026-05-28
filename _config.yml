@@ -10,6 +10,7 @@ navbar-links:
     - Java-perf: "tag/java-performance"
     - DotNet-perf: "tag/dotnet-performance"
     - JMeter: "tag/jmeter"
+    - RunJMeter: "tag/jmeter-run"
   SDET:
     - Testing: "tag/testing"
     - Selenium: "tag/selenium"
