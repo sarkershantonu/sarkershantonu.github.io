@@ -8,7 +8,7 @@ I will use MLX & Cuda platform.
 
 ### Java LLM Prerequisite : Setup
 - Download from Hugging face 
-
+- Java Setup : 
 
 
 Sample Code : 
