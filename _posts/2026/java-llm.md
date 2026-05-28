@@ -11,6 +11,9 @@ I will use MLX & Cuda platform.
 - Java Setup : 
 
 
+
 Sample Code : 
 
 [Github Source](https://github.com/sarkershantonu/llm-java-examples) | todo
+
+### How to run The Example 
