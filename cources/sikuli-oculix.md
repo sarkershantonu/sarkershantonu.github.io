@@ -12,6 +12,6 @@
 
 # Format : Single Day workshop
 
-SikuliX is now [oculix](https://github.com/oculix-org)
+SikuliX is now [oculix](https://github.com/oculix-org) https://github.com/oculix-org/Oculix
 
 Library installation solve : https://github.com/oculix-org/Legerix
