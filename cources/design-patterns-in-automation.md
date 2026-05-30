@@ -78,7 +78,7 @@ comments: false
 - Example :
 - Home Task :
 
-### DP : Screen Play
+### DP : ScreenPlay
 
 - What :
 - Why :
