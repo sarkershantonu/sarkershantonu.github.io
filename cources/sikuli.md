@@ -11,3 +11,5 @@
 # Sikuli UI vs SikuliX
 
 # Format : Single Day workshop
+
+SikuliX is now [oculix](https://github.com/oculix-org)
