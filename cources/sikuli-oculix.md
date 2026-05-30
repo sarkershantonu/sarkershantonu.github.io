@@ -13,3 +13,5 @@
 # Format : Single Day workshop
 
 SikuliX is now [oculix](https://github.com/oculix-org)
+
+Library installation solve : https://github.com/oculix-org/Legerix
