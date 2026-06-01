@@ -1,4 +1,4 @@
-#
+# Update : Since My current Setup dont have AMD GPU supports AMD AI platform RockM
 # Hardware Setup 
 - PC Specifications : 
 - GPU setup 
