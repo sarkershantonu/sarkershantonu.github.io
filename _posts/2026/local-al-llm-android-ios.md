@@ -8,3 +8,5 @@ https://github.com/a-ghorbani/pocketpal-ai
 
 https://github.com/dineshsoudagar/local-llms-on-android 
 
+# Difference LLM vs TLM
+- 
