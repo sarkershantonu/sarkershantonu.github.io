@@ -1,6 +1,9 @@
+#
 # Hardware Setup 
 - PC Specifications : 
 - GPU setup 
+
+
 
 # Operating System Setup 
 - Kernel version 
