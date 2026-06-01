@@ -10,3 +10,5 @@ https://github.com/dineshsoudagar/local-llms-on-android
 
 # Difference LLM vs TLM
 - 
+
+# Building Apps around TLM
