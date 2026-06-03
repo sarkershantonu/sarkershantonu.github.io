@@ -59,7 +59,11 @@ My thoughts on Chaos Engineering
 - Categorize scenarios based on 
   - Application Architecture
   - Deployment Architecture (infrastructure)
-  - 
+- Identify "what-if" Scenarios 
+- Prioritize Scenarios 
+
+### Choosing A Tool
+- Choose a tool based on What Scenarios you need to vcover
 ### Flowchart 
 
 ```mermaid
