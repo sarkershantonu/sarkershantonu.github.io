@@ -63,7 +63,18 @@ My thoughts on Chaos Engineering
 - Prioritize Scenarios 
 
 ### Choosing A Tool
-- Choose a tool based on What Scenarios you need to vcover
+- Choose a tool based on 
+  - What Scenarios you need to cover
+  - how long you will maintain these tests
+  - How People will Execute the test
+  - How this tool might help you for Problem Analysis 
+  - How quickly your team can learn and use the tool
+  
+My personal Opinion
+- if your organization is small and semi or less technical people will maintain these Experiments  , choose a tool which has better gui and easy to deploy Experiments.
+- If your organization has mature devOps culture , you can use WebGuis to create tests and use tool APIs/Rest clients to invoke tests
+- If your organization is very robust and code friendly technical people, you may not need to interact with Webui, all experiments are creatable and deployable from API 
+
 ### Flowchart 
 
 ```mermaid
