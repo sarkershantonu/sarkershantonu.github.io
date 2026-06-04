@@ -18,3 +18,12 @@ Minikube is lightweight version of kubernetes. Its design for developers and dev
 ### Kubernetes IDE
 
 ### Kubernetes Tools 
+
+
+### Install : Ubuntu 
+- Using Deb Package 
+```shell
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+sudo dpkg -i minikube_latest_amd64.deb
+
+```
