@@ -1,6 +1,14 @@
 # What is MiniKube 
+Minikube is lightweight version of kubernetes. Its design for developers and devops people who can deploy test apps locally and can perform POC as if its full Kubernetes. 
+
 # Why Minikube
 - Setting up Local Mini version of Kubernetes to perform development task
 - 
+# My Usages : Examples
+- Local App deployment
+- Chaos Mesh experiments with UI & API
+- Litmus Chaos Experiment with UI & API
+- Performance Testing system => JMeter, Dashboard with Grafana/InfluxDB 
+- Automation testing system => Junit/TestNG test , Jenkins, Allure, Report Portal 
 
 # MiniKube vs Kubernetes 
