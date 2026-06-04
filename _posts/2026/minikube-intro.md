@@ -19,6 +19,8 @@ Minikube is lightweight version of kubernetes. Its design for developers and dev
 
 ### Kubernetes Tools 
 
+- install all togather 
+- 
 
 ### Install : Ubuntu 
 - Using Deb Package 
