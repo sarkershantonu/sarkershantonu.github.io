@@ -27,3 +27,9 @@ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest
 sudo dpkg -i minikube_latest_amd64.deb
 
 ```
+
+### Install : Windows 
+- Form windows command line (as admin)
+```shell
+winget install Kubernetes.minikube
+```
