@@ -47,14 +47,14 @@ winget install Kubernetes.minikube
 - ```dashboard```, Access the Kubernetes dashboard running within the minikube
 
 ##### cluster Related 
-- ```pause```     pause Kubernetes
+- ```pause```pause Kubernetes
 - ```unpause```   unpause Kubernetes
 
 ##### Images Commands:
 - ```docker-env```Provides instructions to point your terminal's docker-cli to the Docker Engine inside minikube. (Useful for building docker images directly inside minikube)
 - ```podman-env```Configure environment to use minikube's Podman service
-- ```cache```     Manage cache for images
-- ```image```     Manage images
+- ```cache```Manage cache for images
+- ```image```Manage images
 
 ##### Configuration and Management Commands:
 - ```addons```    Enable or disable a minikube addon
@@ -67,18 +67,18 @@ winget install Kubernetes.minikube
 - ```tunnel```    Connect to LoadBalancer services
 
 ##### Advanced Administrative:
-- ```mount```     Mounts the specified directory into minikube
+- ```mount```Mounts the specified directory into minikube
 - ```ssh```Log into the minikube environment (for debugging)
 - ```kubectl```   Run a kubectl binary matching the cluster version
-- ```node```      Add, remove, or list additional nodes
+- ```node``` Add, remove, or list additional nodes
 - ```cp``` Copy the specified file into minikube
 
 ##### Basic Troubleshooting :
 - ```ssh-key```   Retrieve the ssh identity key path of the specified node
 - ```ssh-host```  Retrieve the ssh host key of the specified node
 - ```ip``` Retrieves the IP address of the specified node
-- ```logs```      Returns logs to debug a local Kubernetes cluster
-- ```update-check```     Print current and latest version number
+- ```logs``` Returns logs to debug a local Kubernetes cluster
+- ```update-check```Print current and latest version number
 - ```version```   Print the version of minikube
 - ```options```   Show a list of global command-line options (applies to all commands).
 
