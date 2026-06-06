@@ -38,7 +38,13 @@ winget install Kubernetes.minikube
 ### Starting A cluster 
 
 
-### Basic Commands 
+### Basic Commands From Manual
+- ```start```, Starts a local Kubernetes cluster
+- ```status```, Gets the status of a local Kubernetes cluster
+- ```stop```, Stops a running local Kubernetes cluster
+- ```delete```, Deletes a local Kubernetes cluster
+- ```dashboard```, Access the Kubernetes dashboard running within the minikube
+
 
 ### Deploy APP Example
 
