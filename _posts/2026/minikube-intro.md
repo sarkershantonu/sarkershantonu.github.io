@@ -42,3 +42,9 @@ winget install Kubernetes.minikube
 ### Installing Chaos Tools 
 
 ### Install JMeter 
+
+### Install JMeter Continuous Testing System
+
+### Install Jenkins
+
+### Install 
