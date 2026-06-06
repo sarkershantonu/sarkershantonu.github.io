@@ -48,3 +48,5 @@ winget install Kubernetes.minikube
 ### Install Jenkins
 
 ### Security Basics
+
+### Validating Configurations 
