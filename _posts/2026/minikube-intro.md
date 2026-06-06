@@ -35,3 +35,6 @@ sudo dpkg -i minikube_latest_amd64.deb
 ```shell
 winget install Kubernetes.minikube
 ```
+# Starting A cluster 
+
+# Deploy an APP 
