@@ -35,8 +35,14 @@ sudo dpkg -i minikube_latest_amd64.deb
 ```shell
 winget install Kubernetes.minikube
 ```
-### Starting A cluster 
+### Command Examples : 
 
+##### Manage Cluster 
+- Starting A cluster 
+
+##### Manage Docker 
+
+##### 
 
 ### Basic Commands[From Manual]
 ##### Administrative
