@@ -13,7 +13,8 @@ sudo apt update && sudo apt install -y git build-essential cmake
 ```
 - Download Latest [release from here](https://github.com/ggml-org/llama.cpp/releases)
 - Make Exutable ```chmod +x llama-cli``` and check version ```./llama-cli --version```
-- Build from source 
+
+### Build LLamaCPP from source 
 ```  
 git clone https://github.com/ggml-org/llama.cpp.git
 ```
