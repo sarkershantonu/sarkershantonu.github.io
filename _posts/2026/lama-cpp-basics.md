@@ -14,7 +14,7 @@ sudo apt update && sudo apt install -y git build-essential cmake
 - Download Latest [release from here](https://github.com/ggml-org/llama.cpp/releases)
 
 - Build from source 
-``` 
+```  
 git clone https://github.com/ggml-org/llama.cpp.git
 ```
 
