@@ -12,3 +12,6 @@
 sudo apt update && sudo apt install -y git build-essential cmake
 ```
 - Build from source 
+``` 
+git clone https://github.com/ggml-org/llama.cpp.git
+```
