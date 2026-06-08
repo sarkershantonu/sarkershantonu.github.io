@@ -6,5 +6,9 @@
 
 # LamaCPP Architecture 
 
-# 
-
+# LamaCPP installations : Ubuntu
+- install dependencies
+```shell 
+sudo apt update && sudo apt install -y git build-essential cmake
+```
+- Build from source 
