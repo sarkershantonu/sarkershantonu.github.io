@@ -41,6 +41,8 @@ llama-llava-cli
 llama-qwen2vl-cli   
 rpc-server
 
+All tool source (todo): https://github.com/ggml-org/llama.cpp/tree/master/tools
+
 
 ### Build LLamaCPP from source 
 ```  
