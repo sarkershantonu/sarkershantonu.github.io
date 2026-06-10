@@ -39,7 +39,34 @@ llama-tts
 llama-completion     
 llama-llava-cli              
 llama-qwen2vl-cli   
-rpc-server
+[rpc-server](https://github.com/ggml-org/llama.cpp/tree/master/tools/rpc) : The rpc-server allows exposing ggml(tensor library) devices on a remote host.
+
+```mermaid
+flowchart TD
+    rpcb<-->|TCP|srva
+    rpcb<-->|TCP|srvb
+    rpcb<-.->|TCP|srvn
+    subgraph hostn[Host N]
+    srvn[rpc-server]<-.->dev4["CUDA0"]
+    srvn[rpc-server]<-.->dev5["CPU"]
+    end
+    subgraph hostb[Host B]
+    srvb[rpc-server]<-->dev3["Metal"]
+    end
+    subgraph hosta[Host A]
+    srva[rpc-server]<-->dev["CUDA0"]
+    srva[rpc-server]<-->dev2["CUDA1"]
+    end
+    subgraph host[Main Host]
+    local["Local devices"]<-->ggml[llama-cli]
+    ggml[llama-cli]<-->rpcb[RPC backend]
+    end
+    style hostn stroke:#66,stroke-width:2px,stroke-dasharray: 5 5
+    classDef devcls fill:#5B9BD5
+    class local,dev,dev2,dev3,dev4,dev5 devcls
+
+```
+
 
 All tool source (todo): https://github.com/ggml-org/llama.cpp/tree/master/tools
 
