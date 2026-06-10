@@ -36,7 +36,7 @@ llama-cli : Main CLI Tools
 llama-imatrix                
 llama-quantize      
 llama-tts
-llama-completion     
+[llama-completion](https://github.com/ggml-org/llama.cpp/blob/master/tools/completion/completion.cpp): To use various LLaMA language models easily and efficiently 
 llama-llava-cli              
 llama-qwen2vl-cli   
 [rpc-server](https://github.com/ggml-org/llama.cpp/tree/master/tools/rpc) : The rpc-server allows exposing ggml(tensor library) devices on a remote host.
