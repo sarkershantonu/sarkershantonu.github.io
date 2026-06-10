@@ -17,7 +17,7 @@ sudo apt update && sudo apt install -y git build-essential cmake
 ### Tools Comes with Llama-cpp
 - If you see ```ls``` in the folder, you may see these following tools 
 
-llama-debug-template-parser  : Pase Dubug Logs 
+[llama-debug-template-parser](tools/parser/debug-template-parser.cpp)  : Pase Dubug Logs 
 llama-minicpmv-cli  
 llama-results
 llama                
