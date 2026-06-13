@@ -1,4 +1,4 @@
-# We are going to see different type of Data format of a learned LLM ready to run in Hardware 
+# We are going to see different type of Data format of a learned LLM ready to run in Hardware  
 
 # ONNX : Open Neural Network Exchange
 
