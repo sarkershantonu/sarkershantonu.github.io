@@ -5,3 +5,5 @@
 # GGUF : GPT-Generated Unified Format
 
 # EXL2 (ExLlamaV2)
+
+# Why Format matters 
