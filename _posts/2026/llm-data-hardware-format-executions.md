@@ -6,4 +6,8 @@
 
 # EXL2 (ExLlamaV2)
 
-# Why Format matters 
+# Why Format matters ? 
+
+# What you should be using?
+
+# Different Format work around
