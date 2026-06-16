@@ -5,7 +5,8 @@
 # GGUF format models 
 
 # JNI Based:Java/JVM
-- llamaCPP powered [llama4j](https://github.com/JavaLLM/llama4j)
+- llamaCPP powered [llama4j](https://github.com/JavaLLM/llama4j) 
+- LangChain4j also powered by lamaCPP
 - Ollama for Java [ollama4j](https://github.com/ollama4j/ollama4j)
 ```xml
 <dependency>
