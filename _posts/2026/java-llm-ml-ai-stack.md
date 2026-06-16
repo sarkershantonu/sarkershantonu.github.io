@@ -16,3 +16,13 @@
 </dependency>
 ```
 - Spring support https://spring.io/projects/spring-ai#overview
+- Claud SDK
+
+```xml 
+<dependency>
+  <groupId>com.anthropic</groupId>
+  <artifactId>anthropic-java</artifactId>
+  <version>2.40.1</version>
+</dependency>
+```
+- 
