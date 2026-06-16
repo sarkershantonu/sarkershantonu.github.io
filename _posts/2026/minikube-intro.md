@@ -38,7 +38,14 @@ winget install Kubernetes.minikube
 ### Command Examples : 
 
 ##### Manage Cluster 
-- Starting A cluster 
+- Starting A cluster ```minikube start```
+- Starting dashboard ```minikube dashboard``` , should open in browser 
+- 
+
+##### Open With Kubernetes IDE
+- I will be using freelens
+- Install freelens from [here](https://freelensapp.github.io/)
+- When you open freelens, you can see minikube is detected. ![mini-kube-lens](/images/kubernetes/minikube/frree-lens-minikube.png)
 
 ##### Manage Docker 
 
