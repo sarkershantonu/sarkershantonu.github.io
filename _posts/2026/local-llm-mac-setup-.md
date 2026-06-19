@@ -1,4 +1,5 @@
-### M4 Mac Mini Specification
+In this post we are going to see setting up procedure for local LLMs
+For this example, i am using my MAC M4 Mini 24gb/256gb Version. I am pretty sure , it will be same for all Mac based on Apple Silicon. 
 
 ### Software 
 ### AI Platforms 
