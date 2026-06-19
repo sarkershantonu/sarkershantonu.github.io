@@ -36,7 +36,11 @@ Apple provides opensource Platform , Named MLX. This is solo designed for Apple 
 ### Build MLX from source 
 
 Local MLX https://www.youtube.com/watch?v=mStqWk0aCc4  
+##### MLX dependencies 
 
+##### Step by Step 
+
+# LLM Runners  
 Setting up Model Running Software : 
 ### MacOs : Ollama Basics 
 - Installation
