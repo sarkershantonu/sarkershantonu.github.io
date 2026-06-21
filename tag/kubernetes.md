@@ -10,6 +10,7 @@
 
 # Tools Around Kubernetes 
 - [Setup Tools](https://kubernetes.io/docs/reference/setup-tools/)
+- [other tools](https://kubernetes.io/docs/reference/tools/)
 
 # Kubernetes IDE
 - Lens
