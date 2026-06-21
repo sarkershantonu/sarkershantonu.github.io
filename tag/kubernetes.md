@@ -11,6 +11,7 @@
 # Tools Around Kubernetes 
 - [Setup Tools](https://kubernetes.io/docs/reference/setup-tools/)
 - [other tools](https://kubernetes.io/docs/reference/tools/)
+- [Testing Kube](https://docs.testkube.io/articles/install/cli)
 
 # Kubernetes IDE
 - Lens
