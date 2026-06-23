@@ -13,10 +13,10 @@ This is a review on Comma-4 device
 - Obd2 power cable : Optional , if you want device to be turned on when car is off. 
 
 ### Software Links 
-- [Openpilot](https://github.com/commaai/openpilot)
-- [FrogPilot]()
-- [DragonPilot]()
-- [SunnyPilot]()
+- OEM Software [Openpilot](https://github.com/commaai/openpilot)
+- [FrogPilot](https://github.com/FrogAi/FrogPilot)
+- [DragonPilot](https://github.com/dragonpilot/dragonpilot)
+- [SunnyPilot](https://github.com/sunnypilot/sunnypilot)
 - [HGKP]()
 - [Bluepilot]()
 - [OPGM]
