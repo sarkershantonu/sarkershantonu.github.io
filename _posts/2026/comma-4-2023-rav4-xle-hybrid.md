@@ -14,4 +14,9 @@ This is a review on Comma-4 device
 
 ### Software Links 
 - [Openpilot](https://github.com/commaai/openpilot)
-- 
+- [FrogPilot]()
+- [DragonPilot]()
+- [SunnyPilot]()
+- [HGKP]()
+- [Bluepilot]()
+- [OPGM]
