@@ -8,10 +8,7 @@
 
 # API : Java SDK
 
-# Tools for Kubernetes 
-- 
-
-# Useful Projects : 
+# Tools Around Kubernetes 
 
 # Kubernetes IDE
 - Lens
