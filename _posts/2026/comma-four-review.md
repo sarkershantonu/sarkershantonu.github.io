@@ -12,7 +12,7 @@
 - Lance centering
 - Breaking 
 - Maintaining speed 
-- 
+- Increased Efficiency 
 
 ### The bad 
 - Lane centering Speed 80Mph+  
@@ -20,6 +20,13 @@
 ### The ugly 
 - Could not detect car for break, almost hit. 
 - Could not detect Deet, almost Hit
+
+### MPG Details 
+- 43.7Mpg Lake Saint Louis to Kentucky
+- 44.2 Mpg Kentucky to DC
+- 43.8 Mpg Dc tp Kentucky
+- 42.7 Mph Kentucky to Lake Saint Louis 
+
 
 ### My wish list 
 - 
