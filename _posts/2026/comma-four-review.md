@@ -7,3 +7,15 @@
 - Comma 4 devices 
 - Type A harness for Toyota 
 - OBD connected cable + 
+
+### The good 
+
+### The bad 
+-  
+
+### The ugly 
+- Could not detect car for break, almost hit. 
+- Could not detect Deet, almost Hit
+
+### My wish list 
+- 
