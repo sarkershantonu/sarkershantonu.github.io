@@ -9,9 +9,13 @@
 - OBD connected cable + 
 
 ### The good 
+- Lance centering
+- Breaking 
+- Maintaining speed 
+- 
 
 ### The bad 
--  
+- Lane centering Speed 80Mph+  
 
 ### The ugly 
 - Could not detect car for break, almost hit. 
