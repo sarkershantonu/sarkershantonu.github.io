@@ -32,3 +32,4 @@
 - Integration with Android Auto 
 - Or, navigation capability with its SIM and Car System
 - Better Warning Systems for Accessibility Driver 
+- Stop Sign / Signal Light detection and warning
