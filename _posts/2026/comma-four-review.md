@@ -26,6 +26,8 @@
 - 44.2 Mpg Kentucky to DC
 - 43.8 Mpg Dc tp Kentucky
 - 42.7 Mph Kentucky to Lake Saint Louis 
+- Full AC was blowing 71F
+- MPG improvement from my previous experience 2-5 MPG 
 
 
 ### My wish list 
