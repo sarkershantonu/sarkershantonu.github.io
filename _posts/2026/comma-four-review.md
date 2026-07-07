@@ -34,3 +34,4 @@
 - Better Warning Systems for Accessibility Driver 
 - Stop Sign / Signal Light / Caution sign detection and warning
 - Better Storage Capability , 1TB+ 
+- Or , at least Expandability via ssd slots/SD card.  
