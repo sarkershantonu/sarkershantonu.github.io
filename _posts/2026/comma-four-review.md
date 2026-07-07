@@ -33,3 +33,4 @@
 - Or, navigation capability with its SIM and Car System
 - Better Warning Systems for Accessibility Driver 
 - Stop Sign / Signal Light / Caution sign detection and warning
+- Better Storage Capability , 1TB+ 
