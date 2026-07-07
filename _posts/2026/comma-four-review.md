@@ -30,3 +30,4 @@
 
 ### My wish list 
 - Integration with Android Auto 
+- Or, navigation capability with its SIM and Car System
