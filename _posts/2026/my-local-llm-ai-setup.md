@@ -6,11 +6,10 @@
 - 2TB NVMe Samsung
 - Nvidia RTX 3090ti 24GB in Occulink eGpu 
 
-### AI Platform Stack
-- CUDA 
-- ROCm
-- ONNX
-- GGUF
+### System 2 : Mac M4 mini/Mac
+- M4 Mini
+- 24Gb Unified Memory
+- 256gb ssd
   
 ### Software Info
 - Python
@@ -18,15 +17,9 @@
 - Java
 - Go
 
-### System 2 : Mac M4 mini/Mac
-- M4 Mini
-- 24Gb Unified Memory
-- 256gb ssd
-
 ### AI Platform Stack
 - MLX(mac Only)
 - ONNX
-- GGUF
 - Cuda
 - RocM
 
@@ -46,3 +39,7 @@
 ### AI Interface Types
 - Chat
 - MCP
+
+### Model Repo
+- Hudding Face
+- Model scope
