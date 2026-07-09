@@ -1,34 +1,48 @@
-# System 1 : Linux
-
-### Hardware Info 
+# Hardware Info  
+### System 1: Linux/Ubuntu LTS 24.04
 - MiniPc MinisForum 780xtx 
-- Ryzen 7 7840HS with radeo 780m iGpu
+- Ryzen 7 7840HS with Radeon 780 M iGPU
 - 32gb DDR5
-- 2TB nvme samsung
+- 2TB NVMe Samsung
 - Nvidia RTX 3090ti 24GB in Occulink eGpu 
 
-### Platform Stack
+### AI Platform Stack
 - CUDA 
 - ROCm
-- ONNX 
+- ONNX
+- GGUF
   
 ### Software Info
-- Ubuntu LTS 24.04
 - Python
 - C++
 - Java
 - Go
 
-# System 2 : Mac M4 mini
-
-### Hardware Info
+### System 2 : Mac M4 mini/Mac
 - M4 Mini
 - 24Gb Unified Memory
 - 256gb ssd
 
-### Platform Stack
-- MLX
-- ONNX 
+### AI Platform Stack
+- MLX(mac Only)
+- ONNX
+- GGUF
+- Cuda
+- RocM
 
-### Software Info
-- MacOs 
+### AI Model Format
+- ONNX
+- GGUF
+- MLX(Mac only)
+
+### AI Runner/Interface
+- LM Studio
+- oMlx
+- vLLM
+- LocalAi
+- AnythingLLM
+- OpenWebUi
+
+### AI Interface Types
+- Chat
+- MCP
