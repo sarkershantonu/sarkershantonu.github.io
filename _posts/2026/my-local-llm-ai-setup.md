@@ -1,4 +1,5 @@
 # System 1 : Linux
+
 ### Hardware Info 
 - MiniPc MinisForum 780xtx 
 - Ryzen 7 7840HS with radeo 780m iGpu
@@ -12,7 +13,7 @@
 - ONNX 
   
 ### Software Info
-- Ubuntu LTS 24.4
+- Ubuntu LTS 24.04
 - Python
 - C++
 - Java
