@@ -2,10 +2,10 @@
 
 ### Hardware Info 
 - MiniPc MinisForum 780xtx 
-- Ryzen 7 7840HS with radeo 780m iGpu
-- 32gb DDR5
-- 2TB nvme samsung
-- Nvidia RTX 3090ti 24GB in Occulink eGpu
+ -- Ryzen 7 7840HS with radeo 780m iGpu
+ -- 32gb DDR5
+ -- 2TB nvme samsung
+ -- Nvidia RTX 3090ti 24GB in Occulink eGpu 
 
 ### Platform Stack
 - CUDA 
