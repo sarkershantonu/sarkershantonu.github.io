@@ -3,7 +3,7 @@ layout: "page"
 title: "Contact Me"
 subtitle: I build systems for API/UI/Performance testing with AI
 css: "/css/index.css"
-meta-title: "Lead SDET/Performance Engineer/DevOps"
+meta-title: "Java SDET/Performance/Chaos"
 meta-description: "SDET/DevOps/Java/CS Graduate"
 comments: true
 ---
@@ -11,7 +11,6 @@ comments: true
 ![QR Code](../img/QR.PNG)
 # Contact 
 - [Gmail/Gtalk](mailto:sarker.shantonu@gmail.com): sarker.shantonu, [outlook](mailto:sarker.shantonu@live.com)
-- Skype : shantonu.sarker
 - [WhatApp](https://we.me/+12674428038) : +12674428038
 - [Blog](http://shantonu.com/)
 - [Twitter](https://twitter.com/sarkershantonu)
