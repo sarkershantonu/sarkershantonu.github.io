@@ -11,7 +11,9 @@
 - 24Gb Unified Memory
 - 256gb ssd
   
-### Software Info
+# Software Info
+
+### Programming Stack
 - Python
 - C++
 - Java
