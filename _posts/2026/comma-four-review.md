@@ -15,7 +15,7 @@
 - Increased Efficiency 
 
 ### The bad 
-- Lane centering Speed 80Mph+  
+- Lane centering Speed 75Mph+  
 
 ### The ugly 
 - Could not detect car for break, almost hit. 
