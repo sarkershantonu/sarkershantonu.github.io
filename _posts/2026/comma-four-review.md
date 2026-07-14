@@ -19,7 +19,11 @@
 
 ### The ugly 
 - Could not detect car for break, almost hit. 
-- Could not detect Deet, almost Hit
+- Could not detect Deer, almost Hit
+- could not get Stop Sing
+- Could not detect signal lights
+- Could not adjust speed limit ratio 
+- 
 
 ### MPG Details 
 - 43.7Mpg Lake Saint Louis to Kentucky
@@ -38,3 +42,4 @@
 - Better Storage Capability , 1TB+ 
 - Or , at least Expandability via ssd slots/SD card. 
 - Suggestion DB for driver Improvement. 
+- Warning on speed limit
