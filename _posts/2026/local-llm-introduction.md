@@ -28,3 +28,5 @@ https://github.com/przbadu-ai/LocalMind-Old
 https://pydantic.dev/
 
 LocalAi
+
+Standalone Image/Video Generator Tools 
