@@ -57,3 +57,5 @@ Setting up Model Running Software :
 Claude Code Basics 
 - in terminal ```curl -fsSL https://claude.ai/install.sh | bash```
 - put in path ```echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc ```
+
+### MacOs : LocalAI
