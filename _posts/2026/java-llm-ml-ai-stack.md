@@ -20,6 +20,9 @@ Sample Code :
 
 # Basics on Java LLMs 
 
+### How Java Runs LLMs
+
+
 # Onnx Format Models
 
 # GGUF format models 
