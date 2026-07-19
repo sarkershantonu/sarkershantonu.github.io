@@ -26,3 +26,7 @@ https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-
 
 https://github.com/przbadu-ai/LocalMind-Old
 https://pydantic.dev/
+
+LocalAi
+
+Standalone Image/Video Generator Tools 
