@@ -22,6 +22,7 @@ Sample Code :
 
 ### How Java Runs LLMs
 
+### JNI Basics
 
 # Onnx Format Models
 
