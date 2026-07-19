@@ -24,6 +24,8 @@ Sample Code :
 
 ### JNI Basics
 
+### Java Libraries to Interact with GPU
+
 # Onnx Format Models
 
 # GGUF format models 
