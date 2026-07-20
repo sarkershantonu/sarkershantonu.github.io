@@ -8,8 +8,8 @@ In my examples, I am using an Application which does not have GUI, mainly API. T
 A title of a bug should have
 1. Single line to represent the bug. example : Standin Transactions is falling due to Velocity Grid is not available.
   Realtime transaction is not processing de108
-2. Annotation with ```[]``` to indicate main area, example =>[automation] , [standin] ,`[rtswebserice]`,  
-Annotate with Release info , example => `[25.4]'
+2. Annotation with ```[]``` to indicate main area, example : ```[automation] , [standin] ,[rtswebserice]```,
+3. Annotation with Release info , example : `[25.4]'
 
 Description : In your bug , these should be present in description
 
