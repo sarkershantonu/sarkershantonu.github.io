@@ -2,10 +2,10 @@
 This is an updated post for reporting bug. My last post was frm 2012. Gradually when I change companies, each has its own best practices and I usually improve them or try to make smarter. 
 
 If you are submitting Bug during any testing phase, (Regression testing or any testing), if you follow these steps, it will be nice for teams to debug and find root cause.
+In my examples, I am using an Application which does not have GUI, mainly API  
 
-Title : A title of a bug should have
-
-Single line to represent the bug , example=>
+#### Title : A title of a bug should have
+- Single line to represent the bug , example=>
 Standin Transactions is falling due to Velocity Grid is not available.
 Realtime transaction is not processing de108
 Annotate with [] to indicate main area, example =>[automation] , [standin] ,`[rtswebserice]`,  
