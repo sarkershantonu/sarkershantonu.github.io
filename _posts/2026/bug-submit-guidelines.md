@@ -1,3 +1,6 @@
+
+This is an updated post for reporting bug. My last post was frm 2012. Gradually when I change companies, each has its own best practices and I usually improve them or try to make smarter. 
+
 If you are submitting Bug during any testing phase, (Regression testing or any testing), if you follow these steps, it will be nice for teams to debug and find root cause.
 
 Title : A title of a bug should have
