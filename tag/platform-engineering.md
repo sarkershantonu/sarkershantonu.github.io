@@ -4,7 +4,7 @@
 
 ### MicroVM Architecture
 - Firecracker(https://github.com/firecracker-microvm/firecracker)
-# Windows Basics
+
 
 # Distributed Systems
 
