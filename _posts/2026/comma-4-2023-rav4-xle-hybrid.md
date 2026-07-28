@@ -1,4 +1,6 @@
-# Reviews 
+This blog is to show my Comma Four Setup with my car 
+
+
 
 ### Title 
 This is a review on Comma-4 device
@@ -20,3 +22,5 @@ This is a review on Comma-4 device
 - [HGKP]()
 - [Bluepilot]()
 - [OPGM]
+
+### My Personal Review, please see this post
