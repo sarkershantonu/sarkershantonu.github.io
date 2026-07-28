@@ -18,7 +18,7 @@
 - Lane centering Speed 75Mph+  
 
 ### The ugly 
-- Could not detect car for break, almost hit. 
+- Could not detect incoming car ,almost hit, One time happened.  
 - Could not detect Deer, almost Hit
 - could not get Stop Sing
 - Could not detect signal lights
