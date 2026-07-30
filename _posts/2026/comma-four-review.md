@@ -11,11 +11,12 @@
 ### The good 
 - Lance centering
 - Breaking 
-- Maintaining speed 
-- Increased Efficiency 
+- Maintaining speed , no foot on Gas
+- Increased Efficiency , 2-5 MPG improvement. 
 
 ### The bad 
 - Lane centering Speed 75Mph+  
+- Sometimes little hard on breaking. 
 
 ### The ugly 
 - Could not detect incoming car ,almost hit, One time happened.  
@@ -37,7 +38,7 @@
 - Weather Conditions, mostly 89F-96F outside during travel. 
 
 ### Efficiency Notes 
-- MPG improvement from my previous experience 2-5 MPG 
+
 - 
 
 
