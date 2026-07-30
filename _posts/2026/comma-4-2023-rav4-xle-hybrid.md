@@ -1,6 +1,6 @@
 This blog is to show my Comma Four Setup with my car 
 
-
+If you want to buy, here is their [website](https://comma.ai/shop)
 
 ### Title 
 This is a review on Comma-4 device
