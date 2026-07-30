@@ -25,13 +25,20 @@
 - Could not adjust speed limit ratio 
 - 
 
-### MPG Details 
+### MPG Observed 
 - 43.7Mpg Lake Saint Louis to Kentucky
 - 44.2 Mpg Kentucky to DC
 - 43.8 Mpg Dc tp Kentucky
 - 42.7 Mph Kentucky to Lake Saint Louis 
+
+### Car Running Condition
 - Full AC was blowing 71F
+- 17 inch all weather tires
+- Weather Conditions, mostly 89F-96F outside during travel. 
+
+### Efficiency Notes 
 - MPG improvement from my previous experience 2-5 MPG 
+- 
 
 
 ### My wish list 
