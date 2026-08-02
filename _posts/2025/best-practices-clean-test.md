@@ -64,6 +64,7 @@ If a method is dependent , should be inside test class. Now, you may use lambdas
 If a validation methods can be reused by others, should be in separate class.
 
 
+
 Place functions in the downward direction
 Rule of thumb is
 All fields will start a class
@@ -85,3 +86,7 @@ Always use formatter , this is must.
 Don't break indentation.
 Don’t break sequence of import
 Avoid * import unless you have to
+
+implement SOLID
+
+Implement OOAD thoughts 
