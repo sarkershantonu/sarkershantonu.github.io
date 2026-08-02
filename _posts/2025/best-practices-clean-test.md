@@ -1,5 +1,6 @@
 EST :
 
+### Assertions Rules 
 One assert per test :
 Single Assertion
 Soft Assert
