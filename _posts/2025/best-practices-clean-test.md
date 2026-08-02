@@ -87,6 +87,6 @@ Don't break indentation.
 Don’t break sequence of import
 Avoid * import unless you have to
 
-implement SOLID
+### implement SOLID
 
-Implement OOAD thoughts 
+### Implement OOAD thoughts 
