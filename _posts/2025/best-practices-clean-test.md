@@ -6,18 +6,18 @@ Soft Assert
 Multiple validation method for each assertion points
 
 
-Readable :
+### Readable :
 No Comments required
 Prerequisite should only be commented
 Warning can be commented (i.e previous failed rate)
-Fast :
+### Fast :
 Externalize all resources
 Use Jenkins as much as possible
 Local Run : Avoid IDE, use maven commands , so test should be runnable by commands only.
-Independent
+### Independent
 A test method should be independent , now we might need to run multiple steps(define as dependent @Test) but objective is not make a test independent among others. In this case, if a method does not perform any testing but @Test only run dependent step , avoid inclusion of text "test" in the method name.
 If a test method needs to run some other tests before (like some assertions), you should indicate in comments why.
-Repeatable :
+### Repeatable :
 A test should be repeatable. If you annotate with @Test, should be repeatable.
 But, it does not mean, a test class should be repeatable . If you have some setup/config step should be run before a group of test (multiple test/ multiple suite), should be present separately. Can be used @BeforeSuite or can be used in separate test class.
 A test class with @BeforeClass/ @AfterClass has responsibility to execute or perform common steps for all tests which in included. So, if you have some steps (at start/end) , you should have separate out and put with proper annotations.
