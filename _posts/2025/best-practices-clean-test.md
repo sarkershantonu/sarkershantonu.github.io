@@ -24,7 +24,7 @@ A test class with @BeforeClass/ @AfterClass has responsibility to execute or per
 If a @Test is not repeatable, at least containing class should be repeatable. This is MUST. So that , we can put into any suite and run this.
 
 
-Names rules
+# Names rules
 
 Choose descriptive and unambiguous names :
 No duplicate
@@ -45,7 +45,7 @@ Avoid numbers in naming unless it obvious(like flow400 )
 Avoid encodings. Don't append prefixes or type information.
 
 
-Source code structure
+# Source code structure
 
 Separate concepts vertically :
 Divide as much as possible
