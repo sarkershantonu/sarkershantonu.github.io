@@ -12,10 +12,23 @@
 - Java Client
 - Models
 
-### Aks SDK
+### Aks SDK(microsoft)
+- [Main Project](https://learn.microsoft.com/en-us/java/api/overview/azure/kubernetes-configuration?view=azure-java-stable)
 - [Configuration] (https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/kubernetesconfiguration/azure-resourcemanager-kubernetesconfiguration)
+- [chaos](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/chaos/pom.xml)
 
-### EKS SDK
+### EKS SDK(Azure)
+- [Main Project](https://aws.amazon.com/sdk-for-java/)
+- [Azure github](https://github.com/aws/aws-sdk-java-v2)
+
+```xml
+<dependency>
+    <groupId>software.amazon.awssdk</groupId>
+    <artifactId>eks</artifactId>
+    <version>2.47.6</version>
+    <scope>compile</scope>
+</dependency>
+```
 
 ### VMware SDK
 
