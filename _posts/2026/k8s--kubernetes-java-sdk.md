@@ -32,7 +32,7 @@
 ```
 
 ### VMware SDK
-- Vmaware Provided Kubernetes 
-- Vamware Tenzu 
+- Vmware Provided Kubernetes 
+- Vmware Tenzu 
 
 ### OpenShift SDK
