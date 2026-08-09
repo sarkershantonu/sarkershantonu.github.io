@@ -38,4 +38,4 @@
 - Vmware Tenzu 
 
 ### OpenShift SDK
-- 
+- Fabric8 implementations 
