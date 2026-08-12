@@ -37,7 +37,7 @@
 - Vmware Provided Kubernetes 
 - [Vmware Tanzu](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere-supervisor/7-0/vsphere-with-tanzu-configuration-and-management-7-0/supervisor-architecture-and-components/supervisor-architecture.html)
 - [VCF Examples](https://github.com/vmware/vcf-sdk-java)
-- 
+- [Vsphare automation example](https://github.com/vmware/vsphere-automation-sdk-java)
 
 ### OpenShift SDK
 - Fabric8 implementations 
