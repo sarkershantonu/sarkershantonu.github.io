@@ -68,8 +68,10 @@ flowchart TD
 ```
 
 
-All tool source (todo): https://github.com/ggml-org/llama.cpp/tree/master/tools
+All tool source (todo):
+https://github.com/ggml-org/llama.cpp/tree/master/tools
 
+https://llama-cpp.com/getting-started/#how-to-install-llama-cpp-on-linux 
 
 ### Build LLamaCPP from source 
 ```  
