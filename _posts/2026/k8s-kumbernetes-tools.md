@@ -11,7 +11,7 @@
 
 ### Validate Kube CRDs 
 - Kubecomfirm 
-- 
+- [kbind](https://kbind.dev/) for latest [builds](https://github.com/kbind-dev/kbind) 
 # SDKs & Libraries 
 
 ### Java Stack 
