@@ -9,7 +9,11 @@
 - Purpose to use
 - Download Link
 
+### Validate Kube CRDs 
+- Kubecomfirm 
+- 
 # SDKs & Libraries 
+
 ### Java Stack 
 - VMware vSphere SKD
 - Openshift Client
@@ -17,6 +21,7 @@
 - AKS client
 - GKE Client
 - Generic Kubernetes client 
+
 ### Go Stack 
 
 ### Python Stack 
