@@ -10,6 +10,10 @@
 - Download Link
 [TOOLS](https://github.com/collabnix/kubetools/tree/master)
 ![Tools](https://github.com/collabnix/kubetools/blob/master/kubetools_periodic_table.jpeg?raw=true)
+
+https://kubernetes.io/docs/reference/tools/ 
+old tools : https://github.com/orgs/kubernetes-retired/repositories 
+
 ### Validate Kube CRDs 
 - Kubecomfirm 
 - [kbind](https://kbind.dev/) for latest [builds](https://github.com/kbind-dev/kbind) 
@@ -21,7 +25,8 @@
 - EKS Client
 - AKS client
 - GKE Client
-- Generic Kubernetes client 
+- Generic Kubernetes client
+  https://github.com/kubernetes-client/java
 
 ### Go Stack 
 
