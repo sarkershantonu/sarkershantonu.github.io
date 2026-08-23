@@ -13,6 +13,7 @@
 
 https://kubernetes.io/docs/reference/tools/ 
 old tools : https://github.com/orgs/kubernetes-retired/repositories 
+plugins : https://krew.sigs.k8s.io/plugins/ 
 
 ### Validate Kube CRDs 
 - Kubecomfirm 
