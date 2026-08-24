@@ -7,3 +7,6 @@ Main target :
 4. JMeter Result Dashboard 
 5. Test Result Storing for future analysis
 6. Test Report generator 
+
+### Helm Chart 
+
