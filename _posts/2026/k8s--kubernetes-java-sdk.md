@@ -1,7 +1,9 @@
 # Kubernetes API Introduction 
 
-# Kubernetes Java SDk
+# Kubernetes Official Java SDk
 - [Conventions](https://github.com/kubernetes/community/blob/main/contributors/devel/sig-architecture/api-conventions.md#metadata)
+- Main packages
+- Key Concepts with kubernetes basics 
 
 # Sample Code
 
