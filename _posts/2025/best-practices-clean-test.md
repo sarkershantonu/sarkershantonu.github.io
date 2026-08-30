@@ -27,6 +27,7 @@ If a @Test is not repeatable, at least containing class should be repeatable. Th
 
 # Names rules
 
+# Method Rules 
 Choose descriptive and unambiguous names :
 No duplicate
 Enough to understand but not too long
