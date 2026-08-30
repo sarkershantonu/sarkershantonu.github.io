@@ -24,7 +24,7 @@
 
 ### EKS SDK(Azure)
 - [Main Project](https://aws.amazon.com/sdk-for-java/)
-- [Azure github](https://github.com/aws/aws-sdk-java-v2)
+- [Azure github](https://github.com/aws/aws-sdk-java-v2)ok
 
 ```xml
 <dependency>
