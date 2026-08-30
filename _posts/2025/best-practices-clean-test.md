@@ -34,6 +34,10 @@ If a @Test is not repeatable, at least containing class should be repeatable. Th
 ### Class Rules 
 
 ### Package Rules 
+
+### Maven Naming Structure 
+- Group ID 
+- Artifact IDs
 Choose descriptive and unambiguous names :
 No duplicate
 Enough to understand but not too long
