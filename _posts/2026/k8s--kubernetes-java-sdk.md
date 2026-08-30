@@ -44,3 +44,6 @@
 
 ### OpenShift SDK
 - Fabric8 implementations 
+- Applicable in general 
+- Suitable for OpenShift platform 
+- 
