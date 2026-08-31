@@ -51,12 +51,13 @@ This page contains all Gadgets & Gear Information
 - 1TB Nvme SSD
 - Wifi 6
 
-### Handheld [Lenovo Legion Go](https://www.lenovo.com/us/en/p/handheld/legion-go/len106g0001)   | Not using any more but you can see software settings and updates in [here](https://github.com/sarkershantonu/daily-drive-linux/tree/main/steamos)
-- [Ryzen Z1 Extream](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Z1+Extreme&id=5508)
-- 1Tb nvme SSD
+### Mini PC| TV PC | Gaming System
+- Intel NUC NUC8i7HVK
+- 1Tb+1TB nvme SSD
 - 16gb DDR5 7500Mhz
-- Display : 8.6 inch 1440p@144hz touch
-- Windows 10 + Ubuntu 24
+- Bazzite
+- Windows 11
+- xbox controllers
 
 # HomeLab with Proxmox
 ### Proxmox (z2g4 Hp SFF)
@@ -68,9 +69,6 @@ This page contains all Gadgets & Gear Information
 - 3x 4tb 2.5inch SSD Sata
 - 310Watt PSU
 - intel x550-t2 NIC
-
-### Mini PC| TV PC 
-- Intel NUC
 
 ### Dev Environments in HomeLab
 - 50+ LXCs for different dev VMs
