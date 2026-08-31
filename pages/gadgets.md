@@ -18,11 +18,37 @@ comments: false
 
 This page contains all Gadgets & Gear Information
 
-# Development PCs: 
+# Development PCs | AI Testing & Experiment Setup
+
+### AI Platform | Mac | MLX
+- Mac mini m4 
+  - 24gb Unified RAM
+  - 256gb SSD
+  - 2Tb Thunderbolt nvme ssd as external storage 
+  - 10GbE Thunderbolt Ethernet
+  - Thunderbolt 4 Hub(caldigit)
+
+### AI Platform | AMD | ROCm
+- Mini PC : [EliteMini UM780 XTX](https://www.minisforum.com/products/elitemini-um780-xtx)
+  - 32gb Ram
+  - Ryzen 7 7840HS cpu with liquid metal thermal past , boosts 5.1Ghz+ with 70watt Max TDP. 
+  - 780m Amd iGPU with 16gb Vram
+
+### Ai Platform | Nvidia | CUDA
+- I dont have dedicated PC, I have eGPU dock [AOOSTAR AG01](https://aoostar.com/products/aoostar-ag01-egpu-dock-with-oculink-port-built-in-huntkey-800w-power-supply-pre-order-itll-be-shipped-around-february-20th) with 800 watt PSU(upgradable flex PSU for servers), I am connecting my **Rtx 3090ti 24GB Founder Edition** GPU with this
+- I will have a separate blog on setting up my environment for LLM testing. 
+
+### Home Office Setup  : 
+- 34" inch KTC 144p/180Hz/21:9 Ratio Monitor in stand
+- Lenovo UsbC Monitor T24m-20
+- Logitech Keyboard & mouse 
+- CalDigit Thunderbolt4 Hub
+- QNAP 10gbe Ethernet
+
 ### Primary Laptop
-- Latitude 5440
-- 32GB Ram
-- 512gb Nvme SSD
+- Inspiron 13/ 5310
+- 16GB Ram
+- 1TB Nvme SSD
 - Wifi 6
 
 ### Handheld [Lenovo Legion Go](https://www.lenovo.com/us/en/p/handheld/legion-go/len106g0001)   | Not using any more but you can see software settings and updates in [here](https://github.com/sarkershantonu/daily-drive-linux/tree/main/steamos)
@@ -31,13 +57,6 @@ This page contains all Gadgets & Gear Information
 - 16gb DDR5 7500Mhz
 - Display : 8.6 inch 1440p@144hz touch
 - Windows 10 + Ubuntu 24
-
-### Home Office Setup  : 
-- 34" inch KTC 144p/180Hz/21:9 Ratio Monitor in stand
-- Lenovo UsbC Monitor T24m-20
-- Logitech Keyboard & mouse 
-- CalDigit Thunderbolt4 Hub
-- QNAP 10gbe Ethernet
 
 # HomeLab with Proxmox
 ### Proxmox (z2g4 Hp SFF)
@@ -50,8 +69,8 @@ This page contains all Gadgets & Gear Information
 - 310Watt PSU
 - intel x550-t2 NIC
 
-### Mini PCs 
-- (with TV) Hacked Chromebox3 i7/16gb/256gb (Asus), running windows & linux
+### Mini PC| TV PC 
+- Intel NUC
 
 ### Dev Environments in HomeLab
 - 50+ LXCs for different dev VMs
@@ -73,21 +92,3 @@ This page contains all Gadgets & Gear Information
 - Dual 10gbe port Router [QHora-301W](https://www.qnap.com/en-us/product/qhora-301w)
 - In-house net : Nighthawk RAX200(DNS blocker + Kids friendly Network)
 
-# AI Testing & Experiment Setup
-### AI Platform | Mac | MLX
-- Mac mini m4 
-  - 24gb Unified RAM
-  - 256gb SSD
-  - 2Tb Thunderbolt nvme ssd as external storage 
-  - 10gbe thunderbolt ethernet
-  - 10gbe thunderbolt Hub(caldigit)
-
-### AI Platform | AMD 
-- Mini PC : [EliteMini UM780 XTX](https://www.minisforum.com/products/elitemini-um780-xtx)
-  - 32gb Ram
-  - Ryzen 7 7840HS cpu with liquid metal thermal past , boosts 5.1Ghz+ with 70watt Max TDP. 
-  - 780m Amd iGPU with 16gb Vram
-
-### Ai Platform | Nvidia 
-- I dont have dedicated PC, I have eGPU dock [AOOSTAR AG01](https://aoostar.com/products/aoostar-ag01-egpu-dock-with-oculink-port-built-in-huntkey-800w-power-supply-pre-order-itll-be-shipped-around-february-20th) with 800 watt PSU(upgradable flex PSU for servers), I am connecting my **Rtx 3090ti 24GB Founder Edition** GPU with this
-- I will have separate blog on setting up my environment for LLM testing. 
