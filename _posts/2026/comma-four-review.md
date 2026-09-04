@@ -12,7 +12,7 @@
 - Lance centering
 - Breaking 
 - Maintaining speed , no foot on Gas
-- Increased Efficiency , 2-5 MPG improvement. 
+- Increased Efficiency , 2-5 MPG improvement.
 
 ### The bad 
 - Lane centering Speed 75Mph+  
@@ -39,7 +39,8 @@
 
 ### Efficiency Notes 
 - Comma made my Rav4 hybrid 4-7% efficient 
-- 
+- Overall, i am 70%+ reliable on this in highway and city road with small traffic
+- Very compact design. 
 
 
 ### My wish list 
