@@ -38,7 +38,7 @@
 - Weather Conditions, mostly 89F-96F outside during travel. 
 
 ### Efficiency Notes 
-
+- Comma made my Rav4 hybrid 5-10% efficient 
 - 
 
 
