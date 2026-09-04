@@ -16,15 +16,15 @@
 
 ### The bad 
 - Lane centering Speed 75Mph+  
-- Sometimes little hard on breaking. 
+- Braking is not smoodth, sometimes little hard on breaking. 
 
 ### The ugly 
 - Could not detect incoming car ,almost hit, One time happened.  
 - Could not detect Deer, almost Hit
 - could not detect Stop Sing
 - Could not detect signal lights
-- Could not adjust speed limit ratio 
--
+- Could not adjust speed limit ratio
+- 
 
 ### MPG Observed 
 - 43.7Mpg Lake Saint Louis to Kentucky
