@@ -9,7 +9,7 @@
 - OBD connected cable + 
 
 ### The good 
-- Lance centering
+- Lane centering
 - Breaking 
 - Maintaining speed , no foot on Gas
 - Increased Efficiency , 2-5 MPG improvement.
