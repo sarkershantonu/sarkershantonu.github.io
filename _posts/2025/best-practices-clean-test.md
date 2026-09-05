@@ -35,6 +35,12 @@ If a @Test is not repeatable, at least containing class should be repeatable. Th
 
 ### Package Rules 
 
+### Execution Policy
+- Standalone Executable
+- Run By JUnit/TestNG runner
+- Run by maven
+- Run Centrally from WebGui
+
 ### Maven Naming Structure 
 - Group ID 
 - Artifact IDs
