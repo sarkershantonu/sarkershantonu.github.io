@@ -24,7 +24,7 @@
 - could not detect Stop Sing
 - Could not detect signal lights
 - Could not adjust speed limit ratio
-- I saw multiple time, camera malfunction error. I assumed this might be cable issue or my be specific to my unit. Only 2 or 3 times in 30+ days. After unplug and plug, it was turned back ok.
+- I saw multiple time, camera malfunction error. I assumed this might be cable issue or may be specific to my unit. Only 2 or 3 times in 30+ days. After unplug and plug, it was turned back ok.
 
 ### MPG Observed 
 - 43.7Mpg Lake Saint Louis to Kentucky
