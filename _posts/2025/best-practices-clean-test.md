@@ -36,7 +36,7 @@ If a @Test is not repeatable, at least containing class should be repeatable. Th
 ### Package Rules 
 
 ### Execution Policy
-- Standalone Executable
+- Standalone Executable(By Jar /cli/Application)
 - Run By JUnit/TestNG runner
 - Run by maven
 - Run Centrally from WebGui
