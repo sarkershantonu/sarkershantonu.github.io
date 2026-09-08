@@ -38,8 +38,10 @@ If a @Test is not repeatable, at least containing class should be repeatable. Th
 ### Execution Policy
 - Standalone Executable(By Jar /cli/Application)
 - Run By JUnit/TestNG runner
-- Run by maven
+- Run by maven 
 - Run Centrally from WebGui
+- Run By CI/CD
+- Run in Kubernetes as deployable artifact 
 
 ### Maven Naming Structure 
 - Group ID 
