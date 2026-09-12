@@ -1,6 +1,6 @@
 # This post will show the best practices for DB testing 
 
-### Types 
+# DB Types 
 
 ### Relational DB 
 
@@ -13,3 +13,11 @@
 ### Schema Test 
 
 ### View Test 
+
+### Stored Procedure Test 
+
+### Performance Test
+
+### Security Test
+
+### Backup & Failover tests 
