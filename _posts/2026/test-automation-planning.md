@@ -8,3 +8,15 @@ Why Automate?
 
 Should we automate? 
 
+How and when it will be run? 
+
+Will this help in decision-making ? 
+
+How to automate? 
+
+Should we maintain?  How to maintain? 
+
+How long to maintain? 
+
+why to maintain? 
+
