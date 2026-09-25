@@ -1,1 +1,0 @@
-[Junit 5 Migration :](https://blog.jetbrains.com/idea/2020/08/migrating-from-junit-4-to-junit-5/)
