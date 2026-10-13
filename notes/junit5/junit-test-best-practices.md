@@ -20,3 +20,7 @@ A suite containing Regression Suite
 
 How to Apply  : 
 - Making custom annotation with Tags 
+
+Test Suites : 
+
+Test Groups : 
