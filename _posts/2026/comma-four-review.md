@@ -16,7 +16,7 @@
 
 ### The bad 
 - Lane centering Speed 75Mph+  
-- Braking is not smoodth, sometimes little hard on breaking. 
+- Braking is not smooth, sometimes little hard on breaking. 
 
 ### The ugly 
 - Could not detect incoming car ,almost hit, One time happened.  
