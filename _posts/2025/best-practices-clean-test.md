@@ -87,8 +87,8 @@ If a validation methods can be reused by others, should be in separate class.
 
 Place functions in the downward direction
 Rule of thumb is
-All fields will start a class
-All Static declaration in 2nd place
+- All fields will start a class
+- All Static declaration in 2nd place
 All constrictor are next
 All Public Methods are next
 All private methods are at last.
@@ -110,3 +110,5 @@ Avoid * import unless you have to
 ### implement SOLID
 
 ### Implement OOAD thoughts 
+
+# Data Driven Tests 
