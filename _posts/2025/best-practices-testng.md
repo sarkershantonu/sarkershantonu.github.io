@@ -9,6 +9,10 @@ This post is ment for following best practices for TestNG Tests Arrangements
 - XML reporting 
 - Storing results in dashboard 
 
+#### Dashboard Results 
+- Grafana TimescaleDB solution
+- TestNG listener 
+
 ### Suite File Organizations
 
 ### Reporting 
