@@ -25,12 +25,11 @@ import java.sql.PreparedStatement;
 
 public class MySqlListener implements ITestListener {
     private Connection connection;
-
+    String jdbcurl = "jdbc:mysql://localhost:3306/test_reports";
     @Override
     public void onStart(ITestContext context) {
         try {
-            String url = "jdbc:mysql://localhost:3306/test_reports";
-            connection = DriverManager.getConnection(url, "username", "password");
+            connection = DriverManager.getConnection(jdbcurl, "username", "password");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -45,9 +44,9 @@ public class MySqlListener implements ITestListener {
     public void onTestFailure(ITestResult result) {
         saveTestResult(result, "FAILED");
     }
-
+//sample DB table used here 
     private void saveTestResult(ITestResult result, String status) {
-        String sql = "INSERT INTO test_execution_logs (test_name, status, duration) VALUES (?, ?, ?)";
+        String sql = "INSERT INTO testng_logs (test_name, status, duration) VALUES (?, ?, ?)";
         try (PreparedStatement stmt = connection.prepareStatement(sql)) {
             stmt.setString(1, result.getMethod().getMethodName());
             stmt.setString(2, status);
