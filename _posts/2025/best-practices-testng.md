@@ -77,5 +77,8 @@ public class MySqlListener implements ITestListener {
 - publishing 
 
 ### Custom Annotation 
+- Adding test meta data
+- custom logging 
+- 
 
 ### 
