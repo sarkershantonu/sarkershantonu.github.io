@@ -79,6 +79,10 @@ public class MySqlListener implements ITestListener {
 ### Neo4j 
 
 ### Suite File Organizations
+- suite can be in test > resource folder or it can be at the root , in src level 
+- if you are packaging suites with runner as Jar file, you should keep in resource folder 
+- if you are not packaging in jar but running from maven/surefire , you should keep in src folder level for better visibility. 
+- If you are running  test with WebBased Executor ( a separate APp to select suite and run them ), this should be at src>main , in this main level. (as if web artifact. )
 
 ### Reporting 
 - Output location 
