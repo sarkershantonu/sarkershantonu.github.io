@@ -84,6 +84,19 @@ public class MySqlListener implements ITestListener {
 - if you are not packaging in jar but running from maven/surefire , you should keep in src folder level for better visibility. 
 - If you are running  test with WebBased Executor ( a separate APp to select suite and run them ), this should be at src>main , in this main level. (as if web artifact. )
 
+### Test NG Test Annotation invocation Sequence 
+- BeforeSuite
+- BeforeTest
+- BeforeClass
+- BeforeMethod
+- Test
+- AfterMethod
+- AfterClass
+- AfterTest
+- AfterSuite
+
+
+
 ### Reporting 
 - Output location 
 - publishing 
