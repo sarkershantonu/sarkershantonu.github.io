@@ -95,6 +95,9 @@ public class MySqlListener implements ITestListener {
 - AfterTest
 - AfterSuite
 
+### Base Test 
+- Should Be abstract 
+- Base test should have specific purposes 
 
 
 ### Reporting 
