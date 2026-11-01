@@ -97,8 +97,11 @@ public class MySqlListener implements ITestListener {
 
 ### Base Test 
 - Should Be abstract 
-- Base test should have specific purposes 
+- Base test should have specific purposes. 
+- Base Test should have global beforesuite logics 
 
+### Test Design 
+- A test design is very important for understanding separation of concern. I  follow V diagram of testing so that we can design accordingly  
 
 ### Reporting 
 - Output location 
