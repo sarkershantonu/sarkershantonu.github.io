@@ -85,11 +85,11 @@ public class MySqlListener implements ITestListener {
 - If you are running  test with WebBased Executor ( a separate APp to select suite and run them ), this should be at src>main , in this main level. (as if web artifact. )
 
 ### Test NG Test Annotation invocation Sequence 
-- BeforeSuite
-- BeforeTest
-- BeforeClass
-- BeforeMethod
-- Test
+- BeforeSuite - runs before any suite declaration in suite XML file
+- BeforeTest - runs before any test declaration in suite XML file
+- BeforeClass - runs before any test class declaration in suite XML file
+- BeforeMethod - runs before any method in a class
+- Test - run method 
 - AfterMethod
 - AfterClass
 - AfterTest
@@ -98,11 +98,12 @@ public class MySqlListener implements ITestListener {
 ### Base Test 
 - Should Be abstract 
 - Base test should have specific purposes. 
-- Base Test should have global beforesuite logics 
+- Base Test should have beforesuite logics 
+- 
 
 ### Test Design 
 - A test design is very important for understanding separation of concern. I  follow V diagram of testing so that we can design accordingly  
-
+- 
 ### Reporting 
 - Output location 
 - publishing 
