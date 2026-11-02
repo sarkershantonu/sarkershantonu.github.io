@@ -95,6 +95,8 @@ public class MySqlListener implements ITestListener {
 - AfterTest - runs after any test declaration in suite XML file
 - AfterSuite - runs after any suite declaration in suite XML file
 
+please check sequence from this [**code example**](https://github.com/sarkershantonu/testNG-examples/blob/main/src/test/java/org/automation/tests/core/BaseTest.java)
+
 ### Base Test 
 - Should Be abstract 
 - Base test should have specific purposes. 
