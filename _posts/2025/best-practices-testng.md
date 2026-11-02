@@ -89,11 +89,11 @@ public class MySqlListener implements ITestListener {
 - BeforeTest - runs before any test declaration in suite XML file
 - BeforeClass - runs before any test class declaration in suite XML file
 - BeforeMethod - runs before any method in a class
-- Test - run method 
-- AfterMethod
-- AfterClass
-- AfterTest
-- AfterSuite
+- Test - run declared method 
+- AfterMethod - runs after test method run 
+- AfterClass - runs before any test class declaration in suite XML file 
+- AfterTest - runs after any test declaration in suite XML file
+- AfterSuite - runs after any suite declaration in suite XML file
 
 ### Base Test 
 - Should Be abstract 
