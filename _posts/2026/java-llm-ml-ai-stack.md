@@ -56,3 +56,5 @@ Sample Code :
 Plain Webservice 
 
 ### Native Java Stack 
+
+good article https://www.linkedin.com/pulse/8-same-matrix-multiply-different-hardware-tour-jvm-engines-soloviov-ydm9f/
