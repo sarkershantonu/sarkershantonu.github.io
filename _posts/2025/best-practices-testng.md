@@ -71,13 +71,15 @@ public class MySqlListener implements ITestListener {
 ```
 
 # String Results Listeners 
-### Example with TimeScaleDB listener 
-- If you need to store results 
-- Building dashboards for analysis 
+- If you need to store results
+- Building dashboards for analysis
+- 
+### Example | TimeScaleDB listener 
 
-### Example with Oracle DB Listener 
 
-### Example with InfluxDb Listener
+### Example | Oracle DB Listener 
+
+### Example | InfluxDb Listener
 
 ### Neo4j 
 
