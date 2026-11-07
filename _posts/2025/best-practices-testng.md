@@ -72,6 +72,7 @@ public class MySqlListener implements ITestListener {
 
 ### Example with TimeScaleDB listener 
 - If you need to store results 
+- Building dashboards for analysis 
 
 ### Example with Oracle DB Listener 
 
