@@ -70,6 +70,7 @@ public class MySqlListener implements ITestListener {
 }
 ```
 
+# String Results Listeners 
 ### Example with TimeScaleDB listener 
 - If you need to store results 
 - Building dashboards for analysis 
