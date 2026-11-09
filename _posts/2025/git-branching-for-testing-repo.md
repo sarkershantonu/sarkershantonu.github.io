@@ -1,1 +1,12 @@
 # This is git branching model for testing 
+
+### Branching flow 
+- Main- branch 
+
+- Main - featere/branch 
+- Main - Feature, bug, improvement, release /branch
+- Main-develop - release, bug, improvement /branch 
+- Main-Regression
+- Main-Release-develop 
+
+### Branch Flows 
