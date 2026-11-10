@@ -13,4 +13,10 @@
 
 ### Automation Developer's workflow 
 
-### Reviews Workflow
+### Reviewers' Workflow
+
+### Merging Principles 
+
+### Best Practices for Framework Libraries 
+
+### Best practices for Automation tests 
