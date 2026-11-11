@@ -18,7 +18,8 @@
 ### Merging Principles 
 
 ### Best Practices for Framework Libraries 
-
+- Unit tests (JUnit) & mocking 
 ### Best practices for Automation tests 
 - Naming Conventions()
 - packaging/ folder structure 
+
