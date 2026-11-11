@@ -20,3 +20,5 @@
 ### Best Practices for Framework Libraries 
 
 ### Best practices for Automation tests 
+- Naming Conventions 
+- 
