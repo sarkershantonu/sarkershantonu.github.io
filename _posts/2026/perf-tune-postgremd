@@ -35,3 +35,6 @@ WHERE name IN (
 - https://vladmihalcea.com/postgresql-performance-tuning-settings/
 
 DB connections : https://vladmihalcea.com/maximum-database-connections/ 
+Universal scalibility law : https://www.perfdynamics.com/Manifesto/USLscalability.html
+pool sizing - https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
+
