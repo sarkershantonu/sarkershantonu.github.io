@@ -19,3 +19,4 @@
 - Each layer decision output testing
 - Path elimination evaluation testing 
 - variable decision testing. 
+- Evaluation tracking testing 
