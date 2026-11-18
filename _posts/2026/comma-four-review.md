@@ -24,7 +24,7 @@
 - could not detect Stop Sing
 - Could not detect signal lights
 - Could not adjust speed limit ratio
-- I saw multiple time, camera malfunction error. I assumed this might be cable issue or may be specific to my unit. Only 2 or 3 times in 30+ days. After unplug and plug, it was turned back ok.
+- I saw multiple time, camera malfunction error. I assumed this might be cable issue or may be specific to my unit. Only 2 or 3 times in 30+ days. After unplug and plug, it was turned back ok
 
 ### MPG Observed 
 - 43.7Mpg Lake Saint Louis to Kentucky
@@ -41,6 +41,10 @@
 - Comma made my Rav4 hybrid 4-7% efficient 
 - Overall, i am 70%+ reliable on this in highway and city road with small traffic
 - Very compact design. 
+
+### Tips 
+- keep it on and get habituated 
+- it may be hard on Gas and Brakes, so, if you dont like , you can take controll. I usually take controll on accelerations. 
 
 
 ### My wish list 
