@@ -1,3 +1,4 @@
+This post is about how to patch a linux kernel. 
 
 # Step 1 : Get LTS Kernel Version
 - check latest LTS/Longterm release [here](https://www.kernel.org/). Currently 	6.12.63, we will need this info to get Realtime patches.
